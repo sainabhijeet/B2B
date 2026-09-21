@@ -1,0 +1,9 @@
+{
+  "name": "promo-banner",
+  "label": "Promo Banner",
+  "category": "marketing",
+  "variants": ["dark", "accent", "split", "minimal", "seasonal"],
+  "defaultVariant": "accent",
+  "settings": { "eyebrow": "", "title": "", "description": "", "ctaLabel": "Shop now", "ctaUrl": "#", "theme": "light", "image": "", "dismissible": false, "content": {} },
+  "presets": [{ "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "accent", "label": "Accent", "variant": "accent" }, { "id": "split", "label": "Split", "variant": "split" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }, { "id": "seasonal", "label": "Seasonal", "variant": "seasonal" }]
+}

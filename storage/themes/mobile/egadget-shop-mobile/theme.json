@@ -1,0 +1,50 @@
+{
+  "name": "eGadget Shop Mobile",
+  "version": "2.0.0",
+  "storefrontKey": "egadget-shop-mobile",
+  "industry": "electronics",
+  "description": "A red, white, and light-gray appliance shopping app theme inspired by eGadget product discovery.",
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "grid",
+    "enable_quick_qty": false,
+    "spacing": "regular"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "testimonial-carousel",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["default"],
+      "footer": ["columns"]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "testimonial-carousel",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

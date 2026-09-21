@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketPro",
+        "industryName": "Multi Vendor Ecommerce",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Login", "Blog", "FAQ", "Contact"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Premium marketplace experience",
+        "title": "Sell more with a storefront buyers trust.",
+        "subtitle": "High-conversion product cards, mega menu discovery, rich seller modules, flash deals, and smooth shopping flows.",
+        "image": "assets/img/hero-products.svg",
+        "primaryCta": "Shop Deals",
+        "primaryHref": "/product",
+        "secondaryCta": "Browse Categories",
+        "secondaryHref": "/category"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by Category",
+        "subtitle": "Fast paths into high-demand departments.",
+        "images": [
+          "assets/img/product-phone.svg",
+          "assets/img/product-laptop.svg",
+          "assets/img/product-shoes.svg",
+          "assets/img/product-chair.svg",
+          "assets/img/product-beauty.svg",
+          "assets/img/product-headphones.svg"
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Trending Products",
+        "subtitle": "Premium product cards with ratings, offers, and quick actions.",
+        "images": [
+          "assets/img/product-phone.svg",
+          "assets/img/product-laptop.svg",
+          "assets/img/product-shoes.svg",
+          "assets/img/product-chair.svg",
+          "assets/img/product-bag.svg",
+          "assets/img/product-headphones.svg"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["Categories", "Deals", "Wishlist", "Cart"] },
+          { "heading": "Account", "links": ["Login", "Dashboard", "Orders"] },
+          { "heading": "Seller", "links": ["Seller Dashboard", "Products", "Payouts"] },
+          { "heading": "Support", "links": ["Blog", "FAQ", "Contact"] }
+        ]
+      }
+    }
+  ]
+}

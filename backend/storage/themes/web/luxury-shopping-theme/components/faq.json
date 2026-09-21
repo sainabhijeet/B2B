@@ -1,0 +1,9 @@
+{
+  "name": "faq",
+  "label": "FAQ",
+  "category": "content",
+  "variants": ["accordion", "two-column", "minimal"],
+  "defaultVariant": "accordion",
+  "settings": { "eyebrow": "string", "title": "string", "description": "string", "items": "array", "layout": "string", "allowMultiple": "boolean", "openFirst": "boolean" },
+  "presets": [{ "id": "accordion", "label": "Accordion", "variant": "accordion" }, { "id": "two-column", "label": "Two Column", "variant": "two-column" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }]
+}

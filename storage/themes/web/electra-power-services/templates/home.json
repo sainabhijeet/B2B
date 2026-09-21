@@ -1,0 +1,195 @@
+{
+  "sections": [
+    {
+      "id": "top-strip",
+      "type": "announcement-bar",
+      "settings": {
+        "title": "24/7 emergency electrical support",
+        "subtitle": "theme_content.electra-power-services.f588f211777b",
+        "background": "theme_content.electra-power-services.45119de8d71a"
+      }
+    },
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Electra",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Orders",
+          "theme_content.electra-power-services.c189840cf7e2"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero-electrical.svg",
+        "eyebrow": "theme_content.electra-power-services.5abcef5ce98f",
+        "title": "theme_content.electra-power-services.ffda55155868",
+        "subtitle": "theme_content.electra-power-services.cc25fc9e498f"
+      }
+    },
+    {
+      "id": "trust-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "theme_content.electra-power-services.c29d3081de8a",
+        "subtitle": "theme_content.electra-power-services.37cb217169b5",
+        "background": "theme_content.electra-power-services.978e8c55d129"
+      }
+    },
+    {
+      "id": "about",
+      "type": "image-with-text",
+      "settings": {
+        "image": "assets/images/about-crew.svg",
+        "imagePosition": "right",
+        "title": "theme_content.electra-power-services.10a6e1645c24",
+        "body": "theme_content.electra-power-services.32bd9401253c"
+      }
+    },
+    {
+      "id": "services",
+      "type": "icon-list",
+      "settings": {
+        "items": [
+          {
+            "icon": "⚡",
+            "title": "theme_content.electra-power-services.d3921841a0a1",
+            "text": "theme_content.electra-power-services.fc808d4588d6"
+          },
+          {
+            "icon": "🔌",
+            "title": "theme_content.electra-power-services.1f97a3db904a",
+            "text": "theme_content.electra-power-services.808d49acbfc0"
+          },
+          {
+            "icon": "💡",
+            "title": "theme_content.electra-power-services.fcb6936d64bc",
+            "text": "theme_content.electra-power-services.67e9e681402c"
+          }
+        ],
+        "title": "theme_content.electra-power-services.b8c6630950d5"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {}
+    },
+    {
+      "id": "process",
+      "type": "image-with-text",
+      "settings": {
+        "image": "assets/images/project-process.svg",
+        "imagePosition": "left",
+        "title": "theme_content.electra-power-services.2010df4e5aa5",
+        "body": "theme_content.electra-power-services.0043afcf0ea5"
+      }
+    },
+    {
+      "id": "catalog",
+      "type": "product-grid",
+      "settings": {
+        "title": "theme_content.electra-power-services.e5c008b39076",
+        "subtitle": "theme_content.electra-power-services.a556ec9c2cda"
+      }
+    },
+    {
+      "id": "updates",
+      "type": "blog-preview",
+      "settings": {
+        "posts": [
+          {
+            "title": "theme_content.electra-power-services.14ee5fccf1e8",
+            "excerpt": "theme_content.electra-power-services.449435bce978"
+          },
+          {
+            "title": "theme_content.electra-power-services.f67949dfffcc",
+            "excerpt": "theme_content.electra-power-services.7dbbd1221c9b"
+          },
+          {
+            "title": "theme_content.electra-power-services.2b2c9cd51687",
+            "excerpt": "theme_content.electra-power-services.084a5ed62198"
+          }
+        ],
+        "title": "theme_content.electra-power-services.f2f52b71d7ac"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta-banner",
+      "settings": {
+        "buttonHref": "/product",
+        "title": "theme_content.electra-power-services.c4dd49c176d1",
+        "subtitle": "theme_content.electra-power-services.b82d7fc2d03a",
+        "buttonLabel": "theme_content.electra-power-services.59e87b1bbc3c"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "items": [
+          {
+            "question": "theme_content.electra-power-services.4380ab5a1a7b",
+            "answer": "theme_content.electra-power-services.5574dcc0c49a"
+          },
+          {
+            "question": "theme_content.electra-power-services.315c6fa95245",
+            "answer": "theme_content.electra-power-services.63bba316fe28"
+          },
+          {
+            "question": "theme_content.electra-power-services.937d347c0703",
+            "answer": "theme_content.electra-power-services.74727303abcd"
+          }
+        ],
+        "title": "theme_content.electra-power-services.d4bd0db8e6fe"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "theme_content.electra-power-services.2d689839a5b0",
+        "subtitle": "theme_content.electra-power-services.cb6cb826e7e4"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "theme_content.electra-power-services.d272af108d86",
+              "theme_content.electra-power-services.dfaf45b9a565",
+              "theme_content.electra-power-services.764357ed30cd"
+            ],
+            "heading": "theme_content.electra-power-services.7f79bb97dce5"
+          },
+          {
+            "links": [
+              "Catalog",
+              "Categories",
+              "Cart"
+            ],
+            "heading": "theme_content.electra-power-services.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "theme_content.electra-power-services.a36877416ca2",
+              "theme_content.electra-power-services.e136522c743c",
+              "theme_content.electra-power-services.c2983661b3a4"
+            ],
+            "heading": "theme_content.electra-power-services.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

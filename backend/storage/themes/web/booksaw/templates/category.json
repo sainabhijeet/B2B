@@ -1,0 +1,8 @@
+{
+  "name": "Category",
+  "route": "/category/:id",
+  "sections": [
+    { "type": "category-hero", "source": "src/pages/Category.vue" },
+    { "type": "category-products", "source": "src/components/ProductGrid.vue" }
+  ]
+}

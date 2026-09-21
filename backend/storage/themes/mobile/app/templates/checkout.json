@@ -1,0 +1,10 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Secure checkout", "nav": ["Cart", "Address", "Delivery", "Payment", "Review"] } },
+    { "id": "checkout-address", "type": "checkout-address", "settings": { "title": "Address", "actions": ["Add address", "Edit address", "Delete address", "Default address"] } },
+    { "id": "checkout-shipping", "type": "checkout-shipping", "settings": { "title": "Delivery", "methods": ["Standard delivery", "Express delivery", "Scheduled delivery"] } },
+    { "id": "checkout-payment", "type": "checkout-payment", "settings": { "title": "Payment", "methods": ["UPI", "Credit card", "Debit card", "Net banking", "Wallet", "Cash on delivery"] } },
+    { "id": "checkout-summary", "type": "checkout-summary", "settings": { "title": "Order review", "rows": ["Subtotal", "Shipping", "Taxes", "Total"], "submitLabel": "Place order" } },
+    { "id": "checkout-confirmation", "type": "checkout-confirmation", "settings": { "title": "Order placed successfully", "description": "Confirmation and tracking details are ready for order APIs." } }
+  ]
+}

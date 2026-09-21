@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Support", "nav": ["Help center", "FAQ", "Contact", "Tickets", "Chat"] } },
+    { "id": "support-faq", "type": "faq-section", "settings": { "title": "Help center", "items": ["FAQ", "Contact support", "Create ticket", "Ticket details", "Chat support"] } },
+    { "id": "support-contact", "type": "rich-text", "settings": { "title": "Contact support", "content": "Create tickets, view ticket details, and chat with support." } }
+  ]
+}

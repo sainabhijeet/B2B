@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "id": "settings",
+      "type": "settings-list",
+      "settings": {
+        "title": "Settings",
+        "appInformationTitle": "App Information",
+        "featuresTitle": "Features",
+        "accountTitle": "Account",
+        "items": ["Profile", "Change Password", "Support", "FAQ", "Privacy Policy", "Terms & Conditions", "Delete Account", "Logout"],
+        "readOnlyText": "Controlled by app config"
+      }
+    }
+  ]
+}

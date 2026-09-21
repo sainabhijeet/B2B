@@ -1,0 +1,10 @@
+{
+  "section": "product-grid",
+  "presets": [
+    { "id": "four-column", "label": "Four Column", "variant": "four-column", "settings": { "title": "Featured pieces", "columns": 4, "limit": 12 } },
+    { "id": "three-column", "label": "Three Column", "variant": "three-column", "settings": { "title": "The considered edit", "columns": 3, "limit": 9 } },
+    { "id": "editorial", "label": "Editorial", "variant": "editorial", "settings": { "eyebrow": "OUR EDIT", "title": "Objects worth keeping", "columns": 4 } },
+    { "id": "compact", "label": "Compact", "variant": "compact", "settings": { "title": "Best sellers", "columns": 4, "limit": 16 } },
+    { "id": "airy", "label": "Airy", "variant": "airy", "settings": { "title": "Your wishlist", "columns": 4, "limit": 12 } }
+  ]
+}

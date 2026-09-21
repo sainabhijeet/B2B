@@ -1,0 +1,10 @@
+{
+  "section": "promo-banner",
+  "presets": [
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "The inside track" } },
+    { "id": "accent", "label": "Accent", "variant": "accent", "settings": { "eyebrow": "MEMBER PRIVILEGE", "title": "Early access to the private sale" } },
+    { "id": "split", "label": "Split", "variant": "split", "settings": { "eyebrow": "DESIGNED TO LAST", "title": "Objects with a point of view" } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Complimentary shipping on orders over $150" } },
+    { "id": "seasonal", "label": "Seasonal", "variant": "seasonal", "settings": { "eyebrow": "THE AUTUMN EDIT", "title": "A new season, considered" } }
+  ]
+}

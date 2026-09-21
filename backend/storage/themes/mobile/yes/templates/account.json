@@ -1,0 +1,28 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": false,
+        "showLogo": true,
+        "showCart": true,
+        "showNotification": true,
+        "searchPlaceholder": "localizationTest.search.placeholder"
+      }
+    },
+    {
+      "id": "account",
+      "type": "account-dashboard",
+      "settings": {
+        "compactCards": true,
+        "twoColumnStats": false
+      }
+    },
+    {
+      "id": "bottom-nav",
+      "type": "mobile-bottom-nav",
+      "settings": {}
+    }
+  ]
+}

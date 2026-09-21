@@ -1,0 +1,1 @@
+{"type":"video-banner","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"video":{"type":"url"},"poster":{"type":"image"}},"defaultSettings":{"title":"video.title","video":"","poster":"assets/images/hero-aurora.svg"}}

@@ -1,0 +1,141 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": [
+          "Discover",
+          "Community",
+          "theme_content.zales.115a316c4f47",
+          "theme_content.zales.b4b580a9ad8c"
+        ]
+      }
+    },
+    {
+      "id": "hero-main",
+      "type": "hero-split",
+      "settings": {
+        "imageLeft": "assets/images/hero-woman.png",
+        "imageCenter": "assets/images/hero-woman.png",
+        "imageRight": "assets/images/brand-logos.png",
+        "title": "theme_content.zales.f2c4ec2f50e6",
+        "subtitle": "theme_content.zales.e59ad0bb9d75",
+        "ourStoryTitle": "theme_content.zales.3fb76449c076",
+        "ourStoryText": "theme_content.zales.e14a938fdeff"
+      }
+    },
+    {
+      "id": "stats-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "theme_content.zales.bb0577b42e1c",
+        "subtitle": "theme_content.zales.a4ed7a6ff339",
+        "background": "theme_content.zales.61eb92b53bf6"
+      }
+    },
+    {
+      "id": "arch-feature",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/category-arch.png",
+        "imagePosition": "left",
+        "title": "theme_content.zales.9f9feade761d",
+        "body": "theme_content.zales.6cf9d18df206"
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-grid",
+      "settings": {
+        "image": "assets/images/product-bracelet.png",
+        "title": "theme_content.zales.d8ebcf90bb5f",
+        "subtitle": "theme_content.zales.3b27fb65d8a5"
+      }
+    },
+    {
+      "id": "spotlight-bracelet",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/product-bracelet.png",
+        "imagePosition": "left",
+        "title": "theme_content.zales.2610d71fc11b",
+        "body": "theme_content.zales.e4c019974f47"
+      }
+    },
+    {
+      "id": "spotlight-ring",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/product-ring-coral.png",
+        "imagePosition": "right",
+        "title": "theme_content.zales.886848ed485a",
+        "body": "theme_content.zales.7bf2b48dbda4"
+      }
+    },
+    {
+      "id": "best-collections",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/lifestyle-necklaces.png",
+        "imagePosition": "left",
+        "title": "theme_content.zales.90ab7cf3ad39",
+        "body": "theme_content.zales.b04655b4c541"
+      }
+    },
+    {
+      "id": "lifestyle-hand",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/lifestyle-hand.png",
+        "imagePosition": "right",
+        "title": "theme_content.zales.7d2fed880d31",
+        "body": "theme_content.zales.4912798670ff"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "theme_content.zales.4ea227f97176",
+        "subtitle": "theme_content.zales.c7087439b852"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Rings",
+              "Necklaces",
+              "Bracelets",
+              "Watches"
+            ],
+            "heading": "theme_content.zales.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "theme_content.zales.79ef8a1ce86d",
+              "Contact"
+            ],
+            "heading": "theme_content.zales.be91940b79f4"
+          },
+          {
+            "links": [
+              "About",
+              "Careers",
+              "Press",
+              "Privacy"
+            ],
+            "heading": "theme_content.zales.de4743c87973"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"type":"announcement-bar","editable":true,"settingsSchema":{"text":{"type":"text","translation":true},"action":{"type":"text","translation":true},"dismissible":{"type":"boolean"}},"defaultSettings":{"text":"announcement.text","action":"actions.learn_more","dismissible":true}}

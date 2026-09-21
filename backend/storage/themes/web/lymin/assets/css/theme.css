@@ -1,0 +1,311 @@
+:root {
+  --theme-primary: #0b63ce;
+  --theme-primary-contrast: #ffffff;
+  --theme-secondary: #dbeafe;
+  --theme-surface: #ffffff;
+  --theme-background: #f7f9fc;
+  --theme-text: #06163a;
+  --theme-muted: #53637f;
+  --theme-border: #dbe5f4;
+}
+
+.theme-lymin-tech-mart {
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: Inter, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.theme-lymin-tech-mart header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: linear-gradient(180deg, #10285c 0%, #071637 100%) !important;
+  color: #fff !important;
+  border: 0 !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.theme-lymin-tech-mart header > div {
+  display: grid !important;
+  grid-template-columns: 255px minmax(260px, 1fr) 300px;
+  grid-template-areas:
+    "brand search actions"
+    "nav nav nav";
+  gap: 0 24px;
+  max-width: 1500px !important;
+  padding: 10px 16px 0 !important;
+}
+
+.theme-lymin-tech-mart header a:first-child {
+  grid-area: brand;
+  min-height: 58px;
+  align-items: center;
+  color: #fff !important;
+}
+
+.theme-lymin-tech-mart header a:first-child img {
+  width: 118px;
+  height: auto;
+  max-width: 118px;
+}
+
+.theme-lymin-tech-mart header a:first-child > span {
+  display: grid;
+  gap: 2px;
+}
+
+.theme-lymin-tech-mart header a:first-child > span > span:first-child {
+  display: none;
+}
+
+.theme-lymin-tech-mart header a:first-child > span > span:last-child {
+  max-width: 155px;
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  line-height: 1.25;
+}
+
+.theme-lymin-tech-mart header > div::before {
+  content: "Search for products, brands, and more";
+  grid-area: search;
+  align-self: center;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 56px 0 20px;
+  color: #6b7280;
+  font-size: 13px;
+  background:
+    linear-gradient(90deg, transparent calc(100% - 48px), #0b63ce calc(100% - 48px)),
+    #f8fafc;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .2);
+}
+
+.theme-lymin-tech-mart header > div::after {
+  content: "Cart    Sign in";
+  grid-area: actions;
+  align-self: center;
+  justify-self: start;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  word-spacing: 20px;
+}
+
+.theme-lymin-tech-mart header nav {
+  grid-area: nav;
+  display: grid !important;
+  grid-template-columns: repeat(13, minmax(76px, 1fr));
+  gap: 0 !important;
+  width: 100%;
+  padding-top: 2px;
+  overflow-x: auto;
+  color: #fff !important;
+}
+
+.theme-lymin-tech-mart header nav a {
+  min-height: 62px;
+  display: grid;
+  place-items: center;
+  gap: 4px;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.theme-lymin-tech-mart header nav a::before {
+  content: "□";
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.theme-lymin-tech-mart header nav a:first-child {
+  background: linear-gradient(180deg, rgba(38, 112, 199, .65), rgba(13, 44, 92, .7));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .18);
+}
+
+.theme-lymin-tech-mart header nav > *:last-child {
+  display: none;
+}
+
+.theme-lymin-tech-mart section[data-theme-key] {
+  font-family: Inter, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 22px clamp(16px, 10.5vw, 203px) 18px !important;
+  background-color: #14254b !important;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(255,255,255,.14) 1px, transparent 1px),
+    radial-gradient(circle at 42px 42px, rgba(255,255,255,.08) 1px, transparent 1px),
+    linear-gradient(180deg, #1a2f5c 0%, #14264d 100%) !important;
+  background-size: 58px 58px, 58px 58px, auto !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) > div {
+  display: block !important;
+  max-width: 1500px !important;
+  padding: 0 !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) > div > div:first-child {
+  display: none !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) > div > div:last-child {
+  width: 100% !important;
+}
+
+.theme-lymin-tech-mart img[src*="hero-tech-festive"] {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 260px;
+  max-height: 330px;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 clamp(16px, 10.5vw, 203px) 26px !important;
+  background-color: #14254b !important;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(255,255,255,.14) 1px, transparent 1px),
+    radial-gradient(circle at 42px 42px, rgba(255,255,255,.08) 1px, transparent 1px);
+  background-size: 58px 58px;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) > div {
+  max-width: 1500px !important;
+  padding: 0 !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) h2,
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) p {
+  display: none;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) div.mt-8 {
+  display: grid !important;
+  grid-template-columns: 178px repeat(7, minmax(150px, 1fr)) !important;
+  gap: 12px !important;
+  margin-top: 0 !important;
+  overflow-x: auto;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) div.mt-8::before {
+  content: "In Spotlight\A\A Top picks just for you";
+  white-space: pre-line;
+  min-height: 178px;
+  padding: 22px;
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.45;
+  background:
+    radial-gradient(circle at 50% 80%, rgba(255,255,255,.18) 0 30%, transparent 31%),
+    linear-gradient(135deg, #315dff, #5a79ff);
+  border-radius: 8px;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) article {
+  min-width: 150px;
+  height: 178px;
+  overflow: hidden;
+  background: #eef6ff !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) article img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) article h3,
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) article p {
+  display: none !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) {
+  max-width: 1500px !important;
+  padding-top: 40px !important;
+  padding-bottom: 30px !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) h2 {
+  color: #06163a !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) > p {
+  display: none;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) div.mt-8 {
+  display: grid !important;
+  grid-template-columns: repeat(8, minmax(145px, 1fr)) !important;
+  gap: 12px !important;
+  overflow-x: auto;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) article {
+  min-width: 145px;
+  background: #fff !important;
+  border: 1px solid #dbe5f4 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="product-"]) article img {
+  width: 100% !important;
+  aspect-ratio: 1.35 / 1;
+  object-fit: contain !important;
+  background: #eaf4ff;
+  border-radius: 8px !important;
+}
+
+.theme-lymin-tech-mart footer {
+  background: #071637 !important;
+  color: #d9e7ff !important;
+}
+
+@media (max-width: 900px) {
+  .theme-lymin-tech-mart header > div {
+    grid-template-columns: 1fr;
+    grid-template-areas: "brand" "search" "nav";
+    gap: 8px;
+  }
+
+  .theme-lymin-tech-mart header > div::after {
+    display: none;
+  }
+
+  .theme-lymin-tech-mart header nav {
+    grid-template-columns: repeat(13, 96px);
+  }
+
+  .theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]),
+  .theme-lymin-tech-mart section[data-theme-key]:has(img[src*="spotlight-"]) {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}

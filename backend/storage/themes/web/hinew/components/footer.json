@@ -1,0 +1,7 @@
+{
+  "variants": ["columns"],
+  "defaultVariant": "columns",
+  "settings": {
+    "columns": "array"
+  }
+}

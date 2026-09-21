@@ -1,0 +1,91 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurum",
+        "industryName": "Premium App",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Premium shopping app",
+        "title": "A polished app experience for every collection.",
+        "subtitle": "Luxury product browsing, quick actions, clear categories, and calm purchase flows designed for mobile customers.",
+        "image": "assets/images/hero.svg",
+        "primaryCta": "Shop now",
+        "primaryHref": "/products",
+        "secondaryCta": "Browse categories",
+        "secondaryHref": "/categories"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Browse premium categories",
+        "subtitle": "Mobile-first cards for fast, elegant product discovery.",
+        "images": [
+          "assets/images/category-luxe.svg",
+          "assets/images/category-tech.svg",
+          "assets/images/category-home.svg",
+          "assets/images/category-beauty.svg",
+          "assets/images/category-travel.svg",
+          "assets/images/category-gifting.svg"
+        ]
+      }
+    },
+    {
+      "id": "featured",
+      "type": "product-grid",
+      "settings": {
+        "title": "Featured for you",
+        "subtitle": "Premium products arranged for quick mobile scanning.",
+        "images": [
+          "assets/images/product-watch.svg",
+          "assets/images/product-wallet.svg",
+          "assets/images/product-bag.svg",
+          "assets/images/product-headphones.svg"
+        ]
+      }
+    },
+    {
+      "id": "new",
+      "type": "product-grid",
+      "settings": {
+        "title": "New premium drops",
+        "subtitle": "Fresh arrivals with strong visual hierarchy and confident CTA moments.",
+        "images": [
+          "assets/images/product-serum.svg",
+          "assets/images/product-lamp.svg",
+          "assets/images/product-shoe.svg",
+          "assets/images/product-device.svg"
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "The app feels premium, focused, and easy to buy from.",
+        "author": "Aurum app customers"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["New arrivals", "Best sellers", "Gift edits"] },
+          { "heading": "Support", "links": ["Shipping", "Returns", "Contact"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

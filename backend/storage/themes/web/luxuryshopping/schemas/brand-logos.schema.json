@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "brand-logos",
+  "title": "Brand Logos",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "logos": { "type": "array", "items": { "type": "object" } }, "columns": { "type": "number" }, "grayscale": { "type": "boolean" }, "showLinks": { "type": "boolean" } },
+  "additionalProperties": true
+}

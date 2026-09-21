@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "id": "detail",
+      "type": "order-detail",
+      "settings": {
+        "title": "Order Details",
+        "timelineTitle": "Order Timeline",
+        "timeline": ["Order Placed", "Confirmed", "Processing", "Shipped", "Delivered"],
+        "productsTitle": "Products",
+        "addressTitle": "Delivery Address",
+        "summaryTitle": "Payment Summary",
+        "actions": ["Reorder", "Download Invoice", "Contact Support"]
+      }
+    }
+  ]
+}

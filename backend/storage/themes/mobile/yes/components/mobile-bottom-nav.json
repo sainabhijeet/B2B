@@ -1,0 +1,16 @@
+{
+  "variants": [
+    "fiveTab"
+  ],
+  "defaultVariant": "fiveTab",
+  "settings": {
+    "tabs": [
+      "home",
+      "categories",
+      "wishlist",
+      "cart",
+      "account"
+    ],
+    "showLabels": true
+  }
+}

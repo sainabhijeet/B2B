@@ -1,0 +1,10 @@
+{
+  "section": "rich-text",
+  "presets": [
+    { "id": "centered", "label": "Centered", "variant": "centered", "settings": { "eyebrow": "ATELIER, IN SHORT", "title": "Less, but better.", "align": "center" } },
+    { "id": "editorial", "label": "Editorial", "variant": "editorial", "settings": { "eyebrow": "OUR PHILOSOPHY", "title": "Good design earns its place." } },
+    { "id": "narrow", "label": "Narrow", "variant": "narrow", "settings": { "title": "The beauty of less, done well.", "maxWidth": 560 } },
+    { "id": "story", "label": "Story", "variant": "editorial", "settings": { "eyebrow": "THE ATELIER STORY", "title": "Objects with a point of view." } },
+    { "id": "statement", "label": "Statement", "variant": "centered", "settings": { "title": "Thoughtful design for everyday living." } }
+  ]
+}

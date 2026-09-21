@@ -1,0 +1,24 @@
+{
+  "name": "badge",
+  "label": "Badge / tag",
+  "settings": [
+    {
+      "id": "text",
+      "type": "text",
+      "label": "Label",
+      "placeholder": "New"
+    },
+    {
+      "id": "tone",
+      "type": "select",
+      "label": "Tone",
+      "default": "neutral",
+      "options": [
+        { "value": "neutral", "label": "Neutral" },
+        { "value": "success", "label": "Success" },
+        { "value": "warning", "label": "Warning" },
+        { "value": "sale", "label": "Sale" }
+      ]
+    }
+  ]
+}

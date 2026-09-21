@@ -1,0 +1,1 @@
+{"type":"image","editable":true,"settingsSchema":{"image":{"type":"image","required":true},"alt":{"type":"text","translation":true},"link":{"type":"url"}},"defaultSettings":{"image":"assets/images/hero-aurora.svg","alt":"media.default_alt","link":""}}

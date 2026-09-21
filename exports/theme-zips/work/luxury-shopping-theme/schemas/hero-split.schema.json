@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "hero-split",
+  "title": "Hero Split",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }, "primaryCtaLabel": { "type": "string" }, "primaryCtaUrl": { "type": "string" }, "secondaryCtaLabel": { "type": "string" }, "secondaryCtaUrl": { "type": "string" }, "image": { "type": "string" }, "imagePosition": { "type": "string" }, "overlay": { "type": "boolean" }, "theme": { "type": "string" } },
+  "additionalProperties": true
+}

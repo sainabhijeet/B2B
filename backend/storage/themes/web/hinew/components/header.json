@@ -1,0 +1,9 @@
+{
+  "variants": ["default"],
+  "defaultVariant": "default",
+  "settings": {
+    "logoText": "string",
+    "industryName": "string",
+    "nav": "array"
+  }
+}

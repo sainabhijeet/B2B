@@ -1,0 +1,12 @@
+{
+  "name": "Luxury Shopping Z Index",
+  "layers": {
+    "base": 0,
+    "content": 1,
+    "dropdown": 20,
+    "sticky": 30,
+    "overlay": 40,
+    "modal": 50,
+    "toast": 60
+  }
+}

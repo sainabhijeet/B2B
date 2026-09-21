@@ -1,0 +1,41 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurum",
+        "industryName": "Premium Marketplace",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Premium category edit",
+        "subtitle": "A refined catalog layout for high-value browsing and confident selection.",
+        "images": [
+          "assets/images/product-watch.svg",
+          "assets/images/product-wallet.svg",
+          "assets/images/product-bag.svg",
+          "assets/images/product-headphones.svg",
+          "assets/images/product-serum.svg",
+          "assets/images/product-lamp.svg"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["New arrivals", "Best sellers", "Gift edits"] },
+          { "heading": "Support", "links": ["Shipping", "Returns", "Contact"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

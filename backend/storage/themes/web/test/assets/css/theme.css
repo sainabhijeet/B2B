@@ -1,0 +1,92 @@
+:root {
+  --theme-primary-contrast: #ffffff;
+  --theme-border: #dbe5f4;
+}
+
+.theme-lymin-tech-mart {
+  background: #f7f9fc;
+}
+
+.theme-lymin-tech-mart section[data-theme-key],
+.theme-lymin-tech-mart header,
+.theme-lymin-tech-mart footer {
+  font-family: Inter, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.theme-lymin-tech-mart header {
+  background: linear-gradient(180deg, #10285c 0%, #071637 100%) !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 10px 30px rgba(4, 13, 34, 0.24);
+}
+
+.theme-lymin-tech-mart header a,
+.theme-lymin-tech-mart header button,
+.theme-lymin-tech-mart header span {
+  color: #ffffff !important;
+}
+
+.theme-lymin-tech-mart section[data-theme-key] {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) {
+  max-width: none;
+  padding: 24px clamp(16px, 4vw, 64px) !important;
+  background-color: #132345;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+    radial-gradient(circle at 42px 42px, rgba(80, 214, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(180deg, #172b56 0%, #102041 100%);
+  background-size: 60px 60px, 60px 60px, auto;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) > * {
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.theme-lymin-tech-mart h1,
+.theme-lymin-tech-mart h2,
+.theme-lymin-tech-mart h3 {
+  color: #071637;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) h1,
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) h2,
+.theme-lymin-tech-mart section[data-theme-key]:has(img[src*="hero-tech-festive"]) p {
+  color: #ffffff !important;
+}
+
+.theme-lymin-tech-mart img[src*="hero-tech-festive"] {
+  border-radius: 8px;
+  filter: drop-shadow(0 20px 38px rgba(2, 8, 25, 0.34));
+}
+
+.theme-lymin-tech-mart article,
+.theme-lymin-tech-mart [data-card],
+.theme-lymin-tech-mart li {
+  border-radius: 8px !important;
+}
+
+.theme-lymin-tech-mart article {
+  border-color: #dbe5f4 !important;
+  box-shadow: 0 8px 24px rgba(8, 28, 70, 0.08);
+}
+
+.theme-lymin-tech-mart a[style*="var(--theme-primary)"],
+.theme-lymin-tech-mart button[style*="var(--theme-primary)"] {
+  background: #0b63ce !important;
+  color: #ffffff !important;
+  border-radius: 999px !important;
+}
+
+.theme-lymin-tech-mart footer {
+  background: #071637 !important;
+  color: #d9e7ff !important;
+}

@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "id": "product-header",
+      "type": "header-basic",
+      "settings": {
+        "logoText": "HS FITNESS",
+        "nav": ["Home", "Categories", "Products", "Cart"]
+      }
+    },
+    {
+      "id": "product-detail",
+      "type": "product-detail",
+      "settings": {
+        "title": "HS Fitness Product",
+        "description": "Product information is populated from the selected tenant catalogue item.",
+        "gallery": [
+          "assets/images/product-fallback.svg",
+          "assets/images/fitness-nutrition.svg"
+        ]
+      }
+    },
+    {
+      "id": "related-fitness-products",
+      "type": "related-products",
+      "settings": {
+        "title": "YOU MAY ALSO LIKE",
+        "subtitle": "More products from the HS Fitness catalogue.",
+        "image": "assets/images/product-fallback.svg"
+      }
+    },
+    {
+      "id": "product-footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Supplements", "Equipment", "Activewear"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Contact", "Shipping", "Returns"]
+          },
+          {
+            "heading": "Policies",
+            "links": ["Terms", "Privacy", "Refunds"]
+          }
+        ]
+      }
+    }
+  ]
+}

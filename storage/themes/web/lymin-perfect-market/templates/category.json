@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Lymin",
+        "logoImageUrl": "assets/images/logo-lymin.svg",
+        "nav": [
+          "All",
+          "Grocery",
+          "Fashion",
+          "Electronics",
+          "Home",
+          "Health"
+        ],
+        "industryName": "theme_content.lymin-perfect-market.94b30f4fe359"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/category-hero.svg",
+        "eyebrow": "theme_content.lymin-perfect-market.40cd1f666a87",
+        "title": "theme_content.lymin-perfect-market.26ff1011ea07",
+        "subtitle": "theme_content.lymin-perfect-market.c875854ae8ea"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/spotlight-computers.svg",
+          "assets/images/spotlight-appliances.svg",
+          "assets/images/spotlight-decor.svg",
+          "assets/images/spotlight-care.svg"
+        ],
+        "title": "theme_content.lymin-perfect-market.9ced903f8cb3",
+        "subtitle": "theme_content.lymin-perfect-market.ac8aacf224a4"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-phone.svg",
+          "assets/images/product-laptop.svg",
+          "assets/images/product-cleaning.svg"
+        ],
+        "title": "theme_content.lymin-perfect-market.80e5046ddd39",
+        "subtitle": "theme_content.lymin-perfect-market.b03dae2cee3b"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Electronics",
+              "Grocery",
+              "Home"
+            ],
+            "heading": "theme_content.lymin-perfect-market.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Delivery",
+              "Returns"
+            ],
+            "heading": "theme_content.lymin-perfect-market.b79cac926e0b"
+          }
+        ]
+      }
+    }
+  ]
+}

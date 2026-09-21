@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Wishlist", "nav": ["Home", "Cart", "Account"] } },
+    { "id": "account-wishlist", "type": "account-wishlist", "settings": { "title": "Wishlist products", "actions": ["Remove", "Add to cart"] } },
+    { "id": "wishlist-empty", "type": "rich-text", "settings": { "eyebrow": "Empty wishlist", "title": "Your wishlist is empty", "content": "Save products you love here." } }
+  ]
+}

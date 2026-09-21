@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Payment", "nav": ["Checkout", "Support"] } },
+    { "id": "payment-methods", "type": "checkout-payment", "settings": { "title": "Choose payment method", "methods": ["UPI", "Credit card", "Debit card", "Net banking", "Wallet", "Cash on delivery"] } },
+    { "id": "payment-states", "type": "rich-text", "settings": { "eyebrow": "Payment states", "title": "Processing, success, failed, and retry states", "content": "The payment UI is ready for future payment gateway integration." } }
+  ]
+}

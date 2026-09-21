@@ -1,0 +1,78 @@
+{
+    "name":  "HomeFresh Kitchen Mobile",
+    "version":  "1.0.0",
+    "storefrontKey":  "homefresh-kitchen-mobile",
+    "industry":  "home",
+    "description":  "A clean selling app theme for cookware, storage, and daily home goods.",
+    "mobile":  {
+                   "show_banner":  true,
+                   "card_style":  "rounded",
+                   "base_layout":  "grid",
+                   "enable_quick_qty":  false,
+                   "spacing":  "comfortable"
+               },
+    "allowedSections":  [
+                            "header",
+                            "hero-banner",
+                            "promo-banner",
+                            "offer-strip",
+                            "campaign-banner",
+                            "category-grid",
+                            "product-grid",
+                            "featured-products",
+                            "new-arrivals",
+                            "best-sellers",
+                            "trending-products",
+                            "recommended-products",
+                            "product-gallery",
+                            "product-info",
+                            "image-with-text",
+                            "cta-banner",
+                            "icon-list",
+                            "footer"
+                        ],
+    "capabilities":  {
+                         "variants":  {
+                                          "hero-banner":  [
+                                                              "app"
+                                                          ],
+                                          "footer":  [
+                                                         "bottom-bar"
+                                                     ]
+                                      },
+                         "allowedSections":  [
+                                                 "header",
+                                                 "hero-banner",
+                                                 "promo-banner",
+                                                 "offer-strip",
+                                                 "campaign-banner",
+                                                 "category-grid",
+                                                 "product-grid",
+                                                 "featured-products",
+                                                 "new-arrivals",
+                                                 "best-sellers",
+                                                 "trending-products",
+                                                 "recommended-products",
+                                                 "product-gallery",
+                                                 "product-info",
+                                                 "image-with-text",
+                                                 "cta-banner",
+                                                 "icon-list",
+                                                 "footer"
+                                             ]
+                     },
+    "templates":  {
+                      "category":  "templates/category.json",
+                      "product":  "templates/product.json",
+                      "home":  "templates/home.json"
+                  },
+    "tokens":  {
+                   "typography":  "tokens/typography.json",
+                   "layout":  "tokens/layout.json",
+                   "spacing":  "tokens/spacing.json",
+                   "colors":  "tokens/colors.json"
+               },
+    "assets":  {
+                   "css":  "assets/css/theme.css"
+               }
+}

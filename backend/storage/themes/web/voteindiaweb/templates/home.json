@@ -1,0 +1,177 @@
+{
+  "sections": [
+    {
+      "id": "top-strip",
+      "type": "announcement-bar",
+      "settings": {
+        "title": "24/7 emergency electrical support",
+        "subtitle": "Panels, wiring, lighting, safety checks and industrial maintenance",
+        "background": "linear-gradient(90deg, #07111f, #101d2d)"
+      }
+    },
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Electra",
+        "nav": ["Home", "Categories", "Catalog", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Current electricity services",
+        "title": "Experience the power of professionalism",
+        "subtitle": "Reliable electrical supplies, service packages and contractor-grade support for commercial, residential and industrial projects.",
+        "image": "assets/images/hero-electrical.svg"
+      }
+    },
+    {
+      "id": "trust-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "Licensed support - Fast quotations - Site-ready supplies",
+        "subtitle": "Built for distributors serving electrical contractors, facility teams and project buyers.",
+        "background": "linear-gradient(90deg, #f58216, #ffb13b)"
+      }
+    },
+    {
+      "id": "about",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Providing you with the highest quality electrical features",
+        "body": "Position your store as a professional electrical partner. Showcase service packs, emergency power solutions, panel upgrades, lighting, switchgear and maintenance products with bold contractor-focused visuals.",
+        "image": "assets/images/about-crew.svg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "services",
+      "type": "icon-list",
+      "settings": {
+        "title": "The best service for your electrical buyers",
+        "items": [
+          {
+            "icon": "⚡",
+            "title": "Emergency power solution",
+            "text": "Backup, outage and urgent repair product packs."
+          },
+          {
+            "icon": "🔌",
+            "title": "Panel and wiring supply",
+            "text": "Cables, breakers, panels and installation essentials."
+          },
+          {
+            "icon": "💡",
+            "title": "Lighting upgrades",
+            "text": "Indoor, outdoor, industrial and energy-saving fixtures."
+          }
+        ]
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {}
+    },
+    {
+      "id": "process",
+      "type": "image-with-text",
+      "settings": {
+        "title": "How to work our electricity projects",
+        "body": "Use the storefront to guide buyers from project requirement to catalog selection. Quote the package, confirm load requirements, prepare fulfilment and keep every order traceable from cart to delivery.",
+        "image": "assets/images/project-process.svg",
+        "imagePosition": "left"
+      }
+    },
+    {
+      "id": "catalog",
+      "type": "product-grid",
+      "settings": {
+        "title": "Electricity service offerings",
+        "subtitle": "Live catalogue products appear here with tenant pricing, MOQ and checkout rules."
+      }
+    },
+    {
+      "id": "updates",
+      "type": "blog-preview",
+      "settings": {
+        "title": "Electricity news and updates",
+        "posts": [
+          {
+            "title": "Reducing outage risk before monsoon",
+            "excerpt": "Stock the right protection gear, panels and cable accessories before seasonal demand spikes."
+          },
+          {
+            "title": "Energy-saving lighting packages",
+            "excerpt": "Bundle LED fixtures, drivers and controls for commercial retrofit projects."
+          },
+          {
+            "title": "Industrial panel maintenance",
+            "excerpt": "Keep contactors, breakers and safety labels ready for facility teams."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta-banner",
+      "settings": {
+        "title": "We provide professional electric services for our customers",
+        "subtitle": "Make it easy for contractors and procurement teams to request products, reorder essentials and move faster on site.",
+        "buttonLabel": "Explore catalog",
+        "buttonHref": "/product"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "Common frequently asked questions",
+        "items": [
+          {
+            "question": "Can buyers order project quantities?",
+            "answer": "Yes. Products follow your tenant MOQ, pricing and checkout settings."
+          },
+          {
+            "question": "Can this theme show my selected industry?",
+            "answer": "Yes. The storefront receives the onboarding industry and displays it through branding-aware sections."
+          },
+          {
+            "question": "Is this only for service companies?",
+            "answer": "No. It is designed for electrical distributors selling products, kits and service-oriented packages."
+          }
+        ]
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Get stock and safety updates",
+        "subtitle": "Keep contractors informed about new arrivals, offer packs and maintenance essentials."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Electra",
+            "links": ["Electrical supplies", "Service packages", "Project support"]
+          },
+          {
+            "heading": "Shop",
+            "links": ["Catalog", "Categories", "Cart"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Emergency support", "GST invoices", "Contact distributor"]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "Orders",
+          "theme_content.classic-b2b.c189840cf7e2"
+        ],
+        "logoText": "theme_content.classic-b2b.507cb6baf1b0"
+      }
+    },
+    {
+      "id": "pdp",
+      "type": "product-detail",
+      "settings": {
+        "gallery": [
+          "assets/images/product-box.svg",
+          "assets/images/product-box.svg"
+        ],
+        "title": "theme_content.classic-b2b.37e54a3d7567",
+        "price": "theme_content.classic-b2b.9c035904d57e",
+        "description": "theme_content.classic-b2b.908ee2bb5281"
+      }
+    },
+    {
+      "id": "moq-note",
+      "type": "rich-text",
+      "settings": {
+        "body": "Minimum order quantity is enforced when adding to cart and again at checkout / place order.\n\nGST uses variant rate when set, otherwise the product catalog tax rate — same rules as distributor invoices.",
+        "title": "theme_content.classic-b2b.da1e8d125737"
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "theme_content.classic-b2b.872b16928341"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Catalog",
+              "Cart"
+            ],
+            "heading": "theme_content.classic-b2b.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Orders",
+              "theme_content.classic-b2b.c189840cf7e2"
+            ],
+            "heading": "theme_content.classic-b2b.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "theme_content.classic-b2b.4289291691f0",
+              "Invoices"
+            ],
+            "heading": "theme_content.classic-b2b.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

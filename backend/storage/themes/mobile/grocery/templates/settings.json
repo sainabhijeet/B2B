@@ -1,0 +1,10 @@
+{
+  "layout": "b2b-settings",
+  "sections": [
+    "profile",
+    "business-gst",
+    "address-book",
+    "support",
+    "language"
+  ]
+}

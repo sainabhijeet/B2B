@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketPro",
+        "industryName": "General Commerce",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Login", "Blog", "FAQ", "Contact"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Premium marketplace experience",
+        "title": "Sell more with a storefront buyers trust.",
+        "subtitle": "High-conversion product cards, mega menu discovery, rich seller modules, flash deals, and smooth shopping flows.",
+        "image": "assets/images/hero-products-real.png",
+        "primaryCta": "Shop Deals",
+        "primaryHref": "/product",
+        "secondaryCta": "Browse Categories",
+        "secondaryHref": "/category"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by Category",
+        "subtitle": "Fast paths into high-demand departments.",
+        "images": [
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png"
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Trending Products",
+        "subtitle": "Premium cards with ratings, offers, sellers, and quick actions.",
+        "images": [
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["Categories", "Products", "Wishlist", "Cart"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Dashboard"] },
+          { "heading": "Seller", "links": ["Seller Dashboard", "Products", "Payouts"] },
+          { "heading": "Support", "links": ["Blog", "FAQ", "Contact"] }
+        ]
+      }
+    }
+  ]
+}

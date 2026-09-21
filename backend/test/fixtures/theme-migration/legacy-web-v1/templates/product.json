@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "header", "settings": {} },
+    { "id": "product-detail", "settings": {} },
+    { "id": "footer", "settings": {} }
+  ]
+}

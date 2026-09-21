@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "enterprise.brand.name",
+        "nav": [
+          "nav.cart",
+          "nav.support"
+        ]
+      }
+    },
+    {
+      "id": "checkout",
+      "type": "checkout-summary",
+      "settings": {
+        "title": "checkout.title"
+      }
+    }
+  ]
+}

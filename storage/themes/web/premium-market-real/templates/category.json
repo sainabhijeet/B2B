@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketPro",
+        "industryName": "Categories",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Wishlist",
+          "Cart",
+          "Blog",
+          "FAQ",
+          "Contact"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/category-products-real.png",
+        "eyebrow": "theme_content.premium-market-real.8e1a7c0febe6",
+        "title": "theme_content.premium-market-real.8bef96a01c46",
+        "subtitle": "theme_content.premium-market-real.828e09f30f06"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png"
+        ],
+        "title": "theme_content.premium-market-real.9ced903f8cb3",
+        "subtitle": "theme_content.premium-market-real.27ed0e7bbbd6"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png"
+        ],
+        "title": "theme_content.premium-market-real.7c8f5ba21b6b",
+        "subtitle": "theme_content.premium-market-real.b03dae2cee3b"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Categories",
+              "Products"
+            ],
+            "heading": "theme_content.premium-market-real.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "FAQ",
+              "Contact"
+            ],
+            "heading": "theme_content.premium-market-real.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

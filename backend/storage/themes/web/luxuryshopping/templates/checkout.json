@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header-basic", "settings": { "logoText": "ATELIER", "showSecureMessage": true, "showBackToCart": true } },
+    { "id": "checkout-summary", "type": "checkout-summary", "settings": { "title": "Complete your order", "showOrderItems": true, "showContact": true, "showShipping": true, "showPayment": true, "showTrustMarks": true, "trustMessage": "Secure checkout · Complimentary returns" } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "minimal", "settings": { "logoText": "ATELIER", "tagline": "", "showNewsletter": false, "columns": [], "socialLinks": [], "copyright": "© 2026 Atelier Commerce. Secure checkout." } }
+  ]
+}

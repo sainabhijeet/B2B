@@ -1,0 +1,1 @@
+{"type":"feature-banner","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"textarea","translation":true},"image":{"type":"image"}},"defaultSettings":{"title":"home.feature.title","body":"home.feature.body","image":"assets/images/lifestyle-team.svg"}}

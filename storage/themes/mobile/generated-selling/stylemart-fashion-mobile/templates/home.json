@@ -1,0 +1,88 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Cart",
+                                                      "Orders"
+                                                  ],
+                                          "logoText":  "StyleMart"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Fashion drops made mobile-first.",
+                                          "primaryCta":  "Explore looks",
+                                          "subtitle":  "A visual selling theme for apparel, footwear, and seasonal edits.",
+                                          "image":  "assets/images/hero.png"
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-01.png",
+                                                         "assets/images/category-02.png",
+                                                         "assets/images/category-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Shop by style",
+                                          "subtitle":  "Quick paths for mobile buyers."
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "new-arrivals",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "New arrivals",
+                                          "subtitle":  "Demo visuals are included; tenant products render from catalog data."
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "campaign-banner",
+                         "settings":  {
+                                          "subtitle":  "Optimized for mobile selling, repeat carts, and fast checkout.",
+                                          "title":  "Seasonal styles with clean product cards"
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Lookbook-led commerce",
+                                          "body":  "Big visuals and editorial cards make mobile fashion browsing feel premium.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.png"
+                                      }
+                     },
+                     {
+                         "variant":  "bottom-bar",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "items":  [
+                                                        "Home",
+                                                        "Cart",
+                                                        "Orders",
+                                                        "Credit",
+                                                        "Settings",
+                                                        "Auth"
+                                                    ]
+                                      }
+                     }
+                 ]
+}

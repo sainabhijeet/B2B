@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"faq","type":"faq","settings":{"title":"faq.title","body":"faq.body"}},{"id":"cta","type":"cta","settings":{"title":"faq.cta"}},{"id":"footer","type":"footer"}]}

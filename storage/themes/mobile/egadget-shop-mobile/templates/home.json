@@ -1,0 +1,87 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "eGadget",
+        "industryName": "Appliances",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Home appliances made easy",
+        "title": "Designed to fit. Beautiful to use.",
+        "subtitle": "Shop cooking, refrigeration, laundry, smart appliances, cookware, and vacuums with a clean product-first experience.",
+        "image": "assets/images/hero.svg"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by category",
+        "subtitle": "Fast paths into everyday appliance needs.",
+        "images": [
+          "assets/images/category-cooking.svg",
+          "assets/images/category-refrigeration.svg",
+          "assets/images/category-laundry.svg",
+          "assets/images/category-smart.svg",
+          "assets/images/category-cookware.svg",
+          "assets/images/category-vacuums.svg"
+        ]
+      }
+    },
+    {
+      "id": "recommendations",
+      "type": "product-grid",
+      "settings": {
+        "title": "Today's recommendations for you",
+        "subtitle": "Compact cards for daily electronics and home appliance picks.",
+        "images": [
+          "assets/images/product-toaster.svg",
+          "assets/images/product-vacuum.svg",
+          "assets/images/product-coffee.svg",
+          "assets/images/product-handvac.svg"
+        ]
+      }
+    },
+    {
+      "id": "popular",
+      "type": "product-grid",
+      "settings": {
+        "title": "Recent popular products",
+        "subtitle": "Large appliance tiles with quick scanning and clear pricing.",
+        "images": [
+          "assets/images/product-fridge.svg",
+          "assets/images/product-microwave.svg",
+          "assets/images/product-oven.svg",
+          "assets/images/product-washer.svg"
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "The appliance catalog feels fast, clean, and easy for repeat buyers.",
+        "author": "eGadget customers"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["Cooking", "Refrigeration", "Laundry", "Smart appliances"] },
+          { "heading": "Support", "links": ["Warranty", "Shipping", "Returns"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Catalog",
+                                                      "Cart",
+                                                      "Login"
+                                                  ],
+                                          "logoText":  "Urban Loft"
+                                      }
+                     },
+                     {
+                         "id":  "gallery",
+                         "type":  "product-gallery",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Product gallery"
+                                      }
+                     },
+                     {
+                         "id":  "info",
+                         "type":  "product-info",
+                         "settings":  {
+                                          "subtitle":  "Dimensions, materials, variants, pricing, and checkout actions render from catalog data.",
+                                          "title":  "Furniture detail"
+                                      }
+                     },
+                     {
+                         "id":  "story",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Made for room planning",
+                                          "body":  "Use rich imagery and direct product information to help buyers decide quickly.",
+                                          "imagePosition":  "left",
+                                          "image":  "assets/images/detail.svg"
+                                      }
+                     },
+                     {
+                         "id":  "related",
+                         "type":  "related-products",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Pairs well with",
+                                          "subtitle":  "Related furniture lines for the same room."
+                                      }
+                     },
+                     {
+                         "id":  "faq",
+                         "type":  "faq-section",
+                         "settings":  {
+                                          "items":  [
+                                                        {
+                                                            "question":  "Can buyers order variants?",
+                                                            "answer":  "Yes, product variants and pricing come from tenant catalog data."
+                                                        },
+                                                        {
+                                                            "question":  "Can this support bulk orders?",
+                                                            "answer":  "Yes, it is designed for distributor-led ecommerce flows."
+                                                        }
+                                                    ],
+                                          "title":  "Furniture buying notes"
+                                      }
+                     },
+                     {
+                         "variant":  "columns",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "columns":  [
+                                                          {
+                                                              "heading":  "Product",
+                                                              "links":  [
+                                                                            "Details",
+                                                                            "Related",
+                                                                            "Cart"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Support",
+                                                              "links":  [
+                                                                            "Warranty",
+                                                                            "Shipping",
+                                                                            "Contact"
+                                                                        ]
+                                                          }
+                                                      ]
+                                      }
+                     }
+                 ]
+}

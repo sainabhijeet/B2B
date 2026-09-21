@@ -1,0 +1,28 @@
+{
+  "app_bar": {
+    "height": 64,
+    "style": "search-first",
+    "show_credit_badge": true
+  },
+  "product_card": {
+    "radius": 8,
+    "show_moq": true,
+    "show_gst": true,
+    "show_tier_pricing": true,
+    "quick_add": true
+  },
+  "category_card": {
+    "radius": 8,
+    "image_ratio": "1:1",
+    "columns": 4
+  },
+  "banner": {
+    "radius": 8,
+    "aspect_ratio": "21:9"
+  },
+  "buttons": {
+    "radius": 8,
+    "filled": "primary",
+    "tonal": "primary_container"
+  }
+}

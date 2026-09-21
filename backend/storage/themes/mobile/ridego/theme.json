@@ -1,0 +1,46 @@
+{
+  "name": "RideGo Commerce",
+  "version": "1.0",
+  "storefrontKey": "ridego-commerce",
+  "description": "A crisp B2B storefront theme for distributor-led ordering, quick catalogs, and retailer OTP checkout.",
+  "capabilities": {
+    "allowed_sections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "category-banner",
+      "filter-sidebar",
+      "product-grid",
+      "product-detail",
+      "related-products",
+      "feature-grid",
+      "trust-badges",
+      "image-text",
+      "newsletter",
+      "footer-columns"
+    ],
+    "variants": {
+      "hero-banner": ["split-action", "route-card"],
+      "product-grid": ["dense-catalog", "featured"],
+      "category-grid": ["tiles", "strip"]
+    }
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  }
+}

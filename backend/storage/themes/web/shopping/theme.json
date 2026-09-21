@@ -1,0 +1,30 @@
+{
+  "name": "Modern Shopping Theme",
+  "version": "2.0.0",
+  "storefrontKey": "shopping",
+  "platform": "web",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "allowedSections": [
+    "header-mega-menu",
+    "hero-slider",
+    "category-grid",
+    "product-grid",
+    "collection-grid",
+    "promo-banner",
+    "countdown-offer",
+    "newsletter",
+    "product-detail",
+    "related-products",
+    "footer-columns"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "category-grid",
+  "label": "Category Grid",
+  "category": "categories",
+  "variants": ["tiles", "circles", "editorial", "minimal"],
+  "defaultVariant": "tiles",
+  "settings": { "eyebrow": "", "title": "", "description": "", "columns": 4, "showCount": false, "categories": [], "cardStyle": "image" },
+  "presets": [{ "id": "tiles", "label": "Image Tiles", "variant": "tiles" }, { "id": "circles", "label": "Circles", "variant": "circles" }, { "id": "editorial", "label": "Editorial", "variant": "editorial" }]
+}

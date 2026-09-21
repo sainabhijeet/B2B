@@ -1,0 +1,9 @@
+{
+  "name": "product-grid",
+  "label": "Product Grid",
+  "category": "products",
+  "variants": ["four-column", "three-column", "editorial", "compact", "airy"],
+  "defaultVariant": "four-column",
+  "settings": { "eyebrow": "string", "title": "string", "description": "string", "collection": "string", "columns": "number", "limit": "number", "showFilters": "boolean", "showSort": "boolean", "showQuickAdd": "boolean", "showRatings": "boolean", "pagination": "string", "productFields": "array" },
+  "presets": [{ "id": "four-column", "label": "Four Column", "variant": "four-column" }, { "id": "three-column", "label": "Three Column", "variant": "three-column" }, { "id": "editorial", "label": "Editorial", "variant": "editorial" }]
+}

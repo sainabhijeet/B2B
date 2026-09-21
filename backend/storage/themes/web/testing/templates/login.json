@@ -1,0 +1,7 @@
+{
+  "name": "Login",
+  "route": "/login",
+  "sections": [
+    { "type": "auth-form", "source": "src/components/AuthShell.vue", "settings": { "mode": "login" } }
+  ]
+}

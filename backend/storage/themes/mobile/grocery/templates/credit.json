@@ -1,0 +1,8 @@
+{
+  "layout": "b2b-credit",
+  "sections": [
+    "credit-limit",
+    "ledger",
+    "payment-settings"
+  ]
+}

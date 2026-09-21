@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" role="img" aria-labelledby="title">
+  <title id="title">Fitness category background</title>
+  <rect width="1000" height="650" rx="40" fill="#e2e8f0"/>
+  <path d="M0 500 310 160l210 230 130-140 350 400H0z" fill="#94a3b8"/>
+  <path d="M0 570 330 260l170 190 140-115 360 315H0z" fill="#475569"/>
+  <circle cx="805" cy="135" r="72" fill="#f59e0b"/>
+  <text x="60" y="105" fill="#111827" font-family="Arial, sans-serif" font-size="58" font-weight="800">EXPLORE FITNESS</text>
+</svg>

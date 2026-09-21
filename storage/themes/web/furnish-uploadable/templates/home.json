@@ -1,0 +1,150 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Furnish",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Cart",
+          "theme_content.furnish-uploadable.c189840cf7e2"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "variant": "split-action",
+        "image": "assets/images/slider-img-1.png",
+        "title": "theme_content.furnish-uploadable.ed0bf4f9d1ae",
+        "subtitle": "theme_content.furnish-uploadable.68837190e6fb",
+        "primaryCta": "theme_content.furnish-uploadable.0b01e69b2a20",
+        "secondaryCta": "theme_content.furnish-uploadable.db313999821e"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "theme_content.furnish-uploadable.cda32f9a640f",
+        "subtitle": "theme_content.furnish-uploadable.d8fcb0242051"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-img-1.jpg",
+          "assets/images/product-img-2.jpg",
+          "assets/images/product-img-3.jpg",
+          "assets/images/couch-with-cushions-glass-table.jpg"
+        ],
+        "title": "theme_content.furnish-uploadable.230e49413941",
+        "subtitle": "theme_content.furnish-uploadable.02ee4260a19b"
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-grid",
+      "settings": {
+        "variant": "featured",
+        "images": [
+          "assets/images/product-img-1.jpg",
+          "assets/images/product-img-2.jpg",
+          "assets/images/product-img-3.jpg",
+          "assets/images/couch-with-cushions-glass-table.jpg"
+        ],
+        "title": "theme_content.furnish-uploadable.a163b81b030b",
+        "subtitle": "theme_content.furnish-uploadable.ea904cd42fd3"
+      }
+    },
+    {
+      "id": "story",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/couch-with-cushions-glass-table.jpg",
+        "imagePosition": "right",
+        "title": "theme_content.furnish-uploadable.0eeef6cf8350",
+        "body": "theme_content.furnish-uploadable.b8cab2f8f498"
+      }
+    },
+    {
+      "id": "features",
+      "type": "feature-grid",
+      "settings": {
+        "items": [
+          {
+            "title": "theme_content.furnish-uploadable.f5e08607879f",
+            "text": "theme_content.furnish-uploadable.102aaa80b993"
+          },
+          {
+            "title": "theme_content.furnish-uploadable.2ea5d3dba1c2",
+            "text": "theme_content.furnish-uploadable.447832a284b0"
+          },
+          {
+            "title": "theme_content.furnish-uploadable.4050cb7f9ee6",
+            "text": "theme_content.furnish-uploadable.2010a941faf8"
+          }
+        ],
+        "title": "theme_content.furnish-uploadable.06d52c85975e"
+      }
+    },
+    {
+      "id": "trust",
+      "type": "trust-badges",
+      "settings": {
+        "items": [
+          "theme_content.furnish-uploadable.39d084d4a51f",
+          "theme_content.furnish-uploadable.279d4fce832e",
+          "theme_content.furnish-uploadable.f711eb1af67b",
+          "theme_content.furnish-uploadable.4c6bdbccdfcb"
+        ]
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "theme_content.furnish-uploadable.d58331d43493",
+        "subtitle": "theme_content.furnish-uploadable.2863a4668b7d"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Products",
+              "Categories",
+              "Offers"
+            ],
+            "heading": "theme_content.furnish-uploadable.3877d14889a9"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.furnish-uploadable.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Contact",
+              "Shipping",
+              "Returns"
+            ],
+            "heading": "theme_content.furnish-uploadable.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "radius": 14,
+  "cardRadius": 16,
+  "buttonHeight": 48,
+  "inputHeight": 46,
+  "iconSize": 24,
+  "shadow": "soft",
+  "maxContentWidth": 430
+}

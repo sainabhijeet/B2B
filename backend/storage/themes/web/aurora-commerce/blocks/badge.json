@@ -1,0 +1,1 @@
+{"type":"badge","editable":true,"settingsSchema":{"label":{"type":"text","translation":true},"tone":{"type":"select","options":["info","success","warning"]}},"defaultSettings":{"label":"product.featured","tone":"info"}}

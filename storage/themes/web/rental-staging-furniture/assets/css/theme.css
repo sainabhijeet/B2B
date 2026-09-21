@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #475569;
+  --theme-secondary: #f97316;
+  --theme-surface: #f3f4f6;
+}
+.theme-rental-staging-furniture {
+  background: #f3f4f6;
+  color: #111827;
+}
+.theme-rental-staging-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-rental-staging-furniture img {
+  object-fit: cover;
+}

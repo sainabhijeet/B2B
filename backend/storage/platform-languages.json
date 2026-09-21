@@ -1,0 +1,66 @@
+[
+  {
+    "id": "lang-en",
+    "name": "English",
+    "code": "en",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": true
+  },
+  {
+    "id": "lang-hi",
+    "name": "Hindi",
+    "code": "hi",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-fr",
+    "name": "French",
+    "code": "fr",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-es",
+    "name": "Spanish",
+    "code": "es",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-ar",
+    "name": "Arabic",
+    "code": "ar",
+    "direction": "rtl",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-de",
+    "name": "German",
+    "code": "de",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-zh",
+    "name": "Chinese",
+    "code": "zh",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  },
+  {
+    "id": "lang-gu",
+    "name": "Gujarati",
+    "code": "gu",
+    "direction": "ltr",
+    "status": "active",
+    "isDefault": false
+  }
+]

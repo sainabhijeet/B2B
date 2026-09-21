@@ -1,0 +1,48 @@
+{
+  "sections": [
+    {
+      "id": "category-header",
+      "type": "header-basic",
+      "settings": {
+        "logoText": "SARAB",
+        "nav": ["Home", "Categories", "Menu", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "category-banner",
+      "type": "blog-grid",
+      "settings": {
+        "title": "Find your favourite",
+        "subtitle": "Browse freshly prepared dishes and restaurant specials.",
+        "image": "assets/images/category.jpg"
+      }
+    },
+    {
+      "id": "category-filter",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Refine menu"
+      }
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Menu items",
+        "subtitle": "Available products from the live catalogue.",
+        "image": "assets/images/product.jpg"
+      }
+    },
+    {
+      "id": "category-footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {"heading": "Menu", "links": ["Meals", "Sides", "Beverages"]},
+          {"heading": "Service", "links": ["Delivery", "Contact", "Support"]},
+          {"heading": "Legal", "links": ["Terms", "Privacy", "Refunds"]}
+        ]
+      }
+    }
+  ]
+}

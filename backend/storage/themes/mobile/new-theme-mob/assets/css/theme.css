@@ -1,0 +1,44 @@
+.theme-sarab {
+  background: var(--page-background);
+  color: var(--text-primary);
+}
+
+.theme-sarab h1,
+.theme-sarab h2,
+.theme-sarab h3 {
+  color: var(--text-primary);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+}
+
+.theme-sarab header {
+  border-bottom: 2px solid color-mix(in srgb, var(--brand-primary) 30%, transparent);
+}
+
+.theme-sarab header a:first-child span {
+  color: var(--brand-primary);
+  font-family: var(--font-heading, Georgia, "Times New Roman", serif);
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.theme-sarab .theme-section-root article {
+  border-radius: var(--radius-card, 18px);
+}
+
+.theme-sarab .theme-section-root article:hover {
+  box-shadow: var(--shadow-hover, 0 18px 45px rgba(45, 0, 0, 0.16));
+}
+
+.theme-sarab button,
+.theme-sarab input[type="submit"],
+.theme-sarab .theme-button-primary {
+  border-radius: var(--radius-button, 9999px);
+}
+
+.theme-sarab a:focus-visible,
+.theme-sarab button:focus-visible,
+.theme-sarab input:focus-visible {
+  outline: 3px solid var(--brand-accent);
+  outline-offset: 3px;
+}

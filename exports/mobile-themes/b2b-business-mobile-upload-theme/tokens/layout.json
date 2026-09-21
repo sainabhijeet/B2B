@@ -1,0 +1,8 @@
+{
+  "cardRadius": 16,
+  "buttonRadius": 12,
+  "bottomNavHeight": 72,
+  "mobileMaxWidth": 480,
+  "gridColumns": 2,
+  "safeArea": true
+}

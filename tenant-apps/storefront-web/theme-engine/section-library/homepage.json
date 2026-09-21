@@ -1,0 +1,20 @@
+{
+  "id": "homepage",
+  "name": "Standard Homepage",
+  "description": "Hero, categories, products, promo, testimonial",
+  "sections": [
+    {
+      "type": "hero-banner",
+      "variant": "center",
+      "blocks": [
+        { "type": "heading", "settings": { "text": "Welcome", "level": "1" } },
+        { "type": "text", "settings": { "body": "Browse our B2B catalogue." } },
+        { "type": "button", "settings": { "text": "Shop now", "url": "#" } }
+      ]
+    },
+    { "type": "category-grid" },
+    { "type": "product-grid", "variant": "default" },
+    { "type": "promo-banner" },
+    { "type": "testimonial" }
+  ]
+}

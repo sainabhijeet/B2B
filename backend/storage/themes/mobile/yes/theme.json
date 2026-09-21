@@ -1,0 +1,96 @@
+{
+  "name": "localizationTest.mobileTheme.name",
+  "version": "1.0.0-mobile",
+  "storefrontKey": "localization-mobile-app-theme",
+  "platform": "mobile-app",
+  "baseTheme": "localization-e2e-test",
+  "description": "Mobile-first conversion of the supplied ecommerce theme.",
+  "design": {
+    "primary": "#2563EB",
+    "accent": "#14B8A6",
+    "surface": "#FFFFFF",
+    "softSurface": "#F4F7FB",
+    "text": "#172033",
+    "mutedText": "#667085",
+    "border": "#D9E3F0",
+    "radius": {
+      "small": 10,
+      "medium": 16,
+      "large": 22
+    },
+    "productGridColumns": 2,
+    "navigation": "bottom-tabs"
+  },
+  "capabilities": {
+    "mobileFirst": true,
+    "safeArea": true,
+    "rtl": true,
+    "darkMode": false,
+    "dynamicSettings": true,
+    "localization": true
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "id": "home",
+        "label": "localizationTest.nav.home"
+      },
+      {
+        "id": "categories",
+        "label": "localizationTest.nav.categories"
+      },
+      {
+        "id": "wishlist",
+        "label": "localizationTest.nav.wishlist"
+      },
+      {
+        "id": "cart",
+        "label": "localizationTest.nav.cart"
+      },
+      {
+        "id": "account",
+        "label": "localizationTest.nav.account"
+      }
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "account": "templates/account.json",
+    "search": "templates/search.json",
+    "wishlist": "templates/wishlist.json"
+  },
+  "components": {
+    "app-shell": "components/app-shell.json",
+    "mobile-header": "components/mobile-header.json",
+    "hero-carousel": "components/hero-carousel.json",
+    "horizontal-categories": "components/horizontal-categories.json",
+    "mobile-product-grid": "components/mobile-product-grid.json",
+    "mobile-bottom-nav": "components/mobile-bottom-nav.json",
+    "sticky-checkout-bar": "components/sticky-checkout-bar.json"
+  },
+  "locales": {
+    "hi": "locales/hi.json",
+    "ar": "locales/ar.json",
+    "gu": "locales/gu.json",
+    "ja": "locales/ja.json",
+    "zh": "locales/zh.json",
+    "ur": "locales/ur.json",
+    "fr": "locales/fr.json",
+    "en": "locales/en.json",
+    "es": "locales/es.json",
+    "ru": "locales/ru.json",
+    "de": "locales/de.json"
+  },
+  "assets": {
+    "css": "assets/css/mobile-theme.css"
+  },
+  "notes": [
+    "This package is a mobile-first theme definition converted from the supplied ecommerce theme.",
+    "It preserves the supplied localization keys and locale files.",
+    "It is intended to be consumed by a mobile app/theme engine; it is not a compiled APK."
+  ]
+}

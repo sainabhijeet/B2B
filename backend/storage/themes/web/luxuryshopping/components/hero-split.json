@@ -1,0 +1,9 @@
+{
+  "name": "hero-split",
+  "label": "Hero Split",
+  "category": "hero",
+  "variants": ["editorial-dark", "image-right", "image-left", "minimal", "commerce"],
+  "defaultVariant": "editorial-dark",
+  "settings": { "eyebrow": "string", "title": "string", "description": "string", "primaryCtaLabel": "string", "primaryCtaUrl": "string", "secondaryCtaLabel": "string", "secondaryCtaUrl": "string", "image": "image", "imagePosition": "string", "overlay": "boolean", "theme": "string", "media": "object" },
+  "presets": [{ "id": "editorial-dark", "label": "Editorial Dark", "variant": "editorial-dark" }, { "id": "image-right", "label": "Image Right", "variant": "image-right" }, { "id": "image-left", "label": "Image Left", "variant": "image-left" }]
+}

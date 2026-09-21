@@ -1,0 +1,34 @@
+[
+  {
+    "id": "banner-monthly-staples",
+    "title": "Monthly Staples",
+    "subtitle": "Bulk rates on atta, rice, dal and oil",
+    "image_url": "assets/banners/monthly-staples.svg",
+    "target": "/categories/grocery-staples",
+    "sort_order": 1
+  },
+  {
+    "id": "banner-beverage-rush",
+    "title": "Beverage Rush",
+    "subtitle": "Cold drink cases for stores and HoReCa",
+    "image_url": "assets/banners/beverage-rush.svg",
+    "target": "/categories/beverages",
+    "sort_order": 2
+  },
+  {
+    "id": "banner-cleaning-deals",
+    "title": "Cleaning Deals",
+    "subtitle": "Detergent and dishwash wholesale packs",
+    "image_url": "assets/banners/cleaning-deals.svg",
+    "target": "/categories/cleaning",
+    "sort_order": 3
+  },
+  {
+    "id": "banner-fmcg-brands",
+    "title": "FMCG Brands",
+    "subtitle": "Trusted national brands with GST billing",
+    "image_url": "assets/banners/fmcg-brands.svg",
+    "target": "/brands",
+    "sort_order": 4
+  }
+]

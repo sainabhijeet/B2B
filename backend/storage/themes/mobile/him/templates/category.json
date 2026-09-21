@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {
+      "id": "category-header",
+      "type": "header-basic",
+      "settings": {
+        "logoText": "HS FITNESS",
+        "nav": ["Home", "Categories", "Products", "Cart"]
+      }
+    },
+    {
+      "id": "category-offer",
+      "type": "promo-banner",
+      "settings": {
+        "title": "GEAR UP. LEVEL UP.",
+        "subtitle": "Explore products selected from your live tenant catalogue.",
+        "background": "linear-gradient(90deg, #0f172a, #b91c1c)"
+      }
+    },
+    {
+      "id": "category-filter",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Filter products"
+      }
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "CATEGORY PRODUCTS",
+        "subtitle": "Browse fitness products available in this category.",
+        "image": "assets/images/product-fallback.svg"
+      }
+    },
+    {
+      "id": "category-footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Supplements", "Equipment", "Activewear"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Contact", "Shipping", "Returns"]
+          },
+          {
+            "heading": "Account",
+            "links": ["Login", "Orders", "Cart"]
+          }
+        ]
+      }
+    }
+  ]
+}

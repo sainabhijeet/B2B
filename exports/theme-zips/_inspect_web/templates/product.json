@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "header", "type": "header", "settings": { "logoText": "eGadget", "industryName": "Appliances", "nav": ["Home", "Catalog", "Cart"] } },
+    { "id": "related", "type": "product-grid", "settings": { "title": "You may also like", "subtitle": "Related appliance recommendations.", "images": ["assets/images/product-toaster.svg", "assets/images/product-vacuum.svg", "assets/images/product-coffee.svg"] } },
+    { "id": "footer", "type": "footer", "variant": "columns", "settings": { "columns": [{ "heading": "Support", "links": ["Warranty", "Delivery", "Returns"] }] } }
+  ]
+}

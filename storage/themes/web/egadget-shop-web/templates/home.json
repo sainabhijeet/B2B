@@ -1,0 +1,115 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "eGadget",
+        "industryName": "Appliances",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "theme_content.egadget-shop-web.c189840cf7e2"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero.svg",
+        "eyebrow": "theme_content.egadget-shop-web.21b88f1294da",
+        "title": "theme_content.egadget-shop-web.9629405bcc68",
+        "subtitle": "theme_content.egadget-shop-web.0352f172bef8"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-cooking.svg",
+          "assets/images/category-refrigeration.svg",
+          "assets/images/category-laundry.svg",
+          "assets/images/category-smart.svg",
+          "assets/images/category-cookware.svg",
+          "assets/images/category-vacuums.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.a9dbe2a0f2ab",
+        "subtitle": "theme_content.egadget-shop-web.49488a79bc40"
+      }
+    },
+    {
+      "id": "recommendations",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-toaster.svg",
+          "assets/images/product-vacuum.svg",
+          "assets/images/product-coffee.svg",
+          "assets/images/product-handvac.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.6c43c1d28ab2",
+        "subtitle": "theme_content.egadget-shop-web.85e404396f03"
+      }
+    },
+    {
+      "id": "popular",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-fridge.svg",
+          "assets/images/product-microwave.svg",
+          "assets/images/product-oven.svg",
+          "assets/images/product-washer.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.41e44e6f174f",
+        "subtitle": "theme_content.egadget-shop-web.2e09bfce9567"
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "theme_content.egadget-shop-web.4d7d95ce1a69",
+        "author": "theme_content.egadget-shop-web.b1a70c020994"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Cooking",
+              "Refrigeration",
+              "Laundry",
+              "theme_content.egadget-shop-web.cec57bbdd7fc"
+            ],
+            "heading": "theme_content.egadget-shop-web.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Warranty",
+              "Shipping",
+              "Returns"
+            ],
+            "heading": "theme_content.egadget-shop-web.be91940b79f4"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.egadget-shop-web.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

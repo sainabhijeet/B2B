@@ -1,0 +1,7 @@
+{
+  "name": "Order History",
+  "route": "/orders",
+  "sections": [
+    { "type": "order-history", "source": "src/pages/OrderHistory.vue" }
+  ]
+}

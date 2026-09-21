@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #1f2937;
+  --theme-secondary: #c9a45c;
+  --theme-surface: #f7f1ec;
+}
+.theme-luxe-living-furniture {
+  background: #f7f1ec;
+  color: #111827;
+}
+.theme-luxe-living-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-luxe-living-furniture img {
+  object-fit: cover;
+}

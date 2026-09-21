@@ -1,0 +1,10 @@
+{
+  "section": "footer-columns",
+  "presets": [
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living." } },
+    { "id": "light", "label": "Light", "variant": "light", "settings": { "logoText": "ATELIER", "tagline": "Objects worth keeping." } },
+    { "id": "compact", "label": "Compact", "variant": "compact", "settings": { "logoText": "ATELIER", "showNewsletter": false } },
+    { "id": "editorial", "label": "Editorial", "variant": "editorial", "settings": { "logoText": "ATELIER", "tagline": "A marketplace for a life well considered." } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "logoText": "ATELIER", "columns": [] } }
+  ]
+}

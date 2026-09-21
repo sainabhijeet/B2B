@@ -1,0 +1,104 @@
+{
+  "sections": [
+    {
+      "id": "hero_banners-1",
+      "type": "hero_banners",
+      "settings": {
+        "title": "Wholesale Grocery Deals",
+        "subtitle": "Bulk FMCG ordering with GST invoice",
+        "image": "assets/banners/wholesale-grocery-deals.png"
+      }
+    },
+    {
+      "id": "shop_by_category-2",
+      "type": "shop_by_category",
+      "settings": {
+        "title": "Shop by Category"
+      }
+    },
+    {
+      "id": "fmcg_brands-3",
+      "type": "fmcg_brands",
+      "settings": {
+        "title": "FMCG Brands"
+      }
+    },
+    {
+      "id": "best_selling_products-4",
+      "type": "best_selling_products",
+      "settings": {
+        "title": "Best Selling Products"
+      }
+    },
+    {
+      "id": "daily_essentials-5",
+      "type": "daily_essentials",
+      "settings": {
+        "title": "Daily Essentials"
+      }
+    },
+    {
+      "id": "beverages-6",
+      "type": "beverages",
+      "settings": {
+        "title": "Beverages"
+      }
+    },
+    {
+      "id": "snacks_biscuits-7",
+      "type": "snacks_biscuits",
+      "settings": {
+        "title": "Snacks & Biscuits"
+      }
+    },
+    {
+      "id": "dairy_products-8",
+      "type": "dairy_products",
+      "settings": {
+        "title": "Dairy Products"
+      }
+    },
+    {
+      "id": "cooking_essentials-9",
+      "type": "cooking_essentials",
+      "settings": {
+        "title": "Cooking Essentials"
+      }
+    },
+    {
+      "id": "cleaning_products-10",
+      "type": "cleaning_products",
+      "settings": {
+        "title": "Cleaning Products"
+      }
+    },
+    {
+      "id": "personal_care-11",
+      "type": "personal_care",
+      "settings": {
+        "title": "Personal Care"
+      }
+    },
+    {
+      "id": "wholesale_deals-12",
+      "type": "wholesale_deals",
+      "settings": {
+        "title": "Wholesale Deals"
+      }
+    },
+    {
+      "id": "recently_ordered-13",
+      "type": "recently_ordered",
+      "settings": {
+        "title": "Recently Ordered"
+      }
+    },
+    {
+      "id": "recommended_products-14",
+      "type": "recommended_products",
+      "settings": {
+        "title": "Recommended Products"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Account",
+  "route": "/account",
+  "sections": [
+    { "type": "account-dashboard", "source": "src/pages/Account.vue" }
+  ]
+}

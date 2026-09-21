@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-label="Festive electronics hero banner">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#030a35"/><stop offset=".58" stop-color="#061b71"/><stop offset="1" stop-color="#02071d"/></linearGradient>
+    <linearGradient id="glow" x1="0" x2="1"><stop stop-color="#13d8ff"/><stop offset=".55" stop-color="#7a3cff"/><stop offset="1" stop-color="#ff4ed8"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#00081f" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="1500" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="690" cy="246" r="260" fill="#173cff" opacity=".22"/>
+  <ellipse cx="730" cy="336" rx="360" ry="42" fill="url(#glow)" opacity=".82"/>
+  <ellipse cx="730" cy="330" rx="330" ry="28" fill="#06165a"/>
+  <text x="76" y="82" fill="#e8eeff" font-family="Arial, sans-serif" font-size="20" font-weight="700">SMART TECH. BETTER LIFE.</text>
+  <text x="76" y="148" fill="#ffffff" font-family="Arial, sans-serif" font-size="54" font-weight="800">UPGRADE YOUR</text>
+  <text x="76" y="216" fill="#52d7ff" font-family="Arial, sans-serif" font-size="70" font-weight="900">WORLD</text>
+  <text x="76" y="266" fill="#e9f1ff" font-family="Arial, sans-serif" font-size="20">Top Brands  -  Latest Technology  -  Best Prices</text>
+  <rect x="76" y="308" width="180" height="54" rx="27" fill="#ffffff"/>
+  <text x="106" y="343" fill="#071637" font-family="Arial, sans-serif" font-size="18" font-weight="800">SHOP NOW</text>
+  <path d="M205 334h28m-10-10 10 10-10 10" stroke="#071637" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <g filter="url(#shadow)">
+    <rect x="548" y="80" width="320" height="210" rx="16" fill="#111827" stroke="#7e8bbd" stroke-width="4"/>
+    <rect x="565" y="100" width="286" height="162" rx="6" fill="url(#glow)"/>
+    <path d="M590 122c98 54 178 55 252 14M586 244c92-84 176-105 258-54" stroke="#9be8ff" stroke-width="8" opacity=".45" fill="none"/>
+    <rect x="682" y="288" width="74" height="16" rx="8" fill="#293a73"/>
+    <rect x="640" y="304" width="158" height="14" rx="7" fill="#1a285e"/>
+    <rect x="866" y="112" width="90" height="184" rx="20" fill="#9ec8ff" stroke="#0b1436" stroke-width="5"/>
+    <rect x="892" y="132" width="70" height="164" rx="18" fill="#e9f5ff" stroke="#0b1436" stroke-width="5"/>
+    <circle cx="886" cy="137" r="13" fill="#091124"/><circle cx="925" cy="139" r="12" fill="#091124"/><circle cx="890" cy="176" r="11" fill="#091124"/>
+    <path d="M916 145c36 32 34 76 6 112-34-32-39-77-6-112Z" fill="#2189ff" opacity=".86"/>
+    <rect x="452" y="204" width="74" height="86" rx="22" fill="#050914" stroke="#192449" stroke-width="5"/>
+    <rect x="465" y="221" width="47" height="30" rx="15" fill="#111827"/>
+    <circle cx="480" cy="236" r="16" fill="#05070d"/><circle cx="514" cy="238" r="16" fill="#05070d"/>
+    <rect x="535" y="166" width="64" height="126" rx="24" fill="#101827" stroke="#203052" stroke-width="5"/>
+    <text x="552" y="213" fill="#23e2ff" font-family="Arial" font-size="32">10</text><text x="552" y="247" fill="#fff" font-family="Arial" font-size="32">09</text>
+    <path d="M960 156c60-50 134-16 138 54 3 56-29 91-74 94" stroke="#111827" stroke-width="28" fill="none" stroke-linecap="round"/>
+    <path d="M1054 194c66 3 80 99 16 124" stroke="#050914" stroke-width="34" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="1175" y="78" width="252" height="244" rx="18" fill="#f4f6ff"/>
+    <rect x="1205" y="100" width="146" height="32" rx="10" fill="#3f68ff"/>
+    <text x="1223" y="122" fill="#ffffff" font-family="Arial" font-size="16" font-weight="700">FESTIVE SPECIAL</text>
+    <text x="1205" y="174" fill="#071637" font-family="Arial" font-size="31" font-weight="900">BIG SAVINGS</text>
+    <text x="1205" y="210" fill="#0644b5" font-family="Arial" font-size="31" font-weight="900">BIGGER JOY!</text>
+    <text x="1205" y="246" fill="#111827" font-family="Arial" font-size="18" font-weight="700">Up to 60% Off on</text>
+    <text x="1205" y="270" fill="#111827" font-family="Arial" font-size="18" font-weight="700">Top Brands</text>
+    <rect x="1205" y="292" width="162" height="42" rx="21" fill="#082f75"/>
+    <text x="1224" y="319" fill="#ffffff" font-family="Arial" font-size="15" font-weight="800">EXPLORE OFFERS</text>
+    <rect x="1320" y="220" width="64" height="72" rx="8" fill="#ffffff" stroke="#b9cfff"/>
+    <rect x="1345" y="220" width="13" height="72" fill="#1261ef"/>
+    <path d="M1312 218c28-30 58-26 82 0" stroke="#1261ef" stroke-width="9" fill="none"/>
+  </g>
+</svg>

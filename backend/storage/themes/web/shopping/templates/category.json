@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header-mega-menu"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "limit": 20
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns"
+    }
+  ]
+}

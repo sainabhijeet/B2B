@@ -1,0 +1,147 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "localizationTest.theme.name",
+        "industryName": "localizationTest.theme.industry",
+        "nav": [
+          "localizationTest.nav.home",
+          "localizationTest.nav.categories",
+          "localizationTest.nav.products",
+          "localizationTest.nav.about",
+          "localizationTest.nav.contact",
+          "localizationTest.nav.cart",
+          "localizationTest.nav.account"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "localizationTest.hero.eyebrow",
+        "title": "localizationTest.hero.title",
+        "subtitle": "localizationTest.hero.description",
+        "primaryCta": "localizationTest.hero.shopNow",
+        "secondaryCta": "localizationTest.hero.explore"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "localizationTest.categories.title",
+        "subtitle": "localizationTest.categories.description",
+        "items": [
+          {
+            "title": "localizationTest.categories.procurement.title",
+            "description": "localizationTest.categories.procurement.description",
+            "button": "localizationTest.categories.viewCategory"
+          },
+          {
+            "title": "localizationTest.categories.lifestyle.title",
+            "description": "localizationTest.categories.lifestyle.description",
+            "button": "localizationTest.categories.viewCategory"
+          },
+          {
+            "title": "localizationTest.categories.technology.title",
+            "description": "localizationTest.categories.technology.description",
+            "button": "localizationTest.categories.viewCategory"
+          }
+        ]
+      }
+    },
+    {
+      "id": "featured",
+      "type": "product-grid",
+      "settings": {
+        "title": "localizationTest.products.title",
+        "subtitle": "localizationTest.products.description",
+        "items": [
+          {
+            "title": "localizationTest.products.workstation.title",
+            "description": "localizationTest.products.workstation.description",
+            "price": "localizationTest.products.workstation.price",
+            "button": "localizationTest.products.viewProduct"
+          },
+          {
+            "title": "localizationTest.products.safetyKit.title",
+            "description": "localizationTest.products.safetyKit.description",
+            "price": "localizationTest.products.safetyKit.price",
+            "button": "localizationTest.products.viewProduct"
+          },
+          {
+            "title": "localizationTest.products.smartPack.title",
+            "description": "localizationTest.products.smartPack.description",
+            "price": "localizationTest.products.smartPack.price",
+            "button": "localizationTest.products.viewProduct"
+          }
+        ]
+      }
+    },
+    {
+      "id": "benefits",
+      "type": "icon-list",
+      "settings": {
+        "title": "localizationTest.benefits.title",
+        "items": [
+          {
+            "title": "localizationTest.benefits.freeShipping.title",
+            "text": "localizationTest.benefits.freeShipping.description"
+          },
+          {
+            "title": "localizationTest.benefits.secureCheckout.title",
+            "text": "localizationTest.benefits.secureCheckout.description"
+          },
+          {
+            "title": "localizationTest.benefits.easyReturns.title",
+            "text": "localizationTest.benefits.easyReturns.description"
+          }
+        ]
+      }
+    },
+    {
+      "id": "editorial",
+      "type": "image-with-text",
+      "settings": {
+        "title": "localizationTest.editorial.title",
+        "body": "localizationTest.editorial.description",
+        "buttonText": "localizationTest.editorial.cta",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "localizationTest.newsletter.title",
+        "subtitle": "localizationTest.newsletter.description",
+        "emailPlaceholder": "localizationTest.newsletter.emailPlaceholder",
+        "buttonText": "localizationTest.newsletter.subscribe"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "localizationTest.footer.company",
+            "links": ["localizationTest.nav.about", "localizationTest.nav.contact"]
+          },
+          {
+            "heading": "localizationTest.footer.shop",
+            "links": ["localizationTest.nav.categories", "localizationTest.nav.products", "localizationTest.nav.cart"]
+          },
+          {
+            "heading": "localizationTest.footer.support",
+            "links": ["localizationTest.footer.privacy", "localizationTest.footer.terms", "localizationTest.footer.contact"]
+          }
+        ]
+      }
+    }
+  ]
+}

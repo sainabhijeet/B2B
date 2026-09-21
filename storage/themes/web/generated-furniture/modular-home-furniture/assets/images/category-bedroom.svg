@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Bedroom">
+  <rect width="900" height="620" fill="#eef7f3"/>
+  <circle cx="760" cy="120" r="130" fill="#20756b" opacity=".18"/>
+  <circle cx="104" cy="510" r="145" fill="#8fd3c7" opacity=".18"/>
+  <g transform="translate(130 46)">
+    <rect x="38" y="38" width="570" height="500" rx="46" fill="#ffffff" opacity=".74"/>
+    <rect x="76" y="84" width="494" height="408" rx="34" fill="#ffffff" opacity=".52"/>
+    <rect x='112' y='198' width='126' height='190' rx='28' fill='#20756b'/><rect x='206' y='238' width='390' height='150' rx='26' fill='#8fd3c7'/><rect x='236' y='260' width='142' height='48' rx='18' fill='#ffffff' opacity='.76'/><rect x='398' y='260' width='142' height='48' rx='18' fill='#ffffff' opacity='.55'/><path d='M114 390 H596' stroke='#1f2937' stroke-width='18' stroke-linecap='round' opacity='.75'/>
+  </g>
+  <text x="62" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">Bedroom</text>
+  <text x="64" y="122" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Beds, wardrobes, and storage</text>
+</svg>

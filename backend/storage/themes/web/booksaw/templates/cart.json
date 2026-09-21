@@ -1,0 +1,8 @@
+{
+  "name": "Cart",
+  "route": "/cart",
+  "sections": [
+    { "type": "cart-items", "source": "src/pages/Cart.vue" },
+    { "type": "order-summary", "source": "src/pages/Cart.vue" }
+  ]
+}

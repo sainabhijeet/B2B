@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "id": "orders",
+      "type": "order-list",
+      "settings": {
+        "title": "Recent Orders",
+        "filters": ["All", "Pending", "Processing", "Delivered", "Cancelled"],
+        "viewDetailsText": "View Details",
+        "reorderText": "Reorder",
+        "emptyTitle": "No orders yet",
+        "disabledTitle": "Orders disabled",
+        "loginRequiredTitle": "Login required"
+      }
+    }
+  ]
+}

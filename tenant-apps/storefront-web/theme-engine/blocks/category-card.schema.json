@@ -1,0 +1,22 @@
+{
+  "name": "category-card",
+  "label": "Category highlight",
+  "settings": [
+    {
+      "id": "category_slug",
+      "type": "text",
+      "label": "Category slug",
+      "placeholder": "necklaces"
+    },
+    {
+      "id": "title_override",
+      "type": "text",
+      "label": "Title override (optional)"
+    },
+    {
+      "id": "image",
+      "type": "image",
+      "label": "Image URL (optional)"
+    }
+  ]
+}

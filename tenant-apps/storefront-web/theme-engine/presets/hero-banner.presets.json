@@ -1,0 +1,35 @@
+{
+  "section": "hero-banner",
+  "presets": [
+    {
+      "id": "luxury",
+      "label": "Luxury Hero",
+      "variant": "center",
+      "settings": {
+        "title": "Luxury Jewellery Collection",
+        "subtitle": "Discover timeless elegance",
+        "buttonText": "Shop collection"
+      }
+    },
+    {
+      "id": "minimal",
+      "label": "Minimal Hero",
+      "variant": "split",
+      "settings": {
+        "title": "New Collection",
+        "subtitle": "Modern elegance",
+        "buttonText": "Explore"
+      }
+    },
+    {
+      "id": "diamond-spotlight",
+      "label": "Diamond Spotlight",
+      "variant": "center",
+      "settings": {
+        "title": "Diamond Spotlight",
+        "subtitle": "Handpicked pieces for special moments",
+        "buttonText": "View diamonds"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "id": "cart",
+      "type": "cart-summary",
+      "settings": {
+        "title": "Cart",
+        "itemCountText": "3 Items",
+        "checkoutText": "Proceed to Checkout",
+        "emptyTitle": "Your cart is empty",
+        "loginRequiredTitle": "Login required",
+        "guestCartText": "Guest cart will be linked to your account after login."
+      }
+    }
+  ]
+}

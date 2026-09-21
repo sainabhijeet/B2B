@@ -1,0 +1,121 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": ["Discover", "Community", "Special Deals", "About us"]
+      }
+    },
+    {
+      "id": "hero-main",
+      "type": "hero-split",
+      "settings": {
+        "title": "READY FOR EVERY OCCASION",
+        "subtitle": "Discover rings, necklaces, and bracelets crafted for modern luxury.",
+        "ourStoryTitle": "Our Story",
+        "ourStoryText": "We pair certified materials with refined silhouettes so every piece feels personal.",
+        "imageLeft": "assets/images/hero-woman.png",
+        "imageCenter": "assets/images/hero-woman.png",
+        "imageRight": "assets/images/brand-logos.png"
+      }
+    },
+    {
+      "id": "stats-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "60k Products   ·   50k New Clients   ·   40k Recent Review",
+        "subtitle": "Trusted quality and service.",
+        "background": "linear-gradient(90deg, #F9F1E2, #FDF8EE)"
+      }
+    },
+    {
+      "id": "arch-feature",
+      "type": "image-text",
+      "settings": {
+        "title": "Collections",
+        "body": "Arch-framed editorial photography leads into curated category cards.",
+        "image": "assets/images/category-arch.png",
+        "imagePosition": "left"
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Shop the edit",
+        "subtitle": "Bracelet, necklace, and ring highlights.",
+        "image": "assets/images/product-bracelet.png"
+      }
+    },
+    {
+      "id": "spotlight-bracelet",
+      "type": "image-text",
+      "settings": {
+        "title": "Gold Woven Chain Bracelet In Black",
+        "body": "Woven gold links with a black cord and sculpted clasp — bold alone, refined layered. Sizes S–M–L. From $549.29.",
+        "image": "assets/images/product-bracelet.png",
+        "imagePosition": "left"
+      }
+    },
+    {
+      "id": "spotlight-ring",
+      "type": "image-text",
+      "settings": {
+        "title": "Gold Black Coral Ring",
+        "body": "Statement band with enamel-like depth. Pair with minimal stacks.",
+        "image": "assets/images/product-ring-coral.png",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "best-collections",
+      "type": "image-text",
+      "settings": {
+        "title": "ZALES Best Collections",
+        "body": "Comfort-led fits and 100% certified gold — designed for daily wear and special nights.",
+        "image": "assets/images/lifestyle-necklaces.png",
+        "imagePosition": "left"
+      }
+    },
+    {
+      "id": "lifestyle-hand",
+      "type": "image-text",
+      "settings": {
+        "title": "On the hand",
+        "body": "Close-up styling inspiration for rings and stacks.",
+        "image": "assets/images/lifestyle-hand.png",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Join the ZALES list",
+        "subtitle": "New drops, private sales, and care tips — straight to your inbox."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Rings", "Necklaces", "Bracelets", "Watches"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Shipping", "Returns", "Size guide", "Contact"]
+          },
+          {
+            "heading": "Company",
+            "links": ["About", "Careers", "Press", "Privacy"]
+          }
+        ]
+      }
+    }
+  ]
+}

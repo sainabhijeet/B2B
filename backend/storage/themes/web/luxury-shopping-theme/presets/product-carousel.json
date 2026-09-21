@@ -1,0 +1,10 @@
+{
+  "section": "product-carousel",
+  "presets": [
+    { "id": "standard", "label": "Standard", "variant": "standard", "settings": { "title": "You may also like", "limit": 6 } },
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "NEW ARRIVALS", "title": "A closer look" } },
+    { "id": "compact", "label": "Compact", "variant": "compact", "settings": { "title": "Keep exploring", "limit": 8 } },
+    { "id": "new-arrivals", "label": "New Arrivals", "variant": "standard", "settings": { "eyebrow": "JUST IN", "title": "New arrivals", "collection": "new-arrivals" } },
+    { "id": "recommended", "label": "Recommended", "variant": "standard", "settings": { "eyebrow": "FOR YOU", "title": "Picked for you", "collection": "recommended" } }
+  ]
+}

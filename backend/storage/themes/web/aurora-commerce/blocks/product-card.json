@@ -1,0 +1,1 @@
+{"type":"product-card","editable":true,"settingsSchema":{"source":{"type":"product"},"showPrice":{"type":"boolean"},"showRating":{"type":"boolean"},"action":{"type":"text","translation":true}},"defaultSettings":{"source":"catalog.product","showPrice":true,"showRating":true,"action":"actions.view_product"}}

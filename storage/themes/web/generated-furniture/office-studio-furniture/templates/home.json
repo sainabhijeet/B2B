@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Rooms",
+          "Catalog",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.office-studio-furniture.ba3b755603fb"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero.svg",
+        "secondaryCta": "theme_content.office-studio-furniture.9382763ce2ee",
+        "title": "theme_content.office-studio-furniture.278a729240ea",
+        "primaryCta": "theme_content.office-studio-furniture.5c0ac6036257",
+        "subtitle": "theme_content.office-studio-furniture.2a90806bd8e3"
+      }
+    },
+    {
+      "id": "products",
+      "type": "best-sellers",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.office-studio-furniture.e2d54fcc1112",
+        "subtitle": "theme_content.office-studio-furniture.d81cd92267d4"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-living.svg",
+          "assets/images/category-dining.svg",
+          "assets/images/category-bedroom.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.office-studio-furniture.008011ef87d4",
+        "subtitle": "theme_content.office-studio-furniture.373ea1cebcdf"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "offer-strip",
+      "settings": {
+        "subtitle": "theme_content.office-studio-furniture.eca91510b714",
+        "title": "theme_content.office-studio-furniture.4880e9ee9c95"
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-with-text",
+      "settings": {
+        "imagePosition": "left",
+        "image": "assets/images/detail.svg",
+        "title": "theme_content.office-studio-furniture.72341d8ca4be",
+        "body": "theme_content.office-studio-furniture.d03ca22cc7de"
+      }
+    },
+    {
+      "id": "benefits",
+      "type": "icon-list",
+      "settings": {
+        "items": [
+          {
+            "icon": "01",
+            "title": "theme_content.office-studio-furniture.17e649a19996",
+            "text": "theme_content.office-studio-furniture.469c0a800c6e"
+          },
+          {
+            "icon": "02",
+            "title": "theme_content.office-studio-furniture.7806d236374a",
+            "text": "theme_content.office-studio-furniture.09f74aa2ee49"
+          },
+          {
+            "icon": "03",
+            "title": "theme_content.office-studio-furniture.e4e888534a4f",
+            "text": "theme_content.office-studio-furniture.57fdd81e2149"
+          }
+        ],
+        "title": "theme_content.office-studio-furniture.dcaa198b6c74"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Living",
+              "Dining",
+              "Bedroom",
+              "Office"
+            ],
+            "heading": "theme_content.office-studio-furniture.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.office-studio-furniture.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Warranty"
+            ],
+            "heading": "theme_content.office-studio-furniture.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

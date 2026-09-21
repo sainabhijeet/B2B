@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Catalog",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.modular-home-furniture.7d6b94ee5697"
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/category-living.svg",
+        "title": "theme_content.modular-home-furniture.65645c10058d",
+        "subtitle": "theme_content.modular-home-furniture.0d52f82e9829"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "message": "theme_content.modular-home-furniture.7f5ee4b40eea",
+        "title": "theme_content.modular-home-furniture.e0718e5d81a0"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.modular-home-furniture.c5526570373e",
+        "subtitle": "theme_content.modular-home-furniture.415257ca9838"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta-banner",
+      "settings": {
+        "subtitle": "theme_content.modular-home-furniture.c709c7251f21",
+        "title": "theme_content.modular-home-furniture.10c7ea83dab2"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Sofas",
+              "Tables",
+              "Beds"
+            ],
+            "heading": "theme_content.modular-home-furniture.9f9feade761d"
+          },
+          {
+            "links": [
+              "Contact",
+              "Delivery",
+              "Returns"
+            ],
+            "heading": "theme_content.modular-home-furniture.b79cac926e0b"
+          }
+        ]
+      }
+    }
+  ]
+}

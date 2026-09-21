@@ -1,0 +1,1 @@
+{"type":"promo-banner","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"text","translation":true},"action":{"type":"text","translation":true}},"defaultSettings":{"title":"promo.title","body":"promo.body","action":"actions.learn_more"}}

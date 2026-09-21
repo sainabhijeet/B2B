@@ -1,0 +1,19 @@
+{
+  "fontFamily": "Inter, Roboto, system-ui, sans-serif",
+  "headline": {
+    "fontSize": 24,
+    "fontWeight": 800
+  },
+  "title": {
+    "fontSize": 18,
+    "fontWeight": 800
+  },
+  "body": {
+    "fontSize": 14,
+    "fontWeight": 500
+  },
+  "caption": {
+    "fontSize": 12,
+    "fontWeight": 700
+  }
+}

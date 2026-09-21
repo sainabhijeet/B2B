@@ -1,0 +1,47 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "eGadget",
+        "industryName": "Appliances",
+        "nav": [
+          "Home",
+          "Catalog",
+          "Cart"
+        ]
+      }
+    },
+    {
+      "id": "related",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-toaster.svg",
+          "assets/images/product-vacuum.svg",
+          "assets/images/product-coffee.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.925a46fefcd1",
+        "subtitle": "theme_content.egadget-shop-web.5f8d6e8148ed"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Warranty",
+              "Delivery",
+              "Returns"
+            ],
+            "heading": "theme_content.egadget-shop-web.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

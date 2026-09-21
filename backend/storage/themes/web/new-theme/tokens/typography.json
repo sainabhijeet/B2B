@@ -1,0 +1,6 @@
+{
+  "primary": "var(--font-geist-sans), Arial, sans-serif",
+  "heading": "Georgia, 'Times New Roman', serif",
+  "headingWeight": "700",
+  "bodyWeight": "400"
+}

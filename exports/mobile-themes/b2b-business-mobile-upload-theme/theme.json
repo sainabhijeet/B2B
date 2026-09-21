@@ -1,0 +1,80 @@
+{
+  "name": "B2B Business Mobile Theme",
+  "version": "1.0.0",
+  "storefrontKey": "b2b-business-mobile-theme",
+  "industry": "generic",
+  "description": "Premium B2B commerce mobile app shell theme for Home, Cart, Order, Credit, Settings, and Login flows. Designed for API-fed catalog, cart, orders, credit, app config, and OTP login data.",
+  "languages": ["en", "hi"],
+  "locales": {
+    "en": "locales/en.json",
+    "hi": "locales/hi.json"
+  },
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "grid",
+    "enable_quick_qty": true,
+    "spacing": "comfortable",
+    "bottom_nav": ["Home", "Cart", "Order", "Credit", "Settings", "Login"]
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "offer-strip",
+    "category-grid",
+    "product-grid",
+    "featured-products",
+    "recommended-products",
+    "recently-ordered",
+    "cart-summary",
+    "order-list",
+    "credit-summary",
+    "settings-list",
+    "auth-otp",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["b2b-commerce"],
+      "footer": ["six-tab-bottom-bar"]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "offer-strip",
+      "category-grid",
+      "product-grid",
+      "featured-products",
+      "recommended-products",
+      "recently-ordered",
+      "cart-summary",
+      "order-list",
+      "credit-summary",
+      "settings-list",
+      "auth-otp",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "cart": "templates/cart.json",
+    "orders": "templates/orders.json",
+    "order_detail": "templates/order-detail.json",
+    "credit": "templates/credit.json",
+    "settings": "templates/settings.json",
+    "auth": "templates/auth.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

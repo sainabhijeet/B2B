@@ -1,0 +1,86 @@
+{
+  "sections": [
+    {
+      "id": "main-header",
+      "type": "header-basic",
+      "settings": {
+        "logoText": "HS FITNESS",
+        "nav": ["Home", "Categories", "Products", "Cart", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "launch-offer",
+      "type": "promo-banner",
+      "settings": {
+        "title": "FREE SHIPPING ON ORDERS ABOVE ₹1,999",
+        "subtitle": "Use code HSFIT10 for 10% off",
+        "background": "linear-gradient(90deg, #111827, #dc2626)"
+      }
+    },
+    {
+      "id": "fitness-hero",
+      "type": "hero-split",
+      "settings": {
+        "title": "BUILD YOUR STRONGEST SELF",
+        "subtitle": "Performance nutrition, gym equipment and activewear for every fitness goal.",
+        "ourStoryTitle": "Train With Purpose",
+        "ourStoryText": "HS Fitness brings trusted products and practical choices together, so every workout moves you forward.",
+        "imageLeft": "assets/images/fitness-strength.svg",
+        "imageCenter": "assets/images/fitness-hero.svg",
+        "imageRight": "assets/images/fitness-nutrition.svg"
+      }
+    },
+    {
+      "id": "shop-categories",
+      "type": "category-grid",
+      "settings": {
+        "image": "assets/images/category-fitness.svg"
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "TOP FITNESS PICKS",
+        "subtitle": "Popular products from the live HS Fitness catalogue.",
+        "image": "assets/images/product-fallback.svg"
+      }
+    },
+    {
+      "id": "customer-story",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "HS Fitness helped me find reliable training essentials in one place.",
+        "author": "Verified HS Fitness Customer"
+      }
+    },
+    {
+      "id": "fitness-newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "JOIN THE HS FITNESS COMMUNITY",
+        "subtitle": "Get workout tips, product drops and members-only offers."
+      }
+    },
+    {
+      "id": "main-footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Supplements", "Equipment", "Activewear"]
+          },
+          {
+            "heading": "Help",
+            "links": ["Contact Us", "Shipping", "Returns"]
+          },
+          {
+            "heading": "HS Fitness",
+            "links": ["Our Story", "Training Guide", "Privacy"]
+          }
+        ]
+      }
+    }
+  ]
+}

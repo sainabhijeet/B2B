@@ -1,0 +1,16 @@
+{
+  "name": "aurora.theme.name",
+  "version": "1.0.0",
+  "storefrontKey": "aurora-commerce",
+  "industry": "aurora.theme.industry",
+  "description": "aurora.theme.description",
+  "allowedSections": ["header", "announcement-bar", "hero-slider", "hero-split", "feature-banner", "category-grid", "brand-logos", "featured-products", "best-sellers", "latest-products", "recently-viewed", "product-carousel", "newsletter", "faq", "testimonials", "rich-text", "promo-banner", "image-with-text", "cta", "video-banner", "icon-list", "collection-grid", "countdown", "instagram-feed", "footer", "breadcrumb", "search-bar", "filter-sidebar", "product-tabs", "reviews", "related-products"],
+  "capabilities": {"variants": {"hero-slider": ["default", "fade", "split"], "header": ["minimal", "standard", "mega"], "footer": ["columns", "compact"]}, "dragAndDrop": true, "dynamicSettings": true, "rtl": true, "darkMode": true},
+  "templates": {"home": "templates/home.json", "category": "templates/category.json", "subcategory": "templates/subcategory.json", "product-listing": "templates/product-listing.json", "product": "templates/product.json", "cart": "templates/cart.json", "checkout": "templates/checkout.json", "wishlist": "templates/wishlist.json", "search": "templates/search.json", "account": "templates/account.json", "orders": "templates/orders.json", "order-details": "templates/order-details.json", "addresses": "templates/addresses.json", "profile": "templates/profile.json", "login": "templates/login.json", "register": "templates/register.json", "forgot-password": "templates/forgot-password.json", "blog": "templates/blog.json", "blog-details": "templates/blog-details.json", "faq": "templates/faq.json", "contact": "templates/contact.json", "about": "templates/about.json", "404": "templates/404.json"},
+  "layouts": {"default": "layouts/default.json", "checkout": "layouts/checkout.json", "auth": "layouts/auth.json", "account": "layouts/account.json"},
+  "locales": {"en": "locales/en.json", "fr": "locales/fr.json", "de": "locales/de.json", "es": "locales/es.json", "hi": "locales/hi.json", "gu": "locales/gu.json", "zh": "locales/zh.json", "ja": "locales/ja.json", "ar": "locales/ar.json", "ur": "locales/ur.json"},
+  "tokens": {"colors": "tokens/colors.json", "typography": "tokens/typography.json", "spacing": "tokens/spacing.json", "radius": "tokens/radius.json", "shadow": "tokens/shadow.json", "elevation": "tokens/elevation.json", "container": "tokens/container.json", "grid": "tokens/grid.json", "breakpoints": "tokens/breakpoints.json", "animations": "tokens/animations.json"},
+  "assets": {"css": "assets/css/theme.css", "icons": "assets/icons/manifest.json", "images": "assets/images/manifest.json"},
+  "preview": {"desktop": "preview/preview.png", "tablet": "preview/preview-tablet.png", "mobile": "preview/preview-mobile.png", "rtl": true, "darkMode": true},
+  "metadata": {"author": "Aurora Commerce Team", "license": "Enterprise Theme Platform License", "engine": "enterprise-theme-engine", "engineVersion": ">=1.0.0", "accessibility": "WCAG 2.2 AA", "responsive": true, "mobile": true}
+}

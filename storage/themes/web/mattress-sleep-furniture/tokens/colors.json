@@ -1,0 +1,9 @@
+{
+    "colors":  {
+                   "muted":  "#64748b",
+                   "surface":  "#eef4ff",
+                   "secondary":  "#bcc7ff",
+                   "primary":  "#6677cc",
+                   "ink":  "#111827"
+               }
+}

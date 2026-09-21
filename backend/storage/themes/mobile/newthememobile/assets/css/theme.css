@@ -1,0 +1,21 @@
+:root {
+  --theme-primary-contrast: #ffffff;
+  --theme-border: #e5e7eb;
+}
+
+.theme-egadget-shop-mobile section[data-theme-key] {
+  font-family: Inter, Arial, sans-serif;
+}
+
+.theme-egadget-shop-mobile header {
+  box-shadow: 0 1px 0 rgba(17, 17, 17, 0.06);
+}
+
+.theme-egadget-shop-mobile article {
+  border-radius: 4px !important;
+}
+
+.theme-egadget-shop-mobile a[style*="var(--theme-primary)"],
+.theme-egadget-shop-mobile a[style*="var(--theme-primary)"]:hover {
+  text-decoration-thickness: 2px;
+}

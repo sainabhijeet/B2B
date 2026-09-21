@@ -1,0 +1,23 @@
+{
+  "fontFamily": "System",
+  "display": {
+    "size": 30,
+    "weight": 800
+  },
+  "title": {
+    "size": 22,
+    "weight": 800
+  },
+  "subtitle": {
+    "size": 16,
+    "weight": 600
+  },
+  "body": {
+    "size": 14,
+    "weight": 400
+  },
+  "caption": {
+    "size": 12,
+    "weight": 500
+  }
+}

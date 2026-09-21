@@ -1,0 +1,218 @@
+{
+  "sections": [
+    {
+      "id": "announcement",
+      "type": "announcement-bar",
+      "settings": {
+        "text": "Complimentary shipping on orders over $150",
+        "linkLabel": "Shop now",
+        "linkUrl": "/collections/new-arrivals",
+        "dismissible": true
+      }
+    },
+    {
+      "id": "site-header",
+      "type": "header",
+      "settings": {
+        "logoText": "ATELIER",
+        "showSearch": true,
+        "showAccount": true,
+        "showWishlist": true,
+        "showCart": true,
+        "sticky": true
+      }
+    },
+    {
+      "id": "home-hero",
+      "type": "hero-split",
+      "variant": "editorial-dark",
+      "settings": {
+        "eyebrow": "THE AUTUMN EDIT",
+        "title": "Objects with a point of view.",
+        "description": "Thoughtful design, elevated materials, and the pieces that make everyday rituals feel considered.",
+        "primaryCtaLabel": "Explore the edit",
+        "primaryCtaUrl": "/collections/autumn-edit",
+        "secondaryCtaLabel": "Discover the story",
+        "secondaryCtaUrl": "/pages/our-story",
+        "image": "assets/images/hero-editorial.svg",
+        "imagePosition": "right",
+        "overlay": false,
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "home-promo",
+      "type": "promo-banner",
+      "variant": "accent",
+      "settings": {
+        "eyebrow": "MEMBER PRIVILEGE",
+        "title": "Early access to the private sale",
+        "description": "Join Atelier Circle for first looks, considered offers, and complimentary styling support.",
+        "ctaLabel": "Join the circle",
+        "ctaUrl": "/account/register",
+        "theme": "accent",
+        "image": "assets/images/promo-still-life.svg"
+      }
+    },
+    {
+      "id": "home-categories",
+      "type": "category-grid",
+      "variant": "editorial",
+      "settings": {
+        "eyebrow": "SHOP BY MOOD",
+        "title": "Find your next favorite",
+        "description": "A considered selection for every version of you.",
+        "columns": 4,
+        "showCount": false,
+        "categories": [
+          { "title": "The Daily Uniform", "url": "/collections/daily-uniform", "image": "assets/images/category-daily.svg" },
+          { "title": "Objects for Home", "url": "/collections/home-objects", "image": "assets/images/category-home.svg" },
+          { "title": "The Good Gift", "url": "/collections/gifting", "image": "assets/images/category-gifting.svg" },
+          { "title": "Quiet Technology", "url": "/collections/technology", "image": "assets/images/category-tech.svg" }
+        ]
+      }
+    },
+    {
+      "id": "home-featured",
+      "type": "featured-products",
+      "variant": "showcase",
+      "settings": {
+        "eyebrow": "THE CONSIDERED EDIT",
+        "title": "Featured pieces",
+        "description": "The objects our editors keep close.",
+        "collection": "featured",
+        "limit": 4,
+        "showQuickAdd": true,
+        "showRatings": true
+      }
+    },
+    {
+      "id": "home-trending",
+      "type": "trending-products",
+      "settings": {
+        "eyebrow": "MOST WANTED",
+        "title": "Trending now",
+        "collection": "trending",
+        "limit": 4,
+        "showQuickAdd": true
+      }
+    },
+    {
+      "id": "home-carousel",
+      "type": "product-carousel",
+      "variant": "dark",
+      "settings": {
+        "eyebrow": "NEW ARRIVALS",
+        "title": "A closer look",
+        "description": "New forms, familiar rituals.",
+        "collection": "new-arrivals",
+        "limit": 6,
+        "autoplay": false,
+        "showArrows": true
+      }
+    },
+    {
+      "id": "home-editorial",
+      "type": "image-with-text",
+      "variant": "image-left",
+      "settings": {
+        "eyebrow": "DESIGNED TO LAST",
+        "title": "The beauty of less, done well.",
+        "body": "We choose fewer, better things: natural textures, honest materials, and details that reward a second look.",
+        "primaryCtaLabel": "Our design principles",
+        "primaryCtaUrl": "/pages/our-story",
+        "image": "assets/images/editorial-materials.svg",
+        "imagePosition": "left",
+        "theme": "light"
+      }
+    },
+    {
+      "id": "home-brands",
+      "type": "brand-logos",
+      "variant": "monochrome",
+      "settings": {
+        "eyebrow": "IN GOOD COMPANY",
+        "title": "Brands with a point of view",
+        "logos": [
+          { "name": "Noma", "image": "assets/images/brand-noma.svg", "url": "/brands/noma" },
+          { "name": "Aster", "image": "assets/images/brand-aster.svg", "url": "/brands/aster" },
+          { "name": "Forma", "image": "assets/images/brand-forma.svg", "url": "/brands/forma" },
+          { "name": "Sonder", "image": "assets/images/brand-sonder.svg", "url": "/brands/sonder" }
+        ]
+      }
+    },
+    {
+      "id": "home-testimonials",
+      "type": "testimonial-carousel",
+      "variant": "cards",
+      "settings": {
+        "eyebrow": "THE ATELIER NOTEBOOK",
+        "title": "Loved for the little things",
+        "testimonials": [
+          { "quote": "Everything feels intentional, from the packaging to the piece itself.", "author": "Maya R.", "role": "Verified customer", "rating": 5 },
+          { "quote": "A rare store that makes discovery feel calm and genuinely inspiring.", "author": "Elliot K.", "role": "Verified customer", "rating": 5 },
+          { "quote": "The quality is immediately apparent. I have already found three gifts.", "author": "Sofia L.", "role": "Verified customer", "rating": 5 }
+        ],
+        "autoplay": true,
+        "interval": 6000
+      }
+    },
+    {
+      "id": "home-newsletter",
+      "type": "newsletter",
+      "variant": "dark",
+      "settings": {
+        "eyebrow": "THE ATELIER LETTER",
+        "title": "A little more considered",
+        "description": "New arrivals, thoughtful stories, and occasional invitations. No noise.",
+        "placeholder": "Your email address",
+        "buttonLabel": "Subscribe",
+        "consentText": "By subscribing, you agree to receive Atelier updates.",
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "home-cta",
+      "type": "cta-banner",
+      "variant": "minimal",
+      "settings": {
+        "eyebrow": "NEED A SECOND OPINION?",
+        "title": "Let us help you find the right thing.",
+        "description": "Our editors are here for sizing, gifting, and the pieces you will keep for years.",
+        "primaryCtaLabel": "Talk to an editor",
+        "primaryCtaUrl": "/pages/contact",
+        "secondaryCtaLabel": "Read the journal",
+        "secondaryCtaUrl": "/journal",
+        "theme": "light"
+      }
+    },
+    {
+      "id": "home-rich-text",
+      "type": "rich-text",
+      "variant": "narrow",
+      "settings": {
+        "eyebrow": "ATELIER, IN SHORT",
+        "title": "Less, but better.",
+        "content": "A modern marketplace for the things that make a life feel like your own. Carefully found, beautifully made, and always worth keeping.",
+        "align": "center"
+      }
+    },
+    {
+      "id": "site-footer",
+      "type": "footer-columns",
+      "variant": "dark",
+      "settings": {
+        "logoText": "ATELIER",
+        "tagline": "The considered edit for everyday living.",
+        "showNewsletter": false,
+        "columns": [
+          { "title": "Shop", "links": [{ "label": "New arrivals", "url": "/collections/new-arrivals" }, { "label": "Best sellers", "url": "/collections/best-sellers" }, { "label": "Gifting", "url": "/collections/gifting" }] },
+          { "title": "About", "links": [{ "label": "Our story", "url": "/pages/our-story" }, { "label": "Journal", "url": "/journal" }, { "label": "Stockists", "url": "/pages/stockists" }] },
+          { "title": "Help", "links": [{ "label": "Contact", "url": "/pages/contact" }, { "label": "Shipping & returns", "url": "/pages/shipping" }, { "label": "FAQ", "url": "/pages/faq" }] }
+        ],
+        "socialLinks": [{ "label": "Instagram", "url": "https://instagram.com" }, { "label": "Pinterest", "url": "https://pinterest.com" }],
+        "copyright": "© 2026 Atelier Commerce. All rights reserved."
+      }
+    }
+  ]
+}

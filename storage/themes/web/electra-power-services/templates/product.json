@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Electra",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "Orders"
+        ]
+      }
+    },
+    {
+      "id": "product-detail",
+      "type": "product-detail",
+      "settings": {}
+    },
+    {
+      "id": "product-info",
+      "type": "image-with-text",
+      "settings": {
+        "image": "assets/images/project-process.svg",
+        "imagePosition": "right",
+        "title": "theme_content.electra-power-services.1aa3283fb712",
+        "body": "theme_content.electra-power-services.cd679f1a7b50"
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "theme_content.electra-power-services.5ee0c41a1ae7",
+        "subtitle": "theme_content.electra-power-services.8f7e31a082fc"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "theme_content.electra-power-services.764357ed30cd",
+              "theme_content.electra-power-services.034717e773a1"
+            ],
+            "heading": "theme_content.electra-power-services.7f79bb97dce5"
+          },
+          {
+            "links": [
+              "Cart",
+              "Orders",
+              "theme_content.electra-power-services.c189840cf7e2"
+            ],
+            "heading": "theme_content.electra-power-services.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

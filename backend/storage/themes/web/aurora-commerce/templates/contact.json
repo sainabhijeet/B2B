@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"contact","type":"rich-text","settings":{"title":"contact.title","body":"contact.body"}},{"id":"form","type":"cta","settings":{"title":"contact.form.title"}},{"id":"footer","type":"footer"}]}

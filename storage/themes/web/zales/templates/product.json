@@ -1,0 +1,71 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": [
+          "Discover",
+          "Community",
+          "theme_content.zales.115a316c4f47",
+          "theme_content.zales.b4b580a9ad8c"
+        ]
+      }
+    },
+    {
+      "id": "pdp",
+      "type": "product-detail",
+      "settings": {
+        "price": "$549.29",
+        "gallery": [
+          "assets/images/product-bracelet.png",
+          "assets/images/product-bracelet.png"
+        ],
+        "title": "theme_content.zales.2610d71fc11b",
+        "description": "theme_content.zales.5bb7998bcbd2"
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "theme_content.zales.925a46fefcd1"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Rings",
+              "Necklaces",
+              "Bracelets",
+              "Watches"
+            ],
+            "heading": "theme_content.zales.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Contact"
+            ],
+            "heading": "theme_content.zales.be91940b79f4"
+          },
+          {
+            "links": [
+              "About",
+              "Careers",
+              "Privacy",
+              "Terms"
+            ],
+            "heading": "theme_content.zales.de4743c87973"
+          }
+        ]
+      }
+    }
+  ]
+}

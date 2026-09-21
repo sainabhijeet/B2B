@@ -1,0 +1,10 @@
+{
+  "section": "newsletter",
+  "presets": [
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "THE ATELIER LETTER", "title": "A little more considered" } },
+    { "id": "light", "label": "Light", "variant": "light", "settings": { "eyebrow": "STAY IN THE KNOW", "title": "More things worth keeping" } },
+    { "id": "split", "label": "Split", "variant": "split", "settings": { "eyebrow": "THE EDIT", "title": "New arrivals, occasionally" } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Good things, sent occasionally." } },
+    { "id": "card", "label": "Card", "variant": "card", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "Join the circle" } }
+  ]
+}

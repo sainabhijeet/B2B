@@ -1,0 +1,19 @@
+{
+  "section": "category-grid",
+  "presets": [
+    {
+      "id": "jewellery-types",
+      "label": "Jewellery Types",
+      "settings": {
+        "title": "Shop by type"
+      }
+    },
+    {
+      "id": "collections-showcase",
+      "label": "Collections Showcase",
+      "settings": {
+        "title": "Our collections"
+      }
+    }
+  ]
+}

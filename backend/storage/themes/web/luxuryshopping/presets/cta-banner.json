@@ -1,0 +1,10 @@
+{
+  "section": "cta-banner",
+  "presets": [
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "READY WHEN YOU ARE", "title": "Find your next favorite." } },
+    { "id": "light", "label": "Light", "variant": "light", "settings": { "eyebrow": "NEED A SECOND OPINION?", "title": "Let us help you find the right thing." } },
+    { "id": "image", "label": "Image", "variant": "image", "settings": { "eyebrow": "THE STORY", "title": "Designed to last." } },
+    { "id": "accent", "label": "Accent", "variant": "accent", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "Good things are better shared." } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Less, but better." } }
+  ]
+}

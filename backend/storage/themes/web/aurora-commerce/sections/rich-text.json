@@ -1,0 +1,1 @@
+{"type":"rich-text","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"richText","translation":true},"align":{"type":"select","options":["left","center","right"]}},"defaultSettings":{"title":"content.title","body":"content.body","align":"left"}}

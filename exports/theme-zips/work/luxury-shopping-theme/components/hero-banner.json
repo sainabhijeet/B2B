@@ -1,0 +1,9 @@
+{
+  "name": "hero-banner",
+  "label": "Hero Banner",
+  "category": "hero",
+  "variants": ["editorial", "centered", "minimal", "dark", "image-focus"],
+  "defaultVariant": "editorial",
+  "settings": { "eyebrow": "", "title": "", "description": "", "primaryCtaLabel": "Explore the edit", "primaryCtaUrl": "#", "secondaryCtaLabel": "", "secondaryCtaUrl": "", "image": "", "overlay": false, "minHeight": 560, "theme": "light", "content": {} },
+  "presets": [{ "id": "editorial", "label": "Editorial", "variant": "editorial" }, { "id": "centered", "label": "Centered", "variant": "centered" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }]
+}

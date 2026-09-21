@@ -1,0 +1,41 @@
+{
+  "name": "Premium Multivendor Ecommerce",
+  "version": "2.0.0",
+  "storefrontKey": "premium-multivendor-ecommerce",
+  "industry": "marketplace",
+  "description": "A premium multi-vendor ecommerce theme inspired by Shopify, Amazon, and Flipkart with modern marketplace styling.",
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["default"],
+      "footer": ["columns"]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/styles.css"
+  }
+}

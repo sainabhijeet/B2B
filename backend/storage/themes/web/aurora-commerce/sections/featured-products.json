@@ -1,0 +1,1 @@
+{"type":"featured-products","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"limit":{"type":"number"},"source":{"type":"productSource"}},"defaultSettings":{"title":"home.featured.title","limit":8,"source":"featured"}}

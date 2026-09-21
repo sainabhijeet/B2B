@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"about","type":"image-with-text","settings":{"title":"about.title","body":"about.body","image":"assets/images/lifestyle-team.svg"}},{"id":"values","type":"icon-list","settings":{"title":"about.values.title"}},{"id":"footer","type":"footer"}]}

@@ -1,0 +1,9 @@
+{
+  "variants": ["default"],
+  "defaultVariant": "default",
+  "settings": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array"
+  }
+}

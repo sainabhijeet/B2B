@@ -1,0 +1,1 @@
+{"type":"heading","editable":true,"settingsSchema":{"text":{"type":"text","translation":true},"level":{"type":"select","options":["h1","h2","h3","h4"]}},"defaultSettings":{"text":"content.title","level":"h2"}}

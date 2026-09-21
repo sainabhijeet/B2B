@@ -1,0 +1,27 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": true,
+        "showLogo": true,
+        "showCart": false,
+        "showNotification": false,
+        "searchPlaceholder": ""
+      }
+    },
+    {
+      "id": "summary",
+      "type": "checkout-summary",
+      "settings": {
+        "mobileAccordion": true
+      }
+    },
+    {
+      "id": "action",
+      "type": "sticky-checkout-bar",
+      "settings": {}
+    }
+  ]
+}

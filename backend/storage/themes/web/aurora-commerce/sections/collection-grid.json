@@ -1,0 +1,1 @@
+{"type":"collection-grid","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"source":{"type":"collection"},"columns":{"type":"number"}},"defaultSettings":{"title":"collections.title","source":"catalog.categories","columns":3}}

@@ -1,0 +1,104 @@
+{
+  "name": "MediCare Mobile Shop Multilingual",
+  "version": "1.0.0",
+  "storefrontKey": "medicare-mobile-shop-multilang",
+  "industry": "health",
+  "description": "A calm mobile theme for pharmacy, wellness, and care products.",
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "list",
+    "enable_quick_qty": true,
+    "spacing": "compact"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "offer-strip",
+    "campaign-banner",
+    "category-grid",
+    "product-grid",
+    "featured-products",
+    "new-arrivals",
+    "best-sellers",
+    "trending-products",
+    "recommended-products",
+    "product-gallery",
+    "product-info",
+    "image-with-text",
+    "cta-banner",
+    "icon-list",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": [
+        "app"
+      ],
+      "footer": [
+        "bottom-bar"
+      ]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "offer-strip",
+      "campaign-banner",
+      "category-grid",
+      "product-grid",
+      "featured-products",
+      "new-arrivals",
+      "best-sellers",
+      "trending-products",
+      "recommended-products",
+      "product-gallery",
+      "product-info",
+      "image-with-text",
+      "cta-banner",
+      "icon-list",
+      "footer"
+    ]
+  },
+  "templates": {
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "home": "templates/home.json"
+  },
+  "tokens": {
+    "typography": "tokens/typography.json",
+    "layout": "tokens/layout.json",
+    "spacing": "tokens/spacing.json",
+    "colors": "tokens/colors.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "languages": [
+    "en",
+    "hi",
+    "gu",
+    "ar",
+    "ur",
+    "fr",
+    "de",
+    "es",
+    "ru",
+    "ja",
+    "zh"
+  ],
+  "locales": {
+    "en": "locales/en.json",
+    "hi": "locales/hi.json",
+    "gu": "locales/gu.json",
+    "ar": "locales/ar.json",
+    "ur": "locales/ur.json",
+    "fr": "locales/fr.json",
+    "de": "locales/de.json",
+    "es": "locales/es.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json",
+    "zh": "locales/zh.json"
+  }
+}

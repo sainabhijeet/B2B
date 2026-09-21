@@ -1,0 +1,16 @@
+{
+  "section": "hero-banner",
+  "presets": [
+    {
+      "id": "home",
+      "label": "localizationTest.presets.home",
+      "variant": "default",
+      "settings": {
+        "title": "localizationTest.home.hero.title",
+        "subtitle": "localizationTest.home.hero.subtitle",
+        "primaryCta": "localizationTest.home.hero.primaryCta",
+        "secondaryCta": "localizationTest.home.hero.secondaryCta"
+      }
+    }
+  ]
+}

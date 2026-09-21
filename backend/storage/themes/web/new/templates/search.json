@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Search", "nav": ["Home", "Categories", "Cart"], "showSearch": true } },
+    { "id": "search-results", "type": "search-results", "settings": { "title": "Search products", "placeholder": "Search products, brands, categories", "recent": ["serum", "dress", "lamp"], "popular": ["smart watch", "tote", "ceramic set"], "emptyTitle": "No matching products found" } },
+    { "id": "search-filters", "type": "filter-sidebar", "settings": { "title": "Refine results", "filters": ["Price", "Brand", "Rating", "Availability"] } },
+    { "id": "site-footer", "type": "footer-columns", "settings": { "logoText": "LumaCart", "columns": [{ "title": "Support", "links": [{ "label": "Help center", "url": "/support" }] }] } }
+  ]
+}

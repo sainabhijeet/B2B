@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Electra",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "product-detail",
+      "type": "product-detail",
+      "settings": {}
+    },
+    {
+      "id": "product-info",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Built for electrical project buyers",
+        "body": "Use MOQ, GST and pricing rules for contractor-grade products and repeat purchasing workflows.",
+        "image": "assets/images/project-process.svg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "Related electrical supplies",
+        "subtitle": "Recommended products from your live catalogue."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Electra", "links": ["Project support", "Safety checks"] },
+          { "heading": "Account", "links": ["Cart", "Orders", "Log in"] }
+        ]
+      }
+    }
+  ]
+}

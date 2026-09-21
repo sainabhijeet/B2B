@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "testimonial-carousel",
+  "title": "Testimonial Carousel",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "testimonials": { "type": "array", "items": { "type": "object" } }, "autoplay": { "type": "boolean" }, "interval": { "type": "number" }, "showRatings": { "type": "boolean" }, "showArrows": { "type": "boolean" } },
+  "additionalProperties": true
+}

@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "ATELIER", "showSearch": true, "showAccount": true, "showWishlist": true, "showCart": true, "sticky": true } },
+    { "id": "account-dashboard", "type": "account-dashboard", "settings": { "title": "Welcome back", "showOrders": true, "showAddresses": true, "showProfile": true, "showWishlist": true, "showRecommendations": true } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living.", "showNewsletter": false, "columns": [{ "title": "Account", "links": [{ "label": "Orders", "url": "/account/orders" }, { "label": "Addresses", "url": "/account/addresses" }] }], "socialLinks": [], "copyright": "© 2026 Atelier Commerce. All rights reserved." } }
+  ]
+}

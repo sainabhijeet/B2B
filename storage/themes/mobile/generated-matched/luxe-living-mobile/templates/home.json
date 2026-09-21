@@ -1,0 +1,89 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Luxe Living",
+        "nav": ["Home", "Rooms", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "variant": "app",
+      "settings": {
+        "title": "Premium furniture with showroom energy.",
+        "subtitle": "High contrast cards, polished imagery, and elegant room storytelling.",
+        "primaryCta": "Explore collection",
+        "image": "assets/images/hero.svg"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Curated luxury rooms",
+        "subtitle": "Discover furniture by space.",
+        "labels": ["Living", "Dining", "Bedroom", "Decor"],
+        "images": [
+          "assets/images/category-living.svg",
+          "assets/images/category-dining.svg",
+          "assets/images/category-bedroom.svg",
+          "assets/images/detail.svg"
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "The collection",
+        "title": "Signature pieces",
+        "subtitle": "Live items and pricing come from your catalogue.",
+        "labels": ["Marble console", "Velvet sectional", "Brass bookcase", "Material detail"],
+        "prices": ["₹42,900", "₹89,500", "₹36,800", "₹18,900"],
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "cartText": "Bag",
+        "stockText": "Available",
+        "addButtonText": "Add",
+        "quickAddText": "+1",
+        "priceUnavailableText": "Sign in for price",
+        "currencySymbol": "₹",
+        "fastOrderTitle": "Quick order",
+        "fastOrderSubtitle": "Add repeat items without leaving the collection."
+      }
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "Luxury room sets",
+        "subtitle": "Premium finishes and concierge-ready collections."
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-text",
+      "settings": {
+        "title": "Showroom-style selling",
+        "body": "A polished mobile experience for high-value furniture and decor.",
+        "image": "assets/images/detail.svg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "bottom-bar",
+      "settings": {
+        "items": ["Home", "Cart", "Orders", "Credit", "Settings", "Account"]
+      }
+    }
+  ]
+}

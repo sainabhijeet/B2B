@@ -1,0 +1,12 @@
+{
+  "variants": [
+    "twoColumn"
+  ],
+  "defaultVariant": "twoColumn",
+  "settings": {
+    "title": "string",
+    "subtitle": "string",
+    "items": "array",
+    "columns": 2
+  }
+}

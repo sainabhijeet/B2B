@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketPro",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Wishlist",
+          "Cart",
+          "Login"
+        ],
+        "industryName": "theme_content.premium-market-real.21d3f0975ee1"
+      }
+    },
+    {
+      "id": "related",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png"
+        ],
+        "title": "theme_content.premium-market-real.925a46fefcd1",
+        "subtitle": "theme_content.premium-market-real.9122756ed1cf"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Delivery",
+              "Payment",
+              "Returns",
+              "Contact"
+            ],
+            "heading": "theme_content.premium-market-real.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

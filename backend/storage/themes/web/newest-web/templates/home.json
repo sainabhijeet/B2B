@@ -1,0 +1,176 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Rooms",
+                                                      "Catalog",
+                                                      "Offers",
+                                                      "Cart",
+                                                      "Login"
+                                                  ],
+                                          "logoText":  "Luxe Living"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "secondaryCta":  "View rooms",
+                                          "secondaryHref":  "/category",
+                                          "title":  "Premium furniture with showroom energy.",
+                                          "primaryCta":  "Shop furniture",
+                                          "primaryHref":  "/product",
+                                          "subtitle":  "High contrast cards, polished hero imagery, and elegant room storytelling.",
+                                          "image":  "assets/images/hero.svg"
+                                      }
+                     },
+                     {
+                         "id":  "gallery",
+                         "type":  "image-gallery",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Lookbook"
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "promo-banner",
+                         "settings":  {
+                                          "subtitle":  "Built for fast catalog browsing, B2B ordering, and clean storefront previews.",
+                                          "title":  "Luxury room sets | Premium finishes | Concierge-ready catalog"
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-living.svg",
+                                                         "assets/images/category-dining.svg",
+                                                         "assets/images/category-bedroom.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Curated luxury rooms",
+                                          "subtitle":  "Different room collections with clear visual entry points."
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-text",
+                         "settings":  {
+                                          "title":  "Showroom-style selling",
+                                          "body":  "A premium layout for high-value furniture and decor collections.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.svg"
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Signature pieces",
+                                          "subtitle":  "These visuals are theme demo assets; live products come from tenant catalog."
+                                      }
+                     },
+                     {
+                         "id":  "benefits",
+                         "type":  "feature-list",
+                         "settings":  {
+                                          "items":  [
+                                                        {
+                                                            "icon":  "01",
+                                                            "title":  "Room-first discovery",
+                                                            "text":  "Guide buyers by living, dining, bedroom, office, and outdoor collections."
+                                                        },
+                                                        {
+                                                            "icon":  "02",
+                                                            "title":  "Large product visuals",
+                                                            "text":  "Designed to show materials, shapes, and catalog families clearly."
+                                                        },
+                                                        {
+                                                            "icon":  "03",
+                                                            "title":  "Trade order flow",
+                                                            "text":  "Works with tenant pricing, cart, orders, and invoice-ready checkout."
+                                                        }
+                                                    ],
+                                          "title":  "Buyer-friendly furniture commerce"
+                                      }
+                     },
+                     {
+                         "id":  "testimonials",
+                         "type":  "testimonial-carousel",
+                         "settings":  {
+                                          "items":  [
+                                                        {
+                                                            "quote":  "Clean room-based browsing made repeat furniture ordering much faster.",
+                                                            "author":  "Dealer partner"
+                                                        },
+                                                        {
+                                                            "quote":  "The catalog feels premium without slowing buyers down.",
+                                                            "author":  "Store owner"
+                                                        }
+                                                    ],
+                                          "title":  "Retailer notes"
+                                      }
+                     },
+                     {
+                         "id":  "newsletter",
+                         "type":  "newsletter",
+                         "settings":  {
+                                          "subtitle":  "Use this block for restocks, catalog updates, and trade offers.",
+                                          "emailPlaceholder":  "Enter your email",
+                                          "buttonText":  "Subscribe",
+                                          "title":  "Share seasonal furniture drops"
+                                      }
+                     },
+                     {
+                         "variant":  "columns",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "columns":  [
+                                                          {
+                                                              "heading":  "Shop",
+                                                              "links":  [
+                                                                            "Living",
+                                                                            "Dining",
+                                                                            "Bedroom",
+                                                                            "Office"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Account",
+                                                              "links":  [
+                                                                            "Login",
+                                                                            "Orders",
+                                                                            "Cart"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Support",
+                                                              "links":  [
+                                                                            "Shipping",
+                                                                            "Returns",
+                                                                            "Warranty"
+                                                                        ]
+                                                          }
+                                                      ]
+                                      }
+                     }
+                 ]
+}

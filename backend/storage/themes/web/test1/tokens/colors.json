@@ -1,0 +1,9 @@
+{
+  "background": "#FDF8EE",
+  "surface": "#F9F1E2",
+  "primary": "#111111",
+  "accent": "#111111",
+  "text": "#111111",
+  "mutedText": "#4A4A4A",
+  "border": "rgba(17, 17, 17, 0.1)"
+}

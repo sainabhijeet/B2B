@@ -1,0 +1,97 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RideGo",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "variant": "split-action",
+        "title": "Fast B2B ordering for every retail route.",
+        "subtitle": "A focused storefront for distributors: live catalog, retailer OTP login, MOQ-aware carts, and order flow built around daily trade.",
+        "primaryCta": "Browse catalog",
+        "secondaryCta": "Login with OTP",
+        "image": "assets/images/hero-route.svg"
+      }
+    },
+    {
+      "id": "operations-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "Live stock visibility | retailer-specific pricing | invoice-ready checkout",
+        "subtitle": "Designed for repeat buyers who need speed, clarity, and reliable order confirmation."
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by category",
+        "subtitle": "Help retailers jump straight into the product range they need."
+      }
+    },
+    {
+      "id": "catalog",
+      "type": "product-grid",
+      "settings": {
+        "variant": "dense-catalog",
+        "title": "Featured trade catalog",
+        "subtitle": "Products come from the tenant catalog and follow configured pricing at checkout."
+      }
+    },
+    {
+      "id": "features",
+      "type": "feature-grid",
+      "settings": {
+        "title": "Built for distributor workflows",
+        "items": [
+          { "title": "OTP retailer login", "text": "Retailers sign in with mobile and continue ordering without extra setup." },
+          { "title": "MOQ-aware cart", "text": "Minimum quantities and variants stay visible during purchase." },
+          { "title": "Order pipeline", "text": "Orders land in the distributor panel for processing and dispatch." }
+        ]
+      }
+    },
+    {
+      "id": "route-story",
+      "type": "image-text",
+      "settings": {
+        "title": "A storefront that feels like a sales route.",
+        "body": "Compact sections, clear catalog actions, and trade-first copy keep repeat buyers moving from search to order.",
+        "image": "assets/images/route-dashboard.svg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "trust",
+      "type": "trust-badges",
+      "settings": {
+        "items": ["Secure OTP", "GST-ready orders", "Credit-friendly flow", "Mobile catalog"]
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Keep retailers updated",
+        "subtitle": "Use this section for new arrivals, restock alerts, and monthly buying reminders."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Store", "links": ["Catalog", "Categories", "Offers"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] },
+          { "heading": "Distributor", "links": ["Contact", "Invoices", "Support"] }
+        ]
+      }
+    }
+  ]
+}

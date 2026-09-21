@@ -1,0 +1,10 @@
+{
+  "variants": ["default"],
+  "defaultVariant": "default",
+  "settings": {
+    "title": "string",
+    "subtitle": "string",
+    "ordersLabel": "string",
+    "profileLabel": "string"
+  }
+}

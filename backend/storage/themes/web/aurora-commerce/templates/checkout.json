@@ -1,0 +1,1 @@
+{"layout":"checkout","sections":[{"id":"header","type":"header"},{"id":"checkout","type":"product-tabs","settings":{"title":"checkout.title"}},{"id":"trust","type":"icon-list","settings":{"title":"checkout.trust"}},{"id":"footer","type":"footer"}]}

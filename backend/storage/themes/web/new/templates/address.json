@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Addresses", "nav": ["Profile", "Checkout", "Orders"] } },
+    { "id": "address-list", "type": "account-address", "settings": { "title": "Address list", "actions": ["Add address", "Edit", "Delete", "Set default"] } },
+    { "id": "address-empty", "type": "rich-text", "settings": { "title": "No saved addresses", "content": "Add an address for faster checkout." } }
+  ]
+}

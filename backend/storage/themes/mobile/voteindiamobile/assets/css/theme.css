@@ -1,0 +1,76 @@
+.theme-electra-power-services {
+  --theme-background: #f5f7fb;
+  --theme-surface: #ffffff;
+  --theme-primary: #07111f;
+  --theme-secondary: #f58216;
+  --theme-accent: #ffb13b;
+  --theme-text: #0d1828;
+  --theme-muted: #64748b;
+  --theme-border: rgba(7, 17, 31, 0.12);
+  --theme-primary-contrast: #ffffff;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="header"] header {
+  background: #07111f !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="header"] header a,
+.theme-electra-power-services .theme-section-root[data-section-type="header"] header nav {
+  color: #ffffff !important;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="hero-banner"] section {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(7, 17, 31, 0.94), rgba(7, 17, 31, 0.72) 44%, rgba(245, 130, 22, 0.18)),
+    radial-gradient(circle at 72% 50%, rgba(245, 130, 22, 0.28), transparent 32%),
+    #07111f !important;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="hero-banner"] section::after {
+  content: "";
+  position: absolute;
+  right: 8%;
+  bottom: -70px;
+  width: 170px;
+  height: 420px;
+  background: #f58216;
+  transform: skewX(-24deg);
+  opacity: 0.9;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="hero-banner"] h1 {
+  color: #ffffff !important;
+  font-size: clamp(2.4rem, 5vw, 4.9rem);
+  line-height: 0.95;
+  max-width: 720px;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="hero-banner"] p {
+  color: rgba(255, 255, 255, 0.82) !important;
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="hero-banner"] img {
+  border-radius: 0.5rem !important;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="icon-list"] li,
+.theme-electra-power-services .theme-section-root[data-section-type="product-grid"] article,
+.theme-electra-power-services .theme-section-root[data-section-type="category-grid"] a {
+  border-radius: 8px !important;
+  border-color: rgba(7, 17, 31, 0.1) !important;
+  box-shadow: 0 14px 32px rgba(7, 17, 31, 0.08);
+}
+
+.theme-electra-power-services .theme-section-root[data-section-type="cta-banner"] section {
+  background:
+    linear-gradient(90deg, rgba(7, 17, 31, 0.96), rgba(7, 17, 31, 0.82)),
+    repeating-linear-gradient(135deg, #f58216 0 14px, transparent 14px 30px) !important;
+}

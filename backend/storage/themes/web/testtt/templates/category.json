@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RideGo",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "category-banner",
+      "settings": {
+        "title": "Category catalog",
+        "subtitle": "Scan products, compare options, and add trade quantities quickly.",
+        "image": "assets/images/category-route.svg"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Refine catalog"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "variant": "dense-catalog",
+        "title": "Products in this category"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Store", "links": ["Catalog", "Categories", "Offers"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

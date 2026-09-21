@@ -1,0 +1,63 @@
+{
+  "version": "2.0",
+  "name": "Sarab Restaurant",
+  "storefrontKey": "sarab",
+  "industry": "food-restaurant",
+  "description": "A warm fast-food and restaurant commerce theme adapted from the MIT-licensed Sarab HTML template.",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header-basic",
+    "promo-banner",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "blog-grid",
+    "cta-banner",
+    "testimonial-carousel",
+    "newsletter",
+    "filter-sidebar",
+    "product-detail",
+    "related-products",
+    "footer-columns"
+  ],
+  "capabilities": {
+    "allowed_sections": [
+      "header-basic",
+      "promo-banner",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "blog-grid",
+      "cta-banner",
+      "testimonial-carousel",
+      "newsletter",
+      "filter-sidebar",
+      "product-detail",
+      "related-products",
+      "footer-columns"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json",
+    "radius": "tokens/radius.json",
+    "shadows": "tokens/shadows.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  },
+  "license": {
+    "name": "MIT",
+    "source": "https://themewagon.com/themes/sarab/",
+    "originalAuthor": "Bestwpware"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Shopping cart", "nav": ["Home", "Shop", "Checkout"], "showCart": true } },
+    { "id": "cart-items", "type": "cart-items", "settings": { "title": "Cart items", "showQuantity": true, "showRemove": true, "showWishlist": true } },
+    { "id": "cart-summary", "type": "cart-summary", "settings": { "title": "Order summary", "rows": ["Subtotal", "Delivery", "Taxes", "Savings", "Total"], "showCoupon": true, "checkoutLabel": "Checkout" } },
+    { "id": "cart-empty", "type": "rich-text", "settings": { "eyebrow": "Empty cart", "title": "Your cart is empty", "content": "Add items to begin checkout." } },
+    { "id": "cart-recommendations", "type": "cart-recommendations", "settings": { "title": "Recommended for you", "limit": 4, "images": ["assets/images/product-lamp.svg", "assets/images/product-serum.svg", "assets/images/product-bag.svg", "assets/images/product-dress.svg"] } }
+  ]
+}

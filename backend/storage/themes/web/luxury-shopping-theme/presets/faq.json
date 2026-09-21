@@ -1,0 +1,10 @@
+{
+  "section": "faq",
+  "presets": [
+    { "id": "accordion", "label": "Accordion", "variant": "accordion", "settings": { "eyebrow": "NEED TO KNOW", "title": "Frequently asked questions" } },
+    { "id": "two-column", "label": "Two Column", "variant": "two-column", "settings": { "eyebrow": "THE DETAILS", "title": "Good to know" } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Questions, answered." } },
+    { "id": "shipping", "label": "Shipping", "variant": "accordion", "settings": { "eyebrow": "SHIPPING & RETURNS", "title": "Everything about delivery" } },
+    { "id": "product", "label": "Product", "variant": "two-column", "settings": { "eyebrow": "ABOUT THE PIECES", "title": "Materials, care, and more" } }
+  ]
+}

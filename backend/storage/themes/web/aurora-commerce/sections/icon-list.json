@@ -1,0 +1,1 @@
+{"type":"icon-list","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"items":{"type":"array","item":"iconText"}},"defaultSettings":{"title":"home.value.title","items":"value.default"}}

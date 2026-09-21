@@ -1,0 +1,39 @@
+{
+  "name": "hero-banner",
+  "category": "hero",
+  "label": "Hero Banner",
+  "variants": ["center", "split", "slider", "video"],
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title"
+    },
+    {
+      "id": "subtitle",
+      "type": "textarea",
+      "label": "Subtitle"
+    },
+    {
+      "id": "background_image",
+      "type": "image",
+      "label": "Background Image"
+    },
+    {
+      "id": "buttonText",
+      "type": "text",
+      "label": "Button text",
+      "placeholder": "Shop now"
+    }
+  ],
+  "allowed_blocks": [
+    "heading",
+    "text",
+    "button",
+    "image",
+    "icon-text",
+    "spacer",
+    "divider",
+    "badge"
+  ]
+}

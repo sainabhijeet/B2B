@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "enterprise.brand.name",
+        "nav": [
+          "nav.home",
+          "nav.catalog",
+          "nav.about"
+        ]
+      }
+    },
+    {
+      "id": "contact",
+      "type": "rich-text",
+      "settings": {
+        "title": "contact.title",
+        "body": "contact.body"
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta-banner",
+      "settings": {
+        "title": "contact.cta.title",
+        "subtitle": "contact.cta.subtitle",
+        "buttonLabel": "actions.send_message",
+        "buttonHref": "/contact"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "footer.support",
+            "links": [
+              "nav.faq",
+              "footer.shipping",
+              "footer.returns"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

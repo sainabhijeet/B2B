@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap");
+
+:root {
+  --zales-bg: #fdf8ee;
+  --zales-surface: #f9f1e2;
+  --zales-text: #111111;
+  --zales-muted: #4a4a4a;
+}
+
+html,
+body {
+  background: var(--zales-bg);
+  color: var(--zales-text);
+  font-family: Montserrat, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Georgia, serif;
+}

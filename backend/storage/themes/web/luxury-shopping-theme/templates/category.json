@@ -1,0 +1,10 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "ATELIER", "showSearch": true, "showAccount": true, "showWishlist": true, "showCart": true, "sticky": true } },
+    { "id": "category-filters", "type": "filter-sidebar", "settings": { "title": "Filter by", "showSearch": true, "showPrice": true, "showBrand": true, "showAvailability": true, "collapsible": true } },
+    { "id": "category-products", "type": "product-grid", "variant": "four-column", "settings": { "eyebrow": "THE CONSIDERED EDIT", "title": "All pieces", "description": "Thoughtful objects for everyday living.", "collection": "all", "columns": 4, "limit": 12, "showFilters": true, "showSort": true, "showQuickAdd": true, "showRatings": true, "pagination": "load-more" } },
+    { "id": "category-carousel", "type": "product-carousel", "variant": "standard", "settings": { "eyebrow": "YOU MAY ALSO LIKE", "title": "Keep exploring", "collection": "recommended", "limit": 6, "autoplay": false, "showArrows": true } },
+    { "id": "category-promo", "type": "promo-banner", "variant": "dark", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "The inside track", "description": "Get first access to new collections and private edits.", "ctaLabel": "Join now", "ctaUrl": "/account/register", "theme": "dark", "image": "assets/images/promo-circle.svg" } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living.", "showNewsletter": false, "columns": [{ "title": "Shop", "links": [{ "label": "New arrivals", "url": "/collections/new-arrivals" }, { "label": "Best sellers", "url": "/collections/best-sellers" }] }, { "title": "Help", "links": [{ "label": "Contact", "url": "/pages/contact" }, { "label": "FAQ", "url": "/pages/faq" }] }], "socialLinks": [{ "label": "Instagram", "url": "https://instagram.com" }], "copyright": "© 2026 Atelier Commerce. All rights reserved." } }
+  ]
+}

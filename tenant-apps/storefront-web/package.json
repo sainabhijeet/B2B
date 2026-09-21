@@ -1,0 +1,35 @@
+{
+  "name": "@saas-platform/storefront-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "themes:sync": "node scripts/sync-uploaded-themes.mjs",
+    "themes:translations:audit": "node scripts/audit-theme-translations.mjs",
+    "predev": "npm run themes:sync",
+    "dev": "next dev -p 5175",
+    "prebuild": "npm run themes:sync",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "lucide-react": "^1.8.0",
+    "next": "^15.3.3",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.3.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

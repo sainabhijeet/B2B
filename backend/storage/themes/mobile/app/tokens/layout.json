@@ -1,0 +1,13 @@
+{
+  "container": "100%",
+  "gridColumns": 12,
+  "breakpoints": {
+    "mobile": "576px",
+    "tablet": "768px",
+    "laptop": "992px",
+    "desktop": "1200px"
+  },
+  "imageAspectRatio": "4 / 5",
+  "bottomNavigation": true,
+  "touchTarget": "44px"
+}

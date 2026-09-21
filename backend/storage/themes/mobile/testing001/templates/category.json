@@ -1,0 +1,48 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "Browse B2B Categories",
+        "subtitle": "Find products by category, brand, pack size, or offer.",
+        "image": "assets/images/banners/new_collection.svg"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "All categories",
+        "subtitle": "Organized for fast mobile ordering.",
+        "images": [
+          "assets/images/categories/grocery.svg",
+          "assets/images/categories/dairy.svg",
+          "assets/images/categories/bakery.svg",
+          "assets/images/categories/beverages.svg",
+          "assets/images/categories/snacks.svg",
+          "assets/images/categories/household.svg"
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "type": "recommended-products",
+      "settings": {
+        "title": "Category products",
+        "subtitle": "Relevant products appear from catalog data.",
+        "images": [
+          "assets/images/products/milk.svg",
+          "assets/images/products/salt.svg",
+          "assets/images/products/biscuits.svg",
+          "assets/images/products/bread.svg",
+          "assets/images/products/beverage.svg",
+          "assets/images/products/detergent.svg"
+        ],
+        "addButtonText": "Add",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "Rs"
+      }
+    }
+  ]
+}

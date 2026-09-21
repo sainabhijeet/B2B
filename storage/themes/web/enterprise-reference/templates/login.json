@@ -1,0 +1,1 @@
+{"sections":[{"id":"header","type":"header","settings":{"logoText":"enterprise.brand.name","nav":["nav.home","nav.register"]}},{"id":"login","type":"rich-text","settings":{"title":"auth.login.title","body":"auth.login.body"}}]}

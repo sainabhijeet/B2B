@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "ATELIER", "showSearch": true, "showAccount": true, "showWishlist": true, "showCart": true, "sticky": true } },
+    { "id": "search-results", "type": "search-results", "settings": { "eyebrow": "SEARCH ATELIER", "title": "Find something considered", "placeholder": "Search products, brands, and stories", "columns": 4, "limit": 12, "showFilters": true, "showSort": true, "showQuickAdd": true } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living.", "showNewsletter": false, "columns": [{ "title": "Shop", "links": [{ "label": "New arrivals", "url": "/collections/new-arrivals" }, { "label": "All pieces", "url": "/collections/all" }] }], "socialLinks": [], "copyright": "© 2026 Atelier Commerce. All rights reserved." } }
+  ]
+}

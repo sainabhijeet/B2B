@@ -1,0 +1,21 @@
+{
+  "font_family": "Roboto",
+  "scale": {
+    "display": {
+      "size": 30,
+      "weight": 800
+    },
+    "title": {
+      "size": 18,
+      "weight": 800
+    },
+    "body": {
+      "size": 14,
+      "weight": 500
+    },
+    "label": {
+      "size": 12,
+      "weight": 800
+    }
+  }
+}

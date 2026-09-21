@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "enterprise.brand.name",
+        "nav": [
+          "nav.home",
+          "nav.account",
+          "nav.cart"
+        ]
+      }
+    },
+    {
+      "id": "orders",
+      "type": "account-dashboard",
+      "settings": {
+        "title": "orders.title"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "footer.support",
+            "links": [
+              "nav.contact",
+              "footer.shipping"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

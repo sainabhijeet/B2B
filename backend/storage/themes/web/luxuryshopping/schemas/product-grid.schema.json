@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "product-grid",
+  "title": "Product Grid",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }, "collection": { "type": "string" }, "columns": { "type": "number", "minimum": 1, "maximum": 6 }, "limit": { "type": "number", "minimum": 1 }, "showFilters": { "type": "boolean" }, "showSort": { "type": "boolean" }, "showQuickAdd": { "type": "boolean" }, "showRatings": { "type": "boolean" }, "pagination": { "type": "string" } },
+  "additionalProperties": true
+}

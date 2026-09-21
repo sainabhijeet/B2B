@@ -1,0 +1,23 @@
+{
+  "id": "marketing-landing",
+  "name": "Marketing landing",
+  "description": "Hero CTA + trust + FAQ",
+  "sections": [
+    {
+      "type": "hero-banner",
+      "variant": "split",
+      "blocks": [
+        { "type": "heading", "settings": { "text": "Limited offer", "level": "2" } },
+        { "type": "button", "settings": { "text": "Get quote", "url": "#" } }
+      ]
+    },
+    { "type": "promo-banner" },
+    {
+      "type": "faq",
+      "blocks": [
+        { "type": "heading", "settings": { "text": "FAQs", "level": "3" } },
+        { "type": "text", "settings": { "body": "Contact your distributor for terms." } }
+      ]
+    }
+  ]
+}

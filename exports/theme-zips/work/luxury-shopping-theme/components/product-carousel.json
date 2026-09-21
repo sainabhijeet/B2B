@@ -1,0 +1,9 @@
+{
+  "name": "product-carousel",
+  "label": "Product Carousel",
+  "category": "products",
+  "variants": ["standard", "dark", "compact"],
+  "defaultVariant": "standard",
+  "settings": { "eyebrow": "", "title": "", "description": "", "collection": "", "limit": 6, "autoplay": false, "showArrows": true, "showQuickAdd": true, "slidesPerView": 4 },
+  "presets": [{ "id": "standard", "label": "Standard", "variant": "standard" }, { "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "compact", "label": "Compact", "variant": "compact" }]
+}

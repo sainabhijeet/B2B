@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="620" viewBox="0 0 960 620" role="img" aria-label="Route commerce dashboard illustration">
+  <rect width="960" height="620" rx="32" fill="#edf3f8"/>
+  <path d="M98 415C188 282 268 452 376 318C491 176 588 345 712 210C780 136 835 132 892 158" fill="none" stroke="#0f9f6e" stroke-width="18" stroke-linecap="round"/>
+  <rect x="96" y="90" width="350" height="236" rx="18" fill="#102a43"/>
+  <rect x="126" y="126" width="170" height="18" rx="9" fill="#ffffff" opacity=".9"/>
+  <rect x="126" y="168" width="260" height="14" rx="7" fill="#ffffff" opacity=".55"/>
+  <rect x="126" y="204" width="110" height="64" rx="12" fill="#0f9f6e"/>
+  <rect x="254" y="204" width="110" height="64" rx="12" fill="#f59e0b"/>
+  <rect x="500" y="130" width="328" height="360" rx="24" fill="#ffffff"/>
+  <rect x="536" y="174" width="220" height="16" rx="8" fill="#102a43"/>
+  <rect x="536" y="220" width="248" height="70" rx="14" fill="#edf3f8"/>
+  <rect x="536" y="312" width="248" height="70" rx="14" fill="#edf3f8"/>
+  <rect x="536" y="404" width="160" height="38" rx="10" fill="#0f9f6e"/>
+</svg>

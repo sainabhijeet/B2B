@@ -1,0 +1,9 @@
+{
+  "name": "rich-text",
+  "label": "Rich Text",
+  "category": "content",
+  "variants": ["centered", "editorial", "narrow"],
+  "defaultVariant": "narrow",
+  "settings": { "eyebrow": "string", "title": "string", "content": "string", "align": "string", "maxWidth": "number", "showDivider": "boolean" },
+  "presets": [{ "id": "centered", "label": "Centered", "variant": "centered" }, { "id": "editorial", "label": "Editorial", "variant": "editorial" }, { "id": "narrow", "label": "Narrow", "variant": "narrow" }]
+}

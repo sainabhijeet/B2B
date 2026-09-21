@@ -1,0 +1,8 @@
+{
+  "name": "Shop",
+  "route": "/shop",
+  "sections": [
+    { "type": "page-hero", "source": "src/pages/Shop.vue" },
+    { "type": "product-listing", "source": "src/pages/Shop.vue", "settings": { "search": true, "categoryFilter": true, "sort": true } }
+  ]
+}

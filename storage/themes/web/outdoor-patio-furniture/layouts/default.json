@@ -1,0 +1,15 @@
+{
+  "name": "enterprise-default",
+  "regions": [
+    "header",
+    "main",
+    "footer"
+  ],
+  "responsive": {
+    "mobile": "stack",
+    "tablet": "compact-grid",
+    "desktop": "wide-grid"
+  },
+  "rtl": true,
+  "darkMode": true
+}

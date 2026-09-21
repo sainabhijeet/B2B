@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Stage sofa">
+  <rect width="900" height="620" fill="#f3f4f6"/>
+  <circle cx="760" cy="120" r="130" fill="#475569" opacity=".18"/>
+  <circle cx="104" cy="510" r="145" fill="#f97316" opacity=".18"/>
+  <g transform="translate(130 46)">
+    <rect x="38" y="38" width="570" height="500" rx="46" fill="#ffffff" opacity=".74"/>
+    <rect x="76" y="84" width="494" height="408" rx="34" fill="#ffffff" opacity=".52"/>
+    <rect x='210' y='160' width='205' height='210' rx='34' fill='#475569'/><rect x='180' y='265' width='265' height='88' rx='30' fill='#f97316'/><path d='M214 354 L174 450 M412 354 L452 450' stroke='#1f2937' stroke-width='18' stroke-linecap='round'/><rect x='250' y='198' width='126' height='44' rx='18' fill='#ffffff' opacity='.65'/>
+  </g>
+  <text x="62" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">Stage sofa</text>
+  <text x="64" y="122" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Featured catalog item</text>
+</svg>

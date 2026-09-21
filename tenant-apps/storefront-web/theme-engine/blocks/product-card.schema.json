@@ -1,0 +1,23 @@
+{
+  "name": "product-card",
+  "label": "Product highlight",
+  "settings": [
+    {
+      "id": "product_slug",
+      "type": "text",
+      "label": "Product slug or SKU",
+      "placeholder": "gold-chain-22k"
+    },
+    {
+      "id": "show_price",
+      "type": "boolean",
+      "label": "Show price",
+      "default": true
+    },
+    {
+      "id": "title_override",
+      "type": "text",
+      "label": "Title override (optional)"
+    }
+  ]
+}

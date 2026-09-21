@@ -1,0 +1,76 @@
+{
+  "name": "Luxe Living Furniture Mobile",
+  "version": "2.0.0",
+  "storefrontKey": "luxe-living-mobile",
+  "industry": "furniture",
+  "description": "Premium mobile furniture commerce matched to the Luxe Living web storefront.",
+  "mobile": {
+    "base_layout": "grid",
+    "card_style": "rounded",
+    "spacing": "comfortable",
+    "show_banner": true,
+    "enable_quick_qty": false
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "campaign-banner",
+    "promo-banner",
+    "category-grid",
+    "filter-sidebar",
+    "cta-banner",
+    "featured-products",
+    "product-grid",
+    "image-with-text",
+    "image-text",
+    "gallery",
+    "product-detail",
+    "related-products",
+    "faq",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "footer"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "campaign-banner",
+      "promo-banner",
+      "category-grid",
+      "filter-sidebar",
+      "cta-banner",
+      "featured-products",
+      "product-grid",
+      "image-with-text",
+      "image-text",
+      "gallery",
+      "product-detail",
+      "related-products",
+      "faq",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "footer"
+    ],
+    "variants": {
+      "hero-banner": ["app"],
+      "footer": ["bottom-bar"]
+    }
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "layout": "tokens/layout.json",
+    "spacing": "tokens/spacing.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

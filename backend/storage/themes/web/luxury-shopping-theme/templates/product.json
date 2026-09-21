@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "ATELIER", "showSearch": true, "showAccount": true, "showWishlist": true, "showCart": true, "sticky": true } },
+    { "id": "product-gallery", "type": "product-gallery", "settings": { "layout": "grid", "zoom": true, "showThumbnails": true, "imageFit": "cover", "mediaRatio": "square" } },
+    { "id": "product-detail", "type": "product-detail", "settings": { "showBreadcrumbs": true, "showShare": true, "showReviews": true, "showDescription": true, "showShipping": true } },
+    { "id": "product-info", "type": "product-info", "settings": { "showVendor": true, "showPrice": true, "showCompareAt": true, "showVariants": true, "showQuantity": true, "showAddToCart": true, "showBuyNow": true, "sticky": true } },
+    { "id": "related-products", "type": "related-products", "settings": { "eyebrow": "COMPLETE THE RITUAL", "title": "You may also like", "limit": 4, "showQuickAdd": true, "showRatings": true } },
+    { "id": "product-newsletter", "type": "newsletter", "variant": "light", "settings": { "eyebrow": "THE ATELIER LETTER", "title": "Stay in the know", "description": "New arrivals and considered stories, occasionally.", "placeholder": "Your email address", "buttonLabel": "Subscribe", "consentText": "By subscribing, you agree to receive Atelier updates.", "theme": "light" } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living.", "showNewsletter": false, "columns": [{ "title": "Shop", "links": [{ "label": "New arrivals", "url": "/collections/new-arrivals" }, { "label": "Gifting", "url": "/collections/gifting" }] }, { "title": "Help", "links": [{ "label": "Contact", "url": "/pages/contact" }, { "label": "Shipping & returns", "url": "/pages/shipping" }] }], "socialLinks": [{ "label": "Instagram", "url": "https://instagram.com" }], "copyright": "© 2026 Atelier Commerce. All rights reserved." } }
+  ]
+}

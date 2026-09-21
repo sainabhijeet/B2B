@@ -1,0 +1,88 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Cart",
+                                                      "Orders"
+                                                  ],
+                                          "logoText":  "GadgetHub"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Electronics catalog for quick comparison.",
+                                          "primaryCta":  "Compare deals",
+                                          "subtitle":  "List-first mobile selling for phones, accessories, and devices.",
+                                          "image":  "assets/images/hero.png"
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "deal-of-the-day",
+                         "settings":  {
+                                          "subtitle":  "Optimized for mobile selling, repeat carts, and fast checkout.",
+                                          "title":  "Deal-focused selling for gadgets"
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-01.png",
+                                                         "assets/images/category-02.png",
+                                                         "assets/images/category-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Shop devices",
+                                          "subtitle":  "Quick paths for mobile buyers."
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "trending-products",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Tech picks",
+                                          "subtitle":  "Demo visuals are included; tenant products render from catalog data."
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Specs stay scannable",
+                                          "body":  "Compact rows make it easier to scan models, stock, and pricing.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.png"
+                                      }
+                     },
+                     {
+                         "variant":  "bottom-bar",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "items":  [
+                                                        "Home",
+                                                        "Cart",
+                                                        "Orders",
+                                                        "Credit",
+                                                        "Settings",
+                                                        "Auth"
+                                                    ]
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Distributor storefront route dashboard">
+  <rect width="900" height="560" rx="30" fill="#102a43"/>
+  <rect x="70" y="72" width="760" height="72" rx="16" fill="#ffffff" opacity=".95"/>
+  <rect x="100" y="100" width="180" height="16" rx="8" fill="#102a43"/>
+  <rect x="640" y="92" width="150" height="32" rx="8" fill="#0f9f6e"/>
+  <rect x="70" y="184" width="220" height="260" rx="18" fill="#ffffff"/>
+  <rect x="340" y="184" width="220" height="260" rx="18" fill="#ffffff"/>
+  <rect x="610" y="184" width="220" height="260" rx="18" fill="#ffffff"/>
+  <circle cx="180" cy="265" r="46" fill="#edf3f8"/>
+  <circle cx="450" cy="265" r="46" fill="#edf3f8"/>
+  <circle cx="720" cy="265" r="46" fill="#edf3f8"/>
+  <rect x="112" y="342" width="136" height="14" rx="7" fill="#102a43"/>
+  <rect x="382" y="342" width="136" height="14" rx="7" fill="#102a43"/>
+  <rect x="652" y="342" width="136" height="14" rx="7" fill="#102a43"/>
+  <rect x="112" y="382" width="100" height="34" rx="8" fill="#f59e0b"/>
+  <rect x="382" y="382" width="100" height="34" rx="8" fill="#0f9f6e"/>
+  <rect x="652" y="382" width="100" height="34" rx="8" fill="#f59e0b"/>
+</svg>

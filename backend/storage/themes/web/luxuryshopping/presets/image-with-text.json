@@ -1,0 +1,10 @@
+{
+  "section": "image-with-text",
+  "presets": [
+    { "id": "image-right", "label": "Image Right", "variant": "image-right", "settings": { "eyebrow": "DESIGNED TO LAST", "title": "The beauty of less, done well." } },
+    { "id": "image-left", "label": "Image Left", "variant": "image-left", "settings": { "eyebrow": "THE MATERIAL EDIT", "title": "Texture tells the story." } },
+    { "id": "stacked", "label": "Stacked", "variant": "stacked", "settings": { "eyebrow": "OUR PRINCIPLES", "title": "Fewer, better things." } },
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "Good things are better shared." } },
+    { "id": "story", "label": "Story", "variant": "image-right", "settings": { "eyebrow": "THE STORY BEHIND THE OBJECT", "title": "Made for everyday rituals." } }
+  ]
+}

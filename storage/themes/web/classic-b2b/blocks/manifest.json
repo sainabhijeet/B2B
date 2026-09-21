@@ -1,0 +1,14 @@
+{
+  "blocks": [
+    "heading",
+    "text",
+    "button",
+    "image",
+    "product-card",
+    "category-card",
+    "badge",
+    "icon-text",
+    "divider",
+    "spacer"
+  ]
+}

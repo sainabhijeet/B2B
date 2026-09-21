@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RideGo",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "Orders",
+          "theme_content.ridego-commerce.c189840cf7e2"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "variant": "split-action",
+        "image": "assets/images/hero-route.svg",
+        "title": "theme_content.ridego-commerce.1c9c19293629",
+        "subtitle": "theme_content.ridego-commerce.98adc86d8515",
+        "primaryCta": "theme_content.ridego-commerce.4d05dc6da837",
+        "secondaryCta": "theme_content.ridego-commerce.5f58a2516c95"
+      }
+    },
+    {
+      "id": "operations-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "theme_content.ridego-commerce.e8ba952fec3e",
+        "subtitle": "theme_content.ridego-commerce.8e97ce5186db"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "theme_content.ridego-commerce.a9dbe2a0f2ab",
+        "subtitle": "theme_content.ridego-commerce.ae426f5ee529"
+      }
+    },
+    {
+      "id": "catalog",
+      "type": "product-grid",
+      "settings": {
+        "variant": "dense-catalog",
+        "title": "theme_content.ridego-commerce.fcff74edec64",
+        "subtitle": "theme_content.ridego-commerce.61d9d9603577"
+      }
+    },
+    {
+      "id": "features",
+      "type": "feature-grid",
+      "settings": {
+        "items": [
+          {
+            "title": "theme_content.ridego-commerce.e82d2809fb4c",
+            "text": "theme_content.ridego-commerce.95ba88bd67eb"
+          },
+          {
+            "title": "theme_content.ridego-commerce.ea62623d78fd",
+            "text": "theme_content.ridego-commerce.59b1826c6207"
+          },
+          {
+            "title": "theme_content.ridego-commerce.99f5b3c3e08a",
+            "text": "theme_content.ridego-commerce.a93b7af9cb55"
+          }
+        ],
+        "title": "theme_content.ridego-commerce.007ab9828fb6"
+      }
+    },
+    {
+      "id": "route-story",
+      "type": "image-text",
+      "settings": {
+        "image": "assets/images/route-dashboard.svg",
+        "imagePosition": "right",
+        "title": "theme_content.ridego-commerce.a4eda3686ea0",
+        "body": "theme_content.ridego-commerce.9a0df3e1377d"
+      }
+    },
+    {
+      "id": "trust",
+      "type": "trust-badges",
+      "settings": {
+        "items": [
+          "theme_content.ridego-commerce.39d084d4a51f",
+          "theme_content.ridego-commerce.4c6bdbccdfcb",
+          "theme_content.ridego-commerce.087be64c92ca",
+          "theme_content.ridego-commerce.8748b4d4a06f"
+        ]
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "theme_content.ridego-commerce.172e28e1ec4c",
+        "subtitle": "theme_content.ridego-commerce.bcd1d096631e"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Catalog",
+              "Categories",
+              "Offers"
+            ],
+            "heading": "theme_content.ridego-commerce.ee7da936b5cb"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.ridego-commerce.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Contact",
+              "Invoices",
+              "Support"
+            ],
+            "heading": "theme_content.ridego-commerce.2e5cbb2d326a"
+          }
+        ]
+      }
+    }
+  ]
+}

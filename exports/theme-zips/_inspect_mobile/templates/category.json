@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "id": "header", "type": "header", "settings": { "logoText": "eGadget", "industryName": "Appliances", "nav": ["Home", "Categories", "Catalog", "Cart"] } },
+    { "id": "categories", "type": "category-grid", "settings": { "title": "Browse appliance categories", "subtitle": "Find the right appliance family quickly.", "images": ["assets/images/category-cooking.svg", "assets/images/category-refrigeration.svg", "assets/images/category-laundry.svg", "assets/images/category-smart.svg"] } },
+    { "id": "products", "type": "product-grid", "settings": { "title": "Category products", "subtitle": "Live products render from the tenant catalog.", "images": ["assets/images/product-fridge.svg", "assets/images/product-microwave.svg", "assets/images/product-oven.svg"] } },
+    { "id": "footer", "type": "footer", "variant": "columns", "settings": { "columns": [{ "heading": "Shop", "links": ["Cooking", "Refrigeration", "Laundry"] }, { "heading": "Account", "links": ["Orders", "Cart"] }] } }
+  ]
+}

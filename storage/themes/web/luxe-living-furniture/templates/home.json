@@ -1,0 +1,172 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Rooms",
+          "Catalog",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.luxe-living-furniture.39adfe7b1d8c"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero.svg",
+        "secondaryCta": "theme_content.luxe-living-furniture.9382763ce2ee",
+        "title": "theme_content.luxe-living-furniture.def58c6773dd",
+        "primaryCta": "theme_content.luxe-living-furniture.5c0ac6036257",
+        "subtitle": "theme_content.luxe-living-furniture.dfa4a500a103"
+      }
+    },
+    {
+      "id": "gallery",
+      "type": "image-gallery",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.luxe-living-furniture.95172d59c092"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "campaign-banner",
+      "settings": {
+        "subtitle": "theme_content.luxe-living-furniture.eca91510b714",
+        "title": "theme_content.luxe-living-furniture.071210703e39"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-living.svg",
+          "assets/images/category-dining.svg",
+          "assets/images/category-bedroom.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.luxe-living-furniture.06d8a2e14f4a",
+        "subtitle": "theme_content.luxe-living-furniture.373ea1cebcdf"
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-with-text",
+      "settings": {
+        "imagePosition": "right",
+        "image": "assets/images/detail.svg",
+        "title": "theme_content.luxe-living-furniture.e14196d5c3f0",
+        "body": "theme_content.luxe-living-furniture.24c22f107f49"
+      }
+    },
+    {
+      "id": "products",
+      "type": "featured-products",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.luxe-living-furniture.00ce0d537d1c",
+        "subtitle": "theme_content.luxe-living-furniture.d81cd92267d4"
+      }
+    },
+    {
+      "id": "benefits",
+      "type": "icon-list",
+      "settings": {
+        "items": [
+          {
+            "icon": "01",
+            "title": "theme_content.luxe-living-furniture.17e649a19996",
+            "text": "theme_content.luxe-living-furniture.469c0a800c6e"
+          },
+          {
+            "icon": "02",
+            "title": "theme_content.luxe-living-furniture.7806d236374a",
+            "text": "theme_content.luxe-living-furniture.09f74aa2ee49"
+          },
+          {
+            "icon": "03",
+            "title": "theme_content.luxe-living-furniture.e4e888534a4f",
+            "text": "theme_content.luxe-living-furniture.57fdd81e2149"
+          }
+        ],
+        "title": "theme_content.luxe-living-furniture.dcaa198b6c74"
+      }
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonial-slider",
+      "settings": {
+        "items": [
+          {
+            "quote": "theme_content.luxe-living-furniture.411f542ecd06",
+            "author": "theme_content.luxe-living-furniture.057736b7aecd"
+          },
+          {
+            "quote": "theme_content.luxe-living-furniture.3938d938c359",
+            "author": "theme_content.luxe-living-furniture.d3d56dfb8d01"
+          }
+        ],
+        "title": "theme_content.luxe-living-furniture.ea1407533ce3"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "subtitle": "theme_content.luxe-living-furniture.1b0a584a5aa9",
+        "title": "theme_content.luxe-living-furniture.55e3806a08dd"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Living",
+              "Dining",
+              "Bedroom",
+              "Office"
+            ],
+            "heading": "theme_content.luxe-living-furniture.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.luxe-living-furniture.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Warranty"
+            ],
+            "heading": "theme_content.luxe-living-furniture.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

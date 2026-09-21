@@ -1,0 +1,85 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Lymin",
+        "logoImageUrl": "assets/images/logo-lymin.svg",
+        "industryName": "DELIVER TO : Choose Location",
+        "nav": ["All", "Grocery", "Fashion", "Electronics", "Kids & Toys", "Beauty", "Furniture", "Mobiles", "Gifts", "Sports", "Kitchen", "Health", "Automotive"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Smart tech. Better life.",
+        "title": "Upgrade your world",
+        "subtitle": "Top brands, latest technology, best prices",
+        "image": "assets/images/hero-tech-festive.svg"
+      }
+    },
+    {
+      "id": "spotlight",
+      "type": "category-grid",
+      "settings": {
+        "title": "In Spotlight",
+        "subtitle": "Top picks just for you",
+        "images": [
+          "assets/images/spotlight-computers.svg",
+          "assets/images/spotlight-appliances.svg",
+          "assets/images/spotlight-decor.svg",
+          "assets/images/spotlight-sale.svg",
+          "assets/images/spotlight-toys.svg",
+          "assets/images/spotlight-care.svg",
+          "assets/images/spotlight-health.svg"
+        ]
+      }
+    },
+    {
+      "id": "popular",
+      "type": "product-grid",
+      "settings": {
+        "title": "Popular Categories",
+        "subtitle": "Daily marketplace favorites",
+        "images": [
+          "assets/images/product-grocery.svg",
+          "assets/images/product-dental.svg",
+          "assets/images/product-diapers.svg",
+          "assets/images/product-kitchen.svg",
+          "assets/images/product-cleaning.svg",
+          "assets/images/product-personal-care.svg",
+          "assets/images/product-snacks.svg",
+          "assets/images/product-home.svg"
+        ]
+      }
+    },
+    {
+      "id": "electronics",
+      "type": "product-grid",
+      "settings": {
+        "title": "Electronics Deals",
+        "subtitle": "Phones, laptops, wearables, and headphones",
+        "images": [
+          "assets/images/product-phone.svg",
+          "assets/images/product-laptop.svg",
+          "assets/images/product-watch.svg",
+          "assets/images/product-headphones.svg"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["All", "Grocery", "Electronics", "Home"] },
+          { "heading": "Support", "links": ["Delivery", "Payments", "Returns"] },
+          { "heading": "Account", "links": ["Sign in", "Cart", "Orders"] }
+        ]
+      }
+    }
+  ]
+}

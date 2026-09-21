@@ -1,0 +1,11 @@
+{
+  "variant": "split",
+  "settings": [
+    {
+      "id": "image_on_right",
+      "type": "boolean",
+      "label": "Image on right",
+      "default": false
+    }
+  ]
+}

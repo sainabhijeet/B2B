@@ -1,0 +1,1 @@
+{"type":"footer","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"columns":{"type":"array","item":"linkGroup"},"socialLinks":{"type":"socialLinks"}},"defaultSettings":{"title":"footer.title","columns":"footer.default_columns","socialLinks":"settings.social_links"}}

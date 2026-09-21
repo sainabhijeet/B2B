@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Product details", "nav": ["Home", "Products", "Cart", "Wishlist"], "showSearch": true, "showCart": true } },
+    { "id": "product-gallery", "type": "product-gallery", "settings": { "title": "Product image gallery", "showZoom": true, "images": ["assets/images/product-dress.svg", "assets/images/product-bag.svg", "assets/images/product-serum.svg"] } },
+    { "id": "product-info", "type": "product-info", "settings": { "title": "Silk Wrap Dress", "brand": "Aura", "rating": "4.9", "reviews": "842 reviews", "price": "$248", "mrp": "$320", "discount": "22% off", "stock": "Available", "actions": ["Add to cart", "Buy now", "Wishlist", "Share"], "delivery": "Check pincode for delivery" } },
+    { "id": "product-detail", "type": "product-detail", "settings": { "title": "Product information", "tabs": ["Description", "Specifications", "Features", "Reviews"], "showReviews": true, "showSpecifications": true } },
+    { "id": "product-bundle", "type": "related-products", "settings": { "title": "Frequently bought together", "limit": 3, "images": ["assets/images/product-serum.svg", "assets/images/product-bag.svg", "assets/images/product-scarf.svg"] } },
+    { "id": "product-related", "type": "related-products", "settings": { "title": "Related products", "limit": 4, "images": ["assets/images/product-lamp.svg", "assets/images/product-shirt.svg", "assets/images/product-ceramic.svg", "assets/images/product-jacket.svg"] } },
+    { "id": "site-footer", "type": "footer-columns", "settings": { "logoText": "LumaCart", "columns": [{ "title": "Product help", "links": [{ "label": "Delivery", "url": "/support" }, { "label": "Returns", "url": "/support" }, { "label": "FAQ", "url": "/support" }] }] } }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+    "name":  "Urban Loft Furniture",
+    "version":  "2.0.0",
+    "storefrontKey":  "urban-loft-furniture",
+    "industry":  "furniture",
+    "description":  "Concrete tones, compact layouts, and bold product cards for city homes.",
+    "allowedSections":  [
+                            "header",
+                            "hero-banner",
+                            "hero-split",
+                            "promo-banner",
+                            "offer-strip",
+                            "campaign-banner",
+                            "seasonal-sale",
+                            "deal-of-the-day",
+                            "category-grid",
+                            "filter-sidebar",
+                            "product-grid",
+                            "featured-products",
+                            "new-arrivals",
+                            "best-sellers",
+                            "trending-products",
+                            "recommended-products",
+                            "related-products",
+                            "product-carousel",
+                            "product-slider",
+                            "product-gallery",
+                            "product-info",
+                            "image-with-text",
+                            "image-gallery",
+                            "brand-slider",
+                            "testimonial-slider",
+                            "cta-banner",
+                            "newsletter",
+                            "faq-section",
+                            "rich-text",
+                            "icon-list",
+                            "divider",
+                            "spacer",
+                            "footer"
+                        ],
+    "capabilities":  {
+                         "variants":  {
+                                          "hero-banner":  [
+                                                              "default"
+                                                          ],
+                                          "footer":  [
+                                                         "columns"
+                                                     ]
+                                      },
+                         "allowedSections":  [
+                                                 "header",
+                                                 "hero-banner",
+                                                 "hero-split",
+                                                 "promo-banner",
+                                                 "offer-strip",
+                                                 "campaign-banner",
+                                                 "seasonal-sale",
+                                                 "deal-of-the-day",
+                                                 "category-grid",
+                                                 "filter-sidebar",
+                                                 "product-grid",
+                                                 "featured-products",
+                                                 "new-arrivals",
+                                                 "best-sellers",
+                                                 "trending-products",
+                                                 "recommended-products",
+                                                 "related-products",
+                                                 "product-carousel",
+                                                 "product-slider",
+                                                 "product-gallery",
+                                                 "product-info",
+                                                 "image-with-text",
+                                                 "image-gallery",
+                                                 "brand-slider",
+                                                 "testimonial-slider",
+                                                 "cta-banner",
+                                                 "newsletter",
+                                                 "faq-section",
+                                                 "rich-text",
+                                                 "icon-list",
+                                                 "divider",
+                                                 "spacer",
+                                                 "footer"
+                                             ]
+                     },
+    "templates":  {
+                      "category":  "templates/category.json",
+                      "product":  "templates/product.json",
+                      "home":  "templates/home.json"
+                  },
+    "tokens":  {
+                   "typography":  "tokens/typography.json",
+                   "layout":  "tokens/layout.json",
+                   "spacing":  "tokens/spacing.json",
+                   "colors":  "tokens/colors.json"
+               },
+    "assets":  {
+                   "css":  "assets/css/theme.css"
+               }
+}

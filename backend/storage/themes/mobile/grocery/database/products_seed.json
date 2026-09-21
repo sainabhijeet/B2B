@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "prod-tata-salt-1kg",
+    "name": "Tata Salt 1kg",
+    "brand": "Tata",
+    "brand_id": "brand-tata",
+    "sku": "GRO-0001",
+    "barcode": "8901000000000",
+    "category_id": "cat-sugar-salt",
+    "category": "sugar-salt",
+    "subcategory_id": "sub-iodised-salt",
+    "subcategory": "Iodised Salt",
+    "image_url": "assets/products/tata-salt-1kg.svg",
+    "thumbnail_url": "assets/products/tata-salt-1kg.svg",
+    "gallery_images": [
+      "assets/products/tata-salt-1kg.svg",
+      "assets/products/tata-salt-1kg-case.svg"
+    ],
+    "unit": "kg",
+    "pack_size": "1 kg pouch",
+    "moq": 24,
+    "stock_quantity": 960,
+    "stock": 960,
+    "mrp": 28,
+    "price": 21.75,
+    "wholesale_price": 21.75,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 21.75,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 21.1,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 20.45,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Tata Salt 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "24 kgs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-aashirvaad-shudh-chakki-atta-10kg",
+    "name": "Aashirvaad Shudh Chakki Atta 10kg",
+    "brand": "Aashirvaad",
+    "brand_id": "brand-aashirvaad",
+    "sku": "GRO-0002",
+    "barcode": "8901000007919",
+    "category_id": "cat-rice-flour",
+    "category": "rice-flour",
+    "subcategory_id": "sub-wheat-atta",
+    "subcategory": "Wheat Atta",
+    "image_url": "assets/products/aashirvaad-shudh-chakki-atta-10kg.svg",
+    "thumbnail_url": "assets/products/aashirvaad-shudh-chakki-atta-10kg.svg",
+    "gallery_images": [
+      "assets/products/aashirvaad-shudh-chakki-atta-10kg.svg",
+      "assets/products/aashirvaad-shudh-chakki-atta-10kg-case.svg"
+    ],
+    "unit": "bag",
+    "pack_size": "10 kg bag",
+    "moq": 5,
+    "stock_quantity": 320,
+    "stock": 320,
+    "mrp": 520,
+    "price": 438,
+    "wholesale_price": 438,
+    "price_slabs": [
+      {
+        "min_qty": 5,
+        "price": 438,
+        "label": "5+ units"
+      },
+      {
+        "min_qty": 15,
+        "price": 424.86,
+        "label": "15+ units"
+      },
+      {
+        "min_qty": 40,
+        "price": 411.72,
+        "label": "40+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Aashirvaad Shudh Chakki Atta 10kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "5 bags"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-amul-toned-milk-1l",
+    "name": "Amul Toned Milk 1L",
+    "brand": "Amul",
+    "brand_id": "brand-amul",
+    "sku": "GRO-0003",
+    "barcode": "8901000015838",
+    "category_id": "cat-dairy",
+    "category": "dairy",
+    "subcategory_id": "sub-milk",
+    "subcategory": "Milk",
+    "image_url": "assets/products/amul-toned-milk-1l.svg",
+    "thumbnail_url": "assets/products/amul-toned-milk-1l.svg",
+    "gallery_images": [
+      "assets/products/amul-toned-milk-1l.svg",
+      "assets/products/amul-toned-milk-1l-case.svg"
+    ],
+    "unit": "ltr",
+    "pack_size": "1 L tetra pack",
+    "moq": 12,
+    "stock_quantity": 180,
+    "stock": 180,
+    "mrp": 74,
+    "price": 64,
+    "wholesale_price": 64,
+    "price_slabs": [
+      {
+        "min_qty": 12,
+        "price": 64,
+        "label": "12+ units"
+      },
+      {
+        "min_qty": 36,
+        "price": 62.08,
+        "label": "36+ units"
+      },
+      {
+        "min_qty": 96,
+        "price": 60.16,
+        "label": "96+ units"
+      }
+    ],
+    "gst_rate": 0,
+    "description": "Amul Toned Milk 1L for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "7-180 days by item",
+      "storage": "Keep refrigerated where applicable",
+      "hsn_code": "0401",
+      "country_of_origin": "India",
+      "case_pack": "12 ltrs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-coca-cola-750ml",
+    "name": "Coca-Cola 750ml",
+    "brand": "Coca-Cola",
+    "brand_id": "brand-coca-cola",
+    "sku": "GRO-0004",
+    "barcode": "8901000023757",
+    "category_id": "cat-beverages",
+    "category": "beverages",
+    "subcategory_id": "sub-cola",
+    "subcategory": "Cola",
+    "image_url": "assets/products/coca-cola-750ml.svg",
+    "thumbnail_url": "assets/products/coca-cola-750ml.svg",
+    "gallery_images": [
+      "assets/products/coca-cola-750ml.svg",
+      "assets/products/coca-cola-750ml-case.svg"
+    ],
+    "unit": "bottle",
+    "pack_size": "750 ml bottle",
+    "moq": 24,
+    "stock_quantity": 720,
+    "stock": 720,
+    "mrp": 45,
+    "price": 36.5,
+    "wholesale_price": 36.5,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 36.5,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 35.41,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 34.31,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 40,
+    "description": "Coca-Cola 750ml for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "24 bottles"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-maggi-2-minute-noodles-70g",
+    "name": "Maggi 2-Minute Noodles 70g",
+    "brand": "Maggi",
+    "brand_id": "brand-maggi",
+    "sku": "GRO-0005",
+    "barcode": "8901000031676",
+    "category_id": "cat-biscuits-snacks",
+    "category": "biscuits-snacks",
+    "subcategory_id": "sub-noodles",
+    "subcategory": "Noodles",
+    "image_url": "assets/products/maggi-2-minute-noodles-70g.svg",
+    "thumbnail_url": "assets/products/maggi-2-minute-noodles-70g.svg",
+    "gallery_images": [
+      "assets/products/maggi-2-minute-noodles-70g.svg",
+      "assets/products/maggi-2-minute-noodles-70g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "70 g pack",
+    "moq": 96,
+    "stock_quantity": 2400,
+    "stock": 2400,
+    "mrp": 14,
+    "price": 11.65,
+    "wholesale_price": 11.65,
+    "price_slabs": [
+      {
+        "min_qty": 96,
+        "price": 11.65,
+        "label": "96+ units"
+      },
+      {
+        "min_qty": 288,
+        "price": 11.3,
+        "label": "288+ units"
+      },
+      {
+        "min_qty": 768,
+        "price": 10.95,
+        "label": "768+ units"
+      }
+    ],
+    "gst_rate": 12,
+    "description": "Maggi 2-Minute Noodles 70g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "96 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-parle-g-family-pack-800g",
+    "name": "Parle-G Family Pack 800g",
+    "brand": "Parle",
+    "brand_id": "brand-parle",
+    "sku": "GRO-0006",
+    "barcode": "8901000039595",
+    "category_id": "cat-biscuits-snacks",
+    "category": "biscuits-snacks",
+    "subcategory_id": "sub-biscuits",
+    "subcategory": "Biscuits",
+    "image_url": "assets/products/parle-g-family-pack-800g.svg",
+    "thumbnail_url": "assets/products/parle-g-family-pack-800g.svg",
+    "gallery_images": [
+      "assets/products/parle-g-family-pack-800g.svg",
+      "assets/products/parle-g-family-pack-800g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "800 g pack",
+    "moq": 20,
+    "stock_quantity": 640,
+    "stock": 640,
+    "mrp": 90,
+    "price": 76.5,
+    "wholesale_price": 76.5,
+    "price_slabs": [
+      {
+        "min_qty": 20,
+        "price": 76.5,
+        "label": "20+ units"
+      },
+      {
+        "min_qty": 60,
+        "price": 74.2,
+        "label": "60+ units"
+      },
+      {
+        "min_qty": 160,
+        "price": 71.91,
+        "label": "160+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Parle-G Family Pack 800g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "20 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-surf-excel-easy-wash-1kg",
+    "name": "Surf Excel Easy Wash 1kg",
+    "brand": "Surf Excel",
+    "brand_id": "brand-surf-excel",
+    "sku": "GRO-0007",
+    "barcode": "8901000047514",
+    "category_id": "cat-cleaning",
+    "category": "cleaning",
+    "subcategory_id": "sub-laundry-detergent",
+    "subcategory": "Laundry Detergent",
+    "image_url": "assets/products/surf-excel-easy-wash-1kg.svg",
+    "thumbnail_url": "assets/products/surf-excel-easy-wash-1kg.svg",
+    "gallery_images": [
+      "assets/products/surf-excel-easy-wash-1kg.svg",
+      "assets/products/surf-excel-easy-wash-1kg-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "1 kg pack",
+    "moq": 12,
+    "stock_quantity": 480,
+    "stock": 480,
+    "mrp": 135,
+    "price": 112,
+    "wholesale_price": 112,
+    "price_slabs": [
+      {
+        "min_qty": 12,
+        "price": 112,
+        "label": "12+ units"
+      },
+      {
+        "min_qty": 36,
+        "price": 108.64,
+        "label": "36+ units"
+      },
+      {
+        "min_qty": 96,
+        "price": 105.28,
+        "label": "96+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Surf Excel Easy Wash 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "12 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-colgate-strong-teeth-200g",
+    "name": "Colgate Strong Teeth 200g",
+    "brand": "Colgate",
+    "brand_id": "brand-colgate",
+    "sku": "GRO-0008",
+    "barcode": "8901000055433",
+    "category_id": "cat-personal-care",
+    "category": "personal-care",
+    "subcategory_id": "sub-toothpaste",
+    "subcategory": "Toothpaste",
+    "image_url": "assets/products/colgate-strong-teeth-200g.svg",
+    "thumbnail_url": "assets/products/colgate-strong-teeth-200g.svg",
+    "gallery_images": [
+      "assets/products/colgate-strong-teeth-200g.svg",
+      "assets/products/colgate-strong-teeth-200g-case.svg"
+    ],
+    "unit": "tube",
+    "pack_size": "200 g tube",
+    "moq": 24,
+    "stock_quantity": 800,
+    "stock": 800,
+    "mrp": 145,
+    "price": 119,
+    "wholesale_price": 119,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 119,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 115.43,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 111.86,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Colgate Strong Teeth 200g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "24 tubes"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-fortune-sunlite-sunflower-oil-1l",
+    "name": "Fortune Sunlite Sunflower Oil 1L",
+    "brand": "Fortune",
+    "brand_id": "brand-fortune",
+    "sku": "GRO-0009",
+    "barcode": "8901000063352",
+    "category_id": "cat-oil-ghee",
+    "category": "oil-ghee",
+    "subcategory_id": "sub-sunflower-oil",
+    "subcategory": "Sunflower Oil",
+    "image_url": "assets/products/fortune-sunlite-sunflower-oil-1l.svg",
+    "thumbnail_url": "assets/products/fortune-sunlite-sunflower-oil-1l.svg",
+    "gallery_images": [
+      "assets/products/fortune-sunlite-sunflower-oil-1l.svg",
+      "assets/products/fortune-sunlite-sunflower-oil-1l-case.svg"
+    ],
+    "unit": "ltr",
+    "pack_size": "1 L pouch",
+    "moq": 16,
+    "stock_quantity": 640,
+    "stock": 640,
+    "mrp": 165,
+    "price": 139,
+    "wholesale_price": 139,
+    "price_slabs": [
+      {
+        "min_qty": 16,
+        "price": 139,
+        "label": "16+ units"
+      },
+      {
+        "min_qty": 48,
+        "price": 134.83,
+        "label": "48+ units"
+      },
+      {
+        "min_qty": 128,
+        "price": 130.66,
+        "label": "128+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Fortune Sunlite Sunflower Oil 1L for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "16 ltrs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-britannia-good-day-cashew-600g",
+    "name": "Britannia Good Day Cashew 600g",
+    "brand": "Britannia",
+    "brand_id": "brand-britannia",
+    "sku": "GRO-0010",
+    "barcode": "8901000071271",
+    "category_id": "cat-biscuits-snacks",
+    "category": "biscuits-snacks",
+    "subcategory_id": "sub-biscuits",
+    "subcategory": "Biscuits",
+    "image_url": "assets/products/britannia-good-day-cashew-600g.svg",
+    "thumbnail_url": "assets/products/britannia-good-day-cashew-600g.svg",
+    "gallery_images": [
+      "assets/products/britannia-good-day-cashew-600g.svg",
+      "assets/products/britannia-good-day-cashew-600g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "600 g pack",
+    "moq": 18,
+    "stock_quantity": 540,
+    "stock": 540,
+    "mrp": 140,
+    "price": 116,
+    "wholesale_price": 116,
+    "price_slabs": [
+      {
+        "min_qty": 18,
+        "price": 116,
+        "label": "18+ units"
+      },
+      {
+        "min_qty": 54,
+        "price": 112.52,
+        "label": "54+ units"
+      },
+      {
+        "min_qty": 144,
+        "price": 109.04,
+        "label": "144+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Britannia Good Day Cashew 600g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "18 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-nescafe-classic-coffee-200g",
+    "name": "Nescafe Classic Coffee 200g",
+    "brand": "Nescafe",
+    "brand_id": "brand-nescafe",
+    "sku": "GRO-0011",
+    "barcode": "8901000079190",
+    "category_id": "cat-tea-coffee",
+    "category": "tea-coffee",
+    "subcategory_id": "sub-instant-coffee",
+    "subcategory": "Instant Coffee",
+    "image_url": "assets/products/nescafe-classic-coffee-200g.svg",
+    "thumbnail_url": "assets/products/nescafe-classic-coffee-200g.svg",
+    "gallery_images": [
+      "assets/products/nescafe-classic-coffee-200g.svg",
+      "assets/products/nescafe-classic-coffee-200g-case.svg"
+    ],
+    "unit": "jar",
+    "pack_size": "200 g jar",
+    "moq": 6,
+    "stock_quantity": 180,
+    "stock": 180,
+    "mrp": 650,
+    "price": 552,
+    "wholesale_price": 552,
+    "price_slabs": [
+      {
+        "min_qty": 6,
+        "price": 552,
+        "label": "6+ units"
+      },
+      {
+        "min_qty": 18,
+        "price": 535.44,
+        "label": "18+ units"
+      },
+      {
+        "min_qty": 48,
+        "price": 518.88,
+        "label": "48+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Nescafe Classic Coffee 200g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "6 jars"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-vim-dishwash-bar-300g",
+    "name": "Vim Dishwash Bar 300g",
+    "brand": "Vim",
+    "brand_id": "brand-vim",
+    "sku": "GRO-0012",
+    "barcode": "8901000087109",
+    "category_id": "cat-cleaning",
+    "category": "cleaning",
+    "subcategory_id": "sub-dishwash",
+    "subcategory": "Dishwash",
+    "image_url": "assets/products/vim-dishwash-bar-300g.svg",
+    "thumbnail_url": "assets/products/vim-dishwash-bar-300g.svg",
+    "gallery_images": [
+      "assets/products/vim-dishwash-bar-300g.svg",
+      "assets/products/vim-dishwash-bar-300g-case.svg"
+    ],
+    "unit": "bar",
+    "pack_size": "300 g bar",
+    "moq": 48,
+    "stock_quantity": 1200,
+    "stock": 1200,
+    "mrp": 30,
+    "price": 24.75,
+    "wholesale_price": 24.75,
+    "price_slabs": [
+      {
+        "min_qty": 48,
+        "price": 24.75,
+        "label": "48+ units"
+      },
+      {
+        "min_qty": 144,
+        "price": 24.01,
+        "label": "144+ units"
+      },
+      {
+        "min_qty": 384,
+        "price": 23.26,
+        "label": "384+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Vim Dishwash Bar 300g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "48 bars"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-pepsi-750ml",
+    "name": "Pepsi 750ml",
+    "brand": "Pepsi",
+    "brand_id": "brand-pepsi",
+    "sku": "GRO-0013",
+    "barcode": "8901000095028",
+    "category_id": "cat-beverages",
+    "category": "beverages",
+    "subcategory_id": "sub-cola",
+    "subcategory": "Cola",
+    "image_url": "assets/products/pepsi-750ml.svg",
+    "thumbnail_url": "assets/products/pepsi-750ml.svg",
+    "gallery_images": [
+      "assets/products/pepsi-750ml.svg",
+      "assets/products/pepsi-750ml-case.svg"
+    ],
+    "unit": "bottle",
+    "pack_size": "750 ml bottle",
+    "moq": 24,
+    "stock_quantity": 720,
+    "stock": 720,
+    "mrp": 45,
+    "price": 36.25,
+    "wholesale_price": 36.25,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 36.25,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 35.16,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 34.07,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 40,
+    "description": "Pepsi 750ml for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "24 bottles"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-amul-butter-500g",
+    "name": "Amul Butter 500g",
+    "brand": "Amul",
+    "brand_id": "brand-amul",
+    "sku": "GRO-0014",
+    "barcode": "8901000102947",
+    "category_id": "cat-dairy",
+    "category": "dairy",
+    "subcategory_id": "sub-butter",
+    "subcategory": "Butter",
+    "image_url": "assets/products/amul-butter-500g.svg",
+    "thumbnail_url": "assets/products/amul-butter-500g.svg",
+    "gallery_images": [
+      "assets/products/amul-butter-500g.svg",
+      "assets/products/amul-butter-500g-case.svg"
+    ],
+    "unit": "carton",
+    "pack_size": "500 g carton",
+    "moq": 10,
+    "stock_quantity": 240,
+    "stock": 240,
+    "mrp": 285,
+    "price": 250,
+    "wholesale_price": 250,
+    "price_slabs": [
+      {
+        "min_qty": 10,
+        "price": 250,
+        "label": "10+ units"
+      },
+      {
+        "min_qty": 30,
+        "price": 242.5,
+        "label": "30+ units"
+      },
+      {
+        "min_qty": 80,
+        "price": 235,
+        "label": "80+ units"
+      }
+    ],
+    "gst_rate": 12,
+    "description": "Amul Butter 500g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "7-180 days by item",
+      "storage": "Keep refrigerated where applicable",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "10 cartons"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-tata-tea-premium-1kg",
+    "name": "Tata Tea Premium 1kg",
+    "brand": "Tata",
+    "brand_id": "brand-tata",
+    "sku": "GRO-0015",
+    "barcode": "8901000110866",
+    "category_id": "cat-tea-coffee",
+    "category": "tea-coffee",
+    "subcategory_id": "sub-tea-powder",
+    "subcategory": "Tea Powder",
+    "image_url": "assets/products/tata-tea-premium-1kg.svg",
+    "thumbnail_url": "assets/products/tata-tea-premium-1kg.svg",
+    "gallery_images": [
+      "assets/products/tata-tea-premium-1kg.svg",
+      "assets/products/tata-tea-premium-1kg-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "1 kg pack",
+    "moq": 8,
+    "stock_quantity": 220,
+    "stock": 220,
+    "mrp": 560,
+    "price": 482,
+    "wholesale_price": 482,
+    "price_slabs": [
+      {
+        "min_qty": 8,
+        "price": 482,
+        "label": "8+ units"
+      },
+      {
+        "min_qty": 24,
+        "price": 467.54,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 64,
+        "price": 453.08,
+        "label": "64+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Tata Tea Premium 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "8 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-aashirvaad-select-sharbati-atta-5kg",
+    "name": "Aashirvaad Select Sharbati Atta 5kg",
+    "brand": "Aashirvaad",
+    "brand_id": "brand-aashirvaad",
+    "sku": "GRO-0016",
+    "barcode": "8901000118785",
+    "category_id": "cat-rice-flour",
+    "category": "rice-flour",
+    "subcategory_id": "sub-wheat-atta",
+    "subcategory": "Wheat Atta",
+    "image_url": "assets/products/aashirvaad-select-sharbati-atta-5kg.svg",
+    "thumbnail_url": "assets/products/aashirvaad-select-sharbati-atta-5kg.svg",
+    "gallery_images": [
+      "assets/products/aashirvaad-select-sharbati-atta-5kg.svg",
+      "assets/products/aashirvaad-select-sharbati-atta-5kg-case.svg"
+    ],
+    "unit": "bag",
+    "pack_size": "5 kg bag",
+    "moq": 8,
+    "stock_quantity": 360,
+    "stock": 360,
+    "mrp": 355,
+    "price": 299,
+    "wholesale_price": 299,
+    "price_slabs": [
+      {
+        "min_qty": 8,
+        "price": 299,
+        "label": "8+ units"
+      },
+      {
+        "min_qty": 24,
+        "price": 290.03,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 64,
+        "price": 281.06,
+        "label": "64+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Aashirvaad Select Sharbati Atta 5kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "8 bags"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-fortune-chakki-fresh-atta-10kg",
+    "name": "Fortune Chakki Fresh Atta 10kg",
+    "brand": "Fortune",
+    "brand_id": "brand-fortune",
+    "sku": "GRO-0017",
+    "barcode": "8901000126704",
+    "category_id": "cat-rice-flour",
+    "category": "rice-flour",
+    "subcategory_id": "sub-wheat-atta",
+    "subcategory": "Wheat Atta",
+    "image_url": "assets/products/fortune-chakki-fresh-atta-10kg.svg",
+    "thumbnail_url": "assets/products/fortune-chakki-fresh-atta-10kg.svg",
+    "gallery_images": [
+      "assets/products/fortune-chakki-fresh-atta-10kg.svg",
+      "assets/products/fortune-chakki-fresh-atta-10kg-case.svg"
+    ],
+    "unit": "bag",
+    "pack_size": "10 kg bag",
+    "moq": 5,
+    "stock_quantity": 280,
+    "stock": 280,
+    "mrp": 510,
+    "price": 430,
+    "wholesale_price": 430,
+    "price_slabs": [
+      {
+        "min_qty": 5,
+        "price": 430,
+        "label": "5+ units"
+      },
+      {
+        "min_qty": 15,
+        "price": 417.1,
+        "label": "15+ units"
+      },
+      {
+        "min_qty": 40,
+        "price": 404.2,
+        "label": "40+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Fortune Chakki Fresh Atta 10kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "5 bags"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-parle-monaco-salted-biscuits-400g",
+    "name": "Parle Monaco Salted Biscuits 400g",
+    "brand": "Parle",
+    "brand_id": "brand-parle",
+    "sku": "GRO-0018",
+    "barcode": "8901000134623",
+    "category_id": "cat-biscuits-snacks",
+    "category": "biscuits-snacks",
+    "subcategory_id": "sub-biscuits",
+    "subcategory": "Biscuits",
+    "image_url": "assets/products/parle-monaco-salted-biscuits-400g.svg",
+    "thumbnail_url": "assets/products/parle-monaco-salted-biscuits-400g.svg",
+    "gallery_images": [
+      "assets/products/parle-monaco-salted-biscuits-400g.svg",
+      "assets/products/parle-monaco-salted-biscuits-400g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "400 g pack",
+    "moq": 24,
+    "stock_quantity": 960,
+    "stock": 960,
+    "mrp": 75,
+    "price": 62,
+    "wholesale_price": 62,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 62,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 60.14,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 58.28,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Parle Monaco Salted Biscuits 400g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "24 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-britannia-milk-bikis-510g",
+    "name": "Britannia Milk Bikis 510g",
+    "brand": "Britannia",
+    "brand_id": "brand-britannia",
+    "sku": "GRO-0019",
+    "barcode": "8901000142542",
+    "category_id": "cat-biscuits-snacks",
+    "category": "biscuits-snacks",
+    "subcategory_id": "sub-biscuits",
+    "subcategory": "Biscuits",
+    "image_url": "assets/products/britannia-milk-bikis-510g.svg",
+    "thumbnail_url": "assets/products/britannia-milk-bikis-510g.svg",
+    "gallery_images": [
+      "assets/products/britannia-milk-bikis-510g.svg",
+      "assets/products/britannia-milk-bikis-510g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "510 g pack",
+    "moq": 24,
+    "stock_quantity": 720,
+    "stock": 720,
+    "mrp": 90,
+    "price": 74,
+    "wholesale_price": 74,
+    "price_slabs": [
+      {
+        "min_qty": 24,
+        "price": 74,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 72,
+        "price": 71.78,
+        "label": "72+ units"
+      },
+      {
+        "min_qty": 192,
+        "price": 69.56,
+        "label": "192+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Britannia Milk Bikis 510g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "24 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-amul-cheese-slices-200g",
+    "name": "Amul Cheese Slices 200g",
+    "brand": "Amul",
+    "brand_id": "brand-amul",
+    "sku": "GRO-0020",
+    "barcode": "8901000150461",
+    "category_id": "cat-dairy",
+    "category": "dairy",
+    "subcategory_id": "sub-cheese",
+    "subcategory": "Cheese",
+    "image_url": "assets/products/amul-cheese-slices-200g.svg",
+    "thumbnail_url": "assets/products/amul-cheese-slices-200g.svg",
+    "gallery_images": [
+      "assets/products/amul-cheese-slices-200g.svg",
+      "assets/products/amul-cheese-slices-200g-case.svg"
+    ],
+    "unit": "pack",
+    "pack_size": "200 g pack",
+    "moq": 12,
+    "stock_quantity": 200,
+    "stock": 200,
+    "mrp": 145,
+    "price": 124,
+    "wholesale_price": 124,
+    "price_slabs": [
+      {
+        "min_qty": 12,
+        "price": 124,
+        "label": "12+ units"
+      },
+      {
+        "min_qty": 36,
+        "price": 120.28,
+        "label": "36+ units"
+      },
+      {
+        "min_qty": 96,
+        "price": 116.56,
+        "label": "96+ units"
+      }
+    ],
+    "gst_rate": 12,
+    "description": "Amul Cheese Slices 200g for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "7-180 days by item",
+      "storage": "Keep refrigerated where applicable",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "12 packs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-maggi-rich-tomato-ketchup-1kg",
+    "name": "Maggi Rich Tomato Ketchup 1kg",
+    "brand": "Maggi",
+    "brand_id": "brand-maggi",
+    "sku": "GRO-0021",
+    "barcode": "8901000158380",
+    "category_id": "cat-grocery-staples",
+    "category": "grocery-staples",
+    "subcategory_id": "sub-ready-mix",
+    "subcategory": "Ready Mix",
+    "image_url": "assets/products/maggi-rich-tomato-ketchup-1kg.svg",
+    "thumbnail_url": "assets/products/maggi-rich-tomato-ketchup-1kg.svg",
+    "gallery_images": [
+      "assets/products/maggi-rich-tomato-ketchup-1kg.svg",
+      "assets/products/maggi-rich-tomato-ketchup-1kg-case.svg"
+    ],
+    "unit": "pouch",
+    "pack_size": "1 kg pouch",
+    "moq": 12,
+    "stock_quantity": 360,
+    "stock": 360,
+    "mrp": 160,
+    "price": 132,
+    "wholesale_price": 132,
+    "price_slabs": [
+      {
+        "min_qty": 12,
+        "price": 132,
+        "label": "12+ units"
+      },
+      {
+        "min_qty": 36,
+        "price": 128.04,
+        "label": "36+ units"
+      },
+      {
+        "min_qty": 96,
+        "price": 124.08,
+        "label": "96+ units"
+      }
+    ],
+    "gst_rate": 12,
+    "description": "Maggi Rich Tomato Ketchup 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "12 pouchs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-tata-sampann-toor-dal-1kg",
+    "name": "Tata Sampann Toor Dal 1kg",
+    "brand": "Tata",
+    "brand_id": "brand-tata",
+    "sku": "GRO-0022",
+    "barcode": "8901000166299",
+    "category_id": "cat-pulses-dal",
+    "category": "pulses-dal",
+    "subcategory_id": "sub-toor-dal",
+    "subcategory": "Toor Dal",
+    "image_url": "assets/products/tata-sampann-toor-dal-1kg.svg",
+    "thumbnail_url": "assets/products/tata-sampann-toor-dal-1kg.svg",
+    "gallery_images": [
+      "assets/products/tata-sampann-toor-dal-1kg.svg",
+      "assets/products/tata-sampann-toor-dal-1kg-case.svg"
+    ],
+    "unit": "kg",
+    "pack_size": "1 kg pouch",
+    "moq": 20,
+    "stock_quantity": 620,
+    "stock": 620,
+    "mrp": 220,
+    "price": 184,
+    "wholesale_price": 184,
+    "price_slabs": [
+      {
+        "min_qty": 20,
+        "price": 184,
+        "label": "20+ units"
+      },
+      {
+        "min_qty": 60,
+        "price": 178.48,
+        "label": "60+ units"
+      },
+      {
+        "min_qty": 160,
+        "price": 172.96,
+        "label": "160+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Tata Sampann Toor Dal 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "20 kgs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-fortune-besan-1kg",
+    "name": "Fortune Besan 1kg",
+    "brand": "Fortune",
+    "brand_id": "brand-fortune",
+    "sku": "GRO-0023",
+    "barcode": "8901000174218",
+    "category_id": "cat-rice-flour",
+    "category": "rice-flour",
+    "subcategory_id": "sub-maida-and-besan",
+    "subcategory": "Maida & Besan",
+    "image_url": "assets/products/fortune-besan-1kg.svg",
+    "thumbnail_url": "assets/products/fortune-besan-1kg.svg",
+    "gallery_images": [
+      "assets/products/fortune-besan-1kg.svg",
+      "assets/products/fortune-besan-1kg-case.svg"
+    ],
+    "unit": "kg",
+    "pack_size": "1 kg pack",
+    "moq": 20,
+    "stock_quantity": 500,
+    "stock": 500,
+    "mrp": 120,
+    "price": 98,
+    "wholesale_price": 98,
+    "price_slabs": [
+      {
+        "min_qty": 20,
+        "price": 98,
+        "label": "20+ units"
+      },
+      {
+        "min_qty": 60,
+        "price": 95.06,
+        "label": "60+ units"
+      },
+      {
+        "min_qty": 160,
+        "price": 92.12,
+        "label": "160+ units"
+      }
+    ],
+    "gst_rate": 5,
+    "description": "Fortune Besan 1kg for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "2106",
+      "country_of_origin": "India",
+      "case_pack": "20 kgs"
+    },
+    "is_active": true
+  },
+  {
+    "id": "prod-surf-excel-matic-liquid-2l",
+    "name": "Surf Excel Matic Liquid 2L",
+    "brand": "Surf Excel",
+    "brand_id": "brand-surf-excel",
+    "sku": "GRO-0024",
+    "barcode": "8901000182137",
+    "category_id": "cat-cleaning",
+    "category": "cleaning",
+    "subcategory_id": "sub-laundry-detergent",
+    "subcategory": "Laundry Detergent",
+    "image_url": "assets/products/surf-excel-matic-liquid-2l.svg",
+    "thumbnail_url": "assets/products/surf-excel-matic-liquid-2l.svg",
+    "gallery_images": [
+      "assets/products/surf-excel-matic-liquid-2l.svg",
+      "assets/products/surf-excel-matic-liquid-2l-case.svg"
+    ],
+    "unit": "bottle",
+    "pack_size": "2 L bottle",
+    "moq": 8,
+    "stock_quantity": 220,
+    "stock": 220,
+    "mrp": 450,
+    "price": 384,
+    "wholesale_price": 384,
+    "price_slabs": [
+      {
+        "min_qty": 8,
+        "price": 384,
+        "label": "8+ units"
+      },
+      {
+        "min_qty": 24,
+        "price": 372.48,
+        "label": "24+ units"
+      },
+      {
+        "min_qty": 64,
+        "price": 360.96,
+        "label": "64+ units"
+      }
+    ],
+    "gst_rate": 18,
+    "description": "Surf Excel Matic Liquid 2L for B2B grocery distributors, kirana stores, supermarkets, hotels and restaurants. Fresh wholesale stock with GST invoice and tier pricing.",
+    "specifications": {
+      "shelf_life": "6-18 months by batch",
+      "storage": "Store in a cool and dry place",
+      "hsn_code": "3402",
+      "country_of_origin": "India",
+      "case_pack": "8 bottles"
+    },
+    "is_active": true
+  }
+]

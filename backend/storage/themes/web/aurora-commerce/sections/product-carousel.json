@@ -1,0 +1,1 @@
+{"type":"product-carousel","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"source":{"type":"productSource"},"limit":{"type":"number"}},"defaultSettings":{"title":"products.title","source":"catalog","limit":8}}

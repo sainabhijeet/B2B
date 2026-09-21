@@ -1,0 +1,1 @@
+{"type":"header","editable":true,"settingsSchema":{"logo":{"type":"image"},"menu":{"type":"menu"},"showSearch":{"type":"boolean"},"showAccount":{"type":"boolean"},"showCart":{"type":"boolean"}},"defaultSettings":{"logo":"settings.logo","menu":"nav.primary","showSearch":true,"showAccount":true,"showCart":true}}

@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "storefrontKey": "furnish",
+  "capabilities": {
+    "allowed_sections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "category-banner",
+      "product-grid",
+      "product-detail",
+      "feature-grid",
+      "image-text",
+      "trust-badges",
+      "newsletter",
+      "footer-columns"
+    ],
+    "variants": {
+      "hero-banner": [
+        "default",
+        "split"
+      ],
+      "product-grid": [
+        "featured"
+      ],
+      "category-grid": [
+        "tiles"
+      ],
+      "footer": [
+        "columns"
+      ]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "category-banner",
+      "product-grid",
+      "product-detail",
+      "feature-grid",
+      "image-text",
+      "trust-badges",
+      "newsletter",
+      "footer-columns",
+      "product-gallery",
+      "product-info",
+      "search-results",
+      "filter-sidebar",
+      "cart-summary",
+      "checkout-summary",
+      "account-dashboard",
+      "faq",
+      "blog-preview",
+      "rich-text",
+      "image-with-text",
+      "icon-list",
+      "brand-logos",
+      "testimonial-carousel",
+      "cta-banner",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "wishlist": "templates/wishlist.json",
+    "search": "templates/search.json",
+    "account": "templates/account.json",
+    "login": "templates/login.json",
+    "register": "templates/register.json",
+    "orders": "templates/orders.json",
+    "faq": "templates/faq.json",
+    "blog": "templates/blog.json",
+    "contact": "templates/contact.json",
+    "about": "templates/about.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "images": "assets/images"
+  },
+  "name": "theme_content.furnish-uploadable.7b812ce1d338",
+  "description": "theme_content.furnish-uploadable.7abaf821a323",
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "product-detail",
+    "product-gallery",
+    "product-info",
+    "search-results",
+    "filter-sidebar",
+    "cart-summary",
+    "checkout-summary",
+    "account-dashboard",
+    "faq",
+    "blog-preview",
+    "newsletter",
+    "rich-text",
+    "image-with-text",
+    "icon-list",
+    "brand-logos",
+    "testimonial-carousel",
+    "cta-banner",
+    "footer"
+  ],
+  "layouts": {
+    "default": "layouts/default.json",
+    "checkout": "layouts/checkout.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "preview": {
+    "desktop": "preview/preview.png",
+    "tablet": "preview/preview-tablet.png",
+    "mobile": "preview/preview-mobile.png"
+  },
+  "languages": [
+    "en",
+    "zh",
+    "hi",
+    "fr",
+    "ar",
+    "es",
+    "de",
+    "ru",
+    "ja"
+  ],
+  "defaultLanguage": "en",
+  "metadata": {
+    "license": "theme_content.furnish-uploadable.865ba2747ef4",
+    "rtl": true,
+    "darkMode": true,
+    "accessibility": "theme_content.furnish-uploadable.eea6caeb87ce",
+    "enterpriseReference": "1.0.0"
+  },
+  "locales": {
+    "en": "locales/en.json",
+    "zh": "locales/zh.json",
+    "hi": "locales/hi.json",
+    "fr": "locales/fr.json",
+    "ar": "locales/ar.json",
+    "es": "locales/es.json",
+    "de": "locales/de.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json"
+  }
+}

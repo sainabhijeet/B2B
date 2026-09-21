@@ -1,0 +1,8 @@
+{
+  "layout": "b2b-orders",
+  "sections": [
+    "status-tabs",
+    "order-list",
+    "reorder-actions"
+  ]
+}

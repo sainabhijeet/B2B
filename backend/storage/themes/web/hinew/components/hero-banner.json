@@ -1,0 +1,11 @@
+{
+  "variants": ["default"],
+  "defaultVariant": "default",
+  "settings": {
+    "eyebrow": "string",
+    "title": "string",
+    "subtitle": "string",
+    "primaryCta": "string",
+    "secondaryCta": "string"
+  }
+}

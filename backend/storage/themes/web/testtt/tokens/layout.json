@@ -1,0 +1,8 @@
+{
+  "containerMax": "1180px",
+  "radius": "8px",
+  "cardRadius": "8px",
+  "buttonRadius": "8px",
+  "shadow": "0 10px 30px rgba(15, 23, 42, 0.08)",
+  "gridMin": "220px"
+}

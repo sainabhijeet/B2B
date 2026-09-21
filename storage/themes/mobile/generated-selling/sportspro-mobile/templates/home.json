@@ -1,0 +1,88 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Cart",
+                                                      "Orders"
+                                                  ],
+                                          "logoText":  "SportsPro"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Sports gear with bold mobile cards.",
+                                          "primaryCta":  "Gear up",
+                                          "subtitle":  "A high-energy theme for fitness, outdoor gear, sportswear, and equipment.",
+                                          "image":  "assets/images/hero.png"
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-01.png",
+                                                         "assets/images/category-02.png",
+                                                         "assets/images/category-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Shop sport",
+                                          "subtitle":  "Quick paths for mobile buyers."
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "trending-products",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Performance picks",
+                                          "subtitle":  "Demo visuals are included; tenant products render from catalog data."
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "seasonal-sale",
+                         "settings":  {
+                                          "subtitle":  "Optimized for mobile selling, repeat carts, and fast checkout.",
+                                          "title":  "Season-ready sports products"
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Energetic selling flow",
+                                          "body":  "Bold cards and strong CTAs suit gear-heavy catalogs.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.png"
+                                      }
+                     },
+                     {
+                         "variant":  "bottom-bar",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "items":  [
+                                                        "Home",
+                                                        "Cart",
+                                                        "Orders",
+                                                        "Credit",
+                                                        "Settings",
+                                                        "Auth"
+                                                    ]
+                                      }
+                     }
+                 ]
+}

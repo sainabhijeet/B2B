@@ -1,0 +1,9 @@
+{
+  "name": "testimonial-carousel",
+  "label": "Testimonial Carousel",
+  "category": "content",
+  "variants": ["cards", "minimal", "dark"],
+  "defaultVariant": "cards",
+  "settings": { "eyebrow": "string", "title": "string", "testimonials": "array", "autoplay": "boolean", "interval": "number", "showRatings": "boolean", "showArrows": "boolean" },
+  "presets": [{ "id": "cards", "label": "Cards", "variant": "cards" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }, { "id": "dark", "label": "Dark", "variant": "dark" }]
+}

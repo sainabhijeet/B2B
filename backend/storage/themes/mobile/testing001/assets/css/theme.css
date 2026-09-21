@@ -1,0 +1,16 @@
+:root {
+  --theme-primary: #845ADF;
+  --theme-primary-light: #EDE7FF;
+  --theme-primary-dark: #5630A7;
+  --theme-background: #F7F7FB;
+  --theme-surface: #FFFFFF;
+  --theme-card: #FFFFFF;
+  --theme-text: #15131E;
+  --theme-muted: #6F6A7C;
+  --theme-border: #E5E1EC;
+  --theme-success: #159B62;
+  --theme-warning: #F2A93B;
+  --theme-error: #D94B4B;
+  --theme-radius-card: 16px;
+  --theme-radius-button: 12px;
+}

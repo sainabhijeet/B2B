@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-label="Premium flash sale products">
+  <defs><linearGradient id="a" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#201514"/><stop offset=".5" stop-color="#6f3f45"/><stop offset="1" stop-color="#d7b98e"/></linearGradient><filter id="d"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-opacity=".28"/></filter></defs>
+  <rect width="1800" height="1100" fill="url(#a)"/>
+  <rect x="1030" y="250" width="270" height="500" rx="135" fill="#f6eadb" filter="url(#d)"/>
+  <rect x="1137" y="180" width="56" height="170" rx="28" fill="#d4a373"/>
+  <rect x="660" y="390" width="300" height="360" rx="22" fill="#151922" filter="url(#d)"/>
+  <path d="M710 390c8-104 190-104 200 0" fill="none" stroke="#f6eadb" stroke-width="18" stroke-linecap="round"/>
+  <rect x="1310" y="480" width="270" height="250" rx="22" fill="#315c55" filter="url(#d)"/>
+  <circle cx="1445" cy="420" r="78" fill="#f6eadb"/>
+  <rect y="800" width="1800" height="300" fill="#111827" opacity=".32"/>
+</svg>

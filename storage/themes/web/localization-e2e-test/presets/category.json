@@ -1,0 +1,14 @@
+{
+  "section": "category-grid",
+  "presets": [
+    {
+      "id": "category",
+      "label": "localizationTest.presets.category",
+      "variant": "default",
+      "settings": {
+        "title": "localizationTest.categoryPage.title",
+        "subtitle": "localizationTest.categoryPage.description"
+      }
+    }
+  ]
+}

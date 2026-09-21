@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "name": "HS Fitness",
+  "storefrontKey": "electronics",
+  "description": "A bold fitness and sports commerce theme for supplements, equipment and activewear.",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header-basic",
+    "promo-banner",
+    "hero-split",
+    "category-grid",
+    "product-grid",
+    "testimonial-carousel",
+    "newsletter",
+    "filter-sidebar",
+    "product-detail",
+    "related-products",
+    "footer-columns"
+  ],
+  "capabilities": {
+    "allowed_sections": [
+      "header-basic",
+      "promo-banner",
+      "hero-split",
+      "category-grid",
+      "product-grid",
+      "testimonial-carousel",
+      "newsletter",
+      "filter-sidebar",
+      "product-detail",
+      "related-products",
+      "footer-columns"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  }
+}

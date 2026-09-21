@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title">
+  <title id="title">HS Fitness product placeholder</title>
+  <rect width="800" height="800" rx="48" fill="#f1f5f9"/>
+  <circle cx="400" cy="350" r="210" fill="#e2e8f0"/>
+  <path d="M250 365h300" stroke="#111827" stroke-width="42" stroke-linecap="round"/>
+  <rect x="180" y="280" width="80" height="170" rx="22" fill="#dc2626"/>
+  <rect x="540" y="280" width="80" height="170" rx="22" fill="#dc2626"/>
+  <text x="400" y="650" text-anchor="middle" fill="#111827" font-family="Arial, sans-serif" font-size="58" font-weight="800">HS FITNESS</text>
+</svg>

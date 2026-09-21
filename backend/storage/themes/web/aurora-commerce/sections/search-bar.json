@@ -1,0 +1,1 @@
+{"type":"search-bar","editable":true,"settingsSchema":{"placeholder":{"type":"text","translation":true},"buttonLabel":{"type":"text","translation":true}},"defaultSettings":{"placeholder":"forms.search_placeholder","buttonLabel":"actions.search"}}

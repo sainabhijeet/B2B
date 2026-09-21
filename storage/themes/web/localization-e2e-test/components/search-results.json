@@ -1,0 +1,10 @@
+{
+  "variants": ["default"],
+  "defaultVariant": "default",
+  "settings": {
+    "title": "string",
+    "subtitle": "string",
+    "placeholder": "string",
+    "button": "string"
+  }
+}

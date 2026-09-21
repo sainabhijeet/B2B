@@ -1,0 +1,9 @@
+{
+  "name": "image-with-text",
+  "label": "Image With Text",
+  "category": "content",
+  "variants": ["image-right", "image-left", "stacked", "dark"],
+  "defaultVariant": "image-right",
+  "settings": { "eyebrow": "string", "title": "string", "body": "string", "primaryCtaLabel": "string", "primaryCtaUrl": "string", "image": "image", "imagePosition": "string", "theme": "string", "media": "object" },
+  "presets": [{ "id": "image-right", "label": "Image Right", "variant": "image-right" }, { "id": "image-left", "label": "Image Left", "variant": "image-left" }, { "id": "stacked", "label": "Stacked", "variant": "stacked" }]
+}

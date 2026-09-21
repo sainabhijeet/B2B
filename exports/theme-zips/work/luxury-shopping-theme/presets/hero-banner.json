@@ -1,0 +1,10 @@
+{
+  "section": "hero-banner",
+  "presets": [
+    { "id": "editorial", "label": "Editorial", "variant": "editorial", "settings": { "eyebrow": "THE AUTUMN EDIT", "title": "Objects with a point of view." } },
+    { "id": "centered", "label": "Centered", "variant": "centered", "settings": { "eyebrow": "NEW SEASON", "title": "A fresh perspective." } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Less, but better." } },
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "ATELIER CIRCLE", "title": "The inside track." } },
+    { "id": "image-focus", "label": "Image Focus", "variant": "image-focus", "settings": { "title": "Made for everyday rituals." } }
+  ]
+}

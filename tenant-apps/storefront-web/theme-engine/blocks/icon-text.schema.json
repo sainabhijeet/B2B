@@ -1,0 +1,24 @@
+{
+  "name": "icon-text",
+  "label": "Icon + text",
+  "settings": [
+    {
+      "id": "icon",
+      "type": "text",
+      "label": "Icon (emoji or short code)",
+      "placeholder": "🚚"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Title",
+      "placeholder": "Free shipping"
+    },
+    {
+      "id": "body",
+      "type": "textarea",
+      "label": "Description",
+      "placeholder": "On orders above ₹999"
+    }
+  ]
+}

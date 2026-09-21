@@ -1,0 +1,39 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurum",
+        "industryName": "Premium App",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "related",
+      "type": "product-grid",
+      "settings": {
+        "title": "Complete the premium edit",
+        "subtitle": "Recommended products designed for mobile add-on discovery.",
+        "images": [
+          "assets/images/product-wallet.svg",
+          "assets/images/product-bag.svg",
+          "assets/images/product-headphones.svg",
+          "assets/images/product-device.svg"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["New arrivals", "Best sellers", "Collections"] },
+          { "heading": "Support", "links": ["Shipping", "Returns", "Contact"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

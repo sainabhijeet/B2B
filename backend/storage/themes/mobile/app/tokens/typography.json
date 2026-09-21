@@ -1,0 +1,17 @@
+{
+  "fontFamily": "Inter, system-ui, sans-serif",
+  "displayFamily": "Playfair Display, Georgia, serif",
+  "display": "clamp(48px, 7vw, 84px)",
+  "h1": "clamp(40px, 6vw, 72px)",
+  "h2": "clamp(28px, 4vw, 44px)",
+  "h3": "24px",
+  "h4": "20px",
+  "bodyLarge": "18px",
+  "body": "16px",
+  "bodySmall": "14px",
+  "caption": "12px",
+  "button": "14px",
+  "label": "13px",
+  "price": "28px",
+  "discountPrice": "14px"
+}

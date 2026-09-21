@@ -1,0 +1,6 @@
+{
+  "name": "Legacy Golden Mobile",
+  "version": "1.0.0",
+  "storefrontKey": "jewellery",
+  "sections": ["mobile-home", "mobile-product"]
+}

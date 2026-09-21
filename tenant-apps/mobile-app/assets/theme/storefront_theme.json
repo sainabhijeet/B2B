@@ -1,0 +1,12 @@
+{
+  "theme_id": null,
+  "theme_slug": null,
+  "theme_name": null,
+  "base_layout": "grid",
+  "config": {},
+  "branding": {
+    "primary_color": "#1565C0",
+    "logo": ""
+  },
+  "preview": null
+}

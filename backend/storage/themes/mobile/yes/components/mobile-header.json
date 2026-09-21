@@ -1,0 +1,14 @@
+{
+  "variants": [
+    "default",
+    "search"
+  ],
+  "defaultVariant": "default",
+  "settings": {
+    "showBack": "boolean",
+    "showLogo": "boolean",
+    "showCart": "boolean",
+    "showNotification": "boolean",
+    "searchPlaceholder": "string"
+  }
+}

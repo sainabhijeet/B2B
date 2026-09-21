@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0",
+  "storefrontKey": "electra-power-services",
+  "industry": "Electrical & Lighting",
+  "allowedSections": [
+    "announcement-bar",
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "image-with-text",
+    "icon-list",
+    "category-grid",
+    "product-grid",
+    "blog-preview",
+    "testimonial-carousel",
+    "faq-section",
+    "cta-banner",
+    "newsletter",
+    "footer-columns",
+    "filter-sidebar",
+    "product-detail",
+    "related-products",
+    "product-gallery",
+    "product-info",
+    "search-results",
+    "cart-summary",
+    "checkout-summary",
+    "account-dashboard",
+    "faq",
+    "rich-text",
+    "brand-logos",
+    "footer"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "announcement-bar",
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "image-with-text",
+      "icon-list",
+      "category-grid",
+      "product-grid",
+      "blog-preview",
+      "testimonial-carousel",
+      "faq-section",
+      "cta-banner",
+      "newsletter",
+      "footer-columns",
+      "filter-sidebar",
+      "product-detail",
+      "related-products",
+      "product-gallery",
+      "product-info",
+      "search-results",
+      "cart-summary",
+      "checkout-summary",
+      "account-dashboard",
+      "faq",
+      "rich-text",
+      "brand-logos",
+      "footer"
+    ],
+    "variants": {
+      "hero-banner": [
+        "default",
+        "split"
+      ],
+      "footer": [
+        "columns"
+      ]
+    }
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "wishlist": "templates/wishlist.json",
+    "search": "templates/search.json",
+    "account": "templates/account.json",
+    "login": "templates/login.json",
+    "register": "templates/register.json",
+    "orders": "templates/orders.json",
+    "faq": "templates/faq.json",
+    "blog": "templates/blog.json",
+    "contact": "templates/contact.json",
+    "about": "templates/about.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  },
+  "name": "theme_content.electra-power-services.26a94dcaba70",
+  "description": "theme_content.electra-power-services.1119aa258a17",
+  "layouts": {
+    "default": "layouts/default.json",
+    "checkout": "layouts/checkout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "preview": {
+    "desktop": "preview/preview.png",
+    "tablet": "preview/preview-tablet.png",
+    "mobile": "preview/preview-mobile.png"
+  },
+  "languages": [
+    "en",
+    "zh",
+    "hi",
+    "fr",
+    "ar",
+    "es",
+    "de",
+    "ru",
+    "ja"
+  ],
+  "defaultLanguage": "en",
+  "metadata": {
+    "license": "theme_content.electra-power-services.865ba2747ef4",
+    "rtl": true,
+    "darkMode": true,
+    "accessibility": "theme_content.electra-power-services.eea6caeb87ce",
+    "enterpriseReference": "1.0.0"
+  },
+  "locales": {
+    "en": "locales/en.json",
+    "zh": "locales/zh.json",
+    "hi": "locales/hi.json",
+    "fr": "locales/fr.json",
+    "ar": "locales/ar.json",
+    "es": "locales/es.json",
+    "de": "locales/de.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json"
+  }
+}

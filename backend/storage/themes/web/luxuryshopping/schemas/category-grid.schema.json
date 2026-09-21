@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "category-grid",
+  "title": "Category Grid",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }, "columns": { "type": "number", "minimum": 1 }, "showCount": { "type": "boolean" }, "categories": { "type": "array", "items": { "type": "object" } }, "cardStyle": { "type": "string" } },
+  "additionalProperties": true
+}

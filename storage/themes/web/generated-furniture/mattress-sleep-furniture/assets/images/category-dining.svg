@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Dining">
+  <rect width="900" height="620" fill="#eef4ff"/>
+  <circle cx="760" cy="120" r="130" fill="#6677cc" opacity=".18"/>
+  <circle cx="104" cy="510" r="145" fill="#bcc7ff" opacity=".18"/>
+  <g transform="translate(130 46)">
+    <rect x="38" y="38" width="570" height="500" rx="46" fill="#ffffff" opacity=".74"/>
+    <rect x="76" y="84" width="494" height="408" rx="34" fill="#ffffff" opacity=".52"/>
+    <ellipse cx='330' cy='252' rx='210' ry='62' fill='#6677cc'/><rect x='292' y='284' width='78' height='158' rx='22' fill='#bcc7ff'/><ellipse cx='330' cy='454' rx='176' ry='32' fill='#111827' opacity='.14'/><circle cx='474' cy='198' r='42' fill='#ffffff' opacity='.7'/><circle cx='210' cy='212' r='28' fill='#ffffff' opacity='.45'/>
+  </g>
+  <text x="62" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">Dining</text>
+  <text x="64" y="122" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Tables, chairs, and benches</text>
+</svg>

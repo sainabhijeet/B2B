@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-label="Electrical project process">
+  <rect width="760" height="460" fill="#f8fafc"/>
+  <rect x="48" y="64" width="300" height="302" rx="8" fill="#ffffff" stroke="#dbe4ee"/>
+  <rect x="412" y="64" width="300" height="302" rx="8" fill="#ffffff" stroke="#dbe4ee"/>
+  <rect x="72" y="92" width="90" height="30" fill="#f58216"/>
+  <rect x="184" y="98" width="128" height="12" fill="#cbd5e1"/>
+  <g fill="#07111f">
+    <rect x="74" y="156" width="238" height="16" rx="3"/>
+    <rect x="74" y="196" width="206" height="16" rx="3" opacity=".75"/>
+    <rect x="74" y="236" width="220" height="16" rx="3" opacity=".55"/>
+  </g>
+  <rect x="72" y="292" width="120" height="42" rx="4" fill="#f58216"/>
+  <rect x="440" y="92" width="240" height="150" rx="6" fill="#dbeafe"/>
+  <path d="M440 222 C500 184 552 195 600 160 C635 134 664 136 680 116 L680 242 H440Z" fill="#94a3b8"/>
+  <g stroke="#07111f" stroke-width="5" fill="none" opacity=".55">
+    <path d="M470 230 L532 108 L594 230 M500 171 H563"/>
+    <path d="M455 135 C535 153 611 150 690 121"/>
+  </g>
+  <rect x="440" y="274" width="86" height="24" fill="#f58216"/>
+  <rect x="440" y="316" width="214" height="12" fill="#cbd5e1"/>
+  <rect x="440" y="342" width="156" height="12" fill="#cbd5e1"/>
+</svg>

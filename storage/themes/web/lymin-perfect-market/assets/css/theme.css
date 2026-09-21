@@ -1,0 +1,373 @@
+:root {
+  --theme-primary: #0b63ce;
+  --theme-primary-contrast: #ffffff;
+  --theme-secondary: #dbeafe;
+  --theme-surface: #ffffff;
+  --theme-background: #ffffff;
+  --theme-text: #06163a;
+  --theme-muted: #5e6d87;
+  --theme-border: #dbe5f4;
+}
+
+.theme-lymin-perfect-market {
+  background: #ffffff;
+  color: #06163a;
+  font-family: Inter, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.theme-lymin-perfect-market * {
+  box-sizing: border-box;
+  letter-spacing: 0 !important;
+}
+
+.theme-lymin-perfect-market header {
+  background: linear-gradient(180deg, #102653 0%, #071637 100%) !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+
+.theme-lymin-perfect-market header > div {
+  width: min(100%, 1500px);
+  max-width: 1500px !important;
+  min-height: 132px;
+  margin: 0 auto;
+  padding: 12px 16px 0 !important;
+  display: grid !important;
+  grid-template-columns: 270px minmax(320px, 1fr) 260px;
+  grid-template-areas:
+    "brand search actions"
+    "nav nav nav";
+  column-gap: 24px;
+  row-gap: 8px;
+  align-items: center;
+}
+
+.theme-lymin-perfect-market header a:first-child {
+  grid-area: brand;
+  min-width: 0;
+  display: grid !important;
+  grid-template-columns: 118px 1fr;
+  gap: 14px !important;
+  align-items: center;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.theme-lymin-perfect-market header a:first-child img {
+  width: 118px;
+  max-width: 118px;
+  height: 52px;
+  object-fit: contain;
+}
+
+.theme-lymin-perfect-market header a:first-child > span > span:first-child {
+  display: none;
+}
+
+.theme-lymin-perfect-market header a:first-child > span > span:last-child {
+  display: block;
+  max-width: 138px;
+  color: #fff !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  line-height: 1.25;
+}
+
+.theme-lymin-perfect-market header > div::before {
+  grid-area: search;
+  content: "Search for products, brands, and more";
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 0 64px 0 20px;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #f8fafc 0 calc(100% - 48px), #0b63ce calc(100% - 48px) 100%);
+  border-radius: 6px;
+}
+
+.theme-lymin-perfect-market header > div::after {
+  grid-area: actions;
+  content: "Cart   Sign in";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  justify-self: start;
+  white-space: pre;
+}
+
+.theme-lymin-perfect-market header nav {
+  grid-area: nav;
+  width: 100%;
+  display: grid !important;
+  grid-template-columns: repeat(13, minmax(88px, 1fr));
+  gap: 0 !important;
+  align-items: end;
+  overflow-x: auto;
+  color: #fff !important;
+  scrollbar-width: thin;
+}
+
+.theme-lymin-perfect-market header nav a {
+  min-height: 58px;
+  padding: 10px 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  border-radius: 8px 8px 0 0;
+}
+
+.theme-lymin-perfect-market header nav a:first-child {
+  background: linear-gradient(180deg, rgba(43, 112, 196, .8), rgba(18, 54, 111, .72));
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .14);
+}
+
+.theme-lymin-perfect-market header nav > *:last-child {
+  display: none;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] {
+  background-color: #14254b;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(255, 255, 255, .13) 1px, transparent 1px),
+    radial-gradient(circle at 46px 46px, rgba(255, 255, 255, .08) 1px, transparent 1px);
+  background-size: 58px 58px;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] section {
+  width: min(100%, 1500px);
+  margin: 0 auto;
+  padding: 22px 16px 18px !important;
+  background: transparent !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] section > div {
+  max-width: none !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] section > div > div:first-child {
+  display: none !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1500 / 420;
+  min-height: 250px;
+  max-height: 330px;
+  object-fit: cover !important;
+  object-position: center;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] {
+  background-color: #14254b;
+  background-image:
+    radial-gradient(circle at 18px 18px, rgba(255, 255, 255, .13) 1px, transparent 1px),
+    radial-gradient(circle at 46px 46px, rgba(255, 255, 255, .08) 1px, transparent 1px);
+  background-size: 58px 58px;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] section {
+  width: min(100%, 1500px);
+  margin: 0 auto;
+  padding: 0 16px 26px !important;
+  background: transparent !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] section > div {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] section > div > h2,
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] section > div > p {
+  display: none;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] .mt-8 {
+  margin-top: 0 !important;
+  display: grid !important;
+  grid-template-columns: 178px repeat(7, minmax(150px, 1fr));
+  gap: 12px !important;
+  overflow-x: auto;
+  align-items: stretch;
+  padding-bottom: 0;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] .mt-8::before {
+  content: "In Spotlight\A\A Top picks just for you";
+  white-space: pre-line;
+  height: 178px;
+  min-width: 178px;
+  display: block;
+  padding: 22px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.45;
+  background:
+    radial-gradient(circle at 50% 82%, rgba(255, 255, 255, .18) 0 30%, transparent 31%),
+    linear-gradient(135deg, #315dff, #5a79ff);
+  border-radius: 8px;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] article {
+  height: 178px;
+  min-width: 150px;
+  overflow: hidden !important;
+  border: 0 !important;
+  border-radius: 8px !important;
+  background: #eaf4ff !important;
+  box-shadow: none !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] article img {
+  display: block;
+  width: 100% !important;
+  height: 178px !important;
+  object-fit: cover !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] article > div {
+  display: none !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] {
+  background: #fff;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] section {
+  width: min(100%, 1500px);
+  max-width: 1500px !important;
+  margin: 0 auto !important;
+  padding: 36px 16px 14px !important;
+  background: #fff !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] h2 {
+  color: #06163a !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  line-height: 1.25 !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] section > p {
+  margin-top: 4px !important;
+  color: #5e6d87 !important;
+  font-size: 13px !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] .mt-8 {
+  margin-top: 16px !important;
+  display: grid !important;
+  grid-template-columns: repeat(8, minmax(145px, 1fr));
+  gap: 12px !important;
+  overflow-x: auto;
+  align-items: stretch;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article {
+  min-width: 145px;
+  border: 1px solid #dbe5f4 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  background: #fff !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article img {
+  width: 100% !important;
+  aspect-ratio: 1.2 / 1;
+  height: auto !important;
+  padding: 8px;
+  object-fit: contain !important;
+  background: #eaf4ff;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article > div {
+  padding: 10px !important;
+  gap: 6px !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article a:first-child {
+  min-height: 38px;
+  color: #06163a !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  overflow: hidden;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article p {
+  color: #0b63ce !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+}
+
+.theme-lymin-perfect-market .theme-section-root[data-section-type="product-grid"] article a:last-child {
+  border-radius: 6px !important;
+  background: #0b63ce !important;
+  font-size: 12px !important;
+  line-height: 1.2 !important;
+}
+
+.theme-lymin-perfect-market footer {
+  margin-top: 22px;
+  background: #071637 !important;
+  color: #d9e7ff !important;
+}
+
+@media (max-width: 960px) {
+  .theme-lymin-perfect-market header > div {
+    grid-template-columns: 1fr;
+    grid-template-areas: "brand" "search" "nav";
+    min-height: auto;
+    row-gap: 10px;
+    padding-bottom: 0 !important;
+  }
+
+  .theme-lymin-perfect-market header > div::after {
+    display: none;
+  }
+
+  .theme-lymin-perfect-market header nav {
+    grid-template-columns: repeat(13, 96px);
+  }
+
+  .theme-lymin-perfect-market .theme-section-root[data-section-type="hero-banner"] img {
+    min-height: 190px;
+  }
+}
+
+@media (max-width: 640px) {
+  .theme-lymin-perfect-market header a:first-child {
+    grid-template-columns: 92px 1fr;
+  }
+
+  .theme-lymin-perfect-market header a:first-child img {
+    width: 92px;
+    max-width: 92px;
+  }
+
+  .theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] .mt-8 {
+    grid-template-columns: 160px repeat(7, 150px);
+  }
+
+  .theme-lymin-perfect-market .theme-section-root[data-section-type="category-grid"] .mt-8::before {
+    min-width: 160px;
+  }
+}

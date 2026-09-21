@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"breadcrumb","type":"breadcrumb"},{"id":"article","type":"rich-text","settings":{"title":"blog.article.title","body":"blog.article.body"}},{"id":"related","type":"collection-grid","settings":{"title":"blog.related"}},{"id":"footer","type":"footer"}]}

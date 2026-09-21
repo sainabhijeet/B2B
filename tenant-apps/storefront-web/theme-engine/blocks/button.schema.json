@@ -1,0 +1,16 @@
+{
+  "name": "button",
+  "label": "Button",
+  "settings": [
+    {
+      "id": "text",
+      "type": "text",
+      "label": "Button Text"
+    },
+    {
+      "id": "url",
+      "type": "url",
+      "label": "Button Link"
+    }
+  ]
+}

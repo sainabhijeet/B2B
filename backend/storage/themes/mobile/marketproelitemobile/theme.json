@@ -1,0 +1,50 @@
+{
+  "name": "Aurum Commerce Mobile",
+  "version": "1.0.0",
+  "storefrontKey": "aurum-commerce-mobile",
+  "industry": "premium-marketplace",
+  "description": "A premium mobile marketplace app theme with polished commerce screens, refined product discovery, and luxury app styling.",
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "grid",
+    "enable_quick_qty": true,
+    "spacing": "comfortable"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "testimonial-carousel",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["default"],
+      "footer": ["columns"]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "testimonial-carousel",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

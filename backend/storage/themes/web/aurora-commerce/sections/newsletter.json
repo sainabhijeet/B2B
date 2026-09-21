@@ -1,0 +1,1 @@
+{"type":"newsletter","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"textarea","translation":true},"button":{"type":"text","translation":true}},"defaultSettings":{"title":"newsletter.title","body":"newsletter.body","button":"actions.subscribe"}}

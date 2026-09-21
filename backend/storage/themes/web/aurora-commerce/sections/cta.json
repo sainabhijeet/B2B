@@ -1,0 +1,1 @@
+{"type":"cta","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"text","translation":true},"action":{"type":"text","translation":true}},"defaultSettings":{"title":"cta.title","body":"cta.body","action":"actions.contact_sales"}}

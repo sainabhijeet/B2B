@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "id": "product-header",
+      "type": "header-basic",
+      "settings": {
+        "logoText": "SARAB",
+        "nav": ["Home", "Categories", "Menu", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "product-detail",
+      "type": "product-detail",
+      "settings": {
+        "title": "Sarab signature dish",
+        "description": "Product name, pricing and availability are populated from the selected live catalogue item.",
+        "gallery": ["assets/images/product.jpg", "assets/images/offer.jpg"]
+      }
+    },
+    {
+      "id": "product-story",
+      "type": "blog-grid",
+      "settings": {
+        "title": "Prepared fresh",
+        "subtitle": "Made with quality ingredients and served with care.",
+        "image": "assets/images/about.jpg"
+      }
+    },
+    {
+      "id": "related-products",
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "subtitle": "More favourites from the live menu.",
+        "image": "assets/images/product.jpg"
+      }
+    },
+    {
+      "id": "product-footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {"heading": "Menu", "links": ["Popular", "Combos", "Drinks"]},
+          {"heading": "Service", "links": ["Delivery", "Support", "Contact"]},
+          {"heading": "Restaurant", "links": ["Our story", "Hours", "Privacy"]}
+        ]
+      }
+    }
+  ]
+}

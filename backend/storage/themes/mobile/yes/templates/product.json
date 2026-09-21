@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": true,
+        "showLogo": false,
+        "showCart": true,
+        "showNotification": false,
+        "searchPlaceholder": "localizationTest.search.placeholder"
+      }
+    },
+    {
+      "id": "detail",
+      "type": "product-detail",
+      "settings": {
+        "gallery": "swipe",
+        "stickyBuyBar": true,
+        "quantitySelector": true
+      }
+    },
+    {
+      "id": "bottom-action",
+      "type": "sticky-checkout-bar",
+      "settings": {}
+    }
+  ]
+}

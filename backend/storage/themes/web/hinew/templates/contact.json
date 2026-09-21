@@ -1,0 +1,8 @@
+{
+  "sections": [
+    {"id": "header", "type": "header", "settings": {"logoText": "localizationTest.theme.name", "nav": ["localizationTest.nav.home", "localizationTest.nav.about", "localizationTest.nav.cart"]}},
+    {"id": "contact", "type": "rich-text", "settings": {"title": "localizationTest.contactPage.title", "body": "localizationTest.contactPage.description"}},
+    {"id": "cta", "type": "cta-banner", "settings": {"title": "localizationTest.contactPage.ctaTitle", "subtitle": "localizationTest.contactPage.ctaDescription", "buttonText": "localizationTest.contactPage.ctaButton"}},
+    {"id": "footer", "type": "footer", "variant": "columns", "settings": {"columns": [{"heading": "localizationTest.footer.contact", "links": ["localizationTest.footer.privacy", "localizationTest.footer.terms"]}]}}
+  ]
+}

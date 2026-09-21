@@ -1,0 +1,1 @@
+<template><section class="not-found"><div class="container"><p class="eyebrow">404</p><h1>Page not found</h1><p>The page may have moved, but the collection is still open.</p><RouterLink class="btn btn-primary" to="/shop">Continue shopping</RouterLink></div></section></template>

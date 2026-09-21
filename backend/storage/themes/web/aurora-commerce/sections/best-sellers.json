@@ -1,0 +1,1 @@
+{"type":"best-sellers","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"limit":{"type":"number"}},"defaultSettings":{"title":"products.best_sellers","limit":8}}

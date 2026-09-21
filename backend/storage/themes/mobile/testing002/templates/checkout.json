@@ -1,0 +1,8 @@
+{
+  "name": "Checkout",
+  "route": "/checkout",
+  "sections": [
+    { "type": "checkout-form", "source": "src/pages/Checkout.vue" },
+    { "type": "checkout-summary", "source": "src/pages/Checkout.vue" }
+  ]
+}

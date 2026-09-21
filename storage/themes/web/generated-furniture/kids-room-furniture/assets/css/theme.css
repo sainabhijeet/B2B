@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #e879a6;
+  --theme-secondary: #8bd3dd;
+  --theme-surface: #fff4f7;
+}
+.theme-kids-room-furniture {
+  background: #fff4f7;
+  color: #111827;
+}
+.theme-kids-room-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-kids-room-furniture img {
+  object-fit: cover;
+}

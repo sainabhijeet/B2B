@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FreshCart",
+        "locationText": "Delivering to Green Park, New Delhi",
+        "nav": [
+          "Home",
+          "Categories",
+          "Cart",
+          "Orders",
+          "Profile"
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "Fresh groceries delivered in minutes.",
+        "subtitle": "Daily essentials, fruits, dairy and household picks from trusted local stores.",
+        "primaryCta": "Shop fresh deals",
+        "image": "assets/images/banners/fresh-delivery.png"
+      }
+    },
+    {
+      "id": "deals",
+      "type": "offer-strip",
+      "settings": {
+        "title": "Up to 40% off this weekend",
+        "subtitle": "Handpicked grocery deals, free delivery bundles, and member-only prices.",
+        "image": "assets/images/banners/weekend-deals.png"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by category",
+        "subtitle": "Quick paths for everyday essentials.",
+        "images": [
+          "assets/images/categories/grocery.png",
+          "assets/images/categories/dairy.png",
+          "assets/images/categories/bakery.png",
+          "assets/images/categories/fruits.png",
+          "assets/images/categories/vegetables.png",
+          "assets/images/categories/beverages.png",
+          "assets/images/categories/snacks.png",
+          "assets/images/categories/personal-care.png",
+          "assets/images/categories/household.png",
+          "assets/images/categories/baby-care.png"
+        ]
+      }
+    },
+    {
+      "id": "popular",
+      "type": "featured-products",
+      "settings": {
+        "title": "Popular near you",
+        "subtitle": "High-rated staples your neighbourhood buys again and again.",
+        "images": [
+          "assets/images/products/product-01.png",
+          "assets/images/products/product-02.png",
+          "assets/images/products/product-03.png",
+          "assets/images/products/product-04.png",
+          "assets/images/products/product-05.png",
+          "assets/images/products/product-06.png",
+          "assets/images/products/product-07.png",
+          "assets/images/products/product-08.png",
+          "assets/images/products/product-09.png",
+          "assets/images/products/product-10.png",
+          "assets/images/products/product-11.png",
+          "assets/images/products/product-12.png"
+        ],
+        "addButtonText": "Add",
+        "quickAddText": "Quick add",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "?"
+      }
+    },
+    {
+      "id": "best",
+      "type": "best-sellers",
+      "settings": {
+        "title": "Best sellers",
+        "subtitle": "Fresh picks with great ratings and reliable stock.",
+        "images": [
+          "assets/images/products/product-12.png",
+          "assets/images/products/product-11.png",
+          "assets/images/products/product-10.png",
+          "assets/images/products/product-09.png",
+          "assets/images/products/product-08.png",
+          "assets/images/products/product-07.png",
+          "assets/images/products/product-06.png",
+          "assets/images/products/product-05.png",
+          "assets/images/products/product-04.png",
+          "assets/images/products/product-03.png",
+          "assets/images/products/product-02.png",
+          "assets/images/products/product-01.png"
+        ],
+        "addButtonText": "Add to cart",
+        "quickAddText": "Add fast",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "?"
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Freshness checked every morning",
+        "body": "Curated produce, verified brands, clear pricing and fast checkout for repeat grocery orders.",
+        "image": "assets/images/banners/fruit-veg.png",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "bottom-bar",
+      "settings": {
+        "items": [
+          "Home",
+          "Categories",
+          "Cart",
+          "Orders",
+          "Profile"
+        ]
+      }
+    }
+  ]
+}

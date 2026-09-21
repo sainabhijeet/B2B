@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": true,
+        "showLogo": false,
+        "showCart": false,
+        "showNotification": false,
+        "searchPlaceholder": ""
+      }
+    },
+    {
+      "id": "cart",
+      "type": "cart-summary",
+      "settings": {
+        "compact": true
+      }
+    },
+    {
+      "id": "checkout",
+      "type": "sticky-checkout-bar",
+      "settings": {
+        "showTotal": true,
+        "showPrimaryAction": true
+      }
+    },
+    {
+      "id": "bottom-nav",
+      "type": "mobile-bottom-nav",
+      "settings": {}
+    }
+  ]
+}

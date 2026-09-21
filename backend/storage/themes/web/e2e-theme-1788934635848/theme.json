@@ -1,0 +1,10 @@
+{
+  "name": "Example registry theme",
+  "version": "1.0.0",
+  "storefrontKey": "jewellery",
+  "templates": {
+    "home": "templates/home.json",
+    "product": "templates/product.json"
+  },
+  "sections": ["header", "hero", "footer"]
+}

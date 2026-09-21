@@ -1,0 +1,1 @@
+{"type":"filter-sidebar","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"clearLabel":{"type":"text","translation":true},"filters":{"type":"filterCollection"}},"defaultSettings":{"title":"filters.title","clearLabel":"actions.clear","filters":"catalog.filters"}}

@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": false,
+        "showLogo": true,
+        "showCart": true,
+        "showNotification": true,
+        "searchPlaceholder": "localizationTest.search.placeholder"
+      }
+    },
+    {
+      "id": "wishlist",
+      "type": "mobile-product-grid",
+      "settings": {
+        "title": "localizationTest.nav.wishlist",
+        "columns": 2,
+        "items": []
+      }
+    },
+    {
+      "id": "bottom-nav",
+      "type": "mobile-bottom-nav",
+      "settings": {}
+    }
+  ]
+}

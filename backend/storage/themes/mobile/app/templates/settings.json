@@ -1,0 +1,6 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Settings", "nav": ["Language", "Notifications", "Privacy", "Security"] } },
+    { "id": "settings", "type": "rich-text", "settings": { "title": "Settings", "content": "Language, notifications, privacy, security, change password, terms, privacy policy, logout, and delete account." } }
+  ]
+}

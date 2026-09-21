@@ -1,0 +1,10 @@
+{
+  "section": "hero-split",
+  "presets": [
+    { "id": "editorial-dark", "label": "Editorial Dark", "variant": "editorial-dark", "settings": { "eyebrow": "THE AUTUMN EDIT", "title": "Objects with a point of view." } },
+    { "id": "image-right", "label": "Image Right", "variant": "image-right", "settings": { "eyebrow": "NEW ARRIVALS", "title": "The everyday, elevated." } },
+    { "id": "image-left", "label": "Image Left", "variant": "image-left", "settings": { "eyebrow": "DESIGNED TO LAST", "title": "Good things take time." } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "A considered collection." } },
+    { "id": "commerce", "label": "Commerce", "variant": "commerce", "settings": { "eyebrow": "SHOP THE EDIT", "title": "Find your next favorite." } }
+  ]
+}

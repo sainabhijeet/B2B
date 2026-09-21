@@ -1,0 +1,43 @@
+{
+  "name": "Lymin Tech Mart",
+  "version": "2.0.0",
+  "storefrontKey": "lymin-tech-mart",
+  "industry": "marketplace",
+  "description": "A dark navy quick-commerce storefront inspired by a festive electronics marketplace layout.",
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "testimonial-carousel",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["default"],
+      "footer": ["columns"]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "testimonial-carousel",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"category-card","editable":true,"settingsSchema":{"source":{"type":"collection"},"title":{"type":"text","translation":true},"action":{"type":"text","translation":true}},"defaultSettings":{"source":"catalog.category","title":"category.title","action":"actions.explore"}}

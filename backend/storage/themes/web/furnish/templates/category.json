@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Furnish",
+        "nav": ["Home", "Categories", "Products", "Cart"]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "category-banner",
+      "settings": {
+        "title": "Furniture collections",
+        "subtitle": "Browse catalog groups with live products and trade pricing.",
+        "backgroundImage": "assets/images/slider-img-2.png"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Products in this category",
+        "variant": "featured",
+        "images": [
+          "assets/images/product-img-1.jpg",
+          "assets/images/product-img-2.jpg",
+          "assets/images/product-img-3.jpg",
+          "assets/images/couch-with-cushions-glass-table.jpg"
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Catalog", "links": ["Products", "Categories"] },
+          { "heading": "Account", "links": ["Login", "Orders"] }
+        ]
+      }
+    }
+  ]
+}

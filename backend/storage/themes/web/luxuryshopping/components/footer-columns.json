@@ -1,0 +1,9 @@
+{
+  "name": "footer-columns",
+  "label": "Footer Columns",
+  "category": "footer",
+  "variants": ["dark", "light", "compact", "editorial", "minimal"],
+  "defaultVariant": "dark",
+  "settings": { "logoText": "string", "tagline": "string", "showNewsletter": "boolean", "columns": "array", "socialLinks": "array", "copyright": "string", "showPaymentIcons": "boolean", "content": "object" },
+  "presets": [{ "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "light", "label": "Light", "variant": "light" }, { "id": "compact", "label": "Compact", "variant": "compact" }, { "id": "editorial", "label": "Editorial", "variant": "editorial" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }]
+}

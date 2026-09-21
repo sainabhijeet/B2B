@@ -1,0 +1,23 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "enterprise.brand.name",
+        "nav": [
+          "nav.home",
+          "nav.login"
+        ]
+      }
+    },
+    {
+      "id": "register",
+      "type": "rich-text",
+      "settings": {
+        "title": "auth.register.title",
+        "body": "auth.register.body"
+      }
+    }
+  ]
+}

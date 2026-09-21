@@ -1,0 +1,1 @@
+{"type":"inventory","editable":true,"settingsSchema":{"source":{"type":"inventory"},"label":{"type":"text","translation":true}},"defaultSettings":{"source":"catalog.inventory","label":"product.inventory"}}

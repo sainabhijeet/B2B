@@ -1,0 +1,18 @@
+{
+  "section": "hero-split",
+  "presets": [
+    {
+      "id": "fitness-performance",
+      "label": "Fitness Performance Hero",
+      "settings": {
+        "title": "BUILD YOUR STRONGEST SELF",
+        "subtitle": "Performance products for every fitness goal.",
+        "ourStoryTitle": "Train With Purpose",
+        "ourStoryText": "Trusted fitness essentials selected for consistent progress.",
+        "imageLeft": "assets/images/fitness-strength.svg",
+        "imageCenter": "assets/images/fitness-hero.svg",
+        "imageRight": "assets/images/fitness-nutrition.svg"
+      }
+    }
+  ]
+}

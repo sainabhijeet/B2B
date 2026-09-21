@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "id": "credit",
+      "type": "credit-summary",
+      "settings": {
+        "title": "Business Credit",
+        "limitLabel": "Credit Limit",
+        "usedLabel": "Used",
+        "availableLabel": "Available Credit",
+        "outstandingLabel": "Outstanding",
+        "dueSoonLabel": "Due Soon",
+        "paymentStatusLabel": "Payment Status",
+        "transactionsTitle": "Recent Credit Transactions",
+        "disabledTitle": "Credit disabled",
+        "loginRequiredTitle": "Sign in to view credit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Wholesale Co.",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "cat-hero",
+      "type": "category-banner",
+      "settings": {
+        "title": "Category catalogue",
+        "subtitle": "Filters and grid load from your tenant data — this banner is theme copy only.",
+        "image": "assets/images/category-strip.svg"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Refine results"
+      }
+    },
+    {
+      "id": "grid",
+      "type": "product-grid",
+      "settings": {
+        "title": "Products in this category",
+        "subtitle": "Pricing engine + customer overrides apply at cart and order time."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Catalog", "Categories", "Cart"]
+          },
+          {
+            "heading": "Account",
+            "links": ["Orders", "Log in"]
+          },
+          {
+            "heading": "Legal",
+            "links": ["Terms", "Privacy", "GST"]
+          }
+        ]
+      }
+    }
+  ]
+}

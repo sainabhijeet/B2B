@@ -1,0 +1,1 @@
+{"sections":[{"id":"header","type":"header","settings":{"logoText":"enterprise.brand.name","nav":["nav.home","nav.catalog","nav.contact"]}},{"id":"faq","type":"faq","settings":{"title":"faq.title"}},{"id":"footer","type":"footer","variant":"columns","settings":{"columns":[{"heading":"footer.company","links":["nav.about","nav.blog"]}]}}]}

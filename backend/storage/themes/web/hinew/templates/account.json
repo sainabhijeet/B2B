@@ -1,0 +1,7 @@
+{
+  "sections": [
+    {"id": "header", "type": "header", "settings": {"logoText": "localizationTest.theme.name", "nav": ["localizationTest.nav.home", "localizationTest.nav.orders", "localizationTest.nav.cart"]}},
+    {"id": "account", "type": "account-dashboard", "settings": {"title": "localizationTest.accountPage.title", "subtitle": "localizationTest.accountPage.description", "ordersLabel": "localizationTest.accountPage.orders", "profileLabel": "localizationTest.accountPage.profile"}},
+    {"id": "footer", "type": "footer", "variant": "columns", "settings": {"columns": [{"heading": "localizationTest.footer.company", "links": ["localizationTest.nav.about", "localizationTest.nav.contact"]}]}}
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Sports nutrition</title>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#991b1b"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="40" fill="url(#bg2)"/>
+  <path d="M280 160h240l-25 70v220c0 42-34 76-76 76h-38c-42 0-76-34-76-76V230z" fill="#f8fafc"/>
+  <rect x="260" y="125" width="280" height="70" rx="20" fill="#111827"/>
+  <circle cx="400" cy="340" r="92" fill="#111827"/>
+  <path d="m400 270 22 48 52 6-39 35 11 51-46-26-46 26 11-51-39-35 52-6z" fill="#f59e0b"/>
+  <text x="400" y="565" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="700">FUEL YOUR GOALS</text>
+</svg>

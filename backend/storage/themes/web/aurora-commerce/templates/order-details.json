@@ -1,0 +1,1 @@
+{"layout":"account","sections":[{"id":"header","type":"header"},{"id":"details","type":"rich-text","settings":{"title":"order.details.title","body":"order.details.body"}},{"id":"footer","type":"footer"}]}

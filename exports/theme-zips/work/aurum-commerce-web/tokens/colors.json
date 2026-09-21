@@ -1,0 +1,12 @@
+{
+  "colors": {
+    "primary": "#0b1220",
+    "secondary": "#f4e7c5",
+    "surface": "#ffffff",
+    "background": "#f6f4ef",
+    "ink": "#0b1220",
+    "muted": "#64748b",
+    "accent": "#0f766e",
+    "border": "#ded8ca"
+  }
+}

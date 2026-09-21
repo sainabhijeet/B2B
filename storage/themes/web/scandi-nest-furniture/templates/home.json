@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Rooms",
+          "Catalog",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.scandi-nest-furniture.94271e77ed02"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero.svg",
+        "secondaryCta": "theme_content.scandi-nest-furniture.9382763ce2ee",
+        "title": "theme_content.scandi-nest-furniture.eeb23097e2fc",
+        "primaryCta": "theme_content.scandi-nest-furniture.5c0ac6036257",
+        "subtitle": "theme_content.scandi-nest-furniture.5ababce59e77"
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-with-text",
+      "settings": {
+        "imagePosition": "left",
+        "image": "assets/images/detail.svg",
+        "title": "theme_content.scandi-nest-furniture.cf1be217dabd",
+        "body": "theme_content.scandi-nest-furniture.a545db4c8a49"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "offer-strip",
+      "settings": {
+        "subtitle": "theme_content.scandi-nest-furniture.eca91510b714",
+        "title": "theme_content.scandi-nest-furniture.17ebdd959448"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-living.svg",
+          "assets/images/category-dining.svg",
+          "assets/images/category-bedroom.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.scandi-nest-furniture.d47292acf32f",
+        "subtitle": "theme_content.scandi-nest-furniture.373ea1cebcdf"
+      }
+    },
+    {
+      "id": "products",
+      "type": "new-arrivals",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.scandi-nest-furniture.321dc5b1faf8",
+        "subtitle": "theme_content.scandi-nest-furniture.d81cd92267d4"
+      }
+    },
+    {
+      "id": "benefits",
+      "type": "icon-list",
+      "settings": {
+        "items": [
+          {
+            "icon": "01",
+            "title": "theme_content.scandi-nest-furniture.17e649a19996",
+            "text": "theme_content.scandi-nest-furniture.469c0a800c6e"
+          },
+          {
+            "icon": "02",
+            "title": "theme_content.scandi-nest-furniture.7806d236374a",
+            "text": "theme_content.scandi-nest-furniture.09f74aa2ee49"
+          },
+          {
+            "icon": "03",
+            "title": "theme_content.scandi-nest-furniture.e4e888534a4f",
+            "text": "theme_content.scandi-nest-furniture.57fdd81e2149"
+          }
+        ],
+        "title": "theme_content.scandi-nest-furniture.dcaa198b6c74"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "subtitle": "theme_content.scandi-nest-furniture.1b0a584a5aa9",
+        "title": "theme_content.scandi-nest-furniture.55e3806a08dd"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Living",
+              "Dining",
+              "Bedroom",
+              "Office"
+            ],
+            "heading": "theme_content.scandi-nest-furniture.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.scandi-nest-furniture.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Warranty"
+            ],
+            "heading": "theme_content.scandi-nest-furniture.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"type":"reviews","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"emptyLabel":{"type":"text","translation":true}},"defaultSettings":{"title":"product.reviews","emptyLabel":"reviews.empty"}}

@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"search","type":"search-bar","settings":{"placeholder":"forms.search_placeholder"}},{"id":"results","type":"product-carousel","settings":{"title":"search.results"}},{"id":"footer","type":"footer"}]}

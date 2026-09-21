@@ -1,0 +1,10 @@
+{
+  "id": "plp",
+  "name": "Product listing",
+  "description": "Category context + grid + promo",
+  "sections": [
+    { "type": "category-banner" },
+    { "type": "product-grid", "variant": "default" },
+    { "type": "promo-banner" }
+  ]
+}

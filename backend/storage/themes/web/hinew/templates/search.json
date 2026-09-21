@@ -1,0 +1,7 @@
+{
+  "sections": [
+    {"id": "header", "type": "header", "settings": {"logoText": "localizationTest.theme.name", "nav": ["localizationTest.nav.home", "localizationTest.nav.categories", "localizationTest.nav.cart"]}},
+    {"id": "search", "type": "search-results", "settings": {"title": "localizationTest.searchPage.title", "subtitle": "localizationTest.searchPage.description", "placeholder": "localizationTest.searchPage.placeholder", "button": "localizationTest.searchPage.button"}},
+    {"id": "footer", "type": "footer", "variant": "columns", "settings": {"columns": [{"heading": "localizationTest.footer.shop", "links": ["localizationTest.nav.categories", "localizationTest.nav.products"]}]}}
+  ]
+}

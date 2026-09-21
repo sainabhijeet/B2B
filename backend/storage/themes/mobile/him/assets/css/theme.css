@@ -1,0 +1,41 @@
+:root {
+  --hs-primary: #dc2626;
+  --hs-primary-dark: #991b1b;
+  --hs-secondary: #111827;
+  --hs-accent: #f59e0b;
+  --hs-surface: #ffffff;
+}
+
+.theme-electronics {
+  background: #f8fafc;
+  color: var(--hs-secondary);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.theme-electronics h1,
+.theme-electronics h2,
+.theme-electronics h3 {
+  letter-spacing: 0.02em;
+}
+
+.theme-electronics header {
+  border-bottom: 3px solid var(--hs-primary);
+}
+
+.theme-electronics header a:first-child span {
+  color: var(--hs-primary);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.theme-electronics button,
+.theme-electronics input[type="submit"] {
+  border-radius: 0.5rem;
+}
+
+.theme-electronics a:focus-visible,
+.theme-electronics button:focus-visible,
+.theme-electronics input:focus-visible {
+  outline: 3px solid var(--hs-accent);
+  outline-offset: 2px;
+}

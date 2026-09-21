@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "ATELIER", "showSearch": true, "showAccount": true, "showWishlist": true, "showCart": true, "sticky": true } },
+    { "id": "cart-summary", "type": "cart-summary", "settings": { "title": "Your bag", "showNotes": true, "showShippingEstimate": true, "showDiscount": true, "showContinueShopping": true, "continueUrl": "/collections/all" } },
+    { "id": "cart-recommendations", "type": "recommended-products", "settings": { "eyebrow": "BEFORE YOU GO", "title": "You may also like", "limit": 4, "showQuickAdd": true } },
+    { "id": "site-footer", "type": "footer-columns", "variant": "dark", "settings": { "logoText": "ATELIER", "tagline": "The considered edit for everyday living.", "showNewsletter": false, "columns": [{ "title": "Help", "links": [{ "label": "Contact", "url": "/pages/contact" }, { "label": "Shipping & returns", "url": "/pages/shipping" }] }], "socialLinks": [], "copyright": "© 2026 Atelier Commerce. All rights reserved." } }
+  ]
+}

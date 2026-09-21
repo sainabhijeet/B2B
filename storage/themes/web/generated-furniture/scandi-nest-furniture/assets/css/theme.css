@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #88a390;
+  --theme-secondary: #d6b27c;
+  --theme-surface: #f6f3ea;
+}
+.theme-scandi-nest-furniture {
+  background: #f6f3ea;
+  color: #111827;
+}
+.theme-scandi-nest-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-scandi-nest-furniture img {
+  object-fit: cover;
+}

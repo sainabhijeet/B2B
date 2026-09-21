@@ -1,0 +1,2867 @@
+# Change Inventory
+
+Generated from change-summary.csv.
+
+Total files: 2843
+
+## By Status
+- Added (heuristic): 2306
+- Added (inventory output): 5
+- Modified (heuristic): 532
+
+## By Module
+- Admin: 260
+- Backend: 122
+- Database Migrations: 96
+- Distributor Panel: 99
+- Documentation: 26
+- Reports: 25
+- Scripts: 19
+- Storefront: 99
+- Theme Engine/Builder: 37
+- Theme Packages/Assets: 2060
+
+## Files
+- [Admin] Modified (heuristic): admin/src/App.tsx
+- [Admin] Modified (heuristic): admin/src/components/activity/SystemActivityLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/admin-rbac/AdminRbacContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/admin-rbac/AdminRbacLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/ads/AdsManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/analytics/AnalyticsManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/analytics/charts.tsx
+- [Admin] Modified (heuristic): admin/src/components/announcements/AnnouncementsContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/announcements/AnnouncementsLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/auth/RequireAuth.tsx
+- [Admin] Modified (heuristic): admin/src/components/backup/BackupContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/backup/BackupLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/billing/BillingLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/build/BuildManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/coupons/CouponContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/coupons/CouponLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/feature-flags/FeatureFlagsContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/feature-flags/FeatureFlagsLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/industries/IndustriesContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/industries/IndustriesLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/integrations/IntegrationsContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/integrations/IntegrationsLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/language/LanguageModuleContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/language/LanguageModuleLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/layout/MainLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/layout/Sidebar.tsx
+- [Admin] Modified (heuristic): admin/src/components/layout/TopBar.tsx
+- [Admin] Modified (heuristic): admin/src/components/locations/LocationContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/locations/LocationLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/logs/LogsManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/media/MediaManagerContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/media/MediaManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/notifications/NotificationTemplatesContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/notifications/NotificationTemplatesLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/scheduler/SchedulerContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/scheduler/SchedulerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/settings/SystemSettingsLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/tenants/TenantDetailContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/tenants/TenantDetailLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/themes/ThemeManagerLayout.tsx
+- [Admin] Modified (heuristic): admin/src/components/themes/ThemesContext.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/buttonClasses.ts
+- [Admin] Modified (heuristic): admin/src/components/ui/CountryFlag.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/DataTable.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/PageHeader.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/PlaceholderCard.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/RecordView.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/ResourcePanel.tsx
+- [Admin] Modified (heuristic): admin/src/components/ui/Switch.tsx
+- [Admin] Modified (heuristic): admin/src/index.css
+- [Admin] Modified (heuristic): admin/src/lib/adsApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/adsDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/adsFormMaps.ts
+- [Admin] Modified (heuristic): admin/src/lib/analyticsDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/announcementsDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/apiBase.ts
+- [Admin] Modified (heuristic): admin/src/lib/apiClient.ts
+- [Admin] Modified (heuristic): admin/src/lib/apiTypes.ts
+- [Admin] Modified (heuristic): admin/src/lib/attributeDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/attributesApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/authStorage.ts
+- [Admin] Modified (heuristic): admin/src/lib/backupDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/billingDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/buildDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/categoryDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/countryApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/couponDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/featureFlagsDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/industriesDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/integrationsDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/isoCountryFlag.ts
+- [Admin] Modified (heuristic): admin/src/lib/languageModuleDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/locationDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/locationMasterApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/logsMonitoringDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/masterBrandsApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/mediaManagerDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/mediaUploadApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/notificationTemplatesDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/otpProviderLabels.ts
+- [Admin] Modified (heuristic): admin/src/lib/planDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/platformFeatureRegistry.ts
+- [Admin] Modified (heuristic): admin/src/lib/platformLanguagesApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/platformSettingsApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/rbacDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/schedulerDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/systemActivityDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/systemSettingsDefaults.ts
+- [Admin] Modified (heuristic): admin/src/lib/tenantDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/tenantsApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/tenantWhatsappPlatformApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/themeDemoData.ts
+- [Admin] Modified (heuristic): admin/src/lib/themesApi.ts
+- [Admin] Modified (heuristic): admin/src/lib/translationPipelineApi.ts
+- [Admin] Modified (heuristic): admin/src/main.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/api/whatsappApi.ts
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/components/HealthStatusCard.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/components/TemplateMappingsEditor.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/components/TemplatesTable.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/components/TenantWhatsAppCard.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/components/WhatsAppConfigForm.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/hooks/useWhatsApp.ts
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/pages/WhatsAppConfigPage.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/pages/WhatsAppHealthPage.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/pages/WhatsAppOverviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/pages/WhatsAppPlatformLibraryPage.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/pages/WhatsAppTemplatesPage.tsx
+- [Admin] Modified (heuristic): admin/src/modules/whatsapp/whatsappAppRoutes.tsx
+- [Admin] Modified (heuristic): admin/src/pages/admin-rbac/RbacPermissionsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/admin-rbac/RbacRolesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/admin-rbac/RbacStaffActivityPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/admin-rbac/StaffUsersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsCampaignFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsCampaignsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsCreativesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsDashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsPlacementsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/ads/AdsSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/AdsAnalyticsSummaryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/AlertsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/BuildAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/PlatformOverviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/RevenueAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/SystemHealthPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/TenantAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/analytics/UsageAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/announcements/AnnouncementCreatePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/announcements/announcementFormUtils.ts
+- [Admin] Modified (heuristic): admin/src/pages/announcements/AnnouncementHistoryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/announcements/AnnouncementSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/announcements/AnnouncementsListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/announcements/TargetAudiencePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/attributes/AttributeFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/attributes/AttributeListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/auth/ForgotPasswordPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/auth/LoginPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/auth/OtpPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/auth/ResetPasswordPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/backup/BackupDashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/backup/BackupHistoryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/backup/BackupSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/backup/ManualBackupPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/backup/RestoreSystemPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/billing/BillingPaymentsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/billing/BillingRefundsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/billing/BillingRevenueReportsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/billing/PlanBillingPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/billing/SubscriptionInvoicesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildDashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildHistoryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildInfrastructurePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildLogsIndexPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildQueuePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/build/BuildSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/categories/CategoryFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/categories/CategoryListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/CouponAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/CouponCampaignsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/CouponFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/CouponListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/CouponSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/DistributorCouponAnalyticsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/coupons/DistributorCouponUsagePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/DashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/feature-flags/FeatureFlagsListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/feature-flags/FeatureGroupsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/feature-flags/FeatureLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/feature-flags/PlanBasedAccessPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/feature-flags/TenantOverridesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/industries/IndustryFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/industries/industryIcons.tsx
+- [Admin] Modified (heuristic): admin/src/pages/industries/IndustryListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/industries/IndustryMappingPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/ApiKeysPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/EmailProvidersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/IntegrationsDashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/PaymentGatewaysPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/PushProvidersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/SmsProvidersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/StorageProvidersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/integrations/WebhooksPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/languages/LanguagesCatalogPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/languages/LanguageSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/languages/TranslationKeysPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/languages/TranslationsEditorPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/languages/TranslationsImportExportPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/locations/CitiesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/locations/CountriesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/locations/CountryFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/locations/PincodesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/locations/StatesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/ActivityLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/ApiLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/ErrorLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/LoginLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/LogsAlertsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/LogsSystemMonitoringPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/logs-monitoring/PlatformBuildLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/master-brands/MasterBrandFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/master-brands/MasterBrandListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/media/MediaFoldersPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/media/MediaLibraryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/media/MediaStoragePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/media/MediaUploadPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/notifications/NotificationChannelsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/notifications/NotificationLogsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/notifications/NotificationPreviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/notifications/NotificationTemplatesListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/notifications/NotificationVariablesPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/plans/PlanFormPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/plans/PlanListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/plans/PlanMatrixPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/scheduler/JobHistoryPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/scheduler/JobQueuePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/scheduler/ManualTriggerPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/scheduler/ScheduledJobsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/scheduler/SchedulerSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/AiBrandingSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/ApiSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/AuthenticationSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/LogsSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/MaintenanceSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/NotificationSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/PaymentSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/PlatformConfigStorePage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/PlatformSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/SecuritySettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/settingsFormClasses.ts
+- [Admin] Modified (heuristic): admin/src/pages/settings/StorageSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/settings/SystemBuildSettingsPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/support/SupportDetailPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/support/SupportListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/system-activity/ActivityFeedPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/system-activity/AdminActivityPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/system-activity/SystemEventsActivityPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/system-activity/TenantActivityPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantActivityTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantBuildsTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantDangerTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantDatabaseTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantDomainsTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantFeatureFlagsTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantOverviewTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantSubscriptionTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantSupportTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantUsageTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/tabs/TenantWhatsappTab.tsx
+- [Admin] Modified (heuristic): admin/src/pages/tenants/TenantListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/CatalogThemeEditor.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeComboPacksPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeComboPreviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeDashboardPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeEditPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeListPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemePreviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeTranslationReviewPage.tsx
+- [Admin] Modified (heuristic): admin/src/pages/themes/ThemeUploadPage.tsx
+- [Admin] Modified (heuristic): admin/src/vite-env.d.ts
+- [Backend] Modified (heuristic): backend/src/common/localization/language-consistency.service.spec.ts
+- [Backend] Modified (heuristic): backend/src/common/localization/language-consistency.service.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/enterprise-audit.service.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/enterprise-audit-envelope.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/observability.module.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/request-context.middleware.spec.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/request-context.middleware.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/request-context.service.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-migration-flags.spec.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-migration-flags.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-migration-log.spec.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-migration-log.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-migration-telemetry.service.ts
+- [Backend] Modified (heuristic): backend/src/common/observability/theme-platform-metrics.service.ts
+- [Backend] Modified (heuristic): backend/src/config/configuration.ts
+- [Backend] Modified (heuristic): backend/src/config/env.validation.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/entities/theme-release-artifact.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/repositories/theme-release-artifact.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/storage/object-storage.types.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/storage/s3-compatible-object-storage.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/storage/theme-artifact-metrics.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/storage/theme-artifact-metrics.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifact-file.util.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifact-file.util.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifact-importer.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifact-publisher.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifacts.module.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifacts-health.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifacts-health.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifacts-health.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-artifacts/theme-artifact-verification.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-event.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-health-check.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-lock.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-progress.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-queue-entry.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-deployment-snapshot.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/entities/theme-enterprise-deployment.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment.contracts.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment.module.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment-metrics.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment-metrics.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment-state-machine.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-deployment-engine/theme-deployment-state-machine.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-backfill-run.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-bundle.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-deployment.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-family.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-legacy-mapping.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/entities/theme-release.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-backfill-run.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-bundle.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-deployment.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-family.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-legacy-mapping.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/repositories/theme-release.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/theme-migration.module.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/theme-migration-health.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/theme-migration-health.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-migration/theme-migration-health.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-approval-history.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-candidate.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-lifecycle-event.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-review-comment.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-reviewer.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/entities/theme-release-validation-history.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/preview/theme-release-preview.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/quarantine/theme-quarantine-storage.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/quarantine/theme-quarantine-storage.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/repositories/theme-release-candidate.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/repositories/theme-release-validation-history.repository.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-lifecycle.contracts.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-lifecycle.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-lifecycle.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-lifecycle-metrics.service.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-lifecycle-metrics.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-pipeline.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-pipeline.module.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/theme-release-pipeline.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/asset.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/compatibility.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/manifest.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/security.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/translation.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/validation-report.types.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/validation-report.types.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/zip-structure.validator.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-release-pipeline/validation/zip-structure.validator.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/canonical-runtime.resolver.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/entities/theme-runtime-comparison-report.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/runtime-comparison.engine.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/runtime-comparison.engine.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/runtime-contracts.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/runtime-report-hardening.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/runtime-report-hardening.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.interceptor.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.interceptor.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.metrics.service.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.module.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.queue.spec.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.queue.ts
+- [Backend] Added (heuristic): backend/src/modules/theme-runtime-shadow/theme-runtime-shadow.service.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/dto/bulk-translation.dto.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/dto/create-translation-job.dto.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/dto/import-locale.dto.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/dto/list-translation-jobs.dto.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/dto/review-translation.dto.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/entities/translation-audit-event.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/entities/translation-entry.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/entities/translation-job.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/entities/translation-revision.entity.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/openai-translation.provider.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-pipeline.controller.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-pipeline.module.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-pipeline.service.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-provider.service.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-provider.types.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-queue.service.ts
+- [Backend] Added (heuristic): backend/src/modules/translation-pipeline/translation-worker.service.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600000000-InitCoreFoundation.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600001000-AddAuditLogs.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600002000-AddCatalogCoreSchema.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600003000-AddCommerceCore.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600004000-AddOrderPayments.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600005000-AddWorkerNotificationAnalyticsTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600006000-AddDeviceTokensAndFailedJobs.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600007000-AddSaasControlLayer.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600008000-AddBuildSystemSkeleton.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600009000-AddAppVersions.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600010000-AddNotificationControlLayer.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600011000-AddSupportAndTranslations.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600012000-AddBuildLogsAndMetrics.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600013000-AddWorkerNodes.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600014000-AddBillingAndReferrals.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600015000-AddPaymentRazorpayIds.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600016000-RemovePaymentRazorpayColumns.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600017000-ReaddSaaSBillingRazorpayColumns.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600018000-AddReferralFraudAndSubscriptionReminder.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600019000-AddAdCampaigns.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600020000-AddCountriesTable.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600021000-AddGeoLocationTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600022000-GeoLocationSearchIndexes.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600023000-OtpPurposeTenantAndUserPhoneVerified.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600024000-SeedDefaultCountries.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600025000-CountryPhoneNationalLength.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600026000-AddIndustriesTable.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600027000-CatalogIndustryLevelAndProductCategories.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600028000-AddTenantCountryId.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600029000-AddDistributorOnboardingTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600031000-AddGstVerificationColumnsToTenantProfiles.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600032000-AddLogoGenerationCountToTenantBranding.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600033000-AddAiSettingsTable.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600034000-UniqueTenantDomainsSubdomain.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600035000-UniqueTenantDomainsCustomDomain.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600036000-SeedDefaultStorefrontThemes.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600037000-ThemeWebMobileComboTenantSettings.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600038000-ThemeStoragePathAndComboStatus.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600039000-ThemePreviewImagesArray.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600040000-TenantThemeCustomizationTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600041000-TenantSchemaColumns.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600042000-AddCustomersAndAddresses.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600043000-AddUserCustomerId.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600044000-ProductSeoCostTagsVariantImage.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600045000-StorefrontCatalogFilterSchema.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600046000-SeedCuratedIndustriesList.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600047000-SeedCuratedGlobalCategories.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600048000-SeedCategoryHierarchyLevels2And3.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600049000-SeedDefaultBranchesForRootCategories.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600050000-CatalogAttributeIndustryCategoryLinks.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600051000-B2bVariantPricingTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600052000-MoveTenantCatalogIntoSchemas.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600053000-TenantCommerceCartOrdersInvoices.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600053050-EnsureReservedStockOnInventoryAllSchemas.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600054000-MasterBrandsAndTenantBrands.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600055000-TenantThemeChangeHistory.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600056000-OrdersShippingAddressPaymentMode.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600057000-CreditTransactions.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600058000-CreditLedgerOpeningNormalizeAndBackfill.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600059000-TenantInvoiceCounters.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600060000-VariantMoqGstAndCartTaxRate.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600061000-WhatsappCoreTables.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600062000-CustomerWhatsappPermissionsExpand.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600062000-PlatformWhatsappNumbersToggleToken.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600062000-WhatsappOrderSessions.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600063000-WhatsappMessageRawPayloadSessionLastActive.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600070000-AddTopProductsToTenantSchemas.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600071000-OrdersOrderSource.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600072000-PlatformWhatsappNumbersUseOwnToken.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600073000-PlatformWhatsappPerLineWebhookSecrets.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600074000-TempCustomersAndWhatsappSession.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600075000-TenantWhatsappMenu.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600076000-WhatsappMenuClicks.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600077000-TenantWhatsappHybridTemplates.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600078000-WhatsappMetaTemplateSyncAndWaba.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600079000-WhatsappMetaTemplateTenantNameUnique.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600080000-PlatformWhatsappSyncErrorAndLastSent.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600081000-TenantWhatsappTemplateMapping.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600082000-TenantWhatsappTemplateMappingIsActive.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600083000-AddPlatformWhatsappMetaTemplates.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600084000-TenantAppSettingsAndGuestCartLines.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600085000-TenantAppSettingsAppConfigFlags.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600086000-SeedThemeGalleryPreviewImages.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600087000-TenantThemeSettingsSecondaryColor.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600088000-TenantAppSettingsSelectedLanguage.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600089000-AddCanonicalThemeArchitecture.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600090000-CorrectCanonicalThemeDeploymentSettingsKey.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600091000-AddCanonicalThemeLookupIndexes.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600100000-AddThemeReleaseArtifacts.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600101000-EnforceImmutableThemeReleaseArtifacts.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600110000-AddThemeReleaseValidationPipeline.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600120000-AddThemeReleaseLifecycle.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600130000-AddEnterpriseThemeDeploymentEngine.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600140000-AddThemeRuntimeComparisonReports.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600150000-AddThemeImmutabilityGuards.ts
+- [Database Migrations] Added (heuristic): backend/src/database/migrations/1712600160000-AddThemeTranslationPipeline.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/attributesApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/brandsApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/catalogPricingApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/categoriesApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/customersApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/invoicesApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/ordersApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/api/productsApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/App.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/app/layouts/DashboardLayout.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/auth/RequireAuth.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/forms/FormInput.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/forms/FormSelect.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/layout/Sidebar.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/layout/TopBar.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/AttributeSelector.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/ImageUploader.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/ProductForm.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/SeoForm.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/VariantTable.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/products/variantUtils.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/Badge.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/Button.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/CountryFlag.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/DataTable.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/PageHeader.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/PlaceholderCard.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/components/ui/ResourcePanel.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/hooks/useAllowedSections.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/hooks/useAuth.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/hooks/usePagination.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/hooks/useTenant.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/hooks/useWebsiteBuilderThemeInfo.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/index.css
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/androidAppPackage.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/apiBase.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/apiClient.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/apiTypes.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/appPackageApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/authStorage.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/brandingAiApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/countryIsoStorage.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/distributorOnboardingApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/distributorPanelApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/geoPublic.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/industriesPublic.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/industryIcons.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/jwtParse.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/localizePreviewText.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/logoApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/onboardingStorage.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/platformLanguages.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/themePreviewContract.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/themesApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/websiteBuilderApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/lib/whatsappTemplateMappingApi.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/main.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/analytics/AnalyticsSummaryPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/auth/LoginPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/billing/BillingLayout.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/billing/BillingPlansPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/billing/BillingSubscriptionPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/AttributesPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/BrandsPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/CategoriesPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/ProductCreateWizardPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/ProductFormPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/ProductPricingPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/ProductsPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/catalog/ProductViewPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/customers/CustomerCreatePage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/customers/CustomerDetailPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/customers/CustomersListPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/dashboard/DashboardPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/inventory/StockOverviewPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/inventory/WarehousesInfoPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/invoices/InvoicesListPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/onboarding/OnboardingGate.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/onboarding/OnboardingWizard.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/orders/OrderDetailPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/orders/OrdersListPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/placeholders/ModulePlaceholderPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/referrals/ReferralsCodePage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/referrals/ReferralsConversionsPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/referrals/ReferralsLayout.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/referrals/ReferralsStatsPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/settings/MobileAppSettingsPanel.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/settings/SettingsIndexPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/settings/WhatsappTemplateMappingPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/website-builder/LiveThemeEditorControls.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/website-builder/ThemeChangePage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/website-builder/ThemeSettingsPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/website-builder/WebsiteBuilderLayout.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/pages/website-builder/WebsiteSectionsEditorPage.tsx
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/types/category.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/types/commerce.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/types/onboarding.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/types/product.ts
+- [Distributor Panel] Modified (heuristic): tenant-apps/distributor-panel/src/vite-env.d.ts
+- [Documentation] Modified (heuristic): docs/b2b-order-engine-architecture.md
+- [Documentation] Added (inventory output): docs/change-by-phase.md
+- [Documentation] Added (inventory output): docs/change-inventory.json
+- [Documentation] Added (inventory output): docs/change-inventory.md
+- [Documentation] Added (inventory output): docs/change-summary.csv
+- [Documentation] Added (inventory output): docs/change-tree.txt
+- [Documentation] Modified (heuristic): docs/enterprise-theme-platform-status-report.md
+- [Documentation] Modified (heuristic): docs/saas-platform-database-architecture.md
+- [Documentation] Modified (heuristic): docs/STOREFRONT_SECTION_ENGINE_AND_SCHEMA.md
+- [Documentation] Modified (heuristic): docs/storefront-architecture.md
+- [Documentation] Modified (heuristic): docs/storefront-chinese-translation-inventory.md
+- [Documentation] Modified (heuristic): docs/THEME_AUTHORING_GUIDE.md
+- [Documentation] Modified (heuristic): docs/THEME_ZIP_SPECIFICATION.md
+- [Documentation] Modified (heuristic): docs/theme-customization-panel-architecture.md
+- [Documentation] Modified (heuristic): docs/theme-deployment-engine-phase5.md
+- [Documentation] Modified (heuristic): docs/theme-language-consistency-layer.md
+- [Documentation] Modified (heuristic): docs/theme-language-root-cause-report.md
+- [Documentation] Modified (heuristic): docs/theme-language-verification-report.md
+- [Documentation] Modified (heuristic): docs/theme-migration/PHASE_0_BASELINE.md
+- [Documentation] Modified (heuristic): docs/theme-migration/ROLLBACK_RUNBOOK.md
+- [Documentation] Modified (heuristic): docs/theme-preview-experience-phase.md
+- [Documentation] Modified (heuristic): docs/theme-runtime-phase6a1-hardening.md
+- [Documentation] Modified (heuristic): docs/theme-runtime-shadow-phase6a.md
+- [Documentation] Modified (heuristic): docs/theme-translation-inventory.json
+- [Documentation] Modified (heuristic): docs/theme-translation-inventory.md
+- [Documentation] Modified (heuristic): docs/translation-pipeline.md
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/artisan-decor-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/classic-b2b.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/egadget-shop-web.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/electra-power-services.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/enterprise-ai-translation-plan.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/enterprise-ai-translation-progress.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/enterprise-ai-translation-report.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/enterprise-localization-report.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/furnish-uploadable.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/kids-room-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/localization-approval-dashboard.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/luxe-living-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/lymin-perfect-market.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/lymin-tech-mart.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/mattress-sleep-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/migration-report.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/modular-home-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/office-studio-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/outdoor-patio-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/premium-market-real.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/rental-staging-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/ridego-commerce.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/scandi-nest-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/urban-loft-furniture.json
+- [Reports] Added (heuristic): storage/themes/migration-reports/enterprise-reference/zales.json
+- [Scripts] Added (heuristic): backend/src/scripts/countries-seed.ts
+- [Scripts] Added (heuristic): backend/src/scripts/data/location-seed.data.ts
+- [Scripts] Added (heuristic): backend/src/scripts/import-geonames-locations.ts
+- [Scripts] Added (heuristic): backend/src/scripts/import-india-full-geonames.ts
+- [Scripts] Added (heuristic): backend/src/scripts/locations-master-seed.ts
+- [Scripts] Added (heuristic): backend/src/scripts/monitoring-heartbeat.ts
+- [Scripts] Added (heuristic): backend/src/scripts/monitoring-seed.ts
+- [Scripts] Added (heuristic): backend/src/scripts/storefront-test-customer-seed.ts
+- [Scripts] Added (heuristic): backend/src/scripts/tenants-seed.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-artifact-import.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-artifact-verify.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-enterprise-ai-translate.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-enterprise-localization-audit.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-enterprise-migrate.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-migration-backfill.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-migration-inventory.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-migration-verify.ts
+- [Scripts] Added (heuristic): backend/src/scripts/theme-release-intake.ts
+- [Scripts] Added (heuristic): backend/src/scripts/verify-credit-ledger.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/auth/login/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/auth/logout/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/auth/refresh/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/auth/verify/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/cart/items/[id]/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/cart/items/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/cart/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/api/storefront/orders/route.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/blog/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/cart/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/category/[slug]/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/category/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/checkout/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/contact/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/faq/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/favicon.ico
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/globals.css
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/layout.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/login/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/orders/[orderNo]/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/orders/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/product/[slug]/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/product/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/app/wishlist/page.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/Button.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/AddToCartPanel.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/cart-client-api.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/CartItemRow.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/CartPageClient.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/CartSummary.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/cart/MiniCart.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/CartItem.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/CategoryCard.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/checkout/CheckoutAddress.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/checkout/CheckoutPageClient.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/checkout/CheckoutSummary.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/checkout/PlaceOrderButton.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/JsonLd.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/PreviewBridge.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/ProductCard.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/components/StorefrontLocaleFrame.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/block-renderer.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/layout-engine.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/manifest-url.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/merge-storefront-branding.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/section-renderer.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/template-language.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/template-loader.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/template-renderer.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/tenant-overrides.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/theme-capabilities.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/theme-loader.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/engine/token-loader.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/api-origin.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/cart-events.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/cart-types.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/checkout-types.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/customer-session-cookies.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/language-consistency.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/proxyNestResponse.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/resolve-storefront-theme.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/seo.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/server-customer-token-refresh.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/storefrontApi.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/storefrontAuthedFetch.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/storefront-language.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/storefront-theme-keys.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/theme-config.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/lib/theme-preview-contract.ts
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/AccountDashboardSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/BlogPreviewSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/BrandLogosSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/CartSummarySection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/CategoryGrid.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/CheckoutSummarySection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/CtaBannerSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/DividerSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/EditorialBanner.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/FaqSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/FilterSidebarSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/FooterColumns.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/Header.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/HeroBanner.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/HeroSplit.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/IconListSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ImageWithTextSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/Newsletter.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ProductCarousel.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ProductDetail.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ProductGallerySection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ProductGrid.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/ProductInfoSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/PromoStripSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/RichTextSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/SearchResultsSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/SpacerSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/StubSection.tsx
+- [Storefront] Modified (heuristic): tenant-apps/storefront-web/sections/TestimonialCarousel.tsx
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/engine/schema/theme-engine.schema.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/block-catalog.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/badge.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/button.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/category-card.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/divider.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/heading.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/icon-text.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/image.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/product-card.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/spacer.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/blocks/text.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/index.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/merge-schemas.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/preset-registry.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/presets/category-grid.presets.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/presets/hero-banner.presets.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/presets/product-grid.presets.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/preset-schema.zod.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/schema-registry.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-categories.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-grouping.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library/brand-showcase.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library/homepage.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library/marketing-landing.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library/plp.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library-registry.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-library-schema.zod.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/category-grid.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/collection-grid.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/hero-banner.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/product-grid.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/testimonial.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/sections/variants/hero-banner.split.schema.json
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-schema.zod.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-type-taxonomy.ts
+- [Theme Engine/Builder] Modified (heuristic): tenant-apps/storefront-web/theme-engine/section-variant-merge.ts
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/.DS_Store
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/abc/enterprise-reference-theme-v1.0.0.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/abhitestnew/premium-multivendor-ecommerce.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/artisan-decor-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/category-strip.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/hero-trade.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/assets/images/split-catalog.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/classic-b2b/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-cooking.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-cookware.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-laundry.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-refrigeration.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-smart.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/category-vacuums.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-coffee.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-fridge.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-handvac.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-microwave.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-oven.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-toaster.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-vacuum.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/assets/images/product-washer.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/egadget-shop-web/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/about-crew.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/hero-electrical.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/assets/images/project-process.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/electra-power-services/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/enterprise-reference-theme-v1.0.0.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/for/web-lymin-perfect-market.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish/furnish-uploadable.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/.DS_Store
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/.github/workflows/action.yml
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/.gitignore
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/package.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/package-lock.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/about.html
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/about.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-1.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-2.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-3.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-4.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-5.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/avatar/avatar-6.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/couch-with-cushions-glass-table.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/login-bg.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-1.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-2.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-3.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-4.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-5.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-6.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-7.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/product-img-8.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/slider/slider-img-1.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/slider/slider-img-2.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/images/slider/slider-img-3.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/js/custom.js
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/js/main.js
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/js/swiper.js
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/scss/_custom.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/scss/_utilities.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/scss/_variables.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/scss/style.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/assets/scss/swiper/_swiper.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/contact.html
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/index.html
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/products.html
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/style.scss
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/src/testimonials.html
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-source-extract/furnish-1.0.0/vite.config.js
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/couch-with-cushions-glass-table.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-img-1.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-img-2.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/product-img-3.jpg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/slider-img-1.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/slider-img-2.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/assets/images/slider-img-3.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/furnish-uploadable/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/all-10-furniture-theme-zips.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/artisan-decor-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/kids-room-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/luxe-living-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/mattress-sleep-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/modular-home-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/office-studio-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/outdoor-patio-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/rental-staging-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/scandi-nest-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/generated-furniture/urban-loft-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/himanshu/ridego-commerce-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/kids-room-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/luxe-living-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin/web-lymin-tech-mart.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/category-hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/hero-tech-festive.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/logo-lymin.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-cleaning.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-dental.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-diapers.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-grocery.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-headphones.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-home.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-kitchen.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-laptop.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-personal-care.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-phone.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-snacks.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/product-watch.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-appliances.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-care.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-computers.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-decor.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-health.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-sale.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/assets/images/spotlight-toys.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-perfect-market/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/category-hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/hero-tech-festive.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/logo-lymin.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-cleaning.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-dental.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-diapers.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-grocery.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-headphones.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-home.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-kitchen.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-laptop.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-personal-care.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-phone.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-snacks.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/product-watch.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-appliances.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-care.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-computers.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-decor.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-health.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-sale.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/assets/images/spotlight-toys.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/lymin-tech-mart/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/marketproelite/web-premium-market-real.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/mattress-sleep-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/modular-home-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/newest-web/luxe-living-furniture.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/new-theme/sarab-1.0.0-platform.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/newtheme/web.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/office-studio-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/onlineshoppingweb/egadget-shop-web.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/outdoor-patio-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/category-products-real.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/hero-products-real.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/premium-market-real/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/rental-staging-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/category-route.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/hero-route.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/assets/images/route-dashboard.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridego-commerce/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridegoo/ridego-commerce-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/ridegooo/ridego-commerce-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/scandi-nest-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/shopping/luxury-shopping-theme.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/test/web-lymin-tech-mart.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/test2/classic-b2b-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/testtt/ridego-commerce-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/testtting/ridego-commerce-theme-v1.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-bedroom.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-dining.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-living.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/detail.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/hero.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-01.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-02.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-03.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/README.txt
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/urban-loft-furniture/tokens/typography.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/voteindiaapp/electra-power-services.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/voteindiaweb/electra-power-services.zip
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/css/theme.css
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/icons/arrow.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/icons/credit.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/icons/shield.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/icons/support.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/icons/truck.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/brand-logos.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/category-arch.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/category-facilities.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/category-packaging.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/category-safety.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/category-tools.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/hero-reference.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/hero-supply.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/hero-woman.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/lifestyle-hand.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/lifestyle-necklaces.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/lifestyle-warehouse.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/logo.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-bearing.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-box.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-bracelet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-cable.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-gloves.svg
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-necklace.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-ring.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/assets/images/product-ring-coral.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/ASSETS_DOWNLOAD.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/blocks/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/components/hero.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/components/product-grid.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/docs/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/fonts/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/icons/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/icons/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/images/README.md
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/layouts/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/layouts/default.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/ar.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/de.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/en.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/es.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/fr.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/hi.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/ja.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/ru.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/locales/zh.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/preview/preview.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/preview/preview-mobile.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/preview/preview-tablet.png
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/scripts/gen-placeholders.sh
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/sections/manifest.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/about.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/account.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/blog.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/cart.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/category.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/checkout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/contact.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/faq.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/home.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/login.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/orders.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/product.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/register.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/search.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/templates/wishlist.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/theme.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/tokens/colors.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/tokens/layout.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/tokens/spacing.json
+- [Theme Packages/Assets] Added (heuristic): storage/themes/web/zales/tokens/typography.json

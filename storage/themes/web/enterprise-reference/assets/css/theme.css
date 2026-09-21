@@ -1,0 +1,186 @@
+:root {
+  --enterprise-primary: #0b2545;
+  --enterprise-secondary: #e8f3f5;
+  --enterprise-surface: #fff;
+  --enterprise-background: #f6f9fb;
+  --enterprise-ink: #102a43;
+  --enterprise-muted: #52606d;
+  --enterprise-accent: #0aa6a6;
+  --enterprise-border: #d9e2ec;
+  --enterprise-radius: .75rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+.theme-enterprise-reference {
+  min-width: 0;
+  overflow-x: hidden;
+  background: var(--enterprise-background);
+  color: var(--enterprise-ink);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+.theme-enterprise-reference > *,
+.theme-enterprise-reference section,
+.theme-enterprise-reference header,
+.theme-enterprise-reference footer {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.theme-enterprise-reference header > div {
+  width: min(100% - 2rem, 72rem);
+  min-width: 0;
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+.theme-enterprise-reference header a:first-child {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.theme-enterprise-reference header nav {
+  min-width: 0;
+  max-width: 100%;
+  flex: 1 1 20rem;
+  justify-content: flex-end;
+  gap: .75rem;
+  overflow-wrap: anywhere;
+}
+
+.theme-enterprise-reference header nav a {
+  white-space: nowrap;
+}
+
+.theme-enterprise-reference a { transition: opacity .2s ease; }
+
+.theme-enterprise-reference img {
+  display: block;
+  max-width: 100%;
+}
+
+.theme-enterprise-reference header a:first-child img {
+  width: auto;
+  height: 2.25rem;
+  max-width: 10rem;
+  object-fit: contain;
+}
+
+.theme-enterprise-reference [class*="grid"] {
+  min-width: 0;
+}
+
+.theme-enterprise-reference [class*="grid"] > * {
+  min-width: 0;
+}
+
+.theme-enterprise-reference h1,
+.theme-enterprise-reference h2,
+.theme-enterprise-reference h3,
+.theme-enterprise-reference p {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.theme-enterprise-reference svg {
+  max-width: 100%;
+}
+
+@media (max-width: 48rem) {
+  .theme-enterprise-reference header > div {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-block: .875rem;
+  }
+
+  .theme-enterprise-reference header nav {
+    flex-basis: 100%;
+    justify-content: flex-start;
+    row-gap: .5rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .theme-enterprise-reference header nav {
+    gap: .5rem;
+    font-size: .8125rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-enterprise-reference {
+    --enterprise-background: #081a2f;
+    --enterprise-surface: #102a43;
+    --enterprise-ink: #f0f4f8;
+    --enterprise-muted: #bcccdc;
+    --enterprise-border: #334e68;
+  }
+}
+
+[dir="rtl"] .theme-enterprise-reference { text-align: initial; }
+
+/* Uploaded themes may be mounted as theme-{slug}; keep the package styles active. */
+:where([class^="theme-"]) {
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+:where([class^="theme-"]) > *,
+:where([class^="theme-"]) section,
+:where([class^="theme-"]) header,
+:where([class^="theme-"]) footer {
+  min-width: 0;
+  max-width: 100%;
+}
+
+:where([class^="theme-"]) header > div {
+  width: min(100% - 2rem, 72rem);
+  min-width: 0;
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+:where([class^="theme-"]) header a:first-child {
+  min-width: 0;
+  max-width: 100%;
+}
+
+:where([class^="theme-"]) header nav {
+  min-width: 0;
+  max-width: 100%;
+  flex: 1 1 20rem;
+  justify-content: flex-end;
+  gap: .75rem;
+  overflow-wrap: anywhere;
+}
+
+:where([class^="theme-"]) header nav a { white-space: nowrap; }
+:where([class^="theme-"]) img { display: block; max-width: 100%; }
+:where([class^="theme-"]) header a:first-child img {
+  width: auto;
+  height: 2.25rem;
+  max-width: 10rem;
+  object-fit: contain;
+}
+:where([class^="theme-"]) [class*="grid"] { min-width: 0; }
+:where([class^="theme-"]) [class*="grid"] > * { min-width: 0; }
+:where([class^="theme-"]) h1,
+:where([class^="theme-"]) h2,
+:where([class^="theme-"]) h3,
+:where([class^="theme-"]) p { max-width: 100%; overflow-wrap: anywhere; }
+
+@media (max-width: 48rem) {
+  :where([class^="theme-"]) header > div {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-block: .875rem;
+  }
+
+  :where([class^="theme-"]) header nav {
+    flex-basis: 100%;
+    justify-content: flex-start;
+    row-gap: .5rem;
+  }
+}

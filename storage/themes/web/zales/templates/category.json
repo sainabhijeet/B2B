@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": [
+          "Discover",
+          "Community",
+          "theme_content.zales.115a316c4f47",
+          "theme_content.zales.b4b580a9ad8c"
+        ]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "category-banner",
+      "settings": {
+        "image": "assets/images/category-arch.png",
+        "title": "theme_content.zales.b9badcafc339",
+        "subtitle": "theme_content.zales.47f11a52104c"
+      }
+    },
+    {
+      "id": "grid",
+      "type": "product-grid",
+      "settings": {
+        "title": "theme_content.zales.718622df41f1",
+        "subtitle": "theme_content.zales.87ad3673c4c2"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Rings",
+              "Necklaces",
+              "Bracelets",
+              "Watches"
+            ],
+            "heading": "theme_content.zales.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Contact"
+            ],
+            "heading": "theme_content.zales.be91940b79f4"
+          },
+          {
+            "links": [
+              "About",
+              "Careers",
+              "Privacy",
+              "Terms"
+            ],
+            "heading": "theme_content.zales.de4743c87973"
+          }
+        ]
+      }
+    }
+  ]
+}

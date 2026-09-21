@@ -1,0 +1,9 @@
+{
+  "name": "Product",
+  "route": "/product/:slug",
+  "sections": [
+    { "type": "product-gallery", "source": "src/pages/Product.vue" },
+    { "type": "product-info", "source": "src/pages/Product.vue", "settings": { "quantity": true, "wishlist": true, "compare": true } },
+    { "type": "product-accordion", "source": "src/pages/Product.vue" }
+  ]
+}

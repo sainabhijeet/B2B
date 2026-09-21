@@ -1,0 +1,18 @@
+{
+  "name": "Luxury Shopping Animations",
+  "easing": {
+    "standard": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "emphasized": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "linear": "linear"
+  },
+  "durations": {
+    "fast": "160ms",
+    "normal": "280ms",
+    "slow": "520ms"
+  },
+  "transitions": {
+    "interactive": "transform 280ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 280ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 280ms cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "fade": "opacity 280ms cubic-bezier(0.2, 0.8, 0.2, 1)"
+  },
+  "reducedMotion": true
+}

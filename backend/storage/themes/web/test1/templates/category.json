@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": ["Discover", "Community", "Special Deals", "About us"]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "category-banner",
+      "settings": {
+        "title": "Shop the collection",
+        "subtitle": "Curated pieces in gold and diamonds.",
+        "image": "assets/images/category-arch.png"
+      }
+    },
+    {
+      "id": "grid",
+      "type": "product-grid",
+      "settings": {
+        "title": "All products",
+        "subtitle": "Demo catalogue — connect to your store data."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Rings", "Necklaces", "Bracelets", "Watches"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Shipping", "Returns", "Contact"]
+          },
+          {
+            "heading": "Company",
+            "links": ["About", "Careers", "Privacy", "Terms"]
+          }
+        ]
+      }
+    }
+  ]
+}

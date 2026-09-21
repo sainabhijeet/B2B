@@ -1,0 +1,66 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RideGo",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "Orders"
+        ]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "category-banner",
+      "settings": {
+        "image": "assets/images/category-route.svg",
+        "title": "theme_content.ridego-commerce.eb64d961f23e",
+        "subtitle": "theme_content.ridego-commerce.2ce5b67baf00"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "theme_content.ridego-commerce.44b5893c29e6"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "variant": "dense-catalog",
+        "title": "theme_content.ridego-commerce.a47bce481a60"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Catalog",
+              "Categories",
+              "Offers"
+            ],
+            "heading": "theme_content.ridego-commerce.ee7da936b5cb"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.ridego-commerce.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

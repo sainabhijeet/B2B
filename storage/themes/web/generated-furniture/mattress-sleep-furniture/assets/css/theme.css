@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #6677cc;
+  --theme-secondary: #bcc7ff;
+  --theme-surface: #eef4ff;
+}
+.theme-mattress-sleep-furniture {
+  background: #eef4ff;
+  color: #111827;
+}
+.theme-mattress-sleep-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-mattress-sleep-furniture img {
+  object-fit: cover;
+}

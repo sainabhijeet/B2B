@@ -1,0 +1,37 @@
+{
+  "name": "ZALES Luxury",
+  "version": "1.0",
+  "storefrontKey": "zales",
+  "capabilities": {
+    "allowed_sections": [
+      "header",
+      "hero-split",
+      "promo-banner",
+      "image-text",
+      "product-grid",
+      "newsletter",
+      "footer-columns",
+      "category-banner",
+      "product-detail",
+      "related-products"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "components": {
+    "hero": "components/hero.json",
+    "productGrid": "components/product-grid.json"
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  }
+}

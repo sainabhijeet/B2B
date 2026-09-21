@@ -1,0 +1,1 @@
+{"type":"category-grid","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"columns":{"type":"number","min":2,"max":6},"source":{"type":"collection"}},"defaultSettings":{"title":"home.categories.title","columns":4,"source":"catalog.categories"}}

@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "variant": "search",
+      "settings": {
+        "showBack": true,
+        "showLogo": false,
+        "showCart": true,
+        "showNotification": false,
+        "searchPlaceholder": "localizationTest.search.placeholder"
+      }
+    },
+    {
+      "id": "results",
+      "type": "search-results",
+      "settings": {
+        "mobileGrid": true,
+        "columns": 2
+      }
+    },
+    {
+      "id": "bottom-nav",
+      "type": "mobile-bottom-nav",
+      "settings": {}
+    }
+  ]
+}

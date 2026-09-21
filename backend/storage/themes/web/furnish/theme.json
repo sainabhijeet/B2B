@@ -1,0 +1,35 @@
+{
+  "name": "Furnish",
+  "version": "1.0",
+  "storefrontKey": "furnish",
+  "description": "A furniture storefront theme with warm hero imagery, category browsing, featured products, and trust sections.",
+  "capabilities": {
+    "allowed_sections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "category-banner",
+      "product-grid",
+      "product-detail",
+      "feature-grid",
+      "image-text",
+      "trust-badges",
+      "newsletter",
+      "footer-columns"
+    ],
+    "variants": {
+      "hero-banner": ["split-action"],
+      "product-grid": ["featured"],
+      "category-grid": ["tiles"]
+    }
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "assets": {
+    "images": "assets/images"
+  }
+}

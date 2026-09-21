@@ -1,0 +1,86 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Bymin Business",
+        "greeting": "Good Morning, ABC Traders",
+        "locationText": "Jaipur | 302039",
+        "nav": ["Home", "Cart", "Order", "Credit", "Settings", "Login"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "Bulk Purchase Offers",
+        "subtitle": "Special B2B prices for retailers and distributors.",
+        "primaryCta": "Shop Deals",
+        "image": "assets/images/banners/bulk_offer.svg"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "offer-strip",
+      "settings": {
+        "title": "Best Deals for Your Business",
+        "subtitle": "Save more on fast-moving FMCG packs.",
+        "image": "assets/images/banners/retailer_prices.svg"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by Category",
+        "subtitle": "Quick paths for everyday business essentials.",
+        "images": [
+          "assets/images/categories/grocery.svg",
+          "assets/images/categories/dairy.svg",
+          "assets/images/categories/bakery.svg",
+          "assets/images/categories/beverages.svg",
+          "assets/images/categories/snacks.svg",
+          "assets/images/categories/household.svg"
+        ]
+      }
+    },
+    {
+      "id": "recommended",
+      "type": "recommended-products",
+      "settings": {
+        "title": "Recommended Products",
+        "subtitle": "Popular trade products with live catalog pricing.",
+        "images": [
+          "assets/images/products/milk.svg",
+          "assets/images/products/salt.svg",
+          "assets/images/products/biscuits.svg",
+          "assets/images/products/bread.svg",
+          "assets/images/products/beverage.svg",
+          "assets/images/products/detergent.svg"
+        ],
+        "addButtonText": "Add",
+        "quickAddText": "Quick add",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "Rs"
+      }
+    },
+    {
+      "id": "recent",
+      "type": "recently-ordered",
+      "settings": {
+        "title": "Recently Ordered",
+        "subtitle": "Buy again from previous orders.",
+        "primaryCta": "Buy Again"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "six-tab-bottom-bar",
+      "settings": {
+        "items": ["Home", "Cart", "Order", "Credit", "Settings", "Login"]
+      }
+    }
+  ]
+}

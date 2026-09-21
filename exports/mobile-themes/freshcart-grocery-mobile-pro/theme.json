@@ -1,0 +1,98 @@
+{
+  "name": "FreshCart Grocery Mobile Pro",
+  "version": "1.0.0",
+  "storefrontKey": "freshcart-grocery-mobile-pro",
+  "industry": "grocery",
+  "description": "Production-quality grocery mobile theme with rich commerce screens, local assets, and multilingual copy.",
+  "languages": [
+    "en",
+    "hi",
+    "gu",
+    "ar",
+    "ur",
+    "fr",
+    "de",
+    "es",
+    "ru",
+    "ja",
+    "zh"
+  ],
+  "locales": {
+    "en": "locales/en.json",
+    "hi": "locales/hi.json",
+    "gu": "locales/gu.json",
+    "ar": "locales/ar.json",
+    "ur": "locales/ur.json",
+    "fr": "locales/fr.json",
+    "de": "locales/de.json",
+    "es": "locales/es.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json",
+    "zh": "locales/zh.json"
+  },
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "grid",
+    "enable_quick_qty": true,
+    "spacing": "comfortable"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "offer-strip",
+    "category-grid",
+    "product-grid",
+    "featured-products",
+    "new-arrivals",
+    "best-sellers",
+    "trending-products",
+    "recommended-products",
+    "image-with-text",
+    "cta-banner",
+    "icon-list",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": [
+        "grocery"
+      ],
+      "footer": [
+        "bottom-bar"
+      ]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "offer-strip",
+      "category-grid",
+      "product-grid",
+      "featured-products",
+      "new-arrivals",
+      "best-sellers",
+      "trending-products",
+      "recommended-products",
+      "image-with-text",
+      "cta-banner",
+      "icon-list",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  }
+}

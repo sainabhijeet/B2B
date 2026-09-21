@@ -1,0 +1,7 @@
+{
+  "name": "Register",
+  "route": "/register",
+  "sections": [
+    { "type": "auth-form", "source": "src/components/AuthShell.vue", "settings": { "mode": "register" } }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "primary": "#845ADF",
+  "primaryLight": "#EDE7FF",
+  "primaryDark": "#5630A7",
+  "secondary": "#2477E8",
+  "background": "#F7F7FB",
+  "surface": "#FFFFFF",
+  "card": "#FFFFFF",
+  "text": "#15131E",
+  "muted": "#6F6A7C",
+  "border": "#E5E1EC",
+  "success": "#159B62",
+  "warning": "#F2A93B",
+  "error": "#D94B4B",
+  "disabled": "#B9B4C5"
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Monthly Staples">
+  <defs>
+    <linearGradient id="b" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#138A43"/>
+      <stop offset=".62" stop-color="#16a34a"/>
+      <stop offset="1" stop-color="#0f5132"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" rx="42" fill="url(#b)"/>
+  <circle cx="1000" cy="120" r="170" fill="#ffffff" opacity=".12"/>
+  <circle cx="1076" cy="420" r="230" fill="#ffffff" opacity=".09"/>
+  <rect x="78" y="82" width="512" height="340" rx="34" fill="#ffffff" opacity=".11"/>
+  <text x="104" y="190" font-family="Arial, sans-serif" font-size="62" font-weight="900" fill="#ffffff">Monthly Staples</text>
+  <text x="108" y="248" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#dcfce7">Bulk rates on atta, rice, dal and oil</text>
+  <rect x="108" y="304" width="230" height="62" rx="20" fill="#ffffff"/>
+  <text x="223" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="900" fill="#166534">ORDER IN BULK</text>
+  <g transform="translate(728 90)">
+    <rect x="0" y="84" width="130" height="220" rx="24" fill="#fff7ed"/>
+    <rect x="154" y="36" width="152" height="270" rx="28" fill="#fefce8"/>
+    <rect x="332" y="114" width="122" height="194" rx="24" fill="#ecfdf5"/>
+    <text x="65" y="212" text-anchor="middle" font-family="Arial" font-size="42" font-weight="900" fill="#f97316">₹</text>
+    <text x="230" y="192" text-anchor="middle" font-family="Arial" font-size="48" font-weight="900" fill="#16a34a">B2B</text>
+    <text x="393" y="220" text-anchor="middle" font-family="Arial" font-size="42" font-weight="900" fill="#0ea5e9">GST</text>
+  </g>
+</svg>

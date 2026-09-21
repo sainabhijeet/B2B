@@ -1,0 +1,7 @@
+{
+  "sections": [
+    {"id": "header", "type": "header", "settings": {"logoText": "localizationTest.theme.name", "nav": ["localizationTest.nav.home", "localizationTest.nav.products", "localizationTest.nav.checkout"]}},
+    {"id": "cart", "type": "cart-summary", "settings": {"title": "localizationTest.cartPage.title", "subtitle": "localizationTest.cartPage.description", "checkoutLabel": "localizationTest.cartPage.checkout"}},
+    {"id": "footer", "type": "footer", "variant": "columns", "settings": {"columns": [{"heading": "localizationTest.footer.support", "links": ["localizationTest.footer.privacy", "localizationTest.footer.terms"]}]}}
+  ]
+}

@@ -1,0 +1,88 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Cart",
+                                                      "Orders"
+                                                  ],
+                                          "logoText":  "PetBasket"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Pet supplies with friendly cards.",
+                                          "primaryCta":  "Shop pets",
+                                          "subtitle":  "A warm mobile theme for food, toys, grooming, and care products.",
+                                          "image":  "assets/images/hero.png"
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-01.png",
+                                                         "assets/images/category-02.png",
+                                                         "assets/images/category-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Shop by pet",
+                                          "subtitle":  "Quick paths for mobile buyers."
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "featured-products",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Popular pet picks",
+                                          "subtitle":  "Demo visuals are included; tenant products render from catalog data."
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "campaign-banner",
+                         "settings":  {
+                                          "subtitle":  "Optimized for mobile selling, repeat carts, and fast checkout.",
+                                          "title":  "Monthly pet care bundles"
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Friendly product discovery",
+                                          "body":  "Soft visuals and clear categories help buyers shop by pet need.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.png"
+                                      }
+                     },
+                     {
+                         "variant":  "bottom-bar",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "items":  [
+                                                        "Home",
+                                                        "Cart",
+                                                        "Orders",
+                                                        "Credit",
+                                                        "Settings",
+                                                        "Auth"
+                                                    ]
+                                      }
+                     }
+                 ]
+}

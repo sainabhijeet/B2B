@@ -1,0 +1,11 @@
+{
+  "name": "text",
+  "label": "Text",
+  "settings": [
+    {
+      "id": "body",
+      "type": "textarea",
+      "label": "Body"
+    }
+  ]
+}

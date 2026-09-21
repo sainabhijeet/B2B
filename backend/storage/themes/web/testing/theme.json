@@ -1,0 +1,26 @@
+{
+  "name": "Luxury Commerce",
+  "slug": "luxury-commerce",
+  "version": "1.0.0",
+  "author": "Codex",
+  "description": "Premium responsive ecommerce storefront",
+  "industry": "generic",
+  "platform": "web",
+  "entry": "index.html",
+  "previewImage": "screenshots/home.png",
+  "templates": {
+    "home": "templates/home.json",
+    "shop": "templates/shop.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "wishlist": "templates/wishlist.json",
+    "compare": "templates/compare.json",
+    "account": "templates/account.json",
+    "login": "templates/login.json",
+    "register": "templates/register.json",
+    "orderHistory": "templates/order-history.json",
+    "404": "templates/404.json"
+  }
+}

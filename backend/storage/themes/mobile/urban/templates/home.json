@@ -1,0 +1,134 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Rooms",
+                                                      "Catalog",
+                                                      "Offers",
+                                                      "Cart",
+                                                      "Login"
+                                                  ],
+                                          "logoText":  "Urban Loft"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "secondaryCta":  "View rooms",
+                                          "title":  "Industrial furniture for modern apartments.",
+                                          "primaryCta":  "Shop furniture",
+                                          "subtitle":  "Concrete tones, compact layouts, and bold product cards for city homes.",
+                                          "image":  "assets/images/hero.svg"
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Loft-ready furniture",
+                                          "subtitle":  "These visuals are theme demo assets; live products come from tenant catalog."
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-living.svg",
+                                                         "assets/images/category-dining.svg",
+                                                         "assets/images/category-bedroom.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Shop by urban room",
+                                          "subtitle":  "Different room collections with clear visual entry points."
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "promo-banner",
+                         "settings":  {
+                                          "subtitle":  "Built for fast catalog browsing, B2B ordering, and clean storefront previews.",
+                                          "title":  "Apartment-ready furniture with fast visual scanning"
+                                      }
+                     },
+                     {
+                         "id":  "feature",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Compact rooms, strong silhouettes",
+                                          "body":  "A darker editorial rhythm with roomy product tiles and practical category browsing.",
+                                          "imagePosition":  "right",
+                                          "image":  "assets/images/detail.svg"
+                                      }
+                     },
+                     {
+                         "id":  "benefits",
+                         "type":  "icon-list",
+                         "settings":  {
+                                          "items":  [
+                                                        {
+                                                            "icon":  "01",
+                                                            "title":  "Room-first discovery",
+                                                            "text":  "Guide buyers by living, dining, bedroom, office, and outdoor collections."
+                                                        },
+                                                        {
+                                                            "icon":  "02",
+                                                            "title":  "Large product visuals",
+                                                            "text":  "Designed to show materials, shapes, and catalog families clearly."
+                                                        },
+                                                        {
+                                                            "icon":  "03",
+                                                            "title":  "Trade order flow",
+                                                            "text":  "Works with tenant pricing, cart, orders, and invoice-ready checkout."
+                                                        }
+                                                    ],
+                                          "title":  "Buyer-friendly furniture commerce"
+                                      }
+                     },
+                     {
+                         "variant":  "columns",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "columns":  [
+                                                          {
+                                                              "heading":  "Shop",
+                                                              "links":  [
+                                                                            "Living",
+                                                                            "Dining",
+                                                                            "Bedroom",
+                                                                            "Office"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Account",
+                                                              "links":  [
+                                                                            "Login",
+                                                                            "Orders",
+                                                                            "Cart"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Support",
+                                                              "links":  [
+                                                                            "Shipping",
+                                                                            "Returns",
+                                                                            "Warranty"
+                                                                        ]
+                                                          }
+                                                      ]
+                                      }
+                     }
+                 ]
+}

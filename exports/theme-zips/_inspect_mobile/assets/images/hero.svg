@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="Kitchen appliance shopping hero">
+  <rect width="900" height="420" fill="#f4f4f5"/>
+  <rect x="0" y="0" width="900" height="420" fill="url(#g)"/>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eeeeef"/></linearGradient></defs>
+  <rect x="570" y="44" width="220" height="72" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="600" y="138" width="170" height="190" rx="18" fill="#d7d7db"/>
+  <rect x="620" y="168" width="130" height="70" rx="10" fill="#ffffff"/>
+  <circle cx="642" cy="284" r="20" fill="#c7042f"/>
+  <circle cx="712" cy="284" r="20" fill="#171717"/>
+  <path d="M160 320c50-96 118-150 204-160 72-8 128 15 172 70 33 41 80 63 141 66" fill="none" stroke="#d1d5db" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="330" cy="135" r="48" fill="#fed7aa"/>
+  <path d="M286 135c9-50 79-71 117-27 2 36-25 58-60 58-27 0-48-11-57-31z" fill="#3f3f46"/>
+  <path d="M260 220h150v98H260z" fill="#c7042f"/>
+  <path d="M410 220h112v98H410z" fill="#ef4444"/>
+  <rect x="170" y="246" width="90" height="88" rx="10" fill="#111827"/>
+  <rect x="184" y="260" width="62" height="20" rx="6" fill="#ffffff"/>
+  <rect x="202" y="292" width="28" height="28" rx="14" fill="#c7042f"/>
+</svg>

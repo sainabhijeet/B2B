@@ -1,0 +1,27 @@
+import { apiBaseUrl } from '@/lib/api-origin';
+
+function storefrontHostFrom(req: Request): string {
+  return req.headers.get('x-forwarded-host') ?? req.headers.get('host') ?? '';
+}
+
+export async function POST(req: Request) {
+  const body = await req.json().catch(() => null);
+  if (!body || typeof body !== 'object') {
+    return Response.json({ message: 'Invalid JSON body' }, { status: 400 });
+  }
+  const host = storefrontHostFrom(req);
+  const res = await fetch(`${apiBaseUrl()}/storefront/support/inquiries`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      ...(host ? { 'x-storefront-host': host } : {}),
+    },
+    body: JSON.stringify(body),
+    cache: 'no-store',
+  });
+  const text = await res.text();
+  return new Response(text, {
+    status: res.status,
+    headers: { 'Content-Type': 'application/json' },
+  });
+}

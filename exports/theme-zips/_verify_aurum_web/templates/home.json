@@ -1,0 +1,91 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurum",
+        "industryName": "Premium Marketplace",
+        "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Curated commerce experience",
+        "title": "A luxury storefront built for confident discovery.",
+        "subtitle": "Editorial category journeys, refined product cards, calm checkout cues, and premium merchandising for modern sellers.",
+        "image": "assets/images/hero.svg",
+        "primaryCta": "Shop collection",
+        "primaryHref": "/products",
+        "secondaryCta": "Explore categories",
+        "secondaryHref": "/categories"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by signature category",
+        "subtitle": "Clear paths into high-value collections with elevated visual rhythm.",
+        "images": [
+          "assets/images/category-luxe.svg",
+          "assets/images/category-tech.svg",
+          "assets/images/category-home.svg",
+          "assets/images/category-beauty.svg",
+          "assets/images/category-travel.svg",
+          "assets/images/category-gifting.svg"
+        ]
+      }
+    },
+    {
+      "id": "featured",
+      "type": "product-grid",
+      "settings": {
+        "title": "Featured products",
+        "subtitle": "Premium cards shaped for fast comparison, trust, and repeat buying.",
+        "images": [
+          "assets/images/product-watch.svg",
+          "assets/images/product-wallet.svg",
+          "assets/images/product-bag.svg",
+          "assets/images/product-headphones.svg"
+        ]
+      }
+    },
+    {
+      "id": "new",
+      "type": "product-grid",
+      "settings": {
+        "title": "New arrivals with premium intent",
+        "subtitle": "Fresh launches presented with luxury spacing and focused visual hierarchy.",
+        "images": [
+          "assets/images/product-serum.svg",
+          "assets/images/product-lamp.svg",
+          "assets/images/product-shoe.svg",
+          "assets/images/product-device.svg"
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "The store feels polished, fast, and trustworthy from the first screen to checkout.",
+        "author": "Aurum customers"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["New arrivals", "Best sellers", "Gift edits", "Collections"] },
+          { "heading": "Support", "links": ["Shipping", "Returns", "Care guide", "Contact"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Wishlist", "Cart"] }
+        ]
+      }
+    }
+  ]
+}

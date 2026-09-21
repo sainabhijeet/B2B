@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "Product gallery",
+        "images": [
+          "assets/images/products/product-01.png",
+          "assets/images/products/product-02.png",
+          "assets/images/products/product-03.png",
+          "assets/images/products/product-04.png",
+          "assets/images/products/product-05.png",
+          "assets/images/products/product-06.png"
+        ]
+      }
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "Product detail",
+        "subtitle": "Variants, pricing, ratings, delivery promise, cart and checkout actions."
+      }
+    },
+    {
+      "id": "related",
+      "type": "recommended-products",
+      "settings": {
+        "title": "Related essentials",
+        "subtitle": "Products often bought together.",
+        "images": [
+          "assets/images/products/product-07.png",
+          "assets/images/products/product-08.png",
+          "assets/images/products/product-09.png",
+          "assets/images/products/product-10.png",
+          "assets/images/products/product-11.png",
+          "assets/images/products/product-12.png"
+        ],
+        "addButtonText": "Add",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "?"
+      }
+    }
+  ]
+}

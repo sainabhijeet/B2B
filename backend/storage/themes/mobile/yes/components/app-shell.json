@@ -1,0 +1,12 @@
+{
+  "variants": [
+    "default"
+  ],
+  "defaultVariant": "default",
+  "settings": {
+    "statusBarStyle": "light",
+    "background": "gradient",
+    "safeArea": true,
+    "bottomNavigation": true
+  }
+}

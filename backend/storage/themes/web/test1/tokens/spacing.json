@@ -1,0 +1,5 @@
+{
+  "section": "clamp(2rem, 5vw, 4rem)",
+  "containerPadding": "1.25rem",
+  "gridGap": "20px"
+}

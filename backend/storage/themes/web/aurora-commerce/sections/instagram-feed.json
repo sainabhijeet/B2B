@@ -1,0 +1,1 @@
+{"type":"instagram-feed","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"handle":{"type":"text"},"items":{"type":"array","item":"image"}},"defaultSettings":{"title":"social.title","handle":"","items":[]}}

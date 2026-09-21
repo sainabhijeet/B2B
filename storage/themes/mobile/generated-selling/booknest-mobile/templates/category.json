@@ -1,0 +1,26 @@
+{
+    "sections":  [
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "BookNest categories",
+                                          "subtitle":  "Browse products by category.",
+                                          "image":  "assets/images/category-01.png"
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "recommended-products",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Category products"
+                                      }
+                     }
+                 ]
+}

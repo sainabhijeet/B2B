@@ -1,0 +1,45 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Electra",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders"]
+      }
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "Electrical catalog",
+        "title": "Find the right supplies for every project",
+        "subtitle": "Browse cables, lighting, breakers, panels, safety accessories and contractor-ready packs.",
+        "image": "assets/images/hero-electrical.svg"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {}
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Project-ready products",
+        "subtitle": "Products load from your tenant catalogue."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Shop", "links": ["Catalog", "Categories", "Cart"] },
+          { "heading": "Support", "links": ["Emergency support", "GST invoices"] }
+        ]
+      }
+    }
+  ]
+}

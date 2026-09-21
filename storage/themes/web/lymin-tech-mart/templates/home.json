@@ -1,0 +1,131 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Lymin",
+        "logoImageUrl": "assets/images/logo-lymin.svg",
+        "nav": [
+          "All",
+          "Grocery",
+          "Fashion",
+          "Electronics",
+          "theme_content.lymin-tech-mart.37dfb4f5f3e4",
+          "Beauty",
+          "Furniture",
+          "Mobiles",
+          "Gifts",
+          "Sports",
+          "Kitchen",
+          "Health",
+          "Automotive"
+        ],
+        "industryName": "theme_content.lymin-tech-mart.94b30f4fe359"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero-tech-festive.svg",
+        "primaryHref": "/product",
+        "eyebrow": "theme_content.lymin-tech-mart.9617331a054d",
+        "title": "theme_content.lymin-tech-mart.de75d6bc997c",
+        "subtitle": "theme_content.lymin-tech-mart.650c2fc93d44",
+        "primaryCta": "theme_content.lymin-tech-mart.6edcd4efa9df"
+      }
+    },
+    {
+      "id": "spotlight",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/spotlight-computers.svg",
+          "assets/images/spotlight-appliances.svg",
+          "assets/images/spotlight-decor.svg",
+          "assets/images/spotlight-sale.svg",
+          "assets/images/spotlight-toys.svg",
+          "assets/images/spotlight-care.svg",
+          "assets/images/spotlight-health.svg"
+        ],
+        "title": "theme_content.lymin-tech-mart.1cc8c4321e96",
+        "subtitle": "theme_content.lymin-tech-mart.0b16e3a5c132"
+      }
+    },
+    {
+      "id": "popular",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-grocery.svg",
+          "assets/images/product-dental.svg",
+          "assets/images/product-diapers.svg",
+          "assets/images/product-kitchen.svg",
+          "assets/images/product-cleaning.svg",
+          "assets/images/product-personal-care.svg",
+          "assets/images/product-snacks.svg",
+          "assets/images/product-home.svg"
+        ],
+        "title": "theme_content.lymin-tech-mart.9942bf5b8445",
+        "subtitle": "theme_content.lymin-tech-mart.af5afc03bc52"
+      }
+    },
+    {
+      "id": "recommendations",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-phone.svg",
+          "assets/images/product-laptop.svg",
+          "assets/images/product-watch.svg",
+          "assets/images/product-headphones.svg"
+        ],
+        "title": "theme_content.lymin-tech-mart.61d55533fe6a",
+        "subtitle": "theme_content.lymin-tech-mart.f08f110b4ba2"
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "theme_content.lymin-tech-mart.2e913b2c517b",
+        "author": "theme_content.lymin-tech-mart.92974bab3086"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "theme_content.lymin-tech-mart.9d5097a83710",
+              "Electronics",
+              "Grocery",
+              "theme_content.lymin-tech-mart.323136a9e1c8"
+            ],
+            "heading": "theme_content.lymin-tech-mart.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Delivery",
+              "Returns",
+              "Payments"
+            ],
+            "heading": "theme_content.lymin-tech-mart.be91940b79f4"
+          },
+          {
+            "links": [
+              "theme_content.lymin-tech-mart.bfd402b2f6f3",
+              "Cart",
+              "Orders"
+            ],
+            "heading": "theme_content.lymin-tech-mart.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

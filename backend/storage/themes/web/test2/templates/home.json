@@ -1,0 +1,101 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Wholesale Co.",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "Trade pricing. Reliable fulfilment.",
+        "subtitle": "Order on credit, meet MOQs per SKU, and track GST-ready invoices — built for distributor-led B2B retail.",
+        "image": "assets/images/hero-trade.svg"
+      }
+    },
+    {
+      "id": "trust-strip",
+      "type": "promo-banner",
+      "settings": {
+        "title": "Credit limits · MOQ per variant · Invoice on processing",
+        "subtitle": "Same flows as your distributor panel: orders, dispatch, and ledger-backed credit.",
+        "background": "linear-gradient(90deg, #e2e8f0, #f1f5f9)"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {}
+    },
+    {
+      "id": "catalog",
+      "type": "product-grid",
+      "settings": {
+        "title": "Featured catalogue",
+        "subtitle": "Live products from your tenant catalog — prices follow pricing rules at checkout."
+      }
+    },
+    {
+      "id": "b2b-copy",
+      "type": "rich-text",
+      "settings": {
+        "title": "How B2B checkout works here",
+        "body": "Retailers sign in with OTP, build a cart (MOQ enforced per variant), and place orders on credit or prepaid with payment proof.\n\nDistributors confirm stock, move orders through processing, dispatch, and delivery — invoices align with your Nest invoice settings."
+      }
+    },
+    {
+      "id": "value-icons",
+      "type": "icon-list",
+      "settings": {
+        "title": "Why retailers use this storefront",
+        "items": [
+          { "icon": "📦", "title": "Variant MOQ", "text": "Cart and checkout respect minimum order quantities per SKU." },
+          { "icon": "📑", "title": "GST on lines", "text": "Variant GST with fallback to product tax rate for accurate totals." },
+          { "icon": "💳", "title": "Credit & ledger", "text": "On-account orders update the same credit ledger your panel shows." }
+        ]
+      }
+    },
+    {
+      "id": "split-story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Classic wholesale layout",
+        "body": "This theme uses the same JSON template engine as luxury demos — tuned for serif headlines, neutral surfaces, and clear calls to catalogue and cart.",
+        "image": "assets/images/split-catalog.svg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Get restock alerts",
+        "subtitle": "Optional — wire your ESP later. Today this block is a visual placeholder for B2B comms."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Catalog", "Categories", "Cart"]
+          },
+          {
+            "heading": "Account",
+            "links": ["Orders", "Log in", "Addresses"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Contact distributor", "Returns policy", "GST & invoices"]
+          }
+        ]
+      }
+    }
+  ]
+}

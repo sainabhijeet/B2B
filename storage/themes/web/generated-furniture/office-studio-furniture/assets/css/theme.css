@@ -1,0 +1,15 @@
+:root {
+  --theme-primary: #2563eb;
+  --theme-secondary: #93c5fd;
+  --theme-surface: #f2f6fb;
+}
+.theme-office-studio-furniture {
+  background: #f2f6fb;
+  color: #111827;
+}
+.theme-office-studio-furniture .theme-section-root:first-child + .theme-section-root {
+  border-top: 1px solid rgba(15, 23, 42, .08);
+}
+.theme-office-studio-furniture img {
+  object-fit: cover;
+}

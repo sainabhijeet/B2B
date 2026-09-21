@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "image-with-text",
+  "title": "Image With Text",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "body": { "type": "string" }, "primaryCtaLabel": { "type": "string" }, "primaryCtaUrl": { "type": "string" }, "image": { "type": "string" }, "imagePosition": { "type": "string" }, "theme": { "type": "string" } },
+  "additionalProperties": true
+}

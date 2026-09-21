@@ -1,0 +1,1 @@
+{"type":"product-tabs","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"tabs":{"type":"array","item":"tab"}},"defaultSettings":{"title":"product.details","tabs":"product.tabs"}}

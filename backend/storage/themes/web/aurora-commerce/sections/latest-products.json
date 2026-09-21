@@ -1,0 +1,1 @@
+{"type":"latest-products","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"limit":{"type":"number"}},"defaultSettings":{"title":"products.latest","limit":12}}

@@ -1,0 +1,78 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Cart",
+                                                      "Orders"
+                                                  ],
+                                          "logoText":  "AutoParts"
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Parts ordering built for speed.",
+                                          "primaryCta":  "Find parts",
+                                          "subtitle":  "A B2B mobile theme for spare parts, accessories, and repeat SKUs.",
+                                          "image":  "assets/images/hero.png"
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.png",
+                                                         "assets/images/product-02.png",
+                                                         "assets/images/product-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Fast order parts",
+                                          "subtitle":  "Demo visuals are included; tenant products render from catalog data."
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/category-01.png",
+                                                         "assets/images/category-02.png",
+                                                         "assets/images/category-03.png",
+                                                         "assets/images/detail.png"
+                                                     ],
+                                          "title":  "Part groups",
+                                          "subtitle":  "Quick paths for mobile buyers."
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "promo-banner",
+                         "settings":  {
+                                          "subtitle":  "Optimized for mobile selling, repeat carts, and fast checkout.",
+                                          "title":  "Bulk order flow for workshops"
+                                      }
+                     },
+                     {
+                         "variant":  "bottom-bar",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "items":  [
+                                                        "Home",
+                                                        "Cart",
+                                                        "Orders",
+                                                        "Credit",
+                                                        "Settings",
+                                                        "Auth"
+                                                    ]
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,8 @@
+{
+  "layout": "grocery-category-grid",
+  "sections": [
+    "category-header",
+    "subcategory-grid",
+    "product-grid"
+  ]
+}

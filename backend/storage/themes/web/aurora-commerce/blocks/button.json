@@ -1,0 +1,1 @@
+{"type":"button","editable":true,"settingsSchema":{"label":{"type":"text","translation":true},"url":{"type":"url"},"style":{"type":"select","options":["primary","secondary","ghost"]}},"defaultSettings":{"label":"actions.learn_more","url":"/"}}

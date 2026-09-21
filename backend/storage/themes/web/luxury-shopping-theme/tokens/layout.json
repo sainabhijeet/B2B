@@ -1,0 +1,29 @@
+{
+  "name": "Luxury Shopping Layout",
+  "container": {
+    "maxWidth": "1280px",
+    "gutter": "32px",
+    "gutterTablet": "24px",
+    "gutterMobile": "20px"
+  },
+  "grid": {
+    "columns": 12,
+    "gap": "24px",
+    "gapTablet": "20px",
+    "gapMobile": "16px"
+  },
+  "breakpoints": {
+    "mobile": "480px",
+    "tablet": "768px",
+    "desktop": "1024px",
+    "wide": "1440px"
+  },
+  "header": {
+    "height": "80px",
+    "heightMobile": "68px"
+  },
+  "content": {
+    "readingWidth": "720px",
+    "narrowWidth": "560px"
+  }
+}

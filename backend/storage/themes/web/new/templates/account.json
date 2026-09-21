@@ -1,0 +1,8 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Account", "nav": ["Profile", "Orders", "Wishlist", "Settings", "Support"] } },
+    { "id": "account-dashboard", "type": "account-dashboard", "settings": { "title": "Account dashboard", "cards": ["Personal information", "Profile image", "Email", "Mobile", "Edit profile", "Security"] } },
+    { "id": "account-profile", "type": "account-profile", "settings": { "title": "Personal information", "fields": ["Full name", "Email", "Mobile", "Password"] } },
+    { "id": "account-address", "type": "account-address", "settings": { "title": "Addresses", "actions": ["Add address", "Edit", "Delete", "Default address"] } }
+  ]
+}

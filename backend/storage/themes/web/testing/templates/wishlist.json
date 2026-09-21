@@ -1,0 +1,7 @@
+{
+  "name": "Wishlist",
+  "route": "/wishlist",
+  "sections": [
+    { "type": "wishlist-products", "source": "src/pages/Wishlist.vue" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Grocery Distributor",
+  "material_version": 3,
+  "light": {
+    "primary": "#138A43",
+    "on_primary": "#FFFFFF",
+    "primary_container": "#DDFBE8",
+    "on_primary_container": "#052E16",
+    "secondary": "#0F766E",
+    "tertiary": "#F59E0B",
+    "surface": "#FFFFFF",
+    "background": "#F7FBF8",
+    "error": "#BA1A1A",
+    "outline": "#C9D8CE"
+  },
+  "dark": {
+    "primary": "#7BE495",
+    "on_primary": "#003910",
+    "primary_container": "#0B5C2B",
+    "on_primary_container": "#DDFBE8",
+    "secondary": "#5EEAD4",
+    "tertiary": "#FBBF24",
+    "surface": "#101914",
+    "background": "#0B120E",
+    "error": "#FFB4AB",
+    "outline": "#42534A"
+  }
+}

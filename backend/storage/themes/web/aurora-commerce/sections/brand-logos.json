@@ -1,0 +1,1 @@
+{"type":"brand-logos","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"logos":{"type":"array","item":"image"}},"defaultSettings":{"title":"home.brands.title","logos":["assets/images/brand-aurora.svg"]}}

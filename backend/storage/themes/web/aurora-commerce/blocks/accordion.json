@@ -1,0 +1,1 @@
+{"type":"accordion","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"richText","translation":true},"open":{"type":"boolean"}},"defaultSettings":{"title":"faq.question","body":"faq.answer","open":false}}

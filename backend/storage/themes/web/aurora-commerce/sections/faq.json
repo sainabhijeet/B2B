@@ -1,0 +1,1 @@
+{"type":"faq","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"textarea","translation":true},"items":{"type":"faqCollection"}},"defaultSettings":{"title":"faq.title","body":"faq.body","items":"faq.default"}}

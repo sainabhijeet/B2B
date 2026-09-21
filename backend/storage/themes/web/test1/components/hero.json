@@ -1,0 +1,13 @@
+{
+  "id": "hero-zales",
+  "type": "hero-split",
+  "settings": {
+    "title": "READY FOR EVERY OCCASION",
+    "subtitle": "Fine jewellery for milestones and everyday shine.",
+    "ourStoryTitle": "",
+    "ourStoryText": "",
+    "imageLeft": "assets/images/hero-woman.png",
+    "imageCenter": "assets/images/category-arch.png",
+    "imageRight": "assets/images/hero-woman.png"
+  }
+}

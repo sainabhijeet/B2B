@@ -1,0 +1,1 @@
+{"layout":"auth","sections":[{"id":"login","type":"rich-text","settings":{"title":"auth.login.title","body":"auth.login.body","action":"actions.sign_in"}}]}

@@ -1,0 +1,109 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Furnish",
+        "nav": ["Home", "Categories", "Products", "Cart", "Log in"]
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "variant": "split-action",
+        "title": "Furniture that makes every room feel ready.",
+        "subtitle": "Browse curated sofas, tables, storage, and decor with a catalog built for fast B2B ordering.",
+        "primaryCta": "Shop products",
+        "secondaryCta": "Explore collections",
+        "image": "assets/images/slider-img-1.png"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "Retail-ready collections | MOQ-aware cart | distributor order flow",
+        "subtitle": "Designed for furniture retailers who need clean product discovery and repeat ordering."
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop furniture categories",
+        "subtitle": "Help buyers jump into sofas, tables, chairs, and decor.",
+        "images": [
+          "assets/images/product-img-1.jpg",
+          "assets/images/product-img-2.jpg",
+          "assets/images/product-img-3.jpg",
+          "assets/images/couch-with-cushions-glass-table.jpg"
+        ]
+      }
+    },
+    {
+      "id": "featured-products",
+      "type": "product-grid",
+      "settings": {
+        "variant": "featured",
+        "title": "Featured furniture catalog",
+        "subtitle": "Live products come from the tenant catalog with configured pricing.",
+        "images": [
+          "assets/images/product-img-1.jpg",
+          "assets/images/product-img-2.jpg",
+          "assets/images/product-img-3.jpg",
+          "assets/images/couch-with-cushions-glass-table.jpg"
+        ]
+      }
+    },
+    {
+      "id": "story",
+      "type": "image-text",
+      "settings": {
+        "title": "A calm catalog for serious furniture buying.",
+        "body": "Large images, clear product cards, and simple navigation keep retailers focused on selection and order quantity.",
+        "image": "assets/images/couch-with-cushions-glass-table.jpg",
+        "imagePosition": "right"
+      }
+    },
+    {
+      "id": "features",
+      "type": "feature-grid",
+      "settings": {
+        "title": "Built for trade buyers",
+        "items": [
+          { "title": "Visual catalog", "text": "Large product imagery supports quick browsing." },
+          { "title": "Variant ordering", "text": "Sizes, materials, and finishes can map to product variants." },
+          { "title": "Repeat flow", "text": "Customers can reorder and track status through the storefront." }
+        ]
+      }
+    },
+    {
+      "id": "trust",
+      "type": "trust-badges",
+      "settings": {
+        "items": ["Secure OTP", "Trade pricing", "Fast dispatch", "GST-ready orders"]
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Share new arrivals",
+        "subtitle": "Use this space for seasonal collections, restock alerts, and trade offers."
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          { "heading": "Catalog", "links": ["Products", "Categories", "Offers"] },
+          { "heading": "Account", "links": ["Login", "Orders", "Cart"] },
+          { "heading": "Support", "links": ["Contact", "Shipping", "Returns"] }
+        ]
+      }
+    }
+  ]
+}

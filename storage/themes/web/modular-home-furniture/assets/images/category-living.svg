@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Living room">
+  <rect width="900" height="620" fill="#eef7f3"/>
+  <circle cx="760" cy="120" r="130" fill="#20756b" opacity=".18"/>
+  <circle cx="104" cy="510" r="145" fill="#8fd3c7" opacity=".18"/>
+  <g transform="translate(130 46)">
+    <rect x="38" y="38" width="570" height="500" rx="46" fill="#ffffff" opacity=".74"/>
+    <rect x="76" y="84" width="494" height="408" rx="34" fill="#ffffff" opacity=".52"/>
+    <rect x='118' y='238' width='420' height='112' rx='32' fill='#20756b'/><rect x='146' y='188' width='164' height='82' rx='24' fill='#8fd3c7'/><rect x='342' y='188' width='164' height='82' rx='24' fill='#ffffff' opacity='.72'/><rect x='92' y='294' width='472' height='74' rx='28' fill='#111827' opacity='.12'/><circle cx='170' cy='392' r='18' fill='#1f2937'/><circle cx='488' cy='392' r='18' fill='#1f2937'/>
+  </g>
+  <text x="62" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">Living room</text>
+  <text x="64" y="122" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Sofas, tables, and TV units</text>
+</svg>

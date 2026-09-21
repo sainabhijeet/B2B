@@ -1,0 +1,10 @@
+{
+  "layout": "grocery-product-detail",
+  "sections": [
+    "gallery",
+    "pricing",
+    "tier-pricing",
+    "gst-specifications",
+    "related-products"
+  ]
+}

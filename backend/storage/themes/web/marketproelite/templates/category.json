@@ -1,0 +1,9 @@
+{
+  "sections": [
+    { "id": "header", "type": "header", "settings": { "logoText": "MarketPro", "industryName": "Categories", "nav": ["Home", "Categories", "Products", "Wishlist", "Cart", "Blog", "FAQ", "Contact"] } },
+    { "id": "hero", "type": "hero-banner", "settings": { "eyebrow": "Marketplace departments", "title": "Premium Categories", "subtitle": "Explore departments designed for fast shopping and multi-vendor discovery.", "image": "assets/images/category-products-real.png" } },
+    { "id": "categories", "type": "category-grid", "settings": { "title": "Browse categories", "subtitle": "Real product imagery fitted cleanly inside each card.", "images": ["assets/images/category-products-real.png", "assets/images/hero-products-real.png"] } },
+    { "id": "products", "type": "product-grid", "settings": { "title": "Category Products", "subtitle": "Live tenant products render here.", "images": ["assets/images/hero-products-real.png", "assets/images/category-products-real.png"] } },
+    { "id": "footer", "type": "footer", "variant": "columns", "settings": { "columns": [{ "heading": "Shop", "links": ["Categories", "Products"] }, { "heading": "Support", "links": ["FAQ", "Contact"] }] } }
+  ]
+}

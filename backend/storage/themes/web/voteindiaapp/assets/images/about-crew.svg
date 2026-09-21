@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-label="Electrical work crew">
+  <rect width="760" height="460" fill="#eef3f8"/>
+  <rect x="0" y="300" width="760" height="160" fill="#dce6ef"/>
+  <g stroke="#94a3b8" stroke-width="6">
+    <path d="M40 90 H720 M40 150 H720 M40 210 H720"/>
+    <path d="M110 80 V260 M270 80 V260 M430 80 V260 M590 80 V260"/>
+  </g>
+  <g transform="translate(94 138)">
+    <circle cx="58" cy="42" r="31" fill="#f4b183"/>
+    <path d="M27 37 C54 11 83 19 96 42 H18Z" fill="#f58216"/>
+    <rect x="25" y="83" width="68" height="132" rx="10" fill="#f58216"/>
+    <path d="M39 83 H78 L88 215 H29Z" fill="#102033" opacity=".55"/>
+  </g>
+  <g transform="translate(280 118)">
+    <circle cx="58" cy="42" r="31" fill="#e7a673"/>
+    <path d="M22 42 C43 5 86 14 98 42Z" fill="#ffb13b"/>
+    <rect x="20" y="84" width="76" height="150" rx="10" fill="#102033"/>
+    <path d="M33 84 H84 L92 234 H25Z" fill="#f58216"/>
+  </g>
+  <g transform="translate(480 150)">
+    <circle cx="58" cy="42" r="31" fill="#f1b98f"/>
+    <path d="M21 39 C44 12 82 12 99 40Z" fill="#f58216"/>
+    <rect x="20" y="82" width="78" height="126" rx="10" fill="#f58216"/>
+    <path d="M35 82 H82 L92 208 H25Z" fill="#102033" opacity=".5"/>
+  </g>
+  <rect x="530" y="302" width="154" height="118" fill="#07111f"/>
+  <rect x="548" y="320" width="118" height="14" fill="#f58216"/>
+  <rect x="548" y="348" width="92" height="12" fill="#94a3b8"/>
+  <rect x="548" y="374" width="108" height="12" fill="#94a3b8"/>
+  <rect x="548" y="400" width="72" height="12" fill="#94a3b8"/>
+</svg>

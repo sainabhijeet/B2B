@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "header", "type": "header", "settings": { "logoText": "MarketPro", "industryName": "Product Details", "nav": ["Home", "Products", "Wishlist", "Cart", "Login"] } },
+    { "id": "related", "type": "product-grid", "settings": { "title": "You may also like", "subtitle": "Related marketplace products from verified sellers.", "images": ["assets/img/product-phone.svg", "assets/img/product-watch.svg", "assets/img/product-headphones.svg", "assets/img/product-laptop.svg"] } },
+    { "id": "footer", "type": "footer", "variant": "columns", "settings": { "columns": [{ "heading": "Support", "links": ["Delivery", "Payment", "Returns", "Contact"] }] } }
+  ]
+}

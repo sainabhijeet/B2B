@@ -1,0 +1,1 @@
+{"layout":"default","sections":[{"id":"header","type":"header"},{"id":"not-found","type":"rich-text","settings":{"title":"errors.not_found.title","body":"errors.not_found.body","action":"actions.back_home"}},{"id":"footer","type":"footer"}]}

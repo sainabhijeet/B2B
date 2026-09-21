@@ -1,0 +1,37 @@
+{
+  "name": "Classic B2B Wholesale",
+  "version": "1.0",
+  "storefrontKey": "classic-b2b",
+  "capabilities": {
+    "allowed_sections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "rich-text",
+      "icon-list",
+      "image-with-text",
+      "newsletter",
+      "category-banner",
+      "filter-sidebar",
+      "product-detail",
+      "related-products",
+      "footer-columns"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  }
+}

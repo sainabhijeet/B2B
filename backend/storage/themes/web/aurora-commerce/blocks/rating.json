@@ -1,0 +1,1 @@
+{"type":"rating","editable":true,"settingsSchema":{"value":{"type":"number","min":0,"max":5},"label":{"type":"text","translation":true}},"defaultSettings":{"value":5,"label":"product.rating"}}

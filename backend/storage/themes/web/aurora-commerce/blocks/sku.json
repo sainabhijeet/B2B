@@ -1,0 +1,1 @@
+{"type":"sku","editable":true,"settingsSchema":{"source":{"type":"sku"},"label":{"type":"text","translation":true}},"defaultSettings":{"source":"catalog.sku","label":"product.sku"}}

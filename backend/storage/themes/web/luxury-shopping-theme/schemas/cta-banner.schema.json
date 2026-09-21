@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "cta-banner",
+  "title": "CTA Banner",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }, "primaryCtaLabel": { "type": "string" }, "primaryCtaUrl": { "type": "string" }, "secondaryCtaLabel": { "type": "string" }, "secondaryCtaUrl": { "type": "string" }, "theme": { "type": "string" }, "image": { "type": "string" }, "align": { "type": "string" } },
+  "additionalProperties": true
+}

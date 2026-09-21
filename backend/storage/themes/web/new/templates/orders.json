@@ -1,0 +1,7 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Orders", "nav": ["All", "Pending", "Processing", "Shipped", "Delivered", "Cancelled", "Returned"] } },
+    { "id": "account-orders", "type": "account-orders", "settings": { "title": "All orders", "statuses": ["Pending", "Processing", "Shipped", "Delivered", "Cancelled", "Returned"], "actions": ["Cancel order", "Return order", "Download invoice", "Reorder"] } },
+    { "id": "order-details", "type": "rich-text", "settings": { "title": "Order details", "content": "Order ID, date, products, price, address, payment, delivery status, and tracking." } }
+  ]
+}

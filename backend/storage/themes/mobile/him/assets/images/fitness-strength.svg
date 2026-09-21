@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Strength training equipment</title>
+  <rect width="800" height="600" rx="40" fill="#111827"/>
+  <circle cx="400" cy="300" r="180" fill="#1f2937"/>
+  <rect x="150" y="278" width="500" height="44" rx="22" fill="#f8fafc"/>
+  <rect x="105" y="205" width="65" height="190" rx="20" fill="#dc2626"/>
+  <rect x="630" y="205" width="65" height="190" rx="20" fill="#dc2626"/>
+  <rect x="65" y="235" width="45" height="130" rx="14" fill="#f59e0b"/>
+  <rect x="690" y="235" width="45" height="130" rx="14" fill="#f59e0b"/>
+  <text x="400" y="515" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="700">BUILD STRENGTH</text>
+</svg>

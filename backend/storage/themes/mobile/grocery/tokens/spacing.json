@@ -1,0 +1,8 @@
+{
+  "unit": 4,
+  "screen_padding": 16,
+  "section_gap": 18,
+  "card_padding": 12,
+  "grid_gap": 12,
+  "bottom_bar_height": 72
+}

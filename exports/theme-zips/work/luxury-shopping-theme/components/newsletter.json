@@ -1,0 +1,9 @@
+{
+  "name": "newsletter",
+  "label": "Newsletter",
+  "category": "marketing",
+  "variants": ["dark", "light", "split", "minimal", "card"],
+  "defaultVariant": "dark",
+  "settings": { "eyebrow": "", "title": "", "description": "", "placeholder": "Your email address", "buttonLabel": "Subscribe", "consentText": "", "theme": "light", "successMessage": "Thanks for subscribing.", "fields": [] },
+  "presets": [{ "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "light", "label": "Light", "variant": "light" }, { "id": "split", "label": "Split", "variant": "split" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }, { "id": "card", "label": "Card", "variant": "card" }]
+}

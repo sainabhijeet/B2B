@@ -1,0 +1,9 @@
+{
+  "name": "cta-banner",
+  "label": "CTA Banner",
+  "category": "marketing",
+  "variants": ["dark", "light", "image", "accent", "minimal"],
+  "defaultVariant": "minimal",
+  "settings": { "eyebrow": "", "title": "", "description": "", "primaryCtaLabel": "Explore the edit", "primaryCtaUrl": "#", "secondaryCtaLabel": "", "secondaryCtaUrl": "", "theme": "light", "image": "", "align": "center" },
+  "presets": [{ "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "light", "label": "Light", "variant": "light" }, { "id": "image", "label": "Image", "variant": "image" }, { "id": "accent", "label": "Accent", "variant": "accent" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }]
+}

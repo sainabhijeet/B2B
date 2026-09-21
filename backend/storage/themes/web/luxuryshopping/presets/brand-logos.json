@@ -1,0 +1,10 @@
+{
+  "section": "brand-logos",
+  "presets": [
+    { "id": "monochrome", "label": "Monochrome", "variant": "monochrome", "settings": { "title": "Brands with a point of view", "grayscale": true } },
+    { "id": "outline", "label": "Outline", "variant": "outline", "settings": { "title": "Meet the makers", "showLinks": true } },
+    { "id": "spotlight", "label": "Spotlight", "variant": "spotlight", "settings": { "eyebrow": "OUR EDIT", "title": "The Atelier index" } },
+    { "id": "trusted", "label": "Trusted By", "variant": "monochrome", "settings": { "eyebrow": "IN GOOD COMPANY", "title": "Made by the best" } },
+    { "id": "makers", "label": "Independent Makers", "variant": "outline", "settings": { "eyebrow": "THE MAKER EDIT", "title": "Small studios, big ideas" } }
+  ]
+}

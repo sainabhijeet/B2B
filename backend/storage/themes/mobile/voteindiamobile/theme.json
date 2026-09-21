@@ -1,0 +1,61 @@
+{
+  "name": "Electra Power Services",
+  "version": "1.0.0",
+  "storefrontKey": "electra-power-services",
+  "industry": "Electrical & Lighting",
+  "description": "Navy and orange electrical services storefront inspired by contractor, power-grid, and industrial maintenance layouts.",
+  "allowedSections": [
+    "announcement-bar",
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "image-with-text",
+    "icon-list",
+    "category-grid",
+    "product-grid",
+    "blog-preview",
+    "testimonial-carousel",
+    "faq-section",
+    "cta-banner",
+    "newsletter",
+    "footer-columns",
+    "filter-sidebar",
+    "product-detail",
+    "related-products"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "announcement-bar",
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "image-with-text",
+      "icon-list",
+      "category-grid",
+      "product-grid",
+      "blog-preview",
+      "testimonial-carousel",
+      "faq-section",
+      "cta-banner",
+      "newsletter",
+      "footer-columns",
+      "filter-sidebar",
+      "product-detail",
+      "related-products"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "styles": {
+    "main": "assets/css/theme.css"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "product-carousel",
+  "title": "Product Carousel",
+  "type": "object",
+  "properties": { "eyebrow": { "type": "string" }, "title": { "type": "string" }, "description": { "type": "string" }, "collection": { "type": "string" }, "limit": { "type": "number" }, "autoplay": { "type": "boolean" }, "showArrows": { "type": "boolean" }, "showQuickAdd": { "type": "boolean" }, "slidesPerView": { "type": "number" } },
+  "additionalProperties": true
+}

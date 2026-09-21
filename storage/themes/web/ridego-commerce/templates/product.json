@@ -1,0 +1,68 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RideGo",
+        "nav": [
+          "Home",
+          "Catalog",
+          "Cart",
+          "Orders"
+        ]
+      }
+    },
+    {
+      "id": "product-detail",
+      "type": "product-detail",
+      "settings": {
+        "showSku": true,
+        "showTax": true,
+        "showMoq": true,
+        "primaryCta": "theme_content.ridego-commerce.0e9408353c72"
+      }
+    },
+    {
+      "id": "product-trust",
+      "type": "trust-badges",
+      "settings": {
+        "items": [
+          "theme_content.ridego-commerce.201ceb351645",
+          "theme_content.ridego-commerce.a4738f448afa",
+          "theme_content.ridego-commerce.80c246527872"
+        ]
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "theme_content.ridego-commerce.df70072c83e0"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Catalog",
+              "Categories"
+            ],
+            "heading": "theme_content.ridego-commerce.ee7da936b5cb"
+          },
+          {
+            "links": [
+              "Contact",
+              "Returns",
+              "Invoices"
+            ],
+            "heading": "theme_content.ridego-commerce.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

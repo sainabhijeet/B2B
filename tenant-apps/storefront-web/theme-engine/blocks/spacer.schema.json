@@ -1,0 +1,12 @@
+{
+  "name": "spacer",
+  "label": "Spacer",
+  "settings": [
+    {
+      "id": "height",
+      "type": "number",
+      "label": "Height (px)",
+      "default": 24
+    }
+  ]
+}

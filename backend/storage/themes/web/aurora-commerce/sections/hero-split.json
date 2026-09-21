@@ -1,0 +1,1 @@
+{"type":"hero-split","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"body":{"type":"textarea","translation":true},"image":{"type":"image"},"imagePosition":{"type":"select","options":["left","right"]}},"defaultSettings":{"title":"category.title","body":"category.body","image":"assets/images/hero-mobile.svg","imagePosition":"right"}}

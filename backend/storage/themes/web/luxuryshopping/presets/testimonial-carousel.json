@@ -1,0 +1,10 @@
+{
+  "section": "testimonial-carousel",
+  "presets": [
+    { "id": "cards", "label": "Cards", "variant": "cards", "settings": { "eyebrow": "THE ATELIER NOTEBOOK", "title": "Loved for the little things" } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "What our customers say" } },
+    { "id": "dark", "label": "Dark", "variant": "dark", "settings": { "eyebrow": "THE GOOD WORD", "title": "Considered by our community" } },
+    { "id": "reviews", "label": "Reviews", "variant": "cards", "settings": { "eyebrow": "VERIFIED REVIEWS", "title": "Loved by many" } },
+    { "id": "quotes", "label": "Quotes", "variant": "minimal", "settings": { "eyebrow": "THE NOTEBOOK", "title": "In their own words" } }
+  ]
+}

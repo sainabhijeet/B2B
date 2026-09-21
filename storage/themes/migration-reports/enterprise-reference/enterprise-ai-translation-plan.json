@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-05T10:53:15.149Z",
+  "dryRun": true,
+  "targetCount": 10889,
+  "batchCount": 112,
+  "batchSize": 100,
+  "concurrency": 4,
+  "locales": [
+    "zh",
+    "hi",
+    "fr",
+    "ar",
+    "es",
+    "de",
+    "ru",
+    "ja"
+  ],
+  "status": "PENDING_PROVIDER_EXECUTION"
+}

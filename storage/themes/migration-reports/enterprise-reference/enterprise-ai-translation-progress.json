@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-05T10:57:15.676Z",
+  "status": "RUNNING",
+  "batchSize": 100,
+  "completedBatches": 112,
+  "totalBatches": 112,
+  "requests": 112,
+  "processed": 10889,
+  "remaining": 0,
+  "autoApproved": 0,
+  "reviewRequired": 0,
+  "rejected": 10889,
+  "requestsPerMinute": 30.73,
+  "keysPerMinute": 2987.78,
+  "etaSeconds": 0,
+  "estimatedCostUsd": null
+}

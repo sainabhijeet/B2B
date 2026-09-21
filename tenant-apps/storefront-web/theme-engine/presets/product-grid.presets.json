@@ -1,0 +1,21 @@
+{
+  "section": "product-grid",
+  "presets": [
+    {
+      "id": "bestseller-grid",
+      "label": "Bestseller Grid",
+      "settings": {
+        "title": "Bestsellers",
+        "limit": 8
+      }
+    },
+    {
+      "id": "premium-collection",
+      "label": "Premium Collection",
+      "settings": {
+        "title": "Premium picks",
+        "limit": 6
+      }
+    }
+  ]
+}

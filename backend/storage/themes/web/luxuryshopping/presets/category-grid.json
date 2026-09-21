@@ -1,0 +1,10 @@
+{
+  "section": "category-grid",
+  "presets": [
+    { "id": "tiles", "label": "Image Tiles", "variant": "tiles", "settings": { "title": "Shop by category", "columns": 4 } },
+    { "id": "circles", "label": "Circles", "variant": "circles", "settings": { "title": "Find your mood", "columns": 4 } },
+    { "id": "editorial", "label": "Editorial", "variant": "editorial", "settings": { "eyebrow": "SHOP BY MOOD", "title": "Find your next favorite" } },
+    { "id": "minimal", "label": "Minimal", "variant": "minimal", "settings": { "title": "Explore the edit", "columns": 3 } },
+    { "id": "seasonal", "label": "Seasonal", "variant": "editorial", "settings": { "eyebrow": "THE SEASONAL EDIT", "title": "Made for now" } }
+  ]
+}

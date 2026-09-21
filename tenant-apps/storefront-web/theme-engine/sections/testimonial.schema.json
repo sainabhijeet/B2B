@@ -1,0 +1,23 @@
+{
+  "name": "testimonial",
+  "category": "content",
+  "label": "Testimonial",
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Heading"
+    },
+    {
+      "id": "quote",
+      "type": "textarea",
+      "label": "Quote"
+    },
+    {
+      "id": "author",
+      "type": "text",
+      "label": "Author"
+    }
+  ],
+  "allowed_blocks": ["heading", "text"]
+}

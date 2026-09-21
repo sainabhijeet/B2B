@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header-mega-menu"
+    },
+    {
+      "id": "hero",
+      "type": "hero-slider",
+      "settings": {
+        "title": "Mega Shopping Sale",
+        "subtitle": "Up to 70% OFF"
+      }
+    },
+    {
+      "id": "cats",
+      "type": "category-grid",
+      "settings": {
+        "limit": 8
+      }
+    },
+    {
+      "id": "collections",
+      "type": "collection-grid"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "limit": 12
+      }
+    },
+    {
+      "id": "offer",
+      "type": "countdown-offer"
+    },
+    {
+      "id": "news",
+      "type": "newsletter"
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns"
+    }
+  ]
+}

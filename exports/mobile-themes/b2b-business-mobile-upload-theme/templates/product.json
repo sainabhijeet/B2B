@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "Product gallery",
+        "images": [
+          "assets/images/products/milk.svg",
+          "assets/images/products/salt.svg",
+          "assets/images/products/biscuits.svg"
+        ]
+      }
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "Product detail",
+        "subtitle": "Variants, pricing, stock, quantity selector, cart and checkout actions."
+      }
+    },
+    {
+      "id": "related",
+      "type": "recommended-products",
+      "settings": {
+        "title": "Related essentials",
+        "subtitle": "Products often bought together.",
+        "images": [
+          "assets/images/products/bread.svg",
+          "assets/images/products/beverage.svg",
+          "assets/images/products/detergent.svg"
+        ],
+        "addButtonText": "Add",
+        "priceUnavailableText": "Price on request",
+        "currencySymbol": "Rs"
+      }
+    }
+  ]
+}

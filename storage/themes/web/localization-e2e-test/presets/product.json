@@ -1,0 +1,16 @@
+{
+  "section": "product-detail",
+  "presets": [
+    {
+      "id": "product",
+      "label": "localizationTest.presets.product",
+      "variant": "default",
+      "settings": {
+        "title": "localizationTest.productPage.title",
+        "description": "localizationTest.productPage.description",
+        "primaryCta": "localizationTest.productPage.addToCart",
+        "secondaryCta": "localizationTest.productPage.requestQuote"
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Rooms",
+          "Catalog",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.kids-room-furniture.388998785a4f"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero.svg",
+        "secondaryCta": "theme_content.kids-room-furniture.9382763ce2ee",
+        "title": "theme_content.kids-room-furniture.84586da094a8",
+        "primaryCta": "theme_content.kids-room-furniture.5c0ac6036257",
+        "subtitle": "theme_content.kids-room-furniture.116ab596a444"
+      }
+    },
+    {
+      "id": "feature",
+      "type": "image-with-text",
+      "settings": {
+        "imagePosition": "left",
+        "image": "assets/images/detail.svg",
+        "title": "theme_content.kids-room-furniture.a9f31a0c85ab",
+        "body": "theme_content.kids-room-furniture.3e88ca5a523d"
+      }
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "subtitle": "theme_content.kids-room-furniture.eca91510b714",
+        "title": "theme_content.kids-room-furniture.43c0141ff438"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-living.svg",
+          "assets/images/category-dining.svg",
+          "assets/images/category-bedroom.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.kids-room-furniture.7f910bcb85d4",
+        "subtitle": "theme_content.kids-room-furniture.373ea1cebcdf"
+      }
+    },
+    {
+      "id": "products",
+      "type": "new-arrivals",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.kids-room-furniture.bdea721066ad",
+        "subtitle": "theme_content.kids-room-furniture.d81cd92267d4"
+      }
+    },
+    {
+      "id": "benefits",
+      "type": "icon-list",
+      "settings": {
+        "items": [
+          {
+            "icon": "01",
+            "title": "theme_content.kids-room-furniture.17e649a19996",
+            "text": "theme_content.kids-room-furniture.469c0a800c6e"
+          },
+          {
+            "icon": "02",
+            "title": "theme_content.kids-room-furniture.7806d236374a",
+            "text": "theme_content.kids-room-furniture.09f74aa2ee49"
+          },
+          {
+            "icon": "03",
+            "title": "theme_content.kids-room-furniture.e4e888534a4f",
+            "text": "theme_content.kids-room-furniture.57fdd81e2149"
+          }
+        ],
+        "title": "theme_content.kids-room-furniture.dcaa198b6c74"
+      }
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "subtitle": "theme_content.kids-room-furniture.1b0a584a5aa9",
+        "title": "theme_content.kids-room-furniture.55e3806a08dd"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Living",
+              "Dining",
+              "Bedroom",
+              "Office"
+            ],
+            "heading": "theme_content.kids-room-furniture.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.kids-room-furniture.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Shipping",
+              "Returns",
+              "Warranty"
+            ],
+            "heading": "theme_content.kids-room-furniture.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

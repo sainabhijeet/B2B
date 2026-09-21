@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" role="img" aria-label="Fortune">
+  <rect width="480" height="240" rx="34" fill="#ffffff"/>
+  <rect x="24" y="24" width="432" height="192" rx="28" fill="#f97316" opacity=".1"/>
+  <text x="240" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="900" fill="#f97316">Fortune</text>
+</svg>

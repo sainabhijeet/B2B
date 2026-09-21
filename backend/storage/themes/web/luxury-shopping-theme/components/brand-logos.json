@@ -1,0 +1,9 @@
+{
+  "name": "brand-logos",
+  "label": "Brand Logos",
+  "category": "brand",
+  "variants": ["monochrome", "outline", "spotlight"],
+  "defaultVariant": "monochrome",
+  "settings": { "eyebrow": "string", "title": "string", "logos": "array", "columns": "number", "grayscale": "boolean", "showLinks": "boolean" },
+  "presets": [{ "id": "monochrome", "label": "Monochrome", "variant": "monochrome" }, { "id": "outline", "label": "Outline", "variant": "outline" }, { "id": "spotlight", "label": "Spotlight", "variant": "spotlight" }]
+}

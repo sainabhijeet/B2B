@@ -1,0 +1,81 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "nav":  [
+                                                      "Home",
+                                                      "Catalog",
+                                                      "Cart",
+                                                      "Login"
+                                                  ],
+                                          "logoText":  "Urban Loft"
+                                      }
+                     },
+                     {
+                         "id":  "category-hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "title":  "Urban Loft room catalog",
+                                          "subtitle":  "Browse furniture by room, finish, material, and product family.",
+                                          "image":  "assets/images/category-living.svg"
+                                      }
+                     },
+                     {
+                         "id":  "filters",
+                         "type":  "filter-sidebar",
+                         "settings":  {
+                                          "message":  "Room, finish, color, material, and price filters.",
+                                          "title":  "Filter furniture"
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/detail.svg"
+                                                     ],
+                                          "title":  "Room-ready products",
+                                          "subtitle":  "Tenant catalog products render here."
+                                      }
+                     },
+                     {
+                         "id":  "cta",
+                         "type":  "cta-banner",
+                         "settings":  {
+                                          "subtitle":  "Sign in and place a trade order with configured pricing.",
+                                          "title":  "Need a bulk quote?"
+                                      }
+                     },
+                     {
+                         "variant":  "columns",
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "columns":  [
+                                                          {
+                                                              "heading":  "Collections",
+                                                              "links":  [
+                                                                            "Sofas",
+                                                                            "Tables",
+                                                                            "Beds"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Help",
+                                                              "links":  [
+                                                                            "Contact",
+                                                                            "Delivery",
+                                                                            "Returns"
+                                                                        ]
+                                                          }
+                                                      ]
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "product-grid",
+  "category": "products",
+  "label": "Product Grid",
+  "variants": ["default", "compact"],
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Section title"
+    },
+    {
+      "id": "limit",
+      "type": "number",
+      "label": "Product count",
+      "default": 8
+    },
+    {
+      "id": "image",
+      "type": "image",
+      "label": "Placeholder image URL"
+    }
+  ],
+  "allowed_blocks": ["heading", "text", "button"]
+}

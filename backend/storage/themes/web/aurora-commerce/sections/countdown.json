@@ -1,0 +1,1 @@
+{"type":"countdown","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"endsAt":{"type":"datetime"},"action":{"type":"text","translation":true}},"defaultSettings":{"title":"countdown.title","endsAt":"","action":"actions.shop_now"}}

@@ -1,0 +1,10 @@
+{
+  "variants": [
+    "default"
+  ],
+  "defaultVariant": "default",
+  "settings": {
+    "showTotal": true,
+    "showPrimaryAction": true
+  }
+}

@@ -1,0 +1,41 @@
+# Local stack: API + Postgres. Copy .env.example → .env and set JWT_* (≥32 chars), SMTP, etc.
+# DB_HOST is overridden below so the API reaches the compose service.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: saas_platform
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres -d saas_platform']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    env_file:
+      - .env
+    environment:
+      DB_HOST: postgres
+      DB_PORT: '5432'
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - api_public_storage:/app/storage
+      - api_private_storage:/app/private-storage
+
+volumes:
+  postgres_data:
+  api_public_storage:
+  api_private_storage:

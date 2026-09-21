@@ -1,0 +1,29 @@
+{
+  "name": "Luxury Shopping Typography",
+  "fontFamilies": {
+    "sans": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "display": "Inter, ui-sans-serif, system-ui, sans-serif",
+    "mono": "\"SFMono-Regular\", Consolas, \"Liberation Mono\", monospace"
+  },
+  "weights": {
+    "regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "extrabold": 800
+  },
+  "scale": {
+    "display": { "size": "clamp(2.75rem, 6vw, 5.75rem)", "lineHeight": 0.98, "letterSpacing": "-0.065em", "weight": 700 },
+    "h1": { "size": "clamp(2.25rem, 4.5vw, 4.5rem)", "lineHeight": 1.02, "letterSpacing": "-0.055em", "weight": 700 },
+    "h2": { "size": "clamp(1.875rem, 3vw, 3.25rem)", "lineHeight": 1.05, "letterSpacing": "-0.045em", "weight": 700 },
+    "h3": { "size": "clamp(1.375rem, 2vw, 1.875rem)", "lineHeight": 1.15, "letterSpacing": "-0.03em", "weight": 600 },
+    "body": { "size": "1rem", "lineHeight": 1.6, "letterSpacing": "-0.01em", "weight": 400 },
+    "small": { "size": "0.875rem", "lineHeight": 1.5, "letterSpacing": "0", "weight": 400 },
+    "eyebrow": { "size": "0.75rem", "lineHeight": 1.2, "letterSpacing": "0.14em", "weight": 700, "transform": "uppercase" }
+  },
+  "defaults": {
+    "fontFamily": "sans",
+    "bodyStyle": "body",
+    "headingStyle": "h2"
+  }
+}

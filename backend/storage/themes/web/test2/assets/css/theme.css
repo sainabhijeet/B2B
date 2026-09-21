@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;600;700&display=swap");
+
+:root {
+  --cb2b-bg: #f8fafc;
+  --cb2b-surface: #ffffff;
+  --cb2b-ink: #0f172a;
+  --cb2b-muted: #475569;
+  --cb2b-accent: #b45309;
+  --cb2b-border: rgba(15, 23, 42, 0.1);
+}
+
+html,
+body {
+  background: var(--cb2b-bg);
+  color: var(--cb2b-ink);
+  font-family: "DM Sans", system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--cb2b-accent);
+}
+
+.theme-section-root {
+  border-color: var(--cb2b-border);
+}

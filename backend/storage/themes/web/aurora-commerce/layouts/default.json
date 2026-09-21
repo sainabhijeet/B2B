@@ -1,0 +1,1 @@
+{"name":"aurora-default","regions":["announcement","header","main","footer"],"responsive":{"mobile":"stack","tablet":"adaptive-grid","desktop":"wide-grid"},"rtl":true,"darkMode":true,"editable":true}

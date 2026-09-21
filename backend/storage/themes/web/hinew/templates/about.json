@@ -1,0 +1,8 @@
+{
+  "sections": [
+    {"id": "header", "type": "header", "settings": {"logoText": "localizationTest.theme.name", "nav": ["localizationTest.nav.home", "localizationTest.nav.categories", "localizationTest.nav.contact"]}},
+    {"id": "about", "type": "image-with-text", "settings": {"title": "localizationTest.aboutPage.title", "body": "localizationTest.aboutPage.description", "buttonText": "localizationTest.aboutPage.cta"}},
+    {"id": "benefits", "type": "icon-list", "settings": {"title": "localizationTest.benefits.title", "items": [{"title": "localizationTest.benefits.freeShipping.title", "text": "localizationTest.benefits.freeShipping.description"}, {"title": "localizationTest.benefits.secureCheckout.title", "text": "localizationTest.benefits.secureCheckout.description"}, {"title": "localizationTest.benefits.easyReturns.title", "text": "localizationTest.benefits.easyReturns.description"}]}},
+    {"id": "footer", "type": "footer", "variant": "columns", "settings": {"columns": [{"heading": "localizationTest.footer.company", "links": ["localizationTest.nav.about", "localizationTest.nav.contact"]}]}}
+  ]
+}

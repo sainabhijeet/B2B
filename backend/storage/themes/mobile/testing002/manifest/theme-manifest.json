@@ -1,0 +1,6 @@
+{
+  "schema": "luxury-commerce-theme-manifest",
+  "supports": ["vue3", "vite", "bootstrap5", "responsive", "dark-mode", "rtl"],
+  "pages": ["home", "shop", "category", "product", "cart", "checkout", "wishlist", "compare", "account", "login", "register", "order-history", "404"],
+  "createdBy": "Codex"
+}

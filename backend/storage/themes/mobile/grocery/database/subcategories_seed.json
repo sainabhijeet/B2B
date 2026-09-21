@@ -1,0 +1,650 @@
+[
+  {
+    "id": "sub-poha-and-suji",
+    "category_id": "cat-grocery-staples",
+    "name": "Poha & Suji",
+    "slug": "poha-and-suji",
+    "sort_order": 1,
+    "image_url": "assets/categories/grocery-staples.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-ready-mix",
+    "category_id": "cat-grocery-staples",
+    "name": "Ready Mix",
+    "slug": "ready-mix",
+    "sort_order": 2,
+    "image_url": "assets/categories/grocery-staples.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-breakfast-cereals",
+    "category_id": "cat-grocery-staples",
+    "name": "Breakfast Cereals",
+    "slug": "breakfast-cereals",
+    "sort_order": 3,
+    "image_url": "assets/categories/grocery-staples.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-papad-and-pickles",
+    "category_id": "cat-grocery-staples",
+    "name": "Papad & Pickles",
+    "slug": "papad-and-pickles",
+    "sort_order": 4,
+    "image_url": "assets/categories/grocery-staples.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-basmati-rice",
+    "category_id": "cat-rice-flour",
+    "name": "Basmati Rice",
+    "slug": "basmati-rice",
+    "sort_order": 1,
+    "image_url": "assets/categories/rice-flour.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-sona-masoori-rice",
+    "category_id": "cat-rice-flour",
+    "name": "Sona Masoori Rice",
+    "slug": "sona-masoori-rice",
+    "sort_order": 2,
+    "image_url": "assets/categories/rice-flour.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-wheat-atta",
+    "category_id": "cat-rice-flour",
+    "name": "Wheat Atta",
+    "slug": "wheat-atta",
+    "sort_order": 3,
+    "image_url": "assets/categories/rice-flour.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-maida-and-besan",
+    "category_id": "cat-rice-flour",
+    "name": "Maida & Besan",
+    "slug": "maida-and-besan",
+    "sort_order": 4,
+    "image_url": "assets/categories/rice-flour.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-toor-dal",
+    "category_id": "cat-pulses-dal",
+    "name": "Toor Dal",
+    "slug": "toor-dal",
+    "sort_order": 1,
+    "image_url": "assets/categories/pulses-dal.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-moong-dal",
+    "category_id": "cat-pulses-dal",
+    "name": "Moong Dal",
+    "slug": "moong-dal",
+    "sort_order": 2,
+    "image_url": "assets/categories/pulses-dal.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-chana-dal",
+    "category_id": "cat-pulses-dal",
+    "name": "Chana Dal",
+    "slug": "chana-dal",
+    "sort_order": 3,
+    "image_url": "assets/categories/pulses-dal.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-urad-dal",
+    "category_id": "cat-pulses-dal",
+    "name": "Urad Dal",
+    "slug": "urad-dal",
+    "sort_order": 4,
+    "image_url": "assets/categories/pulses-dal.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-sunflower-oil",
+    "category_id": "cat-oil-ghee",
+    "name": "Sunflower Oil",
+    "slug": "sunflower-oil",
+    "sort_order": 1,
+    "image_url": "assets/categories/oil-ghee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-mustard-oil",
+    "category_id": "cat-oil-ghee",
+    "name": "Mustard Oil",
+    "slug": "mustard-oil",
+    "sort_order": 2,
+    "image_url": "assets/categories/oil-ghee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-groundnut-oil",
+    "category_id": "cat-oil-ghee",
+    "name": "Groundnut Oil",
+    "slug": "groundnut-oil",
+    "sort_order": 3,
+    "image_url": "assets/categories/oil-ghee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-ghee",
+    "category_id": "cat-oil-ghee",
+    "name": "Ghee",
+    "slug": "ghee",
+    "sort_order": 4,
+    "image_url": "assets/categories/oil-ghee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-iodised-salt",
+    "category_id": "cat-sugar-salt",
+    "name": "Iodised Salt",
+    "slug": "iodised-salt",
+    "sort_order": 1,
+    "image_url": "assets/categories/sugar-salt.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-crystal-salt",
+    "category_id": "cat-sugar-salt",
+    "name": "Crystal Salt",
+    "slug": "crystal-salt",
+    "sort_order": 2,
+    "image_url": "assets/categories/sugar-salt.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-sugar",
+    "category_id": "cat-sugar-salt",
+    "name": "Sugar",
+    "slug": "sugar",
+    "sort_order": 3,
+    "image_url": "assets/categories/sugar-salt.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-jaggery",
+    "category_id": "cat-sugar-salt",
+    "name": "Jaggery",
+    "slug": "jaggery",
+    "sort_order": 4,
+    "image_url": "assets/categories/sugar-salt.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-tea-powder",
+    "category_id": "cat-tea-coffee",
+    "name": "Tea Powder",
+    "slug": "tea-powder",
+    "sort_order": 1,
+    "image_url": "assets/categories/tea-coffee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-instant-coffee",
+    "category_id": "cat-tea-coffee",
+    "name": "Instant Coffee",
+    "slug": "instant-coffee",
+    "sort_order": 2,
+    "image_url": "assets/categories/tea-coffee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-filter-coffee",
+    "category_id": "cat-tea-coffee",
+    "name": "Filter Coffee",
+    "slug": "filter-coffee",
+    "sort_order": 3,
+    "image_url": "assets/categories/tea-coffee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-premixes",
+    "category_id": "cat-tea-coffee",
+    "name": "Premixes",
+    "slug": "premixes",
+    "sort_order": 4,
+    "image_url": "assets/categories/tea-coffee.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-cola",
+    "category_id": "cat-beverages",
+    "name": "Cola",
+    "slug": "cola",
+    "sort_order": 1,
+    "image_url": "assets/categories/beverages.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-juices",
+    "category_id": "cat-beverages",
+    "name": "Juices",
+    "slug": "juices",
+    "sort_order": 2,
+    "image_url": "assets/categories/beverages.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-energy-drinks",
+    "category_id": "cat-beverages",
+    "name": "Energy Drinks",
+    "slug": "energy-drinks",
+    "sort_order": 3,
+    "image_url": "assets/categories/beverages.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-packaged-water",
+    "category_id": "cat-beverages",
+    "name": "Packaged Water",
+    "slug": "packaged-water",
+    "sort_order": 4,
+    "image_url": "assets/categories/beverages.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-biscuits",
+    "category_id": "cat-biscuits-snacks",
+    "name": "Biscuits",
+    "slug": "biscuits",
+    "sort_order": 1,
+    "image_url": "assets/categories/biscuits-snacks.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-noodles",
+    "category_id": "cat-biscuits-snacks",
+    "name": "Noodles",
+    "slug": "noodles",
+    "sort_order": 2,
+    "image_url": "assets/categories/biscuits-snacks.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-namkeen",
+    "category_id": "cat-biscuits-snacks",
+    "name": "Namkeen",
+    "slug": "namkeen",
+    "sort_order": 3,
+    "image_url": "assets/categories/biscuits-snacks.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-chips",
+    "category_id": "cat-biscuits-snacks",
+    "name": "Chips",
+    "slug": "chips",
+    "sort_order": 4,
+    "image_url": "assets/categories/biscuits-snacks.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-milk",
+    "category_id": "cat-dairy",
+    "name": "Milk",
+    "slug": "milk",
+    "sort_order": 1,
+    "image_url": "assets/categories/dairy.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-butter",
+    "category_id": "cat-dairy",
+    "name": "Butter",
+    "slug": "butter",
+    "sort_order": 2,
+    "image_url": "assets/categories/dairy.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-cheese",
+    "category_id": "cat-dairy",
+    "name": "Cheese",
+    "slug": "cheese",
+    "sort_order": 3,
+    "image_url": "assets/categories/dairy.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-paneer",
+    "category_id": "cat-dairy",
+    "name": "Paneer",
+    "slug": "paneer",
+    "sort_order": 4,
+    "image_url": "assets/categories/dairy.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-frozen-snacks",
+    "category_id": "cat-frozen-foods",
+    "name": "Frozen Snacks",
+    "slug": "frozen-snacks",
+    "sort_order": 1,
+    "image_url": "assets/categories/frozen-foods.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-frozen-vegetables",
+    "category_id": "cat-frozen-foods",
+    "name": "Frozen Vegetables",
+    "slug": "frozen-vegetables",
+    "sort_order": 2,
+    "image_url": "assets/categories/frozen-foods.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-ice-cream",
+    "category_id": "cat-frozen-foods",
+    "name": "Ice Cream",
+    "slug": "ice-cream",
+    "sort_order": 3,
+    "image_url": "assets/categories/frozen-foods.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-ready-meals",
+    "category_id": "cat-frozen-foods",
+    "name": "Ready Meals",
+    "slug": "ready-meals",
+    "sort_order": 4,
+    "image_url": "assets/categories/frozen-foods.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-bread",
+    "category_id": "cat-bakery",
+    "name": "Bread",
+    "slug": "bread",
+    "sort_order": 1,
+    "image_url": "assets/categories/bakery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-buns",
+    "category_id": "cat-bakery",
+    "name": "Buns",
+    "slug": "buns",
+    "sort_order": 2,
+    "image_url": "assets/categories/bakery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-cakes",
+    "category_id": "cat-bakery",
+    "name": "Cakes",
+    "slug": "cakes",
+    "sort_order": 3,
+    "image_url": "assets/categories/bakery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-rusk",
+    "category_id": "cat-bakery",
+    "name": "Rusk",
+    "slug": "rusk",
+    "sort_order": 4,
+    "image_url": "assets/categories/bakery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-turmeric",
+    "category_id": "cat-spices",
+    "name": "Turmeric",
+    "slug": "turmeric",
+    "sort_order": 1,
+    "image_url": "assets/categories/spices.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-chilli",
+    "category_id": "cat-spices",
+    "name": "Chilli",
+    "slug": "chilli",
+    "sort_order": 2,
+    "image_url": "assets/categories/spices.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-garam-masala",
+    "category_id": "cat-spices",
+    "name": "Garam Masala",
+    "slug": "garam-masala",
+    "sort_order": 3,
+    "image_url": "assets/categories/spices.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-whole-spices",
+    "category_id": "cat-spices",
+    "name": "Whole Spices",
+    "slug": "whole-spices",
+    "sort_order": 4,
+    "image_url": "assets/categories/spices.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-almonds",
+    "category_id": "cat-dry-fruits",
+    "name": "Almonds",
+    "slug": "almonds",
+    "sort_order": 1,
+    "image_url": "assets/categories/dry-fruits.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-cashews",
+    "category_id": "cat-dry-fruits",
+    "name": "Cashews",
+    "slug": "cashews",
+    "sort_order": 2,
+    "image_url": "assets/categories/dry-fruits.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-raisins",
+    "category_id": "cat-dry-fruits",
+    "name": "Raisins",
+    "slug": "raisins",
+    "sort_order": 3,
+    "image_url": "assets/categories/dry-fruits.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-pistachios",
+    "category_id": "cat-dry-fruits",
+    "name": "Pistachios",
+    "slug": "pistachios",
+    "sort_order": 4,
+    "image_url": "assets/categories/dry-fruits.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-laundry-detergent",
+    "category_id": "cat-cleaning",
+    "name": "Laundry Detergent",
+    "slug": "laundry-detergent",
+    "sort_order": 1,
+    "image_url": "assets/categories/cleaning.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-dishwash",
+    "category_id": "cat-cleaning",
+    "name": "Dishwash",
+    "slug": "dishwash",
+    "sort_order": 2,
+    "image_url": "assets/categories/cleaning.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-floor-cleaner",
+    "category_id": "cat-cleaning",
+    "name": "Floor Cleaner",
+    "slug": "floor-cleaner",
+    "sort_order": 3,
+    "image_url": "assets/categories/cleaning.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-toilet-cleaner",
+    "category_id": "cat-cleaning",
+    "name": "Toilet Cleaner",
+    "slug": "toilet-cleaner",
+    "sort_order": 4,
+    "image_url": "assets/categories/cleaning.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-air-fresheners",
+    "category_id": "cat-home-care",
+    "name": "Air Fresheners",
+    "slug": "air-fresheners",
+    "sort_order": 1,
+    "image_url": "assets/categories/home-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-repellents",
+    "category_id": "cat-home-care",
+    "name": "Repellents",
+    "slug": "repellents",
+    "sort_order": 2,
+    "image_url": "assets/categories/home-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-tissues",
+    "category_id": "cat-home-care",
+    "name": "Tissues",
+    "slug": "tissues",
+    "sort_order": 3,
+    "image_url": "assets/categories/home-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-foils-and-wraps",
+    "category_id": "cat-home-care",
+    "name": "Foils & Wraps",
+    "slug": "foils-and-wraps",
+    "sort_order": 4,
+    "image_url": "assets/categories/home-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-toothpaste",
+    "category_id": "cat-personal-care",
+    "name": "Toothpaste",
+    "slug": "toothpaste",
+    "sort_order": 1,
+    "image_url": "assets/categories/personal-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-soap",
+    "category_id": "cat-personal-care",
+    "name": "Soap",
+    "slug": "soap",
+    "sort_order": 2,
+    "image_url": "assets/categories/personal-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-shampoo",
+    "category_id": "cat-personal-care",
+    "name": "Shampoo",
+    "slug": "shampoo",
+    "sort_order": 3,
+    "image_url": "assets/categories/personal-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-deodorants",
+    "category_id": "cat-personal-care",
+    "name": "Deodorants",
+    "slug": "deodorants",
+    "sort_order": 4,
+    "image_url": "assets/categories/personal-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-diapers",
+    "category_id": "cat-baby-care",
+    "name": "Diapers",
+    "slug": "diapers",
+    "sort_order": 1,
+    "image_url": "assets/categories/baby-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-baby-wipes",
+    "category_id": "cat-baby-care",
+    "name": "Baby Wipes",
+    "slug": "baby-wipes",
+    "sort_order": 2,
+    "image_url": "assets/categories/baby-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-baby-food",
+    "category_id": "cat-baby-care",
+    "name": "Baby Food",
+    "slug": "baby-food",
+    "sort_order": 3,
+    "image_url": "assets/categories/baby-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-baby-skin-care",
+    "category_id": "cat-baby-care",
+    "name": "Baby Skin Care",
+    "slug": "baby-skin-care",
+    "sort_order": 4,
+    "image_url": "assets/categories/baby-care.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-notebooks",
+    "category_id": "cat-stationery",
+    "name": "Notebooks",
+    "slug": "notebooks",
+    "sort_order": 1,
+    "image_url": "assets/categories/stationery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-pens",
+    "category_id": "cat-stationery",
+    "name": "Pens",
+    "slug": "pens",
+    "sort_order": 2,
+    "image_url": "assets/categories/stationery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-files",
+    "category_id": "cat-stationery",
+    "name": "Files",
+    "slug": "files",
+    "sort_order": 3,
+    "image_url": "assets/categories/stationery.svg",
+    "is_active": true
+  },
+  {
+    "id": "sub-retail-supplies",
+    "category_id": "cat-stationery",
+    "name": "Retail Supplies",
+    "slug": "retail-supplies",
+    "sort_order": 4,
+    "image_url": "assets/categories/stationery.svg",
+    "is_active": true
+  }
+]

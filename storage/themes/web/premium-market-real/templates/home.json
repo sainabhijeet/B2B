@@ -1,0 +1,107 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketPro",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Wishlist",
+          "Cart",
+          "Login",
+          "Blog",
+          "FAQ",
+          "Contact"
+        ],
+        "industryName": "theme_content.premium-market-real.2a62b122000f"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero-products-real.png",
+        "primaryHref": "/product",
+        "secondaryHref": "/category",
+        "eyebrow": "theme_content.premium-market-real.23393eec0fca",
+        "title": "theme_content.premium-market-real.bf2eff7713c3",
+        "subtitle": "theme_content.premium-market-real.bfdd343d4897",
+        "primaryCta": "theme_content.premium-market-real.6b4b6d202b53",
+        "secondaryCta": "theme_content.premium-market-real.26ff1011ea07"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png"
+        ],
+        "title": "theme_content.premium-market-real.c1168474f47e",
+        "subtitle": "theme_content.premium-market-real.b85de19adacc"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png",
+          "assets/images/hero-products-real.png",
+          "assets/images/category-products-real.png"
+        ],
+        "title": "theme_content.premium-market-real.570562030efc",
+        "subtitle": "theme_content.premium-market-real.562bb22c6b8b"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Categories",
+              "Products",
+              "Wishlist",
+              "Cart"
+            ],
+            "heading": "theme_content.premium-market-real.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Login",
+              "Orders",
+              "Dashboard"
+            ],
+            "heading": "theme_content.premium-market-real.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "theme_content.premium-market-real.e4a2806bd86a",
+              "Products",
+              "Payouts"
+            ],
+            "heading": "theme_content.premium-market-real.01498fa31d5a"
+          },
+          {
+            "links": [
+              "Blog",
+              "FAQ",
+              "Contact"
+            ],
+            "heading": "theme_content.premium-market-real.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

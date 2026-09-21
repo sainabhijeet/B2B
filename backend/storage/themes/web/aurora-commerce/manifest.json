@@ -1,0 +1,1 @@
+{"schemaVersion":"1.0.0","packageId":"aurora-commerce","name":"aurora.theme.name","version":"1.0.0","type":"premium-enterprise","entry":"theme.json","locales":["en","fr","de","es","hi","gu","zh","ja","ar","ur"],"features":["responsive","rtl","dark-mode","theme-builder","live-preview","b2b","b2c"],"integrity":{"algorithm":"sha256"}}

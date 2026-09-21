@@ -1,0 +1,26 @@
+{
+  "base_layout": "grid",
+  "home_sections": [
+    "hero_banners",
+    "shop_by_category",
+    "fmcg_brands",
+    "best_selling_products",
+    "daily_essentials",
+    "beverages",
+    "snacks_biscuits",
+    "dairy_products",
+    "cooking_essentials",
+    "cleaning_products",
+    "personal_care",
+    "wholesale_deals",
+    "recently_ordered",
+    "recommended_products"
+  ],
+  "product_card": "wholesale_compact",
+  "supports_light_dark": true,
+  "responsive_breakpoints": {
+    "compact": 360,
+    "regular": 430,
+    "expanded": 600
+  }
+}

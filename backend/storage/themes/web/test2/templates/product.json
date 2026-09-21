@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Wholesale Co.",
+        "nav": ["Home", "Categories", "Catalog", "Cart", "Orders", "Log in"]
+      }
+    },
+    {
+      "id": "pdp",
+      "type": "product-detail",
+      "settings": {
+        "title": "Sample trade SKU",
+        "price": "Net price on agreement",
+        "description": "Replace with live PDP wiring: the storefront product route merges API data (price, MOQ, GST %) over theme defaults. This block demonstrates gallery + copy layout for classic B2B.",
+        "gallery": [
+          "assets/images/product-box.svg",
+          "assets/images/product-box.svg"
+        ]
+      }
+    },
+    {
+      "id": "moq-note",
+      "type": "rich-text",
+      "settings": {
+        "title": "MOQ & GST (platform rules)",
+        "body": "Minimum order quantity is enforced when adding to cart and again at checkout / place order.\n\nGST uses variant rate when set, otherwise the product catalog tax rate — same rules as distributor invoices."
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "Often ordered together"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Catalog", "Cart"]
+          },
+          {
+            "heading": "Account",
+            "links": ["Orders", "Log in"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Distributor contact", "Invoices"]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "brand-amul",
+    "name": "Amul",
+    "slug": "amul",
+    "logo_url": "assets/brands/amul.svg",
+    "is_active": true,
+    "sort_order": 1
+  },
+  {
+    "id": "brand-tata",
+    "name": "Tata",
+    "slug": "tata",
+    "logo_url": "assets/brands/tata.svg",
+    "is_active": true,
+    "sort_order": 2
+  },
+  {
+    "id": "brand-parle",
+    "name": "Parle",
+    "slug": "parle",
+    "logo_url": "assets/brands/parle.svg",
+    "is_active": true,
+    "sort_order": 3
+  },
+  {
+    "id": "brand-britannia",
+    "name": "Britannia",
+    "slug": "britannia",
+    "logo_url": "assets/brands/britannia.svg",
+    "is_active": true,
+    "sort_order": 4
+  },
+  {
+    "id": "brand-maggi",
+    "name": "Maggi",
+    "slug": "maggi",
+    "logo_url": "assets/brands/maggi.svg",
+    "is_active": true,
+    "sort_order": 5
+  },
+  {
+    "id": "brand-coca-cola",
+    "name": "Coca-Cola",
+    "slug": "coca-cola",
+    "logo_url": "assets/brands/coca-cola.svg",
+    "is_active": true,
+    "sort_order": 6
+  },
+  {
+    "id": "brand-pepsi",
+    "name": "Pepsi",
+    "slug": "pepsi",
+    "logo_url": "assets/brands/pepsi.svg",
+    "is_active": true,
+    "sort_order": 7
+  },
+  {
+    "id": "brand-surf-excel",
+    "name": "Surf Excel",
+    "slug": "surf-excel",
+    "logo_url": "assets/brands/surf-excel.svg",
+    "is_active": true,
+    "sort_order": 8
+  },
+  {
+    "id": "brand-vim",
+    "name": "Vim",
+    "slug": "vim",
+    "logo_url": "assets/brands/vim.svg",
+    "is_active": true,
+    "sort_order": 9
+  },
+  {
+    "id": "brand-colgate",
+    "name": "Colgate",
+    "slug": "colgate",
+    "logo_url": "assets/brands/colgate.svg",
+    "is_active": true,
+    "sort_order": 10
+  },
+  {
+    "id": "brand-aashirvaad",
+    "name": "Aashirvaad",
+    "slug": "aashirvaad",
+    "logo_url": "assets/brands/aashirvaad.svg",
+    "is_active": true,
+    "sort_order": 11
+  },
+  {
+    "id": "brand-fortune",
+    "name": "Fortune",
+    "slug": "fortune",
+    "logo_url": "assets/brands/fortune.svg",
+    "is_active": true,
+    "sort_order": 12
+  },
+  {
+    "id": "brand-nescafe",
+    "name": "Nescafe",
+    "slug": "nescafe",
+    "logo_url": "assets/brands/nescafe.svg",
+    "is_active": true,
+    "sort_order": 13
+  }
+]

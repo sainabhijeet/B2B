@@ -1,0 +1,119 @@
+{
+  "name": "Grocery Distributor Mobile Theme",
+  "version": "1.0.0",
+  "storefrontKey": "grocery-distributor-mobile-theme",
+  "industry": "grocery",
+  "description": "Production-ready Grocery Wholesale / FMCG Distributor mobile theme for B2B storefronts with API-fed catalog, cart, orders, credit, GST and RFQ flows.",
+  "languages": [
+    "en",
+    "hi",
+    "zh",
+    "ar",
+    "fr",
+    "de",
+    "es",
+    "gu",
+    "ur",
+    "ru",
+    "ja"
+  ],
+  "locales": {
+    "en": "locales/en.json",
+    "hi": "locales/hi.json",
+    "zh": "locales/zh.json",
+    "ar": "locales/ar.json",
+    "fr": "locales/fr.json",
+    "de": "locales/de.json",
+    "es": "locales/es.json",
+    "gu": "locales/gu.json",
+    "ur": "locales/ur.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json"
+  },
+  "mobile": {
+    "show_banner": true,
+    "card_style": "rounded",
+    "base_layout": "grid",
+    "enable_quick_qty": true,
+    "spacing": "comfortable",
+    "bottom_nav": [
+      "Home",
+      "Categories",
+      "Cart",
+      "Orders",
+      "Credit",
+      "Settings"
+    ]
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "offer-strip",
+    "category-grid",
+    "brand-logos",
+    "product-grid",
+    "featured-products",
+    "best-sellers",
+    "daily-essentials",
+    "recently-ordered",
+    "recommended-products",
+    "cart-summary",
+    "order-list",
+    "credit-summary",
+    "settings-list",
+    "auth-otp",
+    "footer"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": [
+        "grocery-b2b"
+      ],
+      "footer": [
+        "mobile-bottom-bar"
+      ]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "offer-strip",
+      "category-grid",
+      "brand-logos",
+      "product-grid",
+      "featured-products",
+      "best-sellers",
+      "daily-essentials",
+      "recently-ordered",
+      "recommended-products",
+      "cart-summary",
+      "order-list",
+      "credit-summary",
+      "settings-list",
+      "auth-otp",
+      "footer"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "orders": "templates/orders.json",
+    "credit": "templates/credit.json",
+    "settings": "templates/settings.json",
+    "auth": "templates/auth.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "preview": "assets/images/preview/grocery-theme-preview.png",
+    "hero": "assets/images/preview/grocery-theme-hero.png"
+  }
+}

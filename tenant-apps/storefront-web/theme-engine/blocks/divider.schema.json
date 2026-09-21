@@ -1,0 +1,17 @@
+{
+  "name": "divider",
+  "label": "Divider",
+  "settings": [
+    {
+      "id": "style",
+      "type": "select",
+      "label": "Style",
+      "default": "solid",
+      "options": [
+        { "value": "solid", "label": "Solid" },
+        { "value": "dashed", "label": "Dashed" },
+        { "value": "dotted", "label": "Dotted" }
+      ]
+    }
+  ]
+}

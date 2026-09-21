@@ -1,0 +1,218 @@
+[
+  {
+    "id": "cat-grocery-staples",
+    "name": "Grocery & Staples",
+    "slug": "grocery-staples",
+    "description": "Daily grocery staples for kirana stores and supermarkets.",
+    "sort_order": 1,
+    "image_url": "assets/categories/grocery-staples.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-rice-flour",
+    "name": "Rice & Flour",
+    "slug": "rice-flour",
+    "description": "Rice, atta, maida and flour packs.",
+    "sort_order": 2,
+    "image_url": "assets/categories/rice-flour.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-pulses-dal",
+    "name": "Pulses & Dal",
+    "slug": "pulses-dal",
+    "description": "Wholesale pulses and dal.",
+    "sort_order": 3,
+    "image_url": "assets/categories/pulses-dal.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-oil-ghee",
+    "name": "Oil & Ghee",
+    "slug": "oil-ghee",
+    "description": "Edible oils and ghee tins.",
+    "sort_order": 4,
+    "image_url": "assets/categories/oil-ghee.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-sugar-salt",
+    "name": "Sugar & Salt",
+    "slug": "sugar-salt",
+    "description": "Sugar, salt and sweeteners.",
+    "sort_order": 5,
+    "image_url": "assets/categories/sugar-salt.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-tea-coffee",
+    "name": "Tea & Coffee",
+    "slug": "tea-coffee",
+    "description": "Tea, coffee and premixes.",
+    "sort_order": 6,
+    "image_url": "assets/categories/tea-coffee.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-beverages",
+    "name": "Beverages",
+    "slug": "beverages",
+    "description": "Soft drinks, juices and water.",
+    "sort_order": 7,
+    "image_url": "assets/categories/beverages.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-biscuits-snacks",
+    "name": "Biscuits & Snacks",
+    "slug": "biscuits-snacks",
+    "description": "Packaged snacks and biscuits.",
+    "sort_order": 8,
+    "image_url": "assets/categories/biscuits-snacks.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-dairy",
+    "name": "Dairy",
+    "slug": "dairy",
+    "description": "Milk, butter, cheese and paneer.",
+    "sort_order": 9,
+    "image_url": "assets/categories/dairy.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-frozen-foods",
+    "name": "Frozen Foods",
+    "slug": "frozen-foods",
+    "description": "Frozen snacks and ready to cook.",
+    "sort_order": 10,
+    "image_url": "assets/categories/frozen-foods.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-bakery",
+    "name": "Bakery",
+    "slug": "bakery",
+    "description": "Bread, buns and cakes.",
+    "sort_order": 11,
+    "image_url": "assets/categories/bakery.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-spices",
+    "name": "Spices",
+    "slug": "spices",
+    "description": "Whole and blended spices.",
+    "sort_order": 12,
+    "image_url": "assets/categories/spices.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-dry-fruits",
+    "name": "Dry Fruits",
+    "slug": "dry-fruits",
+    "description": "Nuts, raisins and premium packs.",
+    "sort_order": 13,
+    "image_url": "assets/categories/dry-fruits.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-cleaning",
+    "name": "Cleaning",
+    "slug": "cleaning",
+    "description": "Detergents and dishwash.",
+    "sort_order": 14,
+    "image_url": "assets/categories/cleaning.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-home-care",
+    "name": "Home Care",
+    "slug": "home-care",
+    "description": "Home hygiene and fresheners.",
+    "sort_order": 15,
+    "image_url": "assets/categories/home-care.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-personal-care",
+    "name": "Personal Care",
+    "slug": "personal-care",
+    "description": "Oral, hair and skin care.",
+    "sort_order": 16,
+    "image_url": "assets/categories/personal-care.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-baby-care",
+    "name": "Baby Care",
+    "slug": "baby-care",
+    "description": "Baby hygiene and care.",
+    "sort_order": 17,
+    "image_url": "assets/categories/baby-care.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  },
+  {
+    "id": "cat-stationery",
+    "name": "Stationery",
+    "slug": "stationery",
+    "description": "Retail stationery and office supplies.",
+    "sort_order": 18,
+    "image_url": "assets/categories/stationery.svg",
+    "is_active": true,
+    "metadata": {
+      "industry": "grocery_wholesale"
+    }
+  }
+]

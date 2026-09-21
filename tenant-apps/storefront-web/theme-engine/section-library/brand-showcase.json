@@ -1,0 +1,17 @@
+{
+  "id": "brand-showcase",
+  "name": "Brand showcase",
+  "description": "Hero + brand strip + featured products",
+  "sections": [
+    {
+      "type": "hero-banner",
+      "variant": "center",
+      "blocks": [
+        { "type": "heading", "settings": { "text": "Our brand", "level": "2" } },
+        { "type": "text", "settings": { "body": "Craft and trust since day one." } }
+      ]
+    },
+    { "type": "brand-slider" },
+    { "type": "product-grid", "variant": "default" }
+  ]
+}

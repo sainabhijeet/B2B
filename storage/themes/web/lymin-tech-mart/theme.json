@@ -1,0 +1,131 @@
+{
+  "version": "2.0.0",
+  "storefrontKey": "lymin-tech-mart",
+  "industry": "marketplace",
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "testimonial-carousel",
+    "footer",
+    "product-detail",
+    "product-gallery",
+    "product-info",
+    "search-results",
+    "filter-sidebar",
+    "cart-summary",
+    "checkout-summary",
+    "account-dashboard",
+    "faq",
+    "blog-preview",
+    "newsletter",
+    "rich-text",
+    "image-with-text",
+    "icon-list",
+    "brand-logos",
+    "cta-banner"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": [
+        "default",
+        "split"
+      ],
+      "footer": [
+        "columns"
+      ]
+    },
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "category-grid",
+      "product-grid",
+      "testimonial-carousel",
+      "footer",
+      "product-detail",
+      "product-gallery",
+      "product-info",
+      "search-results",
+      "filter-sidebar",
+      "cart-summary",
+      "checkout-summary",
+      "account-dashboard",
+      "faq",
+      "blog-preview",
+      "newsletter",
+      "rich-text",
+      "image-with-text",
+      "icon-list",
+      "brand-logos",
+      "cta-banner"
+    ]
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "wishlist": "templates/wishlist.json",
+    "search": "templates/search.json",
+    "account": "templates/account.json",
+    "login": "templates/login.json",
+    "register": "templates/register.json",
+    "orders": "templates/orders.json",
+    "faq": "templates/faq.json",
+    "blog": "templates/blog.json",
+    "contact": "templates/contact.json",
+    "about": "templates/about.json"
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "name": "theme_content.lymin-tech-mart.c6b66c5e7221",
+  "description": "theme_content.lymin-tech-mart.b2bdcf220a49",
+  "layouts": {
+    "default": "layouts/default.json",
+    "checkout": "layouts/checkout.json"
+  },
+  "preview": {
+    "desktop": "preview/preview.png",
+    "tablet": "preview/preview-tablet.png",
+    "mobile": "preview/preview-mobile.png"
+  },
+  "languages": [
+    "en",
+    "zh",
+    "hi",
+    "fr",
+    "ar",
+    "es",
+    "de",
+    "ru",
+    "ja"
+  ],
+  "defaultLanguage": "en",
+  "metadata": {
+    "license": "theme_content.lymin-tech-mart.865ba2747ef4",
+    "rtl": true,
+    "darkMode": true,
+    "accessibility": "theme_content.lymin-tech-mart.eea6caeb87ce",
+    "enterpriseReference": "1.0.0"
+  },
+  "locales": {
+    "en": "locales/en.json",
+    "zh": "locales/zh.json",
+    "hi": "locales/hi.json",
+    "fr": "locales/fr.json",
+    "ar": "locales/ar.json",
+    "es": "locales/es.json",
+    "de": "locales/de.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json"
+  }
+}

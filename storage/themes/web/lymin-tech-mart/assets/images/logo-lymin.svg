@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="66" viewBox="0 0 148 66" role="img" aria-label="Lymin logo">
+  <path d="M28 8c11 0 18 8 18 19v4h-8v-4c0-6-4-11-10-11s-10 5-10 11v25h32" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <text x="22" y="47" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-style="italic" font-weight="700">Lymin</text>
+  <path d="M18 53h86" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</svg>

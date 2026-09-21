@@ -1,0 +1,11 @@
+{
+  "variants": [
+    "default"
+  ],
+  "defaultVariant": "default",
+  "settings": {
+    "items": "array",
+    "autoPlay": "boolean",
+    "aspectRatio": "string"
+  }
+}

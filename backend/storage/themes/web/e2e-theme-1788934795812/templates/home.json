@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "id": "header", "settings": {} },
+    { "id": "hero", "settings": {} },
+    { "id": "hero-banner", "settings": {} },
+    { "id": "category-grid", "settings": {} },
+    { "id": "product-grid", "settings": {} },
+    { "id": "promo-banner", "settings": {} },
+    { "id": "footer", "settings": {} }
+  ]
+}

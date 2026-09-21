@@ -1,0 +1,69 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "eGadget",
+        "industryName": "Appliances",
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart"
+        ]
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/category-cooking.svg",
+          "assets/images/category-refrigeration.svg",
+          "assets/images/category-laundry.svg",
+          "assets/images/category-smart.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.8f58c9155d3b",
+        "subtitle": "theme_content.egadget-shop-web.64659c8b6aa8"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-fridge.svg",
+          "assets/images/product-microwave.svg",
+          "assets/images/product-oven.svg"
+        ],
+        "title": "theme_content.egadget-shop-web.80e5046ddd39",
+        "subtitle": "theme_content.egadget-shop-web.7583d8cbbd99"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Cooking",
+              "Refrigeration",
+              "Laundry"
+            ],
+            "heading": "theme_content.egadget-shop-web.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Orders",
+              "Cart"
+            ],
+            "heading": "theme_content.egadget-shop-web.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

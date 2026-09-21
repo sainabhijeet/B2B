@@ -1,0 +1,16 @@
+{
+  "name": "image",
+  "label": "Image",
+  "settings": [
+    {
+      "id": "src",
+      "type": "image",
+      "label": "Image"
+    },
+    {
+      "id": "alt",
+      "type": "text",
+      "label": "Alt text"
+    }
+  ]
+}

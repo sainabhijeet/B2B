@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "footer-columns",
+  "title": "Footer Columns",
+  "type": "object",
+  "properties": { "logoText": { "type": "string" }, "tagline": { "type": "string" }, "showNewsletter": { "type": "boolean" }, "columns": { "type": "array", "items": { "type": "object" } }, "socialLinks": { "type": "array", "items": { "type": "object" } }, "copyright": { "type": "string" }, "showPaymentIcons": { "type": "boolean" } },
+  "additionalProperties": true
+}

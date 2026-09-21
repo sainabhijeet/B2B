@@ -1,0 +1,1 @@
+{"type":"price","editable":true,"settingsSchema":{"source":{"type":"price"},"label":{"type":"text","translation":true}},"defaultSettings":{"source":"catalog.price","label":"product.price"}}

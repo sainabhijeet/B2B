@@ -1,0 +1,82 @@
+{
+  "sections": [
+    {
+      "id": "shell",
+      "type": "app-shell",
+      "settings": {}
+    },
+    {
+      "id": "header",
+      "type": "mobile-header",
+      "settings": {
+        "showBack": false,
+        "showLogo": true,
+        "showCart": true,
+        "showNotification": true,
+        "searchPlaceholder": "localizationTest.search.placeholder"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-carousel",
+      "settings": {
+        "autoPlay": true,
+        "aspectRatio": "16:7",
+        "items": [
+          {
+            "title": "localizationTest.hero.title",
+            "subtitle": "localizationTest.hero.description",
+            "primaryCta": "localizationTest.hero.shopNow"
+          }
+        ]
+      }
+    },
+    {
+      "id": "categories",
+      "type": "horizontal-categories",
+      "settings": {
+        "title": "localizationTest.categories.title",
+        "scrollable": true,
+        "items": [
+          {
+            "title": "localizationTest.categories.procurement.title"
+          },
+          {
+            "title": "localizationTest.categories.lifestyle.title"
+          },
+          {
+            "title": "localizationTest.categories.technology.title"
+          }
+        ]
+      }
+    },
+    {
+      "id": "featured",
+      "type": "mobile-product-grid",
+      "settings": {
+        "title": "localizationTest.products.title",
+        "subtitle": "localizationTest.products.description",
+        "columns": 2,
+        "items": [
+          {
+            "title": "localizationTest.products.workstation.title",
+            "price": "localizationTest.products.workstation.price"
+          },
+          {
+            "title": "localizationTest.products.safetyKit.title",
+            "price": "localizationTest.products.safetyKit.price"
+          },
+          {
+            "title": "localizationTest.products.smartPack.title",
+            "price": "localizationTest.products.smartPack.price"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bottom-nav",
+      "type": "mobile-bottom-nav",
+      "settings": {}
+    }
+  ]
+}

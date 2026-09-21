@@ -1,0 +1,9 @@
+{
+  "layout": "b2b-cart",
+  "sections": [
+    "cart-items",
+    "moq-validation",
+    "price-summary",
+    "checkout-cta"
+  ]
+}

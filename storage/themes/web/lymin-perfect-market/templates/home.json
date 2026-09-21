@@ -1,0 +1,121 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Lymin",
+        "logoImageUrl": "assets/images/logo-lymin.svg",
+        "nav": [
+          "All",
+          "Grocery",
+          "Fashion",
+          "Electronics",
+          "theme_content.lymin-perfect-market.37dfb4f5f3e4",
+          "Beauty",
+          "Furniture",
+          "Mobiles",
+          "Gifts",
+          "Sports",
+          "Kitchen",
+          "Health",
+          "Automotive"
+        ],
+        "industryName": "theme_content.lymin-perfect-market.94b30f4fe359"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "image": "assets/images/hero-tech-festive.svg",
+        "eyebrow": "theme_content.lymin-perfect-market.9617331a054d",
+        "title": "theme_content.lymin-perfect-market.de75d6bc997c",
+        "subtitle": "theme_content.lymin-perfect-market.ab2507b8dd90"
+      }
+    },
+    {
+      "id": "spotlight",
+      "type": "category-grid",
+      "settings": {
+        "images": [
+          "assets/images/spotlight-computers.svg",
+          "assets/images/spotlight-appliances.svg",
+          "assets/images/spotlight-decor.svg",
+          "assets/images/spotlight-sale.svg",
+          "assets/images/spotlight-toys.svg",
+          "assets/images/spotlight-care.svg",
+          "assets/images/spotlight-health.svg"
+        ],
+        "title": "theme_content.lymin-perfect-market.1cc8c4321e96",
+        "subtitle": "theme_content.lymin-perfect-market.0b16e3a5c132"
+      }
+    },
+    {
+      "id": "popular",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-grocery.svg",
+          "assets/images/product-dental.svg",
+          "assets/images/product-diapers.svg",
+          "assets/images/product-kitchen.svg",
+          "assets/images/product-cleaning.svg",
+          "assets/images/product-personal-care.svg",
+          "assets/images/product-snacks.svg",
+          "assets/images/product-home.svg"
+        ],
+        "title": "theme_content.lymin-perfect-market.9942bf5b8445",
+        "subtitle": "theme_content.lymin-perfect-market.ac9786a31d6d"
+      }
+    },
+    {
+      "id": "electronics",
+      "type": "product-grid",
+      "settings": {
+        "images": [
+          "assets/images/product-phone.svg",
+          "assets/images/product-laptop.svg",
+          "assets/images/product-watch.svg",
+          "assets/images/product-headphones.svg"
+        ],
+        "title": "theme_content.lymin-perfect-market.61d55533fe6a",
+        "subtitle": "theme_content.lymin-perfect-market.8275b40ba6b6"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "All",
+              "Grocery",
+              "Electronics",
+              "Home"
+            ],
+            "heading": "theme_content.lymin-perfect-market.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Delivery",
+              "Payments",
+              "Returns"
+            ],
+            "heading": "theme_content.lymin-perfect-market.be91940b79f4"
+          },
+          {
+            "links": [
+              "theme_content.lymin-perfect-market.bfd402b2f6f3",
+              "Cart",
+              "Orders"
+            ],
+            "heading": "theme_content.lymin-perfect-market.7e1b0d5641f2"
+          }
+        ]
+      }
+    }
+  ]
+}

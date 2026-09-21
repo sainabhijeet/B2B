@@ -1,0 +1,97 @@
+{
+  "name": "localizationTest.theme.name",
+  "version": "1.0.0",
+  "storefrontKey": "localization-e2e-test",
+  "industry": "localizationTest.theme.industry",
+  "description": "localizationTest.theme.description",
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "category-grid",
+    "product-grid",
+    "icon-list",
+    "image-with-text",
+    "cta-banner",
+    "newsletter",
+    "footer",
+    "rich-text",
+    "product-detail",
+    "cart-summary",
+    "checkout-summary",
+    "account-dashboard",
+    "search-results"
+  ],
+  "capabilities": {
+    "variants": {
+      "hero-banner": ["default"],
+      "footer": ["columns"]
+    },
+    "dragAndDrop": true,
+    "dynamicSettings": true,
+    "rtl": true,
+    "darkMode": false
+  },
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "cart": "templates/cart.json",
+    "checkout": "templates/checkout.json",
+    "account": "templates/account.json",
+    "search": "templates/search.json",
+    "wishlist": "templates/wishlist.json",
+    "about": "templates/about.json",
+    "contact": "templates/contact.json"
+  },
+  "locales": {
+    "en": "locales/en.json",
+    "hi": "locales/hi.json",
+    "ar": "locales/ar.json",
+    "zh": "locales/zh.json",
+    "fr": "locales/fr.json",
+    "de": "locales/de.json",
+    "es": "locales/es.json",
+    "ru": "locales/ru.json",
+    "ja": "locales/ja.json",
+    "gu": "locales/gu.json",
+    "ur": "locales/ur.json"
+  },
+  "components": {
+    "header": "components/header.json",
+    "hero-banner": "components/hero-banner.json",
+    "category-grid": "components/category-grid.json",
+    "product-grid": "components/product-grid.json",
+    "icon-list": "components/icon-list.json",
+    "image-with-text": "components/image-with-text.json",
+    "newsletter": "components/newsletter.json",
+    "footer": "components/footer.json",
+    "rich-text": "components/rich-text.json",
+    "cart-summary": "components/cart-summary.json",
+    "checkout-summary": "components/checkout-summary.json",
+    "account-dashboard": "components/account-dashboard.json",
+    "search-results": "components/search-results.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css"
+  },
+  "preview": {
+    "desktop": "preview/preview.svg",
+    "tablet": "preview/preview.svg",
+    "mobile": "preview/preview.svg",
+    "rtl": true
+  },
+  "metadata": {
+    "author": "Enterprise Theme Platform",
+    "license": "Internal testing theme",
+    "engine": "enterprise-theme-engine",
+    "engineVersion": ">=1.0.0",
+    "localization": {
+      "sourceLanguage": "en",
+      "supportedLanguages": ["en", "hi", "ar", "zh", "fr", "de", "es", "ru", "ja", "gu", "ur"],
+      "namespace": "localizationTest"
+    },
+    "rtl": true,
+    "accessibility": "WCAG 2.2 AA target",
+    "purpose": "End-to-end enterprise localization verification"
+  }
+}

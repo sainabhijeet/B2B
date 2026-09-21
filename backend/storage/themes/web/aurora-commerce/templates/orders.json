@@ -1,0 +1,1 @@
+{"layout":"account","sections":[{"id":"header","type":"header"},{"id":"orders","type":"product-tabs","settings":{"title":"orders.title"}},{"id":"footer","type":"footer"}]}

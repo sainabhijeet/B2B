@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="Oak display unit">
+  <rect width="900" height="620" fill="#f6f3ea"/>
+  <circle cx="760" cy="120" r="130" fill="#88a390" opacity=".18"/>
+  <circle cx="104" cy="510" r="145" fill="#d6b27c" opacity=".18"/>
+  <g transform="translate(130 46)">
+    <rect x="38" y="38" width="570" height="500" rx="46" fill="#ffffff" opacity=".74"/>
+    <rect x="76" y="84" width="494" height="408" rx="34" fill="#ffffff" opacity=".52"/>
+    <rect x='158' y='126' width='330' height='330' rx='28' fill='#88a390'/><path d='M158 220 H488 M158 318 H488 M268 126 V456 M380 126 V456' stroke='#ffffff' stroke-width='18' opacity='.58'/><rect x='188' y='158' width='54' height='40' rx='10' fill='#d6b27c'/><rect x='298' y='350' width='52' height='70' rx='12' fill='#111827' opacity='.22'/><circle cx='434' cy='270' r='26' fill='#d6b27c'/>
+  </g>
+  <text x="62" y="78" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#111827">Oak display unit</text>
+  <text x="64" y="122" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Fast moving furniture line</text>
+</svg>

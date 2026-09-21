@@ -1,0 +1,104 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Catalog",
+          "Cart",
+          "Login"
+        ],
+        "logoText": "theme_content.kids-room-furniture.388998785a4f"
+      }
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.kids-room-furniture.06b7aa5d7c3f"
+      }
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "subtitle": "theme_content.kids-room-furniture.fb9aaaafd750",
+        "title": "theme_content.kids-room-furniture.3ac59ee9f4b5"
+      }
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "imagePosition": "left",
+        "image": "assets/images/detail.svg",
+        "title": "theme_content.kids-room-furniture.eccd2991597c",
+        "body": "theme_content.kids-room-furniture.87ea7bba5e03"
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "images": [
+          "assets/images/product-01.svg",
+          "assets/images/product-02.svg",
+          "assets/images/product-03.svg",
+          "assets/images/detail.svg"
+        ],
+        "title": "theme_content.kids-room-furniture.1f1ce0c8dbda",
+        "subtitle": "theme_content.kids-room-furniture.393114ab1227"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "items": [
+          {
+            "question": "theme_content.kids-room-furniture.ca29f9754ff0",
+            "answer": "theme_content.kids-room-furniture.21234271cd0e"
+          },
+          {
+            "question": "theme_content.kids-room-furniture.09e169f4306f",
+            "answer": "theme_content.kids-room-furniture.1b604f1f22aa"
+          }
+        ],
+        "title": "theme_content.kids-room-furniture.7071169bbb43"
+      }
+    },
+    {
+      "variant": "columns",
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Details",
+              "Related",
+              "Cart"
+            ],
+            "heading": "theme_content.kids-room-furniture.fb9ef894175c"
+          },
+          {
+            "links": [
+              "Warranty",
+              "Shipping",
+              "Contact"
+            ],
+            "heading": "theme_content.kids-room-furniture.be91940b79f4"
+          }
+        ]
+      }
+    }
+  ]
+}

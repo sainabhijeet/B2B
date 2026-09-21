@@ -1,0 +1,11 @@
+{
+  "name": "Home",
+  "route": "/",
+  "sections": [
+    { "type": "hero-slider", "source": "src/pages/Home.vue", "settings": { "slides": 2, "autoplay": true } },
+    { "type": "category-grid", "source": "src/utils/catalog.js", "settings": { "columns": 4 } },
+    { "type": "featured-products", "source": "src/components/ProductGrid.vue", "settings": { "limit": 4 } },
+    { "type": "flash-sale", "source": "src/pages/Home.vue", "settings": { "discountLabel": "up to 35% off" } },
+    { "type": "new-arrivals", "source": "src/components/ProductGrid.vue", "settings": { "limit": 4 } }
+  ]
+}

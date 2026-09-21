@@ -1,0 +1,10 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Categories", "nav": ["Home", "Categories", "Cart", "Account"], "showSearch": true, "showCart": true } },
+    { "id": "category-hero", "type": "hero-banner", "settings": { "eyebrow": "Category", "title": "Shop by category", "subtitle": "Use filters, sorting, grid, and list layouts for faster product discovery.", "image": "assets/images/hero-sale.svg" } },
+    { "id": "category-filters", "type": "filter-sidebar", "settings": { "title": "Filters", "filters": ["Price", "Brand", "Rating", "Availability", "Discount"] } },
+    { "id": "category-products", "type": "product-grid", "settings": { "title": "Products found", "description": "Responsive product listing with pagination and empty-state support.", "limit": 24, "images": ["assets/images/product-dress.svg", "assets/images/product-bag.svg", "assets/images/product-shirt.svg", "assets/images/product-serum.svg", "assets/images/product-lamp.svg", "assets/images/product-ceramic.svg"] } },
+    { "id": "category-empty", "type": "rich-text", "settings": { "eyebrow": "Empty state", "title": "No products match these filters", "content": "Try another keyword or remove a few filters." } },
+    { "id": "site-footer", "type": "footer-columns", "settings": { "logoText": "LumaCart", "columns": [{ "title": "Support", "links": [{ "label": "Delivery", "url": "/support" }, { "label": "Returns", "url": "/support" }] }] } }
+  ]
+}

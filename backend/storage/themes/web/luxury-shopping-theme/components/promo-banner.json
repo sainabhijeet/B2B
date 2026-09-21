@@ -1,0 +1,9 @@
+{
+  "name": "promo-banner",
+  "label": "Promo Banner",
+  "category": "marketing",
+  "variants": ["dark", "accent", "split", "minimal", "seasonal"],
+  "defaultVariant": "accent",
+  "settings": { "eyebrow": "string", "title": "string", "description": "string", "ctaLabel": "string", "ctaUrl": "string", "theme": "string", "image": "image", "dismissible": "boolean", "content": "object" },
+  "presets": [{ "id": "dark", "label": "Dark", "variant": "dark" }, { "id": "accent", "label": "Accent", "variant": "accent" }, { "id": "split", "label": "Split", "variant": "split" }, { "id": "minimal", "label": "Minimal", "variant": "minimal" }, { "id": "seasonal", "label": "Seasonal", "variant": "seasonal" }]
+}

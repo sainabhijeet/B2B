@@ -1,0 +1,7 @@
+{
+  "name": "Compare",
+  "route": "/compare",
+  "sections": [
+    { "type": "compare-table", "source": "src/pages/Compare.vue" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sections": [
+    { "id": "header", "type": "header", "settings": { "logoText": "Lymin", "logoImageUrl": "assets/images/logo-lymin.svg", "industryName": "DELIVER TO : Choose Location", "nav": ["All", "Grocery", "Fashion", "Electronics", "Home", "Health"] } },
+    { "id": "category-hero", "type": "hero-banner", "settings": { "eyebrow": "Fast discovery", "title": "Shop by category", "subtitle": "Find marketplace categories quickly with compact visual tiles.", "image": "assets/images/category-hero.svg" } },
+    { "id": "categories", "type": "category-grid", "settings": { "title": "Browse categories", "subtitle": "Quick paths for everyday shopping.", "images": ["assets/images/spotlight-computers.svg", "assets/images/spotlight-appliances.svg", "assets/images/spotlight-decor.svg", "assets/images/spotlight-care.svg"] } },
+    { "id": "products", "type": "product-grid", "settings": { "title": "Category products", "subtitle": "Live tenant products render here.", "images": ["assets/images/product-phone.svg", "assets/images/product-laptop.svg", "assets/images/product-cleaning.svg"] } },
+    { "id": "footer", "type": "footer", "variant": "columns", "settings": { "columns": [{ "heading": "Shop", "links": ["Electronics", "Grocery", "Home"] }, { "heading": "Help", "links": ["Delivery", "Returns"] }] } }
+  ]
+}

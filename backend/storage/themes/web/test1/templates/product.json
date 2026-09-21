@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ZALES",
+        "nav": ["Discover", "Community", "Special Deals", "About us"]
+      }
+    },
+    {
+      "id": "pdp",
+      "type": "product-detail",
+      "settings": {
+        "title": "Gold Woven Chain Bracelet In Black",
+        "price": "$549.29",
+        "description": "Woven gold links with black cord and sculpted clasp. Available sizes S, M, L.",
+        "gallery": [
+          "assets/images/product-bracelet.png",
+          "assets/images/product-bracelet.png"
+        ]
+      }
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "heading": "Shop",
+            "links": ["Rings", "Necklaces", "Bracelets", "Watches"]
+          },
+          {
+            "heading": "Support",
+            "links": ["Shipping", "Returns", "Contact"]
+          },
+          {
+            "heading": "Company",
+            "links": ["About", "Careers", "Privacy", "Terms"]
+          }
+        ]
+      }
+    }
+  ]
+}

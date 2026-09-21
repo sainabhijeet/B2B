@@ -1,0 +1,74 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "nav": [
+          "Home",
+          "Categories",
+          "Catalog",
+          "Cart",
+          "Orders",
+          "theme_content.classic-b2b.c189840cf7e2"
+        ],
+        "logoText": "theme_content.classic-b2b.507cb6baf1b0"
+      }
+    },
+    {
+      "id": "cat-hero",
+      "type": "category-banner",
+      "settings": {
+        "image": "assets/images/category-strip.svg",
+        "title": "theme_content.classic-b2b.21683adc6565",
+        "subtitle": "theme_content.classic-b2b.d0567cf5ba7d"
+      }
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "theme_content.classic-b2b.5e04367c1462"
+      }
+    },
+    {
+      "id": "grid",
+      "type": "product-grid",
+      "settings": {
+        "title": "theme_content.classic-b2b.a47bce481a60",
+        "subtitle": "theme_content.classic-b2b.09ee2db9a846"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "footer-columns",
+      "settings": {
+        "columns": [
+          {
+            "links": [
+              "Catalog",
+              "Categories",
+              "Cart"
+            ],
+            "heading": "theme_content.classic-b2b.d00aae6b7fbf"
+          },
+          {
+            "links": [
+              "Orders",
+              "theme_content.classic-b2b.c189840cf7e2"
+            ],
+            "heading": "theme_content.classic-b2b.7e1b0d5641f2"
+          },
+          {
+            "links": [
+              "Terms",
+              "Privacy",
+              "GST"
+            ],
+            "heading": "theme_content.classic-b2b.4787eaf7c938"
+          }
+        ]
+      }
+    }
+  ]
+}

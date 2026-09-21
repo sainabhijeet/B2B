@@ -1,0 +1,6 @@
+{
+  "sections": [
+    { "id": "site-header", "type": "header", "settings": { "logoText": "LumaCart", "industryName": "Notifications", "nav": ["Orders", "Offers", "Promotions", "System"] } },
+    { "id": "notifications", "type": "rich-text", "settings": { "title": "Notification center", "content": "Order updates, offers, promotions, and system notifications with empty-state support." } }
+  ]
+}
