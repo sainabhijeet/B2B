@@ -69,8 +69,9 @@ export default function OrderPaymentSubmission(props: Props) {
   }
 
   return (
-    <section className="mt-8 border-t border-slate-200 pt-6">
-      <h2 className="text-base font-semibold text-slate-900">{t("Submit payment")}</h2>
+    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+      <h2 className="text-lg font-bold text-slate-950">{t("Submit payment")}</h2>
+      <p className="mt-1 text-sm text-slate-500">{t("Upload the transaction reference and payment proof for verification.")}</p>
       {props.upiUri ? (
         <div className="mt-4 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
           <canvas ref={canvas} className="h-[200px] w-[200px] bg-white" aria-label={t("UPI QR code")} />

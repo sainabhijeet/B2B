@@ -1,10 +1,11 @@
 import { BadRequestException, ForbiddenException, Injectable } from '@nestjs/common';
-import { IsNull } from 'typeorm';
+import { In, IsNull } from 'typeorm';
 import { CartItem } from '../../common/entities/cart-item.entity';
 import { Cart } from '../../common/entities/cart.entity';
 import { Inventory } from '../../common/entities/inventory.entity';
 import { ProductVariant } from '../../common/entities/product-variant.entity';
 import { Product } from '../../common/entities/product.entity';
+import { ProductImage } from '../../common/entities/product-image.entity';
 import { JwtUserPayload } from '../../common/types/authenticated-request.type';
 import { effectiveGstPercent } from '../../common/utils/tax-resolution.util';
 import { TenantSchemaRunner } from '../../tenancy/tenant-schema-runner.service';
@@ -24,7 +25,24 @@ export class CartService {
         relations: { product: true, variant: true },
         order: { createdAt: 'ASC' },
       });
-      return { success: true, data: { cart, items }, meta: {}, message: '' };
+      const productIds = [...new Set(items.map((item) => item.productId))];
+      const imageRows = productIds.length
+        ? await m.getRepository(ProductImage).find({
+            where: { productId: In(productIds) },
+            order: { isThumbnail: 'DESC', position: 'ASC' },
+          })
+        : [];
+      const thumbnails = new Map<string, string>();
+      for (const image of imageRows) {
+        if (!thumbnails.has(image.productId)) thumbnails.set(image.productId, image.imageUrl);
+      }
+      const displayItems = items.map((item) => ({
+        ...item,
+        product: item.product
+          ? { ...item.product, thumbnailUrl: thumbnails.get(item.productId) ?? null }
+          : null,
+      }));
+      return { success: true, data: { cart, items: displayItems }, meta: {}, message: '' };
     });
   }
 

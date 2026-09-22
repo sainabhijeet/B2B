@@ -30,7 +30,7 @@ export default async function ProductCarousel({ themeKey, title, image, limit, c
       <div className="mt-6 flex gap-4 overflow-x-auto pb-2">
         {slice.map((p) => (
           <div key={p.slug} className="w-64 shrink-0">
-            <ProductCard slug={p.slug} name={p.name} price={p.price} currency={p.currency} image={p.image ?? image} languageCode={languageCode} />
+            <ProductCard id={p.id} slug={p.slug} name={p.name} price={p.price} currency={p.currency} image={p.image ?? image} languageCode={languageCode} />
           </div>
         ))}
       </div>

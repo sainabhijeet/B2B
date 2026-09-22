@@ -66,6 +66,7 @@ export default async function CategoryGrid({
               name={t(c.name)}
               description={t(c.description)}
               image={
+                c.imageUrl ||
                 configuredImages[index] ||
                 (cardImages.length ? cardImages[index % cardImages.length] : undefined) ||
                 cardImage

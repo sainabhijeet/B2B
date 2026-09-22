@@ -13,6 +13,7 @@ import { Category } from '../../common/entities/category.entity';
 import { Product } from '../../common/entities/product.entity';
 import { ProductVariant } from '../../common/entities/product-variant.entity';
 import { ProductImage } from '../../common/entities/product-image.entity';
+import { QuantityPrice } from '../../common/entities/quantity-price.entity';
 import { Inventory } from '../../common/entities/inventory.entity';
 import type {
   StorefrontProductQueryDto,
@@ -613,6 +614,12 @@ export class StorefrontProductsService {
         where: { productId: product.id },
         order: { position: 'ASC' },
       });
+      const quantityPrices = variants.length
+        ? await m.getRepository(QuantityPrice).find({
+            where: { productVariantId: In(variants.map((variant) => variant.id)) },
+            order: { minQty: 'ASC' },
+          })
+        : [];
       const variantRows = [];
       for (const v of variants) {
         const r = await this.variantPricing.resolveForVariant(v.id, {
@@ -631,23 +638,35 @@ export class StorefrontProductsService {
                 id: v.id,
                 sku: v.variantSku,
                 attributesJson,
+                moq: v.moq,
+                gstRate: v.gstRate ?? product.taxRate,
                 listPrice: null,
                 mrp: null,
                 price: null,
                 priceBaseSource: null,
                 quantityTierApplied: null,
                 stockQuantity: availableStockByVariant.get(v.id) ?? 0,
+                priceSlabs: [],
               }
             : {
                 id: v.id,
                 sku: v.variantSku,
                 attributesJson,
+                moq: v.moq,
+                gstRate: v.gstRate ?? product.taxRate,
                 listPrice: v.price,
                 mrp: r.mrp,
                 price: r.unitPrice,
                 priceBaseSource: r.baseSource,
                 quantityTierApplied: r.quantityTierApplied,
                 stockQuantity: availableStockByVariant.get(v.id) ?? 0,
+                priceSlabs: quantityPrices
+                  .filter((tier) => tier.productVariantId === v.id)
+                  .map((tier) => ({
+                    minQty: tier.minQty,
+                    price: tier.price,
+                    label: `${tier.minQty}+ units`,
+                  })),
               },
         );
       }
@@ -702,6 +721,30 @@ export class StorefrontProductsService {
                 )
               : product.brand,
             categorySlug: product.category?.slug ?? null,
+            categoryName: product.category
+              ? await this.translations.translateRuntimeText(
+                  tenantId,
+                  opts?.languageCode,
+                  product.category.name,
+                  [
+                    this.translations.entityKey(
+                      'category',
+                      product.category.slug,
+                      'name',
+                    ),
+                    this.translations.entityKey(
+                      'category',
+                      product.category.id,
+                      'name',
+                    ),
+                  ],
+                )
+              : null,
+            hsnCode: product.hsnCode,
+            barcode: product.barcode,
+            weight: product.weight,
+            dimensions: product.dimensions,
+            tags: product.tags ?? [],
             translationKeys: {
               name: productNameKey,
               description: productDescriptionKey,

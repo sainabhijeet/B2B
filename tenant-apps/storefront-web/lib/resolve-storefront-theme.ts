@@ -1,4 +1,4 @@
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { apiBaseUrl, backendOriginFromApiUrl } from "@/lib/api-origin";
 import type { ThemeKey } from "@/lib/theme-config";
 import { STOREFRONT_THEME_FALLBACK } from "@/lib/theme-config";
@@ -6,6 +6,8 @@ import { normalizeStorefrontThemeKey } from "@/lib/storefront-theme-keys";
 import { resolveActiveLanguage } from "@/lib/language-consistency";
 import type { TenantContentOverrides } from "@/engine/tenant-overrides";
 import type { ThemePreviewState } from "@/lib/theme-preview-contract";
+import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
+import { tenantIdFromCustomerToken } from "@/lib/customer-token-tenant";
 
 export type StorefrontBrandingPayload = {
   logoUrl: string | null;
@@ -116,14 +118,20 @@ export async function resolveStorefrontTheme(
 
   const base = apiBaseUrl();
 
-  const h = await headers();
+  const [h, cookieStore] = await Promise.all([headers(), cookies()]);
   /** Prefer forwarded host (proxies); else Host — sent as `X-Storefront-Host` so API resolves `{subdomain}.localhost` → tenant. */
   const browserHost =
     h.get("x-forwarded-host") ?? h.get("x-vercel-forwarded-host") ?? h.get("host") ?? "";
-  const previewTenantId =
-    options.tenantId?.trim() || h.get("x-storefront-tenant-id")?.trim();
+  const tenantIdCandidate =
+    options.tenantId?.trim() || h.get("x-storefront-tenant-id")?.trim() || cookieStore.get("storefront_tenant_id")?.value.trim();
+  const selectedTenantId = tenantIdCandidate && /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(tenantIdCandidate)
+    ? tenantIdCandidate
+    : null;
   const previewTenantSlug =
-    options.tenantSlug?.trim() || h.get("x-storefront-tenant")?.trim();
+    options.tenantSlug?.trim() || h.get("x-storefront-tenant")?.trim() || cookieStore.get("storefront_tenant")?.value.trim();
+  const previewTenantId = selectedTenantId || (!previewTenantSlug
+    ? tenantIdFromCustomerToken(cookieStore.get(CUSTOMER_ACCESS_COOKIE)?.value)
+    : null);
   const storefrontHost = previewTenantSlug ? `${previewTenantSlug}.localhost` : browserHost;
 
   try {
@@ -159,7 +167,12 @@ export async function resolveStorefrontTheme(
     const tokenOverrides = previewEnabled
       ? { ...(data?.tokenOverrides ?? {}), ...(options.previewTokenOverrides ?? {}), ...(options.previewState?.tokenOverrides ?? {}) }
       : data?.tokenOverrides ?? null;
-    const branding = data?.branding ?? null;
+    const branding = data?.branding
+      ? {
+          ...data.branding,
+          logoUrl: publicAssetUrl(data.branding.logoUrl),
+        }
+      : null;
     const selectedLanguageCode = previewEnabled && requestedPreviewLanguage
       ? fallbackLanguage
       : typeof data?.selectedLanguageCode === "string" && data.selectedLanguageCode.trim()

@@ -3,7 +3,6 @@
 import { FormEvent, useCallback, useEffect, useId, useState } from 'react';
 import StorefrontLocaleFrame from '@/components/StorefrontLocaleFrame';
 import { translate } from '@/lib/translation-engine';
-import Header from '@/sections/Header';
 
 export default function ContactPage() {
   const [languageCode, setLanguageCode] = useState('en');
@@ -82,12 +81,6 @@ export default function ContactPage() {
       className="theme-storefront"
     >
       <div className="min-h-screen bg-slate-50">
-        <Header
-          logoText="MarketPro"
-          industryName={t('Contact')}
-          nav={['Home', 'Categories', 'Products', 'Blog', 'FAQ']}
-          languageCode={languageCode}
-        />
         <main className="mx-auto grid max-w-6xl gap-6 px-4 py-10 md:grid-cols-[0.9fr_1.1fr]">
           <section>
             <h1 className="text-3xl font-bold text-slate-950">

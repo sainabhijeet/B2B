@@ -1,19 +1,24 @@
 import { randomUUID } from 'crypto';
 import {
+  BadRequestException,
   Body,
   Controller,
   Delete,
   Get,
+  NotFoundException,
   Param,
   Post,
   UseGuards,
 } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { In, IsNull, Repository } from 'typeorm';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { Roles } from '../../common/decorators/roles.decorator';
 import { SystemConfig } from '../../common/entities/system-config.entity';
+import { Product } from '../../common/entities/product.entity';
+import { ProductImage } from '../../common/entities/product-image.entity';
+import { TenantSchemaRunner } from '../../tenancy/tenant-schema-runner.service';
 import { UserRole } from '../../common/enums/user-role.enum';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 import { RolesGuard } from '../../common/guards/roles.guard';
@@ -22,6 +27,8 @@ import { JwtUserPayload } from '../../common/types/authenticated-request.type';
 
 type WishlistState = { productIds: string[] };
 type RfqState = { rows: Record<string, unknown>[] };
+const UUID_PATTERN =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 @Controller()
 @UseGuards(JwtAuthGuard, RolesGuard, TenantAccessGuard)
@@ -31,13 +38,68 @@ export class MobileCommerceController {
   constructor(
     @InjectRepository(SystemConfig)
     private readonly configRepo: Repository<SystemConfig>,
+    private readonly tenantRunner: TenantSchemaRunner,
   ) {}
 
   @Get('wishlist')
   @Roles(UserRole.CUSTOMER, UserRole.OWNER, UserRole.MANAGER, UserRole.STAFF)
   async wishlist(@CurrentUser() user: JwtUserPayload) {
     const state = await this.readWishlist(user);
-    return { success: true, data: state, meta: {}, message: '' };
+    const tenantId = user.tenantId;
+    const validProductIds = state.productIds.filter((id) =>
+      UUID_PATTERN.test(id),
+    );
+    if (!tenantId || validProductIds.length === 0) {
+      return {
+        success: true,
+        data: { ...state, items: [] },
+        meta: {},
+        message: '',
+      };
+    }
+    const items = await this.tenantRunner.withTenantCatalog(
+      tenantId,
+      async (manager) => {
+        const products = await manager.getRepository(Product).find({
+          where: {
+            id: In(validProductIds),
+            tenantId,
+            deletedAt: IsNull(),
+            status: 'active',
+          },
+          select: ['id', 'name', 'slug', 'sku', 'brand'],
+        });
+        const productIds = products.map((product) => product.id);
+        if (!productIds.length) return [];
+        const images = await manager.getRepository(ProductImage).find({
+          where: { productId: In(productIds) },
+          order: { isThumbnail: 'DESC', position: 'ASC' },
+        });
+        const imagesByProduct = new Map<string, string>();
+        for (const image of images) {
+          if (!imagesByProduct.has(image.productId)) {
+            imagesByProduct.set(image.productId, image.imageUrl);
+          }
+        }
+        const byId = new Map(products.map((product) => [product.id, product]));
+        return state.productIds.flatMap((id) => {
+          const product = byId.get(id);
+          return product
+            ? [
+                {
+                  id: product.id,
+                  name: product.name,
+                  slug: product.slug,
+                  sku: product.sku,
+                  brand: product.brand,
+                  thumbnailUrl: imagesByProduct.get(id) ?? null,
+                },
+              ]
+            : [];
+        });
+      },
+    );
+    return { success: true, data: { ...state, items }, meta: {}, message: '' };
   }
 
   @Post('wishlist/items')
@@ -47,8 +109,28 @@ export class MobileCommerceController {
     @Body() dto: { productId?: string },
   ) {
     const productId = (dto.productId ?? '').trim();
+    const tenantId = user.tenantId;
+    if (!UUID_PATTERN.test(productId) || !tenantId) {
+      throw new BadRequestException(
+        'Valid product ID and tenant are required.',
+      );
+    }
+    const exists = await this.tenantRunner.withTenantCatalog(
+      tenantId,
+      (manager) =>
+        manager.getRepository(Product).exists({
+          where: {
+            id: productId,
+            tenantId,
+            deletedAt: IsNull(),
+            status: 'active',
+          },
+        }),
+    );
+    if (!exists)
+      throw new NotFoundException('Product not found in this store.');
     const state = await this.readWishlist(user);
-    if (productId && !state.productIds.includes(productId)) {
+    if (!state.productIds.includes(productId)) {
       state.productIds = [productId, ...state.productIds];
       await this.saveWishlist(user, state);
     }

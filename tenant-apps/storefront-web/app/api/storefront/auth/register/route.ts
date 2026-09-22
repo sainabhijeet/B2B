@@ -1,8 +1,5 @@
 import { apiBaseUrl } from '@/lib/api-origin';
-
-function storefrontHostFrom(req: Request): string {
-  return req.headers.get('x-forwarded-host') ?? req.headers.get('host') ?? '';
-}
+import { storefrontTenantHeadersFromRequest } from '@/lib/storefront-request-context';
 
 export async function POST(req: Request) {
   const body = await req.json().catch(() => null);
@@ -10,12 +7,11 @@ export async function POST(req: Request) {
     return Response.json({ message: 'Invalid JSON body' }, { status: 400 });
   }
 
-  const host = storefrontHostFrom(req);
   const res = await fetch(`${apiBaseUrl()}/storefront/customer/register`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      ...(host ? { 'x-storefront-host': host } : {}),
+      ...storefrontTenantHeadersFromRequest(req),
     },
     body: JSON.stringify(body),
     cache: 'no-store',

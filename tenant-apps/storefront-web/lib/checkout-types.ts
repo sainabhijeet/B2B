@@ -31,3 +31,12 @@ export type PlaceOrderResponse = {
   data?: { order_id?: string; order_number?: string; total_amount?: string };
   message?: string | string[];
 };
+
+export type CheckoutPaymentMode = "CREDIT" | "RAZORPAY" | "UPI_QR" | "NEFT" | "CASH";
+
+export type BuyNowSelection = {
+  productId: string;
+  variantId: string;
+  quantity: number;
+  productSlug: string;
+};

@@ -1,3 +1,6 @@
+import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
+import { tenantIdFromCustomerToken } from "@/lib/customer-token-tenant";
+
 /**
  * Server-side calls to Nest must forward the browser host so `TenantMiddleware` resolves the tenant
  * (see backend `TenantResolver`: `X-Storefront-Host`).
@@ -38,13 +41,31 @@ export async function storefrontHostHeaderAsync(): Promise<Record<string, string
     return { "X-Storefront-Host": window.location.host };
   }
   try {
-    const { headers } = await import("next/headers");
-    const h = await headers();
-    const tenantId = h.get("x-storefront-tenant-id")?.trim();
-    if (tenantId) return { "X-Tenant-Id": tenantId };
+    const { cookies, headers } = await import("next/headers");
+    const [h, cookieStore] = await Promise.all([headers(), cookies()]);
+    const tenantId =
+      h.get("x-storefront-tenant-id")?.trim() ||
+      cookieStore.get("storefront_tenant_id")?.value.trim();
+    if (
+      tenantId &&
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(
+        tenantId,
+      )
+    ) {
+      return { "X-Tenant-Id": tenantId };
+    }
 
-    const tenantSlug = h.get("x-storefront-tenant")?.trim();
-    if (tenantSlug) return { "X-Storefront-Host": `${tenantSlug}.localhost` };
+    const tenantSlug = (
+      h.get("x-storefront-tenant")?.trim() ||
+      cookieStore.get("storefront_tenant")?.value.trim() ||
+      ""
+    ).toLowerCase();
+    if (/^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/u.test(tenantSlug)) {
+      return { "X-Storefront-Host": `${tenantSlug}.localhost` };
+    }
+
+    const sessionTenantId = tenantIdFromCustomerToken(cookieStore.get(CUSTOMER_ACCESS_COOKIE)?.value);
+    if (sessionTenantId) return { "X-Tenant-Id": sessionTenantId };
 
     const host =
       h.get("x-forwarded-host") ?? h.get("x-vercel-forwarded-host") ?? h.get("host") ?? "";

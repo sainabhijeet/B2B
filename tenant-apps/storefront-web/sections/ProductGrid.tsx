@@ -51,19 +51,26 @@ export default async function ProductGrid({
       <p className="mt-1 text-sm" style={{ color: "var(--theme-muted)" }}>
         {t(sub)}
       </p>
-      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {products.map((p, index) => (
-          <ProductCard
-            key={p.slug}
-            slug={p.slug}
-            name={t(p.name)}
-            price={p.price}
-            currency={p.currency}
-            image={p.image ?? cardImages[index % cardImages.length] ?? cardImage}
-            languageCode={languageCode}
-          />
-        ))}
-      </div>
+      {products.length > 0 ? (
+        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {products.map((p, index) => (
+            <ProductCard
+              key={p.slug}
+              id={p.id}
+              slug={p.slug}
+              name={t(p.name)}
+              price={p.price}
+              currency={p.currency}
+              image={p.image ?? cardImages[index % cardImages.length] ?? cardImage}
+              languageCode={languageCode}
+            />
+          ))}
+        </div>
+      ) : (
+        <p className="mt-8 rounded-xl border border-slate-200 bg-white px-5 py-8 text-sm text-slate-600">
+          {t("No products yet")}
+        </p>
+      )}
     </section>
   );
 }

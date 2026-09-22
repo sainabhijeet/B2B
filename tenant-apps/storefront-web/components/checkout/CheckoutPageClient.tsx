@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { CartApiEnvelope } from "@/lib/cart-types";
-import type { StorefrontAddress, StorefrontMeEnvelope } from "@/lib/checkout-types";
+import type { CartApiEnvelope, CartLineItem } from "@/lib/cart-types";
+import type { BuyNowSelection, CheckoutPaymentMode, StorefrontAddress, StorefrontMeEnvelope } from "@/lib/checkout-types";
 import CheckoutAddress from "@/components/checkout/CheckoutAddress";
 import CheckoutSummary from "@/components/checkout/CheckoutSummary";
 import PlaceOrderButton from "@/components/checkout/PlaceOrderButton";
@@ -23,6 +23,9 @@ type Props = {
   paymentEnvelope: PaymentSettingsEnvelope;
   paymentStatus: number;
   languageCode: string;
+  buyNow?: BuyNowSelection | null;
+  buyNowItem?: CartLineItem | null;
+  buyNowRequested?: boolean;
 };
 
 type PaymentSettings = {
@@ -62,18 +65,21 @@ export default function CheckoutPageClient({
   paymentEnvelope,
   paymentStatus,
   languageCode,
+  buyNow,
+  buyNowItem,
+  buyNowRequested = false,
 }: Props) {
   const t = (text: string) => translate(text, languageCode);
-  const items = cartInitial.data?.items ?? [];
+  const items = buyNowItem ? [buyNowItem] : cartInitial.data?.items ?? [];
   const cartId = cartInitial.data?.cart?.id ?? "";
   const me = meEnvelope.data ?? null;
-  const addresses = me?.addresses ?? [];
   const paymentSettings = paymentSettingsFromEnvelope(paymentEnvelope);
 
+  const [addresses, setAddresses] = useState<StorefrontAddress[]>(meEnvelope.data?.addresses ?? []);
   const [addressId, setAddressId] = useState<string | null>(() =>
     pickDefaultAddressId(meEnvelope.data?.addresses),
   );
-  const [paymentMode, setPaymentMode] = useState<"CREDIT" | "UPI_QR" | "NEFT" | "CASH">("CREDIT");
+  const [paymentMode, setPaymentMode] = useState<CheckoutPaymentMode>("RAZORPAY");
   const [couponCode, setCouponCode] = useState("");
 
   if (cartStatus === 401 || cartStatus === 403) {
@@ -82,11 +88,21 @@ export default function CheckoutPageClient({
         <h1 className="text-xl font-semibold text-slate-900">{t("Checkout")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("Sign in to review your cart and place an order.")}</p>
         <Link
-          href="/login"
+          href="/login?next=%2Fcheckout"
           className="mt-8 inline-block rounded-md bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700"
         >
           {t("Log in")}
         </Link>
+      </main>
+    );
+  }
+
+  if (buyNowRequested && !buyNowItem) {
+    return (
+      <main className="mx-auto max-w-lg px-4 py-16 text-center">
+        <h1 className="text-xl font-semibold text-slate-900">{t("Buy Now")}</h1>
+        <p className="mt-3 text-sm text-slate-600">{t("This product or variant is unavailable. Please return to the product page.")}</p>
+        <Link href="/product" className="mt-8 inline-block text-sm font-semibold text-indigo-600 hover:underline">{t("Browse products")}</Link>
       </main>
     );
   }
@@ -126,40 +142,44 @@ export default function CheckoutPageClient({
           {creditLine}
           {meFailed ? (
             <p className="mt-2 text-xs text-amber-800">
-              {t("Could not load account details")} ({meStatus}). {t("You can still place a prepaid order; credit checks require a valid retailer session.")}
+              {t("Could not load account details")} ({meStatus}). {t("Refresh the page before placing an order.")}
             </p>
           ) : null}
         </div>
-        <Link href="/cart" className="text-sm text-indigo-600 hover:underline">
-          {t("Edit cart")}
+        <Link href={buyNow ? `/product/${encodeURIComponent(buyNow.productSlug)}` : "/cart"} className="text-sm text-indigo-600 hover:underline">
+          {buyNow ? t("Edit selection") : t("Edit cart")}
         </Link>
       </div>
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         <div className="space-y-6">
-          {addresses.length > 0 ? (
-              <CheckoutAddress
-                addresses={addresses}
+          <CheckoutAddress
+              addresses={addresses}
               value={addressId}
               onChange={(id) => setAddressId(id)}
-                disabled={!cartId}
+              onAdded={(address) => {
+                setAddresses((current) => [...current, address]);
+                setAddressId(address.id);
+              }}
+                disabled={!cartId && !buyNow}
                 languageCode={languageCode}
-            />
-          ) : (
-            <section className="rounded-lg border border-dashed border-slate-200 bg-slate-50/80 p-4 text-sm text-slate-600">
-              <p className="font-medium text-slate-800">{t("Shipping address")}</p>
-              <p className="mt-2 text-xs">
-                {t("No saved addresses on your retailer profile. You can still place the order; ask your distributor to add addresses for GST-compliant invoices.")}
-              </p>
-            </section>
-          )}
+          />
 
           <section className="rounded-lg border border-slate-200 bg-white p-4">
             <h2 className="text-sm font-semibold text-slate-900">{t("Payment mode")}</h2>
             <p className="mt-1 text-xs text-slate-500">
-              <strong>{t("On account (credit)")}</strong> {t("increases outstanding until paid.")} <strong>{t("Prepaid")}</strong> {t("skips the credit limit check at checkout; use payment proof after order creation if required.")}
+              <strong>{t("Online Pay")}</strong> {t("opens secure Razorpay checkout and confirms payment with the server.")} {t("UPI QR and bank transfer require payment proof after order creation.")}
             </p>
             <div className="mt-3 space-y-2 text-sm">
+              <label className="flex cursor-pointer items-center gap-2 rounded-md border border-slate-200 p-3 hover:bg-slate-50">
+                <input
+                  type="radio"
+                  name="pay-mode"
+                  checked={paymentMode === "RAZORPAY"}
+                  onChange={() => setPaymentMode("RAZORPAY")}
+                />
+                <span><strong>{t("Online Pay")}</strong><span className="ml-2 text-xs text-slate-500">{t("Razorpay · UPI, cards and netbanking")}</span></span>
+              </label>
               <label className="flex cursor-pointer items-center gap-2 rounded-md border border-slate-200 p-3 hover:bg-slate-50">
                 <input
                   type="radio"
@@ -213,11 +233,15 @@ export default function CheckoutPageClient({
           </label>
           <PlaceOrderButton
             cartId={cartId}
+            buyNow={buyNow}
             addressId={addressId}
             paymentMode={paymentMode}
             couponCode={couponCode}
-            disabled={!cartId || (addresses.length > 0 && !addressId)}
+            disabled={(!cartId && !buyNow) || !addressId}
             languageCode={languageCode}
+            customerName={me?.name}
+            customerPhone={me?.mobile}
+            customerEmail={me?.email}
           />
         </div>
       </div>

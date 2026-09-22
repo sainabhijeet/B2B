@@ -1,9 +1,14 @@
 import { getStorefrontApiBase, storefrontHostHeaderAsync } from "@/lib/storefrontApi";
 
 export type StorefrontCategory = {
+  id: string;
   slug: string;
   name: string;
   description: string;
+  level: number;
+  parentId: string | null;
+  imageUrl: string | null;
+  bannerUrl: string | null;
 };
 
 type StorefrontCategoryItem = {
@@ -12,6 +17,10 @@ type StorefrontCategoryItem = {
   slug: string;
   level: number;
   parentId: string | null;
+  imageUrl?: string | null;
+  thumbnailUrl?: string | null;
+  bannerUrl?: string | null;
+  description?: string | null;
 };
 
 type StorefrontCategoriesResponse = {
@@ -21,9 +30,14 @@ type StorefrontCategoriesResponse = {
 
 function toStorefrontCategory(row: StorefrontCategoryItem): StorefrontCategory {
   return {
+    id: row.id,
     slug: row.slug,
     name: row.name,
-    description: "",
+    description: row.description ?? "",
+    level: row.level,
+    parentId: row.parentId,
+    imageUrl: row.imageUrl || row.thumbnailUrl || null,
+    bannerUrl: row.bannerUrl || null,
   };
 }
 

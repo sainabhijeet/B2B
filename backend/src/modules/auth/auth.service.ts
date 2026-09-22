@@ -202,7 +202,12 @@ export class AuthService {
     if (this.isStorefrontFixedTestMobile(phone)) {
       await this.customersService.ensureDevTestCustomer(tenantId, phone);
     } else {
-      await this.customersService.requireActiveByTenantAndMobile(tenantId, phone);
+      const owner = await this.usersService.findTenantOwnerByMobile(tenantId, phone);
+      if (owner) {
+        await this.customersService.assertOwnerCustomerEligible(tenantId, phone);
+      } else {
+        await this.customersService.requireActiveByTenantAndMobile(tenantId, phone);
+      }
     }
     return this.otpService.requestOtpForRecipient({
       purpose: OtpPurpose.CUSTOMER_TENANT,
@@ -324,9 +329,12 @@ export class AuthService {
     phone: string;
     deviceId: string;
   }) {
-    const customer = this.isStorefrontFixedTestMobile(dto.phone)
-      ? await this.customersService.ensureDevTestCustomer(dto.tenantId, dto.phone)
-      : await this.customersService.requireActiveByTenantAndMobile(dto.tenantId, dto.phone);
+    const owner = await this.usersService.findTenantOwnerByMobile(dto.tenantId, dto.phone);
+    const customer = owner
+      ? await this.customersService.ensureVerifiedOwnerCustomer(dto.tenantId, dto.phone)
+      : this.isStorefrontFixedTestMobile(dto.phone)
+        ? await this.customersService.ensureDevTestCustomer(dto.tenantId, dto.phone)
+        : await this.customersService.requireActiveByTenantAndMobile(dto.tenantId, dto.phone);
 
     let user = await this.usersService.findTenantCustomerUserByPhone(dto.tenantId, dto.phone);
     if (!user) {

@@ -20,6 +20,7 @@ import { ReplacementShipment } from '../../common/entities/replacement-shipment.
 import { Order } from '../../common/entities/order.entity';
 import { ProductVariant } from '../../common/entities/product-variant.entity';
 import { Product } from '../../common/entities/product.entity';
+import { ProductImage } from '../../common/entities/product-image.entity';
 import { SystemConfig } from '../../common/entities/system-config.entity';
 import { Customer } from '../../common/entities/customer.entity';
 import { Tenant } from '../../common/entities/tenant.entity';
@@ -1464,6 +1465,71 @@ export class OrdersService implements OnModuleDestroy {
     return [OrderSource.STOREFRONT, OrderSource.BUY_NOW];
   }
 
+  private async withOrderPreviews(m: EntityManager, orders: Order[]) {
+    if (!orders.length) return [];
+    const orderItems = await m.getRepository(OrderItem).find({
+      where: { orderId: In(orders.map((order) => order.id)) },
+      order: { createdAt: 'ASC' },
+    });
+    const itemsByOrder = new Map<string, OrderItem[]>();
+    for (const item of orderItems) {
+      const group = itemsByOrder.get(item.orderId) ?? [];
+      group.push(item);
+      itemsByOrder.set(item.orderId, group);
+    }
+    const previewItems = orders.flatMap((order) =>
+      (itemsByOrder.get(order.id) ?? []).slice(0, 3),
+    );
+    const productIds = [...new Set(previewItems.map((item) => item.productId))];
+    const [products, images] = productIds.length
+      ? await Promise.all([
+          m.getRepository(Product).find({
+            where: { id: In(productIds) },
+            select: ['id', 'name'],
+          }),
+          m.getRepository(ProductImage).find({
+            where: { productId: In(productIds) },
+            order: { isThumbnail: 'DESC', position: 'ASC' },
+          }),
+        ])
+      : [[], []];
+    const productNames = new Map(
+      products.map((product) => [product.id, product.name]),
+    );
+    const productImages = new Map<string, string>();
+    const genericImages = new Map<string, string>();
+    const variantImages = new Map<string, string>();
+    for (const image of images) {
+      if (!productImages.has(image.productId)) {
+        productImages.set(image.productId, image.imageUrl);
+      }
+      if (image.variantId && !variantImages.has(image.variantId)) {
+        variantImages.set(image.variantId, image.imageUrl);
+      }
+      if (!image.variantId && !genericImages.has(image.productId)) {
+        genericImages.set(image.productId, image.imageUrl);
+      }
+    }
+    return orders.map((order) => {
+      const items = itemsByOrder.get(order.id) ?? [];
+      return {
+        ...order,
+        itemCount: items.length,
+        unitCount: items.reduce((sum, item) => sum + item.quantity, 0),
+        previewItems: items.slice(0, 3).map((item) => ({
+          name:
+            productNames.get(item.productId) ?? item.variantSku ?? 'Product',
+          quantity: item.quantity,
+          thumbnailUrl:
+            (item.variantId ? variantImages.get(item.variantId) : undefined) ??
+            genericImages.get(item.productId) ??
+            productImages.get(item.productId) ??
+            null,
+        })),
+      };
+    });
+  }
+
   async listOrders(user: JwtUserPayload, query?: ListOrdersQueryDto) {
     const isPlatform =
       user.role === UserRole.SUPER_ADMIN ||
@@ -1490,7 +1556,26 @@ export class OrdersService implements OnModuleDestroy {
       const acc = perTenant.flatMap(([rows]) => rows);
       const total = perTenant.reduce((sum, [, count]) => sum + count, 0);
       acc.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
-      const data = acc.slice((page - 1) * limit, page * limit);
+      let data = acc.slice((page - 1) * limit, page * limit);
+      if (query?.includePreviews && data.length) {
+        const byTenant = new Map<string, Order[]>();
+        for (const order of data) {
+          const group = byTenant.get(order.tenantId) ?? [];
+          group.push(order);
+          byTenant.set(order.tenantId, group);
+        }
+        const enriched = await Promise.all(
+          [...byTenant].map(([tenantId, tenantOrders]) =>
+            this.tenantRunner.withTenantCatalog(tenantId, (m) =>
+              this.withOrderPreviews(m, tenantOrders),
+            ),
+          ),
+        );
+        const previewsById = new Map(
+          enriched.flat().map((order) => [order.id, order]),
+        );
+        data = data.map((order) => previewsById.get(order.id) ?? order);
+      }
       return { success: true, data, meta: { page, limit, total }, message: '' };
     }
     if (!user.tenantId)
@@ -1503,13 +1588,20 @@ export class OrdersService implements OnModuleDestroy {
     const where = sourceFilter
       ? { ...baseWhere, orderSource: In(sourceFilter) }
       : baseWhere;
-    const [data, total] = await this.tenantRunner.withTenantCatalog(tid, (m) =>
-      m.getRepository(Order).findAndCount({
-        where,
-        order: { createdAt: 'DESC' },
-        skip: (page - 1) * limit,
-        take: limit,
-      }),
+    const [data, total] = await this.tenantRunner.withTenantCatalog(
+      tid,
+      async (m) => {
+        const [rows, count] = await m.getRepository(Order).findAndCount({
+          where,
+          order: { createdAt: 'DESC' },
+          skip: (page - 1) * limit,
+          take: limit,
+        });
+        return [
+          query?.includePreviews ? await this.withOrderPreviews(m, rows) : rows,
+          count,
+        ] as const;
+      },
     );
     return { success: true, data, meta: { page, limit, total }, message: '' };
   }
@@ -1544,9 +1636,49 @@ export class OrdersService implements OnModuleDestroy {
       if (user.role === UserRole.CUSTOMER && order.userId !== user.sub) {
         throw new ForbiddenException('Not your order.');
       }
-      const items = await m
-        .getRepository(OrderItem)
-        .find({ where: { orderId: order.id } });
+      const items = await m.getRepository(OrderItem).find({
+        where: { orderId: order.id },
+        relations: { product: true },
+        order: { createdAt: 'ASC' },
+      });
+      const productIds = [...new Set(items.map((item) => item.productId))];
+      const imageRows = productIds.length
+        ? await m.getRepository(ProductImage).find({
+            where: { productId: In(productIds) },
+            order: { isThumbnail: 'DESC', position: 'ASC' },
+          })
+        : [];
+      const thumbnails = new Map<string, string>();
+      const genericThumbnails = new Map<string, string>();
+      const variantThumbnails = new Map<string, string>();
+      for (const image of imageRows) {
+        if (!thumbnails.has(image.productId)) {
+          thumbnails.set(image.productId, image.imageUrl);
+        }
+        if (!image.variantId && !genericThumbnails.has(image.productId)) {
+          genericThumbnails.set(image.productId, image.imageUrl);
+        }
+        if (image.variantId && !variantThumbnails.has(image.variantId)) {
+          variantThumbnails.set(image.variantId, image.imageUrl);
+        }
+      }
+      const displayItems = items.map((item) => ({
+        ...item,
+        product: item.product
+          ? {
+              id: item.product.id,
+              name: item.product.name,
+              slug: item.product.slug,
+              thumbnailUrl:
+                (item.variantId
+                  ? variantThumbnails.get(item.variantId)
+                  : undefined) ??
+                genericThumbnails.get(item.productId) ??
+                thumbnails.get(item.productId) ??
+                null,
+            }
+          : null,
+      }));
       const payment = await m
         .getRepository(OrderPayment)
         .findOne({ where: { orderId: order.id } });
@@ -1577,7 +1709,7 @@ export class OrdersService implements OnModuleDestroy {
         data: {
           ...order,
           paymentStatus: normalizePaymentStatus(order.paymentStatus),
-          items,
+          items: displayItems,
           requests: requests.map((request) =>
             this.serializeOrderRequest(
               request,
@@ -1602,7 +1734,7 @@ export class OrdersService implements OnModuleDestroy {
 
   async timeline(user: JwtUserPayload, orderKey: string) {
     const response = await this.getOrder(user, orderKey);
-    const order = response.data as Order & { items?: OrderItem[] };
+    const order = response.data;
     const orderLabel = order.orderNumber ?? order.id;
     const baseDate = order.createdAt ?? new Date();
     const updatedDate = order.updatedAt ?? baseDate;

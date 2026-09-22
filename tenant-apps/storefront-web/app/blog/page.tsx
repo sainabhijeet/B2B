@@ -1,4 +1,3 @@
-import Header from "@/sections/Header";
 import { getStorefrontLanguage } from "@/lib/storefront-language";
 import { translate } from "@/lib/translation-engine";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
@@ -15,7 +14,6 @@ export default async function BlogPage() {
   return (
     <StorefrontLocaleFrame languageCode={language} className="theme-storefront">
     <div className="min-h-screen bg-slate-50">
-      <Header logoText="MarketPro" industryName="Blog" nav={["Home", "Categories", "Products", "FAQ", "Contact"]} languageCode={language} />
       <main className="mx-auto max-w-6xl px-4 py-10">
         <h1 className="text-3xl font-bold text-slate-950">{t("Commerce Blog")}</h1>
         <p className="mt-2 text-slate-600">{t("Guides for buyers, sellers, product discovery, and marketplace growth.")}</p>

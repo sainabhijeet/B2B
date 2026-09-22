@@ -2,22 +2,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { translate } from "@/lib/translation-engine";
 import { formatCurrency } from "@/lib/language-consistency";
+import WishlistButton from "@/components/wishlist/WishlistButton";
 
 type Props = {
+  id?: string;
   slug: string;
   name: string;
-  price: number;
+  price: number | null;
   currency?: string;
   image?: string;
   languageCode?: string;
 };
 
-export default function ProductCard({ slug, name, price, currency = "INR", image, languageCode }: Props) {
+export default function ProductCard({ id, slug, name, price, currency = "INR", image, languageCode }: Props) {
   return (
     <article
-      className="flex flex-col overflow-hidden rounded-xl border shadow-sm transition hover:shadow-md"
+      className="relative flex flex-col overflow-hidden rounded-xl border shadow-sm transition hover:shadow-md"
       style={{ background: "var(--theme-surface)", borderColor: "var(--theme-border)" }}
     >
+      {id ? <div className="absolute right-3 top-3 z-10"><WishlistButton productId={id} languageCode={languageCode} compact /></div> : null}
       {image ? (
         <div className="relative aspect-square w-full">
           <Image src={image} alt={name} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover" unoptimized />
@@ -30,7 +33,7 @@ export default function ProductCard({ slug, name, price, currency = "INR", image
           {name}
         </Link>
         <p className="text-sm" style={{ color: "var(--theme-primary)" }}>
-          {formatCurrency(price, languageCode, currency)}
+          {price == null ? translate("Sign in to see price", languageCode) : formatCurrency(price, languageCode, currency)}
         </p>
         <Link
           href={`/product/${slug}`}

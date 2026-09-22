@@ -46,11 +46,15 @@ export default function MiniCart({ languageCode }: { languageCode?: string }) {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="relative rounded-md border border-slate-200 bg-white px-2 py-1 text-xs font-medium text-slate-800 hover:bg-slate-50"
+        className="relative flex h-10 items-center gap-2 rounded-lg border border-slate-200 bg-white px-2.5 text-xs font-semibold text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 sm:px-3"
         aria-expanded={open}
         aria-haspopup="dialog"
+        aria-label={`${t("Cart")}${count > 0 ? ` (${count})` : ""}`}
       >
-        {t("Cart")}
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5" aria-hidden="true">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l2.1 10.15a2 2 0 0 0 1.96 1.6h7.88a2 2 0 0 0 1.96-1.6L20.25 7H6M9.5 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM18 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+        </svg>
+        <span className="hidden sm:inline">{t("Cart")}</span>
         {count > 0 ? (
           <span className="absolute -right-1 -top-1 flex h-4 min-w-[1rem] items-center justify-center rounded-full bg-indigo-600 px-1 text-[10px] text-white">
             {count > 99 ? "99+" : count}
@@ -66,7 +70,7 @@ export default function MiniCart({ languageCode }: { languageCode?: string }) {
             {loading ? <p className="mt-2 text-xs text-slate-500">{t("Loading")}...</p> : null}
             {!loading && authed === false ? (
               <p className="mt-2 text-xs text-slate-600">
-                <Link href="/login" className="font-medium text-indigo-600 hover:underline" onClick={() => setOpen(false)}>
+                <Link href="/login?next=%2Fcart" className="font-medium text-indigo-600 hover:underline" onClick={() => setOpen(false)}>
                   {t("Sign in")}
                 </Link>{" "}
                 {t("to use your cart.")}

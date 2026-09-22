@@ -5,6 +5,7 @@ import {
   CUSTOMER_DEVICE_COOKIE,
   CUSTOMER_REFRESH_COOKIE,
 } from "@/lib/customer-session-cookies";
+import { tenantIdFromCustomerToken } from "@/lib/customer-token-tenant";
 
 type RefreshPayload = {
   accessToken?: string;
@@ -21,7 +22,7 @@ const cookieBase = () =>
 
 /**
  * Rotates access (and refresh) tokens via Nest `POST /auth/refresh`.
- * Call from Route Handlers or RSC helpers (same request as `cookies().set`).
+ * Call only from Route Handlers or Server Actions; Server Components cannot set cookies.
  */
 export async function refreshCustomerTokensFromCookies(): Promise<boolean> {
   const jar = await cookies();
@@ -48,6 +49,8 @@ export async function refreshCustomerTokensFromCookies(): Promise<boolean> {
 
   const common = cookieBase();
   jar.set(CUSTOMER_ACCESS_COOKIE, parsed.accessToken, { ...common, maxAge: 60 * 60 * 12 });
+  const tenantId = tenantIdFromCustomerToken(parsed.accessToken);
+  if (tenantId) jar.set("storefront_tenant_id", tenantId, { ...common, maxAge: 60 * 60 * 24 * 30 });
   if (parsed.refreshToken) {
     jar.set(CUSTOMER_REFRESH_COOKIE, parsed.refreshToken, { ...common, maxAge: 60 * 60 * 24 * 30 });
   }

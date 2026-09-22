@@ -12,7 +12,7 @@ export default async function AccountPage() {
         <p className="mt-3 text-slate-600">{t("Sign in")}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <a
-            href="/login"
+            href="/login?next=%2Faccount"
             className="inline-flex rounded-lg bg-indigo-600 px-5 py-3 font-semibold text-white"
           >
             {t("Sign in")}

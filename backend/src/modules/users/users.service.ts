@@ -5,7 +5,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { IsNull, Not, Repository } from 'typeorm';
+import { In, IsNull, Not, Repository } from 'typeorm';
 import * as bcrypt from 'bcrypt';
 import { UserRole } from '../../common/enums/user-role.enum';
 import { User } from '../../common/entities/user.entity';
@@ -86,6 +86,22 @@ export class UsersService {
         phone,
         role: UserRole.OWNER,
         tenantId: Not(IsNull()),
+      },
+    });
+  }
+
+  /** Storefront owner preview: only the owner of this exact tenant may use their verified mobile. */
+  async findTenantOwnerByMobile(tenantId: string, mobile: string): Promise<User | null> {
+    const national = mobile.replace(/\D/g, '');
+    const phoneVariants = national.length === 10
+      ? [national, `91${national}`, `+91${national}`]
+      : [national, `+${national}`];
+    return this.usersRepository.findOne({
+      where: {
+        tenantId,
+        phone: In(phoneVariants),
+        role: UserRole.OWNER,
+        deletedAt: IsNull(),
       },
     });
   }

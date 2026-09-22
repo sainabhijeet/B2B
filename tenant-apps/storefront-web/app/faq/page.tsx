@@ -1,4 +1,3 @@
-import Header from "@/sections/Header";
 import { getStorefrontLanguage } from "@/lib/storefront-language";
 import { translate } from "@/lib/translation-engine";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
@@ -16,7 +15,6 @@ export default async function FaqPage() {
   return (
     <StorefrontLocaleFrame languageCode={language} className="theme-storefront">
     <div className="min-h-screen bg-slate-50">
-      <Header logoText="MarketPro" industryName="FAQ" nav={["Home", "Categories", "Products", "Blog", "Contact"]} languageCode={language} />
       <main className="mx-auto max-w-4xl px-4 py-10">
         <h1 className="text-3xl font-bold text-slate-950">{t("Frequently Asked Questions")}</h1>
         <div className="mt-8 space-y-4">

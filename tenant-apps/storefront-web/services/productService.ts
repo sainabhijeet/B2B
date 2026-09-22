@@ -1,12 +1,15 @@
 import { getStorefrontApiBase, storefrontHostHeaderAsync } from "@/lib/storefrontApi";
+import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
 
 export type StorefrontProduct = {
+  id?: string;
   slug: string;
   name: string;
   description: string;
-  price: number;
+  price: number | null;
   currency: string;
   image?: string;
+  brand?: string | null;
 };
 
 export type StorefrontListParams = {
@@ -26,7 +29,8 @@ type StorefrontApiItem = {
   name: string;
   slug: string;
   sku: string;
-  price: string;
+  price: string | null;
+  brand?: string | null;
   categorySlug: string | null;
   thumbnailUrl: string | null;
 };
@@ -41,14 +45,16 @@ type StorefrontListResponse = {
 };
 
 function toStorefrontProduct(row: StorefrontApiItem): StorefrontProduct {
-  const price = Number.parseFloat(row.price);
+  const price = row.price == null ? NaN : Number.parseFloat(row.price);
   return {
+    id: row.id,
     slug: row.slug,
     name: row.name,
     description: "",
-    price: Number.isFinite(price) ? price : 0,
+    price: Number.isFinite(price) ? price : null,
     currency: "INR",
     image: row.thumbnailUrl ?? undefined,
+    brand: row.brand ?? null,
   };
 }
 
@@ -61,15 +67,26 @@ export type StorefrontProductDetail = {
     description: string;
     brand: string | null;
     categorySlug: string | null;
+    categoryName?: string | null;
+    hsnCode?: string | null;
+    barcode?: string | null;
+    weight?: string | null;
+    dimensions?: string | null;
+    tags?: string[];
   };
   variants: {
     id: string;
     sku: string;
-    listPrice: string;
-    mrp: string;
-    price: string;
-    priceBaseSource: string;
-    quantityTierApplied: boolean;
+    listPrice: string | null;
+    mrp: string | null;
+    price: string | null;
+    priceBaseSource: string | null;
+    quantityTierApplied: boolean | null;
+    stockQuantity?: number | null;
+    moq?: number;
+    gstRate?: string | null;
+    attributesJson?: Record<string, unknown>;
+    priceSlabs?: { minQty: number; price: string; label?: string }[];
   }[];
   images: { id: string; url: string; isThumbnail: boolean; variantId: string | null }[];
 };
@@ -89,7 +106,11 @@ export async function fetchStorefrontProductDetail(
   };
   if (opts?.accessToken) headers.Authorization = `Bearer ${opts.accessToken}`;
   try {
-    const res = await fetch(url, { headers, next: { revalidate: 30 } });
+    let res = await fetch(url, { headers, cache: "no-store" });
+    if (res.status === 401 && opts?.accessToken) {
+      delete headers.Authorization;
+      res = await fetch(url, { headers, cache: "no-store" });
+    }
     if (!res.ok) return null;
     const body = (await res.json()) as { success: boolean; data: StorefrontProductDetail };
     if (!body.success || !body.data) return null;
@@ -106,6 +127,7 @@ export async function getProductBySlug(slug: string): Promise<StorefrontProduct 
     const v0 = detail.variants[0];
     const p = Number.parseFloat(v0?.price ?? "0");
     return {
+      id: detail.product.id,
       slug: detail.product.slug,
       name: detail.product.name,
       description: detail.product.description,
@@ -135,13 +157,18 @@ export async function listStorefrontProducts(params: StorefrontListParams = {}):
   const qs = q.toString();
   const url = `${getStorefrontApiBase()}/storefront/products${qs ? `?${qs}` : ""}`;
   try {
-    const res = await fetch(url, {
-      headers: {
-        Accept: "application/json",
-        ...(await storefrontHostHeaderAsync()),
-      },
-      next: { revalidate: 60 },
-    });
+    const { cookies } = await import("next/headers");
+    const token = (await cookies()).get(CUSTOMER_ACCESS_COOKIE)?.value;
+    const headers: Record<string, string> = {
+      Accept: "application/json",
+      ...(await storefrontHostHeaderAsync()),
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    };
+    let res = await fetch(url, { headers, cache: "no-store" });
+    if (res.status === 401 && token) {
+      delete headers.Authorization;
+      res = await fetch(url, { headers, cache: "no-store" });
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const body = (await res.json()) as StorefrontListResponse;
     if (!body.success || !body.data) throw new Error("bad payload");

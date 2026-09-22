@@ -11,7 +11,12 @@ type Props = {
 };
 
 export default async function TemplateRenderer({ template, themeKey, componentSchemas, languageCode }: Props) {
-  const sections = Array.isArray(template?.sections) ? template.sections : [];
+  // The storefront shell owns global navigation so every route gets one
+  // consistent header. Theme header sections are skipped to avoid duplicates.
+  const sections = (Array.isArray(template?.sections) ? template.sections : []).filter((section) => {
+    const type = String(section.type ?? section.component ?? section.id ?? "").toLowerCase();
+    return type !== "header" && type !== "header-basic";
+  });
   return (
     <>
       {sections.map((section, i) => (

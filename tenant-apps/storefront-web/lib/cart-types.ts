@@ -1,4 +1,4 @@
-export type CartProductSummary = { id: string; name: string; slug?: string; taxRate?: string };
+export type CartProductSummary = { id: string; name: string; slug?: string; taxRate?: string; thumbnailUrl?: string | null };
 export type CartVariantSummary = { id: string; variantSku: string } | null;
 
 export type CartLineItem = {

@@ -1,4 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
+import { tenantIdFromCustomerToken } from "@/lib/customer-token-tenant";
 
 const TENANT_ID_COOKIE = "storefront_tenant_id";
 const TENANT_SLUG_COOKIE = "storefront_tenant";
@@ -20,9 +22,13 @@ export function middleware(request: NextRequest) {
   const queryTenantSlug = validTenantSlug(request.nextUrl.searchParams.get("tenant"));
   const tenantId = queryTenantId || validTenantId(request.cookies.get(TENANT_ID_COOKIE)?.value ?? null);
   const tenantSlug = queryTenantSlug || validTenantSlug(request.cookies.get(TENANT_SLUG_COOKIE)?.value ?? null);
+  const sessionTenantId = !tenantId && !tenantSlug
+    ? tenantIdFromCustomerToken(request.cookies.get(CUSTOMER_ACCESS_COOKIE)?.value)
+    : null;
   const requestHeaders = new Headers(request.headers);
 
-  if (tenantId) requestHeaders.set("x-storefront-tenant-id", tenantId);
+  const activeTenantId = tenantId || sessionTenantId;
+  if (activeTenantId) requestHeaders.set("x-storefront-tenant-id", activeTenantId);
   if (tenantSlug) requestHeaders.set("x-storefront-tenant", tenantSlug);
 
   const response = NextResponse.next({ request: { headers: requestHeaders } });
@@ -30,7 +36,7 @@ export function middleware(request: NextRequest) {
     httpOnly: true,
     sameSite: "lax" as const,
     path: "/",
-    maxAge: 60 * 60 * 24,
+    maxAge: 60 * 60 * 24 * 30,
   };
 
   if (queryTenantId) response.cookies.set(TENANT_ID_COOKIE, queryTenantId, cookieOptions);

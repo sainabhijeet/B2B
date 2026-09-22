@@ -727,6 +727,51 @@ export class CustomersService {
     return c;
   }
 
+  /** An owner can request OTP without a buyer profile, but not if that profile was disabled. */
+  async assertOwnerCustomerEligible(tenantId: string, mobileDigits: string): Promise<void> {
+    const existing = await this.customersRepo.findOne({
+      where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
+    });
+    if (existing && existing.status !== CustomerStatus.ACTIVE) {
+      throw new ForbiddenException('This retailer account is not active.');
+    }
+  }
+
+  /** Create a zero-credit buyer profile only after the same tenant's owner verifies their OTP. */
+  async ensureVerifiedOwnerCustomer(tenantId: string, mobileDigits: string): Promise<Customer> {
+    const existing = await this.customersRepo.findOne({
+      where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
+    });
+    if (existing) {
+      if (existing.status !== CustomerStatus.ACTIVE) {
+        throw new ForbiddenException('This retailer account is not active.');
+      }
+      return existing;
+    }
+
+    try {
+      return await this.customersRepo.save(
+        this.customersRepo.create({
+          tenantId,
+          name: 'Store owner',
+          mobile: mobileDigits,
+          email: null,
+          status: CustomerStatus.ACTIVE,
+          creditLimit: '0.00',
+          creditBalance: '0.00',
+        }),
+      );
+    } catch (error) {
+      if (
+        error instanceof QueryFailedError &&
+        (error as { driverError?: { code?: string } }).driverError?.code === '23505'
+      ) {
+        return this.requireActiveByTenantAndMobile(tenantId, mobileDigits);
+      }
+      throw error;
+    }
+  }
+
   async ensureDevTestCustomer(
     tenantId: string,
     mobileDigits: string,
