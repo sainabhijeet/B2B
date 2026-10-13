@@ -1602,7 +1602,7 @@ class _AddressBookScreenState extends ConsumerState<AddressBookScreen> {
                 children: <Widget>[
                   _saveAsChip(Icons.home_outlined, 'Home'),
                   const SizedBox(width: 10),
-                  _saveAsChip(Icons.apartment_outlined, 'Work'),
+                  _saveAsChip(Icons.apartment_outlined, 'Office'),
                   const SizedBox(width: 10),
                   _saveAsChip(Icons.location_on_outlined, 'Other'),
                 ],

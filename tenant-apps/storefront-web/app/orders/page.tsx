@@ -92,7 +92,7 @@ export default async function OrdersPage() {
               </p>
             </div>
             <div className="flex items-center gap-3">
-              <Link href="/product" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-indigo-200 hover:text-indigo-700">
+              <Link href="/category" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm transition hover:border-indigo-200 hover:text-indigo-700">
                 <ShoppingBag className="h-4 w-4" aria-hidden="true" /> {t("Continue shopping")}
               </Link>
               <form action="/api/storefront/auth/logout" method="post">
@@ -106,7 +106,7 @@ export default async function OrdersPage() {
               <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-indigo-50 text-indigo-600"><Package className="h-8 w-8" aria-hidden="true" /></span>
               <h2 className="mt-5 text-xl font-semibold text-slate-900">{t("No orders yet")}</h2>
               <p className="mt-2 text-sm text-slate-500">{t("Products you order will appear here.")}</p>
-              <Link href="/product" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-700">{t("Browse products")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+              <Link href="/category" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-700">{t("Browse products")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
             </div>
           ) : (
             <ul className="mt-8 space-y-4">

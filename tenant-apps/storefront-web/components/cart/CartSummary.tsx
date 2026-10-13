@@ -37,7 +37,7 @@ export default function CartSummary({ items, languageCode }: Props) {
       <Link href="/checkout" className="mt-6 flex min-h-12 w-full items-center justify-center rounded-xl bg-[var(--theme-primary)] px-4 text-sm font-bold text-white transition hover:brightness-95">
         {t("Proceed to checkout")} <span aria-hidden="true" className="ml-2">→</span>
       </Link>
-      <Link href="/product" className="mt-4 block text-center text-sm font-semibold text-slate-600 hover:text-slate-900">
+      <Link href="/category" className="mt-4 block text-center text-sm font-semibold text-slate-600 hover:text-slate-900">
         {t("Continue shopping")}
       </Link>
     </section>

@@ -1,4 +1,8 @@
-import { BadRequestException, ForbiddenException, Injectable } from '@nestjs/common';
+import {
+  BadRequestException,
+  ForbiddenException,
+  Injectable,
+} from '@nestjs/common';
 import { In, IsNull } from 'typeorm';
 import { CartItem } from '../../common/entities/cart-item.entity';
 import { Cart } from '../../common/entities/cart.entity';
@@ -34,15 +38,24 @@ export class CartService {
         : [];
       const thumbnails = new Map<string, string>();
       for (const image of imageRows) {
-        if (!thumbnails.has(image.productId)) thumbnails.set(image.productId, image.imageUrl);
+        if (!thumbnails.has(image.productId))
+          thumbnails.set(image.productId, image.imageUrl);
       }
       const displayItems = items.map((item) => ({
         ...item,
         product: item.product
-          ? { ...item.product, thumbnailUrl: thumbnails.get(item.productId) ?? null }
+          ? {
+              ...item.product,
+              thumbnailUrl: thumbnails.get(item.productId) ?? null,
+            }
           : null,
       }));
-      return { success: true, data: { cart, items: displayItems }, meta: {}, message: '' };
+      return {
+        success: true,
+        data: { cart, items: displayItems },
+        meta: {},
+        message: '',
+      };
     });
   }
 
@@ -54,14 +67,18 @@ export class CartService {
       const variantsRepo = m.getRepository(ProductVariant);
       const cartItemRepo = m.getRepository(CartItem);
 
-      const product = await productsRepo.findOne({ where: { id: dto.productId, deletedAt: IsNull() } });
+      const product = await productsRepo.findOne({
+        where: { id: dto.productId, deletedAt: IsNull() },
+      });
       if (!product) throw new BadRequestException('Product not found.');
       this.ensureSameTenant(user, product.tenantId);
 
       let priceSnapshot = product.price;
       let variant: ProductVariant | null = null;
       if (dto.variantId) {
-        variant = await variantsRepo.findOne({ where: { id: dto.variantId, deletedAt: IsNull() } });
+        variant = await variantsRepo.findOne({
+          where: { id: dto.variantId, deletedAt: IsNull() },
+        });
         if (!variant) throw new BadRequestException('Variant not found.');
         priceSnapshot = variant.price;
       }
@@ -69,7 +86,12 @@ export class CartService {
       const moq = variant?.moq ?? 1;
       this.assertMoq(dto.quantity, moq);
 
-      await this.validateStock(m, dto.productId, dto.variantId ?? null, dto.quantity);
+      await this.validateStock(
+        m,
+        dto.productId,
+        dto.variantId ?? null,
+        dto.quantity,
+      );
 
       const taxRate = effectiveGstPercent({
         variantGstRate: variant?.gstRate ?? null,
@@ -77,12 +99,22 @@ export class CartService {
       });
 
       const existing = await cartItemRepo.findOne({
-        where: { cartId: cart.id, productId: dto.productId, variantId: dto.variantId ?? IsNull(), deletedAt: IsNull() },
+        where: {
+          cartId: cart.id,
+          productId: dto.productId,
+          variantId: dto.variantId ?? IsNull(),
+          deletedAt: IsNull(),
+        },
       });
       if (existing) {
         const nextQty = existing.quantity + dto.quantity;
         this.assertMoq(nextQty, moq);
-        await this.validateStock(m, dto.productId, dto.variantId ?? null, nextQty);
+        await this.validateStock(
+          m,
+          dto.productId,
+          dto.variantId ?? null,
+          nextQty,
+        );
         existing.quantity = nextQty;
         existing.priceSnapshot = priceSnapshot;
         existing.taxRate = taxRate;
@@ -104,7 +136,11 @@ export class CartService {
     });
   }
 
-  async updateItem(user: JwtUserPayload, itemId: string, dto: UpdateCartItemDto) {
+  async updateItem(
+    user: JwtUserPayload,
+    itemId: string,
+    dto: UpdateCartItemDto,
+  ) {
     const tenantId = this.requireTenantId(user);
     return this.tenantRunner.withTenantCatalog(tenantId, async (m) => {
       const cartItemRepo = m.getRepository(CartItem);
@@ -123,7 +159,8 @@ export class CartService {
       this.assertMoq(dto.quantity, moq);
       await this.validateStock(m, item.productId, item.variantId, dto.quantity);
       const product = item.product;
-      if (!product) throw new BadRequestException('Product not found for cart item.');
+      if (!product)
+        throw new BadRequestException('Product not found for cart item.');
       item.quantity = dto.quantity;
       item.taxRate = effectiveGstPercent({
         variantGstRate: item.variant?.gstRate ?? null,
@@ -140,8 +177,17 @@ export class CartService {
       const cartItemRepo = m.getRepository(CartItem);
       const cartRepo = m.getRepository(Cart);
 
-      const item = await cartItemRepo.findOne({ where: { id: itemId, deletedAt: IsNull() } });
-      if (!item) throw new BadRequestException('Cart item not found.');
+      const item = await cartItemRepo.findOne({
+        where: { id: itemId, deletedAt: IsNull() },
+      });
+      if (!item) {
+        return {
+          success: true,
+          data: { deleted: false },
+          meta: {},
+          message: '',
+        };
+      }
       const cart = await cartRepo.findOne({ where: { id: item.cartId } });
       if (!cart) throw new BadRequestException('Cart not found.');
       this.ensureSameTenant(user, cart.tenantId);
@@ -163,25 +209,37 @@ export class CartService {
     });
   }
 
-  async getCartItemsForUser(user: JwtUserPayload): Promise<{ cart: Cart; items: CartItem[] }> {
+  async getCartItemsForUser(
+    user: JwtUserPayload,
+  ): Promise<{ cart: Cart; items: CartItem[] }> {
     const tenantId = this.requireTenantId(user);
     return this.tenantRunner.withTenantCatalog(tenantId, async (m) => {
       const cart = await this.getOrCreateUserCart(m, user);
-      const items = await m.getRepository(CartItem).find({ where: { cartId: cart.id, deletedAt: IsNull() } });
+      const items = await m
+        .getRepository(CartItem)
+        .find({ where: { cartId: cart.id, deletedAt: IsNull() } });
       return { cart, items };
     });
   }
 
   private requireTenantId(user: JwtUserPayload): string {
-    if (!user.tenantId) throw new ForbiddenException('Tenant user required for cart.');
+    if (!user.tenantId)
+      throw new ForbiddenException('Tenant user required for cart.');
     return user.tenantId;
   }
 
-  private async getOrCreateUserCart(m: import('typeorm').EntityManager, user: JwtUserPayload): Promise<Cart> {
+  private async getOrCreateUserCart(
+    m: import('typeorm').EntityManager,
+    user: JwtUserPayload,
+  ): Promise<Cart> {
     const cartRepo = m.getRepository(Cart);
-    let cart = await cartRepo.findOne({ where: { tenantId: user.tenantId!, userId: user.sub } });
+    let cart = await cartRepo.findOne({
+      where: { tenantId: user.tenantId!, userId: user.sub },
+    });
     if (!cart) {
-      cart = await cartRepo.save(cartRepo.create({ tenantId: user.tenantId!, userId: user.sub }));
+      cart = await cartRepo.save(
+        cartRepo.create({ tenantId: user.tenantId!, userId: user.sub }),
+      );
     }
     return cart;
   }
@@ -190,7 +248,9 @@ export class CartService {
     const m = Number(moq);
     const min = Number.isFinite(m) && m >= 1 ? m : 1;
     if (quantity < min) {
-      throw new BadRequestException(`Minimum order quantity for this item is ${min}.`);
+      throw new BadRequestException(
+        `Minimum order quantity for this item is ${min}.`,
+      );
     }
   }
 
@@ -206,7 +266,9 @@ export class CartService {
     if (!row) throw new BadRequestException('Inventory not available.');
     const available = row.stockQuantity - (row.reservedStock ?? 0);
     if (quantity > available) {
-      throw new BadRequestException('Requested quantity exceeds available stock.');
+      throw new BadRequestException(
+        'Requested quantity exceeds available stock.',
+      );
     }
   }
 
@@ -217,6 +279,7 @@ export class CartService {
   }
 
   private ensureSameUser(user: JwtUserPayload, userId: string) {
-    if (user.sub !== userId) throw new ForbiddenException('Cannot access another user cart.');
+    if (user.sub !== userId)
+      throw new ForbiddenException('Cannot access another user cart.');
   }
 }

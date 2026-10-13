@@ -25,6 +25,10 @@ import {
 } from '../build-system/mobile-localization-assets';
 import { mobileBuildNetworkDartDefines } from '../build-system/mobile-build-runtime-config';
 import {
+  normalizeLauncherIcon,
+  writeAndroidLauncherIcons,
+} from '../build-system/mobile-launcher-icon';
+import {
   prepareMobileThemeAssets,
   validateMobileThemeAssetsInArtifact,
 } from '../build-system/mobile-theme-assets';
@@ -605,10 +609,10 @@ async function injectLauncherIcon(
     : null;
 
   const candidates = [
-    app?.iconUrl,
-    settings?.logoUrl,
     branding?.logoUrl,
     branding?.logoDataUrl,
+    settings?.logoUrl,
+    app?.iconUrl,
     selectedTheme?.previewImage,
   ].filter((v): v is string => typeof v === 'string' && v.trim().length > 0);
 
@@ -634,18 +638,7 @@ async function injectLauncherIcon(
       'main',
       'res',
     );
-    const densities = [
-      'mipmap-mdpi',
-      'mipmap-hdpi',
-      'mipmap-xhdpi',
-      'mipmap-xxhdpi',
-      'mipmap-xxxhdpi',
-    ];
-    for (const density of densities) {
-      const target = join(resRoot, density, 'ic_launcher.png');
-      await fs.mkdir(dirname(target), { recursive: true });
-      await fs.writeFile(target, icon);
-    }
+    await writeAndroidLauncherIcons(resRoot, icon);
     await thisLog(
       logsRepo,
       buildJob.id,
@@ -680,9 +673,7 @@ async function readPngIcon(
   }
 
   if (!bytes) return null;
-  if (isPng(bytes)) return bytes;
-  if (isJpeg(bytes)) return jpegToPng(bytes);
-  return null;
+  return normalizeLauncherIcon(bytes);
 }
 
 function decodeDataUrl(source: string): Buffer | null {
@@ -730,58 +721,6 @@ async function downloadPng(
       'WARN',
       `Icon download failed: ${message}`,
     );
-    return null;
-  }
-}
-
-function isPng(bytes: Buffer): boolean {
-  return (
-    bytes.length > 8 &&
-    bytes[0] === 0x89 &&
-    bytes[1] === 0x50 &&
-    bytes[2] === 0x4e &&
-    bytes[3] === 0x47 &&
-    bytes[4] === 0x0d &&
-    bytes[5] === 0x0a &&
-    bytes[6] === 0x1a &&
-    bytes[7] === 0x0a
-  );
-}
-
-function isJpeg(bytes: Buffer): boolean {
-  return (
-    bytes.length > 4 &&
-    bytes[0] === 0xff &&
-    bytes[1] === 0xd8 &&
-    bytes[bytes.length - 2] === 0xff &&
-    bytes[bytes.length - 1] === 0xd9
-  );
-}
-
-function jpegToPng(bytes: Buffer): Buffer | null {
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const jpeg = require('jpeg-js') as {
-      decode(
-        input: Buffer,
-        opts?: { useTArray?: boolean },
-      ): { width: number; height: number; data: Buffer };
-    };
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { PNG } = require('pngjs') as {
-      PNG: {
-        sync: {
-          write(input: { width: number; height: number; data: Buffer }): Buffer;
-        };
-      };
-    };
-    const decoded = jpeg.decode(bytes, { useTArray: true });
-    return PNG.sync.write({
-      width: decoded.width,
-      height: decoded.height,
-      data: Buffer.from(decoded.data),
-    });
-  } catch {
     return null;
   }
 }

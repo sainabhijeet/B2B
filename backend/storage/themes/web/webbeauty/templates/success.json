@@ -1,0 +1,29 @@
+{
+    "route":  "/success",
+    "sections":  [
+                     {
+                         "id":  "success-0",
+                         "type":  "cta-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "success"
+                                      }
+                     },
+                     {
+                         "id":  "success-1",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "recommended_products"
+                                      }
+                     },
+                     {
+                         "id":  "success-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

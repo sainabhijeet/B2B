@@ -1,6 +1,7 @@
 import { getStorefrontLanguage } from "@/lib/storefront-language";
 import { translate } from "@/lib/translation-engine";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
+import ThemedContentPage from "@/components/ThemedContentPage";
 
 const posts = [
   ["Buying Guide", "How to choose premium electronics without overpaying"],
@@ -11,7 +12,7 @@ const posts = [
 export default async function BlogPage() {
   const language = await getStorefrontLanguage();
   const t = (text: string) => translate(text, language);
-  return (
+  const fallback = (
     <StorefrontLocaleFrame languageCode={language} className="theme-storefront">
     <div className="min-h-screen bg-slate-50">
       <main className="mx-auto max-w-6xl px-4 py-10">
@@ -30,4 +31,5 @@ export default async function BlogPage() {
     </div>
     </StorefrontLocaleFrame>
   );
+  return <ThemedContentPage page="blog" fallback={fallback} />;
 }

@@ -70,22 +70,4 @@ void main() {
           result.map((Product product) => product.id), <String>['product-2']);
     }
   });
-
-  test('MOQ and GST filters use live product values', () {
-    final moq = CategoryCatalogFilter.apply(
-      products: products,
-      categories: const <Category>[beverages, staples],
-      selectedCategory: staples,
-      moqOnly: true,
-    );
-    final gst = CategoryCatalogFilter.apply(
-      products: products,
-      categories: const <Category>[beverages, staples],
-      selectedCategory: beverages,
-      gstOnly: true,
-    );
-
-    expect(moq.map((Product product) => product.id), <String>['product-2']);
-    expect(gst.map((Product product) => product.id), <String>['product-1']);
-  });
 }

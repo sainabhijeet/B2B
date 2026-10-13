@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import StorefrontLoginForm from "@/components/auth/StorefrontLoginForm";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
-import { getStorefrontLanguage } from "@/lib/storefront-language";
+import {
+  resolveStorefrontTheme,
+  storefrontDisplayName,
+} from "@/lib/resolve-storefront-theme";
 
 export const metadata: Metadata = {
   title: "Sign in",
@@ -27,10 +30,12 @@ export default async function StorefrontLoginPage({
 }: {
   searchParams: SearchParams;
 }) {
-  const [languageCode, query] = await Promise.all([
-    getStorefrontLanguage(),
+  const [resolved, query] = await Promise.all([
+    resolveStorefrontTheme(),
     searchParams,
   ]);
+  const branding = resolved.branding;
+  const languageCode = resolved.selectedLanguageCode;
 
   return (
     <StorefrontLocaleFrame
@@ -40,6 +45,11 @@ export default async function StorefrontLoginPage({
       <StorefrontLoginForm
         languageCode={languageCode}
         nextPath={safeNextPath(query.next)}
+        storeName={storefrontDisplayName(resolved)}
+        logoImageUrl={branding?.logoUrl || branding?.logoDataUrl || undefined}
+        tagline={branding?.tagline || undefined}
+        primaryColor={branding?.primaryColor || undefined}
+        secondaryColor={branding?.secondaryColor || undefined}
       />
     </StorefrontLocaleFrame>
   );

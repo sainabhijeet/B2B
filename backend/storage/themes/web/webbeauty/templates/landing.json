@@ -1,0 +1,53 @@
+{
+    "route":  "/landing",
+    "sections":  [
+                     {
+                         "id":  "landing-0",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "landing"
+                                      }
+                     },
+                     {
+                         "id":  "landing-1",
+                         "type":  "brand-strip",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "brand_slider"
+                                      }
+                     },
+                     {
+                         "id":  "landing-2",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "category_grid"
+                                      }
+                     },
+                     {
+                         "id":  "landing-3",
+                         "type":  "product-featured",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "featured_products"
+                                      }
+                     },
+                     {
+                         "id":  "landing-4",
+                         "type":  "testimonial-carousel",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "testimonial_slider"
+                                      }
+                     },
+                     {
+                         "id":  "landing-5",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

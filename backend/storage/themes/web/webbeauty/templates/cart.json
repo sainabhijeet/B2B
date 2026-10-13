@@ -1,0 +1,29 @@
+{
+    "route":  "/cart",
+    "sections":  [
+                     {
+                         "id":  "cart-0",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "cart"
+                                      }
+                     },
+                     {
+                         "id":  "cart-1",
+                         "type":  "cta-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "cta_banner"
+                                      }
+                     },
+                     {
+                         "id":  "cart-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

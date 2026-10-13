@@ -1,0 +1,117 @@
+{
+    "name":  "Beauty \u0026 Personal Care B2B Mobile",
+    "version":  "2.0.0",
+    "storefrontKey":  "beauty-personal-care-b2b-mobile",
+    "industry":  "beauty",
+    "description":  "Material 3 premium wholesale beauty mobile theme.",
+    "engine":  "flutter-material-3",
+    "mobile":  {
+                   "bottom_navigation":  [
+                                             "home",
+                                             "categories",
+                                             "offers",
+                                             "orders",
+                                             "profile"
+                                         ],
+                   "show_banner":  true,
+                   "card_style":  "rounded",
+                   "enable_quick_qty":  true,
+                   "base_layout":  "grid",
+                   "spacing":  "comfortable"
+               },
+    "allowedSections":  [
+                            "header",
+                            "header-basic",
+                            "hero-banner",
+                            "hero-split",
+                            "category-grid",
+                            "category-tiles",
+                            "category-banner",
+                            "filter-sidebar",
+                            "pagination",
+                            "product-grid",
+                            "product-carousel",
+                            "product-featured",
+                            "product-showcase",
+                            "product-detail",
+                            "related-products",
+                            "brand-strip",
+                            "promo-banner",
+                            "countdown-offer",
+                            "coupon-banner",
+                            "cta-banner",
+                            "newsletter",
+                            "editorial-grid",
+                            "image-text",
+                            "image-gallery",
+                            "testimonial-carousel",
+                            "feature-list",
+                            "feature-grid",
+                            "footer-basic",
+                            "footer-columns"
+                        ],
+    "capabilities":  {
+                         "variants":  {
+                                          "hero-banner":  [
+                                                              "app"
+                                                          ],
+                                          "footer-basic":  [
+                                                               "bottom-bar"
+                                                           ]
+                                      },
+                         "allowedSections":  [
+                                                 "header",
+                                                 "header-basic",
+                                                 "hero-banner",
+                                                 "hero-split",
+                                                 "category-grid",
+                                                 "category-tiles",
+                                                 "category-banner",
+                                                 "filter-sidebar",
+                                                 "pagination",
+                                                 "product-grid",
+                                                 "product-carousel",
+                                                 "product-featured",
+                                                 "product-showcase",
+                                                 "product-detail",
+                                                 "related-products",
+                                                 "brand-strip",
+                                                 "promo-banner",
+                                                 "countdown-offer",
+                                                 "coupon-banner",
+                                                 "cta-banner",
+                                                 "newsletter",
+                                                 "editorial-grid",
+                                                 "image-text",
+                                                 "image-gallery",
+                                                 "testimonial-carousel",
+                                                 "feature-list",
+                                                 "feature-grid",
+                                                 "footer-basic",
+                                                 "footer-columns"
+                                             ]
+                     },
+    "templates":  {
+                      "category":  "templates/category.json",
+                      "product":  "templates/product.json",
+                      "home":  "templates/home.json"
+                  },
+    "tokens":  {
+                   "typography":  "tokens/typography.json",
+                   "layout":  "tokens/layout.json",
+                   "spacing":  "tokens/spacing.json",
+                   "colors":  "tokens/colors.json"
+               },
+    "assets":  {
+                   "flutter":  "lib/main.dart"
+               },
+    "locales":  {
+                    "en":  "locales/en.json",
+                    "hi":  "locales/hi.json"
+                },
+    "languages":  [
+                      "en",
+                      "hi"
+                  ],
+    "defaultLanguage":  "en"
+}

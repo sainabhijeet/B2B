@@ -1,0 +1,114 @@
+{
+  "route": "/about",
+  "sections": [
+    {
+      "id": "about-hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "ABOUT GLOWORA",
+        "title": "Wholesale beauty, made simpler for growing retailers.",
+        "subtitle": "Glowora brings professional beauty and personal-care products into one organised B2B storefront, helping retailers discover stock, compare products and reorder with confidence.",
+        "image": "assets/banners/luxury-makeup-1200x628.png",
+        "primaryCta": "Explore our catalog",
+        "primaryHref": "/category",
+        "secondaryCta": "Shop by category",
+        "secondaryHref": "/category"
+      }
+    },
+    {
+      "id": "about-live-catalog",
+      "type": "feature-grid",
+      "settings": {
+        "eyebrow": "GLOWORA TODAY",
+        "title": "A real catalog built around retailer needs",
+        "subtitle": "These live figures come directly from the Glowora storefront catalog, so buyers can see the assortment available right now."
+      }
+    },
+    {
+      "id": "about-purpose",
+      "type": "image-text",
+      "settings": {
+        "eyebrow": "OUR PURPOSE",
+        "title": "Helping beauty retailers buy with confidence",
+        "body": "Running a beauty business means balancing quality, variety, margins and dependable replenishment. Glowora is designed to make that buying journey clearer and faster.\n\nFrom first discovery to repeat orders, our storefront keeps products, categories, account pricing and order information in one convenient place.",
+        "image": "assets/banners/skin-care-sale-1920x700.png",
+        "imageAlt": "Professional skincare and beauty products available through Glowora",
+        "imagePosition": "right",
+        "highlights": [
+          "Curated professional assortment",
+          "Clear product and pack information",
+          "Account-based trade pricing",
+          "Simple repeat ordering"
+        ]
+      }
+    },
+    {
+      "id": "about-values",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "HOW WE HELP",
+        "title": "Practical support at every step of wholesale buying",
+        "items": [
+          {
+            "icon": "01",
+            "title": "Discover the right products",
+            "text": "Browse organised categories, useful product details and professional imagery without wasting time."
+          },
+          {
+            "icon": "02",
+            "title": "Buy on retailer terms",
+            "text": "Sign in securely to access account pricing, quantity options and a checkout designed for trade orders."
+          },
+          {
+            "icon": "03",
+            "title": "Replenish with less effort",
+            "text": "Use saved products, order history and live catalog information to plan regular restocking more easily."
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-commitment",
+      "type": "image-text",
+      "settings": {
+        "eyebrow": "OUR COMMITMENT",
+        "title": "A dependable digital buying experience",
+        "body": "We focus on the details that matter to a working retailer: an easy-to-search catalog, accurate product presentation, secure account access and a straightforward path from selection to order.\n\nAs the Glowora catalog grows, the experience stays centred on clarity, convenience and stronger everyday buying decisions.",
+        "image": "assets/banners/luxury-makeup-1200x628.png",
+        "imageAlt": "Salon and personal-care products for professional retail businesses",
+        "imagePosition": "left",
+        "highlights": [
+          "Mobile-friendly shopping",
+          "Secure OTP account access",
+          "Wishlist and order history",
+          "Responsive retailer support"
+        ]
+      }
+    },
+    {
+      "id": "about-voice",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "A simpler way to discover professional beauty stock, understand the assortment and prepare the next retail order.",
+        "author": "The Glowora buying experience"
+      }
+    },
+    {
+      "id": "about-cta",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Build your next beauty order with Glowora",
+        "subtitle": "Browse the live catalog, explore current categories and sign in with your mobile number when you are ready to buy.",
+        "buttonLabel": "Browse products",
+        "buttonHref": "/category"
+      }
+    },
+    {
+      "id": "about-footer",
+      "type": "footer-columns",
+      "settings": {
+        "tagline": "Wholesale beauty and personal-care essentials for ambitious retailers across India."
+      }
+    }
+  ]
+}

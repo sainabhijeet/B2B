@@ -15,6 +15,7 @@ type Props = {
 
 type AddressForm = {
   label: string;
+  customLabel: string;
   line1: string;
   line2: string;
   city: string;
@@ -24,6 +25,7 @@ type AddressForm = {
 
 const EMPTY_FORM: AddressForm = {
   label: "Home",
+  customLabel: "",
   line1: "",
   line2: "",
   city: "",
@@ -57,7 +59,7 @@ export default function CheckoutAddress({ addresses, value, onChange, onAdded, d
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          label: form.label.trim(),
+          label: form.label === "Other" ? form.customLabel.trim() || "Other" : form.label,
           line1: form.line1.trim(),
           line2: form.line2.trim(),
           city: form.city.trim(),
@@ -129,9 +131,12 @@ export default function CheckoutAddress({ addresses, value, onChange, onAdded, d
             <label className="text-xs font-medium text-slate-700">{t("Save as")}
               <select value={form.label} onChange={(event) => update("label", event.target.value)} disabled={busy || disabled} className={inputClass}>
                 <option value="Home">{t("Home")}</option>
-                <option value="Work">{t("Work")}</option>
+                <option value="Office">{t("Office")}</option>
                 <option value="Other">{t("Other")}</option>
               </select>
+              {form.label === "Other" ? (
+                <input value={form.customLabel} onChange={(event) => update("customLabel", event.target.value)} maxLength={64} disabled={busy || disabled} className={inputClass} placeholder={t("Custom label (optional)")} />
+              ) : null}
             </label>
             <label className="text-xs font-medium text-slate-700">{t("Pincode")}
               <input value={form.pincode} onChange={(event) => update("pincode", event.target.value.replace(/\D/gu, "").slice(0, 6))} inputMode="numeric" autoComplete="postal-code" pattern="[0-9]{6}" required disabled={busy || disabled} className={inputClass} />

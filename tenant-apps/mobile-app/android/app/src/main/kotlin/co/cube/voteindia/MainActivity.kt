@@ -1,4 +1,4 @@
-package co.cube.ridego
+package co.cube.glowora
 
 import android.content.ContentValues
 import android.content.Intent
@@ -13,8 +13,8 @@ import java.io.File
 import java.io.FileOutputStream
 
 class MainActivity : FlutterActivity() {
-    private val invoiceFilesChannel = "ridego/invoice_files"
-    private val paymentNavigationChannel = "ridego/payment_navigation"
+    private val invoiceFilesChannel = "glowora/invoice_files"
+    private val paymentNavigationChannel = "glowora/payment_navigation"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)

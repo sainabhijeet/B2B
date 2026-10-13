@@ -1,0 +1,29 @@
+{
+    "route":  "/dashboard",
+    "sections":  [
+                     {
+                         "id":  "dashboard-0",
+                         "type":  "feature-list",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "dashboard"
+                                      }
+                     },
+                     {
+                         "id":  "dashboard-1",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "product_grid"
+                                      }
+                     },
+                     {
+                         "id":  "dashboard-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

@@ -21,6 +21,7 @@ coverage
 *.tsbuildinfo
 .DS_Store
 __MACOSX/
+/saas-platform.zip
 
 # Local IDE state and generated/downloaded output
 .cursor/

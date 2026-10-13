@@ -27,6 +27,7 @@ export async function suggestPalettes(body: {
   business_name: string;
   industry: string;
   style?: string;
+  count?: number;
 }): Promise<{ palettes: BrandPalette[] }> {
   return apiPost<{ palettes: BrandPalette[] }>("/branding/suggest-palettes", body);
 }

@@ -1,0 +1,37 @@
+{
+    "route":  "/category",
+    "sections":  [
+                     {
+                         "id":  "category-0",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "category"
+                                      }
+                     },
+                     {
+                         "id":  "category-1",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "category_grid"
+                                      }
+                     },
+                     {
+                         "id":  "category-2",
+                         "type":  "product-featured",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "featured_products"
+                                      }
+                     },
+                     {
+                         "id":  "category-3",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

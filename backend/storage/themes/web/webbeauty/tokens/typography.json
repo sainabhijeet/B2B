@@ -1,0 +1,56 @@
+{
+    "families":  {
+                     "body":  "Inter, system-ui, sans-serif",
+                     "display":  "Playfair Display, Georgia, serif"
+                 },
+    "displayLarge":  {
+                         "weight":  700,
+                         "size":  56,
+                         "lineHeight":  64
+                     },
+    "displayMedium":  {
+                          "weight":  700,
+                          "size":  44,
+                          "lineHeight":  52
+                      },
+    "headlineLarge":  {
+                          "weight":  700,
+                          "size":  32,
+                          "lineHeight":  40
+                      },
+    "headlineMedium":  {
+                           "weight":  700,
+                           "size":  24,
+                           "lineHeight":  32
+                       },
+    "titleLarge":  {
+                       "weight":  700,
+                       "size":  20,
+                       "lineHeight":  28
+                   },
+    "titleMedium":  {
+                        "weight":  600,
+                        "size":  16,
+                        "lineHeight":  24
+                    },
+    "bodyLarge":  {
+                      "weight":  400,
+                      "size":  16,
+                      "lineHeight":  26
+                  },
+    "bodyMedium":  {
+                       "weight":  400,
+                       "size":  14,
+                       "lineHeight":  22
+                   },
+    "labelLarge":  {
+                       "weight":  700,
+                       "size":  14,
+                       "lineHeight":  20
+                   },
+    "caption":  {
+                    "weight":  500,
+                    "size":  12,
+                    "lineHeight":  18
+                }
+}

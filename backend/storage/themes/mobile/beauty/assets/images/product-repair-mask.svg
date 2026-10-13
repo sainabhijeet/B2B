@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-label="Bond Repair Hair Mask">
+ <defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#FFF1F6"/></linearGradient></defs>
+ <rect width="640" height="720" rx="42" fill="url(#g)"/><circle cx="480" cy="155" r="120" fill="#E9D5FF" opacity=".32"/><g transform="translate(0 62)"><rect x='245' y='148' width='150' height='260' rx='34' fill='#E9D5FF'/><path d='M280 145v-45h105v24h-68v25' stroke='#8E24AA' stroke-width='18' fill='none'/><rect x='272' y='242' width='96' height='78' rx='22' fill='#fff' opacity='.75'/></g>
+ <text x="44" y="608" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#C2185B">LUMERA PRO</text>
+ <text x="44" y="646" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#1F2937">Bond Repair Hair Mask</text><text x="44" y="680" font-family="Inter,Arial" font-size="18" fill="#6B7280">200ml · Trade ready</text>
+</svg>

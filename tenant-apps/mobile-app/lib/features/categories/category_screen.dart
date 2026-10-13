@@ -3,10 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/localization/language_provider.dart';
 import '../../shared/models/models.dart';
-import '../credit/credit_screen.dart';
 import '../products/product_detail_screen.dart';
 import '../products/products_provider.dart';
-import '../settings/settings_detail_screens.dart';
 import 'category_catalog_filter.dart';
 
 class CategoryScreen extends ConsumerStatefulWidget {
@@ -20,8 +18,6 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
   final TextEditingController _searchController = TextEditingController();
   int _selectedIndex = 0;
   String _query = '';
-  bool _moqOnly = false;
-  bool _gstOnly = false;
 
   @override
   void dispose() {
@@ -35,79 +31,6 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
       _selectedIndex = index;
       _query = '';
     });
-  }
-
-  void _openCredit(String Function(String) t) {
-    Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (BuildContext context) => SettingsDetailScaffold(
-          title: t('Credit'),
-          child: const CreditScreen(),
-        ),
-      ),
-    );
-  }
-
-  Future<void> _showFilters(String Function(String) t) async {
-    await showModalBottomSheet<void>(
-      context: context,
-      showDragHandle: true,
-      builder: (BuildContext context) {
-        return StatefulBuilder(
-          builder: (BuildContext context, StateSetter setSheetState) {
-            void update(VoidCallback change) {
-              setState(change);
-              setSheetState(() {});
-            }
-
-            return SafeArea(
-              top: false,
-              child: Padding(
-                padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: <Widget>[
-                    Text(
-                      t('Catalog filters'),
-                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            fontWeight: FontWeight.w800,
-                          ),
-                    ),
-                    const SizedBox(height: 8),
-                    SwitchListTile.adaptive(
-                      contentPadding: EdgeInsets.zero,
-                      title: Text(t('MOQ greater than 1')),
-                      secondary: const Icon(Icons.inventory_2_outlined),
-                      value: _moqOnly,
-                      onChanged: (bool value) => update(() => _moqOnly = value),
-                    ),
-                    SwitchListTile.adaptive(
-                      contentPadding: EdgeInsets.zero,
-                      title: Text(t('GST applicable')),
-                      secondary: const Icon(Icons.receipt_long_outlined),
-                      value: _gstOnly,
-                      onChanged: (bool value) => update(() => _gstOnly = value),
-                    ),
-                    const SizedBox(height: 8),
-                    OutlinedButton.icon(
-                      onPressed: !_moqOnly && !_gstOnly
-                          ? null
-                          : () => update(() {
-                                _moqOnly = false;
-                                _gstOnly = false;
-                              }),
-                      icon: const Icon(Icons.filter_alt_off_outlined),
-                      label: Text(t('Clear filters')),
-                    ),
-                  ],
-                ),
-              ),
-            );
-          },
-        );
-      },
-    );
   }
 
   @override
@@ -143,8 +66,6 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
               categories: items,
               selectedCategory: selectedCategory,
               query: _query,
-              moqOnly: _moqOnly,
-              gstOnly: _gstOnly,
             );
             return _B2BCategoryPage(
               categories: items,
@@ -153,22 +74,12 @@ class _CategoryScreenState extends ConsumerState<CategoryScreen> {
               products: visibleProducts,
               searchController: _searchController,
               query: _query,
-              moqOnly: _moqOnly,
-              gstOnly: _gstOnly,
               onSearchChanged: (String value) {
                 setState(() => _query = value);
               },
               onClearSearch: () {
                 _searchController.clear();
                 setState(() => _query = '');
-              },
-              onFiltersPressed: () => _showFilters(t),
-              onCreditPressed: () => _openCredit(t),
-              onMoqPressed: () {
-                setState(() => _moqOnly = !_moqOnly);
-              },
-              onGstPressed: () {
-                setState(() => _gstOnly = !_gstOnly);
               },
               onSelected: _selectCategory,
             );
@@ -199,14 +110,8 @@ class _B2BCategoryPage extends ConsumerWidget {
     required this.products,
     required this.searchController,
     required this.query,
-    required this.moqOnly,
-    required this.gstOnly,
     required this.onSearchChanged,
     required this.onClearSearch,
-    required this.onFiltersPressed,
-    required this.onCreditPressed,
-    required this.onMoqPressed,
-    required this.onGstPressed,
     required this.onSelected,
   });
 
@@ -216,14 +121,8 @@ class _B2BCategoryPage extends ConsumerWidget {
   final List<Product> products;
   final TextEditingController searchController;
   final String query;
-  final bool moqOnly;
-  final bool gstOnly;
   final ValueChanged<String> onSearchChanged;
   final VoidCallback onClearSearch;
-  final VoidCallback onFiltersPressed;
-  final VoidCallback onCreditPressed;
-  final VoidCallback onMoqPressed;
-  final VoidCallback onGstPressed;
   final ValueChanged<int> onSelected;
 
   @override
@@ -237,95 +136,11 @@ class _B2BCategoryPage extends ConsumerWidget {
         SliverPadding(
           padding: const EdgeInsets.fromLTRB(16, 14, 16, 0),
           sliver: SliverToBoxAdapter(
-            child: DecoratedBox(
-              decoration: BoxDecoration(
-                color: Color.alphaBlend(
-                  colors.primary.withValues(alpha: 0.06),
-                  colors.surface,
-                ),
-                borderRadius: BorderRadius.circular(22),
-                border: Border.all(
-                  color: colors.outlineVariant.withValues(alpha: 0.7),
-                ),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(14),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: <Widget>[
-                              Text(
-                                t('Business catalog'),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: textTheme.titleLarge?.copyWith(
-                                  fontWeight: FontWeight.w900,
-                                  height: 1.05,
-                                ),
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                t('Registered wholesale categories'),
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: textTheme.bodySmall?.copyWith(
-                                  color: colors.onSurfaceVariant,
-                                  fontWeight: FontWeight.w700,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        _B2BBadge(label: t('B2B')),
-                      ],
-                    ),
-                    const SizedBox(height: 14),
-                    _SearchShell(
-                      controller: searchController,
-                      hint: t('Search SKUs, brands, categories'),
-                      filtersTooltip: t('Catalog filters'),
-                      onChanged: onSearchChanged,
-                      onClear: onClearSearch,
-                      onFiltersPressed: onFiltersPressed,
-                    ),
-                    const SizedBox(height: 12),
-                    Row(
-                      children: <Widget>[
-                        Expanded(
-                          child: _MetricTile(
-                            icon: Icons.account_balance_wallet_outlined,
-                            label: t('Credit'),
-                            onTap: onCreditPressed,
-                          ),
-                        ),
-                        const SizedBox(width: 8),
-                        Expanded(
-                          child: _MetricTile(
-                            icon: Icons.inventory_2_outlined,
-                            label: t('MOQ'),
-                            selected: moqOnly,
-                            onTap: onMoqPressed,
-                          ),
-                        ),
-                        const SizedBox(width: 8),
-                        Expanded(
-                          child: _MetricTile(
-                            icon: Icons.receipt_long_outlined,
-                            label: t('GST'),
-                            selected: gstOnly,
-                            onTap: onGstPressed,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
+            child: _SearchShell(
+              controller: searchController,
+              hint: t('Search SKUs, brands, categories'),
+              onChanged: onSearchChanged,
+              onClear: onClearSearch,
             ),
           ),
         ),
@@ -449,18 +264,14 @@ class _SearchShell extends StatelessWidget {
   const _SearchShell({
     required this.controller,
     required this.hint,
-    required this.filtersTooltip,
     required this.onChanged,
     required this.onClear,
-    required this.onFiltersPressed,
   });
 
   final TextEditingController controller;
   final String hint;
-  final String filtersTooltip;
   final ValueChanged<String> onChanged;
   final VoidCallback onClear;
-  final VoidCallback onFiltersPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -485,24 +296,14 @@ class _SearchShell extends StatelessWidget {
             color: colors.onSurfaceVariant,
             size: 21,
           ),
-          suffixIconConstraints: const BoxConstraints(minWidth: 48),
-          suffixIcon: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              if (controller.text.isNotEmpty)
-                IconButton(
+          suffixIcon: controller.text.isNotEmpty
+              ? IconButton(
                   tooltip:
                       MaterialLocalizations.of(context).deleteButtonTooltip,
                   onPressed: onClear,
                   icon: const Icon(Icons.close, size: 19),
-                ),
-              IconButton(
-                tooltip: filtersTooltip,
-                onPressed: onFiltersPressed,
-                icon: Icon(Icons.tune, color: colors.primary, size: 20),
-              ),
-            ],
-          ),
+                )
+              : null,
           contentPadding: const EdgeInsets.symmetric(vertical: 12),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15),
@@ -515,68 +316,6 @@ class _SearchShell extends StatelessWidget {
             borderSide: BorderSide(
               color: colors.outlineVariant.withValues(alpha: 0.7),
             ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _MetricTile extends StatelessWidget {
-  const _MetricTile({
-    required this.icon,
-    required this.label,
-    required this.onTap,
-    this.selected = false,
-  });
-
-  final IconData icon;
-  final String label;
-  final VoidCallback onTap;
-  final bool selected;
-
-  @override
-  Widget build(BuildContext context) {
-    final ColorScheme colors = Theme.of(context).colorScheme;
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(13),
-        child: AnimatedContainer(
-          height: 40,
-          duration: const Duration(milliseconds: 160),
-          padding: const EdgeInsets.symmetric(horizontal: 8),
-          decoration: BoxDecoration(
-            color: selected ? colors.primaryContainer : colors.surface,
-            borderRadius: BorderRadius.circular(13),
-            border: Border.all(
-              color: selected
-                  ? colors.primary
-                  : colors.outlineVariant.withValues(alpha: 0.45),
-            ),
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Icon(
-                selected ? Icons.check : icon,
-                color: selected ? colors.onPrimaryContainer : colors.primary,
-                size: 16,
-              ),
-              const SizedBox(width: 5),
-              Flexible(
-                child: Text(
-                  label,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        color: selected ? colors.onPrimaryContainer : null,
-                        fontWeight: FontWeight.w900,
-                      ),
-                ),
-              ),
-            ],
           ),
         ),
       ),

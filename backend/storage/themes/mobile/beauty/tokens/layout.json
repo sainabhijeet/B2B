@@ -1,0 +1,8 @@
+{
+    "radius":  "16px",
+    "breakpoints":  {
+                        "tablet":  768,
+                        "mobile":  375
+                    },
+    "container":  "mobile"
+}

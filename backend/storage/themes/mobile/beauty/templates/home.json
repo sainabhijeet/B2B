@@ -1,0 +1,88 @@
+{
+  "sections": [
+    {
+      "id": "home-hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "WHOLESALE BEAUTY, CURATED",
+        "title": "Grow your beauty business with better buying.",
+        "subtitle": "Trade pricing, verified products, flexible case packs and reliable delivery for modern beauty retailers.",
+        "image": "assets/banners/skin-care-sale-1200x628.png",
+        "primaryCta": "Shop all products"
+      }
+    },
+    {
+      "id": "home-live-catalog",
+      "type": "feature-grid",
+      "settings": {
+        "eyebrow": "LIVE GLOWORA CATALOG",
+        "title": "Everything you need to stock your beauty business",
+        "subtitle": "Real products, live categories and retailer pricing from your current Glowora catalog."
+      }
+    },
+    {
+      "id": "home-categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by category",
+        "subtitle": "Source salon, skincare, haircare and personal-care essentials in a few clicks."
+      }
+    },
+    {
+      "id": "home-brands",
+      "type": "brand-spotlight",
+      "settings": {
+        "eyebrow": "LIVE BRAND DIRECTORY",
+        "title": "Brands retailers keep coming back to",
+        "subtitle": "Explore active brands from the Glowora catalog.",
+        "limit": 12
+      }
+    },
+    {
+      "id": "home-popular",
+      "type": "product-carousel",
+      "settings": {
+        "title": "Popular with beauty retailers",
+        "limit": 6
+      }
+    },
+    {
+      "id": "home-offer",
+      "type": "promo-banner",
+      "settings": {
+        "eyebrow": "RETAILER BENEFIT",
+        "title": "Better value on larger quantities",
+        "subtitle": "Sign in to view trade pricing and quantity slabs available for your account.",
+        "ctaLabel": "Explore catalog"
+      }
+    },
+    {
+      "id": "home-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Professional beauty essentials",
+        "subtitle": "Browse the latest live products from the Glowora wholesale catalog.",
+        "limit": 8
+      }
+    },
+    {
+      "id": "home-new-arrivals",
+      "type": "product-carousel",
+      "settings": {
+        "title": "Fresh arrivals for your shelves",
+        "subtitle": "Discover the newest products added to the live wholesale catalog.",
+        "sort": "newest",
+        "limit": 8
+      }
+    },
+    {
+      "id": "home-recently-viewed",
+      "type": "recently-viewed-products",
+      "settings": {
+        "title": "Recently viewed products",
+        "subtitle": "Continue browsing products you opened recently.",
+        "limit": 8
+      }
+    }
+  ]
+}

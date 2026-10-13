@@ -43,6 +43,33 @@ import { isValidUpiId, normalizeUpiId, upiValidationMessage } from "@/lib/upiQr"
 import { emptyOnboardingDraft, type OnboardingDraft, type PlatformChoice } from "@/types/onboarding";
 import { countryFlagEmoji, parseCountriesListResponse, type PublicCountryRow } from "@shared/country-phone-display";
 
+const PALETTE_SUGGESTION_COUNT = 9;
+const PALETTE_SUGGESTION_STYLE = "varied professional";
+
+function normalizeIndustryKey(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function themeMatchesIndustry(theme: PublicTheme, industry: string): boolean {
+  const industryKey = normalizeIndustryKey(industry);
+  if (!industryKey) return false;
+  const candidates = [theme.themeType, ...theme.industryTags];
+  return candidates.some((candidate) => normalizeIndustryKey(candidate) === industryKey);
+}
+
+function comboMatchesIndustry(combo: PublicThemeCombo, industry: string): boolean {
+  const industryKey = normalizeIndustryKey(industry);
+  if (!industryKey) return false;
+  return combo.industryTags.some(
+    (candidate) => normalizeIndustryKey(candidate) === industryKey,
+  );
+}
+
 function stepSequence(platform: PlatformChoice | ""): number[] {
   if (platform === "website_and_mobile") return [1, 2, 3, 4, 5, 6, 7];
   return [1, 2, 3, 4, 5, 7];
@@ -203,6 +230,7 @@ export function OnboardingWizard() {
   const [themeCombos, setThemeCombos] = useState<PublicThemeCombo[]>([]);
   const [themeCombosLoading, setThemeCombosLoading] = useState(true);
   const [themeCombosError, setThemeCombosError] = useState<string | null>(null);
+  const [themeIndustryFilter, setThemeIndustryFilter] = useState("");
   const [platformLanguages, setPlatformLanguages] = useState<PlatformLanguage[]>([]);
   const [languagesLoading, setLanguagesLoading] = useState(true);
   const [languagesError, setLanguagesError] = useState<string | null>(null);
@@ -624,6 +652,27 @@ export function OnboardingWizard() {
     () => themes.filter((t) => (t.themeChannel ?? "").toUpperCase() === "MOBILE"),
     [themes],
   );
+  const selectedIndustryName = useMemo(
+    () => industries.find((industry) => industry.industryId === draft.industry)?.name?.trim() || "",
+    [draft.industry, industries],
+  );
+  const activeThemeIndustry = themeIndustryFilter || selectedIndustryName;
+  const industryWebThemes = useMemo(
+    () => webThemes.filter((theme) => themeMatchesIndustry(theme, activeThemeIndustry)),
+    [activeThemeIndustry, webThemes],
+  );
+  const industryMobileThemes = useMemo(
+    () => mobileThemes.filter((theme) => themeMatchesIndustry(theme, activeThemeIndustry)),
+    [activeThemeIndustry, mobileThemes],
+  );
+  const industryThemeCombos = useMemo(
+    () => themeCombos.filter((combo) => comboMatchesIndustry(combo, activeThemeIndustry)),
+    [activeThemeIndustry, themeCombos],
+  );
+
+  useEffect(() => {
+    if (selectedIndustryName) setThemeIndustryFilter(selectedIndustryName);
+  }, [selectedIndustryName]);
 
   useEffect(() => {
     if (step !== 3) return;
@@ -647,23 +696,23 @@ export function OnboardingWizard() {
   }, [draft.platform, step, seq]);
 
   useEffect(() => {
+    if (!activeThemeIndustry || themesLoading) return;
     if (draft.platform === "website_and_mobile") {
-      if (themesLoading) return;
       let nextThemeId = draft.themeId;
       let nextMobileThemeId = draft.mobileThemeId;
       let nextComboId = draft.comboId;
-      const selectedCombo = themeCombos.find((c) => c.id === draft.comboId) ?? null;
+      const selectedCombo = industryThemeCombos.find((c) => c.id === draft.comboId) ?? null;
       if (selectedCombo) {
         nextThemeId = selectedCombo.webThemeId;
         nextMobileThemeId = selectedCombo.mobileThemeId;
       } else if (nextComboId) {
         nextComboId = "";
       }
-      if (!webThemes.some((t) => t.id === nextThemeId)) {
-        nextThemeId = webThemes[0]?.id ?? "";
+      if (!industryWebThemes.some((t) => t.id === nextThemeId)) {
+        nextThemeId = industryWebThemes[0]?.id ?? "";
       }
-      if (!mobileThemes.some((t) => t.id === nextMobileThemeId)) {
-        nextMobileThemeId = mobileThemes[0]?.id ?? "";
+      if (!industryMobileThemes.some((t) => t.id === nextMobileThemeId)) {
+        nextMobileThemeId = industryMobileThemes[0]?.id ?? "";
       }
       if (
         nextThemeId !== draft.themeId ||
@@ -679,13 +728,25 @@ export function OnboardingWizard() {
       }
       return;
     }
-    if (themesLoading || webThemes.length === 0) return;
-    const selectedStillValid = webThemes.some((t) => t.id === draft.themeId);
+    const selectedStillValid = industryWebThemes.some((t) => t.id === draft.themeId);
     if (selectedStillValid && !draft.mobileThemeId && !draft.comboId) return;
-    const first = webThemes[0];
-    if (!first) return;
-    persist({ ...draft, themeId: first.id, mobileThemeId: "", comboId: "" });
-  }, [draft, mobileThemes, persist, themeCombos, themesLoading, webThemes]);
+    const nextThemeId = industryWebThemes[0]?.id ?? "";
+    if (draft.themeId === nextThemeId && !draft.mobileThemeId && !draft.comboId) return;
+    persist({
+      ...draft,
+      themeId: nextThemeId,
+      mobileThemeId: "",
+      comboId: "",
+    });
+  }, [
+    draft,
+    industryMobileThemes,
+    industryThemeCombos,
+    industryWebThemes,
+    persist,
+    activeThemeIndustry,
+    themesLoading,
+  ]);
 
   if (!tenantId) {
     return <Navigate to="/login" replace />;
@@ -735,11 +796,11 @@ export function OnboardingWizard() {
         return !!draft.storeDisplayName.trim() && domainStepOk;
       case 5:
         if (draft.platform === "website_and_mobile") {
-          const webOk = webThemes.some((t) => t.id === draft.themeId);
-          const mobileOk = mobileThemes.some((t) => t.id === draft.mobileThemeId);
+          const webOk = industryWebThemes.some((t) => t.id === draft.themeId);
+          const mobileOk = industryMobileThemes.some((t) => t.id === draft.mobileThemeId);
           return webOk && mobileOk;
         }
-        return webThemes.length > 0 && webThemes.some((t) => t.id === draft.themeId);
+        return industryWebThemes.some((t) => t.id === draft.themeId);
       case 6:
         return !!(draft.appName.trim() && draft.appPackage.trim() && appPackageStepOk);
       default:
@@ -900,6 +961,8 @@ export function OnboardingWizard() {
               themeCombos={themeCombos}
               themeCombosLoading={themeCombosLoading}
               themeCombosError={themeCombosError}
+              industryFilter={activeThemeIndustry}
+              onIndustryFilterChange={setThemeIndustryFilter}
             />
           ) : null}
           {step === 6 && draft.platform === "website_and_mobile" ? (
@@ -1527,6 +1590,8 @@ function LogoAiModal({
       const res = await suggestPalettes({
         business_name: businessName,
         industry: industryLabel,
+        style: PALETTE_SUGGESTION_STYLE,
+        count: PALETTE_SUGGESTION_COUNT,
       });
       setModalPalettes(res.palettes);
     } catch (e) {
@@ -1635,7 +1700,9 @@ function LogoAiModal({
               onClick={() => void loadModalPalettes()}
               className="rounded-lg bg-slate-800 px-3 py-1.5 text-xs font-semibold text-white hover:bg-slate-900 disabled:opacity-50"
             >
-              {modalPaletteLoading ? "Loading…" : "Get palette suggestions"}
+              {modalPaletteLoading
+                ? "Loading…"
+                : `Get ${PALETTE_SUGGESTION_COUNT} palette suggestions`}
             </button>
             {hasValidPair ? (
               <button
@@ -1819,6 +1886,8 @@ function Step3({
       const res = await suggestPalettes({
         business_name: name,
         industry: industryLabel,
+        style: PALETTE_SUGGESTION_STYLE,
+        count: PALETTE_SUGGESTION_COUNT,
       });
       setPalettes(res.palettes);
     } catch (e) {
@@ -1871,7 +1940,12 @@ function Step3({
     }
     setKitLoading(true);
     try {
-      const palRes = await suggestPalettes({ business_name: name, industry: industryLabel });
+      const palRes = await suggestPalettes({
+        business_name: name,
+        industry: industryLabel,
+        style: PALETTE_SUGGESTION_STYLE,
+        count: PALETTE_SUGGESTION_COUNT,
+      });
       const first = palRes.palettes[0];
       const primaryNext = first?.primary ?? draft.primaryColor;
       const secondaryNext = first?.secondary ?? draft.secondaryColor;
@@ -2009,7 +2083,9 @@ function Step3({
               onClick={() => void onLoadPalettes()}
               className="rounded-lg bg-slate-800 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-900 disabled:opacity-50"
             >
-              {paletteLoading ? "Generating…" : "Generate colors"}
+              {paletteLoading
+                ? "Generating…"
+                : `Generate ${PALETTE_SUGGESTION_COUNT} colors`}
             </button>
             <button
               type="button"
@@ -2549,6 +2625,8 @@ function Step5({
   themeCombos,
   themeCombosLoading,
   themeCombosError,
+  industryFilter,
+  onIndustryFilterChange,
 }: {
   draft: OnboardingDraft;
   persist: (d: OnboardingDraft) => void;
@@ -2559,76 +2637,37 @@ function Step5({
   themeCombos: PublicThemeCombo[];
   themeCombosLoading: boolean;
   themeCombosError: string | null;
+  industryFilter: string;
+  onIndustryFilterChange: (industry: string) => void;
 }) {
-  const selectedIndustryLabel =
-    industries.find((i) => i.industryId === draft.industry)?.name?.trim() || "";
-  const [industryFilter, setIndustryFilter] = useState<string>(selectedIndustryLabel || "all");
-
-  useEffect(() => {
-    if (!selectedIndustryLabel) return;
-    setIndustryFilter((prev) => (prev === "all" ? selectedIndustryLabel : prev));
-  }, [selectedIndustryLabel]);
-
-  const norm = (v: string) => v.trim().toLowerCase();
-  const industryWords = (value: string) =>
-    norm(value)
-      .split(/[^a-z0-9]+/)
-      .filter((word) => word.length >= 3 && !["and", "the", "for", "materials", "products", "supplies"].includes(word));
-  const industryOptions = useMemo(() => {
-    const set = new Set<string>();
-    for (const i of industries) {
-      const n = i.name?.trim();
-      if (n) set.add(n);
-    }
-    return ["all", ...Array.from(set).sort((a, b) => a.localeCompare(b))];
-  }, [industries]);
-
-  function themeMatchesIndustry(t: PublicTheme, filter: string): boolean {
-    if (filter === "all") return true;
-    const needle = norm(filter);
-    const candidates = t.industryTags.length > 0 ? t.industryTags : [t.themeName, t.themeType, t.slug ?? ""];
-    const needleWords = industryWords(needle);
-    return candidates.some((candidate) => {
-      const hay = norm(candidate);
-      if (!hay) return false;
-      if (hay === needle || hay.includes(needle) || needle.includes(hay)) return true;
-      const hayWords = new Set(industryWords(hay));
-      return needleWords.some((word) => hayWords.has(word));
-    });
-  }
-
-  function comboMatchesIndustry(c: PublicThemeCombo, filter: string): boolean {
-    if (filter === "all") return true;
-    const needle = norm(filter);
-    const candidates = c.industryTags.length > 0 ? c.industryTags : [c.name, c.webThemeName, c.mobileThemeName];
-    const needleWords = industryWords(needle);
-    return candidates.some((candidate) => {
-      const hay = norm(candidate);
-      if (!hay) return false;
-      if (hay === needle || hay.includes(needle) || needle.includes(hay)) return true;
-      const hayWords = new Set(industryWords(hay));
-      return needleWords.some((word) => hayWords.has(word));
-    });
-  }
+  const industryOptions = useMemo(
+    () =>
+      [
+        "generic",
+        ...Array.from(
+          new Set(industries.map((industry) => industry.name?.trim()).filter(Boolean) as string[]),
+        ).sort((left, right) => left.localeCompare(right)),
+      ],
+    [industries],
+  );
+  const industryFilterLabel = normalizeIndustryKey(industryFilter) === "generic" ? "All Industry" : industryFilter;
 
   const webThemes = themes.filter((t) => (t.themeChannel ?? "WEB").toUpperCase() === "WEB");
   const mobileThemes = themes.filter((t) => (t.themeChannel ?? "").toUpperCase() === "MOBILE");
   const matchedWebThemes = webThemes.filter((t) => themeMatchesIndustry(t, industryFilter));
   const matchedMobileThemes = mobileThemes.filter((t) => themeMatchesIndustry(t, industryFilter));
   const matchedThemeCombos = themeCombos.filter((c) => comboMatchesIndustry(c, industryFilter));
-  const filteredWebThemes = industryFilter !== "all" && matchedWebThemes.length === 0 ? webThemes : matchedWebThemes;
-  const filteredMobileThemes =
-    industryFilter !== "all" && matchedMobileThemes.length === 0 ? mobileThemes : matchedMobileThemes;
-  const filteredThemeCombos =
-    industryFilter !== "all" && matchedThemeCombos.length === 0 ? themeCombos : matchedThemeCombos;
-  const showingIndustryFallback =
-    industryFilter !== "all" &&
+  const filteredWebThemes = matchedWebThemes;
+  const filteredMobileThemes = matchedMobileThemes;
+  const filteredThemeCombos = matchedThemeCombos;
+  const noIndustryThemes =
+    Boolean(industryFilter) &&
     matchedWebThemes.length === 0 &&
     matchedMobileThemes.length === 0 &&
     matchedThemeCombos.length === 0;
-  const selected = webThemes.find((t) => t.id === draft.themeId) ?? null;
-  const selectedMobile = mobileThemes.find((t) => t.id === draft.mobileThemeId) ?? null;
-  const selectedCombo = themeCombos.find((c) => c.id === draft.comboId) ?? null;
+  const selected = filteredWebThemes.find((t) => t.id === draft.themeId) ?? null;
+  const selectedMobile = filteredMobileThemes.find((t) => t.id === draft.mobileThemeId) ?? null;
+  const selectedCombo = filteredThemeCombos.find((c) => c.id === draft.comboId) ?? null;
   const isComboMode = draft.platform === "website_and_mobile";
 
   if (themesLoading || (isComboMode && themeCombosLoading)) {
@@ -2645,22 +2684,30 @@ function Step5({
       <h2 className="text-lg font-semibold text-slate-900">Theme</h2>
       <p className="mt-1 text-sm text-slate-600">Choose from Web, Mobile, or pre-matched Combo themes.</p>
       <div className="mt-4 max-w-sm">
-        <label className="text-xs font-semibold uppercase tracking-wide text-slate-500">Industry filter</label>
+        <label className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+          Industry filter
+        </label>
         <select
           className="input-base mt-1"
           value={industryFilter}
-          onChange={(e) => setIndustryFilter(e.target.value)}
+          onChange={(event) => onIndustryFilterChange(event.target.value)}
+          disabled={industryOptions.length === 0}
         >
-          {industryOptions.map((opt) => (
-            <option key={opt} value={opt}>
-              {opt === "all" ? "All industries" : opt}
+          {industryOptions.length === 0 ? <option value="">No industries available</option> : null}
+          {industryOptions.map((industry) => (
+            <option key={industry} value={industry}>
+              {industry === "generic" ? "All Industry" : industry}
             </option>
           ))}
         </select>
+        <p className="mt-1 text-[11px] text-slate-500">
+          All Industry shows only Generic / all-industries themes. Other options show exact industry themes.
+        </p>
       </div>
-      {showingIndustryFallback ? (
-        <p className="mt-3 rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs text-blue-800">
-          No exact industry-tagged theme is available yet. Showing all compatible themes instead.
+      {noIndustryThemes ? (
+        <p className="mt-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-900">
+          No active theme is uploaded for <strong>{industryFilterLabel}</strong>. Ask the Super Admin to upload a web or
+          mobile theme tagged with this exact industry.
         </p>
       ) : null}
       {themesError ? (

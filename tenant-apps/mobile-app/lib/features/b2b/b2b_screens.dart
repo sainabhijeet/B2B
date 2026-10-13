@@ -18,7 +18,7 @@ import '../settings/settings_detail_screens.dart';
 import 'b2b_providers.dart';
 
 const MethodChannel _invoiceFilesChannel =
-    MethodChannel('ridego/invoice_files');
+    MethodChannel('glowora/invoice_files');
 
 class BusinessGstScreen extends ConsumerStatefulWidget {
   const BusinessGstScreen({super.key});

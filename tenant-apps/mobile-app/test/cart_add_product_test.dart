@@ -52,9 +52,13 @@ void main() {
   test('cart quantity respects MOQ without entering a loading state', () async {
     int serverQuantity = 8;
     int updateRequests = 0;
+    int deleteRequests = 0;
+    bool lineDeleted = false;
     int abandonRequests = 0;
     int manualAbandonRequests = 0;
-    final Dio dio = Dio();
+    final Dio dio = Dio(
+      BaseOptions(baseUrl: 'http://10.0.2.2:3000/api/v1'),
+    );
     dio.interceptors.add(
       InterceptorsWrapper(
         onRequest: (RequestOptions options, RequestInterceptorHandler handler) {
@@ -66,22 +70,41 @@ void main() {
                 data: <String, dynamic>{
                   'success': true,
                   'data': <String, dynamic>{
-                    'items': <Map<String, dynamic>>[
-                      <String, dynamic>{
-                        'id': 'line-1',
-                        'productId': 'product-1',
-                        'quantity': serverQuantity,
-                        'priceSnapshot': '299.00',
-                        'taxRate': '5.00',
-                        'moq': 8,
-                        'stockQuantity': 20,
-                        'product': <String, dynamic>{
-                          'id': 'product-1',
-                          'name': 'Wholesale item',
-                        },
-                      },
-                    ],
+                    'items': lineDeleted
+                        ? <Map<String, dynamic>>[]
+                        : <Map<String, dynamic>>[
+                            <String, dynamic>{
+                              'id': 'line-1',
+                              'productId': 'product-1',
+                              'quantity': serverQuantity,
+                              'priceSnapshot': '299.00',
+                              'taxRate': '5.00',
+                              'moq': 8,
+                              'stockQuantity': 20,
+                              'product': <String, dynamic>{
+                                'id': 'product-1',
+                                'name': 'Wholesale item',
+                                'thumbnailUrl': '/storage/products/item.jpg',
+                              },
+                            },
+                          ],
                   },
+                },
+              ),
+            );
+            return;
+          }
+          if (options.method == 'DELETE' &&
+              options.path == '/cart/items/line-1') {
+            deleteRequests += 1;
+            lineDeleted = true;
+            handler.resolve(
+              Response<Map<String, dynamic>>(
+                requestOptions: options,
+                statusCode: 200,
+                data: <String, dynamic>{
+                  'success': true,
+                  'data': <String, dynamic>{'deleted': true},
                 },
               ),
             );
@@ -190,6 +213,10 @@ void main() {
     addTearDown(subscription.close);
 
     final item = container.read(cartProvider).requireValue.single;
+    expect(
+      item.imageUrl,
+      'http://10.0.2.2:3000/storage/products/item.jpg',
+    );
     await cart.updateQuantity(item, 7);
     expect(updateRequests, 0);
     expect(container.read(cartProvider).requireValue.single.quantity, 8);
@@ -222,6 +249,10 @@ void main() {
     expect(checkoutKeepsCartUntilPayment('RAZORPAY'), isTrue);
     expect(checkoutKeepsCartUntilPayment('CASH'), isFalse);
     expect(checkoutKeepsCartUntilPayment('CREDIT'), isFalse);
+
+    await cart.removeLine(item.lineId!);
+    expect(deleteRequests, 1);
+    expect(container.read(cartProvider).requireValue, isEmpty);
 
     expect(
       availableCreditAmount(creditLimit: 5000, outstanding: 1250),

@@ -67,7 +67,7 @@ export class StorefrontCustomerController {
     );
   }
 
-  /** Sends OTP if `customers` row exists for this store + mobile. */
+  /** Sends OTP to an eligible mobile; new customers are created only after verification. */
   @Post('login')
   @Throttle({ default: { limit: 5, ttl: 60_000 } })
   requestOtp(@Body() dto: StorefrontCustomerLoginDto, @Req() req: Request & { tenantId?: string | null }) {

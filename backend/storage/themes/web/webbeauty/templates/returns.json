@@ -1,0 +1,29 @@
+{
+    "route":  "/returns",
+    "sections":  [
+                     {
+                         "id":  "returns-0",
+                         "type":  "editorial-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "returns"
+                                      }
+                     },
+                     {
+                         "id":  "returns-1",
+                         "type":  "cta-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "cta_banner"
+                                      }
+                     },
+                     {
+                         "id":  "returns-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

@@ -8,6 +8,20 @@ import '../../shared/models/models.dart';
 final productsPageProvider = StateProvider<int>((_) => 1);
 final productsSearchProvider = StateProvider<String>((_) => '');
 
+final productsTotalProvider = FutureProvider<int>((ref) async {
+  final dio = ref.watch(apiClientProvider);
+  final res = await dio.get<Map<String, dynamic>>(
+    '/storefront/products',
+    queryParameters: const <String, dynamic>{'page': 1, 'limit': 1},
+  );
+  final data = nestEnvelopeData(res.data);
+  if (data is! Map) return 0;
+  final meta = data['meta'];
+  if (meta is! Map) return 0;
+  final rawTotal = meta['total'];
+  return rawTotal is num ? rawTotal.toInt() : int.tryParse('$rawTotal') ?? 0;
+});
+
 final productsProvider = FutureProvider<List<Product>>((ref) async {
   final dio = ref.watch(apiClientProvider);
   final page = ref.watch(productsPageProvider);

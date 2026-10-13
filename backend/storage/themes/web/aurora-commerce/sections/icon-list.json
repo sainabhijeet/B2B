@@ -1,1 +1,1 @@
-{"type":"icon-list","editable":true,"settingsSchema":{"title":{"type":"text","translation":true},"items":{"type":"array","item":"iconText"}},"defaultSettings":{"title":"home.value.title","items":"value.default"}}
+{"type":"icon-list","editable":true,"settingsSchema":{"eyebrow":{"type":"text","translation":true},"title":{"type":"text","translation":true},"items":{"type":"array","item":"iconText"}},"defaultSettings":{"title":"home.value.title","items":[]}}

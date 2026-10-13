@@ -54,10 +54,15 @@ class Product {
       variants.isEmpty ? null : variants.first;
 
   List<PriceSlab> slabsForVariant(String? variantId) {
-    final List<PriceSlab> variantSlabs = priceSlabs
-        .where((PriceSlab slab) => slab.variantId == variantId)
+    if (variantId != null) {
+      final List<PriceSlab> variantSlabs = priceSlabs
+          .where((PriceSlab slab) => slab.variantId == variantId)
+          .toList(growable: false);
+      if (variantSlabs.isNotEmpty) return variantSlabs;
+    }
+    return priceSlabs
+        .where((PriceSlab slab) => slab.variantId == null)
         .toList(growable: false);
-    return variantSlabs.isEmpty ? priceSlabs : variantSlabs;
   }
 
   double? unitPriceForQuantity(int quantity, {String? variantId}) {

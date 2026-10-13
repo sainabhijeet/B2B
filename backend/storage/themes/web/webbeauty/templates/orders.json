@@ -1,0 +1,21 @@
+{
+    "route":  "/orders",
+    "sections":  [
+                     {
+                         "id":  "orders-0",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "orders"
+                                      }
+                     },
+                     {
+                         "id":  "orders-1",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

@@ -1,0 +1,122 @@
+{
+    "name":  "Beauty \u0026 Personal Care B2B",
+    "version":  "2.0.0",
+    "storefrontKey":  "beauty-personal-care-b2b",
+    "industry":  "beauty",
+    "description":  "Premium wholesale beauty storefront theme.",
+    "engine":  "storefront-json-v2",
+    "allowedSections":  [
+                            "header",
+                            "header-basic",
+                            "hero-banner",
+                            "hero-split",
+                            "category-grid",
+                            "category-tiles",
+                            "category-banner",
+                            "filter-sidebar",
+                            "pagination",
+                            "product-grid",
+                            "product-carousel",
+                            "product-featured",
+                            "product-showcase",
+                            "product-detail",
+                            "related-products",
+                            "brand-strip",
+                            "promo-banner",
+                            "countdown-offer",
+                            "coupon-banner",
+                            "cta-banner",
+                            "newsletter",
+                            "editorial-grid",
+                            "image-text",
+                            "image-gallery",
+                            "testimonial-carousel",
+                            "feature-list",
+                            "feature-grid",
+                            "footer-basic",
+                            "footer-columns"
+                        ],
+    "capabilities":  {
+                         "variants":  {
+                                          "hero-banner":  [
+                                                              "split",
+                                                              "editorial"
+                                                          ],
+                                          "footer-columns":  [
+                                                                 "columns"
+                                                             ]
+                                      },
+                         "allowedSections":  [
+                                                 "header",
+                                                 "header-basic",
+                                                 "hero-banner",
+                                                 "hero-split",
+                                                 "category-grid",
+                                                 "category-tiles",
+                                                 "category-banner",
+                                                 "filter-sidebar",
+                                                 "pagination",
+                                                 "product-grid",
+                                                 "product-carousel",
+                                                 "product-featured",
+                                                 "product-showcase",
+                                                 "product-detail",
+                                                 "related-products",
+                                                 "brand-strip",
+                                                 "promo-banner",
+                                                 "countdown-offer",
+                                                 "coupon-banner",
+                                                 "cta-banner",
+                                                 "newsletter",
+                                                 "editorial-grid",
+                                                 "image-text",
+                                                 "image-gallery",
+                                                 "testimonial-carousel",
+                                                 "feature-list",
+                                                 "feature-grid",
+                                                 "footer-basic",
+                                                 "footer-columns"
+                                             ]
+                     },
+    "templates":  {
+                      "landing":  "templates/landing.json",
+                      "home":  "templates/home.json",
+                      "category":  "templates/category.json",
+                      "subcategory":  "templates/subcategory.json",
+                      "products":  "templates/products.json",
+                      "product":  "templates/product.json",
+                      "brand":  "templates/brand.json",
+                      "offers":  "templates/offers.json",
+                      "search":  "templates/search.json",
+                      "cart":  "templates/cart.json",
+                      "checkout":  "templates/checkout.json",
+                      "success":  "templates/success.json",
+                      "dashboard":  "templates/dashboard.json",
+                      "wishlist":  "templates/wishlist.json",
+                      "profile":  "templates/profile.json",
+                      "orders":  "templates/orders.json",
+                      "returns":  "templates/returns.json",
+                      "notifications":  "templates/notifications.json",
+                      "about":  "templates/about.json"
+                  },
+    "tokens":  {
+                   "typography":  "tokens/typography.json",
+                   "layout":  "tokens/layout.json",
+                   "spacing":  "tokens/spacing.json",
+                   "colors":  "tokens/colors.json"
+               },
+    "assets":  {
+                   "css":  "assets/css/theme.css",
+                   "javascript":  "assets/js/theme.js"
+               },
+    "locales":  {
+                    "en":  "locales/en.json",
+                    "hi":  "locales/hi.json"
+                },
+    "preview":  "preview/preview.png",
+    "languages":  [
+                      "en",
+                      "hi"
+                  ],
+    "defaultLanguage":  "en"
+}

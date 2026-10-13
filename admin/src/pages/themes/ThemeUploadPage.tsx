@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useThemes } from '@/components/themes/ThemesContext';
 import { ResourcePanel } from '@/components/ui/ResourcePanel';
 import { adminBtnPrimary, adminBtnSecondary } from '@/components/ui/buttonClasses';
-import { ApiError } from '@/lib/apiClient';
-import { THEME_INDUSTRY_OPTIONS } from '@/lib/themeDemoData';
+import { ApiError, apiGet } from '@/lib/apiClient';
+import type { IndustryRow } from '@/lib/industriesDemoData';
 import { themesLoadErrorMessage, uploadThemeZip } from '@/lib/themesApi';
 
 const lbl =
@@ -12,6 +12,12 @@ const lbl =
 const inp =
   'w-full rounded-sm border border-slate-200 bg-white px-2 py-1.5 text-xs';
 const THEME_UPLOAD_DRAFT_KEY = 'theme-upload-draft-v1';
+
+const LEGACY_INDUSTRY_ALIASES: Record<string, string> = {
+  industrial: 'Industrial Equipment',
+  diamond: 'Jewelry / Diamond',
+  retail: 'General Commerce',
+};
 
 type ThemeUploadDraft = {
   themeName: string;
@@ -72,6 +78,47 @@ export function ThemeUploadPage() {
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [industries, setIndustries] = useState<IndustryRow[]>([]);
+  const [industriesLoading, setIndustriesLoading] = useState(true);
+  const [industriesError, setIndustriesError] = useState<string | null>(null);
+
+  const loadIndustries = useCallback(async () => {
+    setIndustriesLoading(true);
+    setIndustriesError(null);
+    try {
+      const rows = await apiGet<IndustryRow[]>('/admin/industries');
+      setIndustries(
+        (Array.isArray(rows) ? rows : []).sort(
+          (a, b) => a.displayOrder - b.displayOrder || a.name.localeCompare(b.name),
+        ),
+      );
+    } catch (err) {
+      setIndustries([]);
+      setIndustriesError(
+        err instanceof ApiError ? err.message : 'Could not load the industry catalog.',
+      );
+    } finally {
+      setIndustriesLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    void loadIndustries();
+  }, [loadIndustries]);
+
+  useEffect(() => {
+    if (!industries.length || themeType === 'generic') return;
+    const normalized = themeType.trim().toLowerCase();
+    const alias = LEGACY_INDUSTRY_ALIASES[normalized];
+    const matchingIndustry = industries.find(
+      (industry) =>
+        industry.name.toLowerCase() === normalized ||
+        (alias != null && industry.name === alias),
+    );
+    if (matchingIndustry && matchingIndustry.name !== themeType) {
+      setThemeType(matchingIndustry.name);
+    }
+  }, [industries, themeType]);
 
   useEffect(() => {
     const payload: ThemeUploadDraft = {
@@ -201,17 +248,46 @@ export function ThemeUploadPage() {
           </div>
           <div>
             <label className={lbl}>Industry / Theme family</label>
-            <select className={inp} value={themeType} onChange={(e) => setThemeType(e.target.value)} required>
-              {THEME_INDUSTRY_OPTIONS.map((i) => (
-                <option key={i} value={i.toLowerCase()}>
-                  {i}
+            <select
+              className={inp}
+              value={themeType}
+              onChange={(e) => setThemeType(e.target.value)}
+              disabled={industriesLoading && industries.length === 0}
+              required
+            >
+              <option value="generic">Generic / all industries</option>
+              {industriesLoading ? <option disabled>Loading industries...</option> : null}
+              {!industriesLoading &&
+              themeType !== 'generic' &&
+              !industries.some((industry) => industry.name === themeType) ? (
+                <option value={themeType}>{themeType} (legacy value)</option>
+              ) : null}
+              {industries.map((industry) => (
+                <option
+                  key={industry.industryId}
+                  value={industry.name}
+                  disabled={industry.status !== 'active'}
+                >
+                  {industry.name}{industry.status !== 'active' ? ' (Inactive)' : ''}
                 </option>
               ))}
-              <option value="generic">Generic</option>
             </select>
             <p className="mt-1 text-[10px] text-slate-500">
-              Backend me yahi value <span className="font-mono">themeType</span> ke roop me save hoti hai.
+              Live Industries master se loaded. Backend me yahi value{' '}
+              <span className="font-mono">themeType</span> ke roop me save hoti hai.
             </p>
+            {industriesError ? (
+              <p className="mt-1 text-[10px] text-amber-700">
+                {industriesError}{' '}
+                <button
+                  type="button"
+                  className="font-semibold text-indigo-700 underline"
+                  onClick={() => void loadIndustries()}
+                >
+                  Retry
+                </button>
+              </p>
+            ) : null}
           </div>
           <div>
             <label className={lbl}>Platform</label>

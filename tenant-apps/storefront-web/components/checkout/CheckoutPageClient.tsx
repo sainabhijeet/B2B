@@ -5,8 +5,9 @@ import Link from "next/link";
 import type { CartApiEnvelope, CartLineItem } from "@/lib/cart-types";
 import type { BuyNowSelection, CheckoutPaymentMode, StorefrontAddress, StorefrontMeEnvelope } from "@/lib/checkout-types";
 import CheckoutAddress from "@/components/checkout/CheckoutAddress";
-import CheckoutSummary from "@/components/checkout/CheckoutSummary";
+import CheckoutSummary, { cartTotalsForCheckout } from "@/components/checkout/CheckoutSummary";
 import PlaceOrderButton from "@/components/checkout/PlaceOrderButton";
+import { formatCurrency } from "@/lib/language-consistency";
 import { translate } from "@/lib/translation-engine";
 
 function pickDefaultAddressId(addresses: StorefrontAddress[] | undefined): string | null {
@@ -22,6 +23,7 @@ type Props = {
   meStatus: number;
   paymentEnvelope: PaymentSettingsEnvelope;
   paymentStatus: number;
+  creditViewEnabled: boolean;
   languageCode: string;
   buyNow?: BuyNowSelection | null;
   buyNowItem?: CartLineItem | null;
@@ -57,6 +59,11 @@ function paymentSettingsFromEnvelope(envelope: PaymentSettingsEnvelope): Payment
   return settings.upiId || settings.accountNumber ? settings : null;
 }
 
+function moneyValue(value: string | number | null | undefined): number {
+  const parsed = Number(value ?? 0);
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
 export default function CheckoutPageClient({
   cartInitial,
   cartStatus,
@@ -64,6 +71,7 @@ export default function CheckoutPageClient({
   meStatus,
   paymentEnvelope,
   paymentStatus,
+  creditViewEnabled,
   languageCode,
   buyNow,
   buyNowItem,
@@ -74,6 +82,16 @@ export default function CheckoutPageClient({
   const cartId = cartInitial.data?.cart?.id ?? "";
   const me = meEnvelope.data ?? null;
   const paymentSettings = paymentSettingsFromEnvelope(paymentEnvelope);
+  const orderTotal = cartTotalsForCheckout(items).total;
+  const creditLimit = moneyValue(me?.creditLimit);
+  const outstanding = moneyValue(me?.creditBalance);
+  const availableCredit = Math.max(creditLimit - outstanding, 0);
+  const meFailed = meStatus !== 200 || !me;
+  const canUseCredit =
+    creditViewEnabled &&
+    !meFailed &&
+    creditLimit > 0 &&
+    orderTotal <= availableCredit + 0.005;
 
   const [addresses, setAddresses] = useState<StorefrontAddress[]>(meEnvelope.data?.addresses ?? []);
   const [addressId, setAddressId] = useState<string | null>(() =>
@@ -102,7 +120,7 @@ export default function CheckoutPageClient({
       <main className="mx-auto max-w-lg px-4 py-16 text-center">
         <h1 className="text-xl font-semibold text-slate-900">{t("Buy Now")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("This product or variant is unavailable. Please return to the product page.")}</p>
-        <Link href="/product" className="mt-8 inline-block text-sm font-semibold text-indigo-600 hover:underline">{t("Browse products")}</Link>
+        <Link href="/category" className="mt-8 inline-block text-sm font-semibold text-indigo-600 hover:underline">{t("Browse products")}</Link>
       </main>
     );
   }
@@ -112,7 +130,7 @@ export default function CheckoutPageClient({
       <main className="mx-auto max-w-lg px-4 py-16 text-center">
         <h1 className="text-xl font-semibold text-slate-900">{t("Checkout")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("Your cart is empty.")}</p>
-        <Link href="/product" className="mt-8 inline-block text-sm text-indigo-600 hover:underline">
+        <Link href="/category" className="mt-8 inline-block text-sm text-indigo-600 hover:underline">
           {t("Continue shopping")}
         </Link>
       </main>
@@ -120,14 +138,13 @@ export default function CheckoutPageClient({
   }
 
   const creditLine =
-    me?.creditBalance != null && me?.creditLimit != null ? (
+    creditViewEnabled && me?.creditBalance != null && me?.creditLimit != null ? (
       <p className="text-xs text-slate-500">
-        {t("Outstanding / limit:")} <span className="font-mono text-slate-700">{me.creditBalance}</span> /{" "}
-        <span className="font-mono text-slate-700">{me.creditLimit}</span>
+        {t("Available credit:")} <span className="font-semibold text-emerald-700">{formatCurrency(availableCredit, languageCode, "INR")}</span>
+        <span className="mx-1.5 text-slate-300">|</span>
+        {t("Outstanding:")} <span className="font-medium text-slate-700">{formatCurrency(outstanding, languageCode, "INR")}</span>
       </p>
     ) : null;
-
-  const meFailed = meStatus !== 200 || !me;
 
   return (
     <main className="mx-auto max-w-3xl px-4 py-10">
@@ -180,15 +197,26 @@ export default function CheckoutPageClient({
                 />
                 <span><strong>{t("Online Pay")}</strong><span className="ml-2 text-xs text-slate-500">{t("Razorpay · UPI, cards and netbanking")}</span></span>
               </label>
-              <label className="flex cursor-pointer items-center gap-2 rounded-md border border-slate-200 p-3 hover:bg-slate-50">
-                <input
-                  type="radio"
-                  name="pay-mode"
-                  checked={paymentMode === "CREDIT"}
-                  onChange={() => setPaymentMode("CREDIT")}
-                />
-                <span>{t("On account (credit)")}</span>
-              </label>
+              {creditViewEnabled ? (
+                <label className={`flex items-start gap-2 rounded-md border p-3 ${canUseCredit ? "cursor-pointer border-slate-200 hover:bg-slate-50" : "cursor-not-allowed border-slate-100 bg-slate-50 text-slate-400"}`}>
+                  <input
+                    type="radio"
+                    name="pay-mode"
+                    checked={paymentMode === "CREDIT"}
+                    disabled={!canUseCredit}
+                    onChange={() => setPaymentMode("CREDIT")}
+                    className="mt-0.5"
+                  />
+                  <span>
+                    <strong className="font-medium">{t("On account (credit)")}</strong>
+                    <span className={`mt-0.5 block text-xs ${canUseCredit ? "text-slate-500" : "text-slate-400"}`}>
+                      {creditLimit <= 0
+                        ? t("Credit terms are not approved for this account. Contact your distributor.")
+                        : `${t("Available credit")}: ${formatCurrency(availableCredit, languageCode, "INR")}${canUseCredit ? "" : `. ${t("Order total exceeds available credit.")}`}`}
+                    </span>
+                  </span>
+                </label>
+              ) : null}
               <label className="flex cursor-pointer items-center gap-2 rounded-md border border-slate-200 p-3 hover:bg-slate-50">
                 <input
                   type="radio"
@@ -237,7 +265,7 @@ export default function CheckoutPageClient({
             addressId={addressId}
             paymentMode={paymentMode}
             couponCode={couponCode}
-            disabled={(!cartId && !buyNow) || !addressId}
+            disabled={(!cartId && !buyNow) || !addressId || (paymentMode === "CREDIT" && !canUseCredit)}
             languageCode={languageCode}
             customerName={me?.name}
             customerPhone={me?.mobile}

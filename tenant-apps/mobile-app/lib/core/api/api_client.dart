@@ -2,6 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'auth_token_storage.dart';
+import 'dio_errors.dart';
 import '../config/build_config.dart';
 import '../device/storefront_device.dart';
 import '../tenant/tenant_config.dart';
@@ -62,6 +64,54 @@ final apiClientProvider = Provider<Dio>((ref) {
       receiveTimeout: const Duration(seconds: 30),
     ),
   );
+  Future<String?>? refreshInFlight;
+
+  Future<String?> refreshAccessToken() async {
+    final Future<String?>? current = refreshInFlight;
+    if (current != null) return current;
+
+    final Future<String?> refresh = (() async {
+      const AuthTokenStorage storage = AuthTokenStorage();
+      final String? refreshToken = await storage.readRefreshToken();
+      if (refreshToken == null) return null;
+
+      try {
+        final String deviceId =
+            await StorefrontDevice.ensureStorefrontDeviceId();
+        final Dio refreshClient = Dio(
+          BaseOptions(
+            baseUrl: base,
+            connectTimeout: const Duration(seconds: 45),
+            receiveTimeout: const Duration(seconds: 30),
+          ),
+        );
+        final response = await refreshClient.post<Map<String, dynamic>>(
+          '/auth/refresh',
+          data: <String, dynamic>{
+            'refreshToken': refreshToken,
+            'deviceId': deviceId,
+          },
+        );
+        final String? accessToken = extractAccessToken(response.data);
+        final String? rotatedRefreshToken = extractRefreshToken(response.data);
+        if (accessToken == null || rotatedRefreshToken == null) return null;
+        await storage.writeTokens(
+          accessToken: accessToken,
+          refreshToken: rotatedRefreshToken,
+        );
+        ref.read(authTokenProvider.notifier).state = accessToken;
+        return accessToken;
+      } on DioException {
+        return null;
+      }
+    })();
+    refreshInFlight = refresh;
+    try {
+      return await refresh;
+    } finally {
+      refreshInFlight = null;
+    }
+  }
 
   dio.interceptors.add(
     InterceptorsWrapper(
@@ -84,7 +134,7 @@ final apiClientProvider = Provider<Dio>((ref) {
         }
         handler.next(options);
       },
-      onError: (err, handler) {
+      onError: (err, handler) async {
         if (kDebugMode) {
           final res = err.response;
           final req = err.requestOptions;
@@ -93,6 +143,29 @@ final apiClientProvider = Provider<Dio>((ref) {
             '            status=${res?.statusCode}\n'
             '            message=${err.message}',
           );
+        }
+        final RequestOptions request = err.requestOptions;
+        final bool canRefresh = err.response?.statusCode == 401 &&
+            request.extra['authRefreshRetry'] != true &&
+            !request.path.endsWith('/auth/refresh') &&
+            !request.path.endsWith('/storefront/customer/login') &&
+            !request.path.endsWith('/storefront/customer/verify-otp');
+        if (canRefresh) {
+          final String? accessToken = await refreshAccessToken();
+          if (accessToken != null) {
+            request.extra['authRefreshRetry'] = true;
+            request.headers['Authorization'] = 'Bearer $accessToken';
+            try {
+              final Response<dynamic> response = await dio.fetch(request);
+              handler.resolve(response);
+              return;
+            } on DioException catch (retryError) {
+              handler.next(retryError);
+              return;
+            }
+          }
+          await const AuthTokenStorage().clear();
+          ref.read(authTokenProvider.notifier).state = null;
         }
         handler.next(err);
       },

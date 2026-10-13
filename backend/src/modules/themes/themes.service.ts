@@ -91,6 +91,7 @@ function isMobileChannel(theme: Theme): boolean {
 type StorefrontIndustryPayload = {
   industryId: string | null;
   industryName: string | null;
+  storeName: string | null;
 };
 
 function slugifyThemeName(name: string): string {
@@ -1562,6 +1563,7 @@ export class ThemesService implements OnModuleDestroy {
       };
       /** `tenant_branding` — storefront header / UI (no secrets). */
       branding: {
+        storeName: string | null;
         logoUrl: string | null;
         logoDataUrl: string | null;
         tagline: string | null;
@@ -1603,6 +1605,7 @@ export class ThemesService implements OnModuleDestroy {
         manifestPath: string | null;
       };
       branding: {
+        storeName: string | null;
         logoUrl: string | null;
         logoDataUrl: string | null;
         tagline: string | null;
@@ -1613,6 +1616,7 @@ export class ThemesService implements OnModuleDestroy {
       };
     } => {
       const emptyBranding = (): {
+        storeName: null;
         logoUrl: null;
         logoDataUrl: null;
         tagline: null;
@@ -1621,6 +1625,7 @@ export class ThemesService implements OnModuleDestroy {
         industryId: null;
         industryName: null;
       } => ({
+        storeName: null,
         logoUrl: null,
         logoDataUrl: null,
         tagline: null,
@@ -1671,6 +1676,7 @@ export class ThemesService implements OnModuleDestroy {
     };
 
     const emptyBrandingOut = () => ({
+      storeName: null as string | null,
       logoUrl: null as string | null,
       logoDataUrl: null as string | null,
       tagline: null as string | null,
@@ -1711,6 +1717,14 @@ export class ThemesService implements OnModuleDestroy {
       (await this.appConfig.getForTenant(tenantId)).selectedLanguageCode ??
         onboardingRow?.payloadJson?.['selectedLanguageCode'],
     );
+    const onboardingStoreName = [
+      onboardingRow?.payloadJson?.['storeDisplayName'],
+      onboardingRow?.payloadJson?.['businessName'],
+      onboardingRow?.payloadJson?.['appName'],
+    ].find(
+      (value): value is string =>
+        typeof value === 'string' && value.trim().length > 0,
+    )?.trim();
     const brandingOut = {
       logoUrl: brandingRow?.logoUrl ?? null,
       logoDataUrl: brandingRow?.logoDataUrl ?? null,
@@ -1718,6 +1732,7 @@ export class ThemesService implements OnModuleDestroy {
       primaryColor: brandingRow?.primaryColor ?? null,
       secondaryColor: brandingRow?.secondaryColor ?? null,
       ...industryOut,
+      storeName: onboardingStoreName || industryOut.storeName,
     };
     const groupedPages: Record<
       string,
@@ -2232,10 +2247,11 @@ export class ThemesService implements OnModuleDestroy {
   ): Promise<StorefrontIndustryPayload> {
     const profile = await this.profileRepo.findOne({
       where: { tenantId },
-      select: ['industryId'],
+      select: ['industryId', 'businessName'],
     });
     const industryId = uuidOnly(profile?.industryId ?? null);
-    if (!industryId) return { industryId: null, industryName: null };
+    const storeName = profile?.businessName?.trim() || null;
+    if (!industryId) return { industryId: null, industryName: null, storeName };
     const industry = await this.industryRepo.findOne({
       where: { industryId },
       select: ['industryId', 'name'],
@@ -2243,6 +2259,7 @@ export class ThemesService implements OnModuleDestroy {
     return {
       industryId,
       industryName: industry?.name?.trim() || null,
+      storeName,
     };
   }
 
@@ -2362,6 +2379,7 @@ export class ThemesService implements OnModuleDestroy {
       primary_color: primary || '#1565C0',
       logo: logo || '',
       tagline: params.branding?.tagline?.trim() || '',
+      store_name: params.industry.storeName,
       industry_id: params.industry.industryId,
       industry_name: params.industry.industryName,
     };

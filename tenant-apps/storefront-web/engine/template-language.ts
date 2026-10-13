@@ -2113,7 +2113,10 @@ function languageKey(languageCode: string | null | undefined): string {
 
 function dictionaryFor(languageCode: string | null | undefined, localeDictionary: Record<string, string> = {}): Record<string, string> | null {
   const code = languageKey(languageCode);
-  if (code === "en") return null;
+  // English theme packages also use translation keys (for example
+  // `newsletter.title`). Honour their API-loaded locale dictionary instead of
+  // exposing those keys as storefront copy.
+  if (code === "en") return Object.keys(localeDictionary).length ? localeDictionary : null;
   const dict = {
     INR: "INR",
     ...(TRANSLATIONS[code] ?? {}),

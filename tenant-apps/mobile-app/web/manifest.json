@@ -1,9 +1,9 @@
 {
-  "name": "Store",
-  "short_name": "Store",
+  "name": "Glowora",
+  "short_name": "Glowora",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1565C0",
-  "description": "Distributor mobile app preview"
+  "description": "Glowora beauty commerce app"
 }

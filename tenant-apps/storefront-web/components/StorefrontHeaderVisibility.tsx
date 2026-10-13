@@ -10,5 +10,5 @@ export default function StorefrontHeaderVisibility(
   const pathname = usePathname();
   if (pathname === "/login") return null;
 
-  return <Header {...props} />;
+  return <Header {...props} currentPath={pathname} />;
 }

@@ -47,7 +47,7 @@ class RazorpayOrderCheckoutException implements Exception {
 
 class RazorpayOrderCheckout {
   static const MethodChannel _paymentNavigationChannel =
-      MethodChannel('ridego/payment_navigation');
+      MethodChannel('glowora/payment_navigation');
 
   static Future<RazorpayOrderCheckoutResult> pay({
     required Dio dio,

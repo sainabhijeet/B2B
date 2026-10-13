@@ -1,0 +1,29 @@
+{
+    "route":  "/profile",
+    "sections":  [
+                     {
+                         "id":  "profile-0",
+                         "type":  "editorial-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "profile"
+                                      }
+                     },
+                     {
+                         "id":  "profile-1",
+                         "type":  "feature-list",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "icon_list"
+                                      }
+                     },
+                     {
+                         "id":  "profile-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

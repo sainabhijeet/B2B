@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-label="Velvet Oud Body Mist">
+ <defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#FFF1F6"/></linearGradient></defs>
+ <rect width="640" height="720" rx="42" fill="url(#g)"/><circle cx="480" cy="155" r="120" fill="#DDD6FE" opacity=".32"/><g transform="translate(0 62)"><rect x='232' y='188' width='180' height='214' rx='50' fill='#DDD6FE'/><rect x='281' y='105' width='82' height='90' rx='20' fill='#8E24AA'/><rect x='260' y='252' width='126' height='76' rx='24' fill='#fff' opacity='.72'/></g>
+ <text x="44" y="608" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#C2185B">LUMERA PRO</text>
+ <text x="44" y="646" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#1F2937">Velvet Oud Body Mist</text><text x="44" y="680" font-family="Inter,Arial" font-size="18" fill="#6B7280">100ml · Trade ready</text>
+</svg>

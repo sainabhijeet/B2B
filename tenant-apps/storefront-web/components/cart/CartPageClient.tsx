@@ -76,7 +76,7 @@ export default function CartPageClient({ initial, initialStatus, languageCode }:
             <h1 className="text-3xl font-bold tracking-tight text-slate-950">{t("Your cart")}</h1>
             {items.length > 0 ? <p className="mt-2 text-sm text-slate-600">{items.length} {t(items.length === 1 ? "product" : "products")} · {totalUnits} {t(totalUnits === 1 ? "unit" : "units")}</p> : null}
           </div>
-          <Link href="/product" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--theme-primary)] hover:underline">
+          <Link href="/category" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--theme-primary)] hover:underline">
             <span aria-hidden="true">←</span> {t("Continue shopping")}
           </Link>
         </div>
@@ -94,7 +94,7 @@ export default function CartPageClient({ initial, initialStatus, languageCode }:
             <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-slate-100 text-slate-700"><CartIcon /></div>
             <h2 className="mt-5 text-xl font-bold text-slate-950">{t("Your cart is empty.")}</h2>
             <p className="mt-2 text-sm text-slate-600">{t("Explore products and add the items you need.")}</p>
-            <Link href="/product" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--theme-primary)] px-6 text-sm font-bold text-white hover:brightness-95">
+            <Link href="/category" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--theme-primary)] px-6 text-sm font-bold text-white hover:brightness-95">
               {t("Browse products")}
             </Link>
           </section>

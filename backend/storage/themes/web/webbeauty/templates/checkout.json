@@ -1,0 +1,29 @@
+{
+    "route":  "/checkout",
+    "sections":  [
+                     {
+                         "id":  "checkout-0",
+                         "type":  "editorial-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "checkout"
+                                      }
+                     },
+                     {
+                         "id":  "checkout-1",
+                         "type":  "cta-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "cta_banner"
+                                      }
+                     },
+                     {
+                         "id":  "checkout-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

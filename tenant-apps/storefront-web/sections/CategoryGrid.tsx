@@ -51,14 +51,14 @@ export default async function CategoryGrid({
       }}
       data-theme-key={k}
     >
-      <div className="mx-auto max-w-6xl px-4">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <h2 className="text-2xl font-bold" style={{ color: "var(--theme-text)" }}>
           {t(heading)}
         </h2>
         <p className="mt-1 text-sm" style={{ color: "var(--theme-muted)" }}>
           {t(subtitle?.trim() ?? "")}
         </p>
-        <div className="mt-8 grid gap-6 md:grid-cols-2">
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {categories.map((c, index) => (
             <CategoryCard
               key={c.slug}

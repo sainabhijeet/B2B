@@ -1,0 +1,21 @@
+{
+    "route":  "/wishlist",
+    "sections":  [
+                     {
+                         "id":  "wishlist-0",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "wishlist"
+                                      }
+                     },
+                     {
+                         "id":  "wishlist-1",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

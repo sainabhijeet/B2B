@@ -1,5 +1,7 @@
 import { Injectable, Logger, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { existsSync } from 'node:fs';
+import * as path from 'node:path';
 import {
   Brackets,
   EntityManager,
@@ -22,6 +24,7 @@ import type {
 import { VariantPricingService } from '../catalog-pricing/variant-pricing.service';
 import { TenantSchemaRunner } from '../../tenancy/tenant-schema-runner.service';
 import { TranslationsService } from '../translations/translations.service';
+import { getBackendStorageRoot } from '../../common/utils/storage-root';
 
 const RESERVED = new Set([
   'category',
@@ -368,7 +371,21 @@ export class StorefrontProductsService {
         );
         break;
       case 'best_selling':
-        qb.orderBy('MAX(p.created_at)', 'DESC');
+        qb.addSelect(
+          `COALESCE((
+            SELECT SUM(oi.quantity)
+            FROM order_items oi
+            INNER JOIN orders o ON o.id = oi.order_id
+            WHERE oi.product_id = p.id
+              AND o.tenant_id = :tenantId
+              AND o.deleted_at IS NULL
+              AND o.status <> 'CANCELLED'
+          ), 0)`,
+          'sold_quantity',
+        )
+          .orderBy('sold_quantity', 'DESC')
+          .addOrderBy('MAX(p.created_at)', 'DESC')
+          .addOrderBy('p.id', 'ASC');
         break;
       case 'newest':
       default:
@@ -625,7 +642,10 @@ export class StorefrontProductsService {
         const r = await this.variantPricing.resolveForVariant(v.id, {
           tenantId,
           customerId: opts?.customerId,
-          quantity: opts?.quantity,
+          // A PDP order starts at the variant MOQ. Resolve that price during
+          // server rendering so the purchase panel does not correct itself
+          // after hydration with a second initial request.
+          quantity: opts?.quantity ?? Math.max(1, v.moq ?? 1),
         });
         const attributesJson = await this.translateVariantAttributes(
           tenantId,
@@ -752,16 +772,62 @@ export class StorefrontProductsService {
             },
           },
           variants: variantRows,
-          images: images.map((im) => ({
-            id: im.id,
-            url: im.imageUrl,
-            isThumbnail: im.isThumbnail,
-            variantId: im.variantId,
-          })),
+          images: this.productGalleryImages(product, images),
         },
         message: '',
       };
     });
+  }
+
+  /**
+   * Images saved through the catalogue API remain authoritative. The bundled
+   * grocery demo catalogue also ships product and case-pack views, so expose
+   * those assets through this API for its seeded products.
+   */
+  private productGalleryImages(product: Product, images: ProductImage[]) {
+    const gallery = images.map((image) => ({
+      id: image.id,
+      url: image.imageUrl,
+      isThumbnail: image.isThumbnail,
+      variantId: image.variantId,
+    }));
+    const usesBundledGroceryImage = images.some((image) =>
+      image.imageUrl.includes('/storage/grocery-catalog/products/'),
+    );
+    if (!usesBundledGroceryImage || !/^[a-z0-9-]+$/.test(product.slug)) {
+      return gallery;
+    }
+
+    const assetDirectory = path.join(
+      getBackendStorageRoot(),
+      'themes',
+      'mobile',
+      'grocery',
+      'assets',
+      'products',
+    );
+    const bundledAssets = [
+      `${product.slug}.svg`,
+      `${product.slug}-case.svg`,
+    ];
+    const knownUrls = new Set(gallery.map((image) => image.url.toLowerCase()));
+
+    for (const [index, fileName] of bundledAssets.entries()) {
+      const url = `/storage/themes/mobile/grocery/assets/products/${fileName}`;
+      if (!existsSync(path.join(assetDirectory, fileName))) continue;
+      if ([...knownUrls].some((known) => known.endsWith(url.toLowerCase()))) {
+        continue;
+      }
+      gallery.push({
+        id: `bundled-gallery-${product.id}-${index + 1}`,
+        url,
+        isThumbnail: false,
+        variantId: null,
+      });
+      knownUrls.add(url.toLowerCase());
+    }
+
+    return gallery;
   }
 
   private async translateVariantAttributes(

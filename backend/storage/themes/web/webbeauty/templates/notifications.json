@@ -1,0 +1,21 @@
+{
+    "route":  "/notifications",
+    "sections":  [
+                     {
+                         "id":  "notifications-0",
+                         "type":  "editorial-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "notifications"
+                                      }
+                     },
+                     {
+                         "id":  "notifications-1",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

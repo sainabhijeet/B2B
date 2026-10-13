@@ -50,6 +50,8 @@ function themeIndustryTags(theme: Record<string, unknown> | null): string[] {
       : null;
   return Array.from(
     new Set([
+      ...collectStrings(theme.themeType),
+      ...collectStrings(theme.theme_type),
       ...collectStrings(theme.industry),
       ...collectStrings(theme.industries),
       ...collectStrings(config?.industry),

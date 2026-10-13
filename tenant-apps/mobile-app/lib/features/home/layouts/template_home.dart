@@ -10,6 +10,7 @@ import '../../../shared/models/models.dart';
 import '../../products/product_detail_screen.dart';
 import '../../products/products_screen.dart';
 import '../../products/products_provider.dart';
+import '../../products/recently_viewed_provider.dart';
 import '../../wishlist/wishlist_provider.dart';
 
 class TemplateHome extends ConsumerWidget {
@@ -25,6 +26,8 @@ class TemplateHome extends ConsumerWidget {
     final fallbackImages = _fallbackImages(theme);
     final categoriesAsync = ref.watch(categoriesProvider);
     final productsAsync = ref.watch(productsProvider);
+    final productsTotalAsync = ref.watch(productsTotalProvider);
+    final recentlyViewedProducts = ref.watch(recentlyViewedProductsProvider);
     final t = ref.watch(appTranslatorProvider);
     final localization = ref.watch(mobileLocalizationServiceProvider);
     final bool recommendationsEnabled = ref.watch(
@@ -65,6 +68,23 @@ class TemplateHome extends ConsumerWidget {
       );
     }
 
+    void openAllProducts() {
+      Navigator.of(context).push(
+        MaterialPageRoute<void>(
+          builder: (BuildContext context) => Scaffold(
+            appBar: AppBar(
+              toolbarHeight: 60,
+              title: Text(
+                t('All products'),
+                style: const TextStyle(fontWeight: FontWeight.w800),
+              ),
+            ),
+            body: const ProductsScreen(),
+          ),
+        ),
+      );
+    }
+
     return ListView(
       physics: const AlwaysScrollableScrollPhysics(),
       padding: const EdgeInsets.only(bottom: 24),
@@ -74,12 +94,15 @@ class TemplateHome extends ConsumerWidget {
               section,
               categoriesAsync: categoriesAsync,
               productsAsync: productsAsync,
+              productsTotalAsync: productsTotalAsync,
+              recentlyViewedProducts: recentlyViewedProducts,
               fallbackImages: fallbackImages,
               t: t,
               formatCurrency: localization.formatCurrency,
               recommendationsEnabled: recommendationsEnabled,
               onOpenCategory: openCategoryProducts,
               onOpenProduct: openProductDetails,
+              onBrowseProducts: openAllProducts,
               onRetryCategories: () => ref.invalidate(categoriesProvider),
               onRetryProducts: () => ref.invalidate(productsProvider),
               mediaBaseUrl: dio.options.baseUrl,
@@ -94,12 +117,15 @@ class TemplateHome extends ConsumerWidget {
     ThemeTemplateSection section, {
     required AsyncValue<List<Category>> categoriesAsync,
     required AsyncValue<List<Product>> productsAsync,
+    required AsyncValue<int> productsTotalAsync,
+    required List<Product> recentlyViewedProducts,
     required List<String> fallbackImages,
     required String Function(String) t,
     required String Function(num) formatCurrency,
     required bool recommendationsEnabled,
     required void Function(Category category) onOpenCategory,
     required void Function(Product product) onOpenProduct,
+    required VoidCallback onBrowseProducts,
     required VoidCallback onRetryCategories,
     required VoidCallback onRetryProducts,
     required String mediaBaseUrl,
@@ -114,14 +140,26 @@ class TemplateHome extends ConsumerWidget {
     if (type.contains('divider')) return const Divider(height: 24);
     if (type.contains('hero')) {
       return _HeroSection(
-        title: t(section.stringSetting('title', _defaultSectionTitle(type))),
+        eyebrow: t(section.stringSetting('eyebrow')),
+        title: t(_sectionTitle(section)),
         subtitle: t(
           section.stringSetting(
             'subtitle',
-            'Bulk FMCG ordering with GST invoice',
+            'Trade pricing and live catalog ordering for modern retailers.',
           ),
         ),
         image: theme.assetUrl(section.stringSetting('image')),
+        ctaLabel: t(section.stringSetting('primaryCta', 'Shop products')),
+        onCtaPressed: onBrowseProducts,
+      );
+    }
+    if (type == 'feature-grid' || type == 'catalog-summary') {
+      return _CatalogSummarySection(
+        section: section,
+        categoriesAsync: categoriesAsync,
+        productsAsync: productsAsync,
+        productsTotalAsync: productsTotalAsync,
+        t: t,
       );
     }
     if (type.contains('category') || type.contains('collection')) {
@@ -146,6 +184,20 @@ class TemplateHome extends ConsumerWidget {
         onRetry: onRetryProducts,
       );
     }
+    if (type.contains('recent')) {
+      if (recentlyViewedProducts.isEmpty) return null;
+      return _ProductSection(
+        theme: theme,
+        section: section,
+        productsAsync: AsyncValue<List<Product>>.data(recentlyViewedProducts),
+        fallbackImages: fallbackImages,
+        t: t,
+        formatCurrency: formatCurrency,
+        onOpenProduct: onOpenProduct,
+        onRetry: () {},
+        mediaBaseUrl: mediaBaseUrl,
+      );
+    }
     if (type.contains('product') ||
         type.contains('arrival') ||
         type.contains('seller') ||
@@ -157,8 +209,7 @@ class TemplateHome extends ConsumerWidget {
         type.contains('cooking') ||
         type.contains('cleaning') ||
         type.contains('personal') ||
-        type.contains('wholesale') ||
-        type.contains('recent')) {
+        type.contains('wholesale')) {
       return _ProductSection(
         theme: theme,
         section: section,
@@ -176,14 +227,31 @@ class TemplateHome extends ConsumerWidget {
         type.contains('offer') ||
         type.contains('sale') ||
         type.contains('announcement')) {
-      return null;
+      return _PromoSection(
+        section: section,
+        t: t,
+        onPressed: onBrowseProducts,
+      );
     }
-    if (type.contains('image-with-text') ||
-        type.contains('feature') ||
-        type.contains('editorial') ||
-        type.contains('rich-text') ||
-        type.contains('cta')) {
-      return null;
+    if (type.contains('image-with-text') || type.contains('image-text')) {
+      return _ImageTextSection(
+        theme: theme,
+        section: section,
+        t: t,
+      );
+    }
+    if (type.contains('feature-list')) {
+      return _FeatureListSection(section: section, t: t);
+    }
+    if (type.contains('testimonial')) {
+      return _TestimonialSection(section: section, t: t);
+    }
+    if (type.contains('cta')) {
+      return _CtaSection(
+        section: section,
+        t: t,
+        onPressed: onBrowseProducts,
+      );
     }
     return null;
   }
@@ -219,6 +287,20 @@ String _defaultSectionTitle(String rawType) {
       .join(' ');
 }
 
+String _sectionTitle(ThemeTemplateSection section) {
+  final title = section.stringSetting('title');
+  if (title.isNotEmpty) return title;
+  final titleKey = section.stringSetting('titleKey');
+  if (titleKey.isNotEmpty) return titleKey;
+  return _defaultSectionTitle(section.type);
+}
+
+int _sectionLimit(ThemeTemplateSection section, int fallback) {
+  final value = section.settings['limit'];
+  final parsed = value is num ? value.toInt() : int.tryParse('$value');
+  return parsed != null && parsed > 0 ? parsed : fallback;
+}
+
 List<String> _fallbackImages(StorefrontTheme theme) {
   final sections =
       theme.preview?.homeSections ?? const <ThemeTemplateSection>[];
@@ -231,14 +313,20 @@ List<String> _fallbackImages(StorefrontTheme theme) {
 
 class _HeroSection extends StatelessWidget {
   const _HeroSection({
+    required this.eyebrow,
     required this.title,
     required this.subtitle,
     required this.image,
+    required this.ctaLabel,
+    required this.onCtaPressed,
   });
 
+  final String eyebrow;
   final String title;
   final String subtitle;
   final String image;
+  final String ctaLabel;
+  final VoidCallback onCtaPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -252,9 +340,15 @@ class _HeroSection extends StatelessWidget {
             fit: StackFit.expand,
             children: <Widget>[
               if (image.isEmpty)
-                Image.asset(
-                  'assets/images/grocery_wholesale_banner.png',
-                  fit: BoxFit.cover,
+                DecoratedBox(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: <Color>[
+                        Theme.of(context).colorScheme.primaryContainer,
+                        Theme.of(context).colorScheme.secondaryContainer,
+                      ],
+                    ),
+                  ),
                 )
               else
                 _ThemeImage(
@@ -262,22 +356,50 @@ class _HeroSection extends StatelessWidget {
                   fit: BoxFit.cover,
                   showFallbackIcon: false,
                 ),
+              const DecoratedBox(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
+                    colors: <Color>[
+                      Color(0xF7FFFFFF),
+                      Color(0xCFFFFFFF),
+                      Color(0x00FFFFFF),
+                    ],
+                    stops: <double>[0, 0.42, 0.76],
+                  ),
+                ),
+              ),
               Positioned(
                 left: 18,
                 top: 0,
                 bottom: 0,
-                width: 150,
+                width: 184,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
+                    if (eyebrow.isNotEmpty) ...<Widget>[
+                      Text(
+                        eyebrow,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          color: Theme.of(context).colorScheme.primary,
+                          fontSize: 8,
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: 1.1,
+                        ),
+                      ),
+                      const SizedBox(height: 5),
+                    ],
                     Text(
                       title,
                       maxLines: 3,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        color: Color(0xFF0B3D20),
-                        fontSize: 22,
+                        color: Color(0xFF1F1720),
+                        fontSize: 20,
                         fontWeight: FontWeight.w900,
                         height: 1.05,
                       ),
@@ -288,12 +410,29 @@ class _HeroSection extends StatelessWidget {
                       maxLines: 3,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        color: Color(0xFF31543D),
-                        fontSize: 11,
+                        color: Color(0xFF5C4655),
+                        fontSize: 10,
                         fontWeight: FontWeight.w600,
                         height: 1.25,
                       ),
                     ),
+                    if (ctaLabel.isNotEmpty) ...<Widget>[
+                      const SizedBox(height: 10),
+                      SizedBox(
+                        height: 30,
+                        child: FilledButton(
+                          onPressed: onCtaPressed,
+                          style: FilledButton.styleFrom(
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                            textStyle: const TextStyle(
+                              fontSize: 10,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          child: Text(ctaLabel),
+                        ),
+                      ),
+                    ],
                   ],
                 ),
               ),
@@ -301,6 +440,419 @@ class _HeroSection extends StatelessWidget {
           ),
         ),
       ),
+    );
+  }
+}
+
+class _CatalogSummarySection extends StatelessWidget {
+  const _CatalogSummarySection({
+    required this.section,
+    required this.categoriesAsync,
+    required this.productsAsync,
+    required this.productsTotalAsync,
+    required this.t,
+  });
+
+  final ThemeTemplateSection section;
+  final AsyncValue<List<Category>> categoriesAsync;
+  final AsyncValue<List<Product>> productsAsync;
+  final AsyncValue<int> productsTotalAsync;
+  final String Function(String) t;
+
+  @override
+  Widget build(BuildContext context) {
+    final categories = categoriesAsync.valueOrNull ?? const <Category>[];
+    final products = productsAsync.valueOrNull ?? const <Product>[];
+    final productTotal = productsTotalAsync.valueOrNull ?? products.length;
+    final brands = products
+        .map((product) => product.brand?.trim() ?? '')
+        .where((brand) => brand.isNotEmpty)
+        .toSet()
+        .length;
+    final metrics = <(String, String)>[
+      ('$productTotal', t('Live products')),
+      ('${categories.length}', t('Categories')),
+      ('$brands', t('Active brands')),
+    ];
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 10, 16, 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          _SectionHeading(section: section, t: t),
+          const SizedBox(height: 12),
+          Row(
+            children: metrics
+                .map(
+                  (metric) => Expanded(
+                    child: Card(
+                      margin: EdgeInsets.only(
+                        right: metric == metrics.last ? 0 : 8,
+                      ),
+                      elevation: 0,
+                      color: Theme.of(context).colorScheme.surfaceContainerLow,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 12,
+                        ),
+                        child: Column(
+                          children: <Widget>[
+                            Text(
+                              metric.$1,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headlineSmall
+                                  ?.copyWith(
+                                    color:
+                                        Theme.of(context).colorScheme.primary,
+                                    fontWeight: FontWeight.w900,
+                                  ),
+                            ),
+                            const SizedBox(height: 2),
+                            Text(
+                              metric.$2,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context).textTheme.labelSmall,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                )
+                .toList(growable: false),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _PromoSection extends StatelessWidget {
+  const _PromoSection({
+    required this.section,
+    required this.t,
+    required this.onPressed,
+  });
+
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 6, 16, 16),
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: <Color>[scheme.primary, scheme.secondary],
+          ),
+          borderRadius: BorderRadius.circular(18),
+        ),
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      t(section.stringSetting('eyebrow')),
+                      style: TextStyle(
+                        color: scheme.onPrimary.withValues(alpha: 0.8),
+                        fontSize: 9,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 1,
+                      ),
+                    ),
+                    const SizedBox(height: 5),
+                    Text(
+                      t(_sectionTitle(section)),
+                      style: TextStyle(
+                        color: scheme.onPrimary,
+                        fontSize: 17,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                    const SizedBox(height: 4),
+                    Text(
+                      t(section.stringSetting('subtitle')),
+                      style: TextStyle(
+                        color: scheme.onPrimary.withValues(alpha: 0.88),
+                        fontSize: 11,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(width: 10),
+              FilledButton.tonal(
+                onPressed: onPressed,
+                child: Text(t(section.stringSetting('ctaLabel', 'Explore'))),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ImageTextSection extends StatelessWidget {
+  const _ImageTextSection({
+    required this.theme,
+    required this.section,
+    required this.t,
+  });
+
+  final StorefrontTheme theme;
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+
+  @override
+  Widget build(BuildContext context) {
+    final rawHighlights = section.settings['highlights'];
+    final highlights = rawHighlights is List
+        ? rawHighlights.map((value) => value.toString()).toList(growable: false)
+        : const <String>[];
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 8, 16, 18),
+      child: Card(
+        margin: EdgeInsets.zero,
+        clipBehavior: Clip.antiAlias,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            SizedBox(
+              height: 190,
+              child: _ThemeImage(
+                url: theme.assetUrl(section.stringSetting('image')),
+                fit: BoxFit.cover,
+                showFallbackIcon: false,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  _SectionHeading(section: section, t: t),
+                  if (section.stringSetting('body').isNotEmpty) ...<Widget>[
+                    const SizedBox(height: 8),
+                    Text(t(section.stringSetting('body'))),
+                  ],
+                  if (highlights.isNotEmpty) ...<Widget>[
+                    const SizedBox(height: 10),
+                    ...highlights.map(
+                      (item) => Padding(
+                        padding: const EdgeInsets.only(bottom: 5),
+                        child: Row(
+                          children: <Widget>[
+                            Icon(
+                              Icons.check_circle,
+                              color: Theme.of(context).colorScheme.primary,
+                              size: 17,
+                            ),
+                            const SizedBox(width: 7),
+                            Expanded(child: Text(t(item))),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _FeatureListSection extends StatelessWidget {
+  const _FeatureListSection({required this.section, required this.t});
+
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+
+  @override
+  Widget build(BuildContext context) {
+    final rawItems = section.settings['items'];
+    final items = rawItems is List
+        ? rawItems.whereType<Map>().toList(growable: false)
+        : const <Map>[];
+    if (items.isEmpty) return const SizedBox.shrink();
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 6, 16, 18),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          _SectionHeading(section: section, t: t),
+          const SizedBox(height: 10),
+          ...items.map(
+            (item) => Card(
+              elevation: 0,
+              color: Theme.of(context).colorScheme.surfaceContainerLow,
+              child: ListTile(
+                leading: CircleAvatar(
+                  backgroundColor:
+                      Theme.of(context).colorScheme.primaryContainer,
+                  child: Text(
+                    '${item['icon'] ?? ''}',
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w900,
+                    ),
+                  ),
+                ),
+                title: Text(
+                  t('${item['title'] ?? ''}'),
+                  style: const TextStyle(fontWeight: FontWeight.w800),
+                ),
+                subtitle: Text(t('${item['text'] ?? ''}')),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _TestimonialSection extends StatelessWidget {
+  const _TestimonialSection({required this.section, required this.t});
+
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 18),
+      child: Card(
+        elevation: 0,
+        color: Theme.of(context).colorScheme.primaryContainer,
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Icon(
+                Icons.format_quote,
+                color: Theme.of(context).colorScheme.primary,
+                size: 30,
+              ),
+              Text(
+                t(section.stringSetting('quote')),
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                t(section.stringSetting('author')),
+                style: Theme.of(context).textTheme.labelLarge,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _CtaSection extends StatelessWidget {
+  const _CtaSection({
+    required this.section,
+    required this.t,
+    required this.onPressed,
+  });
+
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 4, 16, 20),
+      child: Card(
+        margin: EdgeInsets.zero,
+        child: Padding(
+          padding: const EdgeInsets.all(18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                t(_sectionTitle(section)),
+                style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                      fontWeight: FontWeight.w900,
+                    ),
+              ),
+              const SizedBox(height: 5),
+              Text(t(section.stringSetting('subtitle'))),
+              const SizedBox(height: 12),
+              FilledButton.icon(
+                onPressed: onPressed,
+                icon: const Icon(Icons.arrow_forward),
+                label: Text(
+                  t(section.stringSetting('buttonLabel', 'Start shopping')),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _SectionHeading extends StatelessWidget {
+  const _SectionHeading({required this.section, required this.t});
+
+  final ThemeTemplateSection section;
+  final String Function(String) t;
+
+  @override
+  Widget build(BuildContext context) {
+    final eyebrow = section.stringSetting('eyebrow');
+    final subtitle = section.stringSetting('subtitle');
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        if (eyebrow.isNotEmpty) ...<Widget>[
+          Text(
+            t(eyebrow),
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.primary,
+              fontSize: 9,
+              fontWeight: FontWeight.w900,
+              letterSpacing: 1.1,
+            ),
+          ),
+          const SizedBox(height: 4),
+        ],
+        Text(
+          t(_sectionTitle(section)),
+          style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                fontWeight: FontWeight.w900,
+              ),
+        ),
+        if (subtitle.isNotEmpty) ...<Widget>[
+          const SizedBox(height: 4),
+          Text(
+            t(subtitle),
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
+        ],
+      ],
     );
   }
 }
@@ -337,16 +889,18 @@ class _CategorySection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            t(
-              section.stringSetting(
-                'title',
-                _defaultSectionTitle(section.type),
-              ),
-            ),
+            t(_sectionTitle(section)),
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.w800,
                 ),
           ),
+          if (section.stringSetting('subtitle').isNotEmpty) ...<Widget>[
+            const SizedBox(height: 4),
+            Text(
+              t(section.stringSetting('subtitle')),
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ],
           const SizedBox(height: 12),
           categoriesAsync.when(
             loading: () => const _HorizontalLoadingCards(),
@@ -524,16 +1078,18 @@ class _BrandSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            t(
-              section.stringSetting(
-                'title',
-                _defaultSectionTitle(section.type),
-              ),
-            ),
+            t(_sectionTitle(section)),
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.w800,
                 ),
           ),
+          if (section.stringSetting('subtitle').isNotEmpty) ...<Widget>[
+            const SizedBox(height: 4),
+            Text(
+              t(section.stringSetting('subtitle')),
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ],
           const SizedBox(height: 12),
           productsAsync.when(
             loading: () => const _HorizontalLoadingCards(),
@@ -548,7 +1104,7 @@ class _BrandSection extends StatelessWidget {
                   .map((product) => product.brand?.trim() ?? '')
                   .where((brand) => brand.isNotEmpty)
                   .toSet()
-                  .take(13)
+                  .take(_sectionLimit(section, 12))
                   .toList(growable: false);
               if (brands.isEmpty) return const SizedBox.shrink();
               return SizedBox(
@@ -643,12 +1199,7 @@ class _ProductSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            t(
-              section.stringSetting(
-                'title',
-                _defaultSectionTitle(section.type),
-              ),
-            ),
+            t(_sectionTitle(section)),
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   fontWeight: FontWeight.w800,
                 ),
@@ -717,7 +1268,7 @@ class _ProductSection extends StatelessWidget {
                         title: t(product.name.trim()),
                         categoryLabel: _categoryLabel(product),
                         priceLabel: _priceLabel(product.price),
-                        deliveryLabel: t('Wednesday, 26 Aug...'),
+                        inventoryLabel: _inventoryLabel(product),
                         onTap: () => onOpenProduct(product),
                       ),
                     );
@@ -788,14 +1339,15 @@ class _ProductSection extends StatelessWidget {
           ],
         ),
       );
-    } else if (type.contains('recent')) {
-      selected = products.skip(6);
     } else if (type.contains('recommend')) {
       selected = products.reversed;
     }
 
-    final result = selected.take(6).toList(growable: false);
-    return result.isEmpty ? products.take(6).toList(growable: false) : result;
+    final limit = _sectionLimit(section, 6);
+    final result = selected.take(limit).toList(growable: false);
+    return result.isEmpty
+        ? products.take(limit).toList(growable: false)
+        : result;
   }
 
   String _productImage(Product product, List<String> images, int index) {
@@ -826,7 +1378,9 @@ class _ProductSection extends StatelessWidget {
 
   String _priceLabel(double? price) {
     if (price == null) {
-      return t(section.stringSetting('priceUnavailableText'));
+      return t(
+        section.stringSetting('priceUnavailableText', 'Sign in to see price'),
+      );
     }
     return formatCurrency(price);
   }
@@ -838,6 +1392,15 @@ class _ProductSection extends StatelessWidget {
     if (brand.isNotEmpty) return brand;
     return category;
   }
+
+  String _inventoryLabel(Product product) {
+    final stock = product.stockQuantity;
+    if (stock != null) {
+      return stock > 0 ? t('$stock units available') : t('Out of stock');
+    }
+    if (product.moq > 1) return t('Minimum order: ${product.moq}');
+    return t('Live catalog item');
+  }
 }
 
 class _RecommendedProductCard extends ConsumerWidget {
@@ -847,7 +1410,7 @@ class _RecommendedProductCard extends ConsumerWidget {
     required this.title,
     required this.categoryLabel,
     required this.priceLabel,
-    required this.deliveryLabel,
+    required this.inventoryLabel,
     required this.onTap,
   });
 
@@ -856,7 +1419,7 @@ class _RecommendedProductCard extends ConsumerWidget {
   final String title;
   final String categoryLabel;
   final String priceLabel;
-  final String deliveryLabel;
+  final String inventoryLabel;
   final VoidCallback onTap;
 
   @override
@@ -897,32 +1460,6 @@ class _RecommendedProductCard extends ConsumerWidget {
                           url: image,
                           fit: BoxFit.cover,
                           showFallbackIcon: false,
-                        ),
-                      ),
-                    ),
-                    Positioned(
-                      left: 0,
-                      top: 0,
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 7,
-                          vertical: 3,
-                        ),
-                        decoration: const BoxDecoration(
-                          color: Color(0xFFE01818),
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(10),
-                            bottomRight: Radius.circular(8),
-                          ),
-                        ),
-                        child: const Text(
-                          '60% OFF',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 9,
-                            fontWeight: FontWeight.w800,
-                            height: 1,
-                          ),
                         ),
                       ),
                     ),
@@ -1015,24 +1552,24 @@ class _RecommendedProductCard extends ConsumerWidget {
                 height: 24,
                 padding: const EdgeInsets.symmetric(horizontal: 7),
                 decoration: BoxDecoration(
-                  color: const Color(0xFFFFF1F4),
+                  color: colorScheme.primaryContainer.withValues(alpha: 0.55),
                   borderRadius: BorderRadius.circular(6),
                 ),
                 child: Row(
                   children: <Widget>[
-                    const Icon(
-                      Icons.local_shipping,
-                      color: Color(0xFFD60F27),
+                    Icon(
+                      Icons.inventory_2_outlined,
+                      color: colorScheme.primary,
                       size: 13,
                     ),
                     const SizedBox(width: 5),
                     Expanded(
                       child: Text(
-                        deliveryLabel,
+                        inventoryLabel,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(
-                          color: Color(0xFF6B4A4F),
+                        style: TextStyle(
+                          color: colorScheme.onPrimaryContainer,
                           fontSize: 9,
                           fontWeight: FontWeight.w700,
                         ),

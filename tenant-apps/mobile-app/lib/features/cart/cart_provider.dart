@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/api/api_client.dart';
 import '../../core/api/nest_json.dart';
+import '../../core/api/storefront_catalog_mapper.dart';
 import '../../core/config/storefront_app_config.dart';
 import '../../core/config/storefront_app_config_provider.dart';
 import '../../shared/models/models.dart';
@@ -126,7 +127,12 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
         final rows = (data['items'] as List<dynamic>? ?? <dynamic>[]);
         final items = rows
             .whereType<Map>()
-            .map(_mapAuthenticatedLine)
+            .map(
+              (Map row) => _mapAuthenticatedLine(
+                row,
+                apiBaseUrl: dio.options.baseUrl,
+              ),
+            )
             .toList(growable: false);
         state = AsyncValue.data(items);
       } catch (error, stackTrace) {
@@ -153,8 +159,15 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
         throw const FormatException('Guest cart response is invalid.');
       }
       final rows = (data['items'] as List<dynamic>? ?? <dynamic>[]);
-      final items =
-          rows.whereType<Map>().map(_mapGuestLine).toList(growable: false);
+      final items = rows
+          .whereType<Map>()
+          .map(
+            (Map row) => _mapGuestLine(
+              row,
+              apiBaseUrl: dio.options.baseUrl,
+            ),
+          )
+          .toList(growable: false);
       state = AsyncValue.data(items);
     } catch (error, stackTrace) {
       if (showLoading || currentItems == null) {
@@ -163,7 +176,10 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
     }
   }
 
-  CartItem _mapAuthenticatedLine(Map raw) {
+  CartItem _mapAuthenticatedLine(
+    Map raw, {
+    required String apiBaseUrl,
+  }) {
     final Map<String, dynamic> e = Map<String, dynamic>.from(raw);
     final Map<String, dynamic>? product = e['product'] as Map<String, dynamic>?;
     final double price =
@@ -181,7 +197,7 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
             e['variant_name'] ??
             (e['variant'] is Map ? (e['variant'] as Map)['name'] : null),
       ),
-      imageUrl: _productImage(product),
+      imageUrl: _productImage(product, apiBaseUrl: apiBaseUrl),
       taxRate: _money(e['taxRate'] ?? e['tax_rate']),
       moq: _int(e['moq'] ?? product?['moq'], 1),
       stockQuantity: _optionalInt(
@@ -190,7 +206,10 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
     );
   }
 
-  CartItem _mapGuestLine(Map raw) {
+  CartItem _mapGuestLine(
+    Map raw, {
+    required String apiBaseUrl,
+  }) {
     final Map<String, dynamic> e = Map<String, dynamic>.from(raw);
     final Map<String, dynamic>? product = e['product'] as Map<String, dynamic>?;
     final double price =
@@ -208,7 +227,7 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
             e['variant_name'] ??
             (e['variant'] is Map ? (e['variant'] as Map)['name'] : null),
       ),
-      imageUrl: _productImage(product),
+      imageUrl: _productImage(product, apiBaseUrl: apiBaseUrl),
       taxRate: _money(e['taxRate'] ?? e['tax_rate']),
       moq: _int(e['moq'] ?? product?['moq'], 1),
       stockQuantity: _optionalInt(
@@ -327,7 +346,6 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
   Future<CheckoutResult> checkout({
     String? addressId,
     String paymentMode = 'UPI_QR',
-    String? couponCode,
     CartItem? buyNowItem,
   }) async {
     final String? token = _ref.read(authTokenProvider);
@@ -358,8 +376,6 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
             if (buyNowItem.variantId != null) 'variantId': buyNowItem.variantId,
             'quantity': buyNowItem.quantity,
           },
-        if (couponCode != null && couponCode.trim().isNotEmpty)
-          'couponCode': couponCode.trim().toUpperCase(),
       },
     );
     final data = nestEnvelopeData(response.data);
@@ -516,7 +532,10 @@ String? _optionalText(Object? raw) {
   return value.isEmpty || value == 'null' ? null : value;
 }
 
-String? _productImage(Map<String, dynamic>? product) {
+String? _productImage(
+  Map<String, dynamic>? product, {
+  required String apiBaseUrl,
+}) {
   if (product == null) return null;
   final String? direct = _optionalText(
     product['imageUrl'] ??
@@ -524,15 +543,21 @@ String? _productImage(Map<String, dynamic>? product) {
         product['thumbnailUrl'] ??
         product['thumbnail_url'],
   );
-  if (direct != null) return direct;
+  if (direct != null) {
+    return resolveStorefrontMediaUrl(direct, apiBaseUrl: apiBaseUrl);
+  }
 
   final Object? rawImages = product['images'];
   if (rawImages is! List || rawImages.isEmpty) return null;
   final Object? first = rawImages.first;
-  if (first is String) return _optionalText(first);
+  if (first is String) {
+    return resolveStorefrontMediaUrl(first, apiBaseUrl: apiBaseUrl);
+  }
   if (first is Map) {
-    return _optionalText(
-        first['imageUrl'] ?? first['image_url'] ?? first['url']);
+    return resolveStorefrontMediaUrl(
+      first['imageUrl'] ?? first['image_url'] ?? first['url'],
+      apiBaseUrl: apiBaseUrl,
+    );
   }
   return null;
 }

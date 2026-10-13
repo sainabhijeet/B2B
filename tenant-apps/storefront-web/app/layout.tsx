@@ -4,9 +4,12 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@/styles/tokens.css";
 import { createLanguageContext } from "@/lib/localization-service";
-import { resolveStorefrontTheme } from "@/lib/resolve-storefront-theme";
+import { resolveStorefrontTheme, storefrontDisplayName } from "@/lib/resolve-storefront-theme";
 import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
 import StorefrontHeaderVisibility from "@/components/StorefrontHeaderVisibility";
+import StorefrontFooterVisibility from "@/components/StorefrontFooterVisibility";
+import StorefrontNavigationLoader from "@/components/StorefrontNavigationLoader";
+import { loadHomeTemplateChain } from "@/engine/theme-loader";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,13 +21,17 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Storefront",
-    template: "%s · Storefront",
-  },
-  description: "Next.js theme engine — JSON templates + section registry",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const resolved = await resolveStorefrontTheme();
+  const storeName = storefrontDisplayName(resolved);
+  return {
+    title: {
+      default: storeName,
+      template: `%s · ${storeName}`,
+    },
+    description: resolved.branding?.tagline?.trim() || `${storeName} online storefront`,
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -41,22 +48,37 @@ export default async function RootLayout({
   const cookieStore = await cookies();
   const signedIn = Boolean(cookieStore.get(CUSTOMER_ACCESS_COOKIE)?.value);
   const branding = resolved.branding;
-  const logoText = resolved.webTheme?.themeName?.trim() || branding?.industryName?.trim() || "Storefront";
+  const logoText = storefrontDisplayName(resolved);
   const logoImageUrl = branding?.logoUrl || branding?.logoDataUrl || undefined;
+  const { template: homeTemplate } = await loadHomeTemplateChain(resolved);
+  const footerSection = homeTemplate.sections.find((section) => {
+    const type = String(section.type ?? section.component ?? section.id ?? "").trim().toLowerCase();
+    return type === "footer" || type === "footer-columns";
+  });
+  const footerSettings = footerSection?.settings ?? {};
   return (
     <html lang={language} dir={direction} suppressHydrationWarning>
       <body dir={direction} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} min-h-screen antialiased`}>
+        <StorefrontNavigationLoader />
         <StorefrontHeaderVisibility
           logoText={logoText}
           logoImageUrl={logoImageUrl}
           industryName={branding?.industryName || undefined}
-          nav={["Home", "Categories", "Products", "About", "Blog", "FAQ", "Contact"]}
+          nav={["Home", "Categories", "About", "Blog", "FAQ", "Contact"]}
           languageCode={language}
           primaryColor={branding?.primaryColor || undefined}
           secondaryColor={branding?.secondaryColor || undefined}
           signedIn={signedIn}
         />
         {children}
+        <StorefrontFooterVisibility
+          {...footerSettings}
+          logoText={logoText}
+          logoImageUrl={logoImageUrl}
+          industryName={branding?.industryName || undefined}
+          tagline={branding?.tagline || undefined}
+          languageCode={language}
+        />
       </body>
     </html>
   );

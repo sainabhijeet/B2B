@@ -38,7 +38,7 @@ export default function WishlistPageClient({ initialItems, languageCode }: {
             <h1 className="text-3xl font-bold tracking-tight text-slate-950">{t("Wishlist")}</h1>
             <p className="mt-2 text-sm text-slate-600">{items.length} {t(items.length === 1 ? "saved product" : "saved products")}</p>
           </div>
-          <Link href="/product" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:border-indigo-200 hover:text-indigo-700">{t("Continue shopping")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+          <Link href="/category" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm hover:border-indigo-200 hover:text-indigo-700">{t("Continue shopping")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </div>
 
         {items.length === 0 ? (
@@ -46,7 +46,7 @@ export default function WishlistPageClient({ initialItems, languageCode }: {
             <span className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-rose-50 text-rose-500"><Heart className="h-8 w-8" aria-hidden="true" /></span>
             <h2 className="mt-5 text-xl font-semibold text-slate-900">{t("Your wishlist is empty")}</h2>
             <p className="mt-2 text-sm text-slate-500">{t("Tap the heart on a product to save it here.")}</p>
-            <Link href="/product" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-700">{t("Browse products")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+            <Link href="/category" className="mt-6 inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-3 text-sm font-semibold text-white hover:bg-indigo-700">{t("Browse products")} <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
           </div>
         ) : (
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

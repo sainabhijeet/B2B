@@ -8,8 +8,6 @@ class CategoryCatalogFilter {
     required List<Category> categories,
     required Category selectedCategory,
     String query = '',
-    bool moqOnly = false,
-    bool gstOnly = false,
   }) {
     final List<String> terms = query
         .trim()
@@ -19,8 +17,6 @@ class CategoryCatalogFilter {
         .toList(growable: false);
 
     return products.where((Product product) {
-      if (moqOnly && !_hasBulkMoq(product)) return false;
-      if (gstOnly && product.gstRate <= 0) return false;
       if (terms.isEmpty) return matchesCategory(product, selectedCategory);
 
       final Iterable<Category> productCategories = categories.where(
@@ -59,10 +55,5 @@ class CategoryCatalogFilter {
         category.slug!.trim().toLowerCase(),
     };
     return categoryKeys.contains(productCategory);
-  }
-
-  static bool _hasBulkMoq(Product product) {
-    return product.moq > 1 ||
-        product.variants.any((ProductVariant variant) => variant.moq > 1);
   }
 }

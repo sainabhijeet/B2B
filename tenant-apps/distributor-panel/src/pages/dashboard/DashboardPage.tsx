@@ -140,11 +140,8 @@ function websiteOpenUrl(
         (import.meta.env.VITE_STOREFRONT_PORT as string | undefined)?.trim() ||
         "5175";
     }
-    if (tenantSlugFromHost) {
-      // Windows does not consistently resolve wildcard *.localhost hosts. IPv4 also
-      // avoids colliding with the distributor panel when both apps use localhost.
-      url.hostname = "127.0.0.1";
-    }
+    // Keep the tenant's branded localhost hostname. The storefront uses this
+    // host to resolve tenant identity through the API.
     if (tenantSlug) {
       const tokenTenantId = getAuthSession()?.tenantId ?? null;
       if (tokenTenantId) url.searchParams.set("tenantId", tokenTenantId);

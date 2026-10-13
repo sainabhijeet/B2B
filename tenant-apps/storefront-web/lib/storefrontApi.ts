@@ -17,6 +17,21 @@ export function getStorefrontApiBase(): string {
  */
 export function storefrontHostHeader(): Record<string, string> {
   if (typeof window !== "undefined" && window.location?.host) {
+    const hostname = window.location.hostname.toLowerCase();
+    const isBareLocalhost = hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
+    if (process.env.NODE_ENV === "development" && isBareLocalhost) {
+      const tenantId = process.env.NEXT_PUBLIC_STOREFRONT_DEFAULT_TENANT_ID?.trim();
+      if (
+        tenantId &&
+        /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(tenantId)
+      ) {
+        return { "X-Tenant-Id": tenantId };
+      }
+      const tenantSlug = process.env.NEXT_PUBLIC_STOREFRONT_DEFAULT_TENANT_SLUG?.trim().toLowerCase();
+      if (tenantSlug && /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/u.test(tenantSlug)) {
+        return { "X-Storefront-Host": `${tenantSlug}.localhost` };
+      }
+    }
     return { "X-Storefront-Host": window.location.host };
   }
   const site = process.env.NEXT_PUBLIC_SITE_URL;

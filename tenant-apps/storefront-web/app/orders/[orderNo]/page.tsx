@@ -123,7 +123,7 @@ export default async function OrderDetailPage({ params }: { params: PageParams }
               <h1 className="text-3xl font-bold tracking-tight text-slate-950">{t("Order details")}</h1>
               <p className="mt-2 text-sm text-slate-600">{t("Order")} <span className="font-mono font-semibold text-slate-900">{order.orderNumber}</span> <span className="mx-1 text-slate-300">·</span> {orderDateTime(order.createdAt, language)}</p>
             </div>
-            <Link href="/product" className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm hover:text-indigo-700">{t("Continue shopping")}<ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+            <Link href="/category" className="inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm hover:text-indigo-700">{t("Continue shopping")}<ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
           </div>
 
           <section className="mb-6 flex flex-wrap items-center gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6" aria-label={t("Order status")}>

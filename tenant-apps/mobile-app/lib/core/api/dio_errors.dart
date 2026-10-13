@@ -42,3 +42,17 @@ String? extractAccessToken(dynamic body) {
   }
   return null;
 }
+
+String? extractRefreshToken(dynamic body) {
+  if (body is! Map) return null;
+  final m = Map<String, dynamic>.from(body);
+  final direct = m['refreshToken'] ?? m['refresh_token'];
+  if (direct is String && direct.trim().isNotEmpty) return direct.trim();
+  final nested = m['data'];
+  if (nested is Map) {
+    final nm = Map<String, dynamic>.from(nested);
+    final token = nm['refreshToken'] ?? nm['refresh_token'];
+    if (token is String && token.trim().isNotEmpty) return token.trim();
+  }
+  return null;
+}

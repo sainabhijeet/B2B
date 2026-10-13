@@ -66,4 +66,69 @@ void main() {
       'assets/images/demo_products/beverage.png',
     );
   });
+
+  test('uses variant-specific price slabs from product detail', () {
+    final base = mapStorefrontProducts(
+      <Map<String, Object?>>[
+        <String, Object?>{
+          'id': 'p1',
+          'name': 'Rose Water Mist',
+          'slug': 'rose-water-mist',
+          'price': '464.00',
+          'categorySlug': 'skincare',
+          'variants': <Map<String, Object?>>[
+            <String, Object?>{
+              'id': 'v1',
+              'sku': 'ROSE-100',
+              'price': '464.00',
+              'moq': 6,
+            },
+          ],
+        },
+      ],
+      apiBaseUrl: 'http://localhost:3000/api/v1',
+    ).single;
+
+    final detail = mergeStorefrontProductDetail(
+      base,
+      <String, Object?>{
+        'product': <String, Object?>{
+          'id': 'p1',
+          'name': 'Rose Water Mist',
+          'slug': 'rose-water-mist',
+          'categorySlug': 'skincare',
+        },
+        'variants': <Map<String, Object?>>[
+          <String, Object?>{
+            'id': 'v1',
+            'sku': 'ROSE-100',
+            'price': '464.00',
+            'moq': 6,
+            'priceSlabs': <Map<String, Object?>>[
+              <String, Object?>{'minQty': 6, 'price': '464.00'},
+              <String, Object?>{'minQty': 24, 'price': '440.80'},
+              <String, Object?>{'minQty': 96, 'price': '417.60'},
+            ],
+          },
+          <String, Object?>{
+            'id': 'v2',
+            'sku': 'ROSE-200',
+            'price': '500.00',
+            'moq': 4,
+            'priceSlabs': <Map<String, Object?>>[],
+          },
+        ],
+      },
+      apiBaseUrl: 'http://localhost:3000/api/v1',
+    );
+
+    expect(
+      detail.slabsForVariant('v1').map((row) => row.minQty).toList(),
+      <int>[6, 24, 96],
+    );
+    expect(detail.unitPriceForQuantity(25, variantId: 'v1'), 440.80);
+    expect(detail.priceSlabs.every((row) => row.variantId == 'v1'), isTrue);
+    expect(detail.slabsForVariant('v2'), isEmpty);
+    expect(detail.unitPriceForQuantity(25, variantId: 'v2'), 500.00);
+  });
 }

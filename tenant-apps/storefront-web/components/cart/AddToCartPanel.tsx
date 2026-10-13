@@ -5,6 +5,10 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { emitStorefrontCartChanged } from "@/lib/cart-events";
 import { formatCurrency } from "@/lib/language-consistency";
+import {
+  STOREFRONT_PRODUCT_READY_EVENT,
+  type StorefrontProductReadyDetail,
+} from "@/lib/storefront-loading-events";
 import { translate } from "@/lib/translation-engine";
 
 export type VariantOption = {
@@ -52,6 +56,9 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
   const [targetPrice, setTargetPrice] = useState("");
   const [quoteMessage, setQuoteMessage] = useState("");
   const [quoteBusy, setQuoteBusy] = useState(false);
+  const [initialCartReady, setInitialCartReady] = useState(!signedIn);
+  const [initialAlertsReady, setInitialAlertsReady] = useState(!signedIn);
+  const [priceRefreshVersion, setPriceRefreshVersion] = useState(0);
   const loginHref = `/login?next=${encodeURIComponent(`/product/${productSlug}`)}`;
   const activeAlert = alerts.find((alert) => alert.productId === productId && alert.variantId === selected?.id);
   const unitPrice = livePrice == null ? null : Number(livePrice);
@@ -59,6 +66,7 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
   const slabs = [...(selected?.priceSlabs ?? [])].sort((a, b) => a.minQty - b.minQty);
 
   useEffect(() => {
+    if (priceRefreshVersion === 0) return;
     const controller = new AbortController();
     const timer = setTimeout(async () => {
       setPriceLoading(true);
@@ -75,7 +83,7 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       }
     }, 250);
     return () => { controller.abort(); clearTimeout(timer); };
-  }, [productSlug, qty, variantId]);
+  }, [priceRefreshVersion, productSlug, qty, variantId]);
 
   useEffect(() => {
     if (!signedIn) return;
@@ -83,7 +91,8 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
     void fetch("/api/storefront/stock-alerts", { signal: controller.signal, cache: "no-store" })
       .then(async (response) => response.ok ? response.json() as Promise<{ data?: AlertRow[] }> : null)
       .then((body) => { if (!controller.signal.aborted && Array.isArray(body?.data)) setAlerts(body.data); })
-      .catch(() => undefined);
+      .catch(() => undefined)
+      .finally(() => { if (!controller.signal.aborted) setInitialAlertsReady(true); });
     return () => controller.abort();
   }, [signedIn]);
 
@@ -95,13 +104,26 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       .then((body) => {
         if (!controller.signal.aborted && body?.data?.items?.some((item) => item.productId === productId)) setInCart(true);
       })
-      .catch(() => undefined);
+      .catch(() => undefined)
+      .finally(() => { if (!controller.signal.aborted) setInitialCartReady(true); });
     return () => controller.abort();
   }, [productId, signedIn]);
 
+  useEffect(() => {
+    if (!initialCartReady || !initialAlertsReady) return;
+    const detail: StorefrontProductReadyDetail = {
+      path: `/product/${encodeURIComponent(productSlug)}`,
+    };
+    window.dispatchEvent(new CustomEvent(STOREFRONT_PRODUCT_READY_EVENT, { detail }));
+  }, [initialAlertsReady, initialCartReady, productSlug]);
+
   function changeQuantity(value: number) {
     const next = Number.isFinite(value) ? Math.max(minimum, value) : minimum;
-    setQty(stock == null ? next : Math.min(next, Math.max(minimum, stock)));
+    const bounded = stock == null ? next : Math.min(next, Math.max(minimum, stock));
+    if (bounded !== qty) {
+      setQty(bounded);
+      setPriceRefreshVersion((version) => version + 1);
+    }
     setMsg(null);
   }
 

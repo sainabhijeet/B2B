@@ -72,9 +72,7 @@ export class CustomersService {
     private readonly notifications: NotificationsService,
   ) {}
 
-  /**
-   * Storefront OTP: must exist as an active `customers` row for this tenant + mobile (digits).
-   */
+  /** Legacy registration flow: creates an inactive retailer pending distributor approval. */
   async registerFromStorefront(
     tenantId: string,
     dto: { companyName: string; mobile: string; email?: string },
@@ -727,8 +725,27 @@ export class CustomersService {
     return c;
   }
 
+  /**
+   * Public storefront sign-in allows a new mobile to request OTP. Existing disabled
+   * accounts remain blocked so self-registration cannot bypass an administrator action.
+   */
+  async assertStorefrontCustomerLoginEligible(
+    tenantId: string,
+    mobileDigits: string,
+  ): Promise<void> {
+    const existing = await this.customersRepo.findOne({
+      where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
+    });
+    if (existing && existing.status !== CustomerStatus.ACTIVE) {
+      throw new ForbiddenException('This retailer account is not active.');
+    }
+  }
+
   /** An owner can request OTP without a buyer profile, but not if that profile was disabled. */
-  async assertOwnerCustomerEligible(tenantId: string, mobileDigits: string): Promise<void> {
+  async assertOwnerCustomerEligible(
+    tenantId: string,
+    mobileDigits: string,
+  ): Promise<void> {
     const existing = await this.customersRepo.findOne({
       where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
     });
@@ -738,7 +755,10 @@ export class CustomersService {
   }
 
   /** Create a zero-credit buyer profile only after the same tenant's owner verifies their OTP. */
-  async ensureVerifiedOwnerCustomer(tenantId: string, mobileDigits: string): Promise<Customer> {
+  async ensureVerifiedOwnerCustomer(
+    tenantId: string,
+    mobileDigits: string,
+  ): Promise<Customer> {
     const existing = await this.customersRepo.findOne({
       where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
     });
@@ -754,6 +774,45 @@ export class CustomersService {
         this.customersRepo.create({
           tenantId,
           name: 'Store owner',
+          mobile: mobileDigits,
+          email: null,
+          status: CustomerStatus.ACTIVE,
+          creditLimit: '0.00',
+          creditBalance: '0.00',
+        }),
+      );
+    } catch (error) {
+      if (
+        error instanceof QueryFailedError &&
+        (error as { driverError?: { code?: string } }).driverError?.code ===
+          '23505'
+      ) {
+        return this.requireActiveByTenantAndMobile(tenantId, mobileDigits);
+      }
+      throw error;
+    }
+  }
+
+  /** Create a zero-credit active customer only after the mobile OTP has been verified. */
+  async ensureVerifiedStorefrontCustomer(
+    tenantId: string,
+    mobileDigits: string,
+  ): Promise<Customer> {
+    const existing = await this.customersRepo.findOne({
+      where: { tenantId, mobile: mobileDigits, deletedAt: IsNull() },
+    });
+    if (existing) {
+      if (existing.status !== CustomerStatus.ACTIVE) {
+        throw new ForbiddenException('This retailer account is not active.');
+      }
+      return existing;
+    }
+
+    try {
+      return await this.customersRepo.save(
+        this.customersRepo.create({
+          tenantId,
+          name: `Retailer ${mobileDigits.slice(-4)}`,
           mobile: mobileDigits,
           email: null,
           status: CustomerStatus.ACTIVE,

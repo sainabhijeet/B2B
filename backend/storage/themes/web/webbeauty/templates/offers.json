@@ -1,0 +1,37 @@
+{
+    "route":  "/offers",
+    "sections":  [
+                     {
+                         "id":  "offers-0",
+                         "type":  "promo-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "offers"
+                                      }
+                     },
+                     {
+                         "id":  "offers-1",
+                         "type":  "coupon-banner",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "offer_strip"
+                                      }
+                     },
+                     {
+                         "id":  "offers-2",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "product_grid"
+                                      }
+                     },
+                     {
+                         "id":  "offers-3",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

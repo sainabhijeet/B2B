@@ -28,6 +28,11 @@ import {
 
 const DISTRIBUTOR_OTP_PURPOSE = "distributor_panel" as const;
 const DEFAULT_DISTRIBUTOR_COUNTRY_ISO = "IN";
+const COUNTRIES_LOAD_ATTEMPTS = 3;
+
+function wait(ms: number): Promise<void> {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
 
 export function LoginPage() {
   const navigate = useNavigate();
@@ -37,6 +42,7 @@ export function LoginPage() {
   const [step, setStep] = useState<"phone" | "otp">("phone");
   const [publicCountries, setPublicCountries] = useState<PublicCountryRow[]>([]);
   const [countriesLoading, setCountriesLoading] = useState(true);
+  const [countriesError, setCountriesError] = useState<string | null>(null);
   const [selectedCountryId, setSelectedCountryId] = useState("");
   const [nationalPhone, setNationalPhone] = useState("");
   const [otpCode, setOtpCode] = useState("");
@@ -47,6 +53,7 @@ export function LoginPage() {
   const [resendIn, setResendIn] = useState(0);
 
   const lastAutoOtpRef = useRef("");
+  const countriesRequestRef = useRef(0);
 
   useEffect(() => {
     let active = true;
@@ -62,22 +69,43 @@ export function LoginPage() {
     };
   }, [from, navigate]);
 
-  useEffect(() => {
-    let cancelled = false;
-    void apiGet<unknown>("/countries", { skipAuth: true })
-      .then((payload) => {
-        if (!cancelled) setPublicCountries(parseCountriesListResponse(payload));
-      })
-      .catch(() => {
-        if (!cancelled) setPublicCountries([]);
-      })
-      .finally(() => {
-        if (!cancelled) setCountriesLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
+  const loadCountries = useCallback(async () => {
+    const requestId = ++countriesRequestRef.current;
+    setCountriesLoading(true);
+    setCountriesError(null);
+
+    let lastError: unknown = null;
+    for (let attempt = 1; attempt <= COUNTRIES_LOAD_ATTEMPTS; attempt += 1) {
+      try {
+        const payload = await apiGet<unknown>("/countries", { skipAuth: true });
+        const countries = parseCountriesListResponse(payload);
+        if (!countries.length) {
+          throw new Error("The countries API returned no active countries.");
+        }
+        if (countriesRequestRef.current !== requestId) return;
+        setPublicCountries(countries);
+        setCountriesLoading(false);
+        return;
+      } catch (err) {
+        lastError = err;
+        if (attempt < COUNTRIES_LOAD_ATTEMPTS) await wait(attempt * 500);
+      }
+    }
+
+    if (countriesRequestRef.current !== requestId) return;
+    setPublicCountries([]);
+    setCountriesLoading(false);
+    setCountriesError(
+      lastError instanceof Error ? lastError.message : "Could not load the country list.",
+    );
   }, []);
+
+  useEffect(() => {
+    void loadCountries();
+    return () => {
+      countriesRequestRef.current += 1;
+    };
+  }, [loadCountries]);
 
   /** Avoid a render where countries exist but `selectedCountryId` is still "" → input stays disabled. */
   const resolvedCountryId = useMemo(() => {
@@ -368,6 +396,18 @@ export function LoginPage() {
                 Enter your mobile number without the country code. We&apos;ll send a one-time code
                 by SMS (valid for 5 minutes).
               </p>
+              {countriesError ? (
+                <p className="mt-2 text-xs text-red-700" role="alert">
+                  Country list could not be loaded. {countriesError}{" "}
+                  <button
+                    type="button"
+                    className="font-semibold text-emerald-700 underline hover:text-emerald-800"
+                    onClick={() => void loadCountries()}
+                  >
+                    Retry
+                  </button>
+                </p>
+              ) : null}
             </div>
             <button
               type="button"

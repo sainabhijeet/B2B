@@ -11,6 +11,7 @@ import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
 import { cookies } from "next/headers";
 import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
 import { fetchStorefrontProductDetail } from "@/services/productService";
+import { getStorefrontFeatureConfig } from "@/services/storefrontAppConfigService";
 
 export const metadata: Metadata = {
   title: "Checkout",
@@ -59,10 +60,11 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Sea
       };
     }
   }
-  const [cartRes, meRes, paymentRes] = await Promise.all([
+  const [cartRes, meRes, paymentRes, featureConfig] = await Promise.all([
     storefrontAuthedFetchReadOnly("/cart"),
     storefrontAuthedFetchReadOnly("/storefront/customer/me"),
     storefrontAuthedFetchReadOnly("/storefront/payment-settings"),
+    getStorefrontFeatureConfig(),
   ]);
 
   const cartText = await cartRes.text();
@@ -97,6 +99,7 @@ export default async function CheckoutPage({ searchParams }: { searchParams: Sea
         meStatus={meRes.status}
         paymentEnvelope={paymentEnvelope}
         paymentStatus={paymentRes.status}
+        creditViewEnabled={featureConfig.creditViewEnabled}
         languageCode={languageCode}
         buyNow={buyNow}
         buyNowItem={buyNowItem}

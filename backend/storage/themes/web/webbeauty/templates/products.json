@@ -1,0 +1,29 @@
+{
+    "route":  "/products",
+    "sections":  [
+                     {
+                         "id":  "products-0",
+                         "type":  "filter-sidebar",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "products"
+                                      }
+                     },
+                     {
+                         "id":  "products-1",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "product_grid"
+                                      }
+                     },
+                     {
+                         "id":  "products-2",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

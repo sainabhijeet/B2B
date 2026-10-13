@@ -7,6 +7,11 @@ const TENANT_SLUG_COOKIE = "storefront_tenant";
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const SLUG_PATTERN = /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/;
 
+function isBareLocalhost(request: NextRequest): boolean {
+  const hostname = request.nextUrl.hostname.toLowerCase();
+  return hostname === "localhost" || hostname === "127.0.0.1" || hostname === "::1";
+}
+
 function validTenantId(value: string | null): string {
   const normalized = value?.trim() ?? "";
   return UUID_PATTERN.test(normalized) ? normalized : "";
@@ -25,11 +30,19 @@ export function middleware(request: NextRequest) {
   const sessionTenantId = !tenantId && !tenantSlug
     ? tenantIdFromCustomerToken(request.cookies.get(CUSTOMER_ACCESS_COOKIE)?.value)
     : null;
+  const allowDevelopmentDefault = process.env.NODE_ENV === "development" && isBareLocalhost(request);
+  const defaultTenantId = allowDevelopmentDefault
+    ? validTenantId(process.env.NEXT_PUBLIC_STOREFRONT_DEFAULT_TENANT_ID ?? null)
+    : "";
+  const defaultTenantSlug = allowDevelopmentDefault
+    ? validTenantSlug(process.env.NEXT_PUBLIC_STOREFRONT_DEFAULT_TENANT_SLUG ?? null)
+    : "";
   const requestHeaders = new Headers(request.headers);
 
-  const activeTenantId = tenantId || sessionTenantId;
+  const activeTenantId = tenantId || sessionTenantId || defaultTenantId;
+  const activeTenantSlug = tenantSlug || defaultTenantSlug;
   if (activeTenantId) requestHeaders.set("x-storefront-tenant-id", activeTenantId);
-  if (tenantSlug) requestHeaders.set("x-storefront-tenant", tenantSlug);
+  if (activeTenantSlug) requestHeaders.set("x-storefront-tenant", activeTenantSlug);
 
   const response = NextResponse.next({ request: { headers: requestHeaders } });
   const cookieOptions = {
@@ -41,6 +54,12 @@ export function middleware(request: NextRequest) {
 
   if (queryTenantId) response.cookies.set(TENANT_ID_COOKIE, queryTenantId, cookieOptions);
   if (queryTenantSlug) response.cookies.set(TENANT_SLUG_COOKIE, queryTenantSlug, cookieOptions);
+  if (!tenantId && !sessionTenantId && defaultTenantId) {
+    response.cookies.set(TENANT_ID_COOKIE, defaultTenantId, cookieOptions);
+  }
+  if (!tenantSlug && defaultTenantSlug) {
+    response.cookies.set(TENANT_SLUG_COOKIE, defaultTenantSlug, cookieOptions);
+  }
 
   return response;
 }

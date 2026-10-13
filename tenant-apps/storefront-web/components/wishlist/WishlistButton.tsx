@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
 import { translate } from "@/lib/translation-engine";
+import { emitStorefrontWishlistChanged, STOREFRONT_WISHLIST_CHANGED } from "@/lib/wishlist-events";
 
-const CHANGE_EVENT = "storefront:wishlist-changed";
 let cachedIds: string[] | null = null;
 let pendingLoad: Promise<string[] | null> | null = null;
 let mutationVersion = 0;
@@ -47,8 +47,8 @@ export default function WishlistButton({ productId, languageCode, compact = fals
       });
     }
     const sync = () => setSaved(Boolean(cachedIds?.includes(productId)));
-    window.addEventListener(CHANGE_EVENT, sync);
-    return () => { active = false; window.removeEventListener(CHANGE_EVENT, sync); };
+    window.addEventListener(STOREFRONT_WISHLIST_CHANGED, sync);
+    return () => { active = false; window.removeEventListener(STOREFRONT_WISHLIST_CHANGED, sync); };
   }, [initialSaved, productId]);
 
   async function toggle() {
@@ -83,7 +83,7 @@ export default function WishlistButton({ productId, languageCode, compact = fals
       cachedIds = payload.data.productIds;
       const nowSaved = cachedIds.includes(productId);
       setSaved(nowSaved);
-      window.dispatchEvent(new Event(CHANGE_EVENT));
+      emitStorefrontWishlistChanged(cachedIds);
       onChange?.(nowSaved);
     } catch {
       setError(t("Network error. Please try again."));

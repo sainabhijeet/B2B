@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-label="Cloud Cream Cleanser">
+ <defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#FFF1F6"/></linearGradient></defs>
+ <rect width="640" height="720" rx="42" fill="url(#g)"/><circle cx="480" cy="155" r="120" fill="#BAE6FD" opacity=".32"/><g transform="translate(0 62)"><rect x='252' y='154' width='152' height='258' rx='42' fill='#BAE6FD'/><rect x='284' y='93' width='88' height='70' rx='18' fill='#8E24AA'/><rect x='274' y='244' width='108' height='84' rx='24' fill='#fff' opacity='.72'/></g>
+ <text x="44" y="608" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#C2185B">LUMERA PRO</text>
+ <text x="44" y="646" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#1F2937">Cloud Cream Cleanser</text><text x="44" y="680" font-family="Inter,Arial" font-size="18" fill="#6B7280">120ml · Trade ready</text>
+</svg>

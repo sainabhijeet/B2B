@@ -14,6 +14,7 @@ type Props = {
   imageRight?: string;
   /** When set, loads `GET /storefront/products?category=<slug>` (tenant catalogue). */
   categorySlug?: string;
+  limit?: number;
   languageCode?: string;
 };
 
@@ -27,10 +28,12 @@ export default async function ProductGrid({
   imageCenter,
   imageRight,
   categorySlug,
+  limit,
   languageCode,
 }: Props) {
+  const max = typeof limit === "number" && Number.isFinite(limit) && limit > 0 ? Math.min(Math.floor(limit), 24) : 12;
   const products = await listProducts({
-    limit: 72,
+    limit: max,
     ...(categorySlug?.trim() ? { category: categorySlug.trim() } : {}),
   });
   const k = themeKey ?? "jewellery";
@@ -41,7 +44,7 @@ export default async function ProductGrid({
   const t = (text: string) => translate(text, languageCode);
   return (
     <section
-      className="mx-auto max-w-6xl px-4 py-12"
+      className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16"
       style={{ background: "color-mix(in srgb, var(--theme-surface) 92%, transparent)" }}
       data-theme-key={k}
     >
@@ -52,7 +55,7 @@ export default async function ProductGrid({
         {t(sub)}
       </p>
       {products.length > 0 ? (
-        <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {products.map((p, index) => (
             <ProductCard
               key={p.slug}

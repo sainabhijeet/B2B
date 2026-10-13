@@ -3,7 +3,7 @@ import { proxyNestResponse } from "@/lib/proxyNestResponse";
 
 export async function POST() {
   return proxyNestResponse(
-    await storefrontAuthedFetch("/storefront/customers/account-deletion/otp", {
+    await storefrontAuthedFetch("/storefront/customer/account-deletion/otp", {
       method: "POST",
     }),
   );

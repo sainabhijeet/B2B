@@ -1,0 +1,211 @@
+{
+  "route": "/home",
+  "sections": [
+    {
+      "id": "home-hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "WHOLESALE BEAUTY, CURATED",
+        "title": "Grow your beauty business with better buying.",
+        "subtitle": "Trade pricing, verified products, flexible case packs and reliable delivery for modern beauty retailers.",
+        "image": "assets/banners/skin-care-sale-1920x700.png",
+        "primaryCta": "Shop all products",
+        "primaryHref": "/category",
+        "secondaryCta": "Browse categories",
+        "secondaryHref": "/category"
+      }
+    },
+    {
+      "id": "home-live-catalog",
+      "type": "feature-grid",
+      "settings": {
+        "eyebrow": "LIVE GLOWORA CATALOG",
+        "title": "Everything you need to stock your beauty business",
+        "subtitle": "Real products, live categories and retailer pricing from your current Glowora catalog."
+      }
+    },
+    {
+      "id": "home-categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Shop by category",
+        "subtitle": "Source salon, skincare, haircare and personal-care essentials in a few clicks."
+      }
+    },
+    {
+      "id": "home-brands",
+      "type": "brand-spotlight",
+      "settings": {
+        "eyebrow": "LIVE BRAND DIRECTORY",
+        "title": "Brands retailers keep coming back to",
+        "subtitle": "Explore active brands from the Glowora catalog and compare their available products.",
+        "limit": 12
+      }
+    },
+    {
+      "id": "home-popular",
+      "type": "product-carousel",
+      "settings": {
+        "title": "Popular with beauty retailers",
+        "limit": 6
+      }
+    },
+    {
+      "id": "home-offer",
+      "type": "promo-banner",
+      "settings": {
+        "eyebrow": "RETAILER BENEFIT",
+        "title": "Better value on larger quantities",
+        "subtitle": "Sign in to view trade pricing and quantity slabs available for your account.",
+        "ctaLabel": "Explore catalog",
+        "ctaUrl": "/category"
+      }
+    },
+    {
+      "id": "home-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Professional beauty essentials",
+        "subtitle": "Browse the latest live products from the Glowora wholesale catalog.",
+        "limit": 8
+      }
+    },
+    {
+      "id": "home-new-arrivals",
+      "type": "product-carousel",
+      "settings": {
+        "title": "Fresh arrivals for your shelves",
+        "subtitle": "Discover the newest products added to the live wholesale catalog.",
+        "sort": "newest",
+        "limit": 8
+      }
+    },
+    {
+      "id": "home-business-story",
+      "type": "image-text",
+      "settings": {
+        "eyebrow": "BUILT FOR MODERN RETAIL",
+        "title": "Premium-looking stock with practical trade value",
+        "body": "Build a stronger shelf with retail-ready beauty and personal-care products. Every listing is organised to make discovery, comparison and repeat ordering simple.",
+        "image": "assets/banners/luxury-makeup-1200x628.png",
+        "imageAlt": "Premium beauty products for wholesale retailers",
+        "imagePosition": "left",
+        "highlights": [
+          "Clear product and pack information",
+          "Quantity-based trade pricing",
+          "Live stock-aware ordering",
+          "Fast repeat purchasing"
+        ]
+      }
+    },
+    {
+      "id": "home-benefits",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "WHY RETAILERS CHOOSE GLOWORA",
+        "title": "Wholesale buying without the usual friction",
+        "items": [
+          {
+            "icon": "₹",
+            "title": "Transparent trade pricing",
+            "text": "Sign in once to view account pricing and quantity slabs."
+          },
+          {
+            "icon": "24h",
+            "title": "Quick replenishment",
+            "text": "Find products faster and reorder your regular stock from one place."
+          },
+          {
+            "icon": "✓",
+            "title": "Retailer-ready catalog",
+            "text": "Professional product images, categories and details designed for confident buying."
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "quote": "Glowora makes it easy to discover professional beauty stock and plan our next replenishment order.",
+        "author": "Independent beauty retailer"
+      }
+    },
+    {
+      "id": "home-buying-guides",
+      "type": "blog-preview",
+      "settings": {
+        "eyebrow": "SMARTER RETAIL BUYING",
+        "title": "Retailer buying guides",
+        "subtitle": "Practical ideas to help you plan stock, organize your range and serve shoppers better.",
+        "posts": [
+          {
+            "title": "How to build a balanced skincare assortment",
+            "excerpt": "Choose the right mix of cleansers, serums and moisturizers for different customer needs.",
+            "href": "/blog"
+          },
+          {
+            "title": "Planning your next seasonal restock",
+            "excerpt": "Use demand, pricing and shelf space to make more confident wholesale buying decisions.",
+            "href": "/blog"
+          },
+          {
+            "title": "Simple ways to improve product discovery",
+            "excerpt": "Organize beauty products so shoppers can compare benefits and find the right fit faster.",
+            "href": "/blog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-retailer-faq",
+      "type": "faq-section",
+      "settings": {
+        "eyebrow": "RETAILER HELP CENTER",
+        "title": "Questions retailers often ask",
+        "subtitle": "Quick answers about retailer pricing, wishlists, orders and support.",
+        "items": [
+          {
+            "question": "How do I view my trade pricing?",
+            "answer": "Sign in with your verified retailer account to view account pricing and available quantity slabs."
+          },
+          {
+            "question": "Can I save products before placing an order?",
+            "answer": "Yes. Use the heart icon to build a wishlist and return to those products whenever you are ready."
+          },
+          {
+            "question": "Where can I track my orders?",
+            "answer": "Open My Account and select Orders to review order status and available payment details."
+          },
+          {
+            "question": "How can I get help with a product or order?",
+            "answer": "Use the Contact page to send your question to the support team with the relevant product or order details."
+          }
+        ]
+      }
+    },
+    {
+      "id": "home-cta",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Ready to restock your store?",
+        "subtitle": "Explore the live catalog, save products to your wishlist and order with your verified mobile account.",
+        "buttonLabel": "Start shopping",
+        "buttonHref": "/category"
+      }
+    },
+    {
+      "id": "home-footer",
+      "type": "footer-columns",
+      "settings": {
+        "tagline": "Wholesale beauty and personal-care essentials for ambitious retailers across India.",
+        "columns": [
+          {"heading":"Shop","links":[{"label":"Categories","href":"/category"},{"label":"Wishlist","href":"/wishlist"}]},
+          {"heading":"Account","links":[{"label":"My account","href":"/account"},{"label":"Orders","href":"/orders"},{"label":"Cart","href":"/cart"}]},
+          {"heading":"Help center","links":[{"label":"Need help?","href":"/contact"},{"label":"FAQ","href":"/faq"},{"label":"Login","href":"/login"}]},
+          {"heading":"Company","links":[{"label":"About","href":"/about"},{"label":"Blog","href":"/blog"}]}
+        ]
+      }
+    }
+  ]
+}

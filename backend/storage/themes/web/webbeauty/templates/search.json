@@ -1,0 +1,37 @@
+{
+    "route":  "/search",
+    "sections":  [
+                     {
+                         "id":  "search-0",
+                         "type":  "editorial-grid",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "search"
+                                      }
+                     },
+                     {
+                         "id":  "search-1",
+                         "type":  "filter-sidebar",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "filter_sidebar"
+                                      }
+                     },
+                     {
+                         "id":  "search-2",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "dataSource":  "catalog",
+                                          "titleKey":  "product_grid"
+                                      }
+                     },
+                     {
+                         "id":  "search-3",
+                         "type":  "footer-columns",
+                         "settings":  {
+                                          "dataSource":  "theme",
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

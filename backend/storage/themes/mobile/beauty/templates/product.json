@@ -1,0 +1,39 @@
+{
+    "sections":  [
+                     {
+                         "id":  "product-0",
+                         "type":  "header",
+                         "settings":  {
+                                          "titleKey":  "header"
+                                      }
+                     },
+                     {
+                         "id":  "product-1",
+                         "type":  "product-showcase",
+                         "settings":  {
+                                          "titleKey":  "product_gallery"
+                                      }
+                     },
+                     {
+                         "id":  "product-2",
+                         "type":  "product-detail",
+                         "settings":  {
+                                          "titleKey":  "product_info"
+                                      }
+                     },
+                     {
+                         "id":  "product-3",
+                         "type":  "related-products",
+                         "settings":  {
+                                          "titleKey":  "related_products"
+                                      }
+                     },
+                     {
+                         "id":  "product-4",
+                         "type":  "footer-basic",
+                         "settings":  {
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

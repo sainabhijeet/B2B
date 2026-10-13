@@ -40,7 +40,7 @@ class TenantRegistry {
 
   static TenantConfig current() {
     return TenantConfig(
-      appName: _resolveAppName('B2B Commerce'),
+      appName: _resolveAppName('Glowora'),
       primaryColor: const Color(0xFF1565C0),
       secondaryColor: const Color(0xFF26A69A),
       logoUrl: '',

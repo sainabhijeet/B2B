@@ -30,6 +30,19 @@ describe('BrandingService local fallback', () => {
     }
   });
 
+  it('returns the requested number of varied industry palettes', async () => {
+    const result = await service.suggestPalettes({
+      business_name: 'Vijiya',
+      industry: 'Beauty & Personal Care',
+      style: 'varied professional',
+      count: 9,
+    });
+
+    expect(result.palettes).toHaveLength(9);
+    expect(new Set(result.palettes.map((palette) => palette.primary)).size).toBe(9);
+    expect(result.palettes[0]?.label).toMatch(/Beauty|Orchid|Plum/);
+  });
+
   it('returns local tagline suggestions when OpenAI is not configured', async () => {
     const result = await service.suggestTaglines({
       business_name: 'Testing',

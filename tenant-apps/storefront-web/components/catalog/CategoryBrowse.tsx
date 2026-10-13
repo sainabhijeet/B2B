@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProductCard from "@/components/ProductCard";
+import CatalogSortControl from "@/components/catalog/CatalogSortControl";
 import type { ThemeKey } from "@/lib/theme-config";
 import { translate } from "@/lib/translation-engine";
 import { listCategories } from "@/services/categoryService";
@@ -40,30 +40,6 @@ function values(value: string | string[] | undefined): string[] {
     .filter(Boolean);
 }
 
-function CategoryTile({ category, languageCode }: {
-  category: Awaited<ReturnType<typeof listCategories>>[number];
-  languageCode: string;
-}) {
-  const t = (text: string) => translate(text, languageCode);
-  return (
-    <Link
-      href={`/category/${encodeURIComponent(category.slug)}`}
-      className="group flex min-w-0 flex-col items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-center shadow-sm transition hover:-translate-y-0.5 hover:border-[var(--theme-primary)] hover:shadow-md sm:p-4"
-    >
-      <span className="relative flex aspect-square w-full max-w-28 items-center justify-center overflow-hidden rounded-xl bg-slate-50 sm:max-w-36">
-        {category.imageUrl ? (
-          <Image src={category.imageUrl} alt="" fill sizes="(max-width: 640px) 40vw, 160px" className="object-contain p-2" unoptimized />
-        ) : (
-          <span className="text-3xl font-bold text-slate-300" aria-hidden="true">{category.name.slice(0, 1)}</span>
-        )}
-      </span>
-      <span className="line-clamp-2 text-sm font-semibold leading-5 text-slate-800 group-hover:text-[var(--theme-primary)]">
-        {t(category.name)}
-      </span>
-    </Link>
-  );
-}
-
 export default async function CategoryBrowse({ languageCode, themeKey, selectedSlug, searchParams }: Props) {
   const t = (text: string) => translate(text, languageCode);
   const categories = await listCategories();
@@ -97,10 +73,6 @@ export default async function CategoryBrowse({ languageCode, themeKey, selectedS
     ...facetParams,
   };
   const result = await listStorefrontProducts(productParams);
-  const rootCategories = categories.filter((category) => !category.parentId || !categories.some((parent) => parent.id === category.parentId));
-  const categoryTiles = activeCategory
-    ? categories.filter((category) => category.parentId === activeCategory.id)
-    : rootCategories.length ? rootCategories : categories;
   const facets = Object.entries(result.filters).filter(([key, options]) => /^[a-z0-9_-]+$/i.test(key) && Array.isArray(options) && options.length > 0);
   const brandSuggestions = [...new Set(result.products.map((product) => product.brand).filter((item): item is string => Boolean(item)))].sort();
 
@@ -137,25 +109,7 @@ export default async function CategoryBrowse({ languageCode, themeKey, selectedS
           ) : <span className="font-medium text-slate-700">{t("Categories")}</span>}
         </nav>
 
-        <div className="mt-5 flex flex-wrap items-end justify-between gap-3">
-          <div>
-            <h1 className="text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl">
-              {activeCategory ? t(activeCategory.name) : t("Shop by category")}
-            </h1>
-            <p className="mt-1 text-sm text-slate-600">
-              {activeCategory?.description ? t(activeCategory.description) : t("Explore categories and find products from this store.")}
-            </p>
-          </div>
-          {activeCategory ? <Link href="/category" className="text-sm font-semibold text-[var(--theme-primary)] hover:underline">{t("View all categories")} →</Link> : null}
-        </div>
-
-        {categoryTiles.length > 0 ? (
-          <section aria-label={t("Shop by category")} className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-            {categoryTiles.map((category) => <CategoryTile key={category.id} category={category} languageCode={languageCode} />)}
-          </section>
-        ) : null}
-
-        <div className="mt-8 grid gap-6 lg:grid-cols-[240px_minmax(0,1fr)]">
+        <div className="mt-6 grid gap-6 lg:grid-cols-[240px_minmax(0,1fr)]">
           <aside className="h-fit rounded-xl border border-slate-200 bg-white p-4 shadow-sm lg:sticky lg:top-32">
             <h2 className="text-base font-bold text-slate-900">{t("Filters")}{filterCount ? ` (${filterCount})` : ""}</h2>
             <form action={path} method="get" className="mt-4 space-y-5">
@@ -170,7 +124,7 @@ export default async function CategoryBrowse({ languageCode, themeKey, selectedS
                 <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-600">{t("Categories")}</h3>
                 <div className="max-h-48 space-y-1 overflow-y-auto pr-1 text-sm">
                   <Link href="/category" className={`block rounded-md px-2 py-1.5 ${!activeCategory ? "bg-slate-100 font-semibold text-slate-900" : "text-slate-600 hover:bg-slate-50"}`}>{t("All categories")}</Link>
-                  {(rootCategories.length ? rootCategories : categories).map((category) => (
+                  {categories.map((category) => (
                     <Link key={category.id} href={`/category/${encodeURIComponent(category.slug)}`} className={`block rounded-md px-2 py-1.5 ${activeCategory?.id === category.id ? "bg-slate-100 font-semibold text-slate-900" : "text-slate-600 hover:bg-slate-50"}`}>
                       {t(category.name)}
                     </Link>
@@ -223,22 +177,23 @@ export default async function CategoryBrowse({ languageCode, themeKey, selectedS
           <section aria-label={t("Products")} className="min-w-0">
             <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3 shadow-sm">
               <div>
-                <h2 className="font-bold text-slate-900">{activeCategory ? t(activeCategory.name) : t("All products")}</h2>
+                <h1 className="font-bold text-slate-900">{activeCategory ? t(activeCategory.name) : t("All products")}</h1>
                 <p className="text-xs text-slate-500">
                   {result.meta.total ? `${listStart}–${listEnd} ${t("of")} ${result.meta.total} ${t("products")}` : t("No products found")}
                 </p>
               </div>
-              <form action={path} method="get" className="flex items-center gap-2">
-                {Array.from(currentParams.entries()).filter(([key]) => key !== "sort").map(([key, value]) => <input key={key} type="hidden" name={key} value={value} />)}
-                <label htmlFor="category-sort" className="text-xs font-semibold text-slate-600">{t("Sort by")}</label>
-                <select id="category-sort" name="sort" defaultValue={sort} className="rounded-lg border border-slate-300 bg-white px-2 py-2 text-sm text-slate-700">
-                  <option value="newest">{t("Newest")}</option>
-                  <option value="best_selling">{t("Best selling")}</option>
-                  <option value="price_asc">{t("Price: low to high")}</option>
-                  <option value="price_desc">{t("Price: high to low")}</option>
-                </select>
-                <button type="submit" className="rounded-lg border border-slate-300 px-3 py-2 text-xs font-semibold text-slate-700 hover:bg-slate-50">{t("Apply")}</button>
-              </form>
+              <CatalogSortControl
+                action={path}
+                value={sort}
+                preservedParams={Array.from(currentParams.entries()).filter(([key]) => key !== "sort" && key !== "page")}
+                label={t("Sort by")}
+                options={[
+                  { value: "newest", label: t("Newest") },
+                  { value: "best_selling", label: t("Best selling") },
+                  { value: "price_asc", label: t("Price: low to high") },
+                  { value: "price_desc", label: t("Price: high to low") },
+                ]}
+              />
             </div>
 
             {result.products.length ? (

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560" role="img" aria-label="Men&apos;s Grooming">
+ <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#FFF8FB"/><stop offset="1" stop-color="#CBD5E1"/></linearGradient></defs>
+ <rect width="640" height="560" rx="44" fill="url(#g)"/><circle cx="500" cy="120" r="104" fill="#fff" opacity=".45"/><ellipse cx="326" cy="438" rx="182" ry="34" fill="#6B2140" opacity=".12"/>
+ <path d='M246 116h164l-30 300H276Z' fill='#CBD5E1'/><rect x='270' y='365' width='115' height='58' rx='16' fill='#8E24AA'/><circle cx='328' cy='244' r='52' fill='#fff' opacity='.66'/>
+ <text x="40" y="508" font-family="Inter,Arial" font-size="28" font-weight="700" fill="#1F2937">Men&apos;s Grooming</text>
+</svg>

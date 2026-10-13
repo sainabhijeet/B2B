@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "themes:sync": "node scripts/sync-uploaded-themes.mjs",
+    "themes:contracts:audit": "node scripts/audit-theme-contracts.mjs",
     "themes:translations:audit": "node scripts/audit-theme-translations.mjs",
-    "predev": "npm run themes:sync",
+    "predev": "npm run themes:sync && npm run themes:contracts:audit",
     "dev": "next dev -p 5175",
-    "prebuild": "npm run themes:sync",
+    "prebuild": "npm run themes:sync && npm run themes:contracts:audit",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

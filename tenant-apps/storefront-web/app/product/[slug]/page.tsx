@@ -12,8 +12,10 @@ import { resolveStorefrontTheme } from "@/engine/theme-loader";
 import AddToCartPanel from "@/components/cart/AddToCartPanel";
 import ProductCard from "@/components/ProductCard";
 import ProductGallery from "@/components/catalog/ProductGallery";
+import ShareProductButton from "@/components/catalog/ShareProductButton";
 import WishlistButton from "@/components/wishlist/WishlistButton";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
+import { listCategories } from "@/services/categoryService";
 import { fetchStorefrontProductDetail, listStorefrontProducts } from "@/services/productService";
 
 type PageParams = Promise<{ slug: string }>;
@@ -45,29 +47,39 @@ export default async function ProductDetailPage({ params }: { params: PageParams
   const [requestHeaders, cookieStore] = await Promise.all([headers(), cookies()]);
   const previewLanguage = requestHeaders.get("x-preview-language");
   const accessToken = cookieStore.get(CUSTOMER_ACCESS_COOKIE)?.value;
-  const [resolved, detail] = await Promise.all([
+  const [resolved, detail, categories] = await Promise.all([
     resolveStorefrontTheme(null, { previewMode: Boolean(previewLanguage), previewLanguageCode: previewLanguage }),
     fetchStorefrontProductDetail(slug, accessToken ? { accessToken } : undefined),
+    listCategories(),
   ]);
   if (!detail) notFound();
+
+  const product = detail.product;
+  const requestedCategorySlug = product.categorySlug?.trim().toLowerCase() ?? "";
+  const activeCategory = requestedCategorySlug
+    ? categories.find((category) => category.slug.trim().toLowerCase() === requestedCategorySlug)
+    : undefined;
+  const categoryHref = activeCategory
+    ? `/category/${encodeURIComponent(activeCategory.slug)}`
+    : "/category";
 
   const [themeCss, tokenVarsCss, relatedResult] = await Promise.all([
     loadThemeCssText(resolved.webTheme?.manifestPath ?? null, resolved.manifest),
     loadThemeTokenVarsCss(resolved.webTheme?.manifestPath ?? null, resolved.manifest),
-    detail.product.categorySlug
-      ? listStorefrontProducts({ category: detail.product.categorySlug, limit: 8 })
-      : Promise.resolve(null),
+    listStorefrontProducts({
+      ...(activeCategory ? { category: activeCategory.slug } : {}),
+      limit: 8,
+    }),
   ]);
   const tenantTokenCss = tokenOverridesToCss(resolved.tokenOverrides);
   const language = resolved.selectedLanguageCode;
   const t = (text: string) => translate(text, language);
-  const product = detail.product;
   const firstVariant = detail.variants[0];
   const numericPrice = firstVariant?.price == null ? null : Number(firstVariant.price);
   const price = numericPrice != null && Number.isFinite(numericPrice) ? numericPrice : null;
   const numericMrp = firstVariant?.mrp == null ? null : Number(firstVariant.mrp);
   const mrp = numericMrp != null && Number.isFinite(numericMrp) && price != null && numericMrp > price ? numericMrp : null;
-  const categoryName = product.categoryName?.trim() || product.categorySlug?.replace(/-/g, " ") || "";
+  const categoryName = activeCategory?.name || product.categoryName?.trim() || product.categorySlug?.replace(/-/g, " ") || "";
   const gallery = detail.images
     .filter((image) => typeof image.url === "string" && image.url.trim())
     .sort((a, b) => Number(b.isThumbnail) - Number(a.isThumbnail))
@@ -100,10 +112,10 @@ export default async function ProductDetailPage({ params }: { params: PageParams
               <Link href="/" className="hover:text-[var(--theme-primary)]">{t("Home")}</Link>
               <span aria-hidden="true">/</span>
               <Link href="/category" className="hover:text-[var(--theme-primary)]">{t("Categories")}</Link>
-              {product.categorySlug ? (
+              {activeCategory ? (
                 <>
                   <span aria-hidden="true">/</span>
-                  <Link href={`/category/${encodeURIComponent(product.categorySlug)}`} className="hover:text-[var(--theme-primary)]">{t(categoryName)}</Link>
+                  <Link href={categoryHref} className="hover:text-[var(--theme-primary)]">{t(categoryName)}</Link>
                 </>
               ) : null}
               <span aria-hidden="true">/</span>
@@ -111,14 +123,17 @@ export default async function ProductDetailPage({ params }: { params: PageParams
             </nav>
 
             <div className="mt-5 grid gap-7 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)_300px]">
-              <ProductGallery images={gallery} productName={t(product.name)} />
+              <div className="relative min-w-0">
+                <ProductGallery images={gallery} productName={t(product.name)} />
+                <div className="absolute right-3 top-3 z-40 flex items-center gap-2">
+                  <ShareProductButton productName={t(product.name)} productImage={gallery[0]?.url} languageCode={language} />
+                  <WishlistButton productId={product.id} languageCode={language} compact />
+                </div>
+              </div>
 
               <section className="min-w-0">
                 {product.brand ? <p className="text-sm font-semibold text-[var(--theme-primary)]">{t(product.brand)}</p> : null}
-                <div className="mt-1 flex flex-wrap items-start justify-between gap-3">
-                  <h1 className="min-w-0 flex-1 text-2xl font-bold leading-tight text-slate-950 sm:text-3xl">{t(product.name)}</h1>
-                  <WishlistButton productId={product.id} languageCode={language} />
-                </div>
+                <h1 className="mt-1 text-2xl font-bold leading-tight text-slate-950 sm:text-3xl">{t(product.name)}</h1>
                 <p className="mt-2 text-xs text-slate-500">{t("SKU")}: {product.sku}</p>
                 <div className="mt-5 border-y border-slate-200 py-4">
                   {price == null ? (
@@ -153,6 +168,7 @@ export default async function ProductDetailPage({ params }: { params: PageParams
               <aside>
                 {detail.variants.length > 0 ? (
                   <AddToCartPanel
+                    key={product.id}
                     productId={product.id}
                     productName={product.name}
                     productSlug={product.slug}
@@ -212,8 +228,8 @@ export default async function ProductDetailPage({ params }: { params: PageParams
             {related.length > 0 ? (
               <section className="mt-10">
                 <div className="flex items-end justify-between gap-3">
-                  <h2 className="text-xl font-bold text-slate-950">{t("More from this category")}</h2>
-                  {product.categorySlug ? <Link href={`/category/${encodeURIComponent(product.categorySlug)}`} className="text-sm font-semibold text-[var(--theme-primary)] hover:underline">{t("View all")}</Link> : null}
+                  <h2 className="text-xl font-bold text-slate-950">{t(activeCategory ? "More from this category" : "You may also like")}</h2>
+                  <Link href={categoryHref} className="text-sm font-semibold text-[var(--theme-primary)] hover:underline">{t("View all")}</Link>
                 </div>
                 <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
                   {related.map((item) => <ProductCard key={item.slug} {...item} name={t(item.name)} languageCode={language} />)}

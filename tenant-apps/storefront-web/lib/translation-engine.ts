@@ -78,7 +78,6 @@ export function localizeTemplate(
   locale: StorefrontLoadedLocale | LocaleDictionary = {},
 ): TemplateFile {
   const service = new LocalizationService(createLanguageContext(languageCode), locale);
-  if (service.currentLanguage() === "en") return template;
   return localizeValue(template, service) as TemplateFile;
 }
 

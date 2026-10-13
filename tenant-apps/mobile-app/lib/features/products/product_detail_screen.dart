@@ -1,17 +1,21 @@
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../core/api/api_client.dart';
+import '../../core/api/dio_errors.dart';
 import '../../core/config/storefront_app_config_provider.dart';
 import '../../core/localization/language_provider.dart';
 import '../../core/navigation/app_navigation.dart';
 import '../../shared/models/models.dart';
 import '../../shared/widgets/app_feedback.dart';
+import '../auth/auth_screen.dart';
 import '../b2b/b2b_providers.dart';
 import '../cart/cart_provider.dart';
 import '../checkout/checkout_screen.dart';
 import 'products_provider.dart';
+import 'recently_viewed_provider.dart';
 import 'stock_alert_provider.dart';
 
 class ProductDetailScreen extends ConsumerStatefulWidget {
@@ -55,6 +59,11 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
     super.initState();
     _selectedVariantId = widget.product.defaultVariant?.id;
     _quantity = widget.product.defaultVariant?.moq ?? widget.product.moq;
+    final Product product = widget.product;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      ref.read(recentlyViewedProductsProvider.notifier).record(product);
+    });
   }
 
   Future<bool> _addToCart({
@@ -160,6 +169,16 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
 
   Future<void> _requestQuote() async {
     final t = ref.read(appTranslatorProvider);
+    final String? token = ref.read(authTokenProvider);
+    if (token == null || token.isEmpty) {
+      showAppFeedback(
+        context,
+        message: t('Please sign in to request a quote.'),
+        type: AppFeedbackType.info,
+      );
+      await _openSignIn();
+      return;
+    }
     final TextEditingController target = TextEditingController();
     final TextEditingController message = TextEditingController();
     final bool? submit = await showModalBottomSheet<bool>(
@@ -230,6 +249,22 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
         message: t('RFQ submitted successfully.'),
         type: AppFeedbackType.success,
       );
+    } on DioException catch (error) {
+      if (!mounted) return;
+      if (error.response?.statusCode == 401) {
+        showAppFeedback(
+          context,
+          message: t('Your session expired. Please sign in again.'),
+          type: AppFeedbackType.info,
+        );
+        await _openSignIn();
+        return;
+      }
+      showAppFeedback(
+        context,
+        message: '${t('Could not submit RFQ')}: ${describeDioError(error)}',
+        type: AppFeedbackType.error,
+      );
     } catch (error) {
       if (!mounted) return;
       showAppFeedback(
@@ -241,6 +276,39 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
       target.dispose();
       message.dispose();
     }
+  }
+
+  Future<void> _openSignIn() {
+    return Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (BuildContext context) {
+          final ColorScheme colors = Theme.of(context).colorScheme;
+          return Scaffold(
+            appBar: AppBar(
+              toolbarHeight: 60,
+              backgroundColor: colors.primary,
+              foregroundColor: colors.onPrimary,
+              centerTitle: false,
+              leadingWidth: 64,
+              leading: Padding(
+                padding: const EdgeInsets.only(left: 12),
+                child: IconButton(
+                  tooltip: 'Back',
+                  icon: const Icon(Icons.arrow_back_ios_new, size: 18),
+                  onPressed: () => Navigator.of(context).pop(),
+                ),
+              ),
+              title: const Text(
+                'Account',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            body: const AuthScreen(),
+          );
+        },
+      ),
+    );
   }
 
   Future<void> _toggleStockAlert(
@@ -466,6 +534,8 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
               slabs: slabs,
               quantity: _quantity,
               formatCurrency: localization.formatCurrency,
+              title: t('Tier pricing'),
+              unitsLabel: t('units'),
             ),
           ],
           const SizedBox(height: 18),
@@ -501,52 +571,53 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
           const SizedBox(height: 22),
           if (!unavailable)
             Row(
-            children: <Widget>[
-              Expanded(
-                child: SizedBox(
-                  height: 48,
-                  child: isInCart
-                      ? FilledButton.tonalIcon(
-                          onPressed: _isAdding || _isBuying ? null : _goToCart,
-                          style: bottomButtonStyle,
-                          icon: const Icon(Icons.shopping_cart_checkout),
-                          label: Text(t('Go to cart')),
-                        )
-                      : FilledButton.icon(
-                          onPressed: _isAdding || _isBuying
-                              ? null
-                              : () => _addToCart(),
-                          style: bottomButtonStyle,
-                          icon: _isAdding
-                              ? const SizedBox.square(
-                                  dimension: 18,
-                                  child: CircularProgressIndicator(
-                                    strokeWidth: 2,
-                                  ),
-                                )
-                              : const Icon(Icons.add_shopping_cart),
-                          label: Text(t('Add to cart')),
-                        ),
-                ),
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: SizedBox(
-                  height: 48,
-                  child: FilledButton.icon(
-                    onPressed: _isAdding || _isBuying ? null : _buyNow,
-                    style: bottomButtonStyle,
-                    icon: _isBuying
-                        ? const SizedBox.square(
-                            dimension: 18,
-                            child: CircularProgressIndicator(strokeWidth: 2),
+              children: <Widget>[
+                Expanded(
+                  child: SizedBox(
+                    height: 48,
+                    child: isInCart
+                        ? FilledButton.tonalIcon(
+                            onPressed:
+                                _isAdding || _isBuying ? null : _goToCart,
+                            style: bottomButtonStyle,
+                            icon: const Icon(Icons.shopping_cart_checkout),
+                            label: Text(t('Go to cart')),
                           )
-                        : const Icon(Icons.flash_on_outlined),
-                    label: Text(t('Buy Now')),
+                        : FilledButton.icon(
+                            onPressed: _isAdding || _isBuying
+                                ? null
+                                : () => _addToCart(),
+                            style: bottomButtonStyle,
+                            icon: _isAdding
+                                ? const SizedBox.square(
+                                    dimension: 18,
+                                    child: CircularProgressIndicator(
+                                      strokeWidth: 2,
+                                    ),
+                                  )
+                                : const Icon(Icons.add_shopping_cart),
+                            label: Text(t('Add to cart')),
+                          ),
                   ),
                 ),
-              ),
-            ],
+                const SizedBox(width: 10),
+                Expanded(
+                  child: SizedBox(
+                    height: 48,
+                    child: FilledButton.icon(
+                      onPressed: _isAdding || _isBuying ? null : _buyNow,
+                      style: bottomButtonStyle,
+                      icon: _isBuying
+                          ? const SizedBox.square(
+                              dimension: 18,
+                              child: CircularProgressIndicator(strokeWidth: 2),
+                            )
+                          : const Icon(Icons.flash_on_outlined),
+                      label: Text(t('Buy Now')),
+                    ),
+                  ),
+                ),
+              ],
             ),
           const SizedBox(height: 10),
           OutlinedButton.icon(
@@ -667,44 +738,80 @@ class _SlabPricingCard extends StatelessWidget {
     required this.slabs,
     required this.quantity,
     required this.formatCurrency,
+    required this.title,
+    required this.unitsLabel,
   });
 
   final List<PriceSlab> slabs;
   final int quantity;
   final String Function(num value) formatCurrency;
+  final String title;
+  final String unitsLabel;
 
   @override
   Widget build(BuildContext context) {
     final List<PriceSlab> sorted = List<PriceSlab>.of(slabs)
       ..sort((PriceSlab a, PriceSlab b) => a.minQty.compareTo(b.minQty));
-    return Card(
-      margin: EdgeInsets.zero,
+    final ColorScheme colors = Theme.of(context).colorScheme;
+    const Color activeColor = Color(0xFF078447);
+    return Container(
+      decoration: BoxDecoration(
+        color: colors.surfaceContainerLowest,
+        border: Border.all(color: colors.outlineVariant),
+        borderRadius: BorderRadius.circular(10),
+      ),
       child: Padding(
-        padding: const EdgeInsets.all(14),
+        padding: const EdgeInsets.fromLTRB(14, 12, 14, 12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              'Tier pricing',
-              style: Theme.of(context)
-                  .textTheme
-                  .titleMedium
-                  ?.copyWith(fontWeight: FontWeight.w800),
+              title,
+              style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                    color: colors.onSurface,
+                    fontWeight: FontWeight.w800,
+                  ),
             ),
-            const SizedBox(height: 10),
+            const SizedBox(height: 8),
             for (final PriceSlab slab in sorted)
-              ListTile(
-                dense: true,
-                contentPadding: EdgeInsets.zero,
-                leading: Icon(
-                  quantity >= slab.minQty
-                      ? Icons.check_circle
-                      : Icons.radio_button_unchecked,
-                ),
-                title: Text(slab.label ?? '${slab.minQty}+ units'),
-                trailing: Text(
-                  formatCurrency(slab.price),
-                  style: const TextStyle(fontWeight: FontWeight.w900),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 3),
+                child: Row(
+                  children: <Widget>[
+                    if (quantity >= slab.minQty) ...<Widget>[
+                      const Icon(
+                        Icons.check,
+                        size: 16,
+                        color: activeColor,
+                      ),
+                      const SizedBox(width: 5),
+                    ] else
+                      const SizedBox(width: 21),
+                    Expanded(
+                      child: Text(
+                        slab.label ?? '${slab.minQty}+ $unitsLabel',
+                        style: TextStyle(
+                          color: quantity >= slab.minQty
+                              ? activeColor
+                              : colors.onSurfaceVariant,
+                          fontSize: 13,
+                          fontWeight: quantity >= slab.minQty
+                              ? FontWeight.w700
+                              : FontWeight.w500,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      formatCurrency(slab.price),
+                      style: TextStyle(
+                        color: quantity >= slab.minQty
+                            ? activeColor
+                            : colors.onSurface,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ],
                 ),
               ),
           ],
@@ -746,7 +853,7 @@ class _DetailImage extends StatelessWidget {
         clean,
         height: 260,
         width: double.infinity,
-        fit: BoxFit.cover,
+        fit: BoxFit.contain,
         errorBuilder: (_, __, ___) => fallback,
       );
     }
@@ -754,7 +861,7 @@ class _DetailImage extends StatelessWidget {
       clean,
       height: 260,
       width: double.infinity,
-      fit: BoxFit.cover,
+      fit: BoxFit.contain,
       errorBuilder: (_, __, ___) => fallback,
     );
   }

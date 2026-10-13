@@ -1,6 +1,7 @@
 import { getStorefrontLanguage } from "@/lib/storefront-language";
 import { translate } from "@/lib/translation-engine";
 import StorefrontLocaleFrame from "@/components/StorefrontLocaleFrame";
+import ThemedContentPage from "@/components/ThemedContentPage";
 
 const faqs = [
   ["How does delivery work?", "Orders are fulfilled by verified sellers and tracked from checkout to delivery."],
@@ -12,7 +13,7 @@ const faqs = [
 export default async function FaqPage() {
   const language = await getStorefrontLanguage();
   const t = (text: string) => translate(text, language);
-  return (
+  const fallback = (
     <StorefrontLocaleFrame languageCode={language} className="theme-storefront">
     <div className="min-h-screen bg-slate-50">
       <main className="mx-auto max-w-4xl px-4 py-10">
@@ -29,4 +30,5 @@ export default async function FaqPage() {
     </div>
     </StorefrontLocaleFrame>
   );
+  return <ThemedContentPage page="faq" fallback={fallback} />;
 }

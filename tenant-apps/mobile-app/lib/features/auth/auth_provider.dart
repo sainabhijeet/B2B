@@ -129,12 +129,16 @@ class AuthNotifier extends StateNotifier<AuthState> {
         },
       );
       final token = extractAccessToken(res.data);
-      if (token == null || token.isEmpty) {
+      final refreshToken = extractRefreshToken(res.data);
+      if (token == null || token.isEmpty || refreshToken == null) {
         throw StateError(
-          'Missing accessToken in verify-otp response (keys: ${res.data is Map ? (res.data as Map).keys.join(',') : res.data}).',
+          'Missing login tokens in verify-otp response (keys: ${res.data is Map ? (res.data as Map).keys.join(',') : res.data}).',
         );
       }
-      await const AuthTokenStorage().write(token);
+      await const AuthTokenStorage().writeTokens(
+        accessToken: token,
+        refreshToken: refreshToken,
+      );
       _ref.read(authTokenProvider.notifier).state = token;
       _emit(state.copyWith(token: token, isLoading: false, error: null));
     } on DioException catch (e) {

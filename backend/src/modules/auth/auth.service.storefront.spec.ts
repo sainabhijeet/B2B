@@ -1,4 +1,4 @@
-import { ForbiddenException, NotFoundException } from '@nestjs/common';
+import { ForbiddenException } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { OtpPurpose } from '../otp/otp-purpose';
 import { UserRole } from '../../common/enums/user-role.enum';
@@ -16,8 +16,14 @@ describe('storefront OTP login', () => {
     };
     const customersService = {
       assertOwnerCustomerEligible: jest.fn().mockResolvedValue(undefined),
+      assertStorefrontCustomerLoginEligible: jest
+        .fn()
+        .mockResolvedValue(undefined),
       requireActiveByTenantAndMobile: jest.fn().mockResolvedValue({ id: 'customer-1' }),
       ensureVerifiedOwnerCustomer: jest.fn().mockResolvedValue({ id: 'owner-customer' }),
+      ensureVerifiedStorefrontCustomer: jest
+        .fn()
+        .mockResolvedValue({ id: 'new-customer' }),
       ensureDevTestCustomer: jest.fn(),
     };
     const otpService = {
@@ -53,13 +59,33 @@ describe('storefront OTP login', () => {
     });
   });
 
-  it('does not send OTP for an unregistered non-owner', async () => {
+  it('allows an unregistered non-owner to request OTP without creating a customer', async () => {
     const { service, customersService, otpService } = setup(null);
-    customersService.requireActiveByTenantAndMobile.mockRejectedValueOnce(
-      new NotFoundException('No retailer account for this mobile at this store.'),
+
+    await service.storefrontCustomerRequestLoginOtp(tenantId, phone);
+
+    expect(
+      customersService.assertStorefrontCustomerLoginEligible,
+    ).toHaveBeenCalledWith(tenantId, phone);
+    expect(
+      customersService.ensureVerifiedStorefrontCustomer,
+    ).not.toHaveBeenCalled();
+    expect(otpService.requestOtpForRecipient).toHaveBeenCalledWith({
+      purpose: OtpPurpose.CUSTOMER_TENANT,
+      tenantId,
+      phone,
+    });
+  });
+
+  it('does not send OTP for a disabled non-owner account', async () => {
+    const { service, customersService, otpService } = setup(null);
+    customersService.assertStorefrontCustomerLoginEligible.mockRejectedValueOnce(
+      new ForbiddenException('This retailer account is not active.'),
     );
 
-    await expect(service.storefrontCustomerRequestLoginOtp(tenantId, phone)).rejects.toThrow(NotFoundException);
+    await expect(
+      service.storefrontCustomerRequestLoginOtp(tenantId, phone),
+    ).rejects.toThrow(ForbiddenException);
     expect(otpService.requestOtpForRecipient).not.toHaveBeenCalled();
   });
 
@@ -76,7 +102,12 @@ describe('storefront OTP login', () => {
   it('creates the owner buyer profile only after OTP verification', async () => {
     const { service, usersService, customersService, otpService } = setup({ id: 'owner-1' });
 
-    await service.storefrontCustomerVerifyOtpAndLogin(tenantId, phone, '123456', 'web-device');
+    await service.storefrontCustomerVerifyOtpAndLogin(
+      tenantId,
+      phone,
+      '123456',
+      'web-device',
+    );
 
     expect(otpService.verifyOtpForRecipient).toHaveBeenCalledWith(
       { purpose: OtpPurpose.CUSTOMER_TENANT, tenantId, phone },
@@ -89,5 +120,27 @@ describe('storefront OTP login', () => {
       role: UserRole.CUSTOMER,
       customerId: 'owner-customer',
     }));
+  });
+
+  it('creates a new retailer only after OTP verification', async () => {
+    const { service, usersService, customersService, otpService } = setup(null);
+
+    await service.storefrontCustomerVerifyOtpAndLogin(tenantId, phone, '123456', 'web-device');
+
+    expect(otpService.verifyOtpForRecipient).toHaveBeenCalledWith(
+      { purpose: OtpPurpose.CUSTOMER_TENANT, tenantId, phone },
+      '123456',
+    );
+    expect(
+      customersService.ensureVerifiedStorefrontCustomer,
+    ).toHaveBeenCalledWith(tenantId, phone);
+    expect(usersService.create).toHaveBeenCalledWith(
+      expect.objectContaining({
+        tenantId,
+        phone,
+        role: UserRole.CUSTOMER,
+        customerId: 'new-customer',
+      }),
+    );
   });
 });

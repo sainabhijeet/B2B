@@ -9,7 +9,7 @@
         android:maxSdkVersion="32" />
 
     <application
-        android:label="RideGo"
+        android:label="Glowora"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="${usesCleartextTraffic}">

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="720" viewBox="0 0 640 720" role="img" aria-label="Daily Shield SPF 50">
+ <defs><linearGradient id="g" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#FFF1F6"/></linearGradient></defs>
+ <rect width="640" height="720" rx="42" fill="url(#g)"/><circle cx="480" cy="155" r="120" fill="#FDE68A" opacity=".32"/><g transform="translate(0 62)"><path d='M246 116h164l-30 300H276Z' fill='#FDE68A'/><rect x='270' y='365' width='115' height='58' rx='16' fill='#8E24AA'/><circle cx='328' cy='244' r='52' fill='#fff' opacity='.66'/></g>
+ <text x="44" y="608" font-family="Inter,Arial" font-size="18" font-weight="700" fill="#C2185B">LUMERA PRO</text>
+ <text x="44" y="646" font-family="Inter,Arial" font-size="25" font-weight="700" fill="#1F2937">Daily Shield SPF 50</text><text x="44" y="680" font-family="Inter,Arial" font-size="18" fill="#6B7280">50ml · Trade ready</text>
+</svg>

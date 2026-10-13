@@ -1,0 +1,23 @@
+name: beauty_personal_care_b2b_theme
+description: Premium Beauty & Personal Care B2B commerce UI theme.
+version: 1.0.0+1
+publish_to: none
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  flutter_svg: ^2.0.10+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/banners/
+    - assets/locales/

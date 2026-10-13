@@ -8,7 +8,7 @@ import { storefrontAuthedFetch } from "@/lib/storefrontAuthedFetch";
 
 export async function DELETE(req: Request) {
   const body = await req.text();
-  const response = await storefrontAuthedFetch("/storefront/customers/me", {
+  const response = await storefrontAuthedFetch("/storefront/customer/me", {
     method: "DELETE",
     headers: { "Content-Type": "application/json" },
     body,

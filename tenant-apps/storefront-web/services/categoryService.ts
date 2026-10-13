@@ -52,7 +52,7 @@ export async function listCategories(): Promise<StorefrontCategory[]> {
   try {
     const res = await fetch(url, {
       headers: { Accept: "application/json", ...(await storefrontHostHeaderAsync()) },
-      next: { revalidate: 120 },
+      cache: "no-store",
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const body = (await res.json()) as StorefrontCategoriesResponse;

@@ -37,7 +37,30 @@ export async function loadTemplateJson(
   }
 }
 
-export type TemplatePageType = "home" | "category" | "product";
+export type TemplatePageType =
+  | "home"
+  | "category"
+  | "subcategory"
+  | "product-listing"
+  | "product"
+  | "cart"
+  | "checkout"
+  | "wishlist"
+  | "search"
+  | "account"
+  | "orders"
+  | "order-details"
+  | "addresses"
+  | "profile"
+  | "login"
+  | "register"
+  | "forgot-password"
+  | "blog"
+  | "blog-details"
+  | "faq"
+  | "contact"
+  | "about"
+  | "404";
 
 export async function loadTemplateForPage(
   manifestPath: string | null | undefined,

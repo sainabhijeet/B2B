@@ -206,7 +206,10 @@ export class AuthService {
       if (owner) {
         await this.customersService.assertOwnerCustomerEligible(tenantId, phone);
       } else {
-        await this.customersService.requireActiveByTenantAndMobile(tenantId, phone);
+        await this.customersService.assertStorefrontCustomerLoginEligible(
+          tenantId,
+          phone,
+        );
       }
     }
     return this.otpService.requestOtpForRecipient({
@@ -334,7 +337,10 @@ export class AuthService {
       ? await this.customersService.ensureVerifiedOwnerCustomer(dto.tenantId, dto.phone)
       : this.isStorefrontFixedTestMobile(dto.phone)
         ? await this.customersService.ensureDevTestCustomer(dto.tenantId, dto.phone)
-        : await this.customersService.requireActiveByTenantAndMobile(dto.tenantId, dto.phone);
+        : await this.customersService.ensureVerifiedStorefrontCustomer(
+            dto.tenantId,
+            dto.phone,
+          );
 
     let user = await this.usersService.findTenantCustomerUserByPhone(dto.tenantId, dto.phone);
     if (!user) {

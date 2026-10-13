@@ -38,6 +38,26 @@ const LOCAL_PALETTE_LIBRARY: BrandPaletteDto[][] = [
     { primary: '#7C3AED', secondary: '#3730A3', label: 'Premium Violet' },
     { primary: '#0E7490', secondary: '#155E75', label: 'Clear Cyan' },
   ],
+  [
+    { primary: '#DB2777', secondary: '#831843', label: 'Beauty Rose' },
+    { primary: '#C026D3', secondary: '#581C87', label: 'Luxe Orchid' },
+    { primary: '#E11D48', secondary: '#701A75', label: 'Blush Plum' },
+  ],
+  [
+    { primary: '#15803D', secondary: '#3F6212', label: 'Wellness Sage' },
+    { primary: '#059669', secondary: '#115E59', label: 'Fresh Mint' },
+    { primary: '#A16207', secondary: '#422006', label: 'Natural Gold' },
+  ],
+  [
+    { primary: '#2563EB', secondary: '#172554', label: 'Digital Blue' },
+    { primary: '#0891B2', secondary: '#1E3A8A', label: 'Electric Cyan' },
+    { primary: '#475569', secondary: '#0F172A', label: 'Steel Slate' },
+  ],
+  [
+    { primary: '#9F1239', secondary: '#292524', label: 'Heritage Ruby' },
+    { primary: '#D97706', secondary: '#1C1917', label: 'Luxury Gold' },
+    { primary: '#4338CA', secondary: '#111827', label: 'Midnight Indigo' },
+  ],
 ];
 
 @Injectable()
@@ -48,23 +68,37 @@ export class BrandingService {
   ) {}
 
   async suggestPalettes(dto: SuggestPalettesDto): Promise<{ palettes: BrandPaletteDto[] }> {
-    const { colorPalettes: n } = await this.aiSettings.getResolved();
+    const { colorPalettes } = await this.aiSettings.getResolved();
+    const n = Math.min(10, Math.max(1, Math.trunc(dto.count ?? colorPalettes)));
+    const style = dto.style?.trim() || BRANDING_AI_STYLE;
     if (!this.hasOpenAiConfiguration()) {
-      return { palettes: this.localPalettes(dto.business_name, dto.industry, n) };
+      return {
+        palettes: this.localPalettes(dto.business_name, dto.industry, style, n),
+      };
     }
-    const style = BRANDING_AI_STYLE;
     const prompt = [
       `You are a brand designer for B2B wholesale / distribution SaaS storefronts.`,
       `Business name: "${dto.business_name.trim()}". Industry: "${dto.industry.trim()}". Brand style: ${style}.`,
       `Return ONLY valid JSON with this exact shape:`,
       `{"palettes":[{"primary":"#RRGGBB","secondary":"#RRGGBB","label":"short name"}, ...]}`,
       `Include exactly ${n} palettes. Each primary and secondary must be full 7-character CSS hex codes (including #).`,
-      `Colors must be professional, accessible on white backgrounds, and work well together.`,
+      `Make every palette visibly distinct and include a balanced mix of modern, premium, bold, natural, and minimal directions appropriate for the industry.`,
+      `Colors must be professional, accessible on white backgrounds, and work well together. Do not repeat or slightly rename the same colors.`,
     ].join('\n');
 
     const raw = await this.chatJson(prompt);
     const palettes = this.parsePalettes(raw, n);
-    return { palettes };
+    const fallback = this.localPalettes(
+      dto.business_name,
+      dto.industry,
+      style,
+      n,
+    );
+    const unique = new Map<string, BrandPaletteDto>();
+    for (const palette of [...palettes, ...fallback]) {
+      unique.set(`${palette.primary.toUpperCase()}|${palette.secondary.toUpperCase()}`, palette);
+    }
+    return { palettes: [...unique.values()].slice(0, n) };
   }
 
   async suggestTaglines(dto: SuggestTaglinesDto): Promise<SuggestTaglinesResult> {
@@ -158,14 +192,28 @@ export class BrandingService {
   private localPalettes(
     businessName: string,
     industry: string,
+    style: string,
     count: number,
   ): BrandPaletteDto[] {
-    const seed = `${businessName}|${industry}`
+    const seed = `${businessName}|${industry}|${style}`
       .toLowerCase()
       .split('')
       .reduce((total, character) => total + character.charCodeAt(0), 0);
     const flattened = LOCAL_PALETTE_LIBRARY.flat();
-    const start = seed % flattened.length;
+    const industryKey = industry.toLowerCase();
+    let preferredGroup: number | null = null;
+    if (/beauty|personal care|cosmetic|fashion|textile|footwear|jewel|diamond/.test(industryKey)) {
+      preferredGroup = 3;
+    } else if (/health|pharma|medical|veterinary|laboratory|wellness/.test(industryKey)) {
+      preferredGroup = 4;
+    } else if (/electronic|electrical|\bit\b|network|solar|battery|digital|appliance/.test(industryKey)) {
+      preferredGroup = 5;
+    } else if (/industrial|machinery|construction|tool|metal|automotive|aerospace|railway/.test(industryKey)) {
+      preferredGroup = 1;
+    }
+    const start = preferredGroup == null
+      ? seed % flattened.length
+      : preferredGroup * 3 + (seed % 3);
     return Array.from(
       { length: Math.min(count, flattened.length) },
       (_, index) => flattened[(start + index) % flattened.length],

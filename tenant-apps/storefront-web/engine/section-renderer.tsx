@@ -11,6 +11,7 @@ type Props = {
   themeKey: ThemeKey;
   componentSchemas?: Record<string, ComponentSchema>;
   languageCode?: string;
+  sharedSectionProps?: Record<string, unknown>;
 };
 
 type PrimitiveType = "string" | "number" | "boolean" | "image" | "array" | "object";
@@ -43,16 +44,15 @@ function validateSettingsAgainstSchema(
 }
 
 function contractError(message: string) {
-  if (process.env.NODE_ENV === "production") return null;
-  return (
-    <div className="mx-auto mt-4 max-w-6xl rounded-md border border-rose-300 bg-rose-50 px-4 py-3 text-sm text-rose-800">
-      Theme contract error: {message}
-    </div>
-  );
+  // Themes arrive through the API and can be deployed independently from this
+  // app. Keep malformed contracts out of the customer UI while preserving an
+  // actionable diagnostic in the storefront logs.
+  console.error(`[storefront-theme-contract] ${message}`);
+  return null;
 }
 
 /** One section from template JSON → registry React component. */
-export default async function SectionRenderer({ section, sectionIndex, themeKey, componentSchemas, languageCode }: Props) {
+export default async function SectionRenderer({ section, sectionIndex, themeKey, componentSchemas, languageCode, sharedSectionProps }: Props) {
   const rawType = section.type ?? section.id ?? section.component ?? "";
   const type = String(rawType).trim();
   if (!type) return contractError(`section type is missing (${JSON.stringify(section)})`);
@@ -92,7 +92,7 @@ export default async function SectionRenderer({ section, sectionIndex, themeKey,
           />
         </div>
       ) : null}
-      <Cmp {...settings} themeKey={themeKey} variant={effectiveVariant ?? undefined} languageCode={languageCode} />
+      <Cmp {...sharedSectionProps} {...settings} themeKey={themeKey} variant={effectiveVariant ?? undefined} languageCode={languageCode} />
     </div>
   );
 }

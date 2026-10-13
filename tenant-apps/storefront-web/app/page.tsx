@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { loadThemeComponentSchemas, loadThemeCssText } from "@/engine/template-loader";
 import TemplateRenderer from "@/engine/template-renderer";
 import { loadHomeTemplateChain, resolveStorefrontTheme } from "@/engine/theme-loader";
@@ -8,11 +7,7 @@ import PreviewBridge from "@/components/PreviewBridge";
 import { createLanguageContext } from "@/lib/localization-service";
 import { missingTranslations, translate } from "@/lib/translation-engine";
 import { decodeThemePreviewState } from "@/lib/theme-preview-contract";
-
-export const metadata: Metadata = {
-  title: "Storefront",
-  description: "Theme JSON + section registry — multi-tenant ecommerce engine.",
-};
+import { storefrontDisplayName } from "@/lib/resolve-storefront-theme";
 
 type Search = Promise<{ theme?: string | string[]; tenant?: string | string[]; tenantId?: string | string[]; previewMode?: string | string[]; previewLanguage?: string | string[]; previewState?: string | string[]; previewPrimaryColor?: string | string[]; previewSecondaryColor?: string | string[]; previewFontFamily?: string | string[]; previewBorderRadius?: string | string[] }>;
 
@@ -58,6 +53,11 @@ export default async function HomePage({ searchParams }: { searchParams: Search 
             themeKey={themeKey}
             componentSchemas={componentSchemas}
             languageCode={resolved.selectedLanguageCode}
+            sharedSectionProps={{
+              logoText: storefrontDisplayName(resolved),
+              logoImageUrl: resolved.branding?.logoUrl || resolved.branding?.logoDataUrl || undefined,
+              industryName: resolved.branding?.industryName || undefined,
+            }}
           />
         ) : (
           <main className="mx-auto my-16 max-w-2xl rounded-xl border border-amber-200 bg-amber-50 p-8 text-amber-950">

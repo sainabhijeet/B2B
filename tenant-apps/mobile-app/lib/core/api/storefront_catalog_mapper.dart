@@ -102,6 +102,44 @@ Product mergeStorefrontProductDetail(
   final Object? firstImage = images.whereType<Map>().isEmpty
       ? null
       : images.whereType<Map>().first['url'];
+  final List<ProductVariant> detailedVariants = variants
+      .whereType<Map>()
+      .map((Map variant) {
+        final Object? attrs =
+            variant['attributesJson'] ?? variant['attributes'];
+        final Map<String, String> attributes = attrs is Map
+            ? attrs.map(
+                (Object? key, Object? value) =>
+                    MapEntry('$key', value?.toString() ?? ''),
+              )
+            : const <String, String>{};
+        return ProductVariant(
+          id: _text(variant['id']),
+          name: _text(
+            attributes['packSize'] ??
+                attributes['pack_size'] ??
+                variant['name'] ??
+                variant['sku'],
+            fallback: 'Variant',
+          ),
+          sku: _optionalText(variant['sku']),
+          price: _money(variant['price']),
+          moq: _int(variant['moq'], 1),
+          stockQuantity: _optionalInt(variant['stockQuantity']),
+          unit: _optionalText(attributes['unit']),
+          packSize:
+              _optionalText(attributes['packSize'] ?? attributes['pack_size']),
+          attributes: attributes,
+        );
+      })
+      .toList(growable: false);
+  final List<PriceSlab> detailedSlabs = <PriceSlab>[
+    for (final Map variant in variants.whereType<Map>())
+      ..._parseSlabs(
+        variant['priceSlabs'] ?? variant['price_slabs'],
+        variantId: _text(variant['id']),
+      ),
+  ];
 
   return Product(
     id: _text(product['id'], fallback: base.id),
@@ -117,34 +155,8 @@ Product mergeStorefrontProductDetail(
     packSize: base.packSize,
     unit: base.unit,
     stockQuantity: base.stockQuantity,
-    variants: variants.whereType<Map>().map((Map variant) {
-      final Object? attrs = variant['attributesJson'] ?? variant['attributes'];
-      final Map<String, String> attributes = attrs is Map
-          ? attrs.map(
-              (Object? key, Object? value) =>
-                  MapEntry('$key', value?.toString() ?? ''),
-            )
-          : const <String, String>{};
-      return ProductVariant(
-        id: _text(variant['id']),
-        name: _text(
-          attributes['packSize'] ??
-              attributes['pack_size'] ??
-              variant['name'] ??
-              variant['sku'],
-          fallback: 'Variant',
-        ),
-        sku: _optionalText(variant['sku']),
-        price: _money(variant['price']),
-        moq: _int(variant['moq'], 1),
-        stockQuantity: _optionalInt(variant['stockQuantity']),
-        unit: _optionalText(attributes['unit']),
-        packSize:
-            _optionalText(attributes['packSize'] ?? attributes['pack_size']),
-        attributes: attributes,
-      );
-    }).toList(growable: false),
-    priceSlabs: base.priceSlabs,
+    variants: detailedVariants,
+    priceSlabs: detailedSlabs.isEmpty ? base.priceSlabs : detailedSlabs,
     moq: base.moq,
     gstRate: base.gstRate,
   );

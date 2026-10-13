@@ -1,0 +1,32 @@
+{
+    "sections":  [
+                     {
+                         "id":  "category-0",
+                         "type":  "header",
+                         "settings":  {
+                                          "titleKey":  "header"
+                                      }
+                     },
+                     {
+                         "id":  "category-1",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "titleKey":  "category_grid"
+                                      }
+                     },
+                     {
+                         "id":  "category-2",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "titleKey":  "product_grid"
+                                      }
+                     },
+                     {
+                         "id":  "category-3",
+                         "type":  "footer-basic",
+                         "settings":  {
+                                          "titleKey":  "footer"
+                                      }
+                     }
+                 ]
+}

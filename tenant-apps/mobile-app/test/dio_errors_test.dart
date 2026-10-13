@@ -42,4 +42,14 @@ void main() {
       '[502] Razorpay order could not be created.',
     );
   });
+
+  test('extracts rotated access and refresh tokens', () {
+    final response = <String, dynamic>{
+      'accessToken': 'new-access-token',
+      'refreshToken': 'new-refresh-token',
+    };
+
+    expect(extractAccessToken(response), 'new-access-token');
+    expect(extractRefreshToken(response), 'new-refresh-token');
+  });
 }

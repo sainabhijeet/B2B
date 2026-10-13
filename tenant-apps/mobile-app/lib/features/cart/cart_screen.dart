@@ -45,12 +45,10 @@ class _CartScreenState extends ConsumerState<CartScreen> {
   final Set<String> _updatingItems = <String>{};
   String _paymentMode = 'UPI_QR';
   final TextEditingController _utr = TextEditingController();
-  final TextEditingController _coupon = TextEditingController();
 
   @override
   void dispose() {
     _utr.dispose();
-    _coupon.dispose();
     super.dispose();
   }
 
@@ -204,24 +202,6 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                         ),
                         if (widget.checkoutMode) ...<Widget>[
                           const SizedBox(height: 24),
-                          _SectionTitle(t('Coupon code')),
-                          const SizedBox(height: 10),
-                          TextField(
-                            controller: _coupon,
-                            textCapitalization: TextCapitalization.characters,
-                            inputFormatters: <TextInputFormatter>[
-                              FilteringTextInputFormatter.allow(
-                                RegExp(r'[A-Za-z0-9_-]'),
-                              ),
-                              LengthLimitingTextInputFormatter(40),
-                            ],
-                            decoration: InputDecoration(
-                              hintText: t('Coupon code'),
-                              prefixIcon: const Icon(Icons.sell_outlined),
-                              border: const OutlineInputBorder(),
-                            ),
-                          ),
-                          const SizedBox(height: 24),
                           _SectionTitle(t('Payment method')),
                           const SizedBox(height: 10),
                           _PaymentMethodCard(
@@ -269,7 +249,6 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                             guest: guest,
                             address: address,
                             paymentMode: _paymentMode,
-                            couponCode: _coupon.text,
                           )
                       : () => Navigator.of(context).pushNamed(
                             checkoutRouteName,
@@ -389,7 +368,6 @@ class _CartScreenState extends ConsumerState<CartScreen> {
     required bool guest,
     required CustomerAddress? address,
     required String paymentMode,
-    required String couponCode,
   }) async {
     if (guest) {
       await _openSignIn(context);
@@ -444,7 +422,6 @@ class _CartScreenState extends ConsumerState<CartScreen> {
           await ref.read(cartProvider.notifier).checkout(
                 addressId: address.id,
                 paymentMode: paymentMode,
-                couponCode: couponCode,
                 buyNowItem: widget.buyNowItem,
               );
       if (!mounted) return;

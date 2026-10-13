@@ -10,6 +10,7 @@ import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
 import { tenantIdFromCustomerToken } from "@/lib/customer-token-tenant";
 
 export type StorefrontBrandingPayload = {
+  storeName: string | null;
   logoUrl: string | null;
   logoDataUrl: string | null;
   tagline: string | null;
@@ -54,6 +55,16 @@ export type ResolvedStorefrontTheme = {
   } | null;
   selectedLanguageCode: string;
 };
+
+/** Tenant/store identity wins over the installed theme's marketplace name. */
+export function storefrontDisplayName(resolved: ResolvedStorefrontTheme): string {
+  return (
+    resolved.branding?.storeName?.trim() ||
+    resolved.branding?.industryName?.trim() ||
+    resolved.webTheme?.themeName?.trim() ||
+    "Storefront"
+  );
+}
 
 export type StorefrontThemeResolveOptions = {
   tenantId?: string | null;

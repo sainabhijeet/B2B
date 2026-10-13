@@ -19,6 +19,7 @@ class HomeScreen extends ConsumerWidget {
       ref.refresh(storefrontAppConfigProvider.future),
       ref.refresh(categoriesProvider.future),
       ref.refresh(productsProvider.future),
+      ref.refresh(productsTotalProvider.future),
       themeRefresh,
     ]);
   }
