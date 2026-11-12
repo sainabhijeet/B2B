@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000001f",
+  "industry": "Consumer Appliances & Home Tech",
+  "themeName": "Consumer Appliances & Home Tech App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "AppliancePocket",
+    "industry": "Consumer Appliances & Home Tech",
+    "tagline": "Browse digital air fryer, cordless stick vacuum and a dedicated consumer appliances & home tech mobile assortment.",
+    "email": "hello@appliancepocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "AppliancePocket quantity rewards",
+      "description": "Compare the sample bulk tiers in AppliancePocket's consumer appliances & home tech range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "AppliancePocket sample buyer story",
+      "quote": "Our demo consumer appliances & home tech buying team can compare digital air fryer and smart door sensor kit in one restock list.",
+      "author": "Fictional AppliancePocket buyer — demo feedback",
+      "designId": "ds-31-app",
+      "layoutMode": "Home technology showroom / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "consumer-appliances-home-tech-app-theme-category-1",
+      "slug": "kitchen-appliances",
+      "name": "AppliancePocket Kitchen Appliances",
+      "description": "Pick kitchen appliances for your consumer appliances & home tech replenishment list with AppliancePocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-category-2",
+      "slug": "home-appliances",
+      "name": "AppliancePocket Home Appliances",
+      "description": "Pick home appliances for your consumer appliances & home tech replenishment list with AppliancePocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-category-3",
+      "slug": "smart-home",
+      "name": "AppliancePocket Smart Home",
+      "description": "Pick smart home for your consumer appliances & home tech replenishment list with AppliancePocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-category-4",
+      "slug": "climate-control",
+      "name": "AppliancePocket Climate Control",
+      "description": "Pick climate control for your consumer appliances & home tech replenishment list with AppliancePocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-1",
+      "slug": "appliancepocket-digital-air-fryer",
+      "sku": "APP-31-1",
+      "name": "AppliancePocket Digital Air Fryer",
+      "description": "Digital Air Fryer for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with kitchen appliances so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "kitchen-appliances",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-1",
+      "categoryName": "AppliancePocket Kitchen Appliances",
+      "brand": "AppliancePocket",
+      "price": 23940,
+      "currency": "INR",
+      "priceLabel": "INR 23,940",
+      "image": "assets/images/product-01.jpg",
+      "stock": 131,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 28249,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 23940
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 22743
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 21546
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Digital Air Fryer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-2",
+      "slug": "appliancepocket-cordless-stick-vacuum",
+      "sku": "APP-31-2",
+      "name": "AppliancePocket Cordless Stick Vacuum",
+      "description": "Cordless Stick Vacuum for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with home appliances so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "home-appliances",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-2",
+      "categoryName": "AppliancePocket Home Appliances",
+      "brand": "AppliancePocket",
+      "price": 35840,
+      "currency": "INR",
+      "priceLabel": "INR 35,840",
+      "image": "assets/images/product-02.jpg",
+      "stock": 142,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 42291,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 35840
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 34048
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 32256
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Cordless Stick Vacuum",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-3",
+      "slug": "appliancepocket-smart-door-sensor-kit",
+      "sku": "APP-31-3",
+      "name": "AppliancePocket Smart Door Sensor Kit",
+      "description": "Smart Door Sensor Kit for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with smart home so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "smart-home",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-3",
+      "categoryName": "AppliancePocket Smart Home",
+      "brand": "AppliancePocket",
+      "price": 7905,
+      "currency": "INR",
+      "priceLabel": "INR 7,905",
+      "image": "assets/images/product-03.jpg",
+      "stock": 153,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 9328,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 7905
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 7510
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 7115
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Smart Door Sensor Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-4",
+      "slug": "appliancepocket-portable-air-cooler",
+      "sku": "APP-31-4",
+      "name": "AppliancePocket Portable Air Cooler",
+      "description": "Portable Air Cooler for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with climate control so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "climate-control",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-4",
+      "categoryName": "AppliancePocket Climate Control",
+      "brand": "AppliancePocket",
+      "price": 13500,
+      "currency": "INR",
+      "priceLabel": "INR 13,500",
+      "image": "assets/images/product-04.jpg",
+      "stock": 164,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 15930,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 13500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 12825
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 12150
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Portable Air Cooler",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-5",
+      "slug": "appliancepocket-electric-breakfast-toaster",
+      "sku": "APP-31-5",
+      "name": "AppliancePocket Electric Breakfast Toaster",
+      "description": "Electric Breakfast Toaster for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with kitchen appliances so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "kitchen-appliances",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-1",
+      "categoryName": "AppliancePocket Kitchen Appliances",
+      "brand": "AppliancePocket",
+      "price": 14060,
+      "currency": "INR",
+      "priceLabel": "INR 14,060",
+      "image": "assets/images/product-05.jpg",
+      "stock": 175,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 16591,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 14060
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 13357
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 12654
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Electric Breakfast Toaster",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "consumer-appliances-home-tech-app-theme-product-6",
+      "slug": "appliancepocket-steam-garment-press",
+      "sku": "APP-31-6",
+      "name": "AppliancePocket Steam Garment Press",
+      "description": "Steam Garment Press for your consumer appliances & home tech replenishment list. AppliancePocket groups this item with home appliances so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "home-appliances",
+      "categoryId": "consumer-appliances-home-tech-app-theme-category-2",
+      "categoryName": "AppliancePocket Home Appliances",
+      "brand": "AppliancePocket",
+      "price": 4956,
+      "currency": "INR",
+      "priceLabel": "INR 4,956",
+      "image": "assets/images/product-06.jpg",
+      "stock": 186,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 5848,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 4956
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 4708
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 4460
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: AppliancePocket Steam Garment Press",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-31-app",
+    "direction": "Home technology showroom / pocket workflow",
+    "header": "minimal-mark",
+    "headerIdentity": "header-31-app",
+    "headerStructure": "shell-1-composition-6",
+    "hero": "mosaic",
+    "categories": "sidebar-index",
+    "productCards": "image-first",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "minimal",
+    "footerIdentity": "footer-31-app",
+    "footerStructure": "shell-3-composition-5",
+    "density": "compact",
+    "responsiveStrategy": "story"
+  }
+}

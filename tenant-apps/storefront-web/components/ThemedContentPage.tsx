@@ -37,7 +37,7 @@ export default async function ThemedContentPage({ page, fallback }: Props) {
     loadThemeTokenVarsCss(resolved.webTheme?.manifestPath ?? null, resolved.manifest),
     loadThemeComponentSchemas(resolved.webTheme?.manifestPath ?? null, resolved.manifest),
   ]);
-  const tenantTokenCss = tokenOverridesToCss(resolved.tokenOverrides);
+  const tenantTokenCss = tokenOverridesToCss(resolved.tokenOverrides, resolved.branding);
   const branding = resolved.branding;
 
   return (
@@ -56,6 +56,7 @@ export default async function ThemedContentPage({ page, fallback }: Props) {
               logoText: storefrontDisplayName(resolved),
               logoImageUrl: branding?.logoUrl || branding?.logoDataUrl || undefined,
               industryName: branding?.industryName || undefined,
+              currentPath: `/${page}`,
             }}
           />
         </main>

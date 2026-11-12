@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000019",
+  "industry": "Pumps, Valves & Pipe Fittings",
+  "themeName": "Pumps, Valves & Pipe Fittings Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "FlowHarbor",
+    "industry": "Pumps, Valves & Pipe Fittings",
+    "tagline": "Source centrifugal water pump, stainless ball valve and more from this pumps, valves & pipe fittings trade collection.",
+    "email": "hello@flowharbor.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "FlowHarbor quantity rewards",
+      "description": "Compare the sample bulk tiers in FlowHarbor's pumps, valves & pipe fittings range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "FlowHarbor sample buyer story",
+      "quote": "Our demo pumps, valves & pipe fittings buying team can compare centrifugal water pump and gi elbow fitting in one sourcing catalog.",
+      "author": "Fictional FlowHarbor buyer — demo feedback",
+      "designId": "ds-25-web",
+      "layoutMode": "Flow engineering matrix",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-category-1",
+      "slug": "industrial-pumps",
+      "name": "FlowHarbor Industrial Pumps",
+      "description": "Explore FlowHarbor's industrial pumps selection for pumps, valves & pipe fittings buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-category-2",
+      "slug": "control-valves",
+      "name": "FlowHarbor Control Valves",
+      "description": "Explore FlowHarbor's control valves selection for pumps, valves & pipe fittings buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-category-3",
+      "slug": "pipe-fittings",
+      "name": "FlowHarbor Pipe Fittings",
+      "description": "Explore FlowHarbor's pipe fittings selection for pumps, valves & pipe fittings buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-category-4",
+      "slug": "water-systems",
+      "name": "FlowHarbor Water Systems",
+      "description": "Explore FlowHarbor's water systems selection for pumps, valves & pipe fittings buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-1",
+      "slug": "flowharbor-centrifugal-water-pump",
+      "sku": "WEB-25-1",
+      "name": "FlowHarbor Centrifugal Water Pump",
+      "description": "Centrifugal Water Pump from FlowHarbor's industrial pumps assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "industrial-pumps",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-1",
+      "categoryName": "FlowHarbor Industrial Pumps",
+      "brand": "FlowHarbor",
+      "price": 8500,
+      "currency": "INR",
+      "priceLabel": "INR 8,500",
+      "image": "assets/images/product-01.jpg",
+      "stock": 140,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 10030,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 8500
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 8075
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 7650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor Centrifugal Water Pump",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-2",
+      "slug": "flowharbor-stainless-ball-valve",
+      "sku": "WEB-25-2",
+      "name": "FlowHarbor Stainless Ball Valve",
+      "description": "Stainless Ball Valve from FlowHarbor's control valves assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "control-valves",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-2",
+      "categoryName": "FlowHarbor Control Valves",
+      "brand": "FlowHarbor",
+      "price": 1850,
+      "currency": "INR",
+      "priceLabel": "INR 1,850",
+      "image": "assets/images/product-02.jpg",
+      "stock": 151,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 2183,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 1850
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1758
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 1665
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor Stainless Ball Valve",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-3",
+      "slug": "flowharbor-gi-elbow-fitting",
+      "sku": "WEB-25-3",
+      "name": "FlowHarbor GI Elbow Fitting",
+      "description": "GI Elbow Fitting from FlowHarbor's pipe fittings assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "pipe-fittings",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-3",
+      "categoryName": "FlowHarbor Pipe Fittings",
+      "brand": "FlowHarbor",
+      "price": 150,
+      "currency": "INR",
+      "priceLabel": "INR 150",
+      "image": "assets/images/product-03.jpg",
+      "stock": 162,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 177,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 150
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 143
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 135
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor GI Elbow Fitting",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-4",
+      "slug": "flowharbor-pressure-booster-system",
+      "sku": "WEB-25-4",
+      "name": "FlowHarbor Pressure Booster System",
+      "description": "Pressure Booster System from FlowHarbor's water systems assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "water-systems",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-4",
+      "categoryName": "FlowHarbor Water Systems",
+      "brand": "FlowHarbor",
+      "price": 12500,
+      "currency": "INR",
+      "priceLabel": "INR 12,500",
+      "image": "assets/images/product-04.jpg",
+      "stock": 173,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 14750,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 12500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 11875
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 11250
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor Pressure Booster System",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-5",
+      "slug": "flowharbor-chemical-dosing-pump",
+      "sku": "WEB-25-5",
+      "name": "FlowHarbor Chemical Dosing Pump",
+      "description": "Chemical Dosing Pump from FlowHarbor's industrial pumps assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "industrial-pumps",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-1",
+      "categoryName": "FlowHarbor Industrial Pumps",
+      "brand": "FlowHarbor",
+      "price": 6500,
+      "currency": "INR",
+      "priceLabel": "INR 6,500",
+      "image": "assets/images/product-05.jpg",
+      "stock": 184,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 7670,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 6500
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 6175
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 5850
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor Chemical Dosing Pump",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pumps-valves-pipe-fittings-web-theme-product-6",
+      "slug": "flowharbor-flanged-gate-valve",
+      "sku": "WEB-25-6",
+      "name": "FlowHarbor Flanged Gate Valve",
+      "description": "Flanged Gate Valve from FlowHarbor's control valves assortment. Source fluid-handling essentials from pumps to connections. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "control-valves",
+      "categoryId": "pumps-valves-pipe-fittings-web-theme-category-2",
+      "categoryName": "FlowHarbor Control Valves",
+      "brand": "FlowHarbor",
+      "price": 3200,
+      "currency": "INR",
+      "priceLabel": "INR 3,200",
+      "image": "assets/images/product-06.jpg",
+      "stock": 195,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 3776,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 3200
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 3040
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 2880
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FlowHarbor Flanged Gate Valve",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-25-web",
+    "direction": "Flow engineering matrix",
+    "header": "search-led",
+    "headerIdentity": "header-25-web",
+    "headerStructure": "shell-1-composition-5",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "brand-story",
+    "footerIdentity": "footer-25-web",
+    "footerStructure": "shell-4-composition-4",
+    "density": "compact",
+    "responsiveStrategy": "editorial-three-to-mobile-drawer"
+  }
+}

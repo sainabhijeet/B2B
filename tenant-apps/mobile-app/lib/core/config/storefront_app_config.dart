@@ -15,6 +15,8 @@ class StorefrontAppConfig {
     required this.languageContract,
     this.industryId,
     this.industryName,
+    this.catalogMode = 'UNKNOWN',
+    this.catalogNotice,
   });
 
   factory StorefrontAppConfig.fromJson(Map<String, dynamic> json) {
@@ -56,6 +58,18 @@ class StorefrontAppConfig {
       ),
       industryId: industryId,
       industryName: industryName,
+      catalogMode: (json['catalogPresentation'] is Map
+                  ? (json['catalogPresentation'] as Map)['mode']
+                  : json['catalog_mode'])
+              ?.toString()
+              .trim()
+              .toUpperCase() ??
+          'UNKNOWN',
+      catalogNotice: _optionalString(
+        json['catalogPresentation'] is Map
+            ? (json['catalogPresentation'] as Map)['notice']
+            : json['catalog_notice'],
+      ),
     );
   }
 
@@ -78,6 +92,10 @@ class StorefrontAppConfig {
   final LocalizationContract languageContract;
   final String? industryId;
   final String? industryName;
+  final String catalogMode;
+  final String? catalogNotice;
+
+  bool get isDemoCatalog => catalogMode == 'DEMO';
 
   String get industryLabel => industryName ?? 'General B2B commerce';
 }

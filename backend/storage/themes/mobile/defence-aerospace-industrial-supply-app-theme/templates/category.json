@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "AeroPartsPocket",
+        "industryName": "Defence & Aerospace Industrial Supply",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "AeroPartsPocket / Defence & Aerospace Industrial Supply",
+        "subtitle": "Browse titanium washer set, rugged interface enclosure and a dedicated defence & aerospace industrial supply mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "hero-full-bleed"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find AeroPartsPocket supplies",
+        "message": "Explore AeroPartsPocket Precision Components, AeroPartsPocket Rugged Electronics, AeroPartsPocket Protective Materials, AeroPartsPocket MRO Supplies.",
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "filters-specification-list"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "AeroPartsPocket restock picks",
+        "subtitle": "Browse titanium washer set, rugged interface enclosure and a dedicated defence & aerospace industrial supply mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "AeroPartsPocket Titanium Washer Set",
+          "AeroPartsPocket Rugged Interface Enclosure",
+          "AeroPartsPocket Thermal Insulation Blanket",
+          "AeroPartsPocket Inspection Borescope",
+          "AeroPartsPocket Precision Shim Assortment",
+          "AeroPartsPocket Shielded Cable Assembly"
+        ],
+        "prices": [
+          "INR 5,460",
+          "INR 31,920",
+          "INR 11,625",
+          "INR 4,536",
+          "INR 2,432",
+          "INR 10,030"
+        ],
+        "products": [
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-1",
+            "slug": "aeropartspocket-titanium-washer-set",
+            "sku": "APP-41-1",
+            "name": "AeroPartsPocket Titanium Washer Set",
+            "description": "Titanium Washer Set for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with precision components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "precision-components",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-1",
+            "categoryName": "AeroPartsPocket Precision Components",
+            "brand": "AeroPartsPocket",
+            "price": 5460,
+            "currency": "INR",
+            "priceLabel": "INR 5,460",
+            "image": "assets/images/product-01.jpg",
+            "stock": 161,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 6443,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 5460
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 5187
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4914
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Titanium Washer Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-2",
+            "slug": "aeropartspocket-rugged-interface-enclosure",
+            "sku": "APP-41-2",
+            "name": "AeroPartsPocket Rugged Interface Enclosure",
+            "description": "Rugged Interface Enclosure for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with rugged electronics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "rugged-electronics",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-2",
+            "categoryName": "AeroPartsPocket Rugged Electronics",
+            "brand": "AeroPartsPocket",
+            "price": 31920,
+            "currency": "INR",
+            "priceLabel": "INR 31,920",
+            "image": "assets/images/product-02.jpg",
+            "stock": 172,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 37666,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 31920
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 30324
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 28728
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Rugged Interface Enclosure",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-3",
+            "slug": "aeropartspocket-thermal-insulation-blanket",
+            "sku": "APP-41-3",
+            "name": "AeroPartsPocket Thermal Insulation Blanket",
+            "description": "Thermal Insulation Blanket for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with protective materials so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "protective-materials",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-3",
+            "categoryName": "AeroPartsPocket Protective Materials",
+            "brand": "AeroPartsPocket",
+            "price": 11625,
+            "currency": "INR",
+            "priceLabel": "INR 11,625",
+            "image": "assets/images/product-03.jpg",
+            "stock": 183,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 13718,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 11625
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11044
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 10463
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Thermal Insulation Blanket",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-4",
+            "slug": "aeropartspocket-inspection-borescope",
+            "sku": "APP-41-4",
+            "name": "AeroPartsPocket Inspection Borescope",
+            "description": "Inspection Borescope for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with mro supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mro-supplies",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-4",
+            "categoryName": "AeroPartsPocket MRO Supplies",
+            "brand": "AeroPartsPocket",
+            "price": 4536,
+            "currency": "INR",
+            "priceLabel": "INR 4,536",
+            "image": "assets/images/product-04.jpg",
+            "stock": 194,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5352,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 4536
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 4309
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4082
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Inspection Borescope",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-5",
+            "slug": "aeropartspocket-precision-shim-assortment",
+            "sku": "APP-41-5",
+            "name": "AeroPartsPocket Precision Shim Assortment",
+            "description": "Precision Shim Assortment for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with precision components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "precision-components",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-1",
+            "categoryName": "AeroPartsPocket Precision Components",
+            "brand": "AeroPartsPocket",
+            "price": 2432,
+            "currency": "INR",
+            "priceLabel": "INR 2,432",
+            "image": "assets/images/product-05.jpg",
+            "stock": 205,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2870,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2432
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2310
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2189
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Precision Shim Assortment",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-app-theme-product-6",
+            "slug": "aeropartspocket-shielded-cable-assembly",
+            "sku": "APP-41-6",
+            "name": "AeroPartsPocket Shielded Cable Assembly",
+            "description": "Shielded Cable Assembly for your defence & aerospace industrial supply replenishment list. AeroPartsPocket groups this item with rugged electronics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "rugged-electronics",
+            "categoryId": "defence-aerospace-industrial-supply-app-theme-category-2",
+            "categoryName": "AeroPartsPocket Rugged Electronics",
+            "brand": "AeroPartsPocket",
+            "price": 10030,
+            "currency": "INR",
+            "priceLabel": "INR 10,030",
+            "image": "assets/images/product-06.jpg",
+            "stock": 216,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 11835,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 10030
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 9529
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 9027
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroPartsPocket Shielded Cable Assembly",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced",
+        "cardStyle": "horizontal",
+        "columns": 1
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your AeroPartsPocket order",
+        "subtitle": "Review quantities for titanium washer set with this defence & aerospace industrial supply preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "AeroPartsPocket",
+        "industryName": "Defence & Aerospace Industrial Supply",
+        "tagline": "Browse titanium washer set, rugged interface enclosure and a dedicated defence & aerospace industrial supply mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-41-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-41-app"
+}

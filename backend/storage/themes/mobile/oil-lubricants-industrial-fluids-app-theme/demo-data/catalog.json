@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000025",
+  "industry": "Oil, Lubricants & Industrial Fluids",
+  "themeName": "Oil, Lubricants & Industrial Fluids App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "FluidPocket",
+    "industry": "Oil, Lubricants & Industrial Fluids",
+    "tagline": "Browse diesel fleet oil pail, anti wear hydraulic oil and a dedicated oil, lubricants & industrial fluids mobile assortment.",
+    "email": "hello@fluidpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "FluidPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in FluidPocket's oil, lubricants & industrial fluids range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "FluidPocket sample buyer story",
+      "quote": "Our demo oil, lubricants & industrial fluids buying team can compare diesel fleet oil pail and lithium multipurpose grease in one restock list.",
+      "author": "Fictional FluidPocket buyer — demo feedback",
+      "designId": "ds-37-app",
+      "layoutMode": "Fluid application guide / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-category-1",
+      "slug": "engine-oils",
+      "name": "FluidPocket Engine Oils",
+      "description": "Pick engine oils for your oil, lubricants & industrial fluids replenishment list with FluidPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-category-2",
+      "slug": "hydraulic-oils",
+      "name": "FluidPocket Hydraulic Oils",
+      "description": "Pick hydraulic oils for your oil, lubricants & industrial fluids replenishment list with FluidPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-category-3",
+      "slug": "greases",
+      "name": "FluidPocket Greases",
+      "description": "Pick greases for your oil, lubricants & industrial fluids replenishment list with FluidPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-category-4",
+      "slug": "metalworking-fluids",
+      "name": "FluidPocket Metalworking Fluids",
+      "description": "Pick metalworking fluids for your oil, lubricants & industrial fluids replenishment list with FluidPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-1",
+      "slug": "fluidpocket-diesel-fleet-oil-pail",
+      "sku": "APP-37-1",
+      "name": "FluidPocket Diesel Fleet Oil Pail",
+      "description": "Diesel Fleet Oil Pail for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with engine oils so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "engine-oils",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-1",
+      "categoryName": "FluidPocket Engine Oils",
+      "brand": "FluidPocket",
+      "price": 3780,
+      "currency": "INR",
+      "priceLabel": "INR 3,780",
+      "image": "assets/images/product-01.jpg",
+      "stock": 149,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 4460,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 3780
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 3591
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 3402
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Diesel Fleet Oil Pail",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-2",
+      "slug": "fluidpocket-anti-wear-hydraulic-oil",
+      "sku": "APP-37-2",
+      "name": "FluidPocket Anti Wear Hydraulic Oil",
+      "description": "Anti Wear Hydraulic Oil for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with hydraulic oils so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "hydraulic-oils",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-2",
+      "categoryName": "FluidPocket Hydraulic Oils",
+      "brand": "FluidPocket",
+      "price": 14000,
+      "currency": "INR",
+      "priceLabel": "INR 14,000",
+      "image": "assets/images/product-02.jpg",
+      "stock": 160,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 16520,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 14000
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 13300
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 12600
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Anti Wear Hydraulic Oil",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-3",
+      "slug": "fluidpocket-lithium-multipurpose-grease",
+      "sku": "APP-37-3",
+      "name": "FluidPocket Lithium Multipurpose Grease",
+      "description": "Lithium Multipurpose Grease for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with greases so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "greases",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-3",
+      "categoryName": "FluidPocket Greases",
+      "brand": "FluidPocket",
+      "price": 1721,
+      "currency": "INR",
+      "priceLabel": "INR 1,721",
+      "image": "assets/images/product-03.jpg",
+      "stock": 171,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 2031,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 1721
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 1635
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 1549
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Lithium Multipurpose Grease",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-4",
+      "slug": "fluidpocket-water-soluble-coolant",
+      "sku": "APP-37-4",
+      "name": "FluidPocket Water Soluble Coolant",
+      "description": "Water Soluble Coolant for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with metalworking fluids so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "metalworking-fluids",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-4",
+      "categoryName": "FluidPocket Metalworking Fluids",
+      "brand": "FluidPocket",
+      "price": 9180,
+      "currency": "INR",
+      "priceLabel": "INR 9,180",
+      "image": "assets/images/product-04.jpg",
+      "stock": 182,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 10832,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 9180
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 8721
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 8262
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Water Soluble Coolant",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-5",
+      "slug": "fluidpocket-two-stroke-engine-oil",
+      "sku": "APP-37-5",
+      "name": "FluidPocket Two Stroke Engine Oil",
+      "description": "Two Stroke Engine Oil for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with engine oils so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "engine-oils",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-1",
+      "categoryName": "FluidPocket Engine Oils",
+      "brand": "FluidPocket",
+      "price": 1824,
+      "currency": "INR",
+      "priceLabel": "INR 1,824",
+      "image": "assets/images/product-05.jpg",
+      "stock": 193,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2152,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1824
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1733
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1642
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Two Stroke Engine Oil",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "oil-lubricants-industrial-fluids-app-theme-product-6",
+      "slug": "fluidpocket-food-grade-hydraulic-fluid",
+      "sku": "APP-37-6",
+      "name": "FluidPocket Food Grade Hydraulic Fluid",
+      "description": "Food Grade Hydraulic Fluid for your oil, lubricants & industrial fluids replenishment list. FluidPocket groups this item with hydraulic oils so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "hydraulic-oils",
+      "categoryId": "oil-lubricants-industrial-fluids-app-theme-category-2",
+      "categoryName": "FluidPocket Hydraulic Oils",
+      "brand": "FluidPocket",
+      "price": 3776,
+      "currency": "INR",
+      "priceLabel": "INR 3,776",
+      "image": "assets/images/product-06.jpg",
+      "stock": 204,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 4456,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 3776
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 3587
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 3398
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FluidPocket Food Grade Hydraulic Fluid",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-37-app",
+    "direction": "Fluid application guide / pocket workflow",
+    "header": "editorial",
+    "headerIdentity": "header-37-app",
+    "headerStructure": "shell-1-composition-7",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "catalog-matrix",
+    "productDetail": "full-gallery",
+    "footer": "trade-directory",
+    "footerIdentity": "footer-37-app",
+    "footerStructure": "shell-2-composition-6",
+    "density": "compact",
+    "responsiveStrategy": "quick_reorder"
+  }
+}

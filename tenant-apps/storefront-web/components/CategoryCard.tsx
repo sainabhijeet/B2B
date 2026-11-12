@@ -8,13 +8,16 @@ type Props = {
   description: string;
   image?: string;
   languageCode?: string;
+  variant?: string;
+  index?: number;
 };
 
-export default function CategoryCard({ slug, name, description, image, languageCode }: Props) {
+export default function CategoryCard({ slug, name, description, image, languageCode, variant, index }: Props) {
   const browseLabel = translate("Browse category", languageCode);
   return (
     <article
-      className="group overflow-hidden rounded-2xl border shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+      className="category-card group overflow-hidden rounded-2xl border shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+      data-card-variant={variant ?? "default"}
       style={{ background: "var(--theme-surface)", borderColor: "var(--theme-border)" }}
     >
       {image ? (
@@ -35,6 +38,11 @@ export default function CategoryCard({ slug, name, description, image, languageC
         </Link>
       ) : null}
       <div className="p-5">
+        {typeof index === "number" ? (
+          <span className="category-card-index" aria-hidden="true">
+            {String(index + 1).padStart(2, "0")}
+          </span>
+        ) : null}
         <h2 className="text-lg font-semibold" style={{ color: "var(--theme-text)" }}>
           <Link href={`/category/${slug}`} className="hover:underline">
             {name}
@@ -50,7 +58,7 @@ export default function CategoryCard({ slug, name, description, image, languageC
           className="mt-4 inline-block text-sm font-medium hover:underline"
           style={{ color: "var(--theme-primary)" }}
         >
-          {browseLabel} →
+          {browseLabel} <span aria-hidden="true">&#8594;</span>
         </Link>
       </div>
     </article>

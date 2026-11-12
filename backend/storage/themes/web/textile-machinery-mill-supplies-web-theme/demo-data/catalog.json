@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000020",
+  "industry": "Textile Machinery & Mill Supplies",
+  "themeName": "Textile Machinery & Mill Supplies Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "MillMotion",
+    "industry": "Textile Machinery & Mill Supplies",
+    "tagline": "Source high speed spindle, rapier loom part and more from this textile machinery & mill supplies trade collection.",
+    "email": "hello@millmotion.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "MillMotion quantity rewards",
+      "description": "Compare the sample bulk tiers in MillMotion's textile machinery & mill supplies range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "MillMotion sample buyer story",
+      "quote": "Our demo textile machinery & mill supplies buying team can compare high speed spindle and carding wire roll in one sourcing catalog.",
+      "author": "Fictional MillMotion buyer — demo feedback",
+      "designId": "ds-32-web",
+      "layoutMode": "Mill maintenance logbook",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-category-1",
+      "slug": "spinning-machinery",
+      "name": "MillMotion Spinning Machinery",
+      "description": "Explore MillMotion's spinning machinery selection for textile machinery & mill supplies buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-category-2",
+      "slug": "weaving-machinery",
+      "name": "MillMotion Weaving Machinery",
+      "description": "Explore MillMotion's weaving machinery selection for textile machinery & mill supplies buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-category-3",
+      "slug": "mill-spares",
+      "name": "MillMotion Mill Spares",
+      "description": "Explore MillMotion's mill spares selection for textile machinery & mill supplies buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-category-4",
+      "slug": "textile-testing",
+      "name": "MillMotion Textile Testing",
+      "description": "Explore MillMotion's textile testing selection for textile machinery & mill supplies buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-1",
+      "slug": "millmotion-high-speed-spindle",
+      "sku": "WEB-32-1",
+      "name": "MillMotion High Speed Spindle",
+      "description": "High Speed Spindle from MillMotion's spinning machinery assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "spinning-machinery",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-1",
+      "categoryName": "MillMotion Spinning Machinery",
+      "brand": "MillMotion",
+      "price": 4500,
+      "currency": "INR",
+      "priceLabel": "INR 4,500",
+      "image": "assets/images/product-01.jpg",
+      "stock": 161,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 5310,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 4500
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 4275
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 4050
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion High Speed Spindle",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-2",
+      "slug": "millmotion-rapier-loom-part",
+      "sku": "WEB-32-2",
+      "name": "MillMotion Rapier Loom Part",
+      "description": "Rapier Loom Part from MillMotion's weaving machinery assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "weaving-machinery",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-2",
+      "categoryName": "MillMotion Weaving Machinery",
+      "brand": "MillMotion",
+      "price": 12500,
+      "currency": "INR",
+      "priceLabel": "INR 12,500",
+      "image": "assets/images/product-02.jpg",
+      "stock": 172,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 14750,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 12500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 11875
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 11250
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion Rapier Loom Part",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-3",
+      "slug": "millmotion-carding-wire-roll",
+      "sku": "WEB-32-3",
+      "name": "MillMotion Carding Wire Roll",
+      "description": "Carding Wire Roll from MillMotion's mill spares assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "mill-spares",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-3",
+      "categoryName": "MillMotion Mill Spares",
+      "brand": "MillMotion",
+      "price": 3200,
+      "currency": "INR",
+      "priceLabel": "INR 3,200",
+      "image": "assets/images/product-03.jpg",
+      "stock": 183,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 3776,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 3200
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 3040
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 2880
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion Carding Wire Roll",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-4",
+      "slug": "millmotion-yarn-tension-meter",
+      "sku": "WEB-32-4",
+      "name": "MillMotion Yarn Tension Meter",
+      "description": "Yarn Tension Meter from MillMotion's textile testing assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "textile-testing",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-4",
+      "categoryName": "MillMotion Textile Testing",
+      "brand": "MillMotion",
+      "price": 8500,
+      "currency": "INR",
+      "priceLabel": "INR 8,500",
+      "image": "assets/images/product-04.jpg",
+      "stock": 194,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 10030,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 8500
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 8075
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 7650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion Yarn Tension Meter",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-5",
+      "slug": "millmotion-mill-bearing-kit",
+      "sku": "WEB-32-5",
+      "name": "MillMotion Mill Bearing Kit",
+      "description": "Mill Bearing Kit from MillMotion's mill spares assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "mill-spares",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-3",
+      "categoryName": "MillMotion Mill Spares",
+      "brand": "MillMotion",
+      "price": 1850,
+      "currency": "INR",
+      "priceLabel": "INR 1,850",
+      "image": "assets/images/product-05.jpg",
+      "stock": 205,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2183,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 1850
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 1758
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1665
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion Mill Bearing Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "textile-machinery-mill-supplies-web-theme-product-6",
+      "slug": "millmotion-automatic-cone-winder",
+      "sku": "WEB-32-6",
+      "name": "MillMotion Automatic Cone Winder",
+      "description": "Automatic Cone Winder from MillMotion's spinning machinery assortment. Keep mill replenishment focused on the right components. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "spinning-machinery",
+      "categoryId": "textile-machinery-mill-supplies-web-theme-category-1",
+      "categoryName": "MillMotion Spinning Machinery",
+      "brand": "MillMotion",
+      "price": 85000,
+      "currency": "INR",
+      "priceLabel": "INR 85,000",
+      "image": "assets/images/product-06.jpg",
+      "stock": 216,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 100300,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 85000
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 80750
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 76500
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MillMotion Automatic Cone Winder",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-32-web",
+    "direction": "Mill maintenance logbook",
+    "header": "trade-desk",
+    "headerIdentity": "header-32-web",
+    "headerStructure": "shell-2-composition-6",
+    "hero": "catalog-panel",
+    "categories": "round-icons",
+    "productCards": "quick-add",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "brand-story",
+    "footerIdentity": "footer-32-web",
+    "footerStructure": "shell-4-composition-5",
+    "density": "balanced",
+    "responsiveStrategy": "editorial-three-to-mobile-drawer"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "NetworkPocket",
+        "industryName": "IT Hardware & Networking Distribution",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "NetworkPocket Four Bay NAS Enclosure",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy"
+      },
+      "variant": "gallery-full-gallery"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "NetworkPocket Four Bay NAS Enclosure",
+        "subtitle": "Four Bay NAS Enclosure for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with servers & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 1,05,000",
+        "description": "Four Bay NAS Enclosure for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with servers & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-30-1",
+        "stock": 128,
+        "moq": 1,
+        "product": {
+          "id": "it-hardware-networking-distribution-app-theme-product-1",
+          "slug": "networkpocket-four-bay-nas-enclosure",
+          "sku": "APP-30-1",
+          "name": "NetworkPocket Four Bay NAS Enclosure",
+          "description": "Four Bay NAS Enclosure for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with servers & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "servers-storage",
+          "categoryId": "it-hardware-networking-distribution-app-theme-category-1",
+          "categoryName": "NetworkPocket Servers & Storage",
+          "brand": "NetworkPocket",
+          "price": 105000,
+          "currency": "INR",
+          "priceLabel": "INR 1,05,000",
+          "image": "assets/images/product-01.jpg",
+          "stock": 128,
+          "moq": 1,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 123900,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 1,
+              "unitPrice": 105000
+            },
+            {
+              "minQuantity": 5,
+              "unitPrice": 99750
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 94500
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: NetworkPocket Four Bay NAS Enclosure",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy"
+      },
+      "variant": "info-full-gallery"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "NetworkPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "NetworkPocket Four Bay NAS Enclosure",
+          "NetworkPocket Fiber Media Converter",
+          "NetworkPocket Compact Thin Client",
+          "NetworkPocket USB Conference Camera",
+          "NetworkPocket Rackmount Backup Appliance",
+          "NetworkPocket PoE Ethernet Injector"
+        ],
+        "prices": [
+          "INR 1,05,000",
+          "INR 20,720",
+          "INR 29,760",
+          "INR 9,180",
+          "INR 4,940",
+          "INR 1,121"
+        ],
+        "products": [
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-1",
+            "slug": "networkpocket-four-bay-nas-enclosure",
+            "sku": "APP-30-1",
+            "name": "NetworkPocket Four Bay NAS Enclosure",
+            "description": "Four Bay NAS Enclosure for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with servers & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "servers-storage",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-1",
+            "categoryName": "NetworkPocket Servers & Storage",
+            "brand": "NetworkPocket",
+            "price": 105000,
+            "currency": "INR",
+            "priceLabel": "INR 1,05,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 128,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 123900,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 105000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 99750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 94500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket Four Bay NAS Enclosure",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-2",
+            "slug": "networkpocket-fiber-media-converter",
+            "sku": "APP-30-2",
+            "name": "NetworkPocket Fiber Media Converter",
+            "description": "Fiber Media Converter for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with networking so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "networking",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-2",
+            "categoryName": "NetworkPocket Networking",
+            "brand": "NetworkPocket",
+            "price": 20720,
+            "currency": "INR",
+            "priceLabel": "INR 20,720",
+            "image": "assets/images/product-02.jpg",
+            "stock": 139,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 24450,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 20720
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 19684
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 18648
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket Fiber Media Converter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-3",
+            "slug": "networkpocket-compact-thin-client",
+            "sku": "APP-30-3",
+            "name": "NetworkPocket Compact Thin Client",
+            "description": "Compact Thin Client for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with computing so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "computing",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-3",
+            "categoryName": "NetworkPocket Computing",
+            "brand": "NetworkPocket",
+            "price": 29760,
+            "currency": "INR",
+            "priceLabel": "INR 29,760",
+            "image": "assets/images/product-03.jpg",
+            "stock": 150,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 35117,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 29760
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 28272
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 26784
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket Compact Thin Client",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-4",
+            "slug": "networkpocket-usb-conference-camera",
+            "sku": "APP-30-4",
+            "name": "NetworkPocket USB Conference Camera",
+            "description": "USB Conference Camera for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with peripherals so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "peripherals",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-4",
+            "categoryName": "NetworkPocket Peripherals",
+            "brand": "NetworkPocket",
+            "price": 9180,
+            "currency": "INR",
+            "priceLabel": "INR 9,180",
+            "image": "assets/images/product-04.jpg",
+            "stock": 161,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 9180
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8721
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8262
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket USB Conference Camera",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-5",
+            "slug": "networkpocket-rackmount-backup-appliance",
+            "sku": "APP-30-5",
+            "name": "NetworkPocket Rackmount Backup Appliance",
+            "description": "Rackmount Backup Appliance for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with servers & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "servers-storage",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-1",
+            "categoryName": "NetworkPocket Servers & Storage",
+            "brand": "NetworkPocket",
+            "price": 4940,
+            "currency": "INR",
+            "priceLabel": "INR 4,940",
+            "image": "assets/images/product-05.jpg",
+            "stock": 172,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 5829,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 4940
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 4693
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 4446
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket Rackmount Backup Appliance",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "it-hardware-networking-distribution-app-theme-product-6",
+            "slug": "networkpocket-poe-ethernet-injector",
+            "sku": "APP-30-6",
+            "name": "NetworkPocket PoE Ethernet Injector",
+            "description": "PoE Ethernet Injector for your it hardware & networking distribution replenishment list. NetworkPocket groups this item with networking so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "networking",
+            "categoryId": "it-hardware-networking-distribution-app-theme-category-2",
+            "categoryName": "NetworkPocket Networking",
+            "brand": "NetworkPocket",
+            "price": 1121,
+            "currency": "INR",
+            "priceLabel": "INR 1,121",
+            "image": "assets/images/product-06.jpg",
+            "stock": 183,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1323,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1121
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1065
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1009
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: NetworkPocket PoE Ethernet Injector",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse four bay nas enclosure, fiber media converter and a dedicated it hardware & networking distribution mobile assortment.",
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy",
+        "cardStyle": "editorial",
+        "columns": 2
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the NetworkPocket demo catalog",
+        "items": [
+          {
+            "question": "How are NetworkPocket pack quantities shown?",
+            "answer": "NetworkPocket Four Bay NAS Enclosure has a sample MOQ of 1. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are NetworkPocket images supplier photographs?",
+            "answer": "These it hardware & networking distribution images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "NetworkPocket",
+        "industryName": "IT Hardware & Networking Distribution",
+        "tagline": "Browse four bay nas enclosure, fiber media converter and a dedicated it hardware & networking distribution mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-30-app",
+        "layoutMode": "full-gallery",
+        "density": "airy"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-30-app"
+}

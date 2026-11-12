@@ -11,7 +11,7 @@ export default new DataSource({
   password: process.env.DB_PASSWORD ?? '',
   database: process.env.DB_NAME,
   entities: APP_ENTITIES,
-  migrations: [join(__dirname, 'migrations/*.{ts,js}')],
+  migrations: [join(__dirname, 'migrations/[0-9]*.{ts,js}')],
   synchronize: false,
   extra: {
     connectionTimeoutMillis: Number(process.env.DB_CONNECT_TIMEOUT_MS ?? 10000),

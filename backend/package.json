@@ -12,6 +12,7 @@
     "start:dev": "nest start --watch",
     "stop:dev": "bash -c 'P=${PORT:-3000}; lsof -ti :\"$P\" | xargs kill -9 2>/dev/null || true; pkill -f \"nest start\" 2>/dev/null || true; echo \"stop:dev: freed port $P and nest start processes (if any).\"'",
     "start:worker": "ts-node src/workers/main.worker.ts",
+    "start:media-worker": "ts-node src/workers/media-scan.main.worker.ts",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
@@ -45,7 +46,8 @@
     "themes:release:intake": "ts-node src/scripts/theme-release-intake.ts",
     "credit:verify-ledger": "ts-node src/scripts/verify-credit-ledger.ts",
     "storefront:test-customer:seed": "ts-node src/scripts/storefront-test-customer-seed.ts",
-    "catalog:vijiya-beauty:seed": "node -r dotenv/config src/scripts/seed-vijiya-beauty-catalog.js"
+    "catalog:vijiya-beauty:seed": "node -r dotenv/config src/scripts/seed-vijiya-beauty-catalog.js",
+    "catalog:grocery:seed": "node -r dotenv/config src/scripts/seed-nes-grocery-catalog.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1029.0",

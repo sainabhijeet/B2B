@@ -194,7 +194,23 @@ export class OrdersController {
     @Body() dto: UploadPaymentProofDto,
     @UploadedFile() file: Express.Multer.File,
   ) {
-    return this.ordersService.uploadPaymentProof(user, id, dto, file);
+    return this.ordersService.uploadPaymentProofFile(user, id, dto, file);
+  }
+
+  @Get(':id/payment-proof')
+  @Roles(
+    UserRole.CUSTOMER,
+    UserRole.OWNER,
+    UserRole.MANAGER,
+    UserRole.STAFF,
+    UserRole.SUPER_ADMIN,
+    UserRole.PLATFORM_SUPPORT,
+  )
+  getPaymentProof(
+    @CurrentUser() user: JwtUserPayload,
+    @Param('id') id: string,
+  ) {
+    return this.ordersService.getPaymentProof(user, id);
   }
 
   @Post(':id/payment/abandon')

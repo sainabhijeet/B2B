@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ValvePocket",
+        "industryName": "Pumps, Valves & Pipe Fittings",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "ValvePocket Submersible Drainage Pump",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "ValvePocket Submersible Drainage Pump",
+        "subtitle": "Submersible Drainage Pump for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with industrial pumps so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 7,140",
+        "description": "Submersible Drainage Pump for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with industrial pumps so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-25-1",
+        "stock": 113,
+        "moq": 2,
+        "product": {
+          "id": "pumps-valves-pipe-fittings-app-theme-product-1",
+          "slug": "valvepocket-submersible-drainage-pump",
+          "sku": "APP-25-1",
+          "name": "ValvePocket Submersible Drainage Pump",
+          "description": "Submersible Drainage Pump for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with industrial pumps so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "industrial-pumps",
+          "categoryId": "pumps-valves-pipe-fittings-app-theme-category-1",
+          "categoryName": "ValvePocket Industrial Pumps",
+          "brand": "ValvePocket",
+          "price": 7140,
+          "currency": "INR",
+          "priceLabel": "INR 7,140",
+          "image": "assets/images/product-01.jpg",
+          "stock": 113,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 8425,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 7140
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 6783
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 6426
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: ValvePocket Submersible Drainage Pump",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "ValvePocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ValvePocket Submersible Drainage Pump",
+          "ValvePocket Butterfly Isolation Valve",
+          "ValvePocket PVC Tee Connector",
+          "ValvePocket Water Filtration Housing",
+          "ValvePocket Self Priming Utility Pump",
+          "ValvePocket Pressure Reducing Valve"
+        ],
+        "prices": [
+          "INR 7,140",
+          "INR 2,072",
+          "INR 140",
+          "INR 13,500",
+          "INR 4,940",
+          "INR 3,776"
+        ],
+        "products": [
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-1",
+            "slug": "valvepocket-submersible-drainage-pump",
+            "sku": "APP-25-1",
+            "name": "ValvePocket Submersible Drainage Pump",
+            "description": "Submersible Drainage Pump for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with industrial pumps so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-pumps",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-1",
+            "categoryName": "ValvePocket Industrial Pumps",
+            "brand": "ValvePocket",
+            "price": 7140,
+            "currency": "INR",
+            "priceLabel": "INR 7,140",
+            "image": "assets/images/product-01.jpg",
+            "stock": 113,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 8425,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 7140
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 6783
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 6426
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket Submersible Drainage Pump",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-2",
+            "slug": "valvepocket-butterfly-isolation-valve",
+            "sku": "APP-25-2",
+            "name": "ValvePocket Butterfly Isolation Valve",
+            "description": "Butterfly Isolation Valve for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with control valves so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "control-valves",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-2",
+            "categoryName": "ValvePocket Control Valves",
+            "brand": "ValvePocket",
+            "price": 2072,
+            "currency": "INR",
+            "priceLabel": "INR 2,072",
+            "image": "assets/images/product-02.jpg",
+            "stock": 124,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2445,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2072
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1968
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1865
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket Butterfly Isolation Valve",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-3",
+            "slug": "valvepocket-pvc-tee-connector",
+            "sku": "APP-25-3",
+            "name": "ValvePocket PVC Tee Connector",
+            "description": "PVC Tee Connector for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with pipe fittings so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "pipe-fittings",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-3",
+            "categoryName": "ValvePocket Pipe Fittings",
+            "brand": "ValvePocket",
+            "price": 140,
+            "currency": "INR",
+            "priceLabel": "INR 140",
+            "image": "assets/images/product-03.jpg",
+            "stock": 135,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 165,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 140
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 133
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 126
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket PVC Tee Connector",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-4",
+            "slug": "valvepocket-water-filtration-housing",
+            "sku": "APP-25-4",
+            "name": "ValvePocket Water Filtration Housing",
+            "description": "Water Filtration Housing for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with water systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "water-systems",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-4",
+            "categoryName": "ValvePocket Water Systems",
+            "brand": "ValvePocket",
+            "price": 13500,
+            "currency": "INR",
+            "priceLabel": "INR 13,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 146,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 15930,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 13500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 12825
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12150
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket Water Filtration Housing",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-5",
+            "slug": "valvepocket-self-priming-utility-pump",
+            "sku": "APP-25-5",
+            "name": "ValvePocket Self Priming Utility Pump",
+            "description": "Self Priming Utility Pump for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with industrial pumps so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-pumps",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-1",
+            "categoryName": "ValvePocket Industrial Pumps",
+            "brand": "ValvePocket",
+            "price": 4940,
+            "currency": "INR",
+            "priceLabel": "INR 4,940",
+            "image": "assets/images/product-05.jpg",
+            "stock": 157,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 5829,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 4940
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 4693
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 4446
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket Self Priming Utility Pump",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pumps-valves-pipe-fittings-app-theme-product-6",
+            "slug": "valvepocket-pressure-reducing-valve",
+            "sku": "APP-25-6",
+            "name": "ValvePocket Pressure Reducing Valve",
+            "description": "Pressure Reducing Valve for your pumps, valves & pipe fittings replenishment list. ValvePocket groups this item with control valves so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "control-valves",
+            "categoryId": "pumps-valves-pipe-fittings-app-theme-category-2",
+            "categoryName": "ValvePocket Control Valves",
+            "brand": "ValvePocket",
+            "price": 3776,
+            "currency": "INR",
+            "priceLabel": "INR 3,776",
+            "image": "assets/images/product-06.jpg",
+            "stock": 168,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4456,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3776
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3587
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3398
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ValvePocket Pressure Reducing Valve",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse submersible drainage pump, butterfly isolation valve and a dedicated pumps, valves & pipe fittings mobile assortment.",
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact",
+        "cardStyle": "horizontal",
+        "columns": 1
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the ValvePocket demo catalog",
+        "items": [
+          {
+            "question": "How are ValvePocket pack quantities shown?",
+            "answer": "ValvePocket Submersible Drainage Pump has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are ValvePocket images supplier photographs?",
+            "answer": "These pumps, valves & pipe fittings images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ValvePocket",
+        "industryName": "Pumps, Valves & Pipe Fittings",
+        "tagline": "Browse submersible drainage pump, butterfly isolation valve and a dedicated pumps, valves & pipe fittings mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-25-app",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-25-app"
+}

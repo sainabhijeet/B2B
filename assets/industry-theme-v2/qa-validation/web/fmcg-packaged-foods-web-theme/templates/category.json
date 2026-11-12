@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PantryRoute",
+        "industryName": "FMCG & Packaged Foods",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PantryRoute / FMCG & Packaged Foods",
+        "subtitle": "Source basmati rice bag, assorted snack carton and more from this fmcg & packaged foods trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find PantryRoute supplies",
+        "message": "Explore PantryRoute Staples, PantryRoute Snacks & Beverages, PantryRoute Personal Care, PantryRoute Home Care.",
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "filters-catalog-matrix"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "PantryRoute trade selection",
+        "subtitle": "Source basmati rice bag, assorted snack carton and more from this fmcg & packaged foods trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PantryRoute Basmati Rice Bag",
+          "PantryRoute Assorted Snack Carton",
+          "PantryRoute Premium Tea Pack",
+          "PantryRoute Bath Soap Case",
+          "PantryRoute Floor Cleaner Can",
+          "PantryRoute Cooking Oil Jar"
+        ],
+        "prices": [
+          "INR 1,250",
+          "INR 960",
+          "INR 420",
+          "INR 720",
+          "INR 650",
+          "INR 1,800"
+        ],
+        "products": [
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-1",
+            "slug": "pantryroute-basmati-rice-bag",
+            "sku": "WEB-09-1",
+            "name": "PantryRoute Basmati Rice Bag",
+            "description": "Basmati Rice Bag from PantryRoute's staples assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "staples",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-1",
+            "categoryName": "PantryRoute Staples",
+            "brand": "PantryRoute",
+            "price": 1250,
+            "currency": "INR",
+            "priceLabel": "INR 1,250",
+            "image": "assets/images/product-01.jpg",
+            "stock": 92,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1475,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1250
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1188
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1125
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Basmati Rice Bag",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-2",
+            "slug": "pantryroute-assorted-snack-carton",
+            "sku": "WEB-09-2",
+            "name": "PantryRoute Assorted Snack Carton",
+            "description": "Assorted Snack Carton from PantryRoute's snacks & beverages assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "snacks-beverages",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-2",
+            "categoryName": "PantryRoute Snacks & Beverages",
+            "brand": "PantryRoute",
+            "price": 960,
+            "currency": "INR",
+            "priceLabel": "INR 960",
+            "image": "assets/images/product-02.jpg",
+            "stock": 103,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1133,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 960
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 912
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 864
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Assorted Snack Carton",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-3",
+            "slug": "pantryroute-premium-tea-pack",
+            "sku": "WEB-09-3",
+            "name": "PantryRoute Premium Tea Pack",
+            "description": "Premium Tea Pack from PantryRoute's snacks & beverages assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "snacks-beverages",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-2",
+            "categoryName": "PantryRoute Snacks & Beverages",
+            "brand": "PantryRoute",
+            "price": 420,
+            "currency": "INR",
+            "priceLabel": "INR 420",
+            "image": "assets/images/product-03.jpg",
+            "stock": 114,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 496,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 420
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 399
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 378
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Premium Tea Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-4",
+            "slug": "pantryroute-bath-soap-case",
+            "sku": "WEB-09-4",
+            "name": "PantryRoute Bath Soap Case",
+            "description": "Bath Soap Case from PantryRoute's personal care assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "personal-care",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-3",
+            "categoryName": "PantryRoute Personal Care",
+            "brand": "PantryRoute",
+            "price": 720,
+            "currency": "INR",
+            "priceLabel": "INR 720",
+            "image": "assets/images/product-04.jpg",
+            "stock": 125,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 850,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 720
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 684
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 648
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Bath Soap Case",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-5",
+            "slug": "pantryroute-floor-cleaner-can",
+            "sku": "WEB-09-5",
+            "name": "PantryRoute Floor Cleaner Can",
+            "description": "Floor Cleaner Can from PantryRoute's home care assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-care",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-4",
+            "categoryName": "PantryRoute Home Care",
+            "brand": "PantryRoute",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-05.jpg",
+            "stock": 136,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Floor Cleaner Can",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-web-theme-product-6",
+            "slug": "pantryroute-cooking-oil-jar",
+            "sku": "WEB-09-6",
+            "name": "PantryRoute Cooking Oil Jar",
+            "description": "Cooking Oil Jar from PantryRoute's staples assortment. Restock retail shelves with an everyday grocery assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "staples",
+            "categoryId": "fmcg-packaged-foods-web-theme-category-1",
+            "categoryName": "PantryRoute Staples",
+            "brand": "PantryRoute",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-06.jpg",
+            "stock": 147,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PantryRoute Cooking Oil Jar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy",
+        "cardStyle": "marketplace",
+        "columns": 5
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your PantryRoute order",
+        "subtitle": "Review quantities for basmati rice bag with this fmcg & packaged foods preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PantryRoute",
+        "industryName": "FMCG & Packaged Foods",
+        "tagline": "Source basmati rice bag, assorted snack carton and more from this fmcg & packaged foods trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-09-web",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-09-web"
+}

@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "DockLine",
+        "industryName": "Logistics, Warehousing & 3PL",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "DockLine collections",
+        "subtitle": "Choose your next logistics, warehousing & 3pl order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "DockLine Storage Systems",
+          "DockLine Material Movement",
+          "DockLine Packaging Operations",
+          "DockLine Tracking Supplies"
+        ],
+        "categories": [
+          {
+            "id": "logistics-warehousing-3pl-web-theme-category-1",
+            "slug": "storage-systems",
+            "name": "DockLine Storage Systems",
+            "description": "Explore DockLine's storage systems selection for logistics, warehousing & 3pl buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-category-2",
+            "slug": "material-movement",
+            "name": "DockLine Material Movement",
+            "description": "Explore DockLine's material movement selection for logistics, warehousing & 3pl buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-category-3",
+            "slug": "packaging-operations",
+            "name": "DockLine Packaging Operations",
+            "description": "Explore DockLine's packaging operations selection for logistics, warehousing & 3pl buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-category-4",
+            "slug": "tracking-supplies",
+            "name": "DockLine Tracking Supplies",
+            "description": "Explore DockLine's tracking supplies selection for logistics, warehousing & 3pl buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact",
+        "categoryStyle": "sidebar-index"
+      },
+      "variant": "categories-sidebar-index"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "DockLine: Equip the warehouse from storage to dispatch.",
+        "subtitle": "Source heavy duty storage rack, warehouse hand pallet and more from this logistics, warehousing & 3pl trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "hero-mosaic"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "DockLine trade savings",
+        "subtitle": "Sample quantity breaks for stretch wrap roll and the logistics, warehousing & 3pl catalog. Demo offers only.",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "DockLine trade selection",
+        "subtitle": "Source heavy duty storage rack, warehouse hand pallet and more from this logistics, warehousing & 3pl trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "DockLine Heavy Duty Storage Rack",
+          "DockLine Warehouse Hand Pallet",
+          "DockLine Stretch Wrap Roll",
+          "DockLine Barcode Scanner",
+          "DockLine Plastic Pallet",
+          "DockLine Shipping Label Bundle"
+        ],
+        "prices": [
+          "INR 18,500",
+          "INR 16,500",
+          "INR 850",
+          "INR 4,200",
+          "INR 2,800",
+          "INR 650"
+        ],
+        "products": [
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-1",
+            "slug": "dockline-heavy-duty-storage-rack",
+            "sku": "WEB-28-1",
+            "name": "DockLine Heavy Duty Storage Rack",
+            "description": "Heavy Duty Storage Rack from DockLine's storage systems assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "storage-systems",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-1",
+            "categoryName": "DockLine Storage Systems",
+            "brand": "DockLine",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 149,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Heavy Duty Storage Rack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-2",
+            "slug": "dockline-warehouse-hand-pallet",
+            "sku": "WEB-28-2",
+            "name": "DockLine Warehouse Hand Pallet",
+            "description": "Warehouse Hand Pallet from DockLine's material movement assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "material-movement",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-2",
+            "categoryName": "DockLine Material Movement",
+            "brand": "DockLine",
+            "price": 16500,
+            "currency": "INR",
+            "priceLabel": "INR 16,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 160,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 19470,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 16500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 15675
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 14850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Warehouse Hand Pallet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-3",
+            "slug": "dockline-stretch-wrap-roll",
+            "sku": "WEB-28-3",
+            "name": "DockLine Stretch Wrap Roll",
+            "description": "Stretch Wrap Roll from DockLine's packaging operations assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "packaging-operations",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-3",
+            "categoryName": "DockLine Packaging Operations",
+            "brand": "DockLine",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-03.jpg",
+            "stock": 171,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Stretch Wrap Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-4",
+            "slug": "dockline-barcode-scanner",
+            "sku": "WEB-28-4",
+            "name": "DockLine Barcode Scanner",
+            "description": "Barcode Scanner from DockLine's tracking supplies assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "tracking-supplies",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-4",
+            "categoryName": "DockLine Tracking Supplies",
+            "brand": "DockLine",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-04.jpg",
+            "stock": 182,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Barcode Scanner",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-5",
+            "slug": "dockline-plastic-pallet",
+            "sku": "WEB-28-5",
+            "name": "DockLine Plastic Pallet",
+            "description": "Plastic Pallet from DockLine's material movement assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "material-movement",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-2",
+            "categoryName": "DockLine Material Movement",
+            "brand": "DockLine",
+            "price": 2800,
+            "currency": "INR",
+            "priceLabel": "INR 2,800",
+            "image": "assets/images/product-05.jpg",
+            "stock": 193,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3304,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2800
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2660
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2520
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Plastic Pallet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "logistics-warehousing-3pl-web-theme-product-6",
+            "slug": "dockline-shipping-label-bundle",
+            "sku": "WEB-28-6",
+            "name": "DockLine Shipping Label Bundle",
+            "description": "Shipping Label Bundle from DockLine's tracking supplies assortment. Equip the warehouse from storage to dispatch. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "tracking-supplies",
+            "categoryId": "logistics-warehousing-3pl-web-theme-category-4",
+            "categoryName": "DockLine Tracking Supplies",
+            "brand": "DockLine",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-06.jpg",
+            "stock": 204,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DockLine Shipping Label Bundle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact",
+        "cardStyle": "image-first",
+        "columns": 3
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with DockLine",
+        "items": [
+          {
+            "icon": "01",
+            "title": "DockLine Storage Systems",
+            "text": "Start with heavy duty storage rack and compare the DockLine sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "DockLine quantity breaks",
+            "text": "Review MOQ and bulk tiers for warehouse hand pallet before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "DockLine sourcing lists",
+            "text": "Source heavy duty storage rack, warehouse hand pallet and more from this logistics, warehousing & 3pl trade collection."
+          }
+        ],
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow DockLine arrivals",
+        "subtitle": "Sample updates about barcode scanner and dockline storage systems.",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next logistics, warehousing & 3pl assortment with DockLine",
+        "body": "Equip the warehouse from storage to dispatch. Source heavy duty storage rack, warehouse hand pallet and more from this logistics, warehousing & 3pl trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "DockLine sample buyer story",
+        "quote": "Our demo logistics, warehousing & 3pl buying team can compare heavy duty storage rack and stretch wrap roll in one sourcing catalog.",
+        "author": "Fictional DockLine buyer — demo feedback",
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "DockLine",
+        "industryName": "Logistics, Warehousing & 3PL",
+        "tagline": "Source heavy duty storage rack, warehouse hand pallet and more from this logistics, warehousing & 3pl trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-28-web",
+        "layoutMode": "Warehouse dispatch board",
+        "density": "compact"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-28-web"
+}

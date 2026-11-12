@@ -1,0 +1,151 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "nav": ["Home", "About Us", "Collections", "New Arrivals", "Blog", "Contact"],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "editorial-jowenly"
+    },
+    {
+      "id": "about-hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "OUR HOUSE",
+        "title": "Jewellery shaped by restraint, light and lasting form.",
+        "subtitle": "Aurelia Elan is a fictional demonstration jewellery house created to express quiet luxury through sculptural silhouettes, warm metals and considered details.",
+        "primaryCta": "Explore collections",
+        "primaryHref": "/category",
+        "secondaryCta": "Read the journal",
+        "secondaryHref": "/blog",
+        "image": "assets/images/aurelia-hero-original-v2.png",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "hero-about-house"
+    },
+    {
+      "id": "about-origin",
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "THE AURELIA POINT OF VIEW",
+        "title": "A modern house with an old-world respect for detail.",
+        "body": "Our fictional story begins with a simple idea: fine jewellery can feel expressive without feeling excessive. Every collection balances clean structure with tactile surfaces and a calm, enduring palette.\n\nThe result is an edit designed around real rituals - pieces for everyday confidence, meaningful milestones and gifts intended to remain close for years.",
+        "image": "assets/images/aurelia-journal-cuff-original.png",
+        "imageAlt": "Original AI-generated editorial image of sculptural gold jewellery",
+        "imagePosition": "left",
+        "highlights": [
+          "Sculptural silhouettes",
+          "Warm metal palettes",
+          "Everyday proportions",
+          "Considered presentation"
+        ],
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "about-origin-story"
+    },
+    {
+      "id": "about-principles",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "OUR PRINCIPLES",
+        "title": "What guides every Aurelia edit",
+        "items": [
+          {
+            "icon": "01",
+            "title": "Form before ornament",
+            "text": "Proportion and silhouette lead the design, allowing every detail to feel intentional."
+          },
+          {
+            "icon": "02",
+            "title": "Materials with presence",
+            "text": "Warm tones, luminous stones and tactile finishes create depth without visual noise."
+          },
+          {
+            "icon": "03",
+            "title": "Made for modern rituals",
+            "text": "The edit moves comfortably between daily wear, celebrations and meaningful gifting."
+          },
+          {
+            "icon": "04",
+            "title": "Care beyond the piece",
+            "text": "Clear guidance, thoughtful packaging and attentive service complete the experience."
+          }
+        ],
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "about-principles-ledger"
+    },
+    {
+      "id": "about-craft",
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "OUR PROCESS",
+        "title": "From first line to final polish",
+        "body": "Each fictional Aurelia piece starts with proportion: how a curve follows the hand, how a pendant rests at the collar and how light moves across a surface. Material, setting and finish are then selected to support that first idea.\n\nThis demonstration collection is presented as an editorial concept, not as a claim about a real workshop, maker or certification.",
+        "image": "assets/images/aurelia-ring-macro-original.png",
+        "imageAlt": "Original AI-generated macro image of a sculptural ring",
+        "imagePosition": "right",
+        "highlights": [
+          "01 - Sketch and proportion",
+          "02 - Material and setting",
+          "03 - Surface and polish",
+          "04 - Final presentation"
+        ],
+        "ctaLabel": "Discover the collection",
+        "ctaUrl": "/category",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "about-craft-process"
+    },
+    {
+      "id": "about-house-note",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "A house note",
+        "quote": "We believe the most memorable jewellery does not overwhelm the wearer. It becomes part of how they move through the world.",
+        "author": "Aurelia Elan",
+        "role": "Fictional demonstration house",
+        "image": "assets/images/aurelia-hero-original-v2.png",
+        "imageAlt": "Original AI-generated Aurelia Elan editorial portrait",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "about-house-note"
+    },
+    {
+      "id": "about-cta",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Find a piece that feels entirely your own.",
+        "subtitle": "Explore the complete Aurelia Elan demonstration edit or speak with the private client desk.",
+        "buttonLabel": "View all collections",
+        "buttonHref": "/category",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "about-private-client-cta"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "tagline": "A quiet luxury jewellery house for sculptural gold, luminous diamonds and enduring gifts. Fictional demo catalog.",
+        "logoImageUrl": "assets/images/logo.svg",
+        "columns": [
+          { "heading": "Explore", "links": ["About", "Collections", "New Arrivals", "Blog"] },
+          { "heading": "Client care", "links": ["Contact", "FAQ", "Shipping", "Returns"] },
+          { "heading": "Private client", "links": ["Login", "Orders", "Saved Pieces", "The Bag"] }
+        ],
+        "copyright": "© 2026 Aurelia Elan. Fictional demonstration storefront.",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-06-web-aurelia-elan"
+}

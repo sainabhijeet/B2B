@@ -46,6 +46,13 @@ class BuildConfig {
     return _webParam('appLanguage');
   }
 
+  /// True only for the Distributor Website Builder's embedded Live Preview.
+  /// Normal web/native app launches do not receive this query flag.
+  static bool get isThemePreview {
+    final value = _webParam('previewMode').toLowerCase();
+    return value == '1' || value == 'true';
+  }
+
   static String get resolvedThemeId {
     final v = _webParam('themeId');
     return v.isNotEmpty ? v : themeId.trim();

@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000018",
+  "industry": "HVAC & Refrigeration",
+  "themeName": "HVAC & Refrigeration App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "CoolPocket",
+    "industry": "HVAC & Refrigeration",
+    "tagline": "Browse cassette air conditioner, commercial evaporator coil and a dedicated hvac & refrigeration mobile assortment.",
+    "email": "hello@coolpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "CoolPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in CoolPocket's hvac & refrigeration range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "CoolPocket sample buyer story",
+      "quote": "Our demo hvac & refrigeration buying team can compare cassette air conditioner and inline duct fan in one restock list.",
+      "author": "Fictional CoolPocket buyer — demo feedback",
+      "designId": "ds-24-app",
+      "layoutMode": "Climate systems console / pocket workflow",
+      "density": "airy",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "hvac-refrigeration-app-theme-category-1",
+      "slug": "air-conditioning",
+      "name": "CoolPocket Air Conditioning",
+      "description": "Pick air conditioning for your hvac & refrigeration replenishment list with CoolPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-category-2",
+      "slug": "refrigeration",
+      "name": "CoolPocket Refrigeration",
+      "description": "Pick refrigeration for your hvac & refrigeration replenishment list with CoolPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-category-3",
+      "slug": "ventilation",
+      "name": "CoolPocket Ventilation",
+      "description": "Pick ventilation for your hvac & refrigeration replenishment list with CoolPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-category-4",
+      "slug": "hvac-components",
+      "name": "CoolPocket HVAC Components",
+      "description": "Pick hvac components for your hvac & refrigeration replenishment list with CoolPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "hvac-refrigeration-app-theme-product-1",
+      "slug": "coolpocket-cassette-air-conditioner",
+      "sku": "APP-24-1",
+      "name": "CoolPocket Cassette Air Conditioner",
+      "description": "Cassette Air Conditioner for your hvac & refrigeration replenishment list. CoolPocket groups this item with air conditioning so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "air-conditioning",
+      "categoryId": "hvac-refrigeration-app-theme-category-1",
+      "categoryName": "CoolPocket Air Conditioning",
+      "brand": "CoolPocket",
+      "price": 35280,
+      "currency": "INR",
+      "priceLabel": "INR 35,280",
+      "image": "assets/images/product-01.jpg",
+      "stock": 110,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 41630,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 35280
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 33516
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 31752
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket Cassette Air Conditioner",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-product-2",
+      "slug": "coolpocket-commercial-evaporator-coil",
+      "sku": "APP-24-2",
+      "name": "CoolPocket Commercial Evaporator Coil",
+      "description": "Commercial Evaporator Coil for your hvac & refrigeration replenishment list. CoolPocket groups this item with refrigeration so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "refrigeration",
+      "categoryId": "hvac-refrigeration-app-theme-category-2",
+      "categoryName": "CoolPocket Refrigeration",
+      "brand": "CoolPocket",
+      "price": 95200,
+      "currency": "INR",
+      "priceLabel": "INR 95,200",
+      "image": "assets/images/product-02.jpg",
+      "stock": 121,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 112336,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 95200
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 90440
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 85680
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket Commercial Evaporator Coil",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-product-3",
+      "slug": "coolpocket-inline-duct-fan",
+      "sku": "APP-24-3",
+      "name": "CoolPocket Inline Duct Fan",
+      "description": "Inline Duct Fan for your hvac & refrigeration replenishment list. CoolPocket groups this item with ventilation so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "ventilation",
+      "categoryId": "hvac-refrigeration-app-theme-category-3",
+      "categoryName": "CoolPocket Ventilation",
+      "brand": "CoolPocket",
+      "price": 7905,
+      "currency": "INR",
+      "priceLabel": "INR 7,905",
+      "image": "assets/images/product-03.jpg",
+      "stock": 132,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 9328,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 7905
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 7510
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 7115
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket Inline Duct Fan",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-product-4",
+      "slug": "coolpocket-hvac-filter-cartridge",
+      "sku": "APP-24-4",
+      "name": "CoolPocket HVAC Filter Cartridge",
+      "description": "HVAC Filter Cartridge for your hvac & refrigeration replenishment list. CoolPocket groups this item with hvac components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "hvac-components",
+      "categoryId": "hvac-refrigeration-app-theme-category-4",
+      "categoryName": "CoolPocket HVAC Components",
+      "brand": "CoolPocket",
+      "price": 7020,
+      "currency": "INR",
+      "priceLabel": "INR 7,020",
+      "image": "assets/images/product-04.jpg",
+      "stock": 143,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 8284,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 7020
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 6669
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 6318
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket HVAC Filter Cartridge",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-product-5",
+      "slug": "coolpocket-floor-standing-ac-unit",
+      "sku": "APP-24-5",
+      "name": "CoolPocket Floor Standing AC Unit",
+      "description": "Floor Standing AC Unit for your hvac & refrigeration replenishment list. CoolPocket groups this item with air conditioning so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "air-conditioning",
+      "categoryId": "hvac-refrigeration-app-theme-category-1",
+      "categoryName": "CoolPocket Air Conditioning",
+      "brand": "CoolPocket",
+      "price": 1139,
+      "currency": "INR",
+      "priceLabel": "INR 1,139",
+      "image": "assets/images/product-05.jpg",
+      "stock": 154,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1344,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1139
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1082
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1025
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket Floor Standing AC Unit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hvac-refrigeration-app-theme-product-6",
+      "slug": "coolpocket-refrigerant-recovery-cylinder",
+      "sku": "APP-24-6",
+      "name": "CoolPocket Refrigerant Recovery Cylinder",
+      "description": "Refrigerant Recovery Cylinder for your hvac & refrigeration replenishment list. CoolPocket groups this item with refrigeration so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "refrigeration",
+      "categoryId": "hvac-refrigeration-app-theme-category-2",
+      "categoryName": "CoolPocket Refrigeration",
+      "brand": "CoolPocket",
+      "price": 21830,
+      "currency": "INR",
+      "priceLabel": "INR 21,830",
+      "image": "assets/images/product-06.jpg",
+      "stock": 165,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 25759,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 21830
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 20739
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 19647
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CoolPocket Refrigerant Recovery Cylinder",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-24-app",
+    "direction": "Climate systems console / pocket workflow",
+    "header": "compact-stack",
+    "headerIdentity": "header-24-app",
+    "headerStructure": "shell-6-composition-4",
+    "hero": "stacked-center",
+    "categories": "numbered-list",
+    "productCards": "bulk-table",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "minimal",
+    "footerIdentity": "footer-24-app",
+    "footerStructure": "shell-3-composition-4",
+    "density": "airy",
+    "responsiveStrategy": "visual"
+  }
+}

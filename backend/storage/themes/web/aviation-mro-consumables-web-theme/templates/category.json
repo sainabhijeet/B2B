@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "AeroStores",
+        "industryName": "Aviation & MRO Consumables",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "AeroStores / Aviation & MRO Consumables",
+        "subtitle": "Source aviation sealant kit, ground power cable and more from this aviation & mro consumables trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find AeroStores supplies",
+        "message": "Explore AeroStores Aircraft Consumables, AeroStores Ground Support, AeroStores Cabin Supplies, AeroStores Maintenance Tools.",
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "filters-editorial-three"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "AeroStores trade selection",
+        "subtitle": "Source aviation sealant kit, ground power cable and more from this aviation & mro consumables trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "AeroStores Aviation Sealant Kit",
+          "AeroStores Ground Power Cable",
+          "AeroStores Cabin Service Cart",
+          "AeroStores Precision Torque Wrench",
+          "AeroStores Safety Wire Spool",
+          "AeroStores Aircraft Cleaning Fluid"
+        ],
+        "prices": [
+          "INR 8,500",
+          "INR 12,500",
+          "INR 42,000",
+          "INR 6,500",
+          "INR 1,850",
+          "INR 3,200"
+        ],
+        "products": [
+          {
+            "id": "aviation-mro-consumables-web-theme-product-1",
+            "slug": "aerostores-aviation-sealant-kit",
+            "sku": "WEB-39-1",
+            "name": "AeroStores Aviation Sealant Kit",
+            "description": "Aviation Sealant Kit from AeroStores's aircraft consumables assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "aircraft-consumables",
+            "categoryId": "aviation-mro-consumables-web-theme-category-1",
+            "categoryName": "AeroStores Aircraft Consumables",
+            "brand": "AeroStores",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 182,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Aviation Sealant Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-web-theme-product-2",
+            "slug": "aerostores-ground-power-cable",
+            "sku": "WEB-39-2",
+            "name": "AeroStores Ground Power Cable",
+            "description": "Ground Power Cable from AeroStores's ground support assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "ground-support",
+            "categoryId": "aviation-mro-consumables-web-theme-category-2",
+            "categoryName": "AeroStores Ground Support",
+            "brand": "AeroStores",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 193,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Ground Power Cable",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-web-theme-product-3",
+            "slug": "aerostores-cabin-service-cart",
+            "sku": "WEB-39-3",
+            "name": "AeroStores Cabin Service Cart",
+            "description": "Cabin Service Cart from AeroStores's cabin supplies assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cabin-supplies",
+            "categoryId": "aviation-mro-consumables-web-theme-category-3",
+            "categoryName": "AeroStores Cabin Supplies",
+            "brand": "AeroStores",
+            "price": 42000,
+            "currency": "INR",
+            "priceLabel": "INR 42,000",
+            "image": "assets/images/product-03.jpg",
+            "stock": 204,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 49560,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 39900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 37800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Cabin Service Cart",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-web-theme-product-4",
+            "slug": "aerostores-precision-torque-wrench",
+            "sku": "WEB-39-4",
+            "name": "AeroStores Precision Torque Wrench",
+            "description": "Precision Torque Wrench from AeroStores's maintenance tools assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "maintenance-tools",
+            "categoryId": "aviation-mro-consumables-web-theme-category-4",
+            "categoryName": "AeroStores Maintenance Tools",
+            "brand": "AeroStores",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 215,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Precision Torque Wrench",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-web-theme-product-5",
+            "slug": "aerostores-safety-wire-spool",
+            "sku": "WEB-39-5",
+            "name": "AeroStores Safety Wire Spool",
+            "description": "Safety Wire Spool from AeroStores's aircraft consumables assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "aircraft-consumables",
+            "categoryId": "aviation-mro-consumables-web-theme-category-1",
+            "categoryName": "AeroStores Aircraft Consumables",
+            "brand": "AeroStores",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-05.jpg",
+            "stock": 226,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Safety Wire Spool",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-web-theme-product-6",
+            "slug": "aerostores-aircraft-cleaning-fluid",
+            "sku": "WEB-39-6",
+            "name": "AeroStores Aircraft Cleaning Fluid",
+            "description": "Aircraft Cleaning Fluid from AeroStores's aircraft consumables assortment. Arrange aviation maintenance supplies for practical purchasing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "aircraft-consumables",
+            "categoryId": "aviation-mro-consumables-web-theme-category-1",
+            "categoryName": "AeroStores Aircraft Consumables",
+            "brand": "AeroStores",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 237,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AeroStores Aircraft Cleaning Fluid",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy",
+        "cardStyle": "minimal",
+        "columns": 5
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your AeroStores order",
+        "subtitle": "Review quantities for aviation sealant kit with this aviation & mro consumables preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "AeroStores",
+        "industryName": "Aviation & MRO Consumables",
+        "tagline": "Source aviation sealant kit, ground power cable and more from this aviation & mro consumables trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-39-web",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-39-web"
+}

@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000002d",
+  "industry": "Sports & Fitness Equipment",
+  "themeName": "Sports & Fitness Equipment App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "FitPocket",
+    "industry": "Sports & Fitness Equipment",
+    "tagline": "Browse resistance band set, basketball training ball and a dedicated sports & fitness equipment mobile assortment.",
+    "email": "hello@fitpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "FitPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in FitPocket's sports & fitness equipment range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "FitPocket sample buyer story",
+      "quote": "Our demo sports & fitness equipment buying team can compare resistance band set and trekking pole pair in one restock list.",
+      "author": "Fictional FitPocket buyer — demo feedback",
+      "designId": "ds-45-app",
+      "layoutMode": "Performance training club / pocket workflow",
+      "density": "airy",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "sports-fitness-equipment-app-theme-category-1",
+      "slug": "fitness-equipment",
+      "name": "FitPocket Fitness Equipment",
+      "description": "Pick fitness equipment for your sports & fitness equipment replenishment list with FitPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-category-2",
+      "slug": "team-sports",
+      "name": "FitPocket Team Sports",
+      "description": "Pick team sports for your sports & fitness equipment replenishment list with FitPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-category-3",
+      "slug": "outdoor-sports",
+      "name": "FitPocket Outdoor Sports",
+      "description": "Pick outdoor sports for your sports & fitness equipment replenishment list with FitPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-category-4",
+      "slug": "sportswear",
+      "name": "FitPocket Sportswear",
+      "description": "Pick sportswear for your sports & fitness equipment replenishment list with FitPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "sports-fitness-equipment-app-theme-product-1",
+      "slug": "fitpocket-resistance-band-set",
+      "sku": "APP-45-1",
+      "name": "FitPocket Resistance Band Set",
+      "description": "Resistance Band Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "fitness-equipment",
+      "categoryId": "sports-fitness-equipment-app-theme-category-1",
+      "categoryName": "FitPocket Fitness Equipment",
+      "brand": "FitPocket",
+      "price": 3528,
+      "currency": "INR",
+      "priceLabel": "INR 3,528",
+      "image": "assets/images/product-01.jpg",
+      "stock": 173,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 4163,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 3528
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 3352
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 3175
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Resistance Band Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-product-2",
+      "slug": "fitpocket-basketball-training-ball",
+      "sku": "APP-45-2",
+      "name": "FitPocket Basketball Training Ball",
+      "description": "Basketball Training Ball for your sports & fitness equipment replenishment list. FitPocket groups this item with team sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "team-sports",
+      "categoryId": "sports-fitness-equipment-app-theme-category-2",
+      "categoryName": "FitPocket Team Sports",
+      "brand": "FitPocket",
+      "price": 3192,
+      "currency": "INR",
+      "priceLabel": "INR 3,192",
+      "image": "assets/images/product-02.jpg",
+      "stock": 184,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 3767,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 3192
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 3032
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2873
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Basketball Training Ball",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-product-3",
+      "slug": "fitpocket-trekking-pole-pair",
+      "sku": "APP-45-3",
+      "name": "FitPocket Trekking Pole Pair",
+      "description": "Trekking Pole Pair for your sports & fitness equipment replenishment list. FitPocket groups this item with outdoor sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "outdoor-sports",
+      "categoryId": "sports-fitness-equipment-app-theme-category-3",
+      "categoryName": "FitPocket Outdoor Sports",
+      "brand": "FitPocket",
+      "price": 6045,
+      "currency": "INR",
+      "priceLabel": "INR 6,045",
+      "image": "assets/images/product-03.jpg",
+      "stock": 195,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 7133,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 6045
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 5743
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 5441
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Trekking Pole Pair",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-product-4",
+      "slug": "fitpocket-moisture-wicking-training-tee",
+      "sku": "APP-45-4",
+      "name": "FitPocket Moisture Wicking Training Tee",
+      "description": "Moisture Wicking Training Tee for your sports & fitness equipment replenishment list. FitPocket groups this item with sportswear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "sportswear",
+      "categoryId": "sports-fitness-equipment-app-theme-category-4",
+      "categoryName": "FitPocket Sportswear",
+      "brand": "FitPocket",
+      "price": 1998,
+      "currency": "INR",
+      "priceLabel": "INR 1,998",
+      "image": "assets/images/product-04.jpg",
+      "stock": 206,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 2358,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1998
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 1898
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1798
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Moisture Wicking Training Tee",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-product-5",
+      "slug": "fitpocket-kettlebell-starter-set",
+      "sku": "APP-45-5",
+      "name": "FitPocket Kettlebell Starter Set",
+      "description": "Kettlebell Starter Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "fitness-equipment",
+      "categoryId": "sports-fitness-equipment-app-theme-category-1",
+      "categoryName": "FitPocket Fitness Equipment",
+      "brand": "FitPocket",
+      "price": 722,
+      "currency": "INR",
+      "priceLabel": "INR 722",
+      "image": "assets/images/product-05.jpg",
+      "stock": 217,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 852,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 722
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 686
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Kettlebell Starter Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-app-theme-product-6",
+      "slug": "fitpocket-badminton-racket-pair",
+      "sku": "APP-45-6",
+      "name": "FitPocket Badminton Racket Pair",
+      "description": "Badminton Racket Pair for your sports & fitness equipment replenishment list. FitPocket groups this item with team sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "team-sports",
+      "categoryId": "sports-fitness-equipment-app-theme-category-2",
+      "categoryName": "FitPocket Team Sports",
+      "brand": "FitPocket",
+      "price": 1769,
+      "currency": "INR",
+      "priceLabel": "INR 1,769",
+      "image": "assets/images/product-06.jpg",
+      "stock": 228,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 2087,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 1769
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1681
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1592
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FitPocket Badminton Racket Pair",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-45-app",
+    "direction": "Performance training club / pocket workflow",
+    "header": "editorial",
+    "headerIdentity": "header-45-app",
+    "headerStructure": "shell-3-composition-8",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "minimal",
+    "footerIdentity": "footer-45-app",
+    "footerStructure": "shell-3-composition-7",
+    "density": "airy",
+    "responsiveStrategy": "quick_reorder"
+  }
+}

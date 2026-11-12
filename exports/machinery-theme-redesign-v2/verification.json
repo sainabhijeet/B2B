@@ -1,0 +1,44 @@
+[
+  {
+    "name": "desktop-header",
+    "file": "exports/machinery-theme-redesign-v2/desktop-header.png",
+    "metrics": {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "headerHeight": 120,
+      "desktopNavVisible": true,
+      "mobileMenuVisible": false,
+      "finderOpen": false,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  },
+  {
+    "name": "desktop-finder",
+    "file": "exports/machinery-theme-redesign-v2/desktop-finder.png",
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerHeight": 120,
+      "desktopNavVisible": true,
+      "mobileMenuVisible": false,
+      "finderOpen": true,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  },
+  {
+    "name": "mobile-header",
+    "file": "exports/machinery-theme-redesign-v2/mobile-header.png",
+    "metrics": {
+      "width": 390,
+      "scrollWidth": 390,
+      "headerHeight": 95,
+      "desktopNavVisible": false,
+      "mobileMenuVisible": true,
+      "finderOpen": false,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  }
+]

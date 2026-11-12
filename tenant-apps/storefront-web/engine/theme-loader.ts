@@ -9,6 +9,7 @@ import { applyTenantContentOverrides } from "@/engine/tenant-overrides";
 import type { ResolvedStorefrontTheme } from "@/lib/resolve-storefront-theme";
 import { resolveStorefrontTheme, resolveStorefrontThemeKey } from "@/lib/resolve-storefront-theme";
 import type { TemplateFile } from "@/engine/schema/theme-engine.schema";
+import type { ThemePreviewCatalog } from "@/lib/resolve-storefront-theme";
 
 export { resolveStorefrontTheme, resolveStorefrontThemeKey };
 
@@ -29,7 +30,10 @@ export async function loadPageTemplateChain(
   const { storefrontKey: themeKey, manifest, webTheme } = resolved;
   const fromApi = await loadTemplateForPage(webTheme?.manifestPath ?? null, manifest, page);
   const baseTemplate = fromApi ?? defaultTemplateForPage(page);
-  const withTenant = applyTenantContentOverrides(baseTemplate, resolved.contentOverrides, page);
+  const withPreviewCatalog = page === "home"
+    ? applyPreviewCatalog(baseTemplate, resolved.previewCatalog ?? null)
+    : baseTemplate;
+  const withTenant = applyTenantContentOverrides(withPreviewCatalog, resolved.contentOverrides, page);
   const withBranding = mergeStorefrontBrandingIntoTemplate(withTenant, resolved.branding ?? null);
   const locale = await loadLocale({
     manifestPath: webTheme?.manifestPath ?? null,
@@ -39,6 +43,40 @@ export async function loadPageTemplateChain(
   });
   const template = localizeTemplate(withBranding, resolved.selectedLanguageCode, locale);
   return { template, themeKey };
+}
+
+function applyPreviewCatalog(
+  template: TemplateFile,
+  catalog: ThemePreviewCatalog | null,
+): TemplateFile {
+  if (!catalog) return template;
+  const categories = Array.isArray(catalog.categories) ? catalog.categories : [];
+  const products = Array.isArray(catalog.products) ? catalog.products : [];
+  const categorySections = new Set(["category-grid", "category-tiles"]);
+  const productSections = new Set([
+    "product-grid",
+    "featured-products",
+    "latest-products",
+    "best-sellers",
+    "product-carousel",
+    "product-featured",
+    "related-products",
+  ]);
+
+  return {
+    ...template,
+    sections: template.sections.map((section) => {
+      const type = String(section.type ?? section.component ?? "").trim().toLowerCase();
+      const settings = section.settings ?? {};
+      if (categorySections.has(type) && categories.length > 0 && !Array.isArray(settings.categories)) {
+        return { ...section, settings: { ...settings, categories } };
+      }
+      if (productSections.has(type) && products.length > 0 && !Array.isArray(settings.products)) {
+        return { ...section, settings: { ...settings, products } };
+      }
+      return section;
+    }),
+  };
 }
 
 function defaultTemplateForPage(page: TemplatePageType): TemplateFile {

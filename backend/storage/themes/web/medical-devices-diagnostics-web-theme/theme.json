@@ -1,0 +1,92 @@
+{
+  "name": "Medical Devices & Diagnostics Web Theme",
+  "version": "2.2.0",
+  "storefrontKey": "medical-devices-diagnostics-web-theme",
+  "industry": "Medical Devices & Diagnostics",
+  "industryId": "10000000-0000-4000-8000-00000000000b",
+  "description": "ClinicalSource Clinical Dossier: an original procurement-workspace composition for medical equipment and consumables, with an asymmetric catalog index, comparison board and responsive buyer desk.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-11-web",
+    "direction": "Clinical procurement dossier",
+    "header": "clinical-dossier",
+    "headerIdentity": "header-11-web",
+    "headerStructure": "clinical-instrument-bar-v2",
+    "hero": "clinical-dossier",
+    "categories": "clinical-index-mosaic",
+    "productCards": "clinical-board",
+    "productListing": "clinical-register",
+    "productDetail": "clinical-dossier",
+    "footer": "clinical-dossier",
+    "footerIdentity": "footer-11-web",
+    "footerStructure": "buyer-register-asymmetric-v2",
+    "density": "balanced",
+    "responsiveStrategy": "dossier-mosaic-to-mobile-register"
+  }
+}

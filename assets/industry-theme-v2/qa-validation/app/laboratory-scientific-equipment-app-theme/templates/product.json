@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "BenchPocket",
+        "industryName": "Laboratory & Scientific Equipment",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "BenchPocket Digital Hotplate Stirrer",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "gallery-compact-order"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "BenchPocket Digital Hotplate Stirrer",
+        "subtitle": "Digital Hotplate Stirrer for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with lab instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 7,140",
+        "description": "Digital Hotplate Stirrer for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with lab instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-42-1",
+        "stock": 164,
+        "moq": 2,
+        "product": {
+          "id": "laboratory-scientific-equipment-app-theme-product-1",
+          "slug": "benchpocket-digital-hotplate-stirrer",
+          "sku": "APP-42-1",
+          "name": "BenchPocket Digital Hotplate Stirrer",
+          "description": "Digital Hotplate Stirrer for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with lab instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "lab-instruments",
+          "categoryId": "laboratory-scientific-equipment-app-theme-category-1",
+          "categoryName": "BenchPocket Lab Instruments",
+          "brand": "BenchPocket",
+          "price": 7140,
+          "currency": "INR",
+          "priceLabel": "INR 7,140",
+          "image": "assets/images/product-01.jpg",
+          "stock": 164,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 8425,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 7140
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 6783
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 6426
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: BenchPocket Digital Hotplate Stirrer",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "info-compact-order"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "BenchPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "BenchPocket Digital Hotplate Stirrer",
+          "BenchPocket Graduated Cylinder Set",
+          "BenchPocket Laboratory Buffer Solution",
+          "BenchPocket Chemical Splash Goggles",
+          "BenchPocket Mini Laboratory Centrifuge",
+          "BenchPocket Glass Petri Dish Set"
+        ],
+        "prices": [
+          "INR 7,140",
+          "INR 2,072",
+          "INR 2,232",
+          "INR 13,500",
+          "INR 21,660",
+          "INR 1,769"
+        ],
+        "products": [
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-1",
+            "slug": "benchpocket-digital-hotplate-stirrer",
+            "sku": "APP-42-1",
+            "name": "BenchPocket Digital Hotplate Stirrer",
+            "description": "Digital Hotplate Stirrer for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with lab instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "lab-instruments",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-1",
+            "categoryName": "BenchPocket Lab Instruments",
+            "brand": "BenchPocket",
+            "price": 7140,
+            "currency": "INR",
+            "priceLabel": "INR 7,140",
+            "image": "assets/images/product-01.jpg",
+            "stock": 164,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 8425,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 7140
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 6783
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 6426
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Digital Hotplate Stirrer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-2",
+            "slug": "benchpocket-graduated-cylinder-set",
+            "sku": "APP-42-2",
+            "name": "BenchPocket Graduated Cylinder Set",
+            "description": "Graduated Cylinder Set for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with glassware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "glassware",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-2",
+            "categoryName": "BenchPocket Glassware",
+            "brand": "BenchPocket",
+            "price": 2072,
+            "currency": "INR",
+            "priceLabel": "INR 2,072",
+            "image": "assets/images/product-02.jpg",
+            "stock": 175,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2445,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2072
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1968
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1865
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Graduated Cylinder Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-3",
+            "slug": "benchpocket-laboratory-buffer-solution",
+            "sku": "APP-42-3",
+            "name": "BenchPocket Laboratory Buffer Solution",
+            "description": "Laboratory Buffer Solution for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with reagents so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "reagents",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-3",
+            "categoryName": "BenchPocket Reagents",
+            "brand": "BenchPocket",
+            "price": 2232,
+            "currency": "INR",
+            "priceLabel": "INR 2,232",
+            "image": "assets/images/product-03.jpg",
+            "stock": 186,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2634,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 2232
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 2120
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2009
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Laboratory Buffer Solution",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-4",
+            "slug": "benchpocket-chemical-splash-goggles",
+            "sku": "APP-42-4",
+            "name": "BenchPocket Chemical Splash Goggles",
+            "description": "Chemical Splash Goggles for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with safety supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "safety-supplies",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-4",
+            "categoryName": "BenchPocket Safety Supplies",
+            "brand": "BenchPocket",
+            "price": 13500,
+            "currency": "INR",
+            "priceLabel": "INR 13,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 197,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 15930,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 13500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 12825
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12150
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Chemical Splash Goggles",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-5",
+            "slug": "benchpocket-mini-laboratory-centrifuge",
+            "sku": "APP-42-5",
+            "name": "BenchPocket Mini Laboratory Centrifuge",
+            "description": "Mini Laboratory Centrifuge for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with lab instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "lab-instruments",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-1",
+            "categoryName": "BenchPocket Lab Instruments",
+            "brand": "BenchPocket",
+            "price": 21660,
+            "currency": "INR",
+            "priceLabel": "INR 21,660",
+            "image": "assets/images/product-05.jpg",
+            "stock": 208,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 25559,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 21660
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 20577
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 19494
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Mini Laboratory Centrifuge",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-app-theme-product-6",
+            "slug": "benchpocket-glass-petri-dish-set",
+            "sku": "APP-42-6",
+            "name": "BenchPocket Glass Petri Dish Set",
+            "description": "Glass Petri Dish Set for your laboratory & scientific equipment replenishment list. BenchPocket groups this item with glassware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "glassware",
+            "categoryId": "laboratory-scientific-equipment-app-theme-category-2",
+            "categoryName": "BenchPocket Glassware",
+            "brand": "BenchPocket",
+            "price": 1769,
+            "currency": "INR",
+            "priceLabel": "INR 1,769",
+            "image": "assets/images/product-06.jpg",
+            "stock": 219,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2087,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1769
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1681
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1592
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BenchPocket Glass Petri Dish Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse digital hotplate stirrer, graduated cylinder set and a dedicated laboratory & scientific equipment mobile assortment.",
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy",
+        "cardStyle": "minimal",
+        "columns": 2
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the BenchPocket demo catalog",
+        "items": [
+          {
+            "question": "How are BenchPocket pack quantities shown?",
+            "answer": "BenchPocket Digital Hotplate Stirrer has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are BenchPocket images supplier photographs?",
+            "answer": "These laboratory & scientific equipment images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "BenchPocket",
+        "industryName": "Laboratory & Scientific Equipment",
+        "tagline": "Browse digital hotplate stirrer, graduated cylinder set and a dedicated laboratory & scientific equipment mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-42-app",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-42-app"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Furniture & Wood Products Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "furniture-wood-products-web-theme",
+  "industry": "Furniture & Wood Products",
+  "industryId": "10000000-0000-4000-8000-000000000014",
+  "description": "TimberAssembly: Source furniture with a material-first approach to spaces. A desktop sourcing assortment. Furniture room planner design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-20-web",
+    "direction": "Furniture room planner",
+    "header": "centered-nav",
+    "headerIdentity": "header-20-web",
+    "headerStructure": "shell-2-composition-4",
+    "hero": "mosaic",
+    "categories": "sidebar-index",
+    "productCards": "image-first",
+    "productListing": "specification-list",
+    "productDetail": "gallery-right",
+    "footer": "commerce-columns",
+    "footerIdentity": "footer-20-web",
+    "footerStructure": "shell-6-composition-3",
+    "density": "balanced",
+    "responsiveStrategy": "specification-list-to-mobile-drawer"
+  }
+}

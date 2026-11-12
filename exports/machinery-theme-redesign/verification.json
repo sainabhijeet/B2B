@@ -1,0 +1,47 @@
+[
+  {
+    "name": "desktop-hero",
+    "screenshot": "exports/machinery-theme-redesign/desktop-hero.png",
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerVisible": true,
+      "visibleSearchForms": 1,
+      "heroVariant": "hero-machinery-command",
+      "heroImageVisible": true,
+      "sectionCount": 8,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  },
+  {
+    "name": "desktop-products",
+    "screenshot": "exports/machinery-theme-redesign/desktop-products.png",
+    "metrics": {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "headerVisible": true,
+      "visibleSearchForms": 1,
+      "heroVariant": "hero-machinery-command",
+      "heroImageVisible": true,
+      "sectionCount": 8,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  },
+  {
+    "name": "mobile-hero",
+    "screenshot": "exports/machinery-theme-redesign/mobile-hero.png",
+    "metrics": {
+      "width": 390,
+      "scrollWidth": 390,
+      "headerVisible": true,
+      "visibleSearchForms": 1,
+      "heroVariant": "hero-machinery-command",
+      "heroImageVisible": true,
+      "sectionCount": 8,
+      "overflowers": []
+    },
+    "runtimeErrors": []
+  }
+]

@@ -10,6 +10,8 @@ import {
   type StorefrontProductReadyDetail,
 } from "@/lib/storefront-loading-events";
 import { translate } from "@/lib/translation-engine";
+import { upsertPreviewCart } from "@/lib/preview-commerce";
+import { currentPageCustomerLoginHref } from "@/lib/customer-login-redirect";
 
 export type VariantOption = {
   id: string;
@@ -28,6 +30,11 @@ type Props = {
   signedIn: boolean;
   languageCode?: string;
   variants: VariantOption[];
+  productImage?: string;
+  currency?: string;
+  brand?: string | null;
+  /** Theme demo products use an isolated browser-only cart and never hit commerce APIs. */
+  previewMode?: boolean;
 };
 
 type AlertRow = { id: string; productId: string; variantId: string | null };
@@ -36,7 +43,7 @@ function apiMessage(body: { message?: string | string[] }, fallback: string): st
   return typeof body.message === "string" ? body.message : Array.isArray(body.message) ? body.message.join(", ") : fallback;
 }
 
-export default function AddToCartPanel({ productId, productName, productSlug, signedIn, languageCode, variants }: Props) {
+export default function AddToCartPanel({ productId, productName, productSlug, signedIn, languageCode, variants, productImage, currency = "INR", brand, previewMode = false }: Props) {
   const t = (text: string) => translate(text, languageCode);
   const router = useRouter();
   const [variantId, setVariantId] = useState(variants[0]?.id ?? "");
@@ -56,17 +63,16 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
   const [targetPrice, setTargetPrice] = useState("");
   const [quoteMessage, setQuoteMessage] = useState("");
   const [quoteBusy, setQuoteBusy] = useState(false);
-  const [initialCartReady, setInitialCartReady] = useState(!signedIn);
-  const [initialAlertsReady, setInitialAlertsReady] = useState(!signedIn);
+  const [initialCartReady, setInitialCartReady] = useState(!signedIn || previewMode);
+  const [initialAlertsReady, setInitialAlertsReady] = useState(!signedIn || previewMode);
   const [priceRefreshVersion, setPriceRefreshVersion] = useState(0);
-  const loginHref = `/login?next=${encodeURIComponent(`/product/${productSlug}`)}`;
   const activeAlert = alerts.find((alert) => alert.productId === productId && alert.variantId === selected?.id);
   const unitPrice = livePrice == null ? null : Number(livePrice);
   const validPrice = unitPrice != null && Number.isFinite(unitPrice) ? unitPrice : null;
   const slabs = [...(selected?.priceSlabs ?? [])].sort((a, b) => a.minQty - b.minQty);
 
   useEffect(() => {
-    if (priceRefreshVersion === 0) return;
+    if (priceRefreshVersion === 0 || previewMode) return;
     const controller = new AbortController();
     const timer = setTimeout(async () => {
       setPriceLoading(true);
@@ -83,10 +89,10 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       }
     }, 250);
     return () => { controller.abort(); clearTimeout(timer); };
-  }, [priceRefreshVersion, productSlug, qty, variantId]);
+  }, [previewMode, priceRefreshVersion, productSlug, qty, variantId]);
 
   useEffect(() => {
-    if (!signedIn) return;
+    if (!signedIn || previewMode) return;
     const controller = new AbortController();
     void fetch("/api/storefront/stock-alerts", { signal: controller.signal, cache: "no-store" })
       .then(async (response) => response.ok ? response.json() as Promise<{ data?: AlertRow[] }> : null)
@@ -94,10 +100,10 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       .catch(() => undefined)
       .finally(() => { if (!controller.signal.aborted) setInitialAlertsReady(true); });
     return () => controller.abort();
-  }, [signedIn]);
+  }, [previewMode, signedIn]);
 
   useEffect(() => {
-    if (!signedIn) return;
+    if (!signedIn || previewMode) return;
     const controller = new AbortController();
     void fetch("/api/storefront/cart", { signal: controller.signal, cache: "no-store" })
       .then(async (response) => response.ok ? response.json() as Promise<{ data?: { items?: { productId: string }[] } }> : null)
@@ -107,7 +113,7 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       .catch(() => undefined)
       .finally(() => { if (!controller.signal.aborted) setInitialCartReady(true); });
     return () => controller.abort();
-  }, [productId, signedIn]);
+  }, [previewMode, productId, signedIn]);
 
   useEffect(() => {
     if (!initialCartReady || !initialAlertsReady) return;
@@ -127,17 +133,47 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
     setMsg(null);
   }
 
+  function redirectToLogin() {
+    window.location.assign(currentPageCustomerLoginHref());
+  }
+
   async function add() {
+    if (!signedIn) {
+      redirectToLogin();
+      return;
+    }
     if (!selected || qty < minimum || (stock != null && qty > stock)) return;
     setBusy(true);
     setMsg(null);
     try {
+      if (previewMode) {
+        upsertPreviewCart({
+          productId,
+          productName,
+          productSlug,
+          variantId: selected.id,
+          sku: selected.sku,
+          quantity: qty,
+          price: validPrice,
+          currency,
+          image: productImage,
+          brand,
+        });
+        setInCart(true);
+        setMsg(t("Product added to cart successfully."));
+        emitStorefrontCartChanged();
+        return;
+      }
       const response = await fetch("/api/storefront/cart/items", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ productId, variantId: selected.id, quantity: qty }),
       });
       const body = await response.json().catch(() => ({})) as { message?: string | string[] };
+      if (response.status === 401 || response.status === 403) {
+        redirectToLogin();
+        return;
+      }
       if (!response.ok) {
         setMsg(apiMessage(body, t("Could not add to cart.")));
         return;
@@ -150,6 +186,41 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
     } finally {
       setBusy(false);
     }
+  }
+
+  function buyNow() {
+    if (!signedIn) {
+      redirectToLogin();
+      return;
+    }
+    if (!selected) return;
+    if (previewMode) {
+      upsertPreviewCart({
+        productId,
+        productName,
+        productSlug,
+        variantId: selected.id,
+        sku: selected.sku,
+        quantity: qty,
+        price: validPrice,
+        currency,
+        image: productImage,
+        brand,
+      });
+      const destination = new URL("/checkout", window.location.origin);
+      const current = new URL(window.location.href);
+      for (const [key, value] of current.searchParams.entries()) {
+        if (["tenantId", "tenant", "wbPreview", "previewMode", "previewLanguage", "previewState", "previewPrimaryColor", "previewSecondaryColor", "previewFontFamily", "previewBorderRadius"].includes(key)) {
+          destination.searchParams.set(key, value);
+        }
+      }
+      destination.searchParams.set("buyNow", productSlug);
+      destination.searchParams.set("variantId", selected.id);
+      destination.searchParams.set("qty", String(qty));
+      router.push(`${destination.pathname}${destination.search}`);
+      return;
+    }
+    router.push(`/checkout?buyNow=${encodeURIComponent(productSlug)}&variantId=${encodeURIComponent(selected.id)}&qty=${qty}`);
   }
 
   async function toggleStockAlert() {
@@ -204,8 +275,11 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
   }
 
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      <h2 className="text-base font-bold text-slate-900">{t("Order this product")}</h2>
+    <div className="pdp-order-panel mt-7 rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_20px_60px_rgba(15,23,42,0.09)] sm:p-6">
+      <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+        <span className="h-2.5 w-2.5 rounded-full bg-[var(--theme-primary)] shadow-[0_0_0_5px_color-mix(in_srgb,var(--theme-primary)_12%,transparent)]" aria-hidden="true" />
+        <h2 className="font-mono text-[11px] font-black uppercase tracking-[0.14em] text-slate-900">{t("Order this product")}</h2>
+      </div>
       {variants.length > 1 ? (
         <div className="mt-4">
           <p className="text-sm font-medium text-slate-700">{t("Choose pack / variant")}</p>
@@ -224,8 +298,8 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
         </div>
       ) : selected?.name ? <p className="mt-3 text-sm text-slate-600">{t("Pack")}: {selected.name}</p> : null}
 
-      <div className="mt-4 border-y border-slate-100 py-3">
-        <p className="text-2xl font-bold text-slate-950">{validPrice == null ? t("Price on request") : formatCurrency(validPrice, languageCode)}</p>
+      <div className="mt-5 border-y border-slate-100 bg-slate-50/70 px-4 py-4">
+        <p className="text-2xl font-black tracking-[-0.025em] text-slate-950">{validPrice == null ? t("Price on request") : formatCurrency(validPrice, languageCode)}</p>
         {priceLoading ? <p className="mt-1 text-xs text-slate-500">{t("Updating price...")}</p> : null}
         {validPrice != null ? <p className="mt-1 text-xs text-slate-500">{t("Estimated total")}: {formatCurrency(validPrice * qty, languageCode)}</p> : null}
       </div>
@@ -243,7 +317,7 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       {!unavailable && selected ? (
         <div className="mt-4">
           <p className="text-sm font-medium text-slate-700">{t("Order quantity")}</p>
-          <div className="mt-2 flex w-fit items-center overflow-hidden rounded-lg border border-slate-300">
+          <div className="mt-2 flex w-fit items-center overflow-hidden rounded-xl border border-slate-300 bg-white shadow-sm">
             <button type="button" onClick={() => changeQuantity(qty - 1)} disabled={qty <= minimum} className="h-10 w-10 text-lg text-slate-700 hover:bg-slate-50 disabled:opacity-40" aria-label={t("Decrease quantity")}>−</button>
             <input type="number" min={minimum} max={stock ?? undefined} value={qty} onChange={(event) => changeQuantity(Number.parseInt(event.target.value, 10))} className="w-16 border-x border-slate-300 py-2 text-center text-sm font-semibold outline-none" aria-label={t("Quantity")} />
             <button type="button" onClick={() => changeQuantity(qty + 1)} disabled={stock != null && qty >= stock} className="h-10 w-10 text-lg text-slate-700 hover:bg-slate-50 disabled:opacity-40" aria-label={t("Increase quantity")}>+</button>
@@ -264,10 +338,26 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       ) : null}
 
       {!signedIn ? (
-        <>
-          <Link href={loginHref} className="mt-5 flex w-full items-center justify-center rounded-lg bg-[var(--theme-primary)] px-4 py-3 text-sm font-bold text-white hover:opacity-90">{t(validPrice == null ? "Sign in to see price and order" : "Sign in to order")}</Link>
-          {unavailable ? <Link href={loginHref} className="mt-3 block text-center text-xs font-semibold text-[var(--theme-primary)] hover:underline">{t("Sign in to request a stock notification")}</Link> : null}
-        </>
+        <div className="mt-5">
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" onClick={() => void add()} className="min-h-12 rounded-xl bg-[var(--theme-primary)] px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white shadow-[0_10px_24px_color-mix(in_srgb,var(--theme-primary)_22%,transparent)] transition hover:brightness-110">
+              {t("Add to cart")}
+            </button>
+            <button type="button" onClick={buyNow} className="min-h-12 rounded-xl bg-slate-950 px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white transition hover:bg-slate-800">
+              {t("Buy Now")}
+            </button>
+          </div>
+          <p className="mt-3 text-center text-xs font-medium text-slate-500">{t("Log in to continue with your order.")}</p>
+        </div>
+      ) : previewMode ? (
+        <div className="mt-5">
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" disabled={busy || !selected || qty < minimum || (stock != null && qty > stock)} onClick={() => void add()} className="min-h-12 rounded-xl bg-[var(--theme-primary)] px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white shadow-[0_10px_24px_color-mix(in_srgb,var(--theme-primary)_22%,transparent)] transition hover:brightness-110 disabled:opacity-50">
+              {busy ? t("Adding...") : inCart ? t("Added to cart") : t("Add to cart")}
+            </button>
+            <button type="button" disabled={busy || !selected || validPrice == null || qty < minimum || (stock != null && qty > stock)} onClick={buyNow} className="min-h-12 rounded-xl bg-slate-950 px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white transition hover:bg-slate-800 disabled:opacity-50">{t("Buy Now")}</button>
+          </div>
+        </div>
       ) : unavailable ? (
         <button type="button" onClick={() => void toggleStockAlert()} disabled={alertBusy} className="mt-5 w-full rounded-lg border border-[var(--theme-primary)] px-4 py-3 text-sm font-bold text-[var(--theme-primary)] disabled:opacity-50">
           {alertBusy ? t("Updating...") : activeAlert ? t("Stock notification requested") : t("Notify me when available")}
@@ -275,13 +365,13 @@ export default function AddToCartPanel({ productId, productName, productSlug, si
       ) : (
         <div className="mt-5 grid grid-cols-2 gap-2">
           {inCart ? <Link href="/cart" className="rounded-lg border border-[var(--theme-primary)] px-2 py-3 text-center text-xs font-bold text-[var(--theme-primary)]">{t("Go to cart")}</Link> : (
-            <button type="button" disabled={busy || !selected || qty < minimum || (stock != null && qty > stock)} onClick={() => void add()} className="rounded-lg bg-[var(--theme-primary)] px-2 py-3 text-xs font-bold text-white disabled:opacity-50">{busy ? t("Adding...") : t("Add to cart")}</button>
+            <button type="button" disabled={busy || !selected || qty < minimum || (stock != null && qty > stock)} onClick={() => void add()} className="min-h-12 rounded-xl bg-[var(--theme-primary)] px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white transition hover:brightness-110 disabled:opacity-50">{busy ? t("Adding...") : t("Add to cart")}</button>
           )}
-          <button type="button" disabled={busy || !selected || validPrice == null || priceLoading || qty < minimum || (stock != null && qty > stock)} onClick={() => router.push(`/checkout?buyNow=${encodeURIComponent(productSlug)}&variantId=${encodeURIComponent(selected.id)}&qty=${qty}`)} className="rounded-lg bg-slate-900 px-2 py-3 text-xs font-bold text-white disabled:opacity-50">{t("Buy Now")}</button>
+          <button type="button" disabled={busy || !selected || validPrice == null || priceLoading || qty < minimum || (stock != null && qty > stock)} onClick={buyNow} className="min-h-12 rounded-xl bg-slate-950 px-3 py-3 text-xs font-black uppercase tracking-[0.06em] text-white transition hover:bg-slate-800 disabled:opacity-50">{t("Buy Now")}</button>
         </div>
       )}
 
-      {signedIn ? (
+      {signedIn && !previewMode ? (
         <div className="mt-3">
           <button type="button" onClick={() => setShowQuote((value) => !value)} className="w-full rounded-lg border border-slate-300 px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">{t("Request for quote")}</button>
           {showQuote ? <form onSubmit={(event) => void requestQuote(event)} className="mt-3 space-y-3 rounded-lg bg-slate-50 p-3">

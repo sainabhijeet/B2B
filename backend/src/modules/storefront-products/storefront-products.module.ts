@@ -4,6 +4,7 @@ import { CatalogPricingModule } from '../catalog-pricing/catalog-pricing.module'
 import { AppConfigModule } from '../app-config/app-config.module';
 import { ThemesModule } from '../themes/themes.module';
 import { TranslationsModule } from '../translations/translations.module';
+import { DistributorPanelModule } from '../distributor-panel/distributor-panel.module';
 import { TenancyModule } from '../../tenancy/tenancy.module';
 import { AttributeValue } from '../../common/entities/attribute-value.entity';
 import { Category } from '../../common/entities/category.entity';
@@ -28,6 +29,7 @@ import { StorefrontProductsService } from './storefront-products.service';
     AppConfigModule,
     ThemesModule,
     TranslationsModule,
+    DistributorPanelModule,
     CatalogPricingModule,
     TypeOrmModule.forFeature([
       Product,

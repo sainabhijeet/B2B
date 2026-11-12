@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FixPocket",
+        "industryName": "Tools & Hardware",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "FixPocket / Tools & Hardware",
+        "subtitle": "Browse socket ratchet kit, rotary hammer drill and a dedicated tools & hardware mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find FixPocket supplies",
+        "message": "Explore FixPocket Hand Tools, FixPocket Power Tools, FixPocket Fasteners, FixPocket Builder Hardware.",
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "filters-sidebar-grid"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "FixPocket restock picks",
+        "subtitle": "Browse socket ratchet kit, rotary hammer drill and a dedicated tools & hardware mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FixPocket Socket Ratchet Kit",
+          "FixPocket Rotary Hammer Drill",
+          "FixPocket Stainless Nut Assortment",
+          "FixPocket Cabinet Hinge Set",
+          "FixPocket Wood Chisel Set",
+          "FixPocket Orbital Sander"
+        ],
+        "prices": [
+          "INR 1,554",
+          "INR 4,704",
+          "INR 884",
+          "INR 1,566",
+          "INR 2,128",
+          "INR 531"
+        ],
+        "products": [
+          {
+            "id": "tools-hardware-app-theme-product-1",
+            "slug": "fixpocket-socket-ratchet-kit",
+            "sku": "APP-26-1",
+            "name": "FixPocket Socket Ratchet Kit",
+            "description": "Socket Ratchet Kit for your tools & hardware replenishment list. FixPocket groups this item with hand tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hand-tools",
+            "categoryId": "tools-hardware-app-theme-category-1",
+            "categoryName": "FixPocket Hand Tools",
+            "brand": "FixPocket",
+            "price": 1554,
+            "currency": "INR",
+            "priceLabel": "INR 1,554",
+            "image": "assets/images/product-01.jpg",
+            "stock": 116,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1834,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1554
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1476
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1399
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Socket Ratchet Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "tools-hardware-app-theme-product-2",
+            "slug": "fixpocket-rotary-hammer-drill",
+            "sku": "APP-26-2",
+            "name": "FixPocket Rotary Hammer Drill",
+            "description": "Rotary Hammer Drill for your tools & hardware replenishment list. FixPocket groups this item with power tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "power-tools",
+            "categoryId": "tools-hardware-app-theme-category-2",
+            "categoryName": "FixPocket Power Tools",
+            "brand": "FixPocket",
+            "price": 4704,
+            "currency": "INR",
+            "priceLabel": "INR 4,704",
+            "image": "assets/images/product-02.jpg",
+            "stock": 127,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 5551,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 4704
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4469
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4234
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Rotary Hammer Drill",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "tools-hardware-app-theme-product-3",
+            "slug": "fixpocket-stainless-nut-assortment",
+            "sku": "APP-26-3",
+            "name": "FixPocket Stainless Nut Assortment",
+            "description": "Stainless Nut Assortment for your tools & hardware replenishment list. FixPocket groups this item with fasteners so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fasteners",
+            "categoryId": "tools-hardware-app-theme-category-3",
+            "categoryName": "FixPocket Fasteners",
+            "brand": "FixPocket",
+            "price": 884,
+            "currency": "INR",
+            "priceLabel": "INR 884",
+            "image": "assets/images/product-03.jpg",
+            "stock": 138,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1043,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 884
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 840
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 796
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Stainless Nut Assortment",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "tools-hardware-app-theme-product-4",
+            "slug": "fixpocket-cabinet-hinge-set",
+            "sku": "APP-26-4",
+            "name": "FixPocket Cabinet Hinge Set",
+            "description": "Cabinet Hinge Set for your tools & hardware replenishment list. FixPocket groups this item with builder hardware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "builder-hardware",
+            "categoryId": "tools-hardware-app-theme-category-4",
+            "categoryName": "FixPocket Builder Hardware",
+            "brand": "FixPocket",
+            "price": 1566,
+            "currency": "INR",
+            "priceLabel": "INR 1,566",
+            "image": "assets/images/product-04.jpg",
+            "stock": 149,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1848,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1566
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1488
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1409
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Cabinet Hinge Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "tools-hardware-app-theme-product-5",
+            "slug": "fixpocket-wood-chisel-set",
+            "sku": "APP-26-5",
+            "name": "FixPocket Wood Chisel Set",
+            "description": "Wood Chisel Set for your tools & hardware replenishment list. FixPocket groups this item with hand tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hand-tools",
+            "categoryId": "tools-hardware-app-theme-category-1",
+            "categoryName": "FixPocket Hand Tools",
+            "brand": "FixPocket",
+            "price": 2128,
+            "currency": "INR",
+            "priceLabel": "INR 2,128",
+            "image": "assets/images/product-05.jpg",
+            "stock": 160,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2511,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2128
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2022
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1915
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Wood Chisel Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "tools-hardware-app-theme-product-6",
+            "slug": "fixpocket-orbital-sander",
+            "sku": "APP-26-6",
+            "name": "FixPocket Orbital Sander",
+            "description": "Orbital Sander for your tools & hardware replenishment list. FixPocket groups this item with power tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "power-tools",
+            "categoryId": "tools-hardware-app-theme-category-2",
+            "categoryName": "FixPocket Power Tools",
+            "brand": "FixPocket",
+            "price": 531,
+            "currency": "INR",
+            "priceLabel": "INR 531",
+            "image": "assets/images/product-06.jpg",
+            "stock": 171,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 627,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 531
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 504
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 478
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FixPocket Orbital Sander",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced",
+        "cardStyle": "minimal",
+        "columns": 2
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your FixPocket order",
+        "subtitle": "Review quantities for socket ratchet kit with this tools & hardware preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FixPocket",
+        "industryName": "Tools & Hardware",
+        "tagline": "Browse socket ratchet kit, rotary hammer drill and a dedicated tools & hardware mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-26-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-26-app"
+}

@@ -83,18 +83,18 @@ export default function CartItemRow({ item, languageCode }: Props) {
   }
 
   return (
-    <article className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+    <article className="cart-line-card py-5">
       <div className="flex flex-col gap-5 sm:flex-row">
-        <div className="flex h-28 w-28 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-100 bg-slate-50 p-2 sm:h-36 sm:w-36">
+        <div className="cart-line-media flex h-36 w-36 shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-100 bg-slate-50 sm:h-44 sm:w-44">
           {image ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={image} alt={title} className="h-full w-full object-contain" />
+            <img src={image} alt={title} className="h-full w-full object-cover" />
           ) : (
             <span className="text-center text-xs text-slate-400">{t("No image available")}</span>
           )}
         </div>
 
-        <div className="min-w-0 flex-1">
+        <div className="cart-line-content min-w-0 flex-1">
           <div className="flex flex-wrap items-start justify-between gap-3">
             <div className="min-w-0">
               {href ? (
@@ -109,7 +109,7 @@ export default function CartItemRow({ item, languageCode }: Props) {
             </button>
           </div>
 
-          <div className="mt-4 flex flex-wrap items-end justify-between gap-4 border-t border-slate-100 pt-4">
+          <div className="cart-line-actions mt-4 flex flex-wrap items-end justify-between gap-4 border-t border-slate-100 pt-4">
             <div>
               <p className="text-xs text-slate-500">{t("Unit price")}</p>
               <p className="mt-1 text-sm font-semibold text-slate-800">{formatCurrency(displayUnitPrice, languageCode)}</p>
@@ -117,7 +117,7 @@ export default function CartItemRow({ item, languageCode }: Props) {
             <div className="flex items-end gap-2">
               <label className="block text-xs font-medium text-slate-600">
                 {t("Quantity")}
-                <span className="mt-1 flex h-10 overflow-hidden rounded-lg border border-slate-300 bg-white">
+                <span className="cart-quantity-control mt-1 flex h-10 overflow-hidden rounded-lg border border-slate-300 bg-white">
                   <button type="button" aria-label={t("Decrease quantity")} disabled={busy || currentQty <= 1} onClick={() => setQty(String(Math.max(1, (currentQty || 1) - 1)))} className="w-9 border-r border-slate-200 text-base text-slate-700 hover:bg-slate-50 disabled:opacity-40">−</button>
                   <input aria-label={t("Quantity")} value={qty} onChange={(event) => setQty(event.target.value.replace(/\D/gu, ""))} inputMode="numeric" disabled={busy} className="w-12 text-center text-sm font-semibold text-slate-900 outline-none" />
                   <button type="button" aria-label={t("Increase quantity")} disabled={busy} onClick={() => setQty(String((currentQty || 0) + 1))} className="w-9 border-l border-slate-200 text-base text-slate-700 hover:bg-slate-50 disabled:opacity-40">+</button>
@@ -125,7 +125,7 @@ export default function CartItemRow({ item, languageCode }: Props) {
               </label>
               {changed ? <button type="button" disabled={busy} onClick={() => void saveQty()} className="h-10 rounded-lg bg-slate-900 px-3 text-xs font-semibold text-white hover:bg-slate-700 disabled:opacity-50">{busy ? t("Updating…") : t("Update")}</button> : null}
             </div>
-            <div className="text-right">
+            <div className="cart-line-total text-right">
               <p className="text-xs text-slate-500">{t("Line total")}</p>
               <p className="mt-1 text-lg font-bold text-slate-950">{formatCurrency(lineSubtotal(item), languageCode)}</p>
             </div>

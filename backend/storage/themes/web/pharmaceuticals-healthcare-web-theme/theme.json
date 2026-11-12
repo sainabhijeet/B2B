@@ -1,0 +1,92 @@
+{
+  "name": "Pharmaceuticals & Healthcare Web Theme",
+  "version": "2.0.0",
+  "storefrontKey": "pharmaceuticals-healthcare-web-theme",
+  "industry": "Pharmaceuticals & Healthcare",
+  "industryId": "10000000-0000-4000-8000-00000000000a",
+  "description": "CareLedger: an original healthcare procurement workspace with indexed care pathways, sourcing-focused product cards and a dedicated buyer desk.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-10-web",
+    "direction": "Clinical procurement workspace",
+    "header": "care-ledger-desk",
+    "headerIdentity": "care-ledger-procurement-console-v1",
+    "headerStructure": "signal-rail-search-desk-care-pathways",
+    "hero": "formulary-workspace",
+    "categories": "indexed-care-pathways",
+    "productCards": "procurement-sheet",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "care-protocol-directory",
+    "footerIdentity": "footer-10-web",
+    "footerStructure": "shell-3-composition-2",
+    "density": "balanced",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

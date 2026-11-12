@@ -12,6 +12,7 @@ type Props = {
   componentSchemas?: Record<string, ComponentSchema>;
   languageCode?: string;
   sharedSectionProps?: Record<string, unknown>;
+  previewCatalog?: boolean;
 };
 
 type PrimitiveType = "string" | "number" | "boolean" | "image" | "array" | "object";
@@ -51,8 +52,19 @@ function contractError(message: string) {
   return null;
 }
 
+function replaceThemeBrand(value: unknown, sourceBrand: string, tenantBrand: string): unknown {
+  if (typeof value === "string") return value.split(sourceBrand).join(tenantBrand);
+  if (Array.isArray(value)) return value.map((item) => replaceThemeBrand(item, sourceBrand, tenantBrand));
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([key, item]) => [key, replaceThemeBrand(item, sourceBrand, tenantBrand)]),
+    );
+  }
+  return value;
+}
+
 /** One section from template JSON → registry React component. */
-export default async function SectionRenderer({ section, sectionIndex, themeKey, componentSchemas, languageCode, sharedSectionProps }: Props) {
+export default async function SectionRenderer({ section, sectionIndex, themeKey, componentSchemas, languageCode, sharedSectionProps, previewCatalog = false }: Props) {
   const rawType = section.type ?? section.id ?? section.component ?? "";
   const type = String(rawType).trim();
   if (!type) return contractError(`section type is missing (${JSON.stringify(section)})`);
@@ -78,9 +90,20 @@ export default async function SectionRenderer({ section, sectionIndex, themeKey,
     (Array.isArray(section.blocks) && section.blocks.length > 0) ||
     (Array.isArray(section.columns) && section.columns.length > 0);
   const scopeId = `${section.id ?? type}-${sectionIndex}`;
+  const tenantBrand = String(sharedSectionProps?.logoText ?? "").trim();
+  const sourceBrand = String(sharedSectionProps?.themeSourceBrand ?? "").trim();
+  const renderedSettings = sourceBrand && tenantBrand && sourceBrand !== tenantBrand
+    ? replaceThemeBrand(settings, sourceBrand, tenantBrand) as Record<string, unknown>
+    : settings;
+  const { themeSourceBrand: _themeSourceBrand, ...publicSharedSectionProps } = sharedSectionProps ?? {};
 
   return (
-    <div className="theme-section-root w-full" data-section-type={type}>
+    <div
+      className="theme-section-root w-full"
+      data-section-type={type}
+      data-section-variant={effectiveVariant ?? "default"}
+      data-section-index={sectionIndex}
+    >
       {hasBlockTree ? (
         <div className="theme-section-blocks mb-6 w-full">
           <SectionLayoutView
@@ -92,7 +115,7 @@ export default async function SectionRenderer({ section, sectionIndex, themeKey,
           />
         </div>
       ) : null}
-      <Cmp {...sharedSectionProps} {...settings} themeKey={themeKey} variant={effectiveVariant ?? undefined} languageCode={languageCode} />
+      <Cmp {...publicSharedSectionProps} {...renderedSettings} themeKey={themeKey} variant={effectiveVariant ?? undefined} languageCode={languageCode} previewCatalog={previewCatalog} />
     </div>
   );
 }

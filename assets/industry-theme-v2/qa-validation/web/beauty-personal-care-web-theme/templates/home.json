@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "BloomWholesale",
+        "industryName": "Beauty & Personal Care",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "BloomWholesale trade selection",
+        "subtitle": "Source vitamin c face serum, repair shampoo and more from this beauty & personal care trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "BloomWholesale Vitamin C Face Serum",
+          "BloomWholesale Repair Shampoo",
+          "BloomWholesale Matte Lip Color",
+          "BloomWholesale Salon Facial Kit",
+          "BloomWholesale Herbal Body Lotion",
+          "BloomWholesale Professional Hair Dryer"
+        ],
+        "prices": [
+          "INR 499",
+          "INR 349",
+          "INR 299",
+          "INR 1,799",
+          "INR 249",
+          "INR 1,499"
+        ],
+        "products": [
+          {
+            "id": "beauty-personal-care-web-theme-product-1",
+            "slug": "bloomwholesale-vitamin-c-face-serum",
+            "sku": "WEB-12-1",
+            "name": "BloomWholesale Vitamin C Face Serum",
+            "description": "Vitamin C Face Serum from BloomWholesale's skin care assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "skin-care",
+            "categoryId": "beauty-personal-care-web-theme-category-1",
+            "categoryName": "BloomWholesale Skin Care",
+            "brand": "BloomWholesale",
+            "price": 499,
+            "currency": "INR",
+            "priceLabel": "INR 499",
+            "image": "assets/images/product-01.jpg",
+            "stock": 101,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 589,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 499
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 474
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 449
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Vitamin C Face Serum",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-web-theme-product-2",
+            "slug": "bloomwholesale-repair-shampoo",
+            "sku": "WEB-12-2",
+            "name": "BloomWholesale Repair Shampoo",
+            "description": "Repair Shampoo from BloomWholesale's hair care assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "hair-care",
+            "categoryId": "beauty-personal-care-web-theme-category-2",
+            "categoryName": "BloomWholesale Hair Care",
+            "brand": "BloomWholesale",
+            "price": 349,
+            "currency": "INR",
+            "priceLabel": "INR 349",
+            "image": "assets/images/product-02.jpg",
+            "stock": 112,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 412,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 349
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 332
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 314
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Repair Shampoo",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-web-theme-product-3",
+            "slug": "bloomwholesale-matte-lip-color",
+            "sku": "WEB-12-3",
+            "name": "BloomWholesale Matte Lip Color",
+            "description": "Matte Lip Color from BloomWholesale's cosmetics assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cosmetics",
+            "categoryId": "beauty-personal-care-web-theme-category-3",
+            "categoryName": "BloomWholesale Cosmetics",
+            "brand": "BloomWholesale",
+            "price": 299,
+            "currency": "INR",
+            "priceLabel": "INR 299",
+            "image": "assets/images/product-03.jpg",
+            "stock": 123,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 353,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 299
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 284
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 269
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Matte Lip Color",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-web-theme-product-4",
+            "slug": "bloomwholesale-salon-facial-kit",
+            "sku": "WEB-12-4",
+            "name": "BloomWholesale Salon Facial Kit",
+            "description": "Salon Facial Kit from BloomWholesale's salon supplies assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "salon-supplies",
+            "categoryId": "beauty-personal-care-web-theme-category-4",
+            "categoryName": "BloomWholesale Salon Supplies",
+            "brand": "BloomWholesale",
+            "price": 1799,
+            "currency": "INR",
+            "priceLabel": "INR 1,799",
+            "image": "assets/images/product-04.jpg",
+            "stock": 134,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2123,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 1799
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1709
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 1619
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Salon Facial Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-web-theme-product-5",
+            "slug": "bloomwholesale-herbal-body-lotion",
+            "sku": "WEB-12-5",
+            "name": "BloomWholesale Herbal Body Lotion",
+            "description": "Herbal Body Lotion from BloomWholesale's skin care assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "skin-care",
+            "categoryId": "beauty-personal-care-web-theme-category-1",
+            "categoryName": "BloomWholesale Skin Care",
+            "brand": "BloomWholesale",
+            "price": 249,
+            "currency": "INR",
+            "priceLabel": "INR 249",
+            "image": "assets/images/product-05.jpg",
+            "stock": 145,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 294,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 249
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 237
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 224
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Herbal Body Lotion",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-web-theme-product-6",
+            "slug": "bloomwholesale-professional-hair-dryer",
+            "sku": "WEB-12-6",
+            "name": "BloomWholesale Professional Hair Dryer",
+            "description": "Professional Hair Dryer from BloomWholesale's salon supplies assortment. Build a beauty assortment around daily routines and salon care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "salon-supplies",
+            "categoryId": "beauty-personal-care-web-theme-category-4",
+            "categoryName": "BloomWholesale Salon Supplies",
+            "brand": "BloomWholesale",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-06.jpg",
+            "stock": 156,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BloomWholesale Professional Hair Dryer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy",
+        "cardStyle": "image-first",
+        "columns": 6
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "BloomWholesale: Build a beauty assortment around daily routines and salon care.",
+        "subtitle": "Source vitamin c face serum, repair shampoo and more from this beauty & personal care trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "hero-mosaic"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "BloomWholesale collections",
+        "subtitle": "Choose your next beauty & personal care order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "BloomWholesale Skin Care",
+          "BloomWholesale Hair Care",
+          "BloomWholesale Cosmetics",
+          "BloomWholesale Salon Supplies"
+        ],
+        "categories": [
+          {
+            "id": "beauty-personal-care-web-theme-category-1",
+            "slug": "skin-care",
+            "name": "BloomWholesale Skin Care",
+            "description": "Explore BloomWholesale's skin care selection for beauty & personal care buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "beauty-personal-care-web-theme-category-2",
+            "slug": "hair-care",
+            "name": "BloomWholesale Hair Care",
+            "description": "Explore BloomWholesale's hair care selection for beauty & personal care buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "beauty-personal-care-web-theme-category-3",
+            "slug": "cosmetics",
+            "name": "BloomWholesale Cosmetics",
+            "description": "Explore BloomWholesale's cosmetics selection for beauty & personal care buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "beauty-personal-care-web-theme-category-4",
+            "slug": "salon-supplies",
+            "name": "BloomWholesale Salon Supplies",
+            "description": "Explore BloomWholesale's salon supplies selection for beauty & personal care buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy",
+        "categoryStyle": "sidebar-index"
+      },
+      "variant": "categories-sidebar-index"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "BloomWholesale trade savings",
+        "subtitle": "Sample quantity breaks for matte lip color and the beauty & personal care catalog. Demo offers only.",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next beauty & personal care assortment with BloomWholesale",
+        "body": "Build a beauty assortment around daily routines and salon care. Source vitamin c face serum, repair shampoo and more from this beauty & personal care trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with BloomWholesale",
+        "items": [
+          {
+            "icon": "01",
+            "title": "BloomWholesale Skin Care",
+            "text": "Start with vitamin c face serum and compare the BloomWholesale sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "BloomWholesale quantity breaks",
+            "text": "Review MOQ and bulk tiers for repair shampoo before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "BloomWholesale sourcing lists",
+            "text": "Source vitamin c face serum, repair shampoo and more from this beauty & personal care trade collection."
+          }
+        ],
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow BloomWholesale arrivals",
+        "subtitle": "Sample updates about salon facial kit and bloomwholesale skin care.",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "BloomWholesale sample buyer story",
+        "quote": "Our demo beauty & personal care buying team can compare vitamin c face serum and matte lip color in one sourcing catalog.",
+        "author": "Fictional BloomWholesale buyer — demo feedback",
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "testimonial-carousel-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "BloomWholesale",
+        "industryName": "Beauty & Personal Care",
+        "tagline": "Source vitamin c face serum, repair shampoo and more from this beauty & personal care trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-12-web",
+        "layoutMode": "Beauty routine studio",
+        "density": "airy"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-12-web"
+}

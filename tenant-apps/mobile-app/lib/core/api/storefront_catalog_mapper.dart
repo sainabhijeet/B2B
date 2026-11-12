@@ -23,7 +23,8 @@ List<Category> mapStorefrontCategories(
         row['imageUrl'] ??
             row['image_url'] ??
             row['thumbnailUrl'] ??
-            row['thumbnail_url'],
+            row['thumbnail_url'] ??
+            row['image'],
         apiBaseUrl: apiBaseUrl,
       ),
     );
@@ -62,7 +63,8 @@ Product _mapProduct(Map row, {required String apiBaseUrl}) {
       row['imageUrl'] ??
           row['image_url'] ??
           row['thumbnailUrl'] ??
-          row['thumbnail_url'],
+          row['thumbnail_url'] ??
+          row['image'],
       apiBaseUrl: apiBaseUrl,
     ),
     description: _optionalText(
@@ -102,37 +104,34 @@ Product mergeStorefrontProductDetail(
   final Object? firstImage = images.whereType<Map>().isEmpty
       ? null
       : images.whereType<Map>().first['url'];
-  final List<ProductVariant> detailedVariants = variants
-      .whereType<Map>()
-      .map((Map variant) {
-        final Object? attrs =
-            variant['attributesJson'] ?? variant['attributes'];
-        final Map<String, String> attributes = attrs is Map
-            ? attrs.map(
-                (Object? key, Object? value) =>
-                    MapEntry('$key', value?.toString() ?? ''),
-              )
-            : const <String, String>{};
-        return ProductVariant(
-          id: _text(variant['id']),
-          name: _text(
-            attributes['packSize'] ??
-                attributes['pack_size'] ??
-                variant['name'] ??
-                variant['sku'],
-            fallback: 'Variant',
-          ),
-          sku: _optionalText(variant['sku']),
-          price: _money(variant['price']),
-          moq: _int(variant['moq'], 1),
-          stockQuantity: _optionalInt(variant['stockQuantity']),
-          unit: _optionalText(attributes['unit']),
-          packSize:
-              _optionalText(attributes['packSize'] ?? attributes['pack_size']),
-          attributes: attributes,
-        );
-      })
-      .toList(growable: false);
+  final List<ProductVariant> detailedVariants =
+      variants.whereType<Map>().map((Map variant) {
+    final Object? attrs = variant['attributesJson'] ?? variant['attributes'];
+    final Map<String, String> attributes = attrs is Map
+        ? attrs.map(
+            (Object? key, Object? value) =>
+                MapEntry('$key', value?.toString() ?? ''),
+          )
+        : const <String, String>{};
+    return ProductVariant(
+      id: _text(variant['id']),
+      name: _text(
+        attributes['packSize'] ??
+            attributes['pack_size'] ??
+            variant['name'] ??
+            variant['sku'],
+        fallback: 'Variant',
+      ),
+      sku: _optionalText(variant['sku']),
+      price: _money(variant['price']),
+      moq: _int(variant['moq'], 1),
+      stockQuantity: _optionalInt(variant['stockQuantity']),
+      unit: _optionalText(attributes['unit']),
+      packSize:
+          _optionalText(attributes['packSize'] ?? attributes['pack_size']),
+      attributes: attributes,
+    );
+  }).toList(growable: false);
   final List<PriceSlab> detailedSlabs = <PriceSlab>[
     for (final Map variant in variants.whereType<Map>())
       ..._parseSlabs(

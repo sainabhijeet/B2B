@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000028",
+  "industry": "Railway & Industrial OEM Supplies",
+  "themeName": "Railway & Industrial OEM Supplies App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "TrackPocket",
+    "industry": "Railway & Industrial OEM Supplies",
+    "tagline": "Browse rail insulation pad, signal indicator lamp and a dedicated railway & industrial oem supplies mobile assortment.",
+    "email": "hello@trackpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "TrackPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in TrackPocket's railway & industrial oem supplies range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "TrackPocket sample buyer story",
+      "quote": "Our demo railway & industrial oem supplies buying team can compare rail insulation pad and cable termination kit in one restock list.",
+      "author": "Fictional TrackPocket buyer — demo feedback",
+      "designId": "ds-40-app",
+      "layoutMode": "Rail component timetable / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-category-1",
+      "slug": "rail-components",
+      "name": "TrackPocket Rail Components",
+      "description": "Pick rail components for your railway & industrial oem supplies replenishment list with TrackPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-category-2",
+      "slug": "signalling-supplies",
+      "name": "TrackPocket Signalling Supplies",
+      "description": "Pick signalling supplies for your railway & industrial oem supplies replenishment list with TrackPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-category-3",
+      "slug": "electrical-systems",
+      "name": "TrackPocket Electrical Systems",
+      "description": "Pick electrical systems for your railway & industrial oem supplies replenishment list with TrackPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-category-4",
+      "slug": "maintenance-consumables",
+      "name": "TrackPocket Maintenance Consumables",
+      "description": "Pick maintenance consumables for your railway & industrial oem supplies replenishment list with TrackPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-1",
+      "slug": "trackpocket-rail-insulation-pad",
+      "sku": "APP-40-1",
+      "name": "TrackPocket Rail Insulation Pad",
+      "description": "Rail Insulation Pad for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with rail components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "rail-components",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-1",
+      "categoryName": "TrackPocket Rail Components",
+      "brand": "TrackPocket",
+      "price": 3528,
+      "currency": "INR",
+      "priceLabel": "INR 3,528",
+      "image": "assets/images/product-01.jpg",
+      "stock": 158,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 4163,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 3528
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 3352
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 3175
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Rail Insulation Pad",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-2",
+      "slug": "trackpocket-signal-indicator-lamp",
+      "sku": "APP-40-2",
+      "name": "TrackPocket Signal Indicator Lamp",
+      "description": "Signal Indicator Lamp for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with signalling supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "signalling-supplies",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-2",
+      "categoryName": "TrackPocket Signalling Supplies",
+      "brand": "TrackPocket",
+      "price": 9520,
+      "currency": "INR",
+      "priceLabel": "INR 9,520",
+      "image": "assets/images/product-02.jpg",
+      "stock": 169,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 11234,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 9520
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 9044
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 8568
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Signal Indicator Lamp",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-3",
+      "slug": "trackpocket-cable-termination-kit",
+      "sku": "APP-40-3",
+      "name": "TrackPocket Cable Termination Kit",
+      "description": "Cable Termination Kit for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with electrical systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "electrical-systems",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-3",
+      "categoryName": "TrackPocket Electrical Systems",
+      "brand": "TrackPocket",
+      "price": 11625,
+      "currency": "INR",
+      "priceLabel": "INR 11,625",
+      "image": "assets/images/product-03.jpg",
+      "stock": 180,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 13718,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 11625
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 11044
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 10463
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Cable Termination Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-4",
+      "slug": "trackpocket-industrial-cleaning-wipe-box",
+      "sku": "APP-40-4",
+      "name": "TrackPocket Industrial Cleaning Wipe Box",
+      "description": "Industrial Cleaning Wipe Box for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with maintenance consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "maintenance-consumables",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-4",
+      "categoryName": "TrackPocket Maintenance Consumables",
+      "brand": "TrackPocket",
+      "price": 7020,
+      "currency": "INR",
+      "priceLabel": "INR 7,020",
+      "image": "assets/images/product-04.jpg",
+      "stock": 191,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 8284,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 7020
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 6669
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 6318
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Industrial Cleaning Wipe Box",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-5",
+      "slug": "trackpocket-track-gauge-block",
+      "sku": "APP-40-5",
+      "name": "TrackPocket Track Gauge Block",
+      "description": "Track Gauge Block for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with rail components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "rail-components",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-1",
+      "categoryName": "TrackPocket Rail Components",
+      "brand": "TrackPocket",
+      "price": 1824,
+      "currency": "INR",
+      "priceLabel": "INR 1,824",
+      "image": "assets/images/product-05.jpg",
+      "stock": 202,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2152,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1824
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1733
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1642
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Track Gauge Block",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "railway-industrial-oem-supplies-app-theme-product-6",
+      "slug": "trackpocket-control-panel-relay-socket",
+      "sku": "APP-40-6",
+      "name": "TrackPocket Control Panel Relay Socket",
+      "description": "Control Panel Relay Socket for your railway & industrial oem supplies replenishment list. TrackPocket groups this item with signalling supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "signalling-supplies",
+      "categoryId": "railway-industrial-oem-supplies-app-theme-category-2",
+      "categoryName": "TrackPocket Signalling Supplies",
+      "brand": "TrackPocket",
+      "price": 2183,
+      "currency": "INR",
+      "priceLabel": "INR 2,183",
+      "image": "assets/images/product-06.jpg",
+      "stock": 213,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 2576,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 2183
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2074
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1965
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TrackPocket Control Panel Relay Socket",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-40-app",
+    "direction": "Rail component timetable / pocket workflow",
+    "header": "compact-stack",
+    "headerIdentity": "header-40-app",
+    "headerStructure": "shell-4-composition-7",
+    "hero": "stacked-center",
+    "categories": "numbered-list",
+    "productCards": "bulk-table",
+    "productListing": "sidebar-grid",
+    "productDetail": "technical-tabs",
+    "footer": "service-desk",
+    "footerIdentity": "footer-40-app",
+    "footerStructure": "shell-5-composition-6",
+    "density": "compact",
+    "responsiveStrategy": "visual"
+  }
+}

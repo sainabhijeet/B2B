@@ -57,6 +57,13 @@ export class OrderPayment {
   @Column({ name: 'payment_screenshot_url', type: 'text', nullable: true })
   paymentScreenshotUrl: string | null;
 
+  @Column({
+    name: 'payment_proof_storage_object_id',
+    type: 'uuid',
+    nullable: true,
+  })
+  paymentProofStorageObjectId: string | null;
+
   @Column({ name: 'payment_note', type: 'text', nullable: true })
   paymentNote: string | null;
 

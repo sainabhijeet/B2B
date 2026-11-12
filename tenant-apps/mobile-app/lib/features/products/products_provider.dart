@@ -3,12 +3,20 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/api/api_client.dart';
 import '../../core/api/nest_json.dart';
 import '../../core/api/storefront_catalog_mapper.dart';
+import '../../core/config/storefront_app_config_provider.dart';
+import '../../core/theme/theme_provider.dart';
 import '../../shared/models/models.dart';
 
 final productsPageProvider = StateProvider<int>((_) => 1);
 final productsSearchProvider = StateProvider<String>((_) => '');
 
 final productsTotalProvider = FutureProvider<int>((ref) async {
+  final theme = ref.watch(themeProvider);
+  final demoEnabled =
+      ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog == true;
+  if (demoEnabled && theme.isDemoCatalog) {
+    return (theme.preview?.demoCatalog['products'] as List?)?.length ?? 0;
+  }
   final dio = ref.watch(apiClientProvider);
   final res = await dio.get<Map<String, dynamic>>(
     '/storefront/products',
@@ -26,6 +34,26 @@ final productsProvider = FutureProvider<List<Product>>((ref) async {
   final dio = ref.watch(apiClientProvider);
   final page = ref.watch(productsPageProvider);
   final q = ref.watch(productsSearchProvider).trim();
+  final theme = ref.watch(themeProvider);
+  final demoEnabled =
+      ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog == true;
+
+  if (demoEnabled && theme.isDemoCatalog) {
+    final rows = theme.preview?.demoCatalog['products'] as List? ?? const [];
+    final products = mapStorefrontProducts(
+      rows,
+      apiBaseUrl: dio.options.baseUrl,
+    );
+    if (q.isEmpty) return products;
+    final query = q.toLowerCase();
+    return products
+        .where((product) => <String>[
+              product.name,
+              product.sku ?? '',
+              product.brand ?? '',
+            ].any((value) => value.toLowerCase().contains(query)))
+        .toList(growable: false);
+  }
 
   final query = <String, dynamic>{
     'page': page,
@@ -48,6 +76,13 @@ final productsProvider = FutureProvider<List<Product>>((ref) async {
 final categoryCatalogProductsProvider =
     FutureProvider<List<Product>>((ref) async {
   final dio = ref.watch(apiClientProvider);
+  final theme = ref.watch(themeProvider);
+  final demoEnabled =
+      ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog == true;
+  if (demoEnabled && theme.isDemoCatalog) {
+    final rows = theme.preview?.demoCatalog['products'] as List? ?? const [];
+    return mapStorefrontProducts(rows, apiBaseUrl: dio.options.baseUrl);
+  }
   final res = await dio.get<Map<String, dynamic>>(
     '/storefront/products',
     queryParameters: const <String, dynamic>{
@@ -65,6 +100,13 @@ final categoryCatalogProductsProvider =
 
 final categoriesProvider = FutureProvider<List<Category>>((ref) async {
   final dio = ref.watch(apiClientProvider);
+  final theme = ref.watch(themeProvider);
+  final demoEnabled =
+      ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog == true;
+  if (demoEnabled && theme.isDemoCatalog) {
+    final rows = theme.preview?.demoCatalog['categories'] as List? ?? const [];
+    return mapStorefrontCategories(rows, apiBaseUrl: dio.options.baseUrl);
+  }
   final res = await dio.get<Map<String, dynamic>>(
     '/storefront/categories',
     queryParameters: const {'channel': 'app'},
@@ -79,6 +121,9 @@ final categoriesProvider = FutureProvider<List<Category>>((ref) async {
 
 final productDetailProvider =
     FutureProvider.family<Product, Product>((ref, product) async {
+  final demoEnabled =
+      ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog == true;
+  if (demoEnabled && ref.watch(themeProvider).isDemoCatalog) return product;
   final String slug = product.slug?.trim() ?? '';
   if (slug.isEmpty) return product;
   final dio = ref.watch(apiClientProvider);

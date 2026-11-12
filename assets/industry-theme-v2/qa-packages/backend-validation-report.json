@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "checked": 2,
+  "results": [
+    {
+      "file": "web/electronics-web-theme.zip",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/electronics-app-theme.zip",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

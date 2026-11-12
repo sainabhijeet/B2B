@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000004",
+  "industry": "Industrial Equipment",
+  "themeName": "Industrial Equipment App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "WorkshopPocket",
+    "industry": "Industrial Equipment",
+    "tagline": "Browse electric drum lifter, mobile welding table and a dedicated industrial equipment mobile assortment.",
+    "email": "hello@workshoppocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "WorkshopPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in WorkshopPocket's industrial equipment range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "WorkshopPocket sample buyer story",
+      "quote": "Our demo industrial equipment buying team can compare electric drum lifter and programmable logic controller in one restock list.",
+      "author": "Fictional WorkshopPocket buyer — demo feedback",
+      "designId": "ds-04-app",
+      "layoutMode": "Factory control catalogue / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "industrial-equipment-app-theme-category-1",
+      "slug": "material-handling",
+      "name": "WorkshopPocket Material Handling",
+      "description": "Pick material handling for your industrial equipment replenishment list with WorkshopPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "industrial-equipment-app-theme-category-2",
+      "slug": "workshop-equipment",
+      "name": "WorkshopPocket Workshop Equipment",
+      "description": "Pick workshop equipment for your industrial equipment replenishment list with WorkshopPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "industrial-equipment-app-theme-category-3",
+      "slug": "automation",
+      "name": "WorkshopPocket Automation",
+      "description": "Pick automation for your industrial equipment replenishment list with WorkshopPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "industrial-equipment-app-theme-category-4",
+      "slug": "measuring-tools",
+      "name": "WorkshopPocket Measuring Tools",
+      "description": "Pick measuring tools for your industrial equipment replenishment list with WorkshopPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "industrial-equipment-app-theme-product-1",
+      "slug": "workshoppocket-electric-drum-lifter",
+      "sku": "APP-04-1",
+      "name": "WorkshopPocket Electric Drum Lifter",
+      "description": "Electric Drum Lifter for your industrial equipment replenishment list. WorkshopPocket groups this item with material handling so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "material-handling",
+      "categoryId": "industrial-equipment-app-theme-category-1",
+      "categoryName": "WorkshopPocket Material Handling",
+      "brand": "WorkshopPocket",
+      "price": 15540,
+      "currency": "INR",
+      "priceLabel": "INR 15,540",
+      "image": "assets/images/product-01.jpg",
+      "stock": 50,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 18337,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 15540
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 14763
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 13986
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Electric Drum Lifter",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "industrial-equipment-app-theme-product-2",
+      "slug": "workshoppocket-mobile-welding-table",
+      "sku": "APP-04-2",
+      "name": "WorkshopPocket Mobile Welding Table",
+      "description": "Mobile Welding Table for your industrial equipment replenishment list. WorkshopPocket groups this item with workshop equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "workshop-equipment",
+      "categoryId": "industrial-equipment-app-theme-category-2",
+      "categoryName": "WorkshopPocket Workshop Equipment",
+      "brand": "WorkshopPocket",
+      "price": 47040,
+      "currency": "INR",
+      "priceLabel": "INR 47,040",
+      "image": "assets/images/product-02.jpg",
+      "stock": 61,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 55507,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 47040
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 44688
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 42336
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Mobile Welding Table",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "industrial-equipment-app-theme-product-3",
+      "slug": "workshoppocket-programmable-logic-controller",
+      "sku": "APP-04-3",
+      "name": "WorkshopPocket Programmable Logic Controller",
+      "description": "Programmable Logic Controller for your industrial equipment replenishment list. WorkshopPocket groups this item with automation so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "automation",
+      "categoryId": "industrial-equipment-app-theme-category-3",
+      "categoryName": "WorkshopPocket Automation",
+      "brand": "WorkshopPocket",
+      "price": 26040,
+      "currency": "INR",
+      "priceLabel": "INR 26,040",
+      "image": "assets/images/product-03.jpg",
+      "stock": 72,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 30727,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 26040
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 24738
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 23436
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Programmable Logic Controller",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "industrial-equipment-app-theme-product-4",
+      "slug": "workshoppocket-dial-bore-gauge",
+      "sku": "APP-04-4",
+      "name": "WorkshopPocket Dial Bore Gauge",
+      "description": "Dial Bore Gauge for your industrial equipment replenishment list. WorkshopPocket groups this item with measuring tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "measuring-tools",
+      "categoryId": "industrial-equipment-app-theme-category-4",
+      "categoryName": "WorkshopPocket Measuring Tools",
+      "brand": "WorkshopPocket",
+      "price": 1727,
+      "currency": "INR",
+      "priceLabel": "INR 1,727",
+      "image": "assets/images/product-04.jpg",
+      "stock": 83,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 2038,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1727
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 1641
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1554
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Dial Bore Gauge",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "industrial-equipment-app-theme-product-5",
+      "slug": "workshoppocket-scissor-lift-table",
+      "sku": "APP-04-5",
+      "name": "WorkshopPocket Scissor Lift Table",
+      "description": "Scissor Lift Table for your industrial equipment replenishment list. WorkshopPocket groups this item with material handling so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "material-handling",
+      "categoryId": "industrial-equipment-app-theme-category-1",
+      "categoryName": "WorkshopPocket Material Handling",
+      "brand": "WorkshopPocket",
+      "price": 4940,
+      "currency": "INR",
+      "priceLabel": "INR 4,940",
+      "image": "assets/images/product-05.jpg",
+      "stock": 94,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 5829,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 4940
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 4693
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 4446
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Scissor Lift Table",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "industrial-equipment-app-theme-product-6",
+      "slug": "workshoppocket-parts-washing-cabinet",
+      "sku": "APP-04-6",
+      "name": "WorkshopPocket Parts Washing Cabinet",
+      "description": "Parts Washing Cabinet for your industrial equipment replenishment list. WorkshopPocket groups this item with workshop equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "workshop-equipment",
+      "categoryId": "industrial-equipment-app-theme-category-2",
+      "categoryName": "WorkshopPocket Workshop Equipment",
+      "brand": "WorkshopPocket",
+      "price": 10502,
+      "currency": "INR",
+      "priceLabel": "INR 10,502",
+      "image": "assets/images/product-06.jpg",
+      "stock": 105,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 12392,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 10502
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 9977
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 9452
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WorkshopPocket Parts Washing Cabinet",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-04-app",
+    "direction": "Factory control catalogue / pocket workflow",
+    "header": "catalog-rail",
+    "headerIdentity": "header-04-app",
+    "headerStructure": "shell-4-composition-1",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "marketplace",
+    "footerIdentity": "footer-04-app",
+    "footerStructure": "shell-4-composition-1",
+    "density": "compact",
+    "responsiveStrategy": "fast_order"
+  }
+}

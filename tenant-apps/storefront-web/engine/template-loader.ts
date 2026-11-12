@@ -238,6 +238,9 @@ export async function loadThemeCssText(
   }
   const cssUrl = buildAbsoluteThemeAssetUrl(manifestPath, relCss);
   try {
+    // Theme packages can be replaced in-place by the admin uploader. Always
+    // read the current stylesheet so an activated revision is visible without
+    // waiting for a server cache entry keyed to the unchanged storage URL.
     const res = await fetch(cssUrl, { cache: "no-store" });
     if (!res.ok) return null;
     const text = await res.text();

@@ -1,0 +1,1804 @@
+{
+  "applied": true,
+  "premiumLayer": "premium-commerce-v1",
+  "industryCount": 47,
+  "themeCount": 94,
+  "webThemes": 47,
+  "appThemes": 47,
+  "uniqueHeaderIdentities": 94,
+  "uniqueFooterIdentities": 94,
+  "uniqueWebHeaderStructures": 47,
+  "uniqueAppHeaderStructures": 47,
+  "uniqueWebFooterStructures": 47,
+  "uniqueAppFooterStructures": 47,
+  "skipped": [],
+  "results": [
+    {
+      "industryOrder": 1,
+      "industry": "Electronics",
+      "platform": "WEB",
+      "slug": "electronics-web-theme",
+      "designId": "ds-01-web",
+      "headerIdentity": "header-01-web",
+      "headerStructure": "shell-1-composition-1",
+      "footerIdentity": "footer-01-web",
+      "footerStructure": "shell-1-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 118299,
+      "cssSha256": "93c6ad0c55f8b3aff24c6ce131cf58c5c3c282c88b9c280c4e09943483ef8895",
+      "extractedCss": "backend/storage/themes/web/electronics-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/electronics-web-theme.zip",
+        "storage/themes/web/electronics-web-theme/electronics-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 1,
+      "industry": "Electronics",
+      "platform": "MOBILE",
+      "slug": "electronics-app-theme",
+      "designId": "ds-01-app",
+      "headerIdentity": "header-01-app",
+      "headerStructure": "shell-1-composition-1",
+      "footerIdentity": "footer-01-app",
+      "footerStructure": "shell-1-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37796,
+      "cssSha256": "0a9c0f59fb8b6c9c486377ba38aaded87c2ec8b9ff845cecc116c09af28fc94c",
+      "extractedCss": "backend/storage/themes/mobile/electronics-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/electronics-app-theme.zip",
+        "storage/themes/mobile/electronics-app-theme/electronics-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 2,
+      "industry": "Footwear",
+      "platform": "WEB",
+      "slug": "footwear-web-theme",
+      "designId": "ds-02-web",
+      "headerIdentity": "header-02-web",
+      "headerStructure": "shell-2-composition-1",
+      "footerIdentity": "footer-02-web",
+      "footerStructure": "shell-2-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 114420,
+      "cssSha256": "3ec5bcbb0b7750369b4e44a3e39df0679579bac6d985dfcd63c674431a0cfd7c",
+      "extractedCss": "backend/storage/themes/web/footwear-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/footwear-web-theme.zip",
+        "storage/themes/web/footwear-web-theme/footwear-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 2,
+      "industry": "Footwear",
+      "platform": "MOBILE",
+      "slug": "footwear-app-theme",
+      "designId": "ds-02-app",
+      "headerIdentity": "header-02-app",
+      "headerStructure": "shell-2-composition-1",
+      "footerIdentity": "footer-02-app",
+      "footerStructure": "shell-2-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38014,
+      "cssSha256": "d321f00c40c21e48c027d4715f03937b8de1ef0cf8c022132ee2f186a6315b04",
+      "extractedCss": "backend/storage/themes/mobile/footwear-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/footwear-app-theme.zip",
+        "storage/themes/mobile/footwear-app-theme/footwear-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 3,
+      "industry": "Textile",
+      "platform": "WEB",
+      "slug": "textile-web-theme",
+      "designId": "ds-03-web",
+      "headerIdentity": "header-03-web",
+      "headerStructure": "shell-3-composition-1",
+      "footerIdentity": "footer-03-web",
+      "footerStructure": "shell-3-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57927,
+      "cssSha256": "f4fdec93dd7b2ca0ceb0707eadda8fc9461b3fb4ea22f33bac99332b91f161e7",
+      "extractedCss": "backend/storage/themes/web/textile-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/textile-web-theme.zip",
+        "storage/themes/web/textile-web-theme/textile-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 3,
+      "industry": "Textile",
+      "platform": "MOBILE",
+      "slug": "textile-app-theme",
+      "designId": "ds-03-app",
+      "headerIdentity": "header-03-app",
+      "headerStructure": "shell-3-composition-1",
+      "footerIdentity": "footer-03-app",
+      "footerStructure": "shell-3-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38413,
+      "cssSha256": "0de36e97e7a5f5266da1b65cf54a2105fd2f11a160bd01e5d8bffe823549a673",
+      "extractedCss": "backend/storage/themes/mobile/textile-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/textile-app-theme.zip",
+        "storage/themes/mobile/textile-app-theme/textile-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 4,
+      "industry": "Industrial Equipment",
+      "platform": "WEB",
+      "slug": "industrial-equipment-web-theme",
+      "designId": "ds-04-web",
+      "headerIdentity": "header-04-web",
+      "headerStructure": "shell-4-composition-1",
+      "footerIdentity": "footer-04-web",
+      "footerStructure": "shell-4-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57406,
+      "cssSha256": "3b9c1334b8f3ccb9fadf80af7f17d1fa090db170755f8b5be668cdcf4241b419",
+      "extractedCss": "backend/storage/themes/web/industrial-equipment-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/industrial-equipment-web-theme.zip",
+        "storage/themes/web/industrial-equipment-web-theme/industrial-equipment-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 4,
+      "industry": "Industrial Equipment",
+      "platform": "MOBILE",
+      "slug": "industrial-equipment-app-theme",
+      "designId": "ds-04-app",
+      "headerIdentity": "header-04-app",
+      "headerStructure": "shell-4-composition-1",
+      "footerIdentity": "footer-04-app",
+      "footerStructure": "shell-4-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38039,
+      "cssSha256": "34674252f04ecd23fd1b229c14a4d7cd616017bd6ed4cbad7069dff69d24afaa",
+      "extractedCss": "backend/storage/themes/mobile/industrial-equipment-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/industrial-equipment-app-theme.zip",
+        "storage/themes/mobile/industrial-equipment-app-theme/industrial-equipment-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 5,
+      "industry": "Machinery",
+      "platform": "WEB",
+      "slug": "machinery-web-theme",
+      "designId": "ds-05-web",
+      "headerIdentity": "header-05-web",
+      "headerStructure": "shell-5-composition-1",
+      "footerIdentity": "footer-05-web",
+      "footerStructure": "shell-5-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57630,
+      "cssSha256": "7a54e02567f3d10b218e68f91186b1bfeac8aefddcf239f2cb6eff61b4933bf9",
+      "extractedCss": "backend/storage/themes/web/machinery-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/machinery-web-theme.zip",
+        "storage/themes/web/machinery-web-theme/machinery-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 5,
+      "industry": "Machinery",
+      "platform": "MOBILE",
+      "slug": "machinery-app-theme",
+      "designId": "ds-05-app",
+      "headerIdentity": "header-05-app",
+      "headerStructure": "shell-5-composition-1",
+      "footerIdentity": "footer-05-app",
+      "footerStructure": "shell-5-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37942,
+      "cssSha256": "9b404c112fbafb780ae085cf60e64d86d6d7486c0b197e56a12483785a8238ae",
+      "extractedCss": "backend/storage/themes/mobile/machinery-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/machinery-app-theme.zip",
+        "storage/themes/mobile/machinery-app-theme/machinery-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 6,
+      "industry": "Jewelry / Diamond",
+      "platform": "WEB",
+      "slug": "jewelry-diamond-web-theme",
+      "designId": "ds-06-web",
+      "headerIdentity": "header-06-web",
+      "headerStructure": "shell-6-composition-1",
+      "footerIdentity": "footer-06-web",
+      "footerStructure": "shell-6-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57335,
+      "cssSha256": "3628440462456c6749c8a4fea544d72b8af837ada2851d225e69ee4bcf5c5963",
+      "extractedCss": "backend/storage/themes/web/jewelry-diamond-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/jewelry-diamond-web-theme.zip",
+        "storage/themes/web/jewelry-diamond-web-theme/jewelry-diamond-web-theme.zip",
+        "backend/storage/themes/web/jewelry-diamond-web-theme/jewelry-diamond-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 6,
+      "industry": "Jewelry / Diamond",
+      "platform": "MOBILE",
+      "slug": "jewelry-diamond-app-theme",
+      "designId": "ds-06-app",
+      "headerIdentity": "header-06-app",
+      "headerStructure": "shell-6-composition-1",
+      "footerIdentity": "footer-06-app",
+      "footerStructure": "shell-6-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37939,
+      "cssSha256": "19c51c101a2367a4340877a7493e6f45f744e0884832950786925ab4e31955c5",
+      "extractedCss": "backend/storage/themes/mobile/jewelry-diamond-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/jewelry-diamond-app-theme.zip",
+        "storage/themes/mobile/jewelry-diamond-app-theme/jewelry-diamond-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 7,
+      "industry": "General Commerce",
+      "platform": "WEB",
+      "slug": "general-commerce-web-theme",
+      "designId": "ds-07-web",
+      "headerIdentity": "header-07-web",
+      "headerStructure": "shell-1-composition-2",
+      "footerIdentity": "footer-07-web",
+      "footerStructure": "shell-7-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57560,
+      "cssSha256": "63a594dd51864374440f21246b4c306b029795932c9271a73114e041990005a4",
+      "extractedCss": "backend/storage/themes/web/general-commerce-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/general-commerce-web-theme.zip",
+        "storage/themes/web/general-commerce-web-theme/general-commerce-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 7,
+      "industry": "General Commerce",
+      "platform": "MOBILE",
+      "slug": "general-commerce-app-theme",
+      "designId": "ds-07-app",
+      "headerIdentity": "header-07-app",
+      "headerStructure": "shell-1-composition-2",
+      "footerIdentity": "footer-07-app",
+      "footerStructure": "shell-7-composition-1",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37961,
+      "cssSha256": "501e4a051d80dbe9cbd0186a58480c616da51817cdb9be784f570bc6c7e1a6bf",
+      "extractedCss": "backend/storage/themes/mobile/general-commerce-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/general-commerce-app-theme.zip",
+        "storage/themes/mobile/general-commerce-app-theme/general-commerce-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 8,
+      "industry": "Automotive & Spare Parts",
+      "platform": "WEB",
+      "slug": "automotive-spare-parts-web-theme",
+      "designId": "ds-08-web",
+      "headerIdentity": "header-08-web",
+      "headerStructure": "shell-2-composition-2",
+      "footerIdentity": "footer-08-web",
+      "footerStructure": "shell-1-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57655,
+      "cssSha256": "bb1cc4abbb510c59a2d91200e754b5f1f2654357044379ea850aa3cfde29f195",
+      "extractedCss": "backend/storage/themes/web/automotive-spare-parts-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/automotive-spare-parts-web-theme.zip",
+        "storage/themes/web/automotive-spare-parts-web-theme/automotive-spare-parts-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 8,
+      "industry": "Automotive & Spare Parts",
+      "platform": "MOBILE",
+      "slug": "automotive-spare-parts-app-theme",
+      "designId": "ds-08-app",
+      "headerIdentity": "header-08-app",
+      "headerStructure": "shell-2-composition-2",
+      "footerIdentity": "footer-08-app",
+      "footerStructure": "shell-1-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38237,
+      "cssSha256": "a54f98dc8f1412104dc77405253294c20df8e477d2529f9bcb9e694a392bf174",
+      "extractedCss": "backend/storage/themes/mobile/automotive-spare-parts-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/automotive-spare-parts-app-theme.zip",
+        "storage/themes/mobile/automotive-spare-parts-app-theme/automotive-spare-parts-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 9,
+      "industry": "FMCG & Packaged Foods",
+      "platform": "WEB",
+      "slug": "fmcg-packaged-foods-web-theme",
+      "designId": "ds-09-web",
+      "headerIdentity": "header-09-web",
+      "headerStructure": "shell-3-composition-2",
+      "footerIdentity": "footer-09-web",
+      "footerStructure": "shell-2-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57938,
+      "cssSha256": "416884b40fa1e1ab8c80cdf004017c94afed78185da7769e89136654860ceed3",
+      "extractedCss": "backend/storage/themes/web/fmcg-packaged-foods-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/fmcg-packaged-foods-web-theme.zip",
+        "storage/themes/web/fmcg-packaged-foods-web-theme/fmcg-packaged-foods-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 9,
+      "industry": "FMCG & Packaged Foods",
+      "platform": "MOBILE",
+      "slug": "fmcg-packaged-foods-app-theme",
+      "designId": "ds-09-app",
+      "headerIdentity": "header-09-app",
+      "headerStructure": "shell-3-composition-2",
+      "footerIdentity": "footer-09-app",
+      "footerStructure": "shell-2-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38404,
+      "cssSha256": "b971952bd3483e4368f5dfcb3ebcf6d83b9456b0e14ad37475a82e3b886647d0",
+      "extractedCss": "backend/storage/themes/mobile/fmcg-packaged-foods-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/fmcg-packaged-foods-app-theme.zip",
+        "storage/themes/mobile/fmcg-packaged-foods-app-theme/fmcg-packaged-foods-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 10,
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "WEB",
+      "slug": "pharmaceuticals-healthcare-web-theme",
+      "designId": "ds-10-web",
+      "headerIdentity": "header-10-web",
+      "headerStructure": "shell-4-composition-2",
+      "footerIdentity": "footer-10-web",
+      "footerStructure": "shell-3-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58064,
+      "cssSha256": "538a8b1ef6377c566728c49ef53e5a4569d6949492d859e71fd550d8d496d5df",
+      "extractedCss": "backend/storage/themes/web/pharmaceuticals-healthcare-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/pharmaceuticals-healthcare-web-theme.zip",
+        "storage/themes/web/pharmaceuticals-healthcare-web-theme/pharmaceuticals-healthcare-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 10,
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "MOBILE",
+      "slug": "pharmaceuticals-healthcare-app-theme",
+      "designId": "ds-10-app",
+      "headerIdentity": "header-10-app",
+      "headerStructure": "shell-4-composition-2",
+      "footerIdentity": "footer-10-app",
+      "footerStructure": "shell-3-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38541,
+      "cssSha256": "7327281205015ac9eda6c5657309999911ee3a7a4f9f1c81d105a5b9d4f6e16e",
+      "extractedCss": "backend/storage/themes/mobile/pharmaceuticals-healthcare-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/pharmaceuticals-healthcare-app-theme.zip",
+        "storage/themes/mobile/pharmaceuticals-healthcare-app-theme/pharmaceuticals-healthcare-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 11,
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "WEB",
+      "slug": "medical-devices-diagnostics-web-theme",
+      "designId": "ds-11-web",
+      "headerIdentity": "header-11-web",
+      "headerStructure": "shell-5-composition-2",
+      "footerIdentity": "footer-11-web",
+      "footerStructure": "shell-4-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58034,
+      "cssSha256": "32d51e6d48b19147d1497d62714b8f79fdd4eafe60ecd68d3ff1b8831bb55f91",
+      "extractedCss": "backend/storage/themes/web/medical-devices-diagnostics-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/medical-devices-diagnostics-web-theme.zip",
+        "storage/themes/web/medical-devices-diagnostics-web-theme/medical-devices-diagnostics-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 11,
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "MOBILE",
+      "slug": "medical-devices-diagnostics-app-theme",
+      "designId": "ds-11-app",
+      "headerIdentity": "header-11-app",
+      "headerStructure": "shell-5-composition-2",
+      "footerIdentity": "footer-11-app",
+      "footerStructure": "shell-4-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38529,
+      "cssSha256": "5d2d475ede1712244ed0fdfe14d33a8db78f7d341aca8adc67fb24ffc57b47c5",
+      "extractedCss": "backend/storage/themes/mobile/medical-devices-diagnostics-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/medical-devices-diagnostics-app-theme.zip",
+        "storage/themes/mobile/medical-devices-diagnostics-app-theme/medical-devices-diagnostics-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 12,
+      "industry": "Beauty & Personal Care",
+      "platform": "WEB",
+      "slug": "beauty-personal-care-web-theme",
+      "designId": "ds-12-web",
+      "headerIdentity": "header-12-web",
+      "headerStructure": "shell-6-composition-2",
+      "footerIdentity": "footer-12-web",
+      "footerStructure": "shell-5-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57555,
+      "cssSha256": "2e472af409cbe8abb43da06ab8241b5152d9d0f12b6c7cdcd9b747b81fbf5236",
+      "extractedCss": "backend/storage/themes/web/beauty-personal-care-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/beauty-personal-care-web-theme.zip",
+        "storage/themes/web/beauty-personal-care-web-theme/beauty-personal-care-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 12,
+      "industry": "Beauty & Personal Care",
+      "platform": "MOBILE",
+      "slug": "beauty-personal-care-app-theme",
+      "designId": "ds-12-app",
+      "headerIdentity": "header-12-app",
+      "headerStructure": "shell-6-composition-2",
+      "footerIdentity": "footer-12-app",
+      "footerStructure": "shell-5-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38181,
+      "cssSha256": "b04e8186e495ee89ef0f4b9bcdab807fe3f35dd235a4d7d223c655cc3be3f9e1",
+      "extractedCss": "backend/storage/themes/mobile/beauty-personal-care-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/beauty-personal-care-app-theme.zip",
+        "storage/themes/mobile/beauty-personal-care-app-theme/beauty-personal-care-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 13,
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "WEB",
+      "slug": "agriculture-seeds-agri-inputs-web-theme",
+      "designId": "ds-13-web",
+      "headerIdentity": "header-13-web",
+      "headerStructure": "shell-1-composition-3",
+      "footerIdentity": "footer-13-web",
+      "footerStructure": "shell-6-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58639,
+      "cssSha256": "cf4133d766dadc5ddb3e418c363d43644fcd803e8a18b687dd63692a7cad0b71",
+      "extractedCss": "backend/storage/themes/web/agriculture-seeds-agri-inputs-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/agriculture-seeds-agri-inputs-web-theme.zip",
+        "storage/themes/web/agriculture-seeds-agri-inputs-web-theme/agriculture-seeds-agri-inputs-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 13,
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "MOBILE",
+      "slug": "agriculture-seeds-agri-inputs-app-theme",
+      "designId": "ds-13-app",
+      "headerIdentity": "header-13-app",
+      "headerStructure": "shell-1-composition-3",
+      "footerIdentity": "footer-13-app",
+      "footerStructure": "shell-6-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38014,
+      "cssSha256": "d5944bae126ea08685e1aa481bf1b17b035e18c1ab6c6e27237905fccbdc2780",
+      "extractedCss": "backend/storage/themes/mobile/agriculture-seeds-agri-inputs-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/agriculture-seeds-agri-inputs-app-theme.zip",
+        "storage/themes/mobile/agriculture-seeds-agri-inputs-app-theme/agriculture-seeds-agri-inputs-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 14,
+      "industry": "Construction & Building Materials",
+      "platform": "WEB",
+      "slug": "construction-building-materials-web-theme",
+      "designId": "ds-14-web",
+      "headerIdentity": "header-14-web",
+      "headerStructure": "shell-2-composition-3",
+      "footerIdentity": "footer-14-web",
+      "footerStructure": "shell-7-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57574,
+      "cssSha256": "db37b26b11822d778e0b43eedd41ef7ac29723ed777df8dc15b474714cbbc26b",
+      "extractedCss": "backend/storage/themes/web/construction-building-materials-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/construction-building-materials-web-theme.zip",
+        "storage/themes/web/construction-building-materials-web-theme/construction-building-materials-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 14,
+      "industry": "Construction & Building Materials",
+      "platform": "MOBILE",
+      "slug": "construction-building-materials-app-theme",
+      "designId": "ds-14-app",
+      "headerIdentity": "header-14-app",
+      "headerStructure": "shell-2-composition-3",
+      "footerIdentity": "footer-14-app",
+      "footerStructure": "shell-7-composition-2",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38186,
+      "cssSha256": "9760379bc6bd9bc8274a87e9b48184dca4e4007a941f724007ab8ef6179cc37e",
+      "extractedCss": "backend/storage/themes/mobile/construction-building-materials-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/construction-building-materials-app-theme.zip",
+        "storage/themes/mobile/construction-building-materials-app-theme/construction-building-materials-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 15,
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "WEB",
+      "slug": "paints-coatings-adhesives-web-theme",
+      "designId": "ds-15-web",
+      "headerIdentity": "header-15-web",
+      "headerStructure": "shell-3-composition-3",
+      "footerIdentity": "footer-15-web",
+      "footerStructure": "shell-1-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57473,
+      "cssSha256": "b97a000e029f4cf3efacb6ee4f19f8c2caa52861fdc23217689c1ece771eb35d",
+      "extractedCss": "backend/storage/themes/web/paints-coatings-adhesives-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/paints-coatings-adhesives-web-theme.zip",
+        "storage/themes/web/paints-coatings-adhesives-web-theme/paints-coatings-adhesives-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 15,
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "MOBILE",
+      "slug": "paints-coatings-adhesives-app-theme",
+      "designId": "ds-15-app",
+      "headerIdentity": "header-15-app",
+      "headerStructure": "shell-3-composition-3",
+      "footerIdentity": "footer-15-app",
+      "footerStructure": "shell-1-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37880,
+      "cssSha256": "c2914f4ec17a6552d6f93d094cc2f38562efa503b09fb141ac0559ce079d76c0",
+      "extractedCss": "backend/storage/themes/mobile/paints-coatings-adhesives-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/paints-coatings-adhesives-app-theme.zip",
+        "storage/themes/mobile/paints-coatings-adhesives-app-theme/paints-coatings-adhesives-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 16,
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "WEB",
+      "slug": "chemicals-specialty-materials-web-theme",
+      "designId": "ds-16-web",
+      "headerIdentity": "header-16-web",
+      "headerStructure": "shell-4-composition-3",
+      "footerIdentity": "footer-16-web",
+      "footerStructure": "shell-2-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57711,
+      "cssSha256": "c25103876777d413938582c9c63104e216c1426a3eadd7f1352a81289f6620bd",
+      "extractedCss": "backend/storage/themes/web/chemicals-specialty-materials-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/chemicals-specialty-materials-web-theme.zip",
+        "storage/themes/web/chemicals-specialty-materials-web-theme/chemicals-specialty-materials-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 16,
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "MOBILE",
+      "slug": "chemicals-specialty-materials-app-theme",
+      "designId": "ds-16-app",
+      "headerIdentity": "header-16-app",
+      "headerStructure": "shell-4-composition-3",
+      "footerIdentity": "footer-16-app",
+      "footerStructure": "shell-2-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38289,
+      "cssSha256": "18b6363225c6db6ac63ae0cf500d83561e5638644f3b74dca8794e3e11a8b31d",
+      "extractedCss": "backend/storage/themes/mobile/chemicals-specialty-materials-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/chemicals-specialty-materials-app-theme.zip",
+        "storage/themes/mobile/chemicals-specialty-materials-app-theme/chemicals-specialty-materials-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 17,
+      "industry": "Plastics & Polymers",
+      "platform": "WEB",
+      "slug": "plastics-polymers-web-theme",
+      "designId": "ds-17-web",
+      "headerIdentity": "header-17-web",
+      "headerStructure": "shell-5-composition-3",
+      "footerIdentity": "footer-17-web",
+      "footerStructure": "shell-3-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58028,
+      "cssSha256": "533d3b5d0aeeb569891406aa9546425e40984dd48400cd37ae9736c9d6e85f96",
+      "extractedCss": "backend/storage/themes/web/plastics-polymers-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/plastics-polymers-web-theme.zip",
+        "storage/themes/web/plastics-polymers-web-theme/plastics-polymers-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 17,
+      "industry": "Plastics & Polymers",
+      "platform": "MOBILE",
+      "slug": "plastics-polymers-app-theme",
+      "designId": "ds-17-app",
+      "headerIdentity": "header-17-app",
+      "headerStructure": "shell-5-composition-3",
+      "footerIdentity": "footer-17-app",
+      "footerStructure": "shell-3-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38489,
+      "cssSha256": "66db1313cc4de0b7c0223556efca0f6224aac75654ea543eedb2dfcff83587d1",
+      "extractedCss": "backend/storage/themes/mobile/plastics-polymers-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/plastics-polymers-app-theme.zip",
+        "storage/themes/mobile/plastics-polymers-app-theme/plastics-polymers-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 18,
+      "industry": "Paper & Packaging",
+      "platform": "WEB",
+      "slug": "paper-packaging-web-theme",
+      "designId": "ds-18-web",
+      "headerIdentity": "header-18-web",
+      "headerStructure": "shell-6-composition-3",
+      "footerIdentity": "footer-18-web",
+      "footerStructure": "shell-4-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57675,
+      "cssSha256": "5c53bf94b98c92b17d8fd6f23fde0d0fa55344934a8aba1ffb2891df5470ea60",
+      "extractedCss": "backend/storage/themes/web/paper-packaging-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/paper-packaging-web-theme.zip",
+        "storage/themes/web/paper-packaging-web-theme/paper-packaging-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 18,
+      "industry": "Paper & Packaging",
+      "platform": "MOBILE",
+      "slug": "paper-packaging-app-theme",
+      "designId": "ds-18-app",
+      "headerIdentity": "header-18-app",
+      "headerStructure": "shell-6-composition-3",
+      "footerIdentity": "footer-18-app",
+      "footerStructure": "shell-4-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38152,
+      "cssSha256": "e385ea6158f8d926fb3b3fd90b78b498dd9ecfad084e29220fd1dce0e4aeda2f",
+      "extractedCss": "backend/storage/themes/mobile/paper-packaging-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/paper-packaging-app-theme.zip",
+        "storage/themes/mobile/paper-packaging-app-theme/paper-packaging-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 19,
+      "industry": "Printing & Stationery",
+      "platform": "WEB",
+      "slug": "printing-stationery-web-theme",
+      "designId": "ds-19-web",
+      "headerIdentity": "header-19-web",
+      "headerStructure": "shell-1-composition-4",
+      "footerIdentity": "footer-19-web",
+      "footerStructure": "shell-5-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57639,
+      "cssSha256": "ba58049426431f586fe946e2761b9623cc619a63040c40109db17df5ff09d7fe",
+      "extractedCss": "backend/storage/themes/web/printing-stationery-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/printing-stationery-web-theme.zip",
+        "storage/themes/web/printing-stationery-web-theme/printing-stationery-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 19,
+      "industry": "Printing & Stationery",
+      "platform": "MOBILE",
+      "slug": "printing-stationery-app-theme",
+      "designId": "ds-19-app",
+      "headerIdentity": "header-19-app",
+      "headerStructure": "shell-1-composition-4",
+      "footerIdentity": "footer-19-app",
+      "footerStructure": "shell-5-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38132,
+      "cssSha256": "8e58b1c0747018102bec3e0ae89a35e761fd0f38764814d17e4a3a576e2d5ec9",
+      "extractedCss": "backend/storage/themes/mobile/printing-stationery-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/printing-stationery-app-theme.zip",
+        "storage/themes/mobile/printing-stationery-app-theme/printing-stationery-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 20,
+      "industry": "Furniture & Wood Products",
+      "platform": "WEB",
+      "slug": "furniture-wood-products-web-theme",
+      "designId": "ds-20-web",
+      "headerIdentity": "header-20-web",
+      "headerStructure": "shell-2-composition-4",
+      "footerIdentity": "footer-20-web",
+      "footerStructure": "shell-6-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57408,
+      "cssSha256": "4557b418e2c49415c59659faf0a962d9bfc371503418a65ba0971edd94b3628f",
+      "extractedCss": "backend/storage/themes/web/furniture-wood-products-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/furniture-wood-products-web-theme.zip",
+        "storage/themes/web/furniture-wood-products-web-theme/furniture-wood-products-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 20,
+      "industry": "Furniture & Wood Products",
+      "platform": "MOBILE",
+      "slug": "furniture-wood-products-app-theme",
+      "designId": "ds-20-app",
+      "headerIdentity": "header-20-app",
+      "headerStructure": "shell-2-composition-4",
+      "footerIdentity": "footer-20-app",
+      "footerStructure": "shell-6-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38035,
+      "cssSha256": "b071e6849d971c2acdb581b1906e4761c6f3473d5c4433798a47fbaea59d65f7",
+      "extractedCss": "backend/storage/themes/mobile/furniture-wood-products-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/furniture-wood-products-app-theme.zip",
+        "storage/themes/mobile/furniture-wood-products-app-theme/furniture-wood-products-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 21,
+      "industry": "Home Decor & Furnishings",
+      "platform": "WEB",
+      "slug": "home-decor-furnishings-web-theme",
+      "designId": "ds-21-web",
+      "headerIdentity": "header-21-web",
+      "headerStructure": "shell-3-composition-4",
+      "footerIdentity": "footer-21-web",
+      "footerStructure": "shell-7-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57826,
+      "cssSha256": "b0920b2e60a6ece73c56c884c1549b16a1a87e835d365a5d7033b70815187ba4",
+      "extractedCss": "backend/storage/themes/web/home-decor-furnishings-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/home-decor-furnishings-web-theme.zip",
+        "storage/themes/web/home-decor-furnishings-web-theme/home-decor-furnishings-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 21,
+      "industry": "Home Decor & Furnishings",
+      "platform": "MOBILE",
+      "slug": "home-decor-furnishings-app-theme",
+      "designId": "ds-21-app",
+      "headerIdentity": "header-21-app",
+      "headerStructure": "shell-3-composition-4",
+      "footerIdentity": "footer-21-app",
+      "footerStructure": "shell-7-composition-3",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38135,
+      "cssSha256": "6439dfb320d6cd5447bf254be138cabbfc74c6a29f0771948eb2105c518e49b4",
+      "extractedCss": "backend/storage/themes/mobile/home-decor-furnishings-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/home-decor-furnishings-app-theme.zip",
+        "storage/themes/mobile/home-decor-furnishings-app-theme/home-decor-furnishings-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 22,
+      "industry": "Kitchenware & Cookware",
+      "platform": "WEB",
+      "slug": "kitchenware-cookware-web-theme",
+      "designId": "ds-22-web",
+      "headerIdentity": "header-22-web",
+      "headerStructure": "shell-4-composition-4",
+      "footerIdentity": "footer-22-web",
+      "footerStructure": "shell-1-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57431,
+      "cssSha256": "6e91c6422d6d40f940f083bb0434c5bc1ee49783f2cf0ccd0bd96da2aba9b4ba",
+      "extractedCss": "backend/storage/themes/web/kitchenware-cookware-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/kitchenware-cookware-web-theme.zip",
+        "storage/themes/web/kitchenware-cookware-web-theme/kitchenware-cookware-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 22,
+      "industry": "Kitchenware & Cookware",
+      "platform": "MOBILE",
+      "slug": "kitchenware-cookware-app-theme",
+      "designId": "ds-22-app",
+      "headerIdentity": "header-22-app",
+      "headerStructure": "shell-4-composition-4",
+      "footerIdentity": "footer-22-app",
+      "footerStructure": "shell-1-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38054,
+      "cssSha256": "65332cba670946a328d1c974df1bf8bde1aabf7b535acaa22beb1a3ed9a8885d",
+      "extractedCss": "backend/storage/themes/mobile/kitchenware-cookware-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/kitchenware-cookware-app-theme.zip",
+        "storage/themes/mobile/kitchenware-cookware-app-theme/kitchenware-cookware-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 23,
+      "industry": "Electrical & Lighting",
+      "platform": "WEB",
+      "slug": "electrical-lighting-web-theme",
+      "designId": "ds-23-web",
+      "headerIdentity": "header-23-web",
+      "headerStructure": "shell-5-composition-4",
+      "footerIdentity": "footer-23-web",
+      "footerStructure": "shell-2-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57810,
+      "cssSha256": "2afc582bb70c16afd10c326dc457ce4d1cdf2a576bff6ec6f00f838ee38cbdc7",
+      "extractedCss": "backend/storage/themes/web/electrical-lighting-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/electrical-lighting-web-theme.zip",
+        "storage/themes/web/electrical-lighting-web-theme/electrical-lighting-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 23,
+      "industry": "Electrical & Lighting",
+      "platform": "MOBILE",
+      "slug": "electrical-lighting-app-theme",
+      "designId": "ds-23-app",
+      "headerIdentity": "header-23-app",
+      "headerStructure": "shell-5-composition-4",
+      "footerIdentity": "footer-23-app",
+      "footerStructure": "shell-2-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38216,
+      "cssSha256": "92f975fe2386fc491eac549da2f26b69b6746572c077c6036c5dd1946faf88ce",
+      "extractedCss": "backend/storage/themes/mobile/electrical-lighting-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/electrical-lighting-app-theme.zip",
+        "storage/themes/mobile/electrical-lighting-app-theme/electrical-lighting-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 24,
+      "industry": "HVAC & Refrigeration",
+      "platform": "WEB",
+      "slug": "hvac-refrigeration-web-theme",
+      "designId": "ds-24-web",
+      "headerIdentity": "header-24-web",
+      "headerStructure": "shell-6-composition-4",
+      "footerIdentity": "footer-24-web",
+      "footerStructure": "shell-3-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58034,
+      "cssSha256": "1b16a3b6418ebe7b4b33bb4a561703cfa5fd7d2d8b0a4f256a3f660c35fb2fbf",
+      "extractedCss": "backend/storage/themes/web/hvac-refrigeration-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/hvac-refrigeration-web-theme.zip",
+        "storage/themes/web/hvac-refrigeration-web-theme/hvac-refrigeration-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 24,
+      "industry": "HVAC & Refrigeration",
+      "platform": "MOBILE",
+      "slug": "hvac-refrigeration-app-theme",
+      "designId": "ds-24-app",
+      "headerIdentity": "header-24-app",
+      "headerStructure": "shell-6-composition-4",
+      "footerIdentity": "footer-24-app",
+      "footerStructure": "shell-3-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38598,
+      "cssSha256": "a6df0dde5f33e827477c40d4b62fb8582be8e51da851a8202d98dd0364519a9e",
+      "extractedCss": "backend/storage/themes/mobile/hvac-refrigeration-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/hvac-refrigeration-app-theme.zip",
+        "storage/themes/mobile/hvac-refrigeration-app-theme/hvac-refrigeration-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 25,
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "WEB",
+      "slug": "pumps-valves-pipe-fittings-web-theme",
+      "designId": "ds-25-web",
+      "headerIdentity": "header-25-web",
+      "headerStructure": "shell-1-composition-5",
+      "footerIdentity": "footer-25-web",
+      "footerStructure": "shell-4-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57626,
+      "cssSha256": "203c5b64f58ea9de5078614ca2562e7c761f2a58e167ef15da05a53de376077a",
+      "extractedCss": "backend/storage/themes/web/pumps-valves-pipe-fittings-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/pumps-valves-pipe-fittings-web-theme.zip",
+        "storage/themes/web/pumps-valves-pipe-fittings-web-theme/pumps-valves-pipe-fittings-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 25,
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "MOBILE",
+      "slug": "pumps-valves-pipe-fittings-app-theme",
+      "designId": "ds-25-app",
+      "headerIdentity": "header-25-app",
+      "headerStructure": "shell-1-composition-5",
+      "footerIdentity": "footer-25-app",
+      "footerStructure": "shell-4-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38092,
+      "cssSha256": "47bade1dafd92c7ff28f91d071816a6961e16f6c634b81c07d50db7a8e0b3528",
+      "extractedCss": "backend/storage/themes/mobile/pumps-valves-pipe-fittings-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/pumps-valves-pipe-fittings-app-theme.zip",
+        "storage/themes/mobile/pumps-valves-pipe-fittings-app-theme/pumps-valves-pipe-fittings-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 26,
+      "industry": "Tools & Hardware",
+      "platform": "WEB",
+      "slug": "tools-hardware-web-theme",
+      "designId": "ds-26-web",
+      "headerIdentity": "header-26-web",
+      "headerStructure": "shell-2-composition-5",
+      "footerIdentity": "footer-26-web",
+      "footerStructure": "shell-5-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57400,
+      "cssSha256": "c07e51613e73b0c90172d74731600fc2d9bbe610414fc360aac4d46a556c76d2",
+      "extractedCss": "backend/storage/themes/web/tools-hardware-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/tools-hardware-web-theme.zip",
+        "storage/themes/web/tools-hardware-web-theme/tools-hardware-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 26,
+      "industry": "Tools & Hardware",
+      "platform": "MOBILE",
+      "slug": "tools-hardware-app-theme",
+      "designId": "ds-26-app",
+      "headerIdentity": "header-26-app",
+      "headerStructure": "shell-2-composition-5",
+      "footerIdentity": "footer-26-app",
+      "footerStructure": "shell-5-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37879,
+      "cssSha256": "caf2fc67c11aae36d5ab3e885e661a4df50207f2f2cb88321928ac51082372ee",
+      "extractedCss": "backend/storage/themes/mobile/tools-hardware-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/tools-hardware-app-theme.zip",
+        "storage/themes/mobile/tools-hardware-app-theme/tools-hardware-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 27,
+      "industry": "Industrial Safety & PPE",
+      "platform": "WEB",
+      "slug": "industrial-safety-ppe-web-theme",
+      "designId": "ds-27-web",
+      "headerIdentity": "header-27-web",
+      "headerStructure": "shell-3-composition-5",
+      "footerIdentity": "footer-27-web",
+      "footerStructure": "shell-6-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57548,
+      "cssSha256": "686fb17cbaa5b1a4f51a3902f48fa3c46c1ae700cdad062f564f26b6310e7b63",
+      "extractedCss": "backend/storage/themes/web/industrial-safety-ppe-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/industrial-safety-ppe-web-theme.zip",
+        "storage/themes/web/industrial-safety-ppe-web-theme/industrial-safety-ppe-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 27,
+      "industry": "Industrial Safety & PPE",
+      "platform": "MOBILE",
+      "slug": "industrial-safety-ppe-app-theme",
+      "designId": "ds-27-app",
+      "headerIdentity": "header-27-app",
+      "headerStructure": "shell-3-composition-5",
+      "footerIdentity": "footer-27-app",
+      "footerStructure": "shell-6-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38034,
+      "cssSha256": "bc29c4556f531e37ed1f2fb22ee7fdd1acaa3351d65e07bae8fe734decb01a79",
+      "extractedCss": "backend/storage/themes/mobile/industrial-safety-ppe-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/industrial-safety-ppe-app-theme.zip",
+        "storage/themes/mobile/industrial-safety-ppe-app-theme/industrial-safety-ppe-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 28,
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "WEB",
+      "slug": "logistics-warehousing-3pl-web-theme",
+      "designId": "ds-28-web",
+      "headerIdentity": "header-28-web",
+      "headerStructure": "shell-4-composition-5",
+      "footerIdentity": "footer-28-web",
+      "footerStructure": "shell-7-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57321,
+      "cssSha256": "79890271e3b2589810b8c486651d4346d13890dfbe548a43e657844f135707bd",
+      "extractedCss": "backend/storage/themes/web/logistics-warehousing-3pl-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/logistics-warehousing-3pl-web-theme.zip",
+        "storage/themes/web/logistics-warehousing-3pl-web-theme/logistics-warehousing-3pl-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 28,
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "MOBILE",
+      "slug": "logistics-warehousing-3pl-app-theme",
+      "designId": "ds-28-app",
+      "headerIdentity": "header-28-app",
+      "headerStructure": "shell-4-composition-5",
+      "footerIdentity": "footer-28-app",
+      "footerStructure": "shell-7-composition-4",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37953,
+      "cssSha256": "93ba7b927f975d8d1ad2c1f20b09f4809964b0d6e1ca16e12b22ca909968166e",
+      "extractedCss": "backend/storage/themes/mobile/logistics-warehousing-3pl-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/logistics-warehousing-3pl-app-theme.zip",
+        "storage/themes/mobile/logistics-warehousing-3pl-app-theme/logistics-warehousing-3pl-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 29,
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "WEB",
+      "slug": "office-supplies-b2b-stationery-web-theme",
+      "designId": "ds-29-web",
+      "headerIdentity": "header-29-web",
+      "headerStructure": "shell-5-composition-5",
+      "footerIdentity": "footer-29-web",
+      "footerStructure": "shell-1-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57600,
+      "cssSha256": "2388edf3bcb6e50432551f5cf040c8375eb88fdf26681355dc18e4f843b77793",
+      "extractedCss": "backend/storage/themes/web/office-supplies-b2b-stationery-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/office-supplies-b2b-stationery-web-theme.zip",
+        "storage/themes/web/office-supplies-b2b-stationery-web-theme/office-supplies-b2b-stationery-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 29,
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "MOBILE",
+      "slug": "office-supplies-b2b-stationery-app-theme",
+      "designId": "ds-29-app",
+      "headerIdentity": "header-29-app",
+      "headerStructure": "shell-5-composition-5",
+      "footerIdentity": "footer-29-app",
+      "footerStructure": "shell-1-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37923,
+      "cssSha256": "d40a728b8fd6666361063f60f6c251823833a358e8651dcbe25ea396c3efdca0",
+      "extractedCss": "backend/storage/themes/mobile/office-supplies-b2b-stationery-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/office-supplies-b2b-stationery-app-theme.zip",
+        "storage/themes/mobile/office-supplies-b2b-stationery-app-theme/office-supplies-b2b-stationery-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 30,
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "WEB",
+      "slug": "it-hardware-networking-distribution-web-theme",
+      "designId": "ds-30-web",
+      "headerIdentity": "header-30-web",
+      "headerStructure": "shell-6-composition-5",
+      "footerIdentity": "footer-30-web",
+      "footerStructure": "shell-2-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57569,
+      "cssSha256": "940cbb9616c8c67a3fd7bfc3d5c3aee87329bbab5c252ae91fc827870faa6934",
+      "extractedCss": "backend/storage/themes/web/it-hardware-networking-distribution-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/it-hardware-networking-distribution-web-theme.zip",
+        "storage/themes/web/it-hardware-networking-distribution-web-theme/it-hardware-networking-distribution-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 30,
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "MOBILE",
+      "slug": "it-hardware-networking-distribution-app-theme",
+      "designId": "ds-30-app",
+      "headerIdentity": "header-30-app",
+      "headerStructure": "shell-6-composition-5",
+      "footerIdentity": "footer-30-app",
+      "footerStructure": "shell-2-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38182,
+      "cssSha256": "95e50e3f325ac0ed0ee78aa00e4bbd79f874a9f8e6834b9995d150c2aad8ad6b",
+      "extractedCss": "backend/storage/themes/mobile/it-hardware-networking-distribution-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/it-hardware-networking-distribution-app-theme.zip",
+        "storage/themes/mobile/it-hardware-networking-distribution-app-theme/it-hardware-networking-distribution-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 31,
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "WEB",
+      "slug": "consumer-appliances-home-tech-web-theme",
+      "designId": "ds-31-web",
+      "headerIdentity": "header-31-web",
+      "headerStructure": "shell-1-composition-6",
+      "footerIdentity": "footer-31-web",
+      "footerStructure": "shell-3-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58008,
+      "cssSha256": "283c2db2cb5c5c4d4fa0099690cafbc1b195c176a4a73d33e5a4bfb7effaf11a",
+      "extractedCss": "backend/storage/themes/web/consumer-appliances-home-tech-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/consumer-appliances-home-tech-web-theme.zip",
+        "storage/themes/web/consumer-appliances-home-tech-web-theme/consumer-appliances-home-tech-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 31,
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "MOBILE",
+      "slug": "consumer-appliances-home-tech-app-theme",
+      "designId": "ds-31-app",
+      "headerIdentity": "header-31-app",
+      "headerStructure": "shell-1-composition-6",
+      "footerIdentity": "footer-31-app",
+      "footerStructure": "shell-3-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38405,
+      "cssSha256": "5c051d33186eb786b4da9c6014826277af40a1871455a258d39bf49713b9ef6e",
+      "extractedCss": "backend/storage/themes/mobile/consumer-appliances-home-tech-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/consumer-appliances-home-tech-app-theme.zip",
+        "storage/themes/mobile/consumer-appliances-home-tech-app-theme/consumer-appliances-home-tech-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 32,
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "WEB",
+      "slug": "textile-machinery-mill-supplies-web-theme",
+      "designId": "ds-32-web",
+      "headerIdentity": "header-32-web",
+      "headerStructure": "shell-2-composition-6",
+      "footerIdentity": "footer-32-web",
+      "footerStructure": "shell-4-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57825,
+      "cssSha256": "041a43afb0f051b6199668f83f87a66c3352c078cd6a33e9ccd4925e7a72b0e2",
+      "extractedCss": "backend/storage/themes/web/textile-machinery-mill-supplies-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/textile-machinery-mill-supplies-web-theme.zip",
+        "storage/themes/web/textile-machinery-mill-supplies-web-theme/textile-machinery-mill-supplies-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 32,
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "MOBILE",
+      "slug": "textile-machinery-mill-supplies-app-theme",
+      "designId": "ds-32-app",
+      "headerIdentity": "header-32-app",
+      "headerStructure": "shell-2-composition-6",
+      "footerIdentity": "footer-32-app",
+      "footerStructure": "shell-4-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38398,
+      "cssSha256": "aba20d600544530f0ce9f9bd36831c7ce152ee60698f2bb8aaa38d5f3a911eb8",
+      "extractedCss": "backend/storage/themes/mobile/textile-machinery-mill-supplies-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/textile-machinery-mill-supplies-app-theme.zip",
+        "storage/themes/mobile/textile-machinery-mill-supplies-app-theme/textile-machinery-mill-supplies-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 33,
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "WEB",
+      "slug": "food-processing-packaging-machinery-web-theme",
+      "designId": "ds-33-web",
+      "headerIdentity": "header-33-web",
+      "headerStructure": "shell-3-composition-6",
+      "footerIdentity": "footer-33-web",
+      "footerStructure": "shell-5-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57673,
+      "cssSha256": "6192f6e05b9cbfa12c49c0a72f4dd14247ee3f3c0e5b834c1a43feb522bf80a0",
+      "extractedCss": "backend/storage/themes/web/food-processing-packaging-machinery-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/food-processing-packaging-machinery-web-theme.zip",
+        "storage/themes/web/food-processing-packaging-machinery-web-theme/food-processing-packaging-machinery-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 33,
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "MOBILE",
+      "slug": "food-processing-packaging-machinery-app-theme",
+      "designId": "ds-33-app",
+      "headerIdentity": "header-33-app",
+      "headerStructure": "shell-3-composition-6",
+      "footerIdentity": "footer-33-app",
+      "footerStructure": "shell-5-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38133,
+      "cssSha256": "36834fa49f311d8a19ec64b3481cbca8c8f20e7dd5152316f9811bffaccbc2a3",
+      "extractedCss": "backend/storage/themes/mobile/food-processing-packaging-machinery-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/food-processing-packaging-machinery-app-theme.zip",
+        "storage/themes/mobile/food-processing-packaging-machinery-app-theme/food-processing-packaging-machinery-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 34,
+      "industry": "Plastic Moulding & Dies",
+      "platform": "WEB",
+      "slug": "plastic-moulding-dies-web-theme",
+      "designId": "ds-34-web",
+      "headerIdentity": "header-34-web",
+      "headerStructure": "shell-4-composition-6",
+      "footerIdentity": "footer-34-web",
+      "footerStructure": "shell-6-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57551,
+      "cssSha256": "4d52859f9aec8367f0c5597ce89009e34544819251802f513f4f7732c8cd442a",
+      "extractedCss": "backend/storage/themes/web/plastic-moulding-dies-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/plastic-moulding-dies-web-theme.zip",
+        "storage/themes/web/plastic-moulding-dies-web-theme/plastic-moulding-dies-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 34,
+      "industry": "Plastic Moulding & Dies",
+      "platform": "MOBILE",
+      "slug": "plastic-moulding-dies-app-theme",
+      "designId": "ds-34-app",
+      "headerIdentity": "header-34-app",
+      "headerStructure": "shell-4-composition-6",
+      "footerIdentity": "footer-34-app",
+      "footerStructure": "shell-6-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38028,
+      "cssSha256": "e7e7ff1d5489aab7a41ac093ca322296fc034eb8287f05c0586741ee09cacbf2",
+      "extractedCss": "backend/storage/themes/mobile/plastic-moulding-dies-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/plastic-moulding-dies-app-theme.zip",
+        "storage/themes/mobile/plastic-moulding-dies-app-theme/plastic-moulding-dies-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 35,
+      "industry": "Renewable Energy & Solar",
+      "platform": "WEB",
+      "slug": "renewable-energy-solar-web-theme",
+      "designId": "ds-35-web",
+      "headerIdentity": "header-35-web",
+      "headerStructure": "shell-5-composition-6",
+      "footerIdentity": "footer-35-web",
+      "footerStructure": "shell-7-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57810,
+      "cssSha256": "e8b050ff4e6aa378ea93dd5e3f5fd41b91ac7798178e1be73e1d82a0230b59fe",
+      "extractedCss": "backend/storage/themes/web/renewable-energy-solar-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/renewable-energy-solar-web-theme.zip",
+        "storage/themes/web/renewable-energy-solar-web-theme/renewable-energy-solar-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 35,
+      "industry": "Renewable Energy & Solar",
+      "platform": "MOBILE",
+      "slug": "renewable-energy-solar-app-theme",
+      "designId": "ds-35-app",
+      "headerIdentity": "header-35-app",
+      "headerStructure": "shell-5-composition-6",
+      "footerIdentity": "footer-35-app",
+      "footerStructure": "shell-7-composition-5",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38304,
+      "cssSha256": "6ccfa3a98e50479040f7fc481b5d3f9fa90977b669b23f78fdb5e347a4d121bf",
+      "extractedCss": "backend/storage/themes/mobile/renewable-energy-solar-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/renewable-energy-solar-app-theme.zip",
+        "storage/themes/mobile/renewable-energy-solar-app-theme/renewable-energy-solar-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 36,
+      "industry": "Batteries & Power Systems",
+      "platform": "WEB",
+      "slug": "batteries-power-systems-web-theme",
+      "designId": "ds-36-web",
+      "headerIdentity": "header-36-web",
+      "headerStructure": "shell-6-composition-6",
+      "footerIdentity": "footer-36-web",
+      "footerStructure": "shell-1-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57406,
+      "cssSha256": "8cc051ecab9d160018f46cdb131bffd18a93c1aefaf997942b82203af94c30d6",
+      "extractedCss": "backend/storage/themes/web/batteries-power-systems-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/batteries-power-systems-web-theme.zip",
+        "storage/themes/web/batteries-power-systems-web-theme/batteries-power-systems-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 36,
+      "industry": "Batteries & Power Systems",
+      "platform": "MOBILE",
+      "slug": "batteries-power-systems-app-theme",
+      "designId": "ds-36-app",
+      "headerIdentity": "header-36-app",
+      "headerStructure": "shell-6-composition-6",
+      "footerIdentity": "footer-36-app",
+      "footerStructure": "shell-1-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38043,
+      "cssSha256": "a3d41c4fdb9eeb9c04121b904ca204c777e0745fc56f1695d7aafe7fc72fe63f",
+      "extractedCss": "backend/storage/themes/mobile/batteries-power-systems-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/batteries-power-systems-app-theme.zip",
+        "storage/themes/mobile/batteries-power-systems-app-theme/batteries-power-systems-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 37,
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "WEB",
+      "slug": "oil-lubricants-industrial-fluids-web-theme",
+      "designId": "ds-37-web",
+      "headerIdentity": "header-37-web",
+      "headerStructure": "shell-1-composition-7",
+      "footerIdentity": "footer-37-web",
+      "footerStructure": "shell-2-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57784,
+      "cssSha256": "d89f7749c1031dd5e0b3215653e87f05c1f0126d3a69531d42827e71a2c42412",
+      "extractedCss": "backend/storage/themes/web/oil-lubricants-industrial-fluids-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/oil-lubricants-industrial-fluids-web-theme.zip",
+        "storage/themes/web/oil-lubricants-industrial-fluids-web-theme/oil-lubricants-industrial-fluids-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 37,
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "MOBILE",
+      "slug": "oil-lubricants-industrial-fluids-app-theme",
+      "designId": "ds-37-app",
+      "headerIdentity": "header-37-app",
+      "headerStructure": "shell-1-composition-7",
+      "footerIdentity": "footer-37-app",
+      "footerStructure": "shell-2-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38102,
+      "cssSha256": "53e3fedc3992c751d89568d1533c36869ebdd15d22e88c81f3b75124c8d987f3",
+      "extractedCss": "backend/storage/themes/mobile/oil-lubricants-industrial-fluids-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/oil-lubricants-industrial-fluids-app-theme.zip",
+        "storage/themes/mobile/oil-lubricants-industrial-fluids-app-theme/oil-lubricants-industrial-fluids-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 38,
+      "industry": "Marine & Port Supplies",
+      "platform": "WEB",
+      "slug": "marine-port-supplies-web-theme",
+      "designId": "ds-38-web",
+      "headerIdentity": "header-38-web",
+      "headerStructure": "shell-2-composition-7",
+      "footerIdentity": "footer-38-web",
+      "footerStructure": "shell-3-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57828,
+      "cssSha256": "14a11cd739b8ed0eadd6bb07db2c9ba57b1f62eeb80050ab349dcfc862e61c8e",
+      "extractedCss": "backend/storage/themes/web/marine-port-supplies-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/marine-port-supplies-web-theme.zip",
+        "storage/themes/web/marine-port-supplies-web-theme/marine-port-supplies-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 38,
+      "industry": "Marine & Port Supplies",
+      "platform": "MOBILE",
+      "slug": "marine-port-supplies-app-theme",
+      "designId": "ds-38-app",
+      "headerIdentity": "header-38-app",
+      "headerStructure": "shell-2-composition-7",
+      "footerIdentity": "footer-38-app",
+      "footerStructure": "shell-3-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38436,
+      "cssSha256": "44d76949db20d8cb796de257b087b8d573bb7cdf73a550dc5e7bed355c152ad5",
+      "extractedCss": "backend/storage/themes/mobile/marine-port-supplies-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/marine-port-supplies-app-theme.zip",
+        "storage/themes/mobile/marine-port-supplies-app-theme/marine-port-supplies-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 39,
+      "industry": "Aviation & MRO Consumables",
+      "platform": "WEB",
+      "slug": "aviation-mro-consumables-web-theme",
+      "designId": "ds-39-web",
+      "headerIdentity": "header-39-web",
+      "headerStructure": "shell-3-composition-7",
+      "footerIdentity": "footer-39-web",
+      "footerStructure": "shell-4-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57684,
+      "cssSha256": "ed2515c47d7c6a14b16402913e3b10fc10b5c268cedeca292038eeab3082cb61",
+      "extractedCss": "backend/storage/themes/web/aviation-mro-consumables-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/aviation-mro-consumables-web-theme.zip",
+        "storage/themes/web/aviation-mro-consumables-web-theme/aviation-mro-consumables-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 39,
+      "industry": "Aviation & MRO Consumables",
+      "platform": "MOBILE",
+      "slug": "aviation-mro-consumables-app-theme",
+      "designId": "ds-39-app",
+      "headerIdentity": "header-39-app",
+      "headerStructure": "shell-3-composition-7",
+      "footerIdentity": "footer-39-app",
+      "footerStructure": "shell-4-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38082,
+      "cssSha256": "4770f682df5c5c92ed8865741de5a2815e748b710a1241a33108b82bb9b0a37e",
+      "extractedCss": "backend/storage/themes/mobile/aviation-mro-consumables-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/aviation-mro-consumables-app-theme.zip",
+        "storage/themes/mobile/aviation-mro-consumables-app-theme/aviation-mro-consumables-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 40,
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "WEB",
+      "slug": "railway-industrial-oem-supplies-web-theme",
+      "designId": "ds-40-web",
+      "headerIdentity": "header-40-web",
+      "headerStructure": "shell-4-composition-7",
+      "footerIdentity": "footer-40-web",
+      "footerStructure": "shell-5-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57486,
+      "cssSha256": "5629c2200096b4e7872fdbbceda9ebc99de93512db3263495bcba27d23edfa39",
+      "extractedCss": "backend/storage/themes/web/railway-industrial-oem-supplies-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/railway-industrial-oem-supplies-web-theme.zip",
+        "storage/themes/web/railway-industrial-oem-supplies-web-theme/railway-industrial-oem-supplies-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 40,
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "MOBILE",
+      "slug": "railway-industrial-oem-supplies-app-theme",
+      "designId": "ds-40-app",
+      "headerIdentity": "header-40-app",
+      "headerStructure": "shell-4-composition-7",
+      "footerIdentity": "footer-40-app",
+      "footerStructure": "shell-5-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38058,
+      "cssSha256": "1d173b498718c9db8edfbe2d32d661a64de562609037652602608892b5b173fa",
+      "extractedCss": "backend/storage/themes/mobile/railway-industrial-oem-supplies-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/railway-industrial-oem-supplies-app-theme.zip",
+        "storage/themes/mobile/railway-industrial-oem-supplies-app-theme/railway-industrial-oem-supplies-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 41,
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "WEB",
+      "slug": "defence-aerospace-industrial-supply-web-theme",
+      "designId": "ds-41-web",
+      "headerIdentity": "header-41-web",
+      "headerStructure": "shell-5-composition-7",
+      "footerIdentity": "footer-41-web",
+      "footerStructure": "shell-6-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57550,
+      "cssSha256": "3c4bf8179f4ed94fc43de211005ed22bebecacad41d6b7911d0f62385a4a0f04",
+      "extractedCss": "backend/storage/themes/web/defence-aerospace-industrial-supply-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/defence-aerospace-industrial-supply-web-theme.zip",
+        "storage/themes/web/defence-aerospace-industrial-supply-web-theme/defence-aerospace-industrial-supply-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 41,
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "MOBILE",
+      "slug": "defence-aerospace-industrial-supply-app-theme",
+      "designId": "ds-41-app",
+      "headerIdentity": "header-41-app",
+      "headerStructure": "shell-5-composition-7",
+      "footerIdentity": "footer-41-app",
+      "footerStructure": "shell-6-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38011,
+      "cssSha256": "084790d9cdf0259761db155c1939a3b91bafaed6fce4d313ed99dfef78624928",
+      "extractedCss": "backend/storage/themes/mobile/defence-aerospace-industrial-supply-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/defence-aerospace-industrial-supply-app-theme.zip",
+        "storage/themes/mobile/defence-aerospace-industrial-supply-app-theme/defence-aerospace-industrial-supply-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 42,
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "WEB",
+      "slug": "laboratory-scientific-equipment-web-theme",
+      "designId": "ds-42-web",
+      "headerIdentity": "header-42-web",
+      "headerStructure": "shell-6-composition-7",
+      "footerIdentity": "footer-42-web",
+      "footerStructure": "shell-7-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57494,
+      "cssSha256": "aea7bdb07e3fd4acbcdc4fd66df2cf32eadd50183c2a654ad9a1f0ebb17cc37d",
+      "extractedCss": "backend/storage/themes/web/laboratory-scientific-equipment-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/laboratory-scientific-equipment-web-theme.zip",
+        "storage/themes/web/laboratory-scientific-equipment-web-theme/laboratory-scientific-equipment-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 42,
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "MOBILE",
+      "slug": "laboratory-scientific-equipment-app-theme",
+      "designId": "ds-42-app",
+      "headerIdentity": "header-42-app",
+      "headerStructure": "shell-6-composition-7",
+      "footerIdentity": "footer-42-app",
+      "footerStructure": "shell-7-composition-6",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 37970,
+      "cssSha256": "1eab5ea97bbd982178ec9c788b2fdef47ea2a3d37a4dd773db33c299ebe2b253",
+      "extractedCss": "backend/storage/themes/mobile/laboratory-scientific-equipment-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/laboratory-scientific-equipment-app-theme.zip",
+        "storage/themes/mobile/laboratory-scientific-equipment-app-theme/laboratory-scientific-equipment-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 43,
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "WEB",
+      "slug": "pet-care-veterinary-distribution-web-theme",
+      "designId": "ds-43-web",
+      "headerIdentity": "header-43-web",
+      "headerStructure": "shell-1-composition-8",
+      "footerIdentity": "footer-43-web",
+      "footerStructure": "shell-1-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57616,
+      "cssSha256": "ecbe577853baaedfaadaf2f0a31cd0d0b7862ef5bef824fe310c00b45d0e0d17",
+      "extractedCss": "backend/storage/themes/web/pet-care-veterinary-distribution-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/pet-care-veterinary-distribution-web-theme.zip",
+        "storage/themes/web/pet-care-veterinary-distribution-web-theme/pet-care-veterinary-distribution-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 43,
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "MOBILE",
+      "slug": "pet-care-veterinary-distribution-app-theme",
+      "designId": "ds-43-app",
+      "headerIdentity": "header-43-app",
+      "headerStructure": "shell-1-composition-8",
+      "footerIdentity": "footer-43-app",
+      "footerStructure": "shell-1-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38120,
+      "cssSha256": "9d24fb11b06777625d516c8144d7d95dbfedd9fdb1c6ded09884dbeee207b682",
+      "extractedCss": "backend/storage/themes/mobile/pet-care-veterinary-distribution-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/pet-care-veterinary-distribution-app-theme.zip",
+        "storage/themes/mobile/pet-care-veterinary-distribution-app-theme/pet-care-veterinary-distribution-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 44,
+      "industry": "Toys & General Merchandise",
+      "platform": "WEB",
+      "slug": "toys-general-merchandise-web-theme",
+      "designId": "ds-44-web",
+      "headerIdentity": "header-44-web",
+      "headerStructure": "shell-2-composition-8",
+      "footerIdentity": "footer-44-web",
+      "footerStructure": "shell-2-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57655,
+      "cssSha256": "db874e02d09952176440ec7f7a41d889494e2da0e3c25ed49cddd8edc1859b12",
+      "extractedCss": "backend/storage/themes/web/toys-general-merchandise-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/toys-general-merchandise-web-theme.zip",
+        "storage/themes/web/toys-general-merchandise-web-theme/toys-general-merchandise-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 44,
+      "industry": "Toys & General Merchandise",
+      "platform": "MOBILE",
+      "slug": "toys-general-merchandise-app-theme",
+      "designId": "ds-44-app",
+      "headerIdentity": "header-44-app",
+      "headerStructure": "shell-2-composition-8",
+      "footerIdentity": "footer-44-app",
+      "footerStructure": "shell-2-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38291,
+      "cssSha256": "d2023f05b948c4e01ab037d2b6773caebf7c93a11856338648b84c0fb1e0a6ca",
+      "extractedCss": "backend/storage/themes/mobile/toys-general-merchandise-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/toys-general-merchandise-app-theme.zip",
+        "storage/themes/mobile/toys-general-merchandise-app-theme/toys-general-merchandise-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 45,
+      "industry": "Sports & Fitness Equipment",
+      "platform": "WEB",
+      "slug": "sports-fitness-equipment-web-theme",
+      "designId": "ds-45-web",
+      "headerIdentity": "header-45-web",
+      "headerStructure": "shell-3-composition-8",
+      "footerIdentity": "footer-45-web",
+      "footerStructure": "shell-3-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 58258,
+      "cssSha256": "593cb3eca16a99cf4b72b098dc8802008fb3a9c57eb99093c3139bc1df032401",
+      "extractedCss": "backend/storage/themes/web/sports-fitness-equipment-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/sports-fitness-equipment-web-theme.zip",
+        "storage/themes/web/sports-fitness-equipment-web-theme/sports-fitness-equipment-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 45,
+      "industry": "Sports & Fitness Equipment",
+      "platform": "MOBILE",
+      "slug": "sports-fitness-equipment-app-theme",
+      "designId": "ds-45-app",
+      "headerIdentity": "header-45-app",
+      "headerStructure": "shell-3-composition-8",
+      "footerIdentity": "footer-45-app",
+      "footerStructure": "shell-3-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38563,
+      "cssSha256": "ed6469dc9c0790405203bf92e6e98be9b9c8940b244e047b18cad6f37186438c",
+      "extractedCss": "backend/storage/themes/mobile/sports-fitness-equipment-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/sports-fitness-equipment-app-theme.zip",
+        "storage/themes/mobile/sports-fitness-equipment-app-theme/sports-fitness-equipment-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 46,
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "WEB",
+      "slug": "hospitality-restaurant-supplies-web-theme",
+      "designId": "ds-46-web",
+      "headerIdentity": "header-46-web",
+      "headerStructure": "shell-4-composition-8",
+      "footerIdentity": "footer-46-web",
+      "footerStructure": "shell-4-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57748,
+      "cssSha256": "508acde29fb926cd6b881491af15a2350a70534eb270890c6e6012709af9287b",
+      "extractedCss": "backend/storage/themes/web/hospitality-restaurant-supplies-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/hospitality-restaurant-supplies-web-theme.zip",
+        "storage/themes/web/hospitality-restaurant-supplies-web-theme/hospitality-restaurant-supplies-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 46,
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "MOBILE",
+      "slug": "hospitality-restaurant-supplies-app-theme",
+      "designId": "ds-46-app",
+      "headerIdentity": "header-46-app",
+      "headerStructure": "shell-4-composition-8",
+      "footerIdentity": "footer-46-app",
+      "footerStructure": "shell-4-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38362,
+      "cssSha256": "568390ca5744301eeb67ab8d67ed50f68800c449bed4fcb6bdd59464828207f8",
+      "extractedCss": "backend/storage/themes/mobile/hospitality-restaurant-supplies-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/hospitality-restaurant-supplies-app-theme.zip",
+        "storage/themes/mobile/hospitality-restaurant-supplies-app-theme/hospitality-restaurant-supplies-app-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 47,
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "WEB",
+      "slug": "metals-steel-non-ferrous-trade-web-theme",
+      "designId": "ds-47-web",
+      "headerIdentity": "header-47-web",
+      "headerStructure": "shell-5-composition-8",
+      "footerIdentity": "footer-47-web",
+      "footerStructure": "shell-5-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 57702,
+      "cssSha256": "9dd55fab25b73a82bda7236e5c45e5fa6e00d70059b5371b4c29da026965c07d",
+      "extractedCss": "backend/storage/themes/web/metals-steel-non-ferrous-trade-web-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/web/metals-steel-non-ferrous-trade-web-theme.zip",
+        "storage/themes/web/metals-steel-non-ferrous-trade-web-theme/metals-steel-non-ferrous-trade-web-theme.zip"
+      ]
+    },
+    {
+      "industryOrder": 47,
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "MOBILE",
+      "slug": "metals-steel-non-ferrous-trade-app-theme",
+      "designId": "ds-47-app",
+      "headerIdentity": "header-47-app",
+      "headerStructure": "shell-5-composition-8",
+      "footerIdentity": "footer-47-app",
+      "footerStructure": "shell-5-composition-7",
+      "premiumLayer": "premium-commerce-v1",
+      "cssBytes": 38102,
+      "cssSha256": "6489428f950ee29b7ea67019c609fa17a5c25babb27f3eafb4a484a5481d2187",
+      "extractedCss": "backend/storage/themes/mobile/metals-steel-non-ferrous-trade-app-theme/assets/css/theme.css",
+      "zipFiles": [
+        "exports/industry-theme-zips-v2/app/metals-steel-non-ferrous-trade-app-theme.zip",
+        "storage/themes/mobile/metals-steel-non-ferrous-trade-app-theme/metals-steel-non-ferrous-trade-app-theme.zip"
+      ]
+    }
+  ]
+}

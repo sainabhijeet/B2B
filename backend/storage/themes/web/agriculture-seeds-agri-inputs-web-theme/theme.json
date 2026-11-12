@@ -1,0 +1,93 @@
+{
+  "name": "Agriculture, Seeds & Agri-inputs Web Theme",
+  "version": "5.1.0",
+  "storefrontKey": "agriculture-seeds-agri-inputs-web-theme",
+  "industry": "Agriculture, Seeds & Agri-inputs",
+  "industryId": "10000000-0000-4000-8000-00000000000d",
+  "description": "An original agriculture commerce storefront with an editorial home page and a Field Ledger product-purchasing experience for seeds, crop nutrition, crop care and farm tools.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-13-web",
+    "direction": "Field Atlas agricultural sourcing",
+    "header": "field-horizon",
+    "headerIdentity": "field-horizon-13-web-v1",
+    "headerStructure": "single-row-brand-nav-finder-actions",
+    "hero": "field-horizon-editorial-split",
+    "categories": "field-editorial-gallery",
+    "productCards": "procurement-cards",
+    "productListing": "quick-order",
+    "productDetail": "technical-tabs",
+    "productDetailIdentity": "field-journal-13-web-v2",
+    "footer": "trade-directory",
+    "footerIdentity": "footer-13-web",
+    "footerStructure": "shell-6-composition-2",
+    "density": "balanced",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

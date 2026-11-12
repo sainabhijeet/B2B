@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FurnishPocket",
+        "industryName": "Furniture & Wood Products",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "FurnishPocket / Furniture & Wood Products",
+        "subtitle": "Browse oak accent armchair, upholstered bedside bench and a dedicated furniture & wood products mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find FurnishPocket supplies",
+        "message": "Explore FurnishPocket Living Room, FurnishPocket Bedroom, FurnishPocket Office Furniture, FurnishPocket Wood Panels.",
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "filters-specification-list"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "FurnishPocket restock picks",
+        "subtitle": "Browse oak accent armchair, upholstered bedside bench and a dedicated furniture & wood products mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FurnishPocket Oak Accent Armchair",
+          "FurnishPocket Upholstered Bedside Bench",
+          "FurnishPocket Height Adjustable Desk",
+          "FurnishPocket Laminated MDF Board",
+          "FurnishPocket Compact Coffee Table",
+          "FurnishPocket Bedroom Drawer Chest"
+        ],
+        "prices": [
+          "INR 23,940",
+          "INR 35,840",
+          "INR 7,905",
+          "INR 4,536",
+          "INR 14,060",
+          "INR 14,750"
+        ],
+        "products": [
+          {
+            "id": "furniture-wood-products-app-theme-product-1",
+            "slug": "furnishpocket-oak-accent-armchair",
+            "sku": "APP-20-1",
+            "name": "FurnishPocket Oak Accent Armchair",
+            "description": "Oak Accent Armchair for your furniture & wood products replenishment list. FurnishPocket groups this item with living room so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "living-room",
+            "categoryId": "furniture-wood-products-app-theme-category-1",
+            "categoryName": "FurnishPocket Living Room",
+            "brand": "FurnishPocket",
+            "price": 23940,
+            "currency": "INR",
+            "priceLabel": "INR 23,940",
+            "image": "assets/images/product-01.jpg",
+            "stock": 98,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 28249,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 23940
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 22743
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 21546
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Oak Accent Armchair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "furniture-wood-products-app-theme-product-2",
+            "slug": "furnishpocket-upholstered-bedside-bench",
+            "sku": "APP-20-2",
+            "name": "FurnishPocket Upholstered Bedside Bench",
+            "description": "Upholstered Bedside Bench for your furniture & wood products replenishment list. FurnishPocket groups this item with bedroom so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "bedroom",
+            "categoryId": "furniture-wood-products-app-theme-category-2",
+            "categoryName": "FurnishPocket Bedroom",
+            "brand": "FurnishPocket",
+            "price": 35840,
+            "currency": "INR",
+            "priceLabel": "INR 35,840",
+            "image": "assets/images/product-02.jpg",
+            "stock": 109,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 42291,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 35840
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 34048
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 32256
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Upholstered Bedside Bench",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "furniture-wood-products-app-theme-product-3",
+            "slug": "furnishpocket-height-adjustable-desk",
+            "sku": "APP-20-3",
+            "name": "FurnishPocket Height Adjustable Desk",
+            "description": "Height Adjustable Desk for your furniture & wood products replenishment list. FurnishPocket groups this item with office furniture so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "office-furniture",
+            "categoryId": "furniture-wood-products-app-theme-category-3",
+            "categoryName": "FurnishPocket Office Furniture",
+            "brand": "FurnishPocket",
+            "price": 7905,
+            "currency": "INR",
+            "priceLabel": "INR 7,905",
+            "image": "assets/images/product-03.jpg",
+            "stock": 120,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 9328,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 7905
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 7510
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 7115
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Height Adjustable Desk",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "furniture-wood-products-app-theme-product-4",
+            "slug": "furnishpocket-laminated-mdf-board",
+            "sku": "APP-20-4",
+            "name": "FurnishPocket Laminated MDF Board",
+            "description": "Laminated MDF Board for your furniture & wood products replenishment list. FurnishPocket groups this item with wood panels so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "wood-panels",
+            "categoryId": "furniture-wood-products-app-theme-category-4",
+            "categoryName": "FurnishPocket Wood Panels",
+            "brand": "FurnishPocket",
+            "price": 4536,
+            "currency": "INR",
+            "priceLabel": "INR 4,536",
+            "image": "assets/images/product-04.jpg",
+            "stock": 131,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5352,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 4536
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 4309
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4082
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Laminated MDF Board",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "furniture-wood-products-app-theme-product-5",
+            "slug": "furnishpocket-compact-coffee-table",
+            "sku": "APP-20-5",
+            "name": "FurnishPocket Compact Coffee Table",
+            "description": "Compact Coffee Table for your furniture & wood products replenishment list. FurnishPocket groups this item with living room so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "living-room",
+            "categoryId": "furniture-wood-products-app-theme-category-1",
+            "categoryName": "FurnishPocket Living Room",
+            "brand": "FurnishPocket",
+            "price": 14060,
+            "currency": "INR",
+            "priceLabel": "INR 14,060",
+            "image": "assets/images/product-05.jpg",
+            "stock": 142,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 16591,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 14060
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 13357
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12654
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Compact Coffee Table",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "furniture-wood-products-app-theme-product-6",
+            "slug": "furnishpocket-bedroom-drawer-chest",
+            "sku": "APP-20-6",
+            "name": "FurnishPocket Bedroom Drawer Chest",
+            "description": "Bedroom Drawer Chest for your furniture & wood products replenishment list. FurnishPocket groups this item with bedroom so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "bedroom",
+            "categoryId": "furniture-wood-products-app-theme-category-2",
+            "categoryName": "FurnishPocket Bedroom",
+            "brand": "FurnishPocket",
+            "price": 14750,
+            "currency": "INR",
+            "priceLabel": "INR 14,750",
+            "image": "assets/images/product-06.jpg",
+            "stock": 153,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 17405,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 14750
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 14013
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 13275
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FurnishPocket Bedroom Drawer Chest",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced",
+        "cardStyle": "marketplace",
+        "columns": 1
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your FurnishPocket order",
+        "subtitle": "Review quantities for oak accent armchair with this furniture & wood products preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FurnishPocket",
+        "industryName": "Furniture & Wood Products",
+        "tagline": "Browse oak accent armchair, upholstered bedside bench and a dedicated furniture & wood products mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-20-app",
+        "layoutMode": "specification-list",
+        "density": "balanced"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-20-app"
+}

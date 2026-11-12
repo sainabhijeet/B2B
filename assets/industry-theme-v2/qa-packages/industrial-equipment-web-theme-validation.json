@@ -1,0 +1,46 @@
+{
+  "valid": true,
+  "checked": 1,
+  "web": 1,
+  "app": 0,
+  "uniqueProductNames": 6,
+  "uniqueSourcePhotos": 6,
+  "uniqueDecodedPhotos": 6,
+  "missingAssets": 0,
+  "results": [
+    {
+      "industryOrder": 4,
+      "industryId": "10000000-0000-4000-8000-000000000004",
+      "industry": "Industrial Equipment",
+      "platform": "WEB",
+      "themeName": "Industrial Equipment Web Theme",
+      "slug": "industrial-equipment-web-theme",
+      "zip": "web/industrial-equipment-web-theme.zip",
+      "categories": 4,
+      "products": 6,
+      "version": "1.3.0",
+      "designId": "ds-04-web",
+      "designDirection": "Industrial procurement control room",
+      "designSystem": {
+        "id": "ds-04-web",
+        "direction": "Industrial procurement control room",
+        "header": "plant-ops",
+        "headerIdentity": "header-04-web",
+        "headerStructure": "shell-4-composition-1",
+        "hero": "control-deck",
+        "categories": "operating-zones",
+        "productCards": "spec-card",
+        "productListing": "specification-list",
+        "productDetail": "technical-tabs",
+        "footer": "service-desk",
+        "footerIdentity": "footer-04-web",
+        "footerStructure": "shell-4-composition-1",
+        "density": "compact",
+        "responsiveStrategy": "specification-list-to-mobile-drawer"
+      },
+      "demoBrand": "PlantWorks",
+      "photos": 6,
+      "valid": true
+    }
+  ]
+}

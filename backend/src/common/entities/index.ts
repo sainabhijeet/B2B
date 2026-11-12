@@ -41,6 +41,7 @@ import { InvoiceSetting } from './invoice-setting.entity';
 import { InvoiceItem } from './invoice-item.entity';
 import { Invoice } from './invoice.entity';
 import { MasterBrand } from './master-brand.entity';
+import { MediaFolder } from './media-folder.entity';
 import { MobileRelease } from './mobile-release.entity';
 import { MobileReleaseEvent } from './mobile-release-event.entity';
 import { MobileReleaseSettings } from './mobile-release-settings.entity';
@@ -54,6 +55,7 @@ import { Order } from './order.entity';
 import { CustomerWhatsappPermission } from './customer-whatsapp-permission.entity';
 import { PasswordResetToken } from './password-reset-token.entity';
 import { PlatformWhatsappNumber } from './platform-whatsapp-number.entity';
+import { PlatformStorageProvider } from './platform-storage-provider.entity';
 import { Plan } from './plan.entity';
 import { PlanLimit } from './plan-limit.entity';
 import { ProductImage } from './product-image.entity';
@@ -71,6 +73,7 @@ import { ReferralSetting } from './referral-setting.entity';
 import { SystemConfig } from './system-config.entity';
 import { Subscription } from './subscription.entity';
 import { StockAlertSubscription } from './stock-alert-subscription.entity';
+import { StorageObject } from './storage-object.entity';
 import { SupportTicket } from './support-ticket.entity';
 import { TenantWhatsappMenu } from './tenant-whatsapp-menu.entity';
 import { Tenant } from './tenant.entity';
@@ -81,6 +84,7 @@ import { TenantDistributorApp } from './tenant-app.entity';
 import { TenantDomain } from './tenant-domain.entity';
 import { TenantOnboarding } from './tenant-onboarding.entity';
 import { TenantProfile } from './tenant-profile.entity';
+import { TenantPaymentSettings } from './tenant-payment-settings.entity';
 import { TenantPushConfig } from './tenant-push-config.entity';
 import { TenantSection } from './tenant-section.entity';
 import { TenantTheme } from './tenant-theme.entity';
@@ -97,6 +101,9 @@ import { User } from './user.entity';
 import { UserDeviceToken } from './user-device-token.entity';
 import { WorkerNode } from './worker-node.entity';
 import { WorkerLog } from './worker-log.entity';
+import { StoreRelease } from '../../modules/store-releases/store-release.entity';
+import { StoreReleaseEvent } from '../../modules/store-releases/store-release-event.entity';
+import { StoreReleaseSettings } from '../../modules/store-releases/store-release-settings.entity';
 import { WhatsappMessageTemplate } from './whatsapp-message-template.entity';
 import {
   WhatsappMessage,
@@ -150,6 +157,7 @@ export const APP_ENTITIES = [
   Inventory,
   Industry,
   MasterBrand,
+  MediaFolder,
   MobileRelease,
   MobileReleaseEvent,
   MobileReleaseSettings,
@@ -170,9 +178,14 @@ export const APP_ENTITIES = [
   InvoiceSetting,
   Plan,
   PlatformWhatsappNumber,
+  PlatformStorageProvider,
   PlanLimit,
   Subscription,
   StockAlertSubscription,
+  StorageObject,
+  StoreRelease,
+  StoreReleaseEvent,
+  StoreReleaseSettings,
   SupportTicket,
   Tenant,
   TenantCoupon,
@@ -184,6 +197,7 @@ export const APP_ENTITIES = [
   TenantInvoiceCounter,
   TenantOnboarding,
   TenantProfile,
+  TenantPaymentSettings,
   TenantPushConfig,
   TenantSection,
   TenantTheme,

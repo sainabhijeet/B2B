@@ -2670,6 +2670,33 @@ function Step5({
   const selectedCombo = filteredThemeCombos.find((c) => c.id === draft.comboId) ?? null;
   const isComboMode = draft.platform === "website_and_mobile";
 
+  const selectWebTheme = (themeId: string) => {
+    persist({ ...draft, themeId, comboId: "" });
+  };
+
+  const selectMobileTheme = (mobileThemeId: string) => {
+    // A mobile theme only has meaning when the mobile app is enabled.  The
+    // cards are intentionally available on this step, so selecting one must
+    // enable the matching platform mode instead of being silently cleared by
+    // the platform/theme consistency effect above.
+    persist({
+      ...draft,
+      platform: "website_and_mobile",
+      mobileThemeId,
+      comboId: "",
+    });
+  };
+
+  const selectThemeCombo = (combo: PublicThemeCombo) => {
+    persist({
+      ...draft,
+      platform: "website_and_mobile",
+      comboId: combo.id,
+      themeId: combo.webThemeId,
+      mobileThemeId: combo.mobileThemeId,
+    });
+  };
+
   if (themesLoading || (isComboMode && themeCombosLoading)) {
     return (
       <div>
@@ -2683,6 +2710,12 @@ function Step5({
     <div>
       <h2 className="text-lg font-semibold text-slate-900">Theme</h2>
       <p className="mt-1 text-sm text-slate-600">Choose from Web, Mobile, or pre-matched Combo themes.</p>
+      {!isComboMode ? (
+        <p className="mt-2 rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs text-blue-900">
+          You selected Website Only. Choosing a Mobile or Combo theme here will automatically enable Website +
+          Mobile App setup.
+        </p>
+      ) : null}
       <div className="mt-4 max-w-sm">
         <label className="text-xs font-semibold uppercase tracking-wide text-slate-500">
           Industry filter
@@ -2746,14 +2779,8 @@ function Step5({
                   <button
                     key={combo.id}
                     type="button"
-                    onClick={() =>
-                      persist({
-                        ...draft,
-                        comboId: combo.id,
-                        themeId: combo.webThemeId,
-                        mobileThemeId: combo.mobileThemeId,
-                      })
-                    }
+                    onClick={() => selectThemeCombo(combo)}
+                    aria-pressed={active}
                     className={`rounded-xl border-2 p-4 text-left text-sm transition ${
                       active ? "border-emerald-600 bg-emerald-50/50" : "border-slate-200 hover:border-slate-300"
                     }`}
@@ -2788,7 +2815,8 @@ function Step5({
                     <button
                       key={t.id}
                       type="button"
-                      onClick={() => persist({ ...draft, themeId: t.id, comboId: "" })}
+                      onClick={() => selectWebTheme(t.id)}
+                      aria-pressed={active}
                       className={`rounded-xl border-2 p-4 text-left text-sm transition ${
                         active ? "border-emerald-600 bg-emerald-50/50" : "border-slate-200 hover:border-slate-300"
                       }`}
@@ -2821,7 +2849,8 @@ function Step5({
                     <button
                       key={t.id}
                       type="button"
-                      onClick={() => persist({ ...draft, mobileThemeId: t.id, comboId: "" })}
+                      onClick={() => selectMobileTheme(t.id)}
+                      aria-pressed={active}
                       className={`rounded-xl border-2 p-4 text-left text-sm transition ${
                         active ? "border-indigo-600 bg-indigo-50/50" : "border-slate-200 hover:border-slate-300"
                       }`}
@@ -2845,20 +2874,20 @@ function Step5({
           </div>
         </div>
       </div>
-      {isComboMode && selectedCombo ? (
+      {selectedCombo ? (
         <p className="mt-4 text-xs text-slate-600">
           Selected combo: <span className="font-medium text-slate-800">{selectedCombo.name}</span> (Web:{" "}
           {selectedCombo.webThemeName}, Mobile: {selectedCombo.mobileThemeName})
         </p>
       ) : null}
-      {isComboMode && selectedMobile ? (
-        <p className="mt-2 text-xs text-slate-600">
-          Selected mobile theme: <span className="font-medium text-slate-800">{selectedMobile.themeName}</span>
+      {!selectedCombo && selected ? (
+        <p className="mt-4 text-xs text-slate-600">
+          Selected web theme: <span className="font-medium text-slate-800">{selected.themeName}</span>
         </p>
       ) : null}
-      {!isComboMode && selected ? (
-        <p className="mt-4 text-xs text-slate-600">
-          Selected theme: <span className="font-medium text-slate-800">{selected.themeName}</span>
+      {!selectedCombo && selectedMobile ? (
+        <p className="mt-2 text-xs text-slate-600">
+          Selected mobile theme: <span className="font-medium text-slate-800">{selectedMobile.themeName}</span>
         </p>
       ) : null}
     </div>

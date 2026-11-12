@@ -28,6 +28,7 @@ export default defineConfig({
   },
   server: {
     port: 5174,
+    strictPort: true,
     /** Same-origin `/api/*` → Nest on :3000 avoids CORS and “Failed to fetch” when `VITE_API_URL` is unset in dev. */
     proxy: {
       "/api": {

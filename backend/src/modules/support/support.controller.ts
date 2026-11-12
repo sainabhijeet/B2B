@@ -47,6 +47,19 @@ export class SupportController {
     return this.supportService.list(user);
   }
 
+  @Get('tickets/:id')
+  @Roles(
+    UserRole.SUPER_ADMIN,
+    UserRole.PLATFORM_SUPPORT,
+    UserRole.OWNER,
+    UserRole.MANAGER,
+    UserRole.STAFF,
+    UserRole.CUSTOMER,
+  )
+  findOne(@CurrentUser() user: JwtUserPayload, @Param('id') id: string) {
+    return this.supportService.findOne(user, id);
+  }
+
   @Patch('tickets/:id')
   @Roles(
     UserRole.SUPER_ADMIN,

@@ -1,0 +1,92 @@
+{
+  "name": "Home Decor & Furnishings Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "home-decor-furnishings-web-theme",
+  "industry": "Home Decor & Furnishings",
+  "industryId": "10000000-0000-4000-8000-000000000015",
+  "description": "RoomPalette: Create coordinated interior collections with texture and light. A desktop sourcing assortment. Interior moodboard design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-21-web",
+    "direction": "Interior moodboard",
+    "header": "minimal-mark",
+    "headerIdentity": "header-21-web",
+    "headerStructure": "shell-3-composition-4",
+    "hero": "stacked-center",
+    "categories": "numbered-list",
+    "productCards": "bulk-table",
+    "productListing": "visual-four",
+    "productDetail": "compact-order",
+    "footer": "trade-directory",
+    "footerIdentity": "footer-21-web",
+    "footerStructure": "shell-7-composition-3",
+    "density": "airy",
+    "responsiveStrategy": "visual-four-to-mobile-drawer"
+  }
+}

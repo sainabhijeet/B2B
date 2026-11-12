@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000000a",
+  "industry": "Pharmaceuticals & Healthcare",
+  "themeName": "Pharmaceuticals & Healthcare Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "CareLedger",
+    "industry": "Pharmaceuticals & Healthcare",
+    "tagline": "Source paracetamol tablets, vitamin supplement pack and more from this pharmaceuticals & healthcare trade collection.",
+    "email": "hello@careledger.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "CareLedger quantity rewards",
+      "description": "Compare the sample bulk tiers in CareLedger's pharmaceuticals & healthcare range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "CareLedger sample buyer story",
+      "quote": "Our demo pharmaceuticals & healthcare buying team can compare paracetamol tablets and digital thermometer in one sourcing catalog.",
+      "author": "Fictional CareLedger buyer — demo feedback",
+      "designId": "ds-10-web",
+      "layoutMode": "Clinical formulary",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-category-1",
+      "slug": "prescription-medicines",
+      "name": "CareLedger Prescription Medicines",
+      "description": "Explore CareLedger's prescription medicines selection for pharmaceuticals & healthcare buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-category-2",
+      "slug": "otc-care",
+      "name": "CareLedger OTC Care",
+      "description": "Explore CareLedger's otc care selection for pharmaceuticals & healthcare buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-category-3",
+      "slug": "wellness",
+      "name": "CareLedger Wellness",
+      "description": "Explore CareLedger's wellness selection for pharmaceuticals & healthcare buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-category-4",
+      "slug": "hospital-supplies",
+      "name": "CareLedger Hospital Supplies",
+      "description": "Explore CareLedger's hospital supplies selection for pharmaceuticals & healthcare buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-1",
+      "slug": "careledger-paracetamol-tablets",
+      "sku": "WEB-10-1",
+      "name": "CareLedger Paracetamol Tablets",
+      "description": "Paracetamol Tablets from CareLedger's otc care assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "otc-care",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-2",
+      "categoryName": "CareLedger OTC Care",
+      "brand": "CareLedger",
+      "price": 120,
+      "currency": "INR",
+      "priceLabel": "INR 120",
+      "image": "assets/images/product-01.jpg",
+      "stock": 95,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 142,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 120
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 114
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 108
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger Paracetamol Tablets",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-2",
+      "slug": "careledger-vitamin-supplement-pack",
+      "sku": "WEB-10-2",
+      "name": "CareLedger Vitamin Supplement Pack",
+      "description": "Vitamin Supplement Pack from CareLedger's wellness assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "wellness",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-3",
+      "categoryName": "CareLedger Wellness",
+      "brand": "CareLedger",
+      "price": 480,
+      "currency": "INR",
+      "priceLabel": "INR 480",
+      "image": "assets/images/product-02.jpg",
+      "stock": 106,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 566,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 480
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 456
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 432
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger Vitamin Supplement Pack",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-3",
+      "slug": "careledger-digital-thermometer",
+      "sku": "WEB-10-3",
+      "name": "CareLedger Digital Thermometer",
+      "description": "Digital Thermometer from CareLedger's hospital supplies assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "hospital-supplies",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-4",
+      "categoryName": "CareLedger Hospital Supplies",
+      "brand": "CareLedger",
+      "price": 299,
+      "currency": "INR",
+      "priceLabel": "INR 299",
+      "image": "assets/images/product-03.jpg",
+      "stock": 117,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 353,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 299
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 284
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 269
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger Digital Thermometer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-4",
+      "slug": "careledger-first-aid-refill",
+      "sku": "WEB-10-4",
+      "name": "CareLedger First Aid Refill",
+      "description": "First Aid Refill from CareLedger's hospital supplies assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "hospital-supplies",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-4",
+      "categoryName": "CareLedger Hospital Supplies",
+      "brand": "CareLedger",
+      "price": 650,
+      "currency": "INR",
+      "priceLabel": "INR 650",
+      "image": "assets/images/product-04.jpg",
+      "stock": 128,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 767,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 650
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 618
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 585
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger First Aid Refill",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-5",
+      "slug": "careledger-antiseptic-solution",
+      "sku": "WEB-10-5",
+      "name": "CareLedger Antiseptic Solution",
+      "description": "Antiseptic Solution from CareLedger's hospital supplies assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "hospital-supplies",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-4",
+      "categoryName": "CareLedger Hospital Supplies",
+      "brand": "CareLedger",
+      "price": 180,
+      "currency": "INR",
+      "priceLabel": "INR 180",
+      "image": "assets/images/product-05.jpg",
+      "stock": 139,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 212,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 180
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 171
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 162
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger Antiseptic Solution",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-web-theme-product-6",
+      "slug": "careledger-wellness-protein-jar",
+      "sku": "WEB-10-6",
+      "name": "CareLedger Wellness Protein Jar",
+      "description": "Wellness Protein Jar from CareLedger's wellness assortment. Organize healthcare stock with clear pack and ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "wellness",
+      "categoryId": "pharmaceuticals-healthcare-web-theme-category-3",
+      "categoryName": "CareLedger Wellness",
+      "brand": "CareLedger",
+      "price": 1250,
+      "currency": "INR",
+      "priceLabel": "INR 1,250",
+      "image": "assets/images/product-06.jpg",
+      "stock": 150,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 1475,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 1250
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1188
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1125
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CareLedger Wellness Protein Jar",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-10-web",
+    "direction": "Clinical formulary",
+    "header": "catalog-rail",
+    "headerIdentity": "header-10-web",
+    "headerStructure": "shell-4-composition-2",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "service-desk",
+    "footerIdentity": "footer-10-web",
+    "footerStructure": "shell-3-composition-2",
+    "density": "compact",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

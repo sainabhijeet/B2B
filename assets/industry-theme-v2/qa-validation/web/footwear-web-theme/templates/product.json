@@ -1,0 +1,432 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "StrideFoundry",
+        "industryName": "Footwear",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "New Arrivals",
+          "Offers",
+          "About",
+          "Contact"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "StrideFoundry Leather Oxford Shoes",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "StrideFoundry Leather Oxford Shoes",
+        "subtitle": "Leather Oxford Shoes from StrideFoundry's formal shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 1,799",
+        "description": "Leather Oxford Shoes from StrideFoundry's formal shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-02-1",
+        "stock": 71,
+        "moq": 5,
+        "product": {
+          "id": "footwear-web-theme-product-1",
+          "slug": "stridefoundry-leather-oxford-shoes",
+          "sku": "WEB-02-1",
+          "name": "StrideFoundry Leather Oxford Shoes",
+          "description": "Leather Oxford Shoes from StrideFoundry's formal shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "formal-shoes",
+          "categoryId": "footwear-web-theme-category-1",
+          "categoryName": "StrideFoundry Formal Shoes",
+          "brand": "StrideFoundry",
+          "price": 1799,
+          "currency": "INR",
+          "priceLabel": "INR 1,799",
+          "image": "assets/images/product-01.jpg",
+          "stock": 71,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2123,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 1799
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 1709
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 1619
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: StrideFoundry Leather Oxford Shoes",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "The StrideFoundry edit",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "StrideFoundry Leather Oxford Shoes",
+          "StrideFoundry Performance Sneakers",
+          "StrideFoundry Steel Toe Boots",
+          "StrideFoundry Comfort Sandals",
+          "StrideFoundry Canvas Trainers",
+          "StrideFoundry Worksite Gumboots"
+        ],
+        "prices": [
+          "INR 1,799",
+          "INR 2,499",
+          "INR 1,899",
+          "INR 649",
+          "INR 899",
+          "INR 1,299"
+        ],
+        "products": [
+          {
+            "id": "footwear-web-theme-product-1",
+            "slug": "stridefoundry-leather-oxford-shoes",
+            "sku": "WEB-02-1",
+            "name": "StrideFoundry Leather Oxford Shoes",
+            "description": "Leather Oxford Shoes from StrideFoundry's formal shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "formal-shoes",
+            "categoryId": "footwear-web-theme-category-1",
+            "categoryName": "StrideFoundry Formal Shoes",
+            "brand": "StrideFoundry",
+            "price": 1799,
+            "currency": "INR",
+            "priceLabel": "INR 1,799",
+            "image": "assets/images/product-01.jpg",
+            "stock": 71,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2123,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1799
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1709
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1619
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Leather Oxford Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-web-theme-product-2",
+            "slug": "stridefoundry-performance-sneakers",
+            "sku": "WEB-02-2",
+            "name": "StrideFoundry Performance Sneakers",
+            "description": "Performance Sneakers from StrideFoundry's sports shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "sports-shoes",
+            "categoryId": "footwear-web-theme-category-2",
+            "categoryName": "StrideFoundry Sports Shoes",
+            "brand": "StrideFoundry",
+            "price": 2499,
+            "currency": "INR",
+            "priceLabel": "INR 2,499",
+            "image": "assets/images/product-02.jpg",
+            "stock": 82,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2949,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 2499
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2374
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 2249
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Performance Sneakers",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-web-theme-product-3",
+            "slug": "stridefoundry-steel-toe-boots",
+            "sku": "WEB-02-3",
+            "name": "StrideFoundry Steel Toe Boots",
+            "description": "Steel Toe Boots from StrideFoundry's safety footwear assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "safety-footwear",
+            "categoryId": "footwear-web-theme-category-3",
+            "categoryName": "StrideFoundry Safety Footwear",
+            "brand": "StrideFoundry",
+            "price": 1899,
+            "currency": "INR",
+            "priceLabel": "INR 1,899",
+            "image": "assets/images/product-03.jpg",
+            "stock": 93,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2241,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1899
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1804
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1709
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Steel Toe Boots",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-web-theme-product-4",
+            "slug": "stridefoundry-comfort-sandals",
+            "sku": "WEB-02-4",
+            "name": "StrideFoundry Comfort Sandals",
+            "description": "Comfort Sandals from StrideFoundry's sandals & slippers assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "sandals-slippers",
+            "categoryId": "footwear-web-theme-category-4",
+            "categoryName": "StrideFoundry Sandals & Slippers",
+            "brand": "StrideFoundry",
+            "price": 649,
+            "currency": "INR",
+            "priceLabel": "INR 649",
+            "image": "assets/images/product-04.jpg",
+            "stock": 104,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 766,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 649
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 617
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 584
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Comfort Sandals",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-web-theme-product-5",
+            "slug": "stridefoundry-canvas-trainers",
+            "sku": "WEB-02-5",
+            "name": "StrideFoundry Canvas Trainers",
+            "description": "Canvas Trainers from StrideFoundry's sports shoes assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "sports-shoes",
+            "categoryId": "footwear-web-theme-category-2",
+            "categoryName": "StrideFoundry Sports Shoes",
+            "brand": "StrideFoundry",
+            "price": 899,
+            "currency": "INR",
+            "priceLabel": "INR 899",
+            "image": "assets/images/product-05.jpg",
+            "stock": 115,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1061,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 899
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 854
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 809
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Canvas Trainers",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-web-theme-product-6",
+            "slug": "stridefoundry-worksite-gumboots",
+            "sku": "WEB-02-6",
+            "name": "StrideFoundry Worksite Gumboots",
+            "description": "Worksite Gumboots from StrideFoundry's safety footwear assortment. Build a footwear range for workdays and weekends. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "safety-footwear",
+            "categoryId": "footwear-web-theme-category-3",
+            "categoryName": "StrideFoundry Safety Footwear",
+            "brand": "StrideFoundry",
+            "price": 1299,
+            "currency": "INR",
+            "priceLabel": "INR 1,299",
+            "image": "assets/images/product-06.jpg",
+            "stock": 126,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1533,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1299
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1234
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1169
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StrideFoundry Worksite Gumboots",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Six essential footwear profiles, selected for a balanced retail floor.",
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced",
+        "cardStyle": "image-first",
+        "columns": 4
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the StrideFoundry demo catalog",
+        "items": [
+          {
+            "question": "How are StrideFoundry pack quantities shown?",
+            "answer": "StrideFoundry Leather Oxford Shoes has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are StrideFoundry images supplier photographs?",
+            "answer": "These footwear images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "StrideFoundry",
+        "industryName": "Footwear",
+        "tagline": "Source leather oxford shoes, performance sneakers and more from this footwear trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-02-web",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-02-web"
+}

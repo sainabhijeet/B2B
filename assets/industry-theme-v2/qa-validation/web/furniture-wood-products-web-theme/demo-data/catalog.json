@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000014",
+  "industry": "Furniture & Wood Products",
+  "themeName": "Furniture & Wood Products Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "TimberAssembly",
+    "industry": "Furniture & Wood Products",
+    "tagline": "Source modern three seat sofa, solid wood bed and more from this furniture & wood products trade collection.",
+    "email": "hello@timberassembly.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "TimberAssembly quantity rewards",
+      "description": "Compare the sample bulk tiers in TimberAssembly's furniture & wood products range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "TimberAssembly sample buyer story",
+      "quote": "Our demo furniture & wood products buying team can compare modern three seat sofa and ergonomic office chair in one sourcing catalog.",
+      "author": "Fictional TimberAssembly buyer — demo feedback",
+      "designId": "ds-20-web",
+      "layoutMode": "Furniture room planner",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "furniture-wood-products-web-theme-category-1",
+      "slug": "living-room",
+      "name": "TimberAssembly Living Room",
+      "description": "Explore TimberAssembly's living room selection for furniture & wood products buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "furniture-wood-products-web-theme-category-2",
+      "slug": "bedroom",
+      "name": "TimberAssembly Bedroom",
+      "description": "Explore TimberAssembly's bedroom selection for furniture & wood products buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "furniture-wood-products-web-theme-category-3",
+      "slug": "office-furniture",
+      "name": "TimberAssembly Office Furniture",
+      "description": "Explore TimberAssembly's office furniture selection for furniture & wood products buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "furniture-wood-products-web-theme-category-4",
+      "slug": "wood-panels",
+      "name": "TimberAssembly Wood Panels",
+      "description": "Explore TimberAssembly's wood panels selection for furniture & wood products buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "furniture-wood-products-web-theme-product-1",
+      "slug": "timberassembly-modern-three-seat-sofa",
+      "sku": "WEB-20-1",
+      "name": "TimberAssembly Modern Three Seat Sofa",
+      "description": "Modern Three Seat Sofa from TimberAssembly's living room assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "living-room",
+      "categoryId": "furniture-wood-products-web-theme-category-1",
+      "categoryName": "TimberAssembly Living Room",
+      "brand": "TimberAssembly",
+      "price": 28500,
+      "currency": "INR",
+      "priceLabel": "INR 28,500",
+      "image": "assets/images/product-01.jpg",
+      "stock": 125,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 33630,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 28500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 27075
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 25650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Modern Three Seat Sofa",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "furniture-wood-products-web-theme-product-2",
+      "slug": "timberassembly-solid-wood-bed",
+      "sku": "WEB-20-2",
+      "name": "TimberAssembly Solid Wood Bed",
+      "description": "Solid Wood Bed from TimberAssembly's bedroom assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "bedroom",
+      "categoryId": "furniture-wood-products-web-theme-category-2",
+      "categoryName": "TimberAssembly Bedroom",
+      "brand": "TimberAssembly",
+      "price": 32000,
+      "currency": "INR",
+      "priceLabel": "INR 32,000",
+      "image": "assets/images/product-02.jpg",
+      "stock": 136,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 37760,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 32000
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 30400
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 28800
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Solid Wood Bed",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "furniture-wood-products-web-theme-product-3",
+      "slug": "timberassembly-ergonomic-office-chair",
+      "sku": "WEB-20-3",
+      "name": "TimberAssembly Ergonomic Office Chair",
+      "description": "Ergonomic Office Chair from TimberAssembly's office furniture assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "office-furniture",
+      "categoryId": "furniture-wood-products-web-theme-category-3",
+      "categoryName": "TimberAssembly Office Furniture",
+      "brand": "TimberAssembly",
+      "price": 8500,
+      "currency": "INR",
+      "priceLabel": "INR 8,500",
+      "image": "assets/images/product-03.jpg",
+      "stock": 147,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 10030,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 8500
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 8075
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 7650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Ergonomic Office Chair",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "furniture-wood-products-web-theme-product-4",
+      "slug": "timberassembly-plywood-sheet-bundle",
+      "sku": "WEB-20-4",
+      "name": "TimberAssembly Plywood Sheet Bundle",
+      "description": "Plywood Sheet Bundle from TimberAssembly's wood panels assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "wood-panels",
+      "categoryId": "furniture-wood-products-web-theme-category-4",
+      "categoryName": "TimberAssembly Wood Panels",
+      "brand": "TimberAssembly",
+      "price": 4200,
+      "currency": "INR",
+      "priceLabel": "INR 4,200",
+      "image": "assets/images/product-04.jpg",
+      "stock": 158,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 4956,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 4200
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 3990
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 3780
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Plywood Sheet Bundle",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "furniture-wood-products-web-theme-product-5",
+      "slug": "timberassembly-dining-table-set",
+      "sku": "WEB-20-5",
+      "name": "TimberAssembly Dining Table Set",
+      "description": "Dining Table Set from TimberAssembly's living room assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "living-room",
+      "categoryId": "furniture-wood-products-web-theme-category-1",
+      "categoryName": "TimberAssembly Living Room",
+      "brand": "TimberAssembly",
+      "price": 18500,
+      "currency": "INR",
+      "priceLabel": "INR 18,500",
+      "image": "assets/images/product-05.jpg",
+      "stock": 169,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 21830,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 18500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 17575
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 16650
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Dining Table Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "furniture-wood-products-web-theme-product-6",
+      "slug": "timberassembly-modular-storage-cabinet",
+      "sku": "WEB-20-6",
+      "name": "TimberAssembly Modular Storage Cabinet",
+      "description": "Modular Storage Cabinet from TimberAssembly's office furniture assortment. Source furniture with a material-first approach to spaces. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "office-furniture",
+      "categoryId": "furniture-wood-products-web-theme-category-3",
+      "categoryName": "TimberAssembly Office Furniture",
+      "brand": "TimberAssembly",
+      "price": 12500,
+      "currency": "INR",
+      "priceLabel": "INR 12,500",
+      "image": "assets/images/product-06.jpg",
+      "stock": 180,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 14750,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 12500
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 11875
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 11250
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: TimberAssembly Modular Storage Cabinet",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-20-web",
+    "direction": "Furniture room planner",
+    "header": "centered-nav",
+    "headerIdentity": "header-20-web",
+    "headerStructure": "shell-2-composition-4",
+    "hero": "mosaic",
+    "categories": "sidebar-index",
+    "productCards": "image-first",
+    "productListing": "specification-list",
+    "productDetail": "gallery-right",
+    "footer": "commerce-columns",
+    "footerIdentity": "footer-20-web",
+    "footerStructure": "shell-6-composition-3",
+    "density": "balanced",
+    "responsiveStrategy": "specification-list-to-mobile-drawer"
+  }
+}

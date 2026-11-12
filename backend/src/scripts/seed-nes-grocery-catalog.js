@@ -3,10 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const { Client } = require('../../node_modules/pg');
 
-const root = path.resolve(__dirname, '../../../..');
-const seedDir = path.join(
-  root,
-  'exports/mobile-themes/grocery_theme_pack/database',
+const seedDir = path.resolve(
+  __dirname,
+  '../../storage/themes/mobile/grocery/database',
 );
 
 function readSeed(name) {
@@ -70,6 +69,38 @@ async function hasTable(client, schema, table) {
   return res.rows[0]?.ok === true;
 }
 
+async function upsertPriceSlabs(client, schema, products) {
+  if (!(await hasTable(client, schema, 'quantity_prices'))) return 0;
+  let count = 0;
+  for (const product of products) {
+    const variantId = uuidFor(`${product.id}:default`);
+    const priceSlabs = Array.isArray(product.price_slabs)
+      ? product.price_slabs
+      : [];
+    for (const slab of priceSlabs) {
+      const minQty = Math.max(1, Math.trunc(number(slab.min_qty, 1)));
+      const tierPrice = number(slab.price);
+      if (tierPrice <= 0) continue;
+      await client.query(
+        `insert into "${schema}".quantity_prices
+          (id, product_variant_id, min_qty, price, created_at, updated_at)
+         values ($1,$2,$3,$4,now(),now())
+         on conflict (product_variant_id, min_qty) do update set
+          price = excluded.price,
+          updated_at = now()`,
+        [
+          uuidFor(`${product.id}:price-slab:${minQty}`),
+          variantId,
+          minQty,
+          tierPrice,
+        ],
+      );
+      count += 1;
+    }
+  }
+  return count;
+}
+
 async function main() {
   const targetSlug = (process.env.SEED_TENANT_SLUG || '').trim().toLowerCase();
   const client = new Client({
@@ -113,6 +144,31 @@ async function main() {
   const subcategories = readSeed('subcategories_seed.json');
   const brands = readSeed('brands_seed.json');
   const products = readSeed('products_seed.json');
+
+  if (process.env.SEED_PRICES_ONLY === 'true') {
+    await client.query('begin');
+    try {
+      const quantityPriceTiers = await upsertPriceSlabs(
+        client,
+        schema,
+        products,
+      );
+      await client.query('commit');
+      console.log(
+        JSON.stringify(
+          { tenant: tenant.slug, schema, quantityPriceTiers },
+          null,
+          2,
+        ),
+      );
+    } catch (error) {
+      await client.query('rollback');
+      throw error;
+    } finally {
+      await client.end();
+    }
+    return;
+  }
 
   const industry = await client.query(
     `select industry_id from industries where lower(name) = lower($1) limit 1`,
@@ -362,6 +418,8 @@ async function main() {
         }
       }
     }
+
+    await upsertPriceSlabs(client, schema, products);
 
     await client.query(
       `update themes

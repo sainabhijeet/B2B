@@ -1,0 +1,997 @@
+{
+  "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f%26tenant=ab-jewelry%26wbPreview=152%26previewMode=1",
+  "desktop": {
+    "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f%26tenant=ab-jewelry%26wbPreview=152%26previewMode=1",
+    "title": "Glowora",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "page": {
+      "width": 1440,
+      "height": 1000
+    },
+    "bodyClass": "__variable_246ccd __variable_c29908 min-h-screen antialiased",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Theme setup incomplete"
+      },
+      {
+        "level": "h2",
+        "text": "Shop"
+      },
+      {
+        "level": "h2",
+        "text": "Account"
+      },
+      {
+        "level": "h2",
+        "text": "Help center"
+      },
+      {
+        "level": "h2",
+        "text": "Company"
+      }
+    ],
+    "sections": [],
+    "navLinks": [
+      {
+        "text": "GloworaBeauty & Personal Care",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "flex min-w-0 shrink-0 items-center gap-3"
+      },
+      {
+        "text": "My AccountLogin / Register",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "group hidden items-center gap-2.5 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "group relative hidden items-center gap-2 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex"
+      },
+      {
+        "text": "Home",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-[var(--header-primary)]"
+      },
+      {
+        "text": "Categories",
+        "href": "http://ab-jewelry.localhost:5175/category",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Categories",
+        "href": "http://ab-jewelry.localhost:5175/category",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "My account",
+        "href": "http://ab-jewelry.localhost:5175/account",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Orders",
+        "href": "http://ab-jewelry.localhost:5175/orders",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Cart",
+        "href": "http://ab-jewelry.localhost:5175/cart",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Need help?",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Login",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "className": "flex w-[58px] shrink-0 items-center justify-center rounded-r-[27px] text-white transition hover:brightness-95 sm:w-[64px]"
+      },
+      {
+        "text": "CartINR 0.00",
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]"
+      }
+    ],
+    "carousels": [],
+    "animations": [
+      {
+        "tag": "div",
+        "id": null,
+        "className": "flex h-[52px] w-full items-stretch overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_2px_8px_rgba(15,23,42,0.04)] transition focus-within:border-[var(--head",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex w-[58px] shrink-0 items-center justify-center rounded-r-[27px] text-white transition hover:brightness-95 sm:w-[64px]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "circle",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group hidden items-center gap-2.5 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "circle",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative hidden items-center gap-2 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "span",
+        "id": null,
+        "className": "absolute inset-x-0 bottom-0 h-[3px] rounded-t-full bg-[var(--header-primary)] transition-transform scale-x-100",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=05408815-20d6-4dda-ac52-d4f9c1740e06",
+        "alt": "Glowora",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=05408815-20d6-4dda-ac52-d4f9c1740e06",
+        "alt": "",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      }
+    ],
+    "backgrounds": [],
+    "forms": [
+      {
+        "action": "http://ab-jewelry.localhost:5175/search",
+        "method": "get",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "search",
+            "name": "q",
+            "placeholder": "Search products, brands and more..."
+          },
+          {
+            "tag": "select",
+            "type": "select-one",
+            "name": "category",
+            "placeholder": null
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "placeholder": null
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/main-app.js?v=1792999449663",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app-pages-internals.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/page.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/layout.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/polyfills.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/webpack.js?v=1792999449663"
+    ],
+    "stylesheets": [
+      "http://ab-jewelry.localhost:5175/_next/static/css/app/layout.css?v=1792999449663"
+    ]
+  },
+  "mobile": {
+    "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f%26tenant=ab-jewelry%26wbPreview=152%26previewMode=1",
+    "title": "Glowora",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "page": {
+      "width": 390,
+      "height": 1183
+    },
+    "bodyClass": "__variable_246ccd __variable_c29908 min-h-screen antialiased",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Theme setup incomplete"
+      },
+      {
+        "level": "h2",
+        "text": "Shop"
+      },
+      {
+        "level": "h2",
+        "text": "Account"
+      },
+      {
+        "level": "h2",
+        "text": "Help center"
+      },
+      {
+        "level": "h2",
+        "text": "Company"
+      }
+    ],
+    "sections": [],
+    "navLinks": [
+      {
+        "text": "GloworaBeauty & Personal Care",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "flex min-w-0 shrink-0 items-center gap-3"
+      },
+      {
+        "text": "Home",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition bg-[var(--header-soft)] text-[var(--header-primary)]"
+      },
+      {
+        "text": "Categories",
+        "href": "http://ab-jewelry.localhost:5175/category",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Login / Register",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+      },
+      {
+        "text": "Categories",
+        "href": "http://ab-jewelry.localhost:5175/category",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "My account",
+        "href": "http://ab-jewelry.localhost:5175/account",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Orders",
+        "href": "http://ab-jewelry.localhost:5175/orders",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Cart",
+        "href": "http://ab-jewelry.localhost:5175/cart",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Need help?",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Login",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CartINR 0.00",
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "",
+        "className": "flex w-[58px] shrink-0 items-center justify-center rounded-r-[27px] text-white transition hover:brightness-95 sm:w-[64px]"
+      }
+    ],
+    "carousels": [],
+    "animations": [
+      {
+        "tag": "button",
+        "id": null,
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition bg-[var(--header-soft)] text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "className": "flex h-[52px] w-full items-stretch overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_2px_8px_rgba(15,23,42,0.04)] transition focus-within:border-[var(--head",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex w-[58px] shrink-0 items-center justify-center rounded-r-[27px] text-white transition hover:brightness-95 sm:w-[64px]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "circle",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=05408815-20d6-4dda-ac52-d4f9c1740e06",
+        "alt": "Glowora",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=05408815-20d6-4dda-ac52-d4f9c1740e06",
+        "alt": "",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      }
+    ],
+    "backgrounds": [],
+    "forms": [
+      {
+        "action": "http://ab-jewelry.localhost:5175/search",
+        "method": "get",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "search",
+            "name": "q",
+            "placeholder": "Search products, brands and more..."
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "placeholder": null
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/main-app.js?v=1792999466615",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app-pages-internals.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/page.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/layout.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/polyfills.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/webpack.js?v=1792999466615"
+    ],
+    "stylesheets": [
+      "http://ab-jewelry.localhost:5175/_next/static/css/app/layout.css?v=1792999466615"
+    ]
+  }
+}

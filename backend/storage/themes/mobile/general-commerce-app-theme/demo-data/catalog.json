@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000007",
+  "industry": "General Commerce",
+  "themeName": "General Commerce App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "DailyDepot",
+    "industry": "General Commerce",
+    "tagline": "Browse cleaning supply carton, dispatch desk bundle and a dedicated general commerce mobile assortment.",
+    "email": "hello@dailydepot.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "DailyDepot quantity rewards",
+      "description": "Compare the sample bulk tiers in DailyDepot's general commerce range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "DailyDepot sample buyer story",
+      "quote": "Our demo general commerce buying team can compare cleaning supply carton and stackable utility basket in one restock list.",
+      "author": "Fictional DailyDepot buyer — demo feedback",
+      "designId": "ds-07-app",
+      "layoutMode": "Merchant marketplace / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "general-commerce-app-theme-category-1",
+      "slug": "daily-essentials",
+      "name": "DailyDepot Daily Essentials",
+      "description": "Pick daily essentials for your general commerce replenishment list with DailyDepot.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "general-commerce-app-theme-category-2",
+      "slug": "business-supplies",
+      "name": "DailyDepot Business Supplies",
+      "description": "Pick business supplies for your general commerce replenishment list with DailyDepot.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "general-commerce-app-theme-category-3",
+      "slug": "home-utility",
+      "name": "DailyDepot Home Utility",
+      "description": "Pick home utility for your general commerce replenishment list with DailyDepot.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "general-commerce-app-theme-category-4",
+      "slug": "seasonal-deals",
+      "name": "DailyDepot Seasonal Deals",
+      "description": "Pick seasonal deals for your general commerce replenishment list with DailyDepot.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "general-commerce-app-theme-product-1",
+      "slug": "dailydepot-cleaning-supply-carton",
+      "sku": "APP-07-1",
+      "name": "DailyDepot Cleaning Supply Carton",
+      "description": "Cleaning Supply Carton for your general commerce replenishment list. DailyDepot groups this item with daily essentials so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "daily-essentials",
+      "categoryId": "general-commerce-app-theme-category-1",
+      "categoryName": "DailyDepot Daily Essentials",
+      "brand": "DailyDepot",
+      "price": 293,
+      "currency": "INR",
+      "priceLabel": "INR 293",
+      "image": "assets/images/product-01.jpg",
+      "stock": 59,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 346,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 293
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 278
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 264
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Cleaning Supply Carton",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "general-commerce-app-theme-product-2",
+      "slug": "dailydepot-dispatch-desk-bundle",
+      "sku": "APP-07-2",
+      "name": "DailyDepot Dispatch Desk Bundle",
+      "description": "Dispatch Desk Bundle for your general commerce replenishment list. DailyDepot groups this item with business supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "business-supplies",
+      "categoryId": "general-commerce-app-theme-category-2",
+      "categoryName": "DailyDepot Business Supplies",
+      "brand": "DailyDepot",
+      "price": 1679,
+      "currency": "INR",
+      "priceLabel": "INR 1,679",
+      "image": "assets/images/product-02.jpg",
+      "stock": 70,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 1981,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 1679
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 1595
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1511
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Dispatch Desk Bundle",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "general-commerce-app-theme-product-3",
+      "slug": "dailydepot-stackable-utility-basket",
+      "sku": "APP-07-3",
+      "name": "DailyDepot Stackable Utility Basket",
+      "description": "Stackable Utility Basket for your general commerce replenishment list. DailyDepot groups this item with home utility so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "home-utility",
+      "categoryId": "general-commerce-app-theme-category-3",
+      "categoryName": "DailyDepot Home Utility",
+      "brand": "DailyDepot",
+      "price": 557,
+      "currency": "INR",
+      "priceLabel": "INR 557",
+      "image": "assets/images/product-03.jpg",
+      "stock": 81,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 657,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 557
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 529
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 501
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Stackable Utility Basket",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "general-commerce-app-theme-product-4",
+      "slug": "dailydepot-winter-gift-box",
+      "sku": "APP-07-4",
+      "name": "DailyDepot Winter Gift Box",
+      "description": "Winter Gift Box for your general commerce replenishment list. DailyDepot groups this item with seasonal deals so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "seasonal-deals",
+      "categoryId": "general-commerce-app-theme-category-4",
+      "categoryName": "DailyDepot Seasonal Deals",
+      "brand": "DailyDepot",
+      "price": 971,
+      "currency": "INR",
+      "priceLabel": "INR 971",
+      "image": "assets/images/product-04.jpg",
+      "stock": 92,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1146,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 971
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 922
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 874
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Winter Gift Box",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "general-commerce-app-theme-product-5",
+      "slug": "dailydepot-household-tissue-case",
+      "sku": "APP-07-5",
+      "name": "DailyDepot Household Tissue Case",
+      "description": "Household Tissue Case for your general commerce replenishment list. DailyDepot groups this item with daily essentials so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "daily-essentials",
+      "categoryId": "general-commerce-app-theme-category-1",
+      "categoryName": "DailyDepot Daily Essentials",
+      "brand": "DailyDepot",
+      "price": 987,
+      "currency": "INR",
+      "priceLabel": "INR 987",
+      "image": "assets/images/product-05.jpg",
+      "stock": 103,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1165,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 987
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 938
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 888
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Household Tissue Case",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "general-commerce-app-theme-product-6",
+      "slug": "dailydepot-packing-station-starter-set",
+      "sku": "APP-07-6",
+      "name": "DailyDepot Packing Station Starter Set",
+      "description": "Packing Station Starter Set for your general commerce replenishment list. DailyDepot groups this item with business supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "business-supplies",
+      "categoryId": "general-commerce-app-theme-category-2",
+      "categoryName": "DailyDepot Business Supplies",
+      "brand": "DailyDepot",
+      "price": 2123,
+      "currency": "INR",
+      "priceLabel": "INR 2,123",
+      "image": "assets/images/product-06.jpg",
+      "stock": 114,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 2505,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 2123
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2017
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1911
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DailyDepot Packing Station Starter Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-07-app",
+    "direction": "Merchant marketplace / pocket workflow",
+    "header": "minimal-mark",
+    "headerIdentity": "header-07-app",
+    "headerStructure": "shell-1-composition-2",
+    "hero": "mosaic",
+    "categories": "sidebar-index",
+    "productCards": "image-first",
+    "productListing": "visual-four",
+    "productDetail": "compact-order",
+    "footer": "newsletter-led",
+    "footerIdentity": "footer-07-app",
+    "footerStructure": "shell-7-composition-1",
+    "density": "compact",
+    "responsiveStrategy": "story"
+  }
+}

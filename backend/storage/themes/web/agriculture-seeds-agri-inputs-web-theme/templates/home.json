@@ -1,0 +1,490 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FieldSupply",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Buying Guide"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "field-horizon"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "FIELD-TO-ORDER SOURCING",
+        "title": "Plan the season. Source every field essential.",
+        "subtitle": "Compare seeds, crop nutrition, crop protection and field equipment—with pack, quantity and bulk-order details in one buyer-ready catalog.",
+        "primaryCta": "Browse field inputs",
+        "secondaryCta": "Build a bulk order",
+        "secondaryHref": "/bulk-orders",
+        "image": "assets/images/hero-field-panorama.png",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "hero-field-horizon"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Source by field requirement",
+        "subtitle": "Move from planting to crop care with focused collections for every stage of the season.",
+        "images": [
+          "assets/images/category-seeds-editorial-v2.webp",
+          "assets/images/category-nutrition-editorial-v2.webp",
+          "assets/images/category-crop-care-editorial-v2.webp",
+          "assets/images/category-field-tools-editorial-v2.webp"
+        ],
+        "labels": [
+          "FieldSupply Seeds",
+          "FieldSupply Fertilizers",
+          "FieldSupply Crop Protection",
+          "FieldSupply Farm Tools"
+        ],
+        "categories": [
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-category-1",
+            "slug": "seeds",
+            "name": "FieldSupply Seeds",
+            "description": "Hybrid and open-pollinated seed options organised for faster trade comparison.",
+            "image": "assets/images/category-seeds-editorial-v2.webp"
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-category-2",
+            "slug": "fertilizers",
+            "name": "FieldSupply Fertilizers",
+            "description": "Crop nutrition inputs with pack, MOQ and quantity-break details in one place.",
+            "image": "assets/images/category-nutrition-editorial-v2.webp"
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-category-3",
+            "slug": "crop-protection",
+            "name": "FieldSupply Crop Protection",
+            "description": "Crop-care essentials presented for responsible, requirement-led sourcing.",
+            "image": "assets/images/category-crop-care-editorial-v2.webp"
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "slug": "farm-tools",
+            "name": "FieldSupply Farm Tools",
+            "description": "Practical planting, irrigation and soil-check tools for field operations.",
+            "image": "assets/images/category-field-tools-editorial-v2.webp"
+          }
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced",
+        "categoryStyle": "horizontal-rail"
+      },
+      "variant": "categories-field-editorial"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "A CLEARER SOURCING ROUTE",
+        "title": "Plan the field. Build one order.",
+        "items": [
+          {
+            "icon": "01",
+            "title": "Set the field plan",
+            "text": "Start with crop, acreage and field priorities to focus the inputs that matter."
+          },
+          {
+            "icon": "02",
+            "title": "Compare with clarity",
+            "text": "Review pack sizes, MOQs and quantity breaks side by side before shortlisting."
+          },
+          {
+            "icon": "03",
+            "title": "Build the seasonal order",
+            "text": "Bring seed, nutrition, crop care and essential tools into one sourcing list."
+          }
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "The field-ready trade edit",
+        "subtitle": "A focused assortment across seed, crop nutrition, protection, irrigation and soil monitoring.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FieldSupply Hybrid Maize Seeds",
+          "FieldSupply Organic Growth Fertilizer",
+          "FieldSupply Crop Protection Spray",
+          "FieldSupply Manual Seed Planter",
+          "FieldSupply Drip Irrigation Kit",
+          "FieldSupply Soil Testing Meter"
+        ],
+        "prices": [
+          "INR 850",
+          "INR 1,250",
+          "INR 650",
+          "INR 4,500",
+          "INR 2,800",
+          "INR 1,499"
+        ],
+        "products": [
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-1",
+            "slug": "fieldsupply-hybrid-maize-seeds",
+            "sku": "WEB-13-1",
+            "name": "FieldSupply Hybrid Maize Seeds",
+            "description": "Hybrid Maize Seeds from FieldSupply's seeds assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "seeds",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-1",
+            "categoryName": "FieldSupply Seeds",
+            "brand": "FieldSupply",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-01.jpg",
+            "stock": 104,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Hybrid Maize Seeds",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-2",
+            "slug": "fieldsupply-organic-growth-fertilizer",
+            "sku": "WEB-13-2",
+            "name": "FieldSupply Organic Growth Fertilizer",
+            "description": "Organic Growth Fertilizer from FieldSupply's fertilizers assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "fertilizers",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-2",
+            "categoryName": "FieldSupply Fertilizers",
+            "brand": "FieldSupply",
+            "price": 1250,
+            "currency": "INR",
+            "priceLabel": "INR 1,250",
+            "image": "assets/images/product-02.jpg",
+            "stock": 115,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1475,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1250
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1188
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1125
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Organic Growth Fertilizer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-3",
+            "slug": "fieldsupply-crop-protection-spray",
+            "sku": "WEB-13-3",
+            "name": "FieldSupply Crop Protection Spray",
+            "description": "Crop Protection Spray from FieldSupply's crop protection assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "crop-protection",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-3",
+            "categoryName": "FieldSupply Crop Protection",
+            "brand": "FieldSupply",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 126,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Crop Protection Spray",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-4",
+            "slug": "fieldsupply-manual-seed-planter",
+            "sku": "WEB-13-4",
+            "name": "FieldSupply Manual Seed Planter",
+            "description": "Manual Seed Planter from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 4500,
+            "currency": "INR",
+            "priceLabel": "INR 4,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 137,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5310,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 4500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4275
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 4050
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Manual Seed Planter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-5",
+            "slug": "fieldsupply-drip-irrigation-kit",
+            "sku": "WEB-13-5",
+            "name": "FieldSupply Drip Irrigation Kit",
+            "description": "Drip Irrigation Kit from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 2800,
+            "currency": "INR",
+            "priceLabel": "INR 2,800",
+            "image": "assets/images/product-05.jpg",
+            "stock": 148,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3304,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2800
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2660
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2520
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Drip Irrigation Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-6",
+            "slug": "fieldsupply-soil-testing-meter",
+            "sku": "WEB-13-6",
+            "name": "FieldSupply Soil Testing Meter",
+            "description": "Soil Testing Meter from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-06.jpg",
+            "stock": 159,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Soil Testing Meter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced",
+        "cardStyle": "bulk-table",
+        "columns": 3
+      },
+      "variant": "products-field-grid"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "THE SEASONAL ORDER DESK",
+        "title": "One season. One field-ready assortment.",
+        "body": "Bring seed, crop nutrition, crop care and irrigation essentials into one sourcing plan your buying team can review with confidence.",
+        "ctaLabel": "Build a seasonal order",
+        "ctaUrl": "/bulk-orders",
+        "highlights": [
+          "Compare MOQ and pack sizes",
+          "Group inputs by crop stage",
+          "Plan bulk quantities",
+          "Keep every input in one order"
+        ],
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "A CLEARER WAY TO BUY FOR THE SEASON",
+        "quote": "Plan one seasonal list, compare the essentials, and move from field requirement to order with clarity.",
+        "author": "FieldSupply preview · fictional buyer note",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Field notes for the next sowing window",
+        "subtitle": "Occasional demo updates on new seed, crop-care and equipment collections.",
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FieldSupply",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "tagline": "A focused B2B sourcing desk for seeds, crop nutrition, crop care and field equipment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "Seasonal field trade desk",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-13-web"
+}

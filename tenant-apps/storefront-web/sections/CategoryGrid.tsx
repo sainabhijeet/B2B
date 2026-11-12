@@ -11,10 +11,43 @@ type Props = {
   imageCenter?: string;
   imageRight?: string;
   categories?: unknown;
+  previewCatalog?: boolean;
   title?: string;
   subtitle?: string;
   languageCode?: string;
+  variant?: string;
 };
+
+type PreviewCategory = {
+  slug: string;
+  name: string;
+  description: string;
+  imageUrl?: string;
+};
+
+function slugify(value: string): string {
+  return value
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/gu, "-")
+    .replace(/^-+|-+$/gu, "");
+}
+
+function normalizePreviewCategories(value: unknown): PreviewCategory[] {
+  if (!Array.isArray(value)) return [];
+  return value.flatMap((item, index) => {
+    if (!item || typeof item !== "object" || Array.isArray(item)) return [];
+    const row = item as Record<string, unknown>;
+    const name = String(row.name ?? row.title ?? "").trim();
+    if (!name) return [];
+    return [{
+      slug: String(row.slug ?? "").trim() || slugify(name) || `preview-category-${index + 1}`,
+      name,
+      description: String(row.description ?? row.subtitle ?? `Explore ${name}`).trim(),
+      imageUrl: String(row.image ?? row.imageUrl ?? row.image_url ?? "").trim() || undefined,
+    }];
+  });
+}
 
 export default async function CategoryGrid({
   themeKey,
@@ -24,11 +57,15 @@ export default async function CategoryGrid({
   imageCenter,
   imageRight,
   categories: configuredCategories,
+  previewCatalog = false,
   title,
   subtitle,
   languageCode,
+  variant,
 }: Props) {
-  const categories = await listCategories();
+  const previewCategories = normalizePreviewCategories(configuredCategories);
+  const liveCategories = previewCatalog && previewCategories.length > 0 ? [] : await listCategories();
+  const categories = previewCatalog ? previewCategories : liveCategories;
   const k = themeKey ?? "jewellery";
   /** Category list API has no image URL yet — optional hero from theme template only. */
   const cardImage = image || imageLeft || imageCenter || imageRight;
@@ -67,11 +104,15 @@ export default async function CategoryGrid({
               description={t(c.description)}
               image={
                 c.imageUrl ||
-                configuredImages[index] ||
-                (cardImages.length ? cardImages[index % cardImages.length] : undefined) ||
-                cardImage
+                (previewCatalog
+                  ? configuredImages[index] ||
+                    (cardImages.length ? cardImages[index % cardImages.length] : undefined) ||
+                    cardImage
+                  : undefined)
               }
               languageCode={languageCode}
+              variant={variant?.replace(/^categories-/u, "")}
+              index={index}
             />
           ))}
         </div>

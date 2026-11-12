@@ -103,7 +103,11 @@ export class DistributorPanelController {
     @Req() req: AuthenticatedRequest,
     @Body() dto: UpdatePaymentSettingsDto,
   ) {
-    return this.panel.patchPaymentSettings(this.tenantId(req), dto);
+    return this.panel.patchPaymentSettings(
+      this.tenantId(req),
+      req.user.sub,
+      dto,
+    );
   }
 
   /** Read-only WhatsApp stats; no phone number id or access token. */

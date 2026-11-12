@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MaterialBridge",
+        "industryName": "Chemicals & Specialty Materials",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact"
+      },
+      "variant": "material-orbit-console"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "MaterialBridge Industrial Grade Solvent",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact"
+      },
+      "variant": "gallery-full-gallery"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "MaterialBridge Industrial Grade Solvent",
+        "subtitle": "Industrial Grade Solvent from MaterialBridge's solvents assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 2,400",
+        "description": "Industrial Grade Solvent from MaterialBridge's solvents assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-16-1",
+        "stock": 113,
+        "moq": 5,
+        "product": {
+          "id": "chemicals-specialty-materials-web-theme-product-1",
+          "slug": "materialbridge-industrial-grade-solvent",
+          "sku": "WEB-16-1",
+          "name": "MaterialBridge Industrial Grade Solvent",
+          "description": "Industrial Grade Solvent from MaterialBridge's solvents assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "solvents",
+          "categoryId": "chemicals-specialty-materials-web-theme-category-2",
+          "categoryName": "MaterialBridge Solvents",
+          "brand": "MaterialBridge",
+          "price": 2400,
+          "currency": "INR",
+          "priceLabel": "INR 2,400",
+          "image": "assets/images/product-01.jpg",
+          "stock": 113,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2832,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 2400
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 2280
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 2160
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: MaterialBridge Industrial Grade Solvent",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact"
+      },
+      "variant": "info-full-gallery"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "MaterialBridge trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MaterialBridge Industrial Grade Solvent",
+          "MaterialBridge Food Safe Additive",
+          "MaterialBridge Performance Catalyst",
+          "MaterialBridge Degreasing Chemical",
+          "MaterialBridge Water Treatment Compound",
+          "MaterialBridge Specialty Resin Drum"
+        ],
+        "prices": [
+          "INR 2,400",
+          "INR 1,850",
+          "INR 6,500",
+          "INR 950",
+          "INR 1,800",
+          "INR 4,800"
+        ],
+        "products": [
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-1",
+            "slug": "materialbridge-industrial-grade-solvent",
+            "sku": "WEB-16-1",
+            "name": "MaterialBridge Industrial Grade Solvent",
+            "description": "Industrial Grade Solvent from MaterialBridge's solvents assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "solvents",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-2",
+            "categoryName": "MaterialBridge Solvents",
+            "brand": "MaterialBridge",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-01.jpg",
+            "stock": 113,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Industrial Grade Solvent",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-2",
+            "slug": "materialbridge-food-safe-additive",
+            "sku": "WEB-16-2",
+            "name": "MaterialBridge Food Safe Additive",
+            "description": "Food Safe Additive from MaterialBridge's specialty additives assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "specialty-additives",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-3",
+            "categoryName": "MaterialBridge Specialty Additives",
+            "brand": "MaterialBridge",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-02.jpg",
+            "stock": 124,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Food Safe Additive",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-3",
+            "slug": "materialbridge-performance-catalyst",
+            "sku": "WEB-16-3",
+            "name": "MaterialBridge Performance Catalyst",
+            "description": "Performance Catalyst from MaterialBridge's specialty additives assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "specialty-additives",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-3",
+            "categoryName": "MaterialBridge Specialty Additives",
+            "brand": "MaterialBridge",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 135,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Performance Catalyst",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-4",
+            "slug": "materialbridge-degreasing-chemical",
+            "sku": "WEB-16-4",
+            "name": "MaterialBridge Degreasing Chemical",
+            "description": "Degreasing Chemical from MaterialBridge's cleaning chemicals assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cleaning-chemicals",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-4",
+            "categoryName": "MaterialBridge Cleaning Chemicals",
+            "brand": "MaterialBridge",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-04.jpg",
+            "stock": 146,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Degreasing Chemical",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-5",
+            "slug": "materialbridge-water-treatment-compound",
+            "sku": "WEB-16-5",
+            "name": "MaterialBridge Water Treatment Compound",
+            "description": "Water Treatment Compound from MaterialBridge's industrial chemicals assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "industrial-chemicals",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-1",
+            "categoryName": "MaterialBridge Industrial Chemicals",
+            "brand": "MaterialBridge",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-05.jpg",
+            "stock": 157,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Water Treatment Compound",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "chemicals-specialty-materials-web-theme-product-6",
+            "slug": "materialbridge-specialty-resin-drum",
+            "sku": "WEB-16-6",
+            "name": "MaterialBridge Specialty Resin Drum",
+            "description": "Specialty Resin Drum from MaterialBridge's specialty additives assortment. Present material purchasing with clear sample pack information. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "specialty-additives",
+            "categoryId": "chemicals-specialty-materials-web-theme-category-3",
+            "categoryName": "MaterialBridge Specialty Additives",
+            "brand": "MaterialBridge",
+            "price": 4800,
+            "currency": "INR",
+            "priceLabel": "INR 4,800",
+            "image": "assets/images/product-06.jpg",
+            "stock": 168,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 5664,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 4800
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4560
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 4320
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MaterialBridge Specialty Resin Drum",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source industrial grade solvent, food safe additive and more from this chemicals & specialty materials trade collection.",
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact",
+        "cardStyle": "quick-add",
+        "columns": 3
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the MaterialBridge demo catalog",
+        "items": [
+          {
+            "question": "How are MaterialBridge pack quantities shown?",
+            "answer": "MaterialBridge Industrial Grade Solvent has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are MaterialBridge images supplier photographs?",
+            "answer": "These chemicals & specialty materials images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MaterialBridge",
+        "industryName": "Chemicals & Specialty Materials",
+        "tagline": "Source industrial grade solvent, food safe additive and more from this chemicals & specialty materials trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-16-web",
+        "layoutMode": "full-gallery",
+        "density": "compact"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-16-web"
+}

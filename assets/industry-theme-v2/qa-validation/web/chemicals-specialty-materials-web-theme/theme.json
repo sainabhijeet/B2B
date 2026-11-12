@@ -1,0 +1,92 @@
+{
+  "name": "Chemicals & Specialty Materials Web Theme",
+  "version": "3.4.0",
+  "storefrontKey": "chemicals-specialty-materials-web-theme",
+  "industry": "Chemicals & Specialty Materials",
+  "industryId": "10000000-0000-4000-8000-000000000010",
+  "description": "MaterialBridge: Present material purchasing with clear sample pack information. A desktop sourcing assortment. Materials technical library design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-16-web",
+    "direction": "Materials technical library",
+    "header": "material-orbit-console",
+    "headerIdentity": "header-16-web-v3",
+    "headerStructure": "single-canvas-asymmetric-orbit",
+    "hero": "material-finder-workspace",
+    "categories": "molecular-classification-board",
+    "productCards": "material-trade-rail",
+    "productListing": "catalog-matrix",
+    "productDetail": "full-gallery",
+    "footer": "marketplace",
+    "footerIdentity": "footer-16-web",
+    "footerStructure": "shell-2-composition-3",
+    "density": "compact",
+    "responsiveStrategy": "catalog-matrix-to-mobile-drawer"
+  }
+}

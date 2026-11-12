@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "BatteryPocket",
+        "industryName": "Batteries & Power Systems",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "BatteryPocket Sealed AGM Backup Battery",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "gallery-story-scroll"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "BatteryPocket Sealed AGM Backup Battery",
+        "subtitle": "Sealed AGM Backup Battery for your batteries & power systems replenishment list. BatteryPocket groups this item with industrial batteries so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 10,500",
+        "description": "Sealed AGM Backup Battery for your batteries & power systems replenishment list. BatteryPocket groups this item with industrial batteries so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-36-1",
+        "stock": 146,
+        "moq": 1,
+        "product": {
+          "id": "batteries-power-systems-app-theme-product-1",
+          "slug": "batterypocket-sealed-agm-backup-battery",
+          "sku": "APP-36-1",
+          "name": "BatteryPocket Sealed AGM Backup Battery",
+          "description": "Sealed AGM Backup Battery for your batteries & power systems replenishment list. BatteryPocket groups this item with industrial batteries so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "industrial-batteries",
+          "categoryId": "batteries-power-systems-app-theme-category-1",
+          "categoryName": "BatteryPocket Industrial Batteries",
+          "brand": "BatteryPocket",
+          "price": 10500,
+          "currency": "INR",
+          "priceLabel": "INR 10,500",
+          "image": "assets/images/product-01.jpg",
+          "stock": 146,
+          "moq": 1,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 12390,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 1,
+              "unitPrice": 10500
+            },
+            {
+              "minQuantity": 5,
+              "unitPrice": 9975
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 9450
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: BatteryPocket Sealed AGM Backup Battery",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "info-story-scroll"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "BatteryPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "BatteryPocket Sealed AGM Backup Battery",
+          "BatteryPocket Line Interactive UPS",
+          "BatteryPocket Rack Energy Storage Module",
+          "BatteryPocket Battery Busbar Kit",
+          "BatteryPocket Deep Cycle Gel Battery",
+          "BatteryPocket Desktop Backup UPS"
+        ],
+        "prices": [
+          "INR 10,500",
+          "INR 31,920",
+          "INR 60,450",
+          "INR 4,536",
+          "INR 6,460",
+          "INR 767"
+        ],
+        "products": [
+          {
+            "id": "batteries-power-systems-app-theme-product-1",
+            "slug": "batterypocket-sealed-agm-backup-battery",
+            "sku": "APP-36-1",
+            "name": "BatteryPocket Sealed AGM Backup Battery",
+            "description": "Sealed AGM Backup Battery for your batteries & power systems replenishment list. BatteryPocket groups this item with industrial batteries so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-batteries",
+            "categoryId": "batteries-power-systems-app-theme-category-1",
+            "categoryName": "BatteryPocket Industrial Batteries",
+            "brand": "BatteryPocket",
+            "price": 10500,
+            "currency": "INR",
+            "priceLabel": "INR 10,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 146,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 12390,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 10500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 9975
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 9450
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Sealed AGM Backup Battery",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-app-theme-product-2",
+            "slug": "batterypocket-line-interactive-ups",
+            "sku": "APP-36-2",
+            "name": "BatteryPocket Line Interactive UPS",
+            "description": "Line Interactive UPS for your batteries & power systems replenishment list. BatteryPocket groups this item with ups systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "ups-systems",
+            "categoryId": "batteries-power-systems-app-theme-category-2",
+            "categoryName": "BatteryPocket UPS Systems",
+            "brand": "BatteryPocket",
+            "price": 31920,
+            "currency": "INR",
+            "priceLabel": "INR 31,920",
+            "image": "assets/images/product-02.jpg",
+            "stock": 157,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 37666,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 31920
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 30324
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 28728
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Line Interactive UPS",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-app-theme-product-3",
+            "slug": "batterypocket-rack-energy-storage-module",
+            "sku": "APP-36-3",
+            "name": "BatteryPocket Rack Energy Storage Module",
+            "description": "Rack Energy Storage Module for your batteries & power systems replenishment list. BatteryPocket groups this item with energy storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "energy-storage",
+            "categoryId": "batteries-power-systems-app-theme-category-3",
+            "categoryName": "BatteryPocket Energy Storage",
+            "brand": "BatteryPocket",
+            "price": 60450,
+            "currency": "INR",
+            "priceLabel": "INR 60,450",
+            "image": "assets/images/product-03.jpg",
+            "stock": 168,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 71331,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 60450
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 57428
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 54405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Rack Energy Storage Module",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-app-theme-product-4",
+            "slug": "batterypocket-battery-busbar-kit",
+            "sku": "APP-36-4",
+            "name": "BatteryPocket Battery Busbar Kit",
+            "description": "Battery Busbar Kit for your batteries & power systems replenishment list. BatteryPocket groups this item with battery accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "battery-accessories",
+            "categoryId": "batteries-power-systems-app-theme-category-4",
+            "categoryName": "BatteryPocket Battery Accessories",
+            "brand": "BatteryPocket",
+            "price": 4536,
+            "currency": "INR",
+            "priceLabel": "INR 4,536",
+            "image": "assets/images/product-04.jpg",
+            "stock": 179,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5352,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 4536
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 4309
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4082
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Battery Busbar Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-app-theme-product-5",
+            "slug": "batterypocket-deep-cycle-gel-battery",
+            "sku": "APP-36-5",
+            "name": "BatteryPocket Deep Cycle Gel Battery",
+            "description": "Deep Cycle Gel Battery for your batteries & power systems replenishment list. BatteryPocket groups this item with industrial batteries so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-batteries",
+            "categoryId": "batteries-power-systems-app-theme-category-1",
+            "categoryName": "BatteryPocket Industrial Batteries",
+            "brand": "BatteryPocket",
+            "price": 6460,
+            "currency": "INR",
+            "priceLabel": "INR 6,460",
+            "image": "assets/images/product-05.jpg",
+            "stock": 190,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 7623,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 6460
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 6137
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 5814
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Deep Cycle Gel Battery",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-app-theme-product-6",
+            "slug": "batterypocket-desktop-backup-ups",
+            "sku": "APP-36-6",
+            "name": "BatteryPocket Desktop Backup UPS",
+            "description": "Desktop Backup UPS for your batteries & power systems replenishment list. BatteryPocket groups this item with ups systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "ups-systems",
+            "categoryId": "batteries-power-systems-app-theme-category-2",
+            "categoryName": "BatteryPocket UPS Systems",
+            "brand": "BatteryPocket",
+            "price": 767,
+            "currency": "INR",
+            "priceLabel": "INR 767",
+            "image": "assets/images/product-06.jpg",
+            "stock": 201,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 905,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 767
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 729
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 690
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BatteryPocket Desktop Backup UPS",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse sealed agm backup battery, line interactive ups and a dedicated batteries & power systems mobile assortment.",
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy",
+        "cardStyle": "marketplace",
+        "columns": 1
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the BatteryPocket demo catalog",
+        "items": [
+          {
+            "question": "How are BatteryPocket pack quantities shown?",
+            "answer": "BatteryPocket Sealed AGM Backup Battery has a sample MOQ of 1. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are BatteryPocket images supplier photographs?",
+            "answer": "These batteries & power systems images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "BatteryPocket",
+        "industryName": "Batteries & Power Systems",
+        "tagline": "Browse sealed agm backup battery, line interactive ups and a dedicated batteries & power systems mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-36-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-36-app"
+}

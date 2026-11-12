@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "InkPocket",
+        "industryName": "Printing & Stationery",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "InkPocket: your printing & stationery restock list",
+        "subtitle": "Browse offset printing plate, coated art paper ream and a dedicated printing & stationery mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "InkPocket restock picks",
+        "subtitle": "Browse offset printing plate, coated art paper ream and a dedicated printing & stationery mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "InkPocket Offset Printing Plate",
+          "InkPocket Coated Art Paper Ream",
+          "InkPocket Fineliner Drawing Pen Set",
+          "InkPocket Thermal Binding Cover",
+          "InkPocket Screen Printing Squeegee",
+          "InkPocket Carbonless Copy Paper"
+        ],
+        "prices": [
+          "INR 1,554",
+          "INR 1,624",
+          "INR 326",
+          "INR 486",
+          "INR 646",
+          "INR 767"
+        ],
+        "products": [
+          {
+            "id": "printing-stationery-app-theme-product-1",
+            "slug": "inkpocket-offset-printing-plate",
+            "sku": "APP-19-1",
+            "name": "InkPocket Offset Printing Plate",
+            "description": "Offset Printing Plate for your printing & stationery replenishment list. InkPocket groups this item with printing supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "printing-supplies",
+            "categoryId": "printing-stationery-app-theme-category-1",
+            "categoryName": "InkPocket Printing Supplies",
+            "brand": "InkPocket",
+            "price": 1554,
+            "currency": "INR",
+            "priceLabel": "INR 1,554",
+            "image": "assets/images/product-01.jpg",
+            "stock": 95,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1834,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1554
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1476
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1399
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Offset Printing Plate",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-app-theme-product-2",
+            "slug": "inkpocket-coated-art-paper-ream",
+            "sku": "APP-19-2",
+            "name": "InkPocket Coated Art Paper Ream",
+            "description": "Coated Art Paper Ream for your printing & stationery replenishment list. InkPocket groups this item with office paper so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "office-paper",
+            "categoryId": "printing-stationery-app-theme-category-2",
+            "categoryName": "InkPocket Office Paper",
+            "brand": "InkPocket",
+            "price": 1624,
+            "currency": "INR",
+            "priceLabel": "INR 1,624",
+            "image": "assets/images/product-02.jpg",
+            "stock": 106,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1916,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1624
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1543
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1462
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Coated Art Paper Ream",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-app-theme-product-3",
+            "slug": "inkpocket-fineliner-drawing-pen-set",
+            "sku": "APP-19-3",
+            "name": "InkPocket Fineliner Drawing Pen Set",
+            "description": "Fineliner Drawing Pen Set for your printing & stationery replenishment list. InkPocket groups this item with writing instruments so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "writing-instruments",
+            "categoryId": "printing-stationery-app-theme-category-3",
+            "categoryName": "InkPocket Writing Instruments",
+            "brand": "InkPocket",
+            "price": 326,
+            "currency": "INR",
+            "priceLabel": "INR 326",
+            "image": "assets/images/product-03.jpg",
+            "stock": 117,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 385,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 326
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 310
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 293
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Fineliner Drawing Pen Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-app-theme-product-4",
+            "slug": "inkpocket-thermal-binding-cover",
+            "sku": "APP-19-4",
+            "name": "InkPocket Thermal Binding Cover",
+            "description": "Thermal Binding Cover for your printing & stationery replenishment list. InkPocket groups this item with binding materials so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "binding-materials",
+            "categoryId": "printing-stationery-app-theme-category-4",
+            "categoryName": "InkPocket Binding Materials",
+            "brand": "InkPocket",
+            "price": 486,
+            "currency": "INR",
+            "priceLabel": "INR 486",
+            "image": "assets/images/product-04.jpg",
+            "stock": 128,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 573,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 486
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 437
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Thermal Binding Cover",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-app-theme-product-5",
+            "slug": "inkpocket-screen-printing-squeegee",
+            "sku": "APP-19-5",
+            "name": "InkPocket Screen Printing Squeegee",
+            "description": "Screen Printing Squeegee for your printing & stationery replenishment list. InkPocket groups this item with printing supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "printing-supplies",
+            "categoryId": "printing-stationery-app-theme-category-1",
+            "categoryName": "InkPocket Printing Supplies",
+            "brand": "InkPocket",
+            "price": 646,
+            "currency": "INR",
+            "priceLabel": "INR 646",
+            "image": "assets/images/product-05.jpg",
+            "stock": 139,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 762,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 646
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 614
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 581
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Screen Printing Squeegee",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-app-theme-product-6",
+            "slug": "inkpocket-carbonless-copy-paper",
+            "sku": "APP-19-6",
+            "name": "InkPocket Carbonless Copy Paper",
+            "description": "Carbonless Copy Paper for your printing & stationery replenishment list. InkPocket groups this item with office paper so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "office-paper",
+            "categoryId": "printing-stationery-app-theme-category-2",
+            "categoryName": "InkPocket Office Paper",
+            "brand": "InkPocket",
+            "price": 767,
+            "currency": "INR",
+            "priceLabel": "INR 767",
+            "image": "assets/images/product-06.jpg",
+            "stock": 150,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 905,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 767
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 729
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 690
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: InkPocket Carbonless Copy Paper",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with InkPocket",
+        "items": [
+          {
+            "icon": "01",
+            "title": "InkPocket Printing Supplies",
+            "text": "Start with offset printing plate and compare the InkPocket sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "InkPocket quantity breaks",
+            "text": "Review MOQ and bulk tiers for coated art paper ream before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "InkPocket repeat orders",
+            "text": "Browse offset printing plate, coated art paper ream and a dedicated printing & stationery mobile assortment."
+          }
+        ],
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "InkPocket collections",
+        "subtitle": "Choose your next printing & stationery order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "InkPocket Printing Supplies",
+          "InkPocket Office Paper",
+          "InkPocket Writing Instruments",
+          "InkPocket Binding Materials"
+        ],
+        "categories": [
+          {
+            "id": "printing-stationery-app-theme-category-1",
+            "slug": "printing-supplies",
+            "name": "InkPocket Printing Supplies",
+            "description": "Pick printing supplies for your printing & stationery replenishment list with InkPocket.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "printing-stationery-app-theme-category-2",
+            "slug": "office-paper",
+            "name": "InkPocket Office Paper",
+            "description": "Pick office paper for your printing & stationery replenishment list with InkPocket.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "printing-stationery-app-theme-category-3",
+            "slug": "writing-instruments",
+            "name": "InkPocket Writing Instruments",
+            "description": "Pick writing instruments for your printing & stationery replenishment list with InkPocket.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "printing-stationery-app-theme-category-4",
+            "slug": "binding-materials",
+            "name": "InkPocket Binding Materials",
+            "description": "Pick binding materials for your printing & stationery replenishment list with InkPocket.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact",
+        "categoryStyle": "round-icons"
+      },
+      "variant": "categories-round-icons"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your InkPocket buying list, wherever work takes you",
+        "body": "Bring print room supplies and paper choices into focus. Browse offset printing plate, coated art paper ream and a dedicated printing & stationery mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "InkPocket sample buyer story",
+        "quote": "Our demo printing & stationery buying team can compare offset printing plate and fineliner drawing pen set in one restock list.",
+        "author": "Fictional InkPocket buyer — demo feedback",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow InkPocket arrivals",
+        "subtitle": "Sample updates about thermal binding cover and inkpocket printing supplies.",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "InkPocket restock savings",
+        "subtitle": "Sample quantity breaks for fineliner drawing pen set and the printing & stationery catalog. Demo offers only.",
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "InkPocket",
+        "industryName": "Printing & Stationery",
+        "tagline": "Browse offset printing plate, coated art paper ream and a dedicated printing & stationery mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-19-app",
+        "layoutMode": "Print room catalogue / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-19-app"
+}

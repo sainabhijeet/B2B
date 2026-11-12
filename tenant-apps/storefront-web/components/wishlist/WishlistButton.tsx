@@ -4,6 +4,9 @@ import { useEffect, useState } from "react";
 import { Heart } from "lucide-react";
 import { translate } from "@/lib/translation-engine";
 import { emitStorefrontWishlistChanged, STOREFRONT_WISHLIST_CHANGED } from "@/lib/wishlist-events";
+import { PREVIEW_COMMERCE_CHANGED, readPreviewWishlist, togglePreviewWishlist } from "@/lib/preview-commerce";
+import { useCustomerSignedIn } from "@/components/auth/CustomerAuthContext";
+import { currentPageCustomerLoginHref } from "@/lib/customer-login-redirect";
 
 let cachedIds: string[] | null = null;
 let pendingLoad: Promise<string[] | null> | null = null;
@@ -27,19 +30,38 @@ function loadWishlist(): Promise<string[] | null> {
   return pendingLoad;
 }
 
-export default function WishlistButton({ productId, languageCode, compact = false, initialSaved = false, onChange }: {
+export default function WishlistButton({ productId, productName = "Product", productSlug = "", productImage, productSku = "", productBrand, productPrice = null, productCurrency = "INR", previewMode = false, languageCode, compact = false, initialSaved = false, onChange }: {
   productId: string;
+  productName?: string;
+  productSlug?: string;
+  productImage?: string;
+  productSku?: string;
+  productBrand?: string | null;
+  productPrice?: number | null;
+  productCurrency?: string;
+  previewMode?: boolean;
   languageCode?: string;
   compact?: boolean;
   initialSaved?: boolean;
   onChange?: (saved: boolean) => void;
 }) {
   const t = (value: string) => translate(value, languageCode);
+  const signedIn = useCustomerSignedIn();
   const [saved, setSaved] = useState(initialSaved);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
 
   useEffect(() => {
+    if (!signedIn) {
+      setSaved(false);
+      return;
+    }
+    if (previewMode) {
+      const sync = () => setSaved(readPreviewWishlist().some((item) => item.productId === productId));
+      sync();
+      window.addEventListener(PREVIEW_COMMERCE_CHANGED, sync);
+      return () => window.removeEventListener(PREVIEW_COMMERCE_CHANGED, sync);
+    }
     let active = true;
     if (!initialSaved) {
       void loadWishlist().then((ids) => {
@@ -49,13 +71,35 @@ export default function WishlistButton({ productId, languageCode, compact = fals
     const sync = () => setSaved(Boolean(cachedIds?.includes(productId)));
     window.addEventListener(STOREFRONT_WISHLIST_CHANGED, sync);
     return () => { active = false; window.removeEventListener(STOREFRONT_WISHLIST_CHANGED, sync); };
-  }, [initialSaved, productId]);
+  }, [initialSaved, previewMode, productId, signedIn]);
 
   async function toggle() {
     if (busy) return;
+    if (!signedIn) {
+      window.location.assign(currentPageCustomerLoginHref());
+      return;
+    }
     setBusy(true);
     setError("");
     try {
+      if (previewMode) {
+        const result = togglePreviewWishlist({
+          productId,
+          productName,
+          productSlug,
+          variantId: "",
+          sku: productSku,
+          quantity: 1,
+          price: productPrice,
+          currency: productCurrency,
+          image: productImage,
+          brand: productBrand,
+        });
+        setSaved(result.saved);
+        emitStorefrontWishlistChanged(result.items.map((item) => item.productId));
+        onChange?.(result.saved);
+        return;
+      }
       const response = await fetch(
         saved ? `/api/storefront/wishlist/items/${encodeURIComponent(productId)}` : "/api/storefront/wishlist/items",
         {
@@ -66,8 +110,7 @@ export default function WishlistButton({ productId, languageCode, compact = fals
         },
       );
       if (response.status === 401) {
-        const next = window.location.pathname + window.location.search;
-        window.location.assign(`/login?next=${encodeURIComponent(next)}`);
+        window.location.assign(currentPageCustomerLoginHref());
         return;
       }
       if (!response.ok) {

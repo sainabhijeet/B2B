@@ -22,6 +22,10 @@ coverage
 .DS_Store
 __MACOSX/
 /saas-platform.zip
+/.tmp/
+
+# Generated Chrome profiles used by visual QA (screenshots are stored separately)
+/exports/chrome-*-qa*/
 
 # Local IDE state and generated/downloaded output
 .cursor/

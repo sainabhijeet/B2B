@@ -21,6 +21,8 @@ class StorefrontTheme {
     required this.config,
     required this.branding,
     this.preview,
+    this.catalogMode = 'UNKNOWN',
+    this.catalogNotice,
   });
 
   final String? themeId;
@@ -30,12 +32,17 @@ class StorefrontTheme {
   final Map<String, dynamic> config;
   final ThemeBranding branding;
   final ThemePreviewBundle? preview;
+  final String catalogMode;
+  final String? catalogNotice;
 
   static const empty = StorefrontTheme(
     baseLayout: '',
     config: <String, dynamic>{},
     branding: ThemeBranding(primaryColor: '', logo: ''),
   );
+
+  bool get isDemoCatalog =>
+      catalogMode == 'DEMO' && preview?.demoCatalog.isNotEmpty == true;
 
   /// `grid` | `list` | `fast_order` | `fast-order` (aliases normalized).
   String get normalizedLayout {
@@ -148,6 +155,12 @@ class StorefrontTheme {
       preview: ThemePreviewBundle.fromJsonOrNull(
         (json['preview'] as Map?)?.cast<String, dynamic>(),
       ),
+      catalogMode: (json['catalog_mode'] ?? json['catalogMode'])
+              ?.toString()
+              .trim()
+              .toUpperCase() ??
+          'UNKNOWN',
+      catalogNotice: optionalString('catalogNotice', 'catalog_notice'),
     );
   }
 
@@ -160,6 +173,8 @@ class StorefrontTheme {
       'config': config,
       'branding': branding.toJson(),
       if (preview != null) 'preview': preview!.toJson(),
+      'catalog_mode': catalogMode,
+      if (catalogNotice != null) 'catalog_notice': catalogNotice,
     };
   }
 
@@ -173,13 +188,24 @@ class StorefrontTheme {
     if (tokens['borderRadius'] is String) {
       nextConfig['card_style'] = tokens['borderRadius'];
     }
+    final nestedColors = tokens['colors'] is Map
+        ? (tokens['colors'] as Map).cast<String, dynamic>()
+        : const <String, dynamic>{};
+    String? previewColor(String semantic, String flat) {
+      final value = tokens[semantic] ?? tokens[flat] ?? nestedColors[semantic];
+      final text = value?.toString().trim() ?? '';
+      return text.isEmpty ? null : text;
+    }
+
     final nextBranding = ThemeBranding(
-      primaryColor: tokens['primary']?.toString() ?? branding.primaryColor,
+      primaryColor:
+          previewColor('primary', 'colorPrimary') ?? branding.primaryColor,
       logo: branding.logo,
-      secondaryColor:
-          tokens['secondary']?.toString() ?? branding.secondaryColor,
-      surfaceColor: branding.surfaceColor,
-      textColor: branding.textColor,
+      secondaryColor: previewColor('secondary', 'colorSecondary') ??
+          branding.secondaryColor,
+      surfaceColor:
+          previewColor('surface', 'colorSurface') ?? branding.surfaceColor,
+      textColor: previewColor('text', 'colorText') ?? branding.textColor,
     );
     return StorefrontTheme(
       themeId: themeId,
@@ -189,6 +215,25 @@ class StorefrontTheme {
       config: nextConfig,
       branding: nextBranding,
       preview: preview,
+      catalogMode: catalogMode,
+      catalogNotice: catalogNotice,
+    );
+  }
+
+  StorefrontTheme withCatalogPresentation({
+    required String mode,
+    String? notice,
+  }) {
+    return StorefrontTheme(
+      themeId: themeId,
+      themeSlug: themeSlug,
+      themeName: themeName,
+      baseLayout: baseLayout,
+      config: config,
+      branding: branding,
+      preview: preview,
+      catalogMode: mode.trim().toUpperCase(),
+      catalogNotice: notice,
     );
   }
 }
@@ -246,6 +291,7 @@ class ThemePreviewBundle {
     required this.homeSections,
     required this.localeDictionary,
     required this.tokens,
+    required this.demoCatalog,
   });
 
   final String themeName;
@@ -254,6 +300,7 @@ class ThemePreviewBundle {
   final List<ThemeTemplateSection> homeSections;
   final Map<String, String> localeDictionary;
   final Map<String, dynamic> tokens;
+  final Map<String, dynamic> demoCatalog;
 
   ThemeTemplateSection? firstSectionMatching(RegExp pattern) {
     for (final section in homeSections) {
@@ -283,13 +330,17 @@ class ThemePreviewBundle {
           const <String, String>{},
       tokens: (json['tokens'] as Map?)?.cast<String, dynamic>() ??
           <String, dynamic>{},
+      demoCatalog: (json['demoCatalog'] as Map?)?.cast<String, dynamic>() ??
+          <String, dynamic>{},
     );
   }
 
   static ThemePreviewBundle? fromJsonOrNull(Map<String, dynamic>? json) {
     if (json == null) return null;
     final bundle = ThemePreviewBundle.fromJson(json);
-    return bundle.homeSections.isEmpty && bundle.localeDictionary.isEmpty
+    return bundle.homeSections.isEmpty &&
+            bundle.localeDictionary.isEmpty &&
+            bundle.demoCatalog.isEmpty
         ? null
         : bundle;
   }
@@ -304,6 +355,7 @@ class ThemePreviewBundle {
         'sections': homeSections.map((s) => s.toJson()).toList(),
       },
       'tokens': tokens,
+      if (demoCatalog.isNotEmpty) 'demoCatalog': demoCatalog,
     };
   }
 }
@@ -313,16 +365,19 @@ class ThemeTemplateSection {
     required this.id,
     required this.type,
     required this.settings,
+    this.variant = '',
   });
 
   final String id;
   final String type;
   final Map<String, dynamic> settings;
+  final String variant;
 
   factory ThemeTemplateSection.fromJson(Map<String, dynamic> json) {
     return ThemeTemplateSection(
       id: (json['id'] as String?)?.trim() ?? '',
       type: (json['type'] as String?)?.trim() ?? '',
+      variant: (json['variant'] as String?)?.trim() ?? '',
       settings: (json['settings'] as Map?)?.cast<String, dynamic>() ??
           <String, dynamic>{},
     );
@@ -344,6 +399,7 @@ class ThemeTemplateSection {
     return <String, dynamic>{
       'id': id,
       'type': type,
+      if (variant.isNotEmpty) 'variant': variant,
       'settings': settings,
     };
   }

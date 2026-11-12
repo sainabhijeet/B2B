@@ -8,12 +8,9 @@ type Props = {
   productName: string;
 };
 
-type ZoomPoint = { visible: boolean; x: number; y: number };
-
 export default function ProductGallery({ images, productName }: Props) {
   const [active, setActive] = useState(0);
   const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [zoom, setZoom] = useState<ZoomPoint>({ visible: false, x: 50, y: 50 });
   const selected = images[active] ?? images[0];
 
   const showPrevious = useCallback(() => {
@@ -43,7 +40,7 @@ export default function ProductGallery({ images, productName }: Props) {
   }, [images.length, lightboxOpen, showNext, showPrevious]);
 
   const thumbnails = (
-    <div className="flex gap-2 overflow-x-auto pb-1" aria-label="Product images">
+    <div className="flex gap-3 overflow-x-auto pb-2" aria-label="Product images">
       {images.map((image, index) => (
         <button
           key={image.id}
@@ -52,7 +49,7 @@ export default function ProductGallery({ images, productName }: Props) {
           onMouseEnter={() => setActive(index)}
           aria-label={`View image ${index + 1} of ${images.length}`}
           aria-pressed={active === index}
-          className={`h-16 w-16 shrink-0 overflow-hidden rounded-md border-2 bg-white p-1 transition sm:h-[72px] sm:w-[72px] ${active === index ? "border-[var(--theme-primary)] shadow-sm" : "border-slate-200 hover:border-slate-500"}`}
+          className={`h-[72px] w-[72px] shrink-0 overflow-hidden rounded-xl border bg-white p-1.5 transition sm:h-20 sm:w-20 ${active === index ? "border-[var(--theme-primary)] shadow-[0_8px_22px_rgba(15,23,42,0.12)] ring-2 ring-[var(--theme-primary)]/10" : "border-slate-200 opacity-75 hover:border-slate-400 hover:opacity-100"}`}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={image.url} alt="" className="h-full w-full object-contain" />
@@ -62,54 +59,31 @@ export default function ProductGallery({ images, productName }: Props) {
   );
 
   return (
-    <div className="relative min-w-0">
-      <div className="group relative flex aspect-square items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6">
+    <div className="pdp-gallery relative min-w-0">
+      <div className="pdp-gallery-stage group relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-3xl border border-slate-200 bg-[linear-gradient(145deg,#ffffff,#f3f7f6)] p-6 shadow-[0_24px_70px_rgba(15,23,42,0.10)] sm:p-10">
         {selected ? (
           <button
             type="button"
             onClick={() => setLightboxOpen(true)}
-            onMouseEnter={() => setZoom((current) => ({ ...current, visible: true }))}
-            onMouseLeave={() => setZoom((current) => ({ ...current, visible: false }))}
-            onMouseMove={(event) => {
-              const bounds = event.currentTarget.getBoundingClientRect();
-              const x = Math.min(84, Math.max(16, ((event.clientX - bounds.left) / bounds.width) * 100));
-              const y = Math.min(84, Math.max(16, ((event.clientY - bounds.top) / bounds.height) * 100));
-              setZoom({ visible: true, x, y });
-            }}
-            className="flex h-full w-full cursor-crosshair items-center justify-center"
+            className="flex h-full w-full cursor-zoom-in items-center justify-center"
             aria-label={`Zoom ${productName} image ${active + 1}`}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={selected.url} alt={`${productName} - image ${active + 1}`} className="h-full w-full object-contain" />
-            {zoom.visible ? (
-              <span
-                className="pointer-events-none absolute hidden aspect-square w-[32%] -translate-x-1/2 -translate-y-1/2 border border-sky-400 bg-sky-100/35 lg:block"
-                style={{ left: `${zoom.x}%`, top: `${zoom.y}%` }}
-                aria-hidden="true"
-              />
-            ) : null}
+            <img src={selected.url} alt={`${productName} - image ${active + 1}`} className="h-full w-full object-contain transition duration-700 ease-out group-hover:scale-[1.025]" />
           </button>
         ) : (
           <span className="text-sm text-slate-400">No image available</span>
         )}
-
+        {selected ? (
+          <span className="pointer-events-none absolute bottom-4 right-4 rounded-full border border-white/70 bg-white/85 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.08em] text-slate-700 shadow-sm backdrop-blur-sm">
+            {active + 1} / {images.length}
+          </span>
+        ) : null}
       </div>
 
-      {selected && zoom.visible ? (
-        <div
-          className="pointer-events-none absolute left-[calc(100%+1rem)] top-0 z-50 hidden h-[min(680px,72vh)] w-[min(760px,48vw)] border border-slate-300 bg-white bg-no-repeat shadow-2xl lg:block"
-          style={{
-            backgroundImage: `url(${JSON.stringify(selected.url)})`,
-            backgroundPosition: `${zoom.x}% ${zoom.y}%`,
-            backgroundSize: "240% 240%",
-          }}
-          aria-hidden="true"
-        />
-      ) : null}
-
       {selected ? (
-        <p className="mt-2 text-center text-xs text-sky-700">
-          <span className="hidden lg:inline">Roll over image to zoom · </span>Click to see full view
+        <p className="mt-3 text-center text-[11px] font-medium uppercase tracking-[0.08em] text-slate-500">
+          Click image to open full-screen view
         </p>
       ) : null}
       {images.length > 1 ? <div className="mt-3">{thumbnails}</div> : null}

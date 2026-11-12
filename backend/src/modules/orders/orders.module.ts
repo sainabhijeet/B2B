@@ -11,6 +11,8 @@ import { CouponsModule } from '../coupons/coupons.module';
 import { RazorpayIntegration } from '../../integrations/razorpay/razorpay.integration';
 import { AuditLogsModule } from '../audit-logs/audit-logs.module';
 import { NotificationsModule } from '../notifications/notifications.module';
+import { MediaModule } from '../media/media.module';
+import { PlatformStorageProvidersModule } from '../storage-providers/platform-storage-providers.module';
 import { OrdersController } from './orders.controller';
 import { OrdersService } from './orders.service';
 
@@ -25,6 +27,8 @@ import { OrdersService } from './orders.service';
     UsersModule,
     AuditLogsModule,
     NotificationsModule,
+    MediaModule,
+    PlatformStorageProvidersModule,
   ],
   controllers: [OrdersController],
   providers: [OrdersService, RazorpayIntegration],

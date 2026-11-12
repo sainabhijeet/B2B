@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "CookPocket",
+        "industryName": "Kitchenware & Cookware",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "CookPocket / Kitchenware & Cookware",
+        "subtitle": "Browse cast iron dutch oven, silicone utensil set and a dedicated kitchenware & cookware mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "hero-editorial-left"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find CookPocket supplies",
+        "message": "Explore CookPocket Cookware, CookPocket Kitchen Tools, CookPocket Storage, CookPocket Small Appliances.",
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "filters-top-filter-dense"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "CookPocket restock picks",
+        "subtitle": "Browse cast iron dutch oven, silicone utensil set and a dedicated kitchenware & cookware mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "CookPocket Cast Iron Dutch Oven",
+          "CookPocket Silicone Utensil Set",
+          "CookPocket Glass Spice Jar Set",
+          "CookPocket Electric Hand Blender",
+          "CookPocket Stainless Stock Pot",
+          "CookPocket Bamboo Chopping Board"
+        ],
+        "prices": [
+          "INR 3,528",
+          "INR 2,072",
+          "INR 884",
+          "INR 3,024",
+          "INR 342",
+          "INR 1,061"
+        ],
+        "products": [
+          {
+            "id": "kitchenware-cookware-app-theme-product-1",
+            "slug": "cookpocket-cast-iron-dutch-oven",
+            "sku": "APP-22-1",
+            "name": "CookPocket Cast Iron Dutch Oven",
+            "description": "Cast Iron Dutch Oven for your kitchenware & cookware replenishment list. CookPocket groups this item with cookware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cookware",
+            "categoryId": "kitchenware-cookware-app-theme-category-1",
+            "categoryName": "CookPocket Cookware",
+            "brand": "CookPocket",
+            "price": 3528,
+            "currency": "INR",
+            "priceLabel": "INR 3,528",
+            "image": "assets/images/product-01.jpg",
+            "stock": 104,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 4163,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 3528
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 3352
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3175
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Cast Iron Dutch Oven",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-app-theme-product-2",
+            "slug": "cookpocket-silicone-utensil-set",
+            "sku": "APP-22-2",
+            "name": "CookPocket Silicone Utensil Set",
+            "description": "Silicone Utensil Set for your kitchenware & cookware replenishment list. CookPocket groups this item with kitchen tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "kitchen-tools",
+            "categoryId": "kitchenware-cookware-app-theme-category-2",
+            "categoryName": "CookPocket Kitchen Tools",
+            "brand": "CookPocket",
+            "price": 2072,
+            "currency": "INR",
+            "priceLabel": "INR 2,072",
+            "image": "assets/images/product-02.jpg",
+            "stock": 115,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2445,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2072
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1968
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1865
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Silicone Utensil Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-app-theme-product-3",
+            "slug": "cookpocket-glass-spice-jar-set",
+            "sku": "APP-22-3",
+            "name": "CookPocket Glass Spice Jar Set",
+            "description": "Glass Spice Jar Set for your kitchenware & cookware replenishment list. CookPocket groups this item with storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "storage",
+            "categoryId": "kitchenware-cookware-app-theme-category-3",
+            "categoryName": "CookPocket Storage",
+            "brand": "CookPocket",
+            "price": 884,
+            "currency": "INR",
+            "priceLabel": "INR 884",
+            "image": "assets/images/product-03.jpg",
+            "stock": 126,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1043,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 884
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 840
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 796
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Glass Spice Jar Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-app-theme-product-4",
+            "slug": "cookpocket-electric-hand-blender",
+            "sku": "APP-22-4",
+            "name": "CookPocket Electric Hand Blender",
+            "description": "Electric Hand Blender for your kitchenware & cookware replenishment list. CookPocket groups this item with small appliances so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "small-appliances",
+            "categoryId": "kitchenware-cookware-app-theme-category-4",
+            "categoryName": "CookPocket Small Appliances",
+            "brand": "CookPocket",
+            "price": 3024,
+            "currency": "INR",
+            "priceLabel": "INR 3,024",
+            "image": "assets/images/product-04.jpg",
+            "stock": 137,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 3568,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 3024
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2873
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2722
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Electric Hand Blender",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-app-theme-product-5",
+            "slug": "cookpocket-stainless-stock-pot",
+            "sku": "APP-22-5",
+            "name": "CookPocket Stainless Stock Pot",
+            "description": "Stainless Stock Pot for your kitchenware & cookware replenishment list. CookPocket groups this item with cookware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cookware",
+            "categoryId": "kitchenware-cookware-app-theme-category-1",
+            "categoryName": "CookPocket Cookware",
+            "brand": "CookPocket",
+            "price": 342,
+            "currency": "INR",
+            "priceLabel": "INR 342",
+            "image": "assets/images/product-05.jpg",
+            "stock": 148,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 404,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 342
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 325
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 308
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Stainless Stock Pot",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-app-theme-product-6",
+            "slug": "cookpocket-bamboo-chopping-board",
+            "sku": "APP-22-6",
+            "name": "CookPocket Bamboo Chopping Board",
+            "description": "Bamboo Chopping Board for your kitchenware & cookware replenishment list. CookPocket groups this item with kitchen tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "kitchen-tools",
+            "categoryId": "kitchenware-cookware-app-theme-category-2",
+            "categoryName": "CookPocket Kitchen Tools",
+            "brand": "CookPocket",
+            "price": 1061,
+            "currency": "INR",
+            "priceLabel": "INR 1,061",
+            "image": "assets/images/product-06.jpg",
+            "stock": 159,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1252,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1061
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1008
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 955
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CookPocket Bamboo Chopping Board",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact",
+        "cardStyle": "editorial",
+        "columns": 2
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your CookPocket order",
+        "subtitle": "Review quantities for cast iron dutch oven with this kitchenware & cookware preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "CookPocket",
+        "industryName": "Kitchenware & Cookware",
+        "tagline": "Browse cast iron dutch oven, silicone utensil set and a dedicated kitchenware & cookware mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-22-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-22-app"
+}

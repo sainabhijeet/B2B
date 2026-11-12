@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "CrewPocket",
+        "industryName": "Industrial Safety & PPE",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "CrewPocket: your industrial safety & ppe restock list",
+        "subtitle": "Browse vented bump cap, nitrile work glove pack and a dedicated industrial safety & ppe mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your CrewPocket buying list, wherever work takes you",
+        "body": "Organize protective work supplies by crew requirement. Browse vented bump cap, nitrile work glove pack and a dedicated industrial safety & ppe mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "CrewPocket collections",
+        "subtitle": "Choose your next industrial safety & ppe order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "CrewPocket Head Protection",
+          "CrewPocket Hand Protection",
+          "CrewPocket Fall Protection",
+          "CrewPocket Workwear"
+        ],
+        "categories": [
+          {
+            "id": "industrial-safety-ppe-app-theme-category-1",
+            "slug": "head-protection",
+            "name": "CrewPocket Head Protection",
+            "description": "Pick head protection for your industrial safety & ppe replenishment list with CrewPocket.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-category-2",
+            "slug": "hand-protection",
+            "name": "CrewPocket Hand Protection",
+            "description": "Pick hand protection for your industrial safety & ppe replenishment list with CrewPocket.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-category-3",
+            "slug": "fall-protection",
+            "name": "CrewPocket Fall Protection",
+            "description": "Pick fall protection for your industrial safety & ppe replenishment list with CrewPocket.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-category-4",
+            "slug": "workwear",
+            "name": "CrewPocket Workwear",
+            "description": "Pick workwear for your industrial safety & ppe replenishment list with CrewPocket.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy",
+        "categoryStyle": "round-icons"
+      },
+      "variant": "categories-round-icons"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "CrewPocket sample buyer story",
+        "quote": "Our demo industrial safety & ppe buying team can compare vented bump cap and retractable fall arrest block in one restock list.",
+        "author": "Fictional CrewPocket buyer — demo feedback",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "testimonial-carousel-airy"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "CrewPocket restock picks",
+        "subtitle": "Browse vented bump cap, nitrile work glove pack and a dedicated industrial safety & ppe mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "CrewPocket Vented Bump Cap",
+          "CrewPocket Nitrile Work Glove Pack",
+          "CrewPocket Retractable Fall Arrest Block",
+          "CrewPocket Flame Resistant Coverall",
+          "CrewPocket Helmet Face Shield Kit",
+          "CrewPocket Leather Welding Gauntlets"
+        ],
+        "prices": [
+          "INR 1,512",
+          "INR 504",
+          "INR 2,232",
+          "INR 378",
+          "INR 1,406",
+          "INR 767"
+        ],
+        "products": [
+          {
+            "id": "industrial-safety-ppe-app-theme-product-1",
+            "slug": "crewpocket-vented-bump-cap",
+            "sku": "APP-27-1",
+            "name": "CrewPocket Vented Bump Cap",
+            "description": "Vented Bump Cap for your industrial safety & ppe replenishment list. CrewPocket groups this item with head protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "head-protection",
+            "categoryId": "industrial-safety-ppe-app-theme-category-1",
+            "categoryName": "CrewPocket Head Protection",
+            "brand": "CrewPocket",
+            "price": 1512,
+            "currency": "INR",
+            "priceLabel": "INR 1,512",
+            "image": "assets/images/product-01.jpg",
+            "stock": 119,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1784,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1512
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1436
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1361
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Vented Bump Cap",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-product-2",
+            "slug": "crewpocket-nitrile-work-glove-pack",
+            "sku": "APP-27-2",
+            "name": "CrewPocket Nitrile Work Glove Pack",
+            "description": "Nitrile Work Glove Pack for your industrial safety & ppe replenishment list. CrewPocket groups this item with hand protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hand-protection",
+            "categoryId": "industrial-safety-ppe-app-theme-category-2",
+            "categoryName": "CrewPocket Hand Protection",
+            "brand": "CrewPocket",
+            "price": 504,
+            "currency": "INR",
+            "priceLabel": "INR 504",
+            "image": "assets/images/product-02.jpg",
+            "stock": 130,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 595,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 504
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 479
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 454
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Nitrile Work Glove Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-product-3",
+            "slug": "crewpocket-retractable-fall-arrest-block",
+            "sku": "APP-27-3",
+            "name": "CrewPocket Retractable Fall Arrest Block",
+            "description": "Retractable Fall Arrest Block for your industrial safety & ppe replenishment list. CrewPocket groups this item with fall protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fall-protection",
+            "categoryId": "industrial-safety-ppe-app-theme-category-3",
+            "categoryName": "CrewPocket Fall Protection",
+            "brand": "CrewPocket",
+            "price": 2232,
+            "currency": "INR",
+            "priceLabel": "INR 2,232",
+            "image": "assets/images/product-03.jpg",
+            "stock": 141,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2634,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 2232
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 2120
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2009
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Retractable Fall Arrest Block",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-product-4",
+            "slug": "crewpocket-flame-resistant-coverall",
+            "sku": "APP-27-4",
+            "name": "CrewPocket Flame Resistant Coverall",
+            "description": "Flame Resistant Coverall for your industrial safety & ppe replenishment list. CrewPocket groups this item with workwear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "workwear",
+            "categoryId": "industrial-safety-ppe-app-theme-category-4",
+            "categoryName": "CrewPocket Workwear",
+            "brand": "CrewPocket",
+            "price": 378,
+            "currency": "INR",
+            "priceLabel": "INR 378",
+            "image": "assets/images/product-04.jpg",
+            "stock": 152,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 446,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 378
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 359
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 340
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Flame Resistant Coverall",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-product-5",
+            "slug": "crewpocket-helmet-face-shield-kit",
+            "sku": "APP-27-5",
+            "name": "CrewPocket Helmet Face Shield Kit",
+            "description": "Helmet Face Shield Kit for your industrial safety & ppe replenishment list. CrewPocket groups this item with head protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "head-protection",
+            "categoryId": "industrial-safety-ppe-app-theme-category-1",
+            "categoryName": "CrewPocket Head Protection",
+            "brand": "CrewPocket",
+            "price": 1406,
+            "currency": "INR",
+            "priceLabel": "INR 1,406",
+            "image": "assets/images/product-05.jpg",
+            "stock": 163,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1659,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1406
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1336
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1265
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Helmet Face Shield Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-app-theme-product-6",
+            "slug": "crewpocket-leather-welding-gauntlets",
+            "sku": "APP-27-6",
+            "name": "CrewPocket Leather Welding Gauntlets",
+            "description": "Leather Welding Gauntlets for your industrial safety & ppe replenishment list. CrewPocket groups this item with hand protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hand-protection",
+            "categoryId": "industrial-safety-ppe-app-theme-category-2",
+            "categoryName": "CrewPocket Hand Protection",
+            "brand": "CrewPocket",
+            "price": 767,
+            "currency": "INR",
+            "priceLabel": "INR 767",
+            "image": "assets/images/product-06.jpg",
+            "stock": 174,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 905,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 767
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 729
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 690
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CrewPocket Leather Welding Gauntlets",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow CrewPocket arrivals",
+        "subtitle": "Sample updates about flame resistant coverall and crewpocket head protection.",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with CrewPocket",
+        "items": [
+          {
+            "icon": "01",
+            "title": "CrewPocket Head Protection",
+            "text": "Start with vented bump cap and compare the CrewPocket sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "CrewPocket quantity breaks",
+            "text": "Review MOQ and bulk tiers for nitrile work glove pack before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "CrewPocket repeat orders",
+            "text": "Browse vented bump cap, nitrile work glove pack and a dedicated industrial safety & ppe mobile assortment."
+          }
+        ],
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "CrewPocket restock savings",
+        "subtitle": "Sample quantity breaks for retractable fall arrest block and the industrial safety & ppe catalog. Demo offers only.",
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "CrewPocket",
+        "industryName": "Industrial Safety & PPE",
+        "tagline": "Browse vented bump cap, nitrile work glove pack and a dedicated industrial safety & ppe mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-27-app",
+        "layoutMode": "Safety compliance station / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-27-app"
+}

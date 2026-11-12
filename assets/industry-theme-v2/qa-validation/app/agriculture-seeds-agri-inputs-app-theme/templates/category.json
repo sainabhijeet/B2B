@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "HarvestPocket",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "HarvestPocket / Agriculture, Seeds & Agri-inputs",
+        "subtitle": "Browse vegetable seed collection, vermicompost bag and a dedicated agriculture, seeds & agri-inputs mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "hero-asymmetric"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find HarvestPocket supplies",
+        "message": "Explore HarvestPocket Seeds, HarvestPocket Fertilizers, HarvestPocket Crop Protection, HarvestPocket Farm Tools.",
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "filters-specification-list"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "HarvestPocket restock picks",
+        "subtitle": "Browse vegetable seed collection, vermicompost bag and a dedicated agriculture, seeds & agri-inputs mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "HarvestPocket Vegetable Seed Collection",
+          "HarvestPocket Vermicompost Bag",
+          "HarvestPocket Sticky Insect Trap Pack",
+          "HarvestPocket Pruning Shear Set",
+          "HarvestPocket Sunflower Seed Pouch",
+          "HarvestPocket Cocopeat Growing Block"
+        ],
+        "prices": [
+          "INR 714",
+          "INR 1,400",
+          "INR 605",
+          "INR 4,860",
+          "INR 2,128",
+          "INR 1,769"
+        ],
+        "products": [
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-1",
+            "slug": "harvestpocket-vegetable-seed-collection",
+            "sku": "APP-13-1",
+            "name": "HarvestPocket Vegetable Seed Collection",
+            "description": "Vegetable Seed Collection for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with seeds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "seeds",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-1",
+            "categoryName": "HarvestPocket Seeds",
+            "brand": "HarvestPocket",
+            "price": 714,
+            "currency": "INR",
+            "priceLabel": "INR 714",
+            "image": "assets/images/product-01.jpg",
+            "stock": 77,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 843,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 714
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 678
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 643
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Vegetable Seed Collection",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-2",
+            "slug": "harvestpocket-vermicompost-bag",
+            "sku": "APP-13-2",
+            "name": "HarvestPocket Vermicompost Bag",
+            "description": "Vermicompost Bag for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with fertilizers so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fertilizers",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-2",
+            "categoryName": "HarvestPocket Fertilizers",
+            "brand": "HarvestPocket",
+            "price": 1400,
+            "currency": "INR",
+            "priceLabel": "INR 1,400",
+            "image": "assets/images/product-02.jpg",
+            "stock": 88,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1652,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1400
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1330
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1260
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Vermicompost Bag",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-3",
+            "slug": "harvestpocket-sticky-insect-trap-pack",
+            "sku": "APP-13-3",
+            "name": "HarvestPocket Sticky Insect Trap Pack",
+            "description": "Sticky Insect Trap Pack for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with crop protection so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "crop-protection",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-3",
+            "categoryName": "HarvestPocket Crop Protection",
+            "brand": "HarvestPocket",
+            "price": 605,
+            "currency": "INR",
+            "priceLabel": "INR 605",
+            "image": "assets/images/product-03.jpg",
+            "stock": 99,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 714,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 605
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 575
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 545
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Sticky Insect Trap Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-4",
+            "slug": "harvestpocket-pruning-shear-set",
+            "sku": "APP-13-4",
+            "name": "HarvestPocket Pruning Shear Set",
+            "description": "Pruning Shear Set for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with farm tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-4",
+            "categoryName": "HarvestPocket Farm Tools",
+            "brand": "HarvestPocket",
+            "price": 4860,
+            "currency": "INR",
+            "priceLabel": "INR 4,860",
+            "image": "assets/images/product-04.jpg",
+            "stock": 110,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5735,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 4860
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 4617
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4374
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Pruning Shear Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-5",
+            "slug": "harvestpocket-sunflower-seed-pouch",
+            "sku": "APP-13-5",
+            "name": "HarvestPocket Sunflower Seed Pouch",
+            "description": "Sunflower Seed Pouch for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with seeds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "seeds",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-1",
+            "categoryName": "HarvestPocket Seeds",
+            "brand": "HarvestPocket",
+            "price": 2128,
+            "currency": "INR",
+            "priceLabel": "INR 2,128",
+            "image": "assets/images/product-05.jpg",
+            "stock": 121,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2511,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2128
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2022
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1915
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Sunflower Seed Pouch",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-app-theme-product-6",
+            "slug": "harvestpocket-cocopeat-growing-block",
+            "sku": "APP-13-6",
+            "name": "HarvestPocket Cocopeat Growing Block",
+            "description": "Cocopeat Growing Block for your agriculture, seeds & agri-inputs replenishment list. HarvestPocket groups this item with fertilizers so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fertilizers",
+            "categoryId": "agriculture-seeds-agri-inputs-app-theme-category-2",
+            "categoryName": "HarvestPocket Fertilizers",
+            "brand": "HarvestPocket",
+            "price": 1769,
+            "currency": "INR",
+            "priceLabel": "INR 1,769",
+            "image": "assets/images/product-06.jpg",
+            "stock": 132,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2087,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1769
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1681
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1592
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HarvestPocket Cocopeat Growing Block",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact",
+        "cardStyle": "spec-card",
+        "columns": 1
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your HarvestPocket order",
+        "subtitle": "Review quantities for vegetable seed collection with this agriculture, seeds & agri-inputs preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "HarvestPocket",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "tagline": "Browse vegetable seed collection, vermicompost bag and a dedicated agriculture, seeds & agri-inputs mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-13-app",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-13-app"
+}

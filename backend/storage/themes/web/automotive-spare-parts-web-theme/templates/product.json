@@ -1,0 +1,435 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "AxleSupply",
+        "industryName": "Automotive & Spare Parts",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "New Arrivals",
+          "Brands",
+          "Offers",
+          "Buying Guide",
+          "About",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced"
+      },
+      "variant": "pitlane-command"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "AxleSupply Premium Brake Pad Set",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced"
+      },
+      "variant": "gallery-story-scroll"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "AxleSupply Premium Brake Pad Set",
+        "subtitle": "Premium Brake Pad Set from AxleSupply's braking systems assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 1,800",
+        "description": "Premium Brake Pad Set from AxleSupply's braking systems assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-08-1",
+        "stock": 89,
+        "moq": 5,
+        "product": {
+          "id": "automotive-spare-parts-web-theme-product-1",
+          "slug": "axlesupply-premium-brake-pad-set",
+          "sku": "WEB-08-1",
+          "name": "AxleSupply Premium Brake Pad Set",
+          "description": "Premium Brake Pad Set from AxleSupply's braking systems assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "braking-systems",
+          "categoryId": "automotive-spare-parts-web-theme-category-2",
+          "categoryName": "AxleSupply Braking Systems",
+          "brand": "AxleSupply",
+          "price": 1800,
+          "currency": "INR",
+          "priceLabel": "INR 1,800",
+          "image": "assets/images/product-01.jpg",
+          "stock": 89,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2124,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 1800
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 1710
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 1620
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: AxleSupply Premium Brake Pad Set",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced"
+      },
+      "variant": "info-story-scroll"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "AxleSupply trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "AxleSupply Premium Brake Pad Set",
+          "AxleSupply Heavy Duty Oil Filter",
+          "AxleSupply Engine Timing Belt",
+          "AxleSupply Synthetic Motor Oil",
+          "AxleSupply Clutch Plate Assembly",
+          "AxleSupply Mechanic Tool Kit"
+        ],
+        "prices": [
+          "INR 1,800",
+          "INR 450",
+          "INR 1,200",
+          "INR 2,200",
+          "INR 3,400",
+          "INR 4,800"
+        ],
+        "products": [
+          {
+            "id": "automotive-spare-parts-web-theme-product-1",
+            "slug": "axlesupply-premium-brake-pad-set",
+            "sku": "WEB-08-1",
+            "name": "AxleSupply Premium Brake Pad Set",
+            "description": "Premium Brake Pad Set from AxleSupply's braking systems assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "braking-systems",
+            "categoryId": "automotive-spare-parts-web-theme-category-2",
+            "categoryName": "AxleSupply Braking Systems",
+            "brand": "AxleSupply",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-01.jpg",
+            "stock": 89,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Premium Brake Pad Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-web-theme-product-2",
+            "slug": "axlesupply-heavy-duty-oil-filter",
+            "sku": "WEB-08-2",
+            "name": "AxleSupply Heavy Duty Oil Filter",
+            "description": "Heavy Duty Oil Filter from AxleSupply's filters & lubricants assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "filters-lubricants",
+            "categoryId": "automotive-spare-parts-web-theme-category-3",
+            "categoryName": "AxleSupply Filters & Lubricants",
+            "brand": "AxleSupply",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-02.jpg",
+            "stock": 100,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Heavy Duty Oil Filter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-web-theme-product-3",
+            "slug": "axlesupply-engine-timing-belt",
+            "sku": "WEB-08-3",
+            "name": "AxleSupply Engine Timing Belt",
+            "description": "Engine Timing Belt from AxleSupply's engine parts assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "engine-parts",
+            "categoryId": "automotive-spare-parts-web-theme-category-1",
+            "categoryName": "AxleSupply Engine Parts",
+            "brand": "AxleSupply",
+            "price": 1200,
+            "currency": "INR",
+            "priceLabel": "INR 1,200",
+            "image": "assets/images/product-03.jpg",
+            "stock": 111,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1416,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1200
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1140
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1080
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Engine Timing Belt",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-web-theme-product-4",
+            "slug": "axlesupply-synthetic-motor-oil",
+            "sku": "WEB-08-4",
+            "name": "AxleSupply Synthetic Motor Oil",
+            "description": "Synthetic Motor Oil from AxleSupply's filters & lubricants assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "filters-lubricants",
+            "categoryId": "automotive-spare-parts-web-theme-category-3",
+            "categoryName": "AxleSupply Filters & Lubricants",
+            "brand": "AxleSupply",
+            "price": 2200,
+            "currency": "INR",
+            "priceLabel": "INR 2,200",
+            "image": "assets/images/product-04.jpg",
+            "stock": 122,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2596,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 2200
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2090
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 1980
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Synthetic Motor Oil",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-web-theme-product-5",
+            "slug": "axlesupply-clutch-plate-assembly",
+            "sku": "WEB-08-5",
+            "name": "AxleSupply Clutch Plate Assembly",
+            "description": "Clutch Plate Assembly from AxleSupply's engine parts assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "engine-parts",
+            "categoryId": "automotive-spare-parts-web-theme-category-1",
+            "categoryName": "AxleSupply Engine Parts",
+            "brand": "AxleSupply",
+            "price": 3400,
+            "currency": "INR",
+            "priceLabel": "INR 3,400",
+            "image": "assets/images/product-05.jpg",
+            "stock": 133,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 4012,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 3400
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3230
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3060
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Clutch Plate Assembly",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-web-theme-product-6",
+            "slug": "axlesupply-mechanic-tool-kit",
+            "sku": "WEB-08-6",
+            "name": "AxleSupply Mechanic Tool Kit",
+            "description": "Mechanic Tool Kit from AxleSupply's workshop tools assortment. Organize workshop purchasing around service and repair. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "workshop-tools",
+            "categoryId": "automotive-spare-parts-web-theme-category-4",
+            "categoryName": "AxleSupply Workshop Tools",
+            "brand": "AxleSupply",
+            "price": 4800,
+            "currency": "INR",
+            "priceLabel": "INR 4,800",
+            "image": "assets/images/product-06.jpg",
+            "stock": 144,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 5664,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 4800
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4560
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 4320
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AxleSupply Mechanic Tool Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source premium brake pad set, heavy duty oil filter and more from this automotive & spare parts trade collection.",
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced",
+        "cardStyle": "quick-add",
+        "columns": 4
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the AxleSupply demo catalog",
+        "items": [
+          {
+            "question": "How are AxleSupply pack quantities shown?",
+            "answer": "AxleSupply Premium Brake Pad Set has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are AxleSupply images supplier photographs?",
+            "answer": "These automotive & spare parts images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "AxleSupply",
+        "industryName": "Automotive & Spare Parts",
+        "tagline": "Source premium brake pad set, heavy duty oil filter and more from this automotive & spare parts trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-08-web",
+        "layoutMode": "story-scroll",
+        "density": "balanced"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-08-web"
+}

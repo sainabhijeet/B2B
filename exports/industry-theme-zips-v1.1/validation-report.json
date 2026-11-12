@@ -1,0 +1,666 @@
+{
+    "valid":  true,
+    "checked":  94,
+    "web":  47,
+    "app":  47,
+    "results":  [
+                    {
+                        "zip":  "web/electronics-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/electronics-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/footwear-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/footwear-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/textile-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/textile-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/industrial-equipment-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/industrial-equipment-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/machinery-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/machinery-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/jewelry-diamond-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/jewelry-diamond-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/general-commerce-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/general-commerce-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/automotive-spare-parts-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/automotive-spare-parts-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/fmcg-packaged-foods-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/fmcg-packaged-foods-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/pharmaceuticals-healthcare-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/pharmaceuticals-healthcare-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/medical-devices-diagnostics-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/medical-devices-diagnostics-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/beauty-personal-care-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/beauty-personal-care-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/agriculture-seeds-agri-inputs-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/agriculture-seeds-agri-inputs-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/construction-building-materials-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/construction-building-materials-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/paints-coatings-adhesives-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/paints-coatings-adhesives-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/chemicals-specialty-materials-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/chemicals-specialty-materials-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/plastics-polymers-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/plastics-polymers-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/paper-packaging-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/paper-packaging-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/printing-stationery-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/printing-stationery-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/furniture-wood-products-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/furniture-wood-products-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/home-decor-furnishings-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/home-decor-furnishings-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/kitchenware-cookware-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/kitchenware-cookware-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/electrical-lighting-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/electrical-lighting-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/hvac-refrigeration-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/hvac-refrigeration-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/pumps-valves-pipe-fittings-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/pumps-valves-pipe-fittings-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/tools-hardware-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/tools-hardware-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/industrial-safety-ppe-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/industrial-safety-ppe-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/logistics-warehousing-3pl-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/logistics-warehousing-3pl-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/office-supplies-b2b-stationery-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/office-supplies-b2b-stationery-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/it-hardware-networking-distribution-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/it-hardware-networking-distribution-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/consumer-appliances-home-tech-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/consumer-appliances-home-tech-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/textile-machinery-mill-supplies-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/textile-machinery-mill-supplies-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/food-processing-packaging-machinery-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/food-processing-packaging-machinery-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/plastic-moulding-dies-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/plastic-moulding-dies-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/renewable-energy-solar-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/renewable-energy-solar-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/batteries-power-systems-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/batteries-power-systems-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/oil-lubricants-industrial-fluids-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/oil-lubricants-industrial-fluids-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/marine-port-supplies-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/marine-port-supplies-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/aviation-mro-consumables-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/aviation-mro-consumables-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/railway-industrial-oem-supplies-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/railway-industrial-oem-supplies-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/defence-aerospace-industrial-supply-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/defence-aerospace-industrial-supply-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/laboratory-scientific-equipment-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/laboratory-scientific-equipment-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/pet-care-veterinary-distribution-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/pet-care-veterinary-distribution-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/toys-general-merchandise-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/toys-general-merchandise-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/sports-fitness-equipment-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/sports-fitness-equipment-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/hospitality-restaurant-supplies-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/hospitality-restaurant-supplies-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "web/metals-steel-non-ferrous-trade-web-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    },
+                    {
+                        "zip":  "app/metals-steel-non-ferrous-trade-app-theme.zip",
+                        "valid":  true,
+                        "entries":  25,
+                        "sections":  10,
+                        "images":  13
+                    }
+                ]
+}

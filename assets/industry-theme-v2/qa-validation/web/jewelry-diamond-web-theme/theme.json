@@ -1,0 +1,94 @@
+{
+  "name": "Aurelia Elan - Luxury Jewelry Editorial",
+  "version": "1.7.1",
+  "storefrontKey": "jewelry-diamond-web-theme",
+  "industry": "Jewelry / Diamond",
+  "industryId": "10000000-0000-4000-8000-000000000006",
+  "description": "Aurelia Elan is a complete luxury jewellery editorial storefront with a campaign hero, three-story collection mosaic, interactive new-arrival rail, deal feature, client story, journal and subscription-led footer.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json",
+    "blog": "templates/blog.json",
+    "about": "templates/about.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section",
+    "product-carousel",
+    "blog-preview"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section",
+      "product-carousel",
+      "blog-preview"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/aurelia-hero-original-v2.png",
+    "tablet": "assets/images/aurelia-journal-cuff-original.png",
+    "mobile": "assets/images/aurelia-ring-macro-original.png"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-06-web-aurelia-elan",
+    "direction": "Complete luxury jewellery editorial",
+    "header": "editorial-jowenly",
+    "hero": "jowenly-campaign",
+    "categories": "editorial-three",
+    "productCards": "new-arrival-carousel",
+    "productListing": "editorial-three",
+    "productDetail": "sticky-buy",
+    "footer": "newsletter-led",
+    "density": "airy",
+    "responsiveStrategy": "desktop-editorial-mosaic-to-mobile-story-stack"
+  }
+}

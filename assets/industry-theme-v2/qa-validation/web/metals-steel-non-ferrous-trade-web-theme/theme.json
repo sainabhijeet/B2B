@@ -1,0 +1,92 @@
+{
+  "name": "Metals, Steel & Non-ferrous Trade Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "metals-steel-non-ferrous-trade-web-theme",
+  "industry": "Metals, Steel & Non-ferrous Trade",
+  "industryId": "10000000-0000-4000-8000-00000000002f",
+  "description": "AlloyDistrict: Browse metals by form and material for workshop sourcing. A desktop sourcing assortment. Metals trading terminal design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-47-web",
+    "direction": "Metals trading terminal",
+    "header": "split-utility",
+    "headerIdentity": "header-47-web",
+    "headerStructure": "shell-5-composition-8",
+    "hero": "spec-board",
+    "categories": "horizontal-rail",
+    "productCards": "minimal",
+    "productListing": "sidebar-grid",
+    "productDetail": "technical-tabs",
+    "footer": "newsletter-led",
+    "footerIdentity": "footer-47-web",
+    "footerStructure": "shell-5-composition-7",
+    "density": "balanced",
+    "responsiveStrategy": "sidebar-grid-to-mobile-drawer"
+  }
+}

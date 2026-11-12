@@ -1,0 +1,92 @@
+{
+  "name": "Pet Care & Veterinary Distribution Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "pet-care-veterinary-distribution-web-theme",
+  "industry": "Pet Care & Veterinary Distribution",
+  "industryId": "10000000-0000-4000-8000-00000000002b",
+  "description": "PetProvision: Build pet-care ranges for daily feeding, grooming and comfort. A desktop sourcing assortment. Veterinary care shelf design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-43-web",
+    "direction": "Veterinary care shelf",
+    "header": "editorial",
+    "headerIdentity": "header-43-web",
+    "headerStructure": "shell-1-composition-8",
+    "hero": "editorial-left",
+    "categories": "split-cards",
+    "productCards": "editorial",
+    "productListing": "top-filter-dense",
+    "productDetail": "story-scroll",
+    "footer": "minimal",
+    "footerIdentity": "footer-43-web",
+    "footerStructure": "shell-1-composition-7",
+    "density": "compact",
+    "responsiveStrategy": "top-filter-dense-to-mobile-drawer"
+  }
+}

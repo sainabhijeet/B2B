@@ -18,6 +18,7 @@ export default () => ({
       process.env.DB_STATEMENT_TIMEOUT_MS ?? '30000',
       10,
     ),
+    logging: process.env.DB_LOGGING === 'true',
     ssl: process.env.DB_SSL === 'true',
     sslRejectUnauthorized: process.env.DB_SSL_REJECT_UNAUTHORIZED !== 'false',
   },
@@ -40,6 +41,12 @@ export default () => ({
   bootstrap: {
     superAdminEmail: process.env.BOOTSTRAP_SUPER_ADMIN_EMAIL,
     superAdminPassword: process.env.BOOTSTRAP_SUPER_ADMIN_PASSWORD,
+  },
+  credentialProtection: {
+    encryptionKey:
+      process.env.CONFIG_ENCRYPTION_KEY ??
+      process.env.PLATFORM_CONFIG_ENCRYPTION_KEY ??
+      '',
   },
   app: {
     platformDomain: process.env.APP_PLATFORM_DOMAIN ?? 'platform.local',
@@ -213,6 +220,60 @@ export default () => ({
   assets: {
     publicStorageCdnUrl:
       process.env.PUBLIC_STORAGE_CDN_URL?.replace(/\/$/, '') ?? '',
+  },
+  platformStorageRuntime: {
+    enabled: process.env.PLATFORM_STORAGE_RUNTIME_ENABLED === 'true',
+    localMaxWriteBytes: parseInt(
+      process.env.PLATFORM_STORAGE_LOCAL_MAX_WRITE_BYTES ??
+        String(25 * 1024 * 1024),
+      10,
+    ),
+  },
+  mediaMalware: {
+    enabled: process.env.MEDIA_MALWARE_SCANNING_ENABLED !== 'false',
+    failClosed: process.env.MEDIA_MALWARE_FAIL_CLOSED !== 'false',
+    quarantineDir: process.env.MEDIA_QUARANTINE_DIR ?? '',
+    timeoutMs: parseInt(process.env.MEDIA_SCAN_TIMEOUT_MS ?? '30000', 10),
+    maxBytes: parseInt(
+      process.env.MEDIA_SCAN_MAX_BYTES ?? String(25 * 1024 * 1024),
+      10,
+    ),
+    workerConcurrency: parseInt(
+      process.env.MEDIA_SCAN_WORKER_CONCURRENCY ?? '1',
+      10,
+    ),
+    maxAttempts: parseInt(process.env.MEDIA_SCAN_MAX_ATTEMPTS ?? '3', 10),
+    staleAfterMs: parseInt(
+      process.env.MEDIA_SCAN_STALE_AFTER_MS ?? '300000',
+      10,
+    ),
+    retentionDays: parseInt(
+      process.env.MEDIA_QUARANTINE_RETENTION_DAYS ?? '30',
+      10,
+    ),
+    scanner: {
+      provider: process.env.MEDIA_SCANNER_PROVIDER ?? 'unavailable',
+      transport: process.env.MEDIA_SCANNER_TRANSPORT ?? 'tcp',
+      host: process.env.MEDIA_SCANNER_HOST ?? '',
+      port: parseInt(process.env.MEDIA_SCANNER_PORT ?? '3310', 10),
+      socketPath: process.env.MEDIA_SCANNER_SOCKET_PATH ?? '',
+      connectTimeoutMs: parseInt(
+        process.env.MEDIA_SCANNER_CONNECT_TIMEOUT_MS ?? '3000',
+        10,
+      ),
+      idleTimeoutMs: parseInt(
+        process.env.MEDIA_SCANNER_IDLE_TIMEOUT_MS ?? '10000',
+        10,
+      ),
+      responseMaxBytes: parseInt(
+        process.env.MEDIA_SCANNER_RESPONSE_MAX_BYTES ?? '4096',
+        10,
+      ),
+      streamChunkBytes: parseInt(
+        process.env.MEDIA_SCANNER_STREAM_CHUNK_BYTES ?? String(64 * 1024),
+        10,
+      ),
+    },
   },
   smtp: {
     host: process.env.SMTP_HOST ?? '',

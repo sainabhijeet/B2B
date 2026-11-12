@@ -1,0 +1,42 @@
+{
+  "valid": true,
+  "checked": 1,
+  "web": 1,
+  "app": 0,
+  "uniqueProductNames": 6,
+  "uniqueSourcePhotos": 6,
+  "uniqueDecodedPhotos": 6,
+  "missingAssets": 0,
+  "results": [
+    {
+      "industryOrder": 1,
+      "industryId": "10000000-0000-4000-8000-000000000001",
+      "industry": "Electronics",
+      "platform": "WEB",
+      "themeName": "Electronics Web Theme",
+      "slug": "electronics-web-theme",
+      "zip": "web/electronics-web-theme.zip",
+      "categories": 4,
+      "products": 6,
+      "version": "1.3.0",
+      "designId": "ds-01-web",
+      "designDirection": "Circuit editorial showroom",
+      "designSystem": {
+        "id": "ds-01-web",
+        "direction": "Circuit editorial showroom",
+        "header": "search-led",
+        "hero": "split-right",
+        "categories": "image-tiles",
+        "productCards": "marketplace",
+        "productListing": "top-filter-dense",
+        "productDetail": "story-scroll",
+        "footer": "minimal",
+        "density": "compact",
+        "responsiveStrategy": "top-filter-dense-to-mobile-drawer"
+      },
+      "demoBrand": "CircuitLane",
+      "photos": 6,
+      "valid": true
+    }
+  ]
+}

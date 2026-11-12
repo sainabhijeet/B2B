@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PowerReserve",
+        "industryName": "Batteries & Power Systems",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PowerReserve / Batteries & Power Systems",
+        "subtitle": "Source tubular battery, online ups unit and more from this batteries & power systems trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy"
+      },
+      "variant": "hero-mosaic"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find PowerReserve supplies",
+        "message": "Explore PowerReserve Industrial Batteries, PowerReserve UPS Systems, PowerReserve Energy Storage, PowerReserve Battery Accessories.",
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy"
+      },
+      "variant": "filters-top-filter-dense"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "PowerReserve trade selection",
+        "subtitle": "Source tubular battery, online ups unit and more from this batteries & power systems trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PowerReserve Tubular Battery",
+          "PowerReserve Online UPS Unit",
+          "PowerReserve Lithium Storage Pack",
+          "PowerReserve Battery Charger",
+          "PowerReserve Power Distribution Unit",
+          "PowerReserve Battery Connector Set"
+        ],
+        "prices": [
+          "INR 12,500",
+          "INR 28,500",
+          "INR 65,000",
+          "INR 4,200",
+          "INR 8,500",
+          "INR 650"
+        ],
+        "products": [
+          {
+            "id": "batteries-power-systems-web-theme-product-1",
+            "slug": "powerreserve-tubular-battery",
+            "sku": "WEB-36-1",
+            "name": "PowerReserve Tubular Battery",
+            "description": "Tubular Battery from PowerReserve's industrial batteries assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "industrial-batteries",
+            "categoryId": "batteries-power-systems-web-theme-category-1",
+            "categoryName": "PowerReserve Industrial Batteries",
+            "brand": "PowerReserve",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 173,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Tubular Battery",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-web-theme-product-2",
+            "slug": "powerreserve-online-ups-unit",
+            "sku": "WEB-36-2",
+            "name": "PowerReserve Online UPS Unit",
+            "description": "Online UPS Unit from PowerReserve's ups systems assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "ups-systems",
+            "categoryId": "batteries-power-systems-web-theme-category-2",
+            "categoryName": "PowerReserve UPS Systems",
+            "brand": "PowerReserve",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 184,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Online UPS Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-web-theme-product-3",
+            "slug": "powerreserve-lithium-storage-pack",
+            "sku": "WEB-36-3",
+            "name": "PowerReserve Lithium Storage Pack",
+            "description": "Lithium Storage Pack from PowerReserve's energy storage assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "energy-storage",
+            "categoryId": "batteries-power-systems-web-theme-category-3",
+            "categoryName": "PowerReserve Energy Storage",
+            "brand": "PowerReserve",
+            "price": 65000,
+            "currency": "INR",
+            "priceLabel": "INR 65,000",
+            "image": "assets/images/product-03.jpg",
+            "stock": 195,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 76700,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 65000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 61750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 58500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Lithium Storage Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-web-theme-product-4",
+            "slug": "powerreserve-battery-charger",
+            "sku": "WEB-36-4",
+            "name": "PowerReserve Battery Charger",
+            "description": "Battery Charger from PowerReserve's battery accessories assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "battery-accessories",
+            "categoryId": "batteries-power-systems-web-theme-category-4",
+            "categoryName": "PowerReserve Battery Accessories",
+            "brand": "PowerReserve",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-04.jpg",
+            "stock": 206,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Battery Charger",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-web-theme-product-5",
+            "slug": "powerreserve-power-distribution-unit",
+            "sku": "WEB-36-5",
+            "name": "PowerReserve Power Distribution Unit",
+            "description": "Power Distribution Unit from PowerReserve's ups systems assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "ups-systems",
+            "categoryId": "batteries-power-systems-web-theme-category-2",
+            "categoryName": "PowerReserve UPS Systems",
+            "brand": "PowerReserve",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 217,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Power Distribution Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "batteries-power-systems-web-theme-product-6",
+            "slug": "powerreserve-battery-connector-set",
+            "sku": "WEB-36-6",
+            "name": "PowerReserve Battery Connector Set",
+            "description": "Battery Connector Set from PowerReserve's battery accessories assortment. Compare power and backup components in a focused assortment. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "battery-accessories",
+            "categoryId": "batteries-power-systems-web-theme-category-4",
+            "categoryName": "PowerReserve Battery Accessories",
+            "brand": "PowerReserve",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-06.jpg",
+            "stock": 228,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PowerReserve Battery Connector Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy",
+        "cardStyle": "image-first",
+        "columns": 6
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your PowerReserve order",
+        "subtitle": "Review quantities for tubular battery with this batteries & power systems preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PowerReserve",
+        "industryName": "Batteries & Power Systems",
+        "tagline": "Source tubular battery, online ups unit and more from this batteries & power systems trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-36-web",
+        "layoutMode": "top-filter-dense",
+        "density": "airy"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-36-web"
+}

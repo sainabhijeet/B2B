@@ -26,6 +26,11 @@ void main() {
       name: 'Test product',
       categoryId: 'category-1',
       price: 125,
+      unit: 'pack',
+      moq: 12,
+      priceSlabs: <PriceSlab>[
+        PriceSlab(minQty: 12, price: 125, label: '12+ units'),
+      ],
       imageUrl: 'https://example.com/tall-product.png',
     );
     const LocalizationContract languageContract = LocalizationContract(
@@ -68,6 +73,9 @@ void main() {
     await tester.pump();
 
     expect(tester.takeException(), isNull);
+    expect(find.text('INR125.00 per pack'), findsOneWidget);
+    expect(find.text('12+ packs'), findsOneWidget);
+    expect(find.text('12+ units'), findsNothing);
     final Image productImage = tester.widget<Image>(find.byType(Image));
     expect(productImage.fit, BoxFit.contain);
     final ProviderContainer container = ProviderScope.containerOf(

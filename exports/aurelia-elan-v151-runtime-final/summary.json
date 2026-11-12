@@ -1,0 +1,2446 @@
+{
+  "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f&tenant=ab-jewelry&wbPreview=153&previewMode=1",
+  "desktop": {
+    "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f&tenant=ab-jewelry&wbPreview=153&previewMode=1",
+    "title": "AB Jewelry",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "page": {
+      "width": 1440,
+      "height": 6588
+    },
+    "bodyClass": "__variable_246ccd __variable_c29908 min-h-screen antialiased",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Luxury jewellery, shaped for modern rituals."
+      },
+      {
+        "level": "h2",
+        "text": "Jewellery collection"
+      },
+      {
+        "level": "h2",
+        "text": "Rings collection"
+      },
+      {
+        "level": "h2",
+        "text": "Necklaces collection"
+      },
+      {
+        "level": "h2",
+        "text": "Earrings collection"
+      },
+      {
+        "level": "h2",
+        "text": "New arrival"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Diamond Solitaire Ring"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Gold Chain Collection"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Silver Gift Bowl"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Emerald Gemstone"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Bridal Necklace Set"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Diamond Stud Earrings"
+      },
+      {
+        "level": "h1",
+        "text": "Auric diamond hoops"
+      },
+      {
+        "level": "h2",
+        "text": "Trusted from clients"
+      },
+      {
+        "level": "h2",
+        "text": "Blog & article"
+      },
+      {
+        "level": "h3",
+        "text": "How to build an everyday ring stack"
+      },
+      {
+        "level": "h3",
+        "text": "The quiet return of sculptural gold"
+      },
+      {
+        "level": "h3",
+        "text": "A practical guide to jewellery care"
+      },
+      {
+        "level": "h2",
+        "text": "New products and buying guides"
+      },
+      {
+        "level": "h2",
+        "text": "Quick links"
+      },
+      {
+        "level": "h2",
+        "text": "Support"
+      },
+      {
+        "level": "h2",
+        "text": "Account"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "className": "overflow-hidden py-14 md:py-16",
+        "heading": "Luxury jewellery, shaped for modern rituals.",
+        "text": "THE HOUSE OF AURELIALuxury jewellery, shaped for modern rituals.Discover sculptural gold, luminous diamonds and heirloom-inspired signatures—created for elegant everyday moments and unforgettable occasions.All collections",
+        "top": 158,
+        "height": 888
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "py-12",
+        "heading": "Jewellery collection",
+        "text": "Jewellery collectionExplore three signature stories, composed in gold, light and modern form.Rings collectionSculptural gold and diamond rings for quiet statements.Browse category →Necklaces collectionLayered chains and luminous necklace signatures.Browse cate",
+        "top": 1046,
+        "height": 1150
+      },
+      {
+        "tag": "section",
+        "id": "products-new-arrival",
+        "className": "relative overflow-hidden px-4 py-12 sm:px-6 sm:py-16",
+        "heading": "New arrival",
+        "text": "CURATED FOR YOUNew arrivalFreshly finished signatures for the new season.View all productsPopularAurelia Elan Diamond Solitaire Ring₹48,000.00PopularAurelia Elan Gold Chain Collection₹62,000.00PopularAurelia Elan Silver Gift Bowl₹4,200.00PopularAurelia Elan Em",
+        "top": 2195,
+        "height": 869
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "mx-auto max-w-6xl px-4 py-14 sm:py-20",
+        "heading": "Auric diamond hoops",
+        "text": "DEAL OF THE DAYAuric diamond hoopsA limited editorial offer on our luminous gold hoop pair, finished with a delicate diamond line.INR 28,900INR 36,000Add to cart09 DAYS LEFT",
+        "top": 3176,
+        "height": 732
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "bg-white py-14",
+        "heading": "Trusted from clients",
+        "text": "Trusted from clients“The collection feels considered from every angle. The finish, balance and presentation make each piece feel genuinely special.”Meera KapoorBoutique buyer — demo review",
+        "top": 4020,
+        "height": 1003
+      },
+      {
+        "tag": "section",
+        "id": "retailer-guides",
+        "className": "bg-slate-950 py-14 text-white sm:py-20",
+        "heading": "Blog & article",
+        "text": "THE JOURNALBlog & articleStories of craft, styling and considered jewellery care.Explore all guides →October 18, 202601How to build an everyday ring stackBalance proportion, texture and light with three simple styling principles.Read guide →October 12, 202602T",
+        "top": 5023,
+        "height": 1060
+      }
+    ],
+    "navLinks": [
+      {
+        "text": "AB JewelryJewelry / Diamond",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "flex min-w-0 shrink-0 items-center gap-3"
+      },
+      {
+        "text": "My AccountLogin / Register",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "group hidden items-center gap-2.5 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "group relative hidden items-center gap-2 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex"
+      },
+      {
+        "text": "Home",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-[var(--header-primary)]"
+      },
+      {
+        "text": "About Us",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Collections",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "New ArrivalsHOT",
+        "href": "http://ab-jewelry.localhost:5175/category?sort=newest",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Collections",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "New Arrivals",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Shipping",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Returns",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Login",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Orders",
+        "href": "http://ab-jewelry.localhost:5175/orders",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Cart",
+        "href": "http://ab-jewelry.localhost:5175/cart",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CartINR 0.00",
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "",
+        "className": "flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-[var(--theme-primar"
+      },
+      {
+        "text": "",
+        "className": "flex h-11 w-11 items-center justify-center rounded-full bg-[var(--theme-primary)] text-white shadow-[0_8px_22px_color-mix(in_srgb,var(--theme-primary)_28%,transparent)] transition "
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "Subscribe",
+        "className": "bg-[var(--theme-primary)] px-5 py-3 text-sm font-bold text-white"
+      }
+    ],
+    "carousels": [],
+    "animations": [
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group hidden items-center gap-2.5 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "circle",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative hidden items-center gap-2 text-slate-950 transition hover:text-[var(--header-primary)] lg:flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group relative flex shrink-0 items-center gap-2 px-1 text-xs font-bold transition text-slate-800 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-full px-5 py-2.5 text-sm font-semibold",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background, transform",
+        "transitionDuration": "0.25s, 0.25s, 0.25s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-[var(--theme-primar",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex h-11 w-11 items-center justify-center rounded-full bg-[var(--theme-primary)] text-white shadow-[0_8px_22px_color-mix(in_srgb,var(--theme-primary)_28%,transparent)] transition ",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "theme-editorial-cta mt-6 inline-flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "background, color",
+        "transitionDuration": "0.25s, 0.25s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f",
+        "alt": "AB Jewelry",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/hero-editorial.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "Rings collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "Necklaces collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/hero-editorial.png",
+        "alt": "Earrings collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-01.jpg",
+        "alt": "Aurelia Elan Diamond Solitaire Ring",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-02.jpg",
+        "alt": "Aurelia Elan Gold Chain Collection",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-03.jpg",
+        "alt": "Aurelia Elan Silver Gift Bowl",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-04.jpg",
+        "alt": "Aurelia Elan Emerald Gemstone",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-05.jpg",
+        "alt": "Aurelia Elan Bridal Necklace Set",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-06.jpg",
+        "alt": "Aurelia Elan Diamond Stud Earrings",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "Auric diamond hoops",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/Editorial portrait for fictional client testimonial",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-06.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f",
+        "alt": "",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      }
+    ],
+    "backgrounds": [
+      "linear-gradient(90deg, rgb(247, 241, 231) 0px, rgb(247, 241, 231) 72%, rgb(235, 223, 207) 72%, rgb(235, 223, 207) 100%)",
+      "linear-gradient(115deg, rgb(247, 241, 231) 0px, rgb(247, 241, 231) 12%, rgb(238, 229, 215) 12%, rgb(238, 229, 215) 88%, rgb(247, 241, 231) 88%)"
+    ],
+    "forms": [
+      {
+        "action": "http://ab-jewelry.localhost:5175/contact",
+        "method": "get",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "placeholder": "Business email address"
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "placeholder": null
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/main-app.js?v=1792999527713",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app-pages-internals.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/page.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/layout.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/polyfills.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/webpack.js?v=1792999527713"
+    ],
+    "stylesheets": [
+      "http://ab-jewelry.localhost:5175/_next/static/css/app/layout.css?v=1792999527713"
+    ]
+  },
+  "mobile": {
+    "url": "http://ab-jewelry.localhost:5175/?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f&tenant=ab-jewelry&wbPreview=153&previewMode=1",
+    "title": "AB Jewelry",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "page": {
+      "width": 390,
+      "height": 10054
+    },
+    "bodyClass": "__variable_246ccd __variable_c29908 min-h-screen antialiased",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Luxury jewellery, shaped for modern rituals."
+      },
+      {
+        "level": "h2",
+        "text": "Jewellery collection"
+      },
+      {
+        "level": "h2",
+        "text": "Rings collection"
+      },
+      {
+        "level": "h2",
+        "text": "Necklaces collection"
+      },
+      {
+        "level": "h2",
+        "text": "Earrings collection"
+      },
+      {
+        "level": "h2",
+        "text": "New arrival"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Diamond Solitaire Ring"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Gold Chain Collection"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Silver Gift Bowl"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Emerald Gemstone"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Bridal Necklace Set"
+      },
+      {
+        "level": "h3",
+        "text": "Aurelia Elan Diamond Stud Earrings"
+      },
+      {
+        "level": "h1",
+        "text": "Auric diamond hoops"
+      },
+      {
+        "level": "h2",
+        "text": "Trusted from clients"
+      },
+      {
+        "level": "h2",
+        "text": "Blog & article"
+      },
+      {
+        "level": "h3",
+        "text": "How to build an everyday ring stack"
+      },
+      {
+        "level": "h3",
+        "text": "The quiet return of sculptural gold"
+      },
+      {
+        "level": "h3",
+        "text": "A practical guide to jewellery care"
+      },
+      {
+        "level": "h2",
+        "text": "New products and buying guides"
+      },
+      {
+        "level": "h2",
+        "text": "Quick links"
+      },
+      {
+        "level": "h2",
+        "text": "Support"
+      },
+      {
+        "level": "h2",
+        "text": "Account"
+      }
+    ],
+    "sections": [
+      {
+        "tag": "section",
+        "id": null,
+        "className": "overflow-hidden py-14 md:py-16",
+        "heading": "Luxury jewellery, shaped for modern rituals.",
+        "text": "THE HOUSE OF AURELIALuxury jewellery, shaped for modern rituals.Discover sculptural gold, luminous diamonds and heirloom-inspired signatures—created for elegant everyday moments and unforgettable occasions.All collections",
+        "top": 176,
+        "height": 1073
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "py-12",
+        "heading": "Jewellery collection",
+        "text": "Jewellery collectionExplore three signature stories, composed in gold, light and modern form.Rings collectionSculptural gold and diamond rings for quiet statements.Browse category →Necklaces collectionLayered chains and luminous necklace signatures.Browse cate",
+        "top": 1249,
+        "height": 2286
+      },
+      {
+        "tag": "section",
+        "id": "products-new-arrival",
+        "className": "relative overflow-hidden px-4 py-12 sm:px-6 sm:py-16",
+        "heading": "New arrival",
+        "text": "CURATED FOR YOUNew arrivalFreshly finished signatures for the new season.View all productsPopularAurelia Elan Diamond Solitaire Ring₹48,000.00PopularAurelia Elan Gold Chain Collection₹62,000.00PopularAurelia Elan Silver Gift Bowl₹4,200.00PopularAurelia Elan Em",
+        "top": 3535,
+        "height": 873
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "mx-auto max-w-6xl px-4 py-14 sm:py-20",
+        "heading": "Auric diamond hoops",
+        "text": "DEAL OF THE DAYAuric diamond hoopsA limited editorial offer on our luminous gold hoop pair, finished with a delicate diamond line.INR 28,900INR 36,000Add to cart09 DAYS LEFT",
+        "top": 4484,
+        "height": 969
+      },
+      {
+        "tag": "section",
+        "id": null,
+        "className": "bg-white py-14",
+        "heading": "Trusted from clients",
+        "text": "Trusted from clients“The collection feels considered from every angle. The finish, balance and presentation make each piece feel genuinely special.”Meera KapoorBoutique buyer — demo review",
+        "top": 5529,
+        "height": 1084
+      },
+      {
+        "tag": "section",
+        "id": "retailer-guides",
+        "className": "bg-slate-950 py-14 text-white sm:py-20",
+        "heading": "Blog & article",
+        "text": "THE JOURNALBlog & articleStories of craft, styling and considered jewellery care.Explore all guides →October 18, 202601How to build an everyday ring stackBalance proportion, texture and light with three simple styling principles.Read guide →October 12, 202602T",
+        "top": 6613,
+        "height": 2394
+      }
+    ],
+    "navLinks": [
+      {
+        "text": "AB JewelryJewelry / Diamond",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "flex min-w-0 shrink-0 items-center gap-3"
+      },
+      {
+        "text": "Home",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition bg-[var(--header-soft)] text-[var(--header-primary)]"
+      },
+      {
+        "text": "About Us",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Collections",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "New Arrivals",
+        "href": "http://ab-jewelry.localhost:5175/category?sort=newest",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "Login / Register",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+      },
+      {
+        "text": "About",
+        "href": "http://ab-jewelry.localhost:5175/about",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Collections",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "New Arrivals",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Blog",
+        "href": "http://ab-jewelry.localhost:5175/blog",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Contact",
+        "href": "http://ab-jewelry.localhost:5175/contact",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "FAQ",
+        "href": "http://ab-jewelry.localhost:5175/faq",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Shipping",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Returns",
+        "href": "http://ab-jewelry.localhost:5175/",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Login",
+        "href": "http://ab-jewelry.localhost:5175/login",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Orders",
+        "href": "http://ab-jewelry.localhost:5175/orders",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Wishlist",
+        "href": "http://ab-jewelry.localhost:5175/wishlist",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      },
+      {
+        "text": "Cart",
+        "href": "http://ab-jewelry.localhost:5175/cart",
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "CartINR 0.00",
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]"
+      },
+      {
+        "text": "",
+        "className": "flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-[var(--theme-primar"
+      },
+      {
+        "text": "",
+        "className": "flex h-11 w-11 items-center justify-center rounded-full bg-[var(--theme-primary)] text-white shadow-[0_8px_22px_color-mix(in_srgb,var(--theme-primary)_28%,transparent)] transition "
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "",
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl"
+      },
+      {
+        "text": "Subscribe",
+        "className": "bg-[var(--theme-primary)] px-5 py-3 text-sm font-bold text-white"
+      }
+    ],
+    "carousels": [],
+    "animations": [
+      {
+        "tag": "button",
+        "id": null,
+        "className": "group relative flex h-11 items-center gap-2.5 px-1 text-slate-950 transition hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition bg-[var(--header-soft)] text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-xl px-3 py-2.5 text-sm font-semibold transition text-slate-700 hover:bg-slate-50 hover:text-[var(--header-primary)]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "rounded-full px-5 py-2.5 text-sm font-semibold",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background, transform",
+        "transitionDuration": "0.25s, 0.25s, 0.25s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-500 group-hover:scale-[1.03]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform, filter",
+        "transitionDuration": "0.7s, 0.4s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-[var(--theme-primar",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "flex h-11 w-11 items-center justify-center rounded-full bg-[var(--theme-primary)] text-white shadow-[0_8px_22px_color-mix(in_srgb,var(--theme-primary)_28%,transparent)] transition ",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "article",
+        "id": null,
+        "className": "product-card group relative flex h-full cursor-pointer flex-col overflow-hidden rounded-xl border shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md",
+        "animationName": "aureliaReveal",
+        "animationDuration": "auto",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.2s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "className": "inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:border-rose-300 hover:text-rose-600 disabl",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "svg",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "path",
+        "id": null,
+        "className": "[object SVGAnimatedString]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "all",
+        "transitionDuration": "0s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "object-cover transition duration-300 group-hover:scale-[1.02]",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "theme-editorial-cta mt-6 inline-flex",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "background, color",
+        "transitionDuration": "0.25s, 0.25s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "group flex h-full min-h-52 flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] p-6 transition duration-300 hover:-translate-y-1 hover:border-[var(--theme-se",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.3s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "img",
+        "id": null,
+        "className": "theme-blog-image",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "transform",
+        "transitionDuration": "0.65s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-slate-300 transition hover:border-white/40 hover:bg-white/10 hover:text-white",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      },
+      {
+        "tag": "a",
+        "id": null,
+        "className": "inline-flex py-1 text-sm text-slate-300 transition hover:translate-x-0.5 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70",
+        "animationName": "none",
+        "animationDuration": "0s",
+        "transitionProperty": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+        "transitionDuration": "0.15s",
+        "dataAnimation": null
+      }
+    ],
+    "images": [
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f",
+        "alt": "AB Jewelry",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/hero-editorial.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "Rings collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "Necklaces collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/hero-editorial.png",
+        "alt": "Earrings collection",
+        "width": 1122,
+        "height": 1402,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-01.jpg",
+        "alt": "Aurelia Elan Diamond Solitaire Ring",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-02.jpg",
+        "alt": "Aurelia Elan Gold Chain Collection",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-03.jpg",
+        "alt": "Aurelia Elan Silver Gift Bowl",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-04.jpg",
+        "alt": "Aurelia Elan Emerald Gemstone",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-05.jpg",
+        "alt": "Aurelia Elan Bridal Necklace Set",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-06.jpg",
+        "alt": "Aurelia Elan Diamond Stud Earrings",
+        "width": 1000,
+        "height": 1000,
+        "loading": "lazy"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "Auric diamond hoops",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/Editorial portrait for fictional client testimonial",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-rings-v2.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/collection-necklace-v2.png",
+        "alt": "",
+        "width": 1122,
+        "height": 1402,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/storage/themes/web/jewelry-diamond-web-theme/assets/images/product-06.jpg",
+        "alt": "",
+        "width": 1000,
+        "height": 1000,
+        "loading": "auto"
+      },
+      {
+        "src": "http://localhost:3000/api/v1/themes/storefront/logo?tenantId=cce2df14-ec47-4158-9892-27bbf63e802f",
+        "alt": "",
+        "width": 1024,
+        "height": 768,
+        "loading": "auto"
+      }
+    ],
+    "backgrounds": [
+      "linear-gradient(115deg, rgb(247, 241, 231) 0px, rgb(247, 241, 231) 12%, rgb(238, 229, 215) 12%, rgb(238, 229, 215) 88%, rgb(247, 241, 231) 88%)"
+    ],
+    "forms": [
+      {
+        "action": "http://ab-jewelry.localhost:5175/contact",
+        "method": "get",
+        "fields": [
+          {
+            "tag": "input",
+            "type": "email",
+            "name": "email",
+            "placeholder": "Business email address"
+          },
+          {
+            "tag": "button",
+            "type": "submit",
+            "name": null,
+            "placeholder": null
+          }
+        ]
+      }
+    ],
+    "scripts": [
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/main-app.js?v=1792999547462",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app-pages-internals.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/page.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/app/layout.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/polyfills.js",
+      "http://ab-jewelry.localhost:5175/_next/static/chunks/webpack.js?v=1792999547462"
+    ],
+    "stylesheets": [
+      "http://ab-jewelry.localhost:5175/_next/static/css/app/layout.css?v=1792999547462"
+    ]
+  }
+}

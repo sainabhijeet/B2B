@@ -86,7 +86,10 @@ export function ThemeUploadPage() {
     setIndustriesLoading(true);
     setIndustriesError(null);
     try {
-      const rows = await apiGet<IndustryRow[]>('/admin/industries');
+      // Theme assignment only needs the active catalog. Using the public endpoint
+      // also avoids coupling this field to the stricter industry-management role
+      // guard, which can reject otherwise valid theme administrators with 403.
+      const rows = await apiGet<IndustryRow[]>('/industries');
       setIndustries(
         (Array.isArray(rows) ? rows : []).sort(
           (a, b) => a.displayOrder - b.displayOrder || a.name.localeCompare(b.name),

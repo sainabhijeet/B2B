@@ -1,0 +1,92 @@
+{
+  "name": "Marine & Port Supplies Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "marine-port-supplies-web-theme",
+  "industry": "Marine & Port Supplies",
+  "industryId": "10000000-0000-4000-8000-000000000026",
+  "description": "PortSupply: Keep vessel and dock replenishment ready for the next call. A desktop sourcing assortment. Port stores manifest design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-38-web",
+    "direction": "Port stores manifest",
+    "header": "compact-stack",
+    "headerIdentity": "header-38-web",
+    "headerStructure": "shell-2-composition-7",
+    "hero": "full-bleed",
+    "categories": "masonry",
+    "productCards": "horizontal",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "service-desk",
+    "footerIdentity": "footer-38-web",
+    "footerStructure": "shell-3-composition-6",
+    "density": "balanced",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

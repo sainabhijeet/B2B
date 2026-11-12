@@ -17,6 +17,7 @@ import { TenantDomain } from '../../common/entities/tenant-domain.entity';
 import { TenantDistributorApp } from '../../common/entities/tenant-app.entity';
 import { TenantOnboarding } from '../../common/entities/tenant-onboarding.entity';
 import { TenantProfile } from '../../common/entities/tenant-profile.entity';
+import { TenantPaymentSettings } from '../../common/entities/tenant-payment-settings.entity';
 import { TenantThemeSettings } from '../../common/entities/tenant-theme-settings.entity';
 import { WhatsappMessage } from '../../common/entities';
 import { UserRole } from '../../common/enums/user-role.enum';
@@ -28,6 +29,7 @@ import type { UpdateAppConfigDto } from '../app-config/dto/update-app-config.dto
 import { normalizePlatformLanguageCode } from '../distributor-onboarding/distributor-onboarding.service';
 import type { UpdatePaymentSettingsDto } from './dto/update-payment-settings.dto';
 import { areQueuesEnabled } from '../../workers/queue-factory';
+import { CredentialEncryptionService } from '../../common/security/credential-encryption.service';
 
 const UPI_ID_RE = /^[A-Za-z0-9._-]{2,128}@[A-Za-z][A-Za-z0-9._-]{2,64}$/;
 
@@ -100,6 +102,7 @@ export type DistributorPaymentSettingsDto = {
   accountHolderName: string;
   bankName: string;
   accountNumber: string;
+  accountNumberMasked: string;
   ifsc: string;
   branch: string;
   upiId: string;
@@ -118,6 +121,7 @@ export class DistributorPanelService {
     private readonly config: ConfigService,
     private readonly appConfig: AppConfigService,
     private readonly buildService: BuildService,
+    private readonly credentials: CredentialEncryptionService,
     @InjectRepository(TenantDomain)
     private readonly domainRepo: Repository<TenantDomain>,
     @InjectRepository(TenantDistributorApp)
@@ -138,6 +142,8 @@ export class DistributorPanelService {
     private readonly waMsgRepo: Repository<WhatsappMessage>,
     @InjectRepository(PlatformWhatsappNumber)
     private readonly platformWaRepo: Repository<PlatformWhatsappNumber>,
+    @InjectRepository(TenantPaymentSettings)
+    private readonly paymentSettingsRepo: Repository<TenantPaymentSettings>,
   ) {}
 
   async getWhiteLabelStatus(
@@ -461,12 +467,16 @@ export class DistributorPanelService {
     meta: Record<string, unknown>;
     message: string;
   }> {
-    const data = await this.resolvePaymentSettings(tenantId);
+    const row = await this.paymentSettingsRepo.findOne({ where: { tenantId } });
+    const data = row
+      ? this.toPaymentSettingsDto(row)
+      : await this.resolveLegacyPaymentSettings(tenantId);
     return { success: true, data, meta: {}, message: '' };
   }
 
   async patchPaymentSettings(
     tenantId: string,
+    actorUserId: string,
     dto: UpdatePaymentSettingsDto,
   ): Promise<{
     success: boolean;
@@ -474,34 +484,49 @@ export class DistributorPanelService {
     meta: Record<string, unknown>;
     message: string;
   }> {
-    let row = await this.onboardingRepo.findOne({ where: { tenantId } });
+    let row = await this.paymentSettingsRepo.findOne({ where: { tenantId } });
     if (!row) {
-      row = this.onboardingRepo.create({
-        tenantId,
-        currentStep: 7,
-        status: 'complete',
-        payloadJson: {},
-        completedAt: new Date(),
-      });
+      row = this.paymentSettingsRepo.create({ tenantId });
     }
-    const current = (row.payloadJson ?? {}) as Record<string, unknown>;
-    const patch = this.normalizePaymentPatch(dto);
-    const next = { ...current, ...patch };
-    const required: Array<keyof DistributorPaymentSettingsDto> = [
-      'accountHolderName',
-      'bankName',
-      'accountNumber',
-      'ifsc',
-      'upiId',
-    ];
-    if (required.some((key) => !this.text(next[key]))) {
-      throw new BadRequestException(
-        'Bank account holder, bank name, account number, IFSC and UPI ID are required.',
-      );
+
+    if (dto.accountHolderName !== undefined) {
+      row.accountHolderName = this.normalizeText(dto.accountHolderName, 255);
     }
-    row.payloadJson = next;
-    await this.onboardingRepo.save(row);
-    const data = await this.resolvePaymentSettings(tenantId);
+    if (dto.bankName !== undefined) {
+      row.bankName = this.normalizeText(dto.bankName, 255);
+    }
+    if (dto.accountNumber !== undefined) {
+      const digits = dto.accountNumber.replace(/[^\d]/g, '').slice(0, 64);
+      if (!/^\d{4,64}$/.test(digits)) {
+        throw new BadRequestException(
+          'Account number must contain 4 to 64 digits.',
+        );
+      }
+      row.accountNumberEncrypted = this.credentials.encrypt(digits);
+      row.accountNumberLast4 = digits.slice(-4);
+    }
+    if (dto.ifsc !== undefined) {
+      const ifsc = dto.ifsc.replace(/\s/g, '').toUpperCase().slice(0, 32);
+      if (ifsc && !/^[A-Z]{4}0[A-Z0-9]{6}$/.test(ifsc)) {
+        throw new BadRequestException('Enter a valid IFSC code.');
+      }
+      row.ifsc = ifsc || null;
+    }
+    if (dto.branch !== undefined) {
+      row.branch = this.normalizeText(dto.branch, 255);
+    }
+    if (dto.upiId !== undefined) {
+      const upiId = normalizeUpiId(dto.upiId).slice(0, 255);
+      if (upiId && !UPI_ID_RE.test(upiId)) {
+        throw new BadRequestException(
+          'Enter a valid UPI ID such as name@bank. Do not add +91, spaces, account number or IFSC.',
+        );
+      }
+      row.upiId = upiId || null;
+    }
+    row.updatedBy = actorUserId ?? null;
+    const saved = await this.paymentSettingsRepo.save(row);
+    const data = this.toPaymentSettingsDto(saved);
     return { success: true, data, meta: {}, message: 'Payment settings saved.' };
   }
 
@@ -538,9 +563,23 @@ export class DistributorPanelService {
     return patch;
   }
 
-  private async resolvePaymentSettings(
+  private async resolveLegacyPaymentSettings(
     tenantId: string,
   ): Promise<DistributorPaymentSettingsDto> {
+    if (
+      typeof this.onboardingRepo?.findOne !== 'function' ||
+      typeof this.profileRepo?.findOne !== 'function'
+    ) {
+      return {
+        accountHolderName: '',
+        bankName: '',
+        accountNumber: '',
+        accountNumberMasked: '',
+        ifsc: '',
+        branch: '',
+        upiId: '',
+      };
+    }
     const [row, profile] = await Promise.all([
       this.onboardingRepo.findOne({ where: { tenantId } }),
       this.profileRepo.findOne({
@@ -554,10 +593,37 @@ export class DistributorPanelService {
         this.text(p['accountHolderName']) || profile?.businessName || '',
       bankName: this.text(p['bankName']),
       accountNumber: this.text(p['accountNumber']),
+      accountNumberMasked: this.text(p['accountNumber'])
+        ? this.credentials.mask(this.text(p['accountNumber']))
+        : '',
       ifsc: this.text(p['ifsc']),
       branch: this.text(p['branch']),
       upiId: normalizeUpiId(p['upiId']),
     };
+  }
+
+  private toPaymentSettingsDto(
+    row: TenantPaymentSettings,
+  ): DistributorPaymentSettingsDto {
+    const accountNumber = row.accountNumberEncrypted
+      ? this.credentials.decrypt(row.accountNumberEncrypted)
+      : '';
+    return {
+      accountHolderName: row.accountHolderName ?? '',
+      bankName: row.bankName ?? '',
+      accountNumber,
+      accountNumberMasked: accountNumber
+        ? this.credentials.mask(accountNumber)
+        : '',
+      ifsc: row.ifsc ?? '',
+      branch: row.branch ?? '',
+      upiId: row.upiId ?? '',
+    };
+  }
+
+  private normalizeText(value: string, maxLength: number): string | null {
+    const text = value.trim().slice(0, maxLength);
+    return text || null;
   }
 
   private text(value: unknown): string {

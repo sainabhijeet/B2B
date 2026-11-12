@@ -7,9 +7,25 @@ export type StorefrontProduct = {
   name: string;
   description: string;
   price: number | null;
+  mrp?: number | null;
+  compareAtPrice?: number | null;
   currency: string;
   image?: string;
   brand?: string | null;
+  categoryName?: string | null;
+  sku?: string | null;
+  stock?: number | null;
+  stockQuantity?: number | null;
+  moq?: number | null;
+  unit?: string | null;
+  packSize?: string | null;
+  gstRate?: string | number | null;
+  badge?: string | null;
+  leadTime?: string | null;
+  features?: string[] | null;
+  rating?: number | null;
+  reviewCount?: number | null;
+  attributes?: Record<string, string | number | boolean | null | undefined> | null;
 };
 
 export type StorefrontListParams = {
@@ -30,9 +46,22 @@ type StorefrontApiItem = {
   slug: string;
   sku: string;
   price: string | null;
+  mrp?: string | number | null;
   brand?: string | null;
+  brandName?: string | null;
   categorySlug: string | null;
+  category?: { id?: string; name?: string | null; slug?: string | null } | null;
+  imageUrl?: string | null;
   thumbnailUrl: string | null;
+  description?: string | null;
+  unit?: string | null;
+  packSize?: string | null;
+  moq?: number | null;
+  stockQuantity?: number | null;
+  gstRate?: string | number | null;
+  variants?: Array<{
+    attributes?: Record<string, string | number | boolean | null | undefined> | null;
+  }>;
 };
 
 type StorefrontListResponse = {
@@ -46,15 +75,25 @@ type StorefrontListResponse = {
 
 function toStorefrontProduct(row: StorefrontApiItem): StorefrontProduct {
   const price = row.price == null ? NaN : Number.parseFloat(row.price);
+  const mrp = row.mrp == null ? NaN : Number(row.mrp);
   return {
     id: row.id,
     slug: row.slug,
     name: row.name,
-    description: "",
+    description: row.description?.trim() ?? "",
     price: Number.isFinite(price) ? price : null,
+    mrp: Number.isFinite(mrp) ? mrp : null,
     currency: "INR",
-    image: row.thumbnailUrl ?? undefined,
-    brand: row.brand ?? null,
+    image: row.thumbnailUrl ?? row.imageUrl ?? undefined,
+    brand: row.brandName ?? row.brand ?? null,
+    categoryName: row.category?.name ?? null,
+    sku: row.sku ?? null,
+    stockQuantity: row.stockQuantity ?? null,
+    moq: row.moq ?? null,
+    unit: row.unit ?? null,
+    packSize: row.packSize ?? null,
+    gstRate: row.gstRate ?? null,
+    attributes: row.variants?.[0]?.attributes ?? null,
   };
 }
 

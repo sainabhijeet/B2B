@@ -1,0 +1,92 @@
+{
+  "name": "Paper & Packaging Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "paper-packaging-web-theme",
+  "industry": "Paper & Packaging",
+  "industryId": "10000000-0000-4000-8000-000000000012",
+  "description": "PackTerrace: Help businesses choose packaging from shelf to shipping. A desktop sourcing assortment. Packaging dieline studio design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-18-web",
+    "direction": "Packaging dieline studio",
+    "header": "catalog-rail",
+    "headerIdentity": "header-18-web",
+    "headerStructure": "shell-6-composition-3",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "brand-story",
+    "footerIdentity": "footer-18-web",
+    "footerStructure": "shell-4-composition-3",
+    "density": "airy",
+    "responsiveStrategy": "editorial-three-to-mobile-drawer"
+  }
+}

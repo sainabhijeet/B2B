@@ -10,6 +10,7 @@ type Props = {
   heading: string;
   subtitle: string;
   viewAllLabel: string;
+  viewAllHref: string;
   previousLabel: string;
   nextLabel: string;
   children: ReactNode;
@@ -29,6 +30,7 @@ export default function ProductCarouselRail({
   heading,
   subtitle,
   viewAllLabel,
+  viewAllHref,
   previousLabel,
   nextLabel,
   children,
@@ -83,7 +85,7 @@ export default function ProductCarouselRail({
           </div>
 
           <div className="flex items-center justify-between gap-3 sm:justify-end">
-            <Link href="/category" className="mr-1 inline-flex h-10 items-center rounded-full px-4 text-xs font-extrabold text-[var(--theme-primary)] transition hover:bg-[color:var(--theme-primary)]/10">
+            <Link href={viewAllHref} className="mr-1 inline-flex h-10 items-center rounded-full px-4 text-xs font-extrabold text-[var(--theme-primary)] transition hover:bg-[color:var(--theme-primary)]/10">
               {viewAllLabel}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="ml-1.5 h-4 w-4" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m9 18 6-6-6-6" />

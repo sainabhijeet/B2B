@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { APP_GUARD } from '@nestjs/core';
 import { ConfigService } from '@nestjs/config';
 import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
+import { CredentialEncryptionService } from './credential-encryption.service';
 
 @Module({
   imports: [
@@ -15,6 +16,10 @@ import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
       ],
     }),
   ],
-  providers: [{ provide: APP_GUARD, useClass: ThrottlerGuard }],
+  providers: [
+    CredentialEncryptionService,
+    { provide: APP_GUARD, useClass: ThrottlerGuard },
+  ],
+  exports: [CredentialEncryptionService],
 })
 export class SecurityModule {}

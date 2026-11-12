@@ -1,0 +1,492 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "BuildQuarry",
+        "industryName": "Construction & Building Materials",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "quarry-command"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "CONSTRUCTION MATERIAL PROCUREMENT",
+        "title": "Materials matched to the pace of your project.",
+        "subtitle": "Source cement, structural steel, blocks and finishing supplies in one trade-ready catalog built for quantity comparison and planned site delivery.",
+        "primaryCta": "Browse material index",
+        "primaryHref": "/category",
+        "secondaryCta": "Build a project RFQ",
+        "secondaryHref": "/bulk-orders",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "hero-full-bleed"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "Trade-ready material selection",
+        "subtitle": "Review indicative packs, minimum quantities and bulk price tiers before adding products to your project order.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "BuildQuarry Premium Cement Bag",
+          "BuildQuarry TMT Steel Bar Bundle",
+          "BuildQuarry AAC Building Blocks",
+          "BuildQuarry Waterproofing Compound",
+          "BuildQuarry Ready Mix Mortar",
+          "BuildQuarry Construction Sand Pack"
+        ],
+        "prices": [
+          "INR 380",
+          "INR 4,800",
+          "INR 3,200",
+          "INR 1,850",
+          "INR 450",
+          "INR 850"
+        ],
+        "products": [
+          {
+            "id": "construction-building-materials-web-theme-product-1",
+            "slug": "buildquarry-premium-cement-bag",
+            "sku": "WEB-14-1",
+            "name": "BuildQuarry Premium Cement Bag",
+            "description": "Premium Cement Bag from BuildQuarry's cement & concrete assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cement-concrete",
+            "categoryId": "construction-building-materials-web-theme-category-1",
+            "categoryName": "BuildQuarry Cement & Concrete",
+            "brand": "BuildQuarry",
+            "price": 380,
+            "currency": "INR",
+            "priceLabel": "INR 380",
+            "image": "assets/images/product-01.jpg",
+            "stock": 107,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 448,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 380
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 361
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 342
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry Premium Cement Bag",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-web-theme-product-2",
+            "slug": "buildquarry-tmt-steel-bar-bundle",
+            "sku": "WEB-14-2",
+            "name": "BuildQuarry TMT Steel Bar Bundle",
+            "description": "TMT Steel Bar Bundle from BuildQuarry's steel & structure assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "steel-structure",
+            "categoryId": "construction-building-materials-web-theme-category-2",
+            "categoryName": "BuildQuarry Steel & Structure",
+            "brand": "BuildQuarry",
+            "price": 4800,
+            "currency": "INR",
+            "priceLabel": "INR 4,800",
+            "image": "assets/images/product-02.jpg",
+            "stock": 118,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 5664,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 4800
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 4560
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 4320
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry TMT Steel Bar Bundle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-web-theme-product-3",
+            "slug": "buildquarry-aac-building-blocks",
+            "sku": "WEB-14-3",
+            "name": "BuildQuarry AAC Building Blocks",
+            "description": "AAC Building Blocks from BuildQuarry's bricks & blocks assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "bricks-blocks",
+            "categoryId": "construction-building-materials-web-theme-category-3",
+            "categoryName": "BuildQuarry Bricks & Blocks",
+            "brand": "BuildQuarry",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-03.jpg",
+            "stock": 129,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry AAC Building Blocks",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-web-theme-product-4",
+            "slug": "buildquarry-waterproofing-compound",
+            "sku": "WEB-14-4",
+            "name": "BuildQuarry Waterproofing Compound",
+            "description": "Waterproofing Compound from BuildQuarry's waterproofing assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "waterproofing",
+            "categoryId": "construction-building-materials-web-theme-category-4",
+            "categoryName": "BuildQuarry Waterproofing",
+            "brand": "BuildQuarry",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-04.jpg",
+            "stock": 140,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry Waterproofing Compound",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-web-theme-product-5",
+            "slug": "buildquarry-ready-mix-mortar",
+            "sku": "WEB-14-5",
+            "name": "BuildQuarry Ready Mix Mortar",
+            "description": "Ready Mix Mortar from BuildQuarry's cement & concrete assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cement-concrete",
+            "categoryId": "construction-building-materials-web-theme-category-1",
+            "categoryName": "BuildQuarry Cement & Concrete",
+            "brand": "BuildQuarry",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-05.jpg",
+            "stock": 151,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry Ready Mix Mortar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-web-theme-product-6",
+            "slug": "buildquarry-construction-sand-pack",
+            "sku": "WEB-14-6",
+            "name": "BuildQuarry Construction Sand Pack",
+            "description": "Construction Sand Pack from BuildQuarry's cement & concrete assortment. Bring site essentials together from structure to finishing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cement-concrete",
+            "categoryId": "construction-building-materials-web-theme-category-1",
+            "categoryName": "BuildQuarry Cement & Concrete",
+            "brand": "BuildQuarry",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-06.jpg",
+            "stock": 162,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BuildQuarry Construction Sand Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced",
+        "cardStyle": "horizontal",
+        "columns": 4
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Source by material group",
+        "subtitle": "Move from structural requirements to finishing supplies through a clear project-oriented catalog.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "BuildQuarry Cement & Concrete",
+          "BuildQuarry Steel & Structure",
+          "BuildQuarry Bricks & Blocks",
+          "BuildQuarry Waterproofing"
+        ],
+        "categories": [
+          {
+            "id": "construction-building-materials-web-theme-category-1",
+            "slug": "cement-concrete",
+            "name": "BuildQuarry Cement & Concrete",
+            "description": "Explore BuildQuarry's cement & concrete selection for construction & building materials buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "construction-building-materials-web-theme-category-2",
+            "slug": "steel-structure",
+            "name": "BuildQuarry Steel & Structure",
+            "description": "Explore BuildQuarry's steel & structure selection for construction & building materials buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "construction-building-materials-web-theme-category-3",
+            "slug": "bricks-blocks",
+            "name": "BuildQuarry Bricks & Blocks",
+            "description": "Explore BuildQuarry's bricks & blocks selection for construction & building materials buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "construction-building-materials-web-theme-category-4",
+            "slug": "waterproofing",
+            "name": "BuildQuarry Waterproofing",
+            "description": "Explore BuildQuarry's waterproofing selection for construction & building materials buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced",
+        "categoryStyle": "masonry"
+      },
+      "variant": "categories-masonry"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "A CLEARER PROCUREMENT FLOW",
+        "title": "From requirement list to site-ready order",
+        "items": [
+          {
+            "icon": "01",
+            "title": "Define the requirement",
+            "text": "Browse by material group and shortlist the right pack, grade or application for the job."
+          },
+          {
+            "icon": "02",
+            "title": "Compare trade quantities",
+            "text": "Review MOQ, price breaks and availability before committing the project budget."
+          },
+          {
+            "icon": "03",
+            "title": "Coordinate fulfilment",
+            "text": "Place the order or send an RFQ so dispatch and delivery requirements can be aligned."
+          }
+        ],
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "BUILT FOR PROJECT BUYING",
+        "title": "One sourcing desk from foundation to finishing",
+        "body": "Bring core materials and specialist supplies into one structured buying flow. Compare product information, quantity tiers and procurement notes without jumping between disconnected supplier lists.\n\nUse the catalog for direct ordering or prepare a project RFQ when your requirement needs coordinated quantities and delivery planning.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "highlights": [
+          "Material-group navigation",
+          "MOQ and bulk-tier visibility",
+          "Project RFQ support",
+          "Trade account ordering"
+        ],
+        "ctaLabel": "Plan a bulk requirement",
+        "ctaUrl": "/bulk-orders",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Get new stock and trade-list updates",
+        "subtitle": "Receive practical catalog updates for cement, steel, masonry and finishing material categories.",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "Procurement principle",
+        "quote": "A material catalog should make quantities, product context and the next buying action clear before the order reaches the site team.",
+        "author": "BuildQuarry buying workflow",
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "BuildQuarry",
+        "industryName": "Construction & Building Materials",
+        "tagline": "Source premium cement bag, tmt steel bar bundle and more from this construction & building materials trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-14-web",
+        "layoutMode": "Construction project yard",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-14-web"
+}

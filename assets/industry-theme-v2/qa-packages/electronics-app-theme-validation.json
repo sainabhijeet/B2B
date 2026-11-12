@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "checked": 1,
+  "web": 0,
+  "app": 1,
+  "uniqueProductNames": 6,
+  "uniqueSourcePhotos": 6,
+  "uniqueDecodedPhotos": 6,
+  "missingAssets": 0,
+  "results": [
+    {
+      "industryOrder": 1,
+      "industryId": "10000000-0000-4000-8000-000000000001",
+      "industry": "Electronics",
+      "platform": "MOBILE",
+      "themeName": "Electronics App Theme",
+      "slug": "electronics-app-theme",
+      "zip": "app/electronics-app-theme.zip",
+      "categories": 4,
+      "products": 6,
+      "version": "1.2.0",
+      "demoBrand": "PocketCircuit",
+      "photos": 6,
+      "valid": true
+    }
+  ]
+}

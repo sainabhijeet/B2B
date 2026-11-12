@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "LoomPocket",
+        "industryName": "Textile Machinery & Mill Supplies",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced"
+      },
+      "variant": "compact-stack"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "LoomPocket / Textile Machinery & Mill Supplies",
+        "subtitle": "Browse spinning ring traveller set, loom reed assembly and a dedicated textile machinery & mill supplies mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced"
+      },
+      "variant": "hero-stacked-center"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find LoomPocket supplies",
+        "message": "Explore LoomPocket Spinning Machinery, LoomPocket Weaving Machinery, LoomPocket Mill Spares, LoomPocket Textile Testing.",
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced"
+      },
+      "variant": "filters-editorial-three"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "LoomPocket restock picks",
+        "subtitle": "Browse spinning ring traveller set, loom reed assembly and a dedicated textile machinery & mill supplies mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "LoomPocket Spinning Ring Traveller Set",
+          "LoomPocket Loom Reed Assembly",
+          "LoomPocket Textile Machine Belt",
+          "LoomPocket Fabric Thickness Gauge",
+          "LoomPocket Yarn Guide Ceramic Set",
+          "LoomPocket Weft Feeder Unit"
+        ],
+        "prices": [
+          "INR 3,780",
+          "INR 14,000",
+          "INR 2,976",
+          "INR 9,180",
+          "INR 1,406",
+          "INR 1,00,300"
+        ],
+        "products": [
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-1",
+            "slug": "loompocket-spinning-ring-traveller-set",
+            "sku": "APP-32-1",
+            "name": "LoomPocket Spinning Ring Traveller Set",
+            "description": "Spinning Ring Traveller Set for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with spinning machinery so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "spinning-machinery",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-1",
+            "categoryName": "LoomPocket Spinning Machinery",
+            "brand": "LoomPocket",
+            "price": 3780,
+            "currency": "INR",
+            "priceLabel": "INR 3,780",
+            "image": "assets/images/product-01.jpg",
+            "stock": 134,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 4460,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 3780
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 3591
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3402
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Spinning Ring Traveller Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-2",
+            "slug": "loompocket-loom-reed-assembly",
+            "sku": "APP-32-2",
+            "name": "LoomPocket Loom Reed Assembly",
+            "description": "Loom Reed Assembly for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with weaving machinery so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "weaving-machinery",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-2",
+            "categoryName": "LoomPocket Weaving Machinery",
+            "brand": "LoomPocket",
+            "price": 14000,
+            "currency": "INR",
+            "priceLabel": "INR 14,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 145,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 16520,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 14000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 13300
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12600
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Loom Reed Assembly",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-3",
+            "slug": "loompocket-textile-machine-belt",
+            "sku": "APP-32-3",
+            "name": "LoomPocket Textile Machine Belt",
+            "description": "Textile Machine Belt for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with mill spares so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mill-spares",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-3",
+            "categoryName": "LoomPocket Mill Spares",
+            "brand": "LoomPocket",
+            "price": 2976,
+            "currency": "INR",
+            "priceLabel": "INR 2,976",
+            "image": "assets/images/product-03.jpg",
+            "stock": 156,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 3512,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 2976
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 2827
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2678
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Textile Machine Belt",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-4",
+            "slug": "loompocket-fabric-thickness-gauge",
+            "sku": "APP-32-4",
+            "name": "LoomPocket Fabric Thickness Gauge",
+            "description": "Fabric Thickness Gauge for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with textile testing so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "textile-testing",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-4",
+            "categoryName": "LoomPocket Textile Testing",
+            "brand": "LoomPocket",
+            "price": 9180,
+            "currency": "INR",
+            "priceLabel": "INR 9,180",
+            "image": "assets/images/product-04.jpg",
+            "stock": 167,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 9180
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8721
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8262
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Fabric Thickness Gauge",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-5",
+            "slug": "loompocket-yarn-guide-ceramic-set",
+            "sku": "APP-32-5",
+            "name": "LoomPocket Yarn Guide Ceramic Set",
+            "description": "Yarn Guide Ceramic Set for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with spinning machinery so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "spinning-machinery",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-1",
+            "categoryName": "LoomPocket Spinning Machinery",
+            "brand": "LoomPocket",
+            "price": 1406,
+            "currency": "INR",
+            "priceLabel": "INR 1,406",
+            "image": "assets/images/product-05.jpg",
+            "stock": 178,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1659,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1406
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1336
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1265
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Yarn Guide Ceramic Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-machinery-mill-supplies-app-theme-product-6",
+            "slug": "loompocket-weft-feeder-unit",
+            "sku": "APP-32-6",
+            "name": "LoomPocket Weft Feeder Unit",
+            "description": "Weft Feeder Unit for your textile machinery & mill supplies replenishment list. LoomPocket groups this item with weaving machinery so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "weaving-machinery",
+            "categoryId": "textile-machinery-mill-supplies-app-theme-category-2",
+            "categoryName": "LoomPocket Weaving Machinery",
+            "brand": "LoomPocket",
+            "price": 100300,
+            "currency": "INR",
+            "priceLabel": "INR 1,00,300",
+            "image": "assets/images/product-06.jpg",
+            "stock": 189,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 118354,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 100300
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 95285
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 90270
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LoomPocket Weft Feeder Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced",
+        "cardStyle": "bulk-table",
+        "columns": 1
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your LoomPocket order",
+        "subtitle": "Review quantities for spinning ring traveller set with this textile machinery & mill supplies preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "LoomPocket",
+        "industryName": "Textile Machinery & Mill Supplies",
+        "tagline": "Browse spinning ring traveller set, loom reed assembly and a dedicated textile machinery & mill supplies mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-32-app",
+        "layoutMode": "editorial-three",
+        "density": "balanced"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-32-app"
+}

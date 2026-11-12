@@ -102,10 +102,12 @@ export default function AccountDashboardClient({
   initialProfile,
   languageCode,
   creditViewEnabled,
+  variant = "standard",
 }: {
   initialProfile: CustomerProfile;
   languageCode: string;
   creditViewEnabled: boolean;
+  variant?: "standard" | "materialbridge";
 }) {
   const router = useRouter();
   const t = (text: string) => translate(text, languageCode);
@@ -281,54 +283,51 @@ export default function AccountDashboardClient({
   }
 
   return (
-    <main className="min-h-[65vh] bg-slate-50/80 pb-16">
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <nav aria-label={t("Breadcrumb")} className="mb-6 flex items-center gap-2 text-xs text-slate-500">
-          <Link href="/" className="hover:text-[var(--theme-primary)]">{t("Home")}</Link><span>/</span><span className="font-semibold text-slate-800">{t("My account")}</span>
+    <main className={`min-h-[65vh] bg-[#f1f5f6] pb-20 text-[#0a2c3f] ${variant === "materialbridge" ? "material-account-page" : ""}`}>
+      <div className="material-account-shell mx-auto max-w-[1420px] px-4 py-8 sm:px-6 lg:px-10 lg:py-10">
+        <nav aria-label={t("Breadcrumb")} className="material-account-breadcrumb mb-5 flex items-center gap-2 text-xs text-slate-500">
+          <Link href="/" className="font-semibold transition hover:text-[var(--theme-primary)]">{t("Home")}</Link><span aria-hidden="true">/</span><span className="font-bold text-[#0a2c3f]">{t("My account")}</span>
         </nav>
 
-        <div className="mb-7 flex flex-wrap items-end justify-between gap-4">
-          <div><p className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--theme-primary)]">{t("Account dashboard")}</p><h1 className="mt-1 text-3xl font-bold tracking-tight text-slate-950">{t("Your account")}</h1><p className="mt-2 text-sm text-slate-600">{t("Manage your profile, credit and delivery addresses.")}</p></div>
-          <div className="flex flex-wrap gap-2">
-            <Link href="/orders" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)]"><Package className="h-4 w-4" />{t("Orders")}</Link>
-            <Link href="/wishlist" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-sm hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)]"><Heart className="h-4 w-4" />{t("Wishlist")}</Link>
-          </div>
-        </div>
+        <section className="material-account-identity relative overflow-hidden rounded-[30px] bg-[#082f45] px-5 py-7 text-white shadow-[0_22px_55px_rgba(6,47,69,0.16)] sm:px-8 sm:py-9 lg:px-10">
+          <span className="pointer-events-none absolute -right-24 -top-36 h-80 w-80 rounded-full border-[54px] border-[#0b5878]/40" aria-hidden="true" />
+          <span className="pointer-events-none absolute bottom-0 right-[28%] h-1 w-36 bg-[#19a2d5]" aria-hidden="true" />
 
-        {notice ? <div role={notice.type === "error" ? "alert" : "status"} className={`mb-5 rounded-xl border px-4 py-3 text-sm font-medium ${notice.type === "error" ? "border-red-200 bg-red-50 text-red-700" : "border-emerald-200 bg-emerald-50 text-emerald-700"}`}>{notice.text}</div> : null}
-
-        <div className="grid gap-6 lg:grid-cols-[320px_minmax(0,1fr)]">
-          <aside className="space-y-5">
-            <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-              <div className="h-24 bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-secondary)]" />
-              <div className="px-5 pb-6 text-center">
-                <div className="relative mx-auto -mt-12 h-24 w-24">
-                  {profile.profileImageUrl ? (
-                    // Signed private customer images are intentionally loaded directly.
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={profile.profileImageUrl} alt={profile.name || t("Customer")} className="h-24 w-24 rounded-full border-4 border-white bg-white object-cover shadow-md" />
-                  ) : <span className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-slate-100 text-3xl font-black text-[var(--theme-primary)] shadow-md">{initials}</span>}
-                  <button type="button" onClick={() => avatarInput.current?.click()} disabled={busyAction === "avatar"} aria-label={t("Update profile photo")} className="absolute bottom-0 right-0 flex h-9 w-9 items-center justify-center rounded-full bg-[var(--theme-primary)] text-white shadow transition hover:brightness-95 disabled:opacity-60"><Camera className="h-4 w-4" /></button>
-                  <input ref={avatarInput} type="file" accept="image/jpeg,image/png,image/webp,image/gif" className="sr-only" onChange={uploadAvatar} />
-                </div>
-                <h2 className="mt-3 truncate text-xl font-bold text-slate-950">{profile.name || t("Customer")}</h2>
-                <p className="mt-1 truncate text-sm text-slate-500">{profile.mobile || t("Mobile not available")}</p>
-                <button type="button" onClick={() => setProfileEditorOpen((value) => !value)} className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[var(--theme-primary)] px-4 py-2.5 text-sm font-bold text-white hover:brightness-95"><Pencil className="h-4 w-4" />{t("Edit profile")}</button>
+          <div className="material-account-identity-inner relative flex flex-col gap-7 lg:flex-row lg:items-center lg:justify-between">
+            <div className="material-account-person flex flex-col gap-5 sm:flex-row sm:items-center">
+              <div className="material-account-avatar relative h-24 w-24 shrink-0 sm:h-28 sm:w-28">
+                {profile.profileImageUrl ? (
+                  // Signed private customer images are intentionally loaded directly.
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={profile.profileImageUrl} alt={profile.name || t("Customer")} className="h-full w-full rounded-[24px] border-4 border-white/20 bg-white object-cover shadow-xl" />
+                ) : <span className="flex h-full w-full items-center justify-center rounded-[24px] border border-white/20 bg-white/10 text-4xl font-black text-white shadow-xl backdrop-blur">{initials}</span>}
+                <button type="button" onClick={() => avatarInput.current?.click()} disabled={busyAction === "avatar"} aria-label={t("Update profile photo")} className="absolute -bottom-2 -right-2 flex h-9 w-9 items-center justify-center rounded-xl bg-[#19a2d5] text-white shadow-lg transition hover:bg-[#1592c0] disabled:opacity-60"><Camera className="h-4 w-4" /></button>
+                <input ref={avatarInput} type="file" accept="image/jpeg,image/png,image/webp,image/gif" className="sr-only" onChange={uploadAvatar} />
               </div>
-            </section>
 
-            <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-              <h2 className="text-sm font-bold text-slate-950">{t("Account actions")}</h2>
-              <form action="/api/storefront/auth/logout" method="post"><button type="submit" className="mt-3 flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"><LogOut className="h-4 w-4" />{t("Log out")}</button></form>
-              <Link href="/account/delete" className="mt-1 flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold text-red-600 hover:bg-red-50"><Trash2 className="h-4 w-4" />{t("Delete account")}</Link>
-            </section>
-          </aside>
+              <div className="material-account-person-copy">
+                <p className="text-[10px] font-black uppercase tracking-[0.22em] text-[#76d2f3]">{t("Trade account workspace")}</p>
+                <h1 className="mt-2 text-3xl font-black tracking-[-0.04em] sm:text-4xl">{profile.name || t("Customer")}</h1>
+                <p className="mt-2 text-sm text-white/65">{profile.mobile || t("Mobile not available")}{profile.email ? ` · ${profile.email}` : ""}</p>
+                <button type="button" onClick={() => setProfileEditorOpen((value) => !value)} className="mt-4 inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2.5 text-xs font-black text-[#082f45] transition hover:bg-[#e9f6fb]"><Pencil className="h-4 w-4" />{t("Edit profile")}</button>
+              </div>
+            </div>
 
-          <div className="space-y-6">
+            <div className="material-account-routes grid grid-cols-2 gap-3 sm:flex">
+              <Link href="/orders" className="group flex min-w-36 items-center gap-3 rounded-2xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur transition hover:bg-white/15"><span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#19a2d5] text-white"><Package className="h-4 w-4" /></span><span><b className="block text-sm">{t("Orders")}</b><small className="text-[10px] text-white/55">{t("Track purchases")}</small></span></Link>
+              <Link href="/wishlist" className="group flex min-w-36 items-center gap-3 rounded-2xl border border-white/15 bg-white/10 px-4 py-3 backdrop-blur transition hover:bg-white/15"><span className="flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 text-white"><Heart className="h-4 w-4" /></span><span><b className="block text-sm">{t("Wishlist")}</b><small className="text-[10px] text-white/55">{t("Saved products")}</small></span></Link>
+            </div>
+          </div>
+        </section>
+
+        {notice ? <div role={notice.type === "error" ? "alert" : "status"} className={`material-account-notice mt-5 rounded-2xl border px-4 py-3 text-sm font-semibold ${notice.type === "error" ? "border-red-200 bg-red-50 text-red-700" : "border-emerald-200 bg-emerald-50 text-emerald-700"}`}>{notice.text}</div> : null}
+
+        <div className="material-account-grid mt-7 grid items-start gap-7 lg:grid-cols-[minmax(0,1fr)_360px]">
+          <div className="material-account-record space-y-7">
             {profileEditorOpen ? (
-              <section className="rounded-2xl border border-[var(--theme-primary)]/30 bg-white p-5 shadow-sm">
-                <div className="flex items-center justify-between"><h2 className="text-lg font-bold text-slate-950">{t("Edit profile")}</h2><button type="button" onClick={() => setProfileEditorOpen(false)} className="text-sm font-semibold text-slate-500 hover:text-slate-900">{t("Cancel")}</button></div>
-                <form onSubmit={saveProfile} className="mt-5 grid gap-4 sm:grid-cols-2">
+              <section className="material-account-editor rounded-[24px] border border-[#b9d5df] bg-white p-5 shadow-[0_14px_36px_rgba(6,47,69,0.06)] sm:p-7">
+                <div className="flex items-center justify-between"><div><p className="text-[10px] font-black uppercase tracking-[0.18em] text-[var(--theme-primary)]">{t("Profile settings")}</p><h2 className="mt-1 text-xl font-black text-[#0a2c3f]">{t("Edit profile")}</h2></div><button type="button" onClick={() => setProfileEditorOpen(false)} className="rounded-lg px-3 py-2 text-sm font-bold text-slate-500 hover:bg-slate-100 hover:text-slate-900">{t("Cancel")}</button></div>
+                <form onSubmit={saveProfile} className="mt-6 grid gap-4 sm:grid-cols-2">
                   <Field label={t("Name")}><input value={name} onChange={(event) => setName(event.target.value)} maxLength={255} required className={inputClass} /></Field>
                   <Field label={t("Email")}><input value={email} onChange={(event) => setEmail(event.target.value)} type="email" maxLength={255} className={inputClass} placeholder={t("Email not added")} /></Field>
                   <div className="sm:col-span-2"><button disabled={busyAction === "profile"} className="rounded-xl bg-[var(--theme-primary)] px-5 py-2.5 text-sm font-bold text-white disabled:opacity-50">{busyAction === "profile" ? t("Saving…") : t("Save profile")}</button></div>
@@ -336,35 +335,19 @@ export default function AccountDashboardClient({
               </section>
             ) : null}
 
-            <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-              <div className="flex items-center gap-2"><UserRound className="h-5 w-5 text-[var(--theme-primary)]" /><h2 className="text-lg font-bold text-slate-950">{t("Contact details")}</h2></div>
-              <dl className="mt-5 grid gap-4 sm:grid-cols-2">
-                <div className="rounded-xl bg-slate-50 p-4"><dt className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-slate-500"><Phone className="h-4 w-4" />{t("Mobile")}</dt><dd className="mt-2 font-semibold text-slate-900">{profile.mobile || t("Not available")}</dd></div>
-                <div className="rounded-xl bg-slate-50 p-4"><dt className="flex items-center gap-2 text-xs font-bold uppercase tracking-wide text-slate-500"><Mail className="h-4 w-4" />{t("Email")}</dt><dd className="mt-2 break-all font-semibold text-slate-900">{profile.email || t("Not added")}</dd></div>
+            <section className="material-account-contact rounded-[24px] border border-[#d4e1e5] bg-white p-5 shadow-[0_12px_34px_rgba(6,47,69,0.05)] sm:p-7">
+              <div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#e5f3f8] text-[var(--theme-primary)]"><UserRound className="h-5 w-5" /></span><div><h2 className="text-xl font-black text-[#0a2c3f]">{t("Contact details")}</h2><p className="mt-0.5 text-xs text-slate-500">{t("Information used for order updates and account support.")}</p></div></div>
+              <dl className="mt-6 divide-y divide-[#e1e9ec] border-y border-[#e1e9ec]">
+                <div className="flex flex-col gap-2 py-4 sm:flex-row sm:items-center sm:justify-between"><dt className="flex items-center gap-3 text-xs font-black uppercase tracking-[0.12em] text-slate-500"><Phone className="h-4 w-4 text-[var(--theme-primary)]" />{t("Mobile number")}</dt><dd className="font-bold text-[#0a2c3f]">{profile.mobile || t("Not available")}</dd></div>
+                <div className="flex flex-col gap-2 py-4 sm:flex-row sm:items-center sm:justify-between"><dt className="flex items-center gap-3 text-xs font-black uppercase tracking-[0.12em] text-slate-500"><Mail className="h-4 w-4 text-[var(--theme-primary)]" />{t("Email address")}</dt><dd className="break-all font-bold text-[#0a2c3f]">{profile.email || t("Not added")}</dd></div>
               </dl>
             </section>
 
-            {creditViewEnabled ? (
-              <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <div className="flex items-center gap-2"><WalletCards className="h-5 w-5 text-[var(--theme-primary)]" /><h2 className="text-lg font-bold text-slate-950">{t("Credit summary")}</h2></div>
-                  <Link href="/account/credit" className="inline-flex items-center gap-2 rounded-xl border border-slate-200 px-3.5 py-2 text-xs font-bold text-slate-700 transition hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)]"><ReceiptText className="h-4 w-4" />{t("View ledger and statement")}</Link>
-                </div>
-                <div className="mt-5 grid gap-4 sm:grid-cols-3">
-                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-4"><p className="text-xs font-semibold text-slate-500">{t("Credit limit")}</p><p className="mt-2 text-xl font-bold text-slate-950">{formatCurrency(limit, languageCode, "INR")}</p></div>
-                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-4"><p className="text-xs font-semibold text-slate-500">{t("Outstanding")}</p><p className="mt-2 text-xl font-bold text-amber-700">{formatCurrency(outstanding, languageCode, "INR")}</p></div>
-                  <div className="rounded-xl border border-slate-100 bg-slate-50 p-4"><p className="text-xs font-semibold text-slate-500">{t("Available credit")}</p><p className="mt-2 text-xl font-bold text-emerald-700">{formatCurrency(available, languageCode, "INR")}</p></div>
-                </div>
-                <div className="mt-5 h-2 overflow-hidden rounded-full bg-slate-100"><div className="h-full rounded-full bg-[var(--theme-primary)] transition-all" style={{ width: `${usedPercent}%` }} /></div>
-                <p className="mt-2 text-right text-xs text-slate-500">{Math.round(usedPercent)}% {t("of credit limit used")}</p>
-              </section>
-            ) : null}
-
-            <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-              <div className="flex flex-wrap items-center justify-between gap-3"><div className="flex items-center gap-2"><MapPin className="h-5 w-5 text-[var(--theme-primary)]" /><div><h2 className="text-lg font-bold text-slate-950">{t("Saved addresses")}</h2><p className="text-xs text-slate-500">{profile.addresses.length} {t(profile.addresses.length === 1 ? "address" : "addresses")}</p></div></div><button type="button" onClick={openNewAddress} className="inline-flex items-center gap-2 rounded-xl bg-[var(--theme-primary)] px-4 py-2.5 text-sm font-bold text-white hover:brightness-95"><Plus className="h-4 w-4" />{t("Add address")}</button></div>
+            <section className="material-account-addresses rounded-[24px] border border-[#d4e1e5] bg-white p-5 shadow-[0_12px_34px_rgba(6,47,69,0.05)] sm:p-7">
+              <div className="flex flex-wrap items-center justify-between gap-4"><div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#e5f3f8] text-[var(--theme-primary)]"><MapPin className="h-5 w-5" /></span><div><h2 className="text-xl font-black text-[#0a2c3f]">{t("Delivery addresses")}</h2><p className="mt-0.5 text-xs text-slate-500">{profile.addresses.length} {t(profile.addresses.length === 1 ? "saved location" : "saved locations")}</p></div></div><button type="button" onClick={openNewAddress} className="inline-flex items-center gap-2 rounded-xl bg-[var(--theme-primary)] px-4 py-2.5 text-sm font-bold text-white shadow-[0_8px_20px_rgba(8,121,173,0.18)] hover:brightness-95"><Plus className="h-4 w-4" />{t("Add address")}</button></div>
 
               {addressEditorOpen ? (
-                <form onSubmit={saveAddress} className="mt-5 grid gap-4 rounded-2xl border border-[var(--theme-primary)]/20 bg-slate-50 p-4 sm:grid-cols-2">
+                <form onSubmit={saveAddress} className="mt-6 grid gap-4 rounded-2xl border border-[var(--theme-primary)]/20 bg-[#f4f8f9] p-4 sm:grid-cols-2 sm:p-5">
                   <div className="flex items-center justify-between sm:col-span-2"><h3 className="font-bold text-slate-900">{t(editingAddressId ? "Edit address" : "New address")}</h3><button type="button" onClick={() => setAddressEditorOpen(false)} className="text-sm font-semibold text-slate-500">{t("Cancel")}</button></div>
                   <div className="grid gap-2 text-sm font-semibold text-slate-700 sm:col-span-2">
                     <span>{t("Save as")}</span>
@@ -404,11 +387,11 @@ export default function AccountDashboardClient({
               ) : null}
 
               {profile.addresses.length === 0 ? (
-                <div className="mt-5 rounded-2xl border border-dashed border-slate-300 p-8 text-center"><MapPin className="mx-auto h-8 w-8 text-slate-400" /><p className="mt-3 font-semibold text-slate-800">{t("No address added")}</p><p className="mt-1 text-sm text-slate-500">{t("Add a delivery address for checkout.")}</p></div>
+                <div className="mt-6 rounded-[20px] border border-dashed border-[#b9d1da] bg-[#f7fafb] p-10 text-center"><span className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white text-[#7d9aaa] shadow-sm"><MapPin className="h-6 w-6" /></span><p className="mt-4 font-bold text-[#0a2c3f]">{t("No delivery address yet")}</p><p className="mt-1 text-sm text-slate-500">{t("Add a location now for a faster checkout later.")}</p></div>
               ) : (
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
                   {profile.addresses.map((address) => (
-                    <article key={address.id} className={`rounded-2xl border p-4 ${address.isDefault ? "border-[var(--theme-primary)]/40 bg-[var(--theme-primary)]/5" : "border-slate-200"}`}>
+                    <article key={address.id} className={`rounded-2xl border p-5 ${address.isDefault ? "border-[var(--theme-primary)]/40 bg-[var(--theme-primary)]/5" : "border-[#d9e4e8] bg-[#fafcfc]"}`}>
                       <div className="flex items-start justify-between gap-3"><div><div className="flex items-center gap-2"><h3 className="font-bold text-slate-950">{address.label?.trim() || t("Address")}</h3>{address.isDefault ? <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-bold uppercase text-emerald-700"><CheckCircle2 className="h-3 w-3" />{t("Default")}</span> : null}</div><p className="mt-2 text-sm leading-6 text-slate-600">{addressText(address)}</p></div><CreditCard className="h-5 w-5 shrink-0 text-slate-400" /></div>
                       <div className="mt-4 flex flex-wrap gap-2 border-t border-slate-200/70 pt-3"><button type="button" onClick={() => openAddressEditor(address)} className="rounded-lg px-3 py-1.5 text-xs font-bold text-slate-700 hover:bg-white">{t("Edit")}</button>{!address.isDefault ? <button type="button" disabled={busyAction === `default-${address.id}`} onClick={() => setDefaultAddress(address.id)} className="rounded-lg px-3 py-1.5 text-xs font-bold text-[var(--theme-primary)] hover:bg-white disabled:opacity-50">{t("Set as default")}</button> : null}<button type="button" disabled={busyAction === `delete-${address.id}`} onClick={() => deleteAddress(address)} className="ml-auto rounded-lg px-3 py-1.5 text-xs font-bold text-red-600 hover:bg-red-50 disabled:opacity-50">{t("Delete")}</button></div>
                     </article>
@@ -417,6 +400,36 @@ export default function AccountDashboardClient({
               )}
             </section>
           </div>
+
+          <aside className="material-account-aside space-y-6 lg:sticky lg:top-28">
+            {creditViewEnabled ? (
+              <section className="material-account-credit overflow-hidden rounded-[24px] bg-[#0a3a52] p-6 text-white shadow-[0_18px_44px_rgba(6,47,69,0.16)]">
+                <div className="flex items-center justify-between"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-[#78d5f5]"><WalletCards className="h-5 w-5" /></span><Link href="/account/credit" aria-label={t("View ledger and statement")} className="flex h-9 w-9 items-center justify-center rounded-xl border border-white/15 text-white/70 transition hover:bg-white/10 hover:text-white"><ReceiptText className="h-4 w-4" /></Link></div>
+                <p className="mt-6 text-[10px] font-black uppercase tracking-[0.18em] text-[#78d5f5]">{t("Available trade credit")}</p>
+                <p className="mt-2 text-4xl font-black tracking-[-0.045em]">{formatCurrency(available, languageCode, "INR")}</p>
+
+                <div className="mt-6 h-2 overflow-hidden rounded-full bg-white/10"><div className="h-full rounded-full bg-[#24b5e8] transition-all" style={{ width: `${usedPercent}%` }} /></div>
+                <div className="mt-2 flex justify-between text-[10px] text-white/55"><span>{Math.round(usedPercent)}% {t("used")}</span><span>{t("Limit")} {formatCurrency(limit, languageCode, "INR")}</span></div>
+
+                <div className="mt-6 grid grid-cols-2 gap-3 border-t border-white/10 pt-5"><div><p className="text-[10px] uppercase tracking-wider text-white/45">{t("Credit limit")}</p><p className="mt-1 text-sm font-bold">{formatCurrency(limit, languageCode, "INR")}</p></div><div><p className="text-[10px] uppercase tracking-wider text-white/45">{t("Outstanding")}</p><p className="mt-1 text-sm font-bold text-[#ffcc8a]">{formatCurrency(outstanding, languageCode, "INR")}</p></div></div>
+                <Link href="/account/credit" className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 text-xs font-black text-[#0a3a52] transition hover:bg-[#e9f6fb]"><ReceiptText className="h-4 w-4" />{t("View credit statement")}</Link>
+              </section>
+            ) : null}
+
+            <section className="material-account-quick rounded-[24px] border border-[#d4e1e5] bg-white p-5 shadow-[0_12px_34px_rgba(6,47,69,0.05)]">
+              <p className="text-[10px] font-black uppercase tracking-[0.18em] text-[var(--theme-primary)]">{t("Quick access")}</p>
+              <div className="mt-4 space-y-2">
+                <Link href="/orders" className="flex items-center justify-between rounded-xl px-3 py-3 text-sm font-bold text-[#0a2c3f] transition hover:bg-[#edf5f7]"><span className="flex items-center gap-3"><Package className="h-4 w-4 text-[var(--theme-primary)]" />{t("Your orders")}</span><span aria-hidden="true">→</span></Link>
+                <Link href="/wishlist" className="flex items-center justify-between rounded-xl px-3 py-3 text-sm font-bold text-[#0a2c3f] transition hover:bg-[#edf5f7]"><span className="flex items-center gap-3"><Heart className="h-4 w-4 text-[var(--theme-primary)]" />{t("Saved products")}</span><span aria-hidden="true">→</span></Link>
+              </div>
+            </section>
+
+            <section className="material-account-access rounded-[24px] border border-[#d4e1e5] bg-white p-5 shadow-[0_12px_34px_rgba(6,47,69,0.05)]">
+              <h2 className="text-sm font-black text-[#0a2c3f]">{t("Account access")}</h2>
+              <form action="/api/storefront/auth/logout" method="post"><button type="submit" className="mt-3 flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"><LogOut className="h-4 w-4" />{t("Log out")}</button></form>
+              <Link href="/account/delete" className="mt-1 flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold text-red-600 transition hover:bg-red-50"><Trash2 className="h-4 w-4" />{t("Delete account")}</Link>
+            </section>
+          </aside>
         </div>
       </div>
     </main>

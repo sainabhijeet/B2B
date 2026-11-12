@@ -26,9 +26,12 @@ export class DistributorThemesController {
 
   /** Theme gallery (Level 1): preview image + layout hint. `channel=WEB` | `MOBILE` (default WEB). */
   @Get()
-  listGallery(@Query('channel') channel?: string) {
+  listGallery(
+    @CurrentUser() user: JwtUserPayload,
+    @Query('channel') channel?: string,
+  ) {
     const ch = channel?.trim().toUpperCase() === 'MOBILE' ? 'MOBILE' : 'WEB';
-    return this.themesService.listDistributorThemeGallery(ch);
+    return this.themesService.listDistributorThemeGallery(user, ch);
   }
 
   @Post('select')

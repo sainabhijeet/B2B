@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MROPocket",
+        "industryName": "Aviation & MRO Consumables",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "MROPocket Protective Aircraft Tape",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "MROPocket Protective Aircraft Tape",
+        "subtitle": "Protective Aircraft Tape for your aviation & mro consumables replenishment list. MROPocket groups this item with aircraft consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 7,140",
+        "description": "Protective Aircraft Tape for your aviation & mro consumables replenishment list. MROPocket groups this item with aircraft consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-39-1",
+        "stock": 155,
+        "moq": 2,
+        "product": {
+          "id": "aviation-mro-consumables-app-theme-product-1",
+          "slug": "mropocket-protective-aircraft-tape",
+          "sku": "APP-39-1",
+          "name": "MROPocket Protective Aircraft Tape",
+          "description": "Protective Aircraft Tape for your aviation & mro consumables replenishment list. MROPocket groups this item with aircraft consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "aircraft-consumables",
+          "categoryId": "aviation-mro-consumables-app-theme-category-1",
+          "categoryName": "MROPocket Aircraft Consumables",
+          "brand": "MROPocket",
+          "price": 7140,
+          "currency": "INR",
+          "priceLabel": "INR 7,140",
+          "image": "assets/images/product-01.jpg",
+          "stock": 155,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 8425,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 7140
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 6783
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 6426
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: MROPocket Protective Aircraft Tape",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "MROPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MROPocket Protective Aircraft Tape",
+          "MROPocket Wheel Chock Pair",
+          "MROPocket Cabin Waste Bin",
+          "MROPocket Inspection Mirror Kit",
+          "MROPocket Cable Identification Sleeve",
+          "MROPocket Ground Tow Bar Adapter"
+        ],
+        "prices": [
+          "INR 7,140",
+          "INR 14,000",
+          "INR 39,060",
+          "INR 7,020",
+          "INR 1,406",
+          "INR 3,776"
+        ],
+        "products": [
+          {
+            "id": "aviation-mro-consumables-app-theme-product-1",
+            "slug": "mropocket-protective-aircraft-tape",
+            "sku": "APP-39-1",
+            "name": "MROPocket Protective Aircraft Tape",
+            "description": "Protective Aircraft Tape for your aviation & mro consumables replenishment list. MROPocket groups this item with aircraft consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "aircraft-consumables",
+            "categoryId": "aviation-mro-consumables-app-theme-category-1",
+            "categoryName": "MROPocket Aircraft Consumables",
+            "brand": "MROPocket",
+            "price": 7140,
+            "currency": "INR",
+            "priceLabel": "INR 7,140",
+            "image": "assets/images/product-01.jpg",
+            "stock": 155,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 8425,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 7140
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 6783
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 6426
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Protective Aircraft Tape",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-app-theme-product-2",
+            "slug": "mropocket-wheel-chock-pair",
+            "sku": "APP-39-2",
+            "name": "MROPocket Wheel Chock Pair",
+            "description": "Wheel Chock Pair for your aviation & mro consumables replenishment list. MROPocket groups this item with ground support so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "ground-support",
+            "categoryId": "aviation-mro-consumables-app-theme-category-2",
+            "categoryName": "MROPocket Ground Support",
+            "brand": "MROPocket",
+            "price": 14000,
+            "currency": "INR",
+            "priceLabel": "INR 14,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 166,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 16520,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 14000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 13300
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12600
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Wheel Chock Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-app-theme-product-3",
+            "slug": "mropocket-cabin-waste-bin",
+            "sku": "APP-39-3",
+            "name": "MROPocket Cabin Waste Bin",
+            "description": "Cabin Waste Bin for your aviation & mro consumables replenishment list. MROPocket groups this item with cabin supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cabin-supplies",
+            "categoryId": "aviation-mro-consumables-app-theme-category-3",
+            "categoryName": "MROPocket Cabin Supplies",
+            "brand": "MROPocket",
+            "price": 39060,
+            "currency": "INR",
+            "priceLabel": "INR 39,060",
+            "image": "assets/images/product-03.jpg",
+            "stock": 177,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 46091,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 39060
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 37107
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 35154
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Cabin Waste Bin",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-app-theme-product-4",
+            "slug": "mropocket-inspection-mirror-kit",
+            "sku": "APP-39-4",
+            "name": "MROPocket Inspection Mirror Kit",
+            "description": "Inspection Mirror Kit for your aviation & mro consumables replenishment list. MROPocket groups this item with maintenance tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "maintenance-tools",
+            "categoryId": "aviation-mro-consumables-app-theme-category-4",
+            "categoryName": "MROPocket Maintenance Tools",
+            "brand": "MROPocket",
+            "price": 7020,
+            "currency": "INR",
+            "priceLabel": "INR 7,020",
+            "image": "assets/images/product-04.jpg",
+            "stock": 188,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 8284,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 7020
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 6669
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 6318
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Inspection Mirror Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-app-theme-product-5",
+            "slug": "mropocket-cable-identification-sleeve",
+            "sku": "APP-39-5",
+            "name": "MROPocket Cable Identification Sleeve",
+            "description": "Cable Identification Sleeve for your aviation & mro consumables replenishment list. MROPocket groups this item with aircraft consumables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "aircraft-consumables",
+            "categoryId": "aviation-mro-consumables-app-theme-category-1",
+            "categoryName": "MROPocket Aircraft Consumables",
+            "brand": "MROPocket",
+            "price": 1406,
+            "currency": "INR",
+            "priceLabel": "INR 1,406",
+            "image": "assets/images/product-05.jpg",
+            "stock": 199,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1659,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1406
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1336
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1265
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Cable Identification Sleeve",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "aviation-mro-consumables-app-theme-product-6",
+            "slug": "mropocket-ground-tow-bar-adapter",
+            "sku": "APP-39-6",
+            "name": "MROPocket Ground Tow Bar Adapter",
+            "description": "Ground Tow Bar Adapter for your aviation & mro consumables replenishment list. MROPocket groups this item with ground support so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "ground-support",
+            "categoryId": "aviation-mro-consumables-app-theme-category-2",
+            "categoryName": "MROPocket Ground Support",
+            "brand": "MROPocket",
+            "price": 3776,
+            "currency": "INR",
+            "priceLabel": "INR 3,776",
+            "image": "assets/images/product-06.jpg",
+            "stock": 210,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4456,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3776
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3587
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3398
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MROPocket Ground Tow Bar Adapter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse protective aircraft tape, wheel chock pair and a dedicated aviation & mro consumables mobile assortment.",
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy",
+        "cardStyle": "image-first",
+        "columns": 2
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the MROPocket demo catalog",
+        "items": [
+          {
+            "question": "How are MROPocket pack quantities shown?",
+            "answer": "MROPocket Protective Aircraft Tape has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are MROPocket images supplier photographs?",
+            "answer": "These aviation & mro consumables images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MROPocket",
+        "industryName": "Aviation & MRO Consumables",
+        "tagline": "Browse protective aircraft tape, wheel chock pair and a dedicated aviation & mro consumables mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-39-app",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-39-app"
+}

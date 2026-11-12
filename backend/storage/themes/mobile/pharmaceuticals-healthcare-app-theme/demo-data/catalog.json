@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000000a",
+  "industry": "Pharmaceuticals & Healthcare",
+  "themeName": "Pharmaceuticals & Healthcare App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "WellnessParcel",
+    "industry": "Pharmaceuticals & Healthcare",
+    "tagline": "Browse prescription dispatch organizer, hot water therapy bag and a dedicated pharmaceuticals & healthcare mobile assortment.",
+    "email": "hello@wellnessparcel.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "WellnessParcel quantity rewards",
+      "description": "Compare the sample bulk tiers in WellnessParcel's pharmaceuticals & healthcare range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "WellnessParcel sample buyer story",
+      "quote": "Our demo pharmaceuticals & healthcare buying team can compare prescription dispatch organizer and electrolyte sachet box in one restock list.",
+      "author": "Fictional WellnessParcel buyer — demo feedback",
+      "designId": "ds-10-app",
+      "layoutMode": "Clinical formulary / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-category-1",
+      "slug": "prescription-medicines",
+      "name": "WellnessParcel Prescription Medicines",
+      "description": "Pick prescription medicines for your pharmaceuticals & healthcare replenishment list with WellnessParcel.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-category-2",
+      "slug": "otc-care",
+      "name": "WellnessParcel OTC Care",
+      "description": "Pick otc care for your pharmaceuticals & healthcare replenishment list with WellnessParcel.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-category-3",
+      "slug": "wellness",
+      "name": "WellnessParcel Wellness",
+      "description": "Pick wellness for your pharmaceuticals & healthcare replenishment list with WellnessParcel.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-category-4",
+      "slug": "hospital-supplies",
+      "name": "WellnessParcel Hospital Supplies",
+      "description": "Pick hospital supplies for your pharmaceuticals & healthcare replenishment list with WellnessParcel.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-1",
+      "slug": "wellnessparcel-prescription-dispatch-organizer",
+      "sku": "APP-10-1",
+      "name": "WellnessParcel Prescription Dispatch Organizer",
+      "description": "Prescription Dispatch Organizer for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with prescription medicines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "prescription-medicines",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-1",
+      "categoryName": "WellnessParcel Prescription Medicines",
+      "brand": "WellnessParcel",
+      "price": 101,
+      "currency": "INR",
+      "priceLabel": "INR 101",
+      "image": "assets/images/product-01.jpg",
+      "stock": 68,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 119,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 101
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 96
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 91
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Prescription Dispatch Organizer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-2",
+      "slug": "wellnessparcel-hot-water-therapy-bag",
+      "sku": "APP-10-2",
+      "name": "WellnessParcel Hot Water Therapy Bag",
+      "description": "Hot Water Therapy Bag for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with otc care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "otc-care",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-2",
+      "categoryName": "WellnessParcel OTC Care",
+      "brand": "WellnessParcel",
+      "price": 538,
+      "currency": "INR",
+      "priceLabel": "INR 538",
+      "image": "assets/images/product-02.jpg",
+      "stock": 79,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 635,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 538
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 511
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 484
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Hot Water Therapy Bag",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-3",
+      "slug": "wellnessparcel-electrolyte-sachet-box",
+      "sku": "APP-10-3",
+      "name": "WellnessParcel Electrolyte Sachet Box",
+      "description": "Electrolyte Sachet Box for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with wellness so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "wellness",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-3",
+      "categoryName": "WellnessParcel Wellness",
+      "brand": "WellnessParcel",
+      "price": 278,
+      "currency": "INR",
+      "priceLabel": "INR 278",
+      "image": "assets/images/product-03.jpg",
+      "stock": 90,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 328,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 278
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 264
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 250
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Electrolyte Sachet Box",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-4",
+      "slug": "wellnessparcel-disposable-examination-glove-box",
+      "sku": "APP-10-4",
+      "name": "WellnessParcel Disposable Examination Glove Box",
+      "description": "Disposable Examination Glove Box for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with hospital supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "hospital-supplies",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-4",
+      "categoryName": "WellnessParcel Hospital Supplies",
+      "brand": "WellnessParcel",
+      "price": 702,
+      "currency": "INR",
+      "priceLabel": "INR 702",
+      "image": "assets/images/product-04.jpg",
+      "stock": 101,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 828,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 702
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 667
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 632
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Disposable Examination Glove Box",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-5",
+      "slug": "wellnessparcel-medicine-storage-cabinet",
+      "sku": "APP-10-5",
+      "name": "WellnessParcel Medicine Storage Cabinet",
+      "description": "Medicine Storage Cabinet for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with prescription medicines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "prescription-medicines",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-1",
+      "categoryName": "WellnessParcel Prescription Medicines",
+      "brand": "WellnessParcel",
+      "price": 137,
+      "currency": "INR",
+      "priceLabel": "INR 137",
+      "image": "assets/images/product-05.jpg",
+      "stock": 112,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 162,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 137
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 130
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 123
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Medicine Storage Cabinet",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "pharmaceuticals-healthcare-app-theme-product-6",
+      "slug": "wellnessparcel-digital-weighing-scale",
+      "sku": "APP-10-6",
+      "name": "WellnessParcel Digital Weighing Scale",
+      "description": "Digital Weighing Scale for your pharmaceuticals & healthcare replenishment list. WellnessParcel groups this item with otc care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "otc-care",
+      "categoryId": "pharmaceuticals-healthcare-app-theme-category-2",
+      "categoryName": "WellnessParcel OTC Care",
+      "brand": "WellnessParcel",
+      "price": 1475,
+      "currency": "INR",
+      "priceLabel": "INR 1,475",
+      "image": "assets/images/product-06.jpg",
+      "stock": 123,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 1741,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 1475
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1401
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1328
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WellnessParcel Digital Weighing Scale",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-10-app",
+    "direction": "Clinical formulary / pocket workflow",
+    "header": "trade-desk",
+    "headerIdentity": "header-10-app",
+    "headerStructure": "shell-4-composition-2",
+    "hero": "spec-board",
+    "categories": "horizontal-rail",
+    "productCards": "minimal",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "minimal",
+    "footerIdentity": "footer-10-app",
+    "footerStructure": "shell-3-composition-2",
+    "density": "compact",
+    "responsiveStrategy": "catalog"
+  }
+}

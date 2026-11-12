@@ -1,0 +1,46 @@
+{
+  "valid": true,
+  "checked": 1,
+  "web": 1,
+  "app": 0,
+  "uniqueProductNames": 6,
+  "uniqueSourcePhotos": 6,
+  "uniqueDecodedPhotos": 6,
+  "missingAssets": 0,
+  "results": [
+    {
+      "industryOrder": 2,
+      "industryId": "10000000-0000-4000-8000-000000000002",
+      "industry": "Footwear",
+      "platform": "WEB",
+      "themeName": "Footwear Web Theme",
+      "slug": "footwear-web-theme",
+      "zip": "web/footwear-web-theme.zip",
+      "categories": 4,
+      "products": 6,
+      "version": "1.3.0",
+      "designId": "ds-02-web",
+      "designDirection": "Footwear wholesale lookbook",
+      "designSystem": {
+        "id": "ds-02-web",
+        "direction": "Footwear wholesale lookbook",
+        "header": "catalog-rail",
+        "headerIdentity": "header-02-web",
+        "headerStructure": "shell-2-composition-1",
+        "hero": "asymmetric",
+        "categories": "image-tiles",
+        "productCards": "image-first",
+        "productListing": "sidebar-grid",
+        "productDetail": "gallery-left",
+        "footer": "commerce-columns",
+        "footerIdentity": "footer-02-web",
+        "footerStructure": "shell-2-composition-1",
+        "density": "balanced",
+        "responsiveStrategy": "sidebar-grid-to-mobile-drawer"
+      },
+      "demoBrand": "StrideFoundry",
+      "photos": 6,
+      "valid": true
+    }
+  ]
+}

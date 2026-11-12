@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "LabLedger",
+        "industryName": "Laboratory & Scientific Equipment",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "LabLedger / Laboratory & Scientific Equipment",
+        "subtitle": "Source digital lab balance, borosilicate flask set and more from this laboratory & scientific equipment trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "hero-asymmetric"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find LabLedger supplies",
+        "message": "Explore LabLedger Lab Instruments, LabLedger Glassware, LabLedger Reagents, LabLedger Safety Supplies.",
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "filters-visual-four"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "LabLedger trade selection",
+        "subtitle": "Source digital lab balance, borosilicate flask set and more from this laboratory & scientific equipment trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "LabLedger Digital Lab Balance",
+          "LabLedger Borosilicate Flask Set",
+          "LabLedger Analytical Reagent Pack",
+          "LabLedger Laboratory Microscope",
+          "LabLedger Chemical Safety Cabinet",
+          "LabLedger Portable pH Meter"
+        ],
+        "prices": [
+          "INR 8,500",
+          "INR 1,850",
+          "INR 2,400",
+          "INR 12,500",
+          "INR 28,500",
+          "INR 1,499"
+        ],
+        "products": [
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-1",
+            "slug": "labledger-digital-lab-balance",
+            "sku": "WEB-42-1",
+            "name": "LabLedger Digital Lab Balance",
+            "description": "Digital Lab Balance from LabLedger's lab instruments assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "lab-instruments",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-1",
+            "categoryName": "LabLedger Lab Instruments",
+            "brand": "LabLedger",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 191,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Digital Lab Balance",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-2",
+            "slug": "labledger-borosilicate-flask-set",
+            "sku": "WEB-42-2",
+            "name": "LabLedger Borosilicate Flask Set",
+            "description": "Borosilicate Flask Set from LabLedger's glassware assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "glassware",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-2",
+            "categoryName": "LabLedger Glassware",
+            "brand": "LabLedger",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-02.jpg",
+            "stock": 202,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Borosilicate Flask Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-3",
+            "slug": "labledger-analytical-reagent-pack",
+            "sku": "WEB-42-3",
+            "name": "LabLedger Analytical Reagent Pack",
+            "description": "Analytical Reagent Pack from LabLedger's reagents assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "reagents",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-3",
+            "categoryName": "LabLedger Reagents",
+            "brand": "LabLedger",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-03.jpg",
+            "stock": 213,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Analytical Reagent Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-4",
+            "slug": "labledger-laboratory-microscope",
+            "sku": "WEB-42-4",
+            "name": "LabLedger Laboratory Microscope",
+            "description": "Laboratory Microscope from LabLedger's lab instruments assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "lab-instruments",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-1",
+            "categoryName": "LabLedger Lab Instruments",
+            "brand": "LabLedger",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 224,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Laboratory Microscope",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-5",
+            "slug": "labledger-chemical-safety-cabinet",
+            "sku": "WEB-42-5",
+            "name": "LabLedger Chemical Safety Cabinet",
+            "description": "Chemical Safety Cabinet from LabLedger's safety supplies assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "safety-supplies",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-4",
+            "categoryName": "LabLedger Safety Supplies",
+            "brand": "LabLedger",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 235,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Chemical Safety Cabinet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "laboratory-scientific-equipment-web-theme-product-6",
+            "slug": "labledger-portable-ph-meter",
+            "sku": "WEB-42-6",
+            "name": "LabLedger Portable pH Meter",
+            "description": "Portable pH Meter from LabLedger's lab instruments assortment. Organize the laboratory bench from instruments to consumables. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "lab-instruments",
+            "categoryId": "laboratory-scientific-equipment-web-theme-category-1",
+            "categoryName": "LabLedger Lab Instruments",
+            "brand": "LabLedger",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-06.jpg",
+            "stock": 246,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LabLedger Portable pH Meter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy",
+        "cardStyle": "spec-card",
+        "columns": 6
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your LabLedger order",
+        "subtitle": "Review quantities for digital lab balance with this laboratory & scientific equipment preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "LabLedger",
+        "industryName": "Laboratory & Scientific Equipment",
+        "tagline": "Source digital lab balance, borosilicate flask set and more from this laboratory & scientific equipment trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-42-web",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-42-web"
+}

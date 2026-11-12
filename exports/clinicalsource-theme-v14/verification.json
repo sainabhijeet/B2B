@@ -1,0 +1,22 @@
+[
+  {
+    "name": "categories-desktop",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\clinicalsource-theme-v14\\categories-desktop.png",
+    "metrics": {
+      "title": "ClinicalSource Trade",
+      "design": "ds-11-web",
+      "clinicalHeader": true,
+      "primary": "#1d4ed8",
+      "secondary": "#1e3a8a",
+      "font": "poppins, \"poppins Fallback\", Poppins, Arial, sans-serif",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "sectionCount": 8,
+      "headerHeight": 132,
+      "heroHeight": 798
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  }
+]

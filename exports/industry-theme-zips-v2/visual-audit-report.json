@@ -1,0 +1,856 @@
+{
+  "valid": true,
+  "checked": 94,
+  "uniqueRenderedFrames": 94,
+  "blankFrames": 0,
+  "contactSheet": "design-contact-sheet.jpg",
+  "minimumEntropy": 3.0296326352399774,
+  "themes": [
+    {
+      "industry": "Electronics",
+      "platform": "WEB",
+      "slug": "electronics-web-theme",
+      "designId": "ds-01-web",
+      "designDirection": "Circuit editorial showroom",
+      "entropy": 3.4108055588658317,
+      "pixelHash": "9c537bbd80ede91f1c926670cd263c97318a11893c3b88cf3cb44c8233e31352"
+    },
+    {
+      "industry": "Electronics",
+      "platform": "MOBILE",
+      "slug": "electronics-app-theme",
+      "designId": "ds-01-app",
+      "designDirection": "Circuit editorial showroom / pocket workflow",
+      "entropy": 5.061193186153105,
+      "pixelHash": "64a0fc28190e80ce4caa604f783e1099e36b1d20cd0d79d6a6919312624fe669"
+    },
+    {
+      "industry": "Footwear",
+      "platform": "WEB",
+      "slug": "footwear-web-theme",
+      "designId": "ds-02-web",
+      "designDirection": "Footwear lookbook atelier",
+      "entropy": 3.500570526717638,
+      "pixelHash": "937035d9b670e8f0fd753e5efd3b76f1860bca293eae5d873de1084bfaf35495"
+    },
+    {
+      "industry": "Footwear",
+      "platform": "MOBILE",
+      "slug": "footwear-app-theme",
+      "designId": "ds-02-app",
+      "designDirection": "Footwear lookbook atelier / pocket workflow",
+      "entropy": 4.834276429086458,
+      "pixelHash": "2c9fd2a9879f2eebdefee5271fe02803a5b83754d99f3d7e34798a0e4b07516d"
+    },
+    {
+      "industry": "Textile",
+      "platform": "WEB",
+      "slug": "textile-web-theme",
+      "designId": "ds-03-web",
+      "designDirection": "Textile swatch journal",
+      "entropy": 3.5660574008506956,
+      "pixelHash": "9ad56694e5ff967686263200dab8de4bd7f353f0c3a59a76dc9ac0eb6647f722"
+    },
+    {
+      "industry": "Textile",
+      "platform": "MOBILE",
+      "slug": "textile-app-theme",
+      "designId": "ds-03-app",
+      "designDirection": "Textile swatch journal / pocket workflow",
+      "entropy": 4.251140678425145,
+      "pixelHash": "57f986b88a6cd85b0e0724481f69f497345a2dcbcb86abca7a8c3745d6e5aa83"
+    },
+    {
+      "industry": "Industrial Equipment",
+      "platform": "WEB",
+      "slug": "industrial-equipment-web-theme",
+      "designId": "ds-04-web",
+      "designDirection": "Factory control catalogue",
+      "entropy": 3.894197219513444,
+      "pixelHash": "bb542e181d679518091a8c50b798556435aa8a6b4ca376ce05358c8ef6aef944"
+    },
+    {
+      "industry": "Industrial Equipment",
+      "platform": "MOBILE",
+      "slug": "industrial-equipment-app-theme",
+      "designId": "ds-04-app",
+      "designDirection": "Factory control catalogue / pocket workflow",
+      "entropy": 4.262664566515014,
+      "pixelHash": "390467100885e174d070d18c49c24441f5a1bc0c7f553b0d5229d530ee5dff6c"
+    },
+    {
+      "industry": "Machinery",
+      "platform": "WEB",
+      "slug": "machinery-web-theme",
+      "designId": "ds-05-web",
+      "designDirection": "Machine specification desk",
+      "entropy": 4.800345053081401,
+      "pixelHash": "b8469770a607985d08fd8ca42f6ae876248a8cea1db5badeb07332fa2a70b24e"
+    },
+    {
+      "industry": "Machinery",
+      "platform": "MOBILE",
+      "slug": "machinery-app-theme",
+      "designId": "ds-05-app",
+      "designDirection": "Machine specification desk / pocket workflow",
+      "entropy": 4.624953897378873,
+      "pixelHash": "e08f8d0cc863355cabe434557ea39e0b2e0cc1bf9124a63ae2b9452a5ab4a0cb"
+    },
+    {
+      "industry": "Jewelry / Diamond",
+      "platform": "WEB",
+      "slug": "jewelry-diamond-web-theme",
+      "designId": "ds-06-web",
+      "designDirection": "Jewellery gallery salon",
+      "entropy": 4.572355319098278,
+      "pixelHash": "76722a92a7bec751beb5448cbbf66a234cc676a48c7d43e3ce705345dd972f71"
+    },
+    {
+      "industry": "Jewelry / Diamond",
+      "platform": "MOBILE",
+      "slug": "jewelry-diamond-app-theme",
+      "designId": "ds-06-app",
+      "designDirection": "Jewellery gallery salon / pocket workflow",
+      "entropy": 4.733862210618099,
+      "pixelHash": "8d1e29a571366fcb8049ccdc8903f037cb1b4dd9e416a6cb29778ef030fdb9c7"
+    },
+    {
+      "industry": "General Commerce",
+      "platform": "WEB",
+      "slug": "general-commerce-web-theme",
+      "designId": "ds-07-web",
+      "designDirection": "Merchant marketplace",
+      "entropy": 3.5733877325546928,
+      "pixelHash": "38b69c3775cea130bba1ca64c8fb85cc1285a7788238aecacc084b7e24156ea0"
+    },
+    {
+      "industry": "General Commerce",
+      "platform": "MOBILE",
+      "slug": "general-commerce-app-theme",
+      "designId": "ds-07-app",
+      "designDirection": "Merchant marketplace / pocket workflow",
+      "entropy": 5.070917296532571,
+      "pixelHash": "90f0e9e6f07d882965e77279b3a8f0e9970a4fe290abe7e9821e0f7d3313e655"
+    },
+    {
+      "industry": "Automotive & Spare Parts",
+      "platform": "WEB",
+      "slug": "automotive-spare-parts-web-theme",
+      "designId": "ds-08-web",
+      "designDirection": "Workshop parts counter",
+      "entropy": 3.9976228718005586,
+      "pixelHash": "8fb64539a68c9cf8a26ede830cb680417f471a400390c032ea8a9a3e1c0c3ed9"
+    },
+    {
+      "industry": "Automotive & Spare Parts",
+      "platform": "MOBILE",
+      "slug": "automotive-spare-parts-app-theme",
+      "designId": "ds-08-app",
+      "designDirection": "Workshop parts counter / pocket workflow",
+      "entropy": 4.117309693538118,
+      "pixelHash": "683d9bb7e3565250ad480f36898531c1d611310d15a6ad5aef8c5fc92c269dff"
+    },
+    {
+      "industry": "FMCG & Packaged Foods",
+      "platform": "WEB",
+      "slug": "fmcg-packaged-foods-web-theme",
+      "designId": "ds-09-web",
+      "designDirection": "Fast-moving shelf planner",
+      "entropy": 3.9983309679028025,
+      "pixelHash": "a898bc540913a84af0a47ac95fec602bd2e39e6835400713bb0b8256d79c21d7"
+    },
+    {
+      "industry": "FMCG & Packaged Foods",
+      "platform": "MOBILE",
+      "slug": "fmcg-packaged-foods-app-theme",
+      "designId": "ds-09-app",
+      "designDirection": "Fast-moving shelf planner / pocket workflow",
+      "entropy": 4.188873998631607,
+      "pixelHash": "b8dfff364aed4e2886d46241c72c05dac7c814c3731d138ab1a8b8c0df17e32a"
+    },
+    {
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "WEB",
+      "slug": "pharmaceuticals-healthcare-web-theme",
+      "designId": "ds-10-web",
+      "designDirection": "Clinical formulary",
+      "entropy": 3.5049383294026484,
+      "pixelHash": "84c835cc95e5ee92fc56bd46b06529ccf670a147fe481afdc32a578e9a9cffa8"
+    },
+    {
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "MOBILE",
+      "slug": "pharmaceuticals-healthcare-app-theme",
+      "designId": "ds-10-app",
+      "designDirection": "Clinical formulary / pocket workflow",
+      "entropy": 4.329571897378628,
+      "pixelHash": "a4067a5265012fe7a6c579aae5abcfae60efcbf454d32623a5343c5827d806c1"
+    },
+    {
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "WEB",
+      "slug": "medical-devices-diagnostics-web-theme",
+      "designId": "ds-11-web",
+      "designDirection": "Diagnostics equipment lab",
+      "entropy": 3.33474335577921,
+      "pixelHash": "bc316c45db40a3aff56834b61a1616f7e09509d113fcbd1f2f7842ccec518c25"
+    },
+    {
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "MOBILE",
+      "slug": "medical-devices-diagnostics-app-theme",
+      "designId": "ds-11-app",
+      "designDirection": "Diagnostics equipment lab / pocket workflow",
+      "entropy": 4.949247940530768,
+      "pixelHash": "db1c92afda0dceb9d1e05806b74d41fc7caff3c49cf6ef1d3a47d97141227098"
+    },
+    {
+      "industry": "Beauty & Personal Care",
+      "platform": "WEB",
+      "slug": "beauty-personal-care-web-theme",
+      "designId": "ds-12-web",
+      "designDirection": "Beauty routine studio",
+      "entropy": 3.9888458418317896,
+      "pixelHash": "5799973780a445d532e7e8b5eb6ead17692cb5fbbea7e5cc327d4caeefe5d66a"
+    },
+    {
+      "industry": "Beauty & Personal Care",
+      "platform": "MOBILE",
+      "slug": "beauty-personal-care-app-theme",
+      "designId": "ds-12-app",
+      "designDirection": "Beauty routine studio / pocket workflow",
+      "entropy": 5.015515238177613,
+      "pixelHash": "d0d76990b4e74fa448493208ec2213a4d17f6a829b257011feb589ac299dfdc4"
+    },
+    {
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "WEB",
+      "slug": "agriculture-seeds-agri-inputs-web-theme",
+      "designId": "ds-13-web",
+      "designDirection": "Seasonal field trade desk",
+      "entropy": 4.20254234893946,
+      "pixelHash": "7761357521e0b060823517dd51fcb69642687b70e0d96886d3088fd2d471f94b"
+    },
+    {
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "MOBILE",
+      "slug": "agriculture-seeds-agri-inputs-app-theme",
+      "designId": "ds-13-app",
+      "designDirection": "Seasonal field ledger / pocket workflow",
+      "entropy": 4.531072114499693,
+      "pixelHash": "31d6ad24c86e2ee6b3df233393e95cda8ee292a1cc23d71add7072c05d711219"
+    },
+    {
+      "industry": "Construction & Building Materials",
+      "platform": "WEB",
+      "slug": "construction-building-materials-web-theme",
+      "designId": "ds-14-web",
+      "designDirection": "Construction project yard",
+      "entropy": 4.142579663297511,
+      "pixelHash": "ca71b26cbdc580852f43ac74d6d345bd2db397e658bf6c2b5135664b7c179024"
+    },
+    {
+      "industry": "Construction & Building Materials",
+      "platform": "MOBILE",
+      "slug": "construction-building-materials-app-theme",
+      "designId": "ds-14-app",
+      "designDirection": "Construction project yard / pocket workflow",
+      "entropy": 4.078447396193951,
+      "pixelHash": "c7e3fbb4aa6448999348d753f833eb1043b03904977bf609f488ba81dfc09303"
+    },
+    {
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "WEB",
+      "slug": "paints-coatings-adhesives-web-theme",
+      "designId": "ds-15-web",
+      "designDirection": "Coatings sample wall",
+      "entropy": 3.8549417334943428,
+      "pixelHash": "a9d6df69ef36313b906540446e25c7c72273b8662f2626821a3e75a70daf5b4c"
+    },
+    {
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "MOBILE",
+      "slug": "paints-coatings-adhesives-app-theme",
+      "designId": "ds-15-app",
+      "designDirection": "Coatings sample wall / pocket workflow",
+      "entropy": 4.366925187558081,
+      "pixelHash": "656192fd97239f1261e2b0cecf30e8ded109dcf1362083c6f2e75a712934b205"
+    },
+    {
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "WEB",
+      "slug": "chemicals-specialty-materials-web-theme",
+      "designId": "ds-16-web",
+      "designDirection": "Materials technical library",
+      "entropy": 3.0296326352399774,
+      "pixelHash": "13c5d68d322b17662cf89d513a5dc49b3370e619b4f1319a3ffa948ddca02765"
+    },
+    {
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "MOBILE",
+      "slug": "chemicals-specialty-materials-app-theme",
+      "designId": "ds-16-app",
+      "designDirection": "Materials technical library / pocket workflow",
+      "entropy": 4.540413214552245,
+      "pixelHash": "0fccbfc8748c396a678073e3b90d64c0351a585b1419e8e6b32b6941ce977bfd"
+    },
+    {
+      "industry": "Plastics & Polymers",
+      "platform": "WEB",
+      "slug": "plastics-polymers-web-theme",
+      "designId": "ds-17-web",
+      "designDirection": "Polymer resin exchange",
+      "entropy": 3.4743581777256622,
+      "pixelHash": "47cd9618cc90680f544136d58011687c896d7093c8b69e84a2ee031ee7a6aaa8"
+    },
+    {
+      "industry": "Plastics & Polymers",
+      "platform": "MOBILE",
+      "slug": "plastics-polymers-app-theme",
+      "designId": "ds-17-app",
+      "designDirection": "Polymer resin exchange / pocket workflow",
+      "entropy": 4.916783120119362,
+      "pixelHash": "ae795c5c90848bb48171a7e5b82bc5feac1b85cfeb0e8f2d6cbc724d49e69d0f"
+    },
+    {
+      "industry": "Paper & Packaging",
+      "platform": "WEB",
+      "slug": "paper-packaging-web-theme",
+      "designId": "ds-18-web",
+      "designDirection": "Packaging dieline studio",
+      "entropy": 3.823148526085788,
+      "pixelHash": "d7c73b7052ba6964c9fd237e5785fdfe510ca7716f47b91eb3346055ac350a50"
+    },
+    {
+      "industry": "Paper & Packaging",
+      "platform": "MOBILE",
+      "slug": "paper-packaging-app-theme",
+      "designId": "ds-18-app",
+      "designDirection": "Packaging dieline studio / pocket workflow",
+      "entropy": 4.129421895322594,
+      "pixelHash": "e0bcfecde9156465c41e05e686d2b39b95792878b6f0443d1748c7a7c048d54b"
+    },
+    {
+      "industry": "Printing & Stationery",
+      "platform": "WEB",
+      "slug": "printing-stationery-web-theme",
+      "designId": "ds-19-web",
+      "designDirection": "Print room catalogue",
+      "entropy": 4.0124952070837026,
+      "pixelHash": "a7066d93829a4c160035f31dc648de1778594296bc824f776d760a22eb834433"
+    },
+    {
+      "industry": "Printing & Stationery",
+      "platform": "MOBILE",
+      "slug": "printing-stationery-app-theme",
+      "designId": "ds-19-app",
+      "designDirection": "Print room catalogue / pocket workflow",
+      "entropy": 4.218257953456487,
+      "pixelHash": "9aeb842b540ddfb2af89a84daf57a44a8ffdafc49369ad92de61a06307ad3f10"
+    },
+    {
+      "industry": "Furniture & Wood Products",
+      "platform": "WEB",
+      "slug": "furniture-wood-products-web-theme",
+      "designId": "ds-20-web",
+      "designDirection": "Furniture room planner",
+      "entropy": 3.891528712854779,
+      "pixelHash": "cf95bccf058949f523e4029c1caab9b53562a57d2d1b563d277200d4ff902eb8"
+    },
+    {
+      "industry": "Furniture & Wood Products",
+      "platform": "MOBILE",
+      "slug": "furniture-wood-products-app-theme",
+      "designId": "ds-20-app",
+      "designDirection": "Furniture room planner / pocket workflow",
+      "entropy": 4.604586570440006,
+      "pixelHash": "37c578be32294dc93cb43f6e97da3e25675b711608b5e387b3b0be9a64d0766f"
+    },
+    {
+      "industry": "Home Decor & Furnishings",
+      "platform": "WEB",
+      "slug": "home-decor-furnishings-web-theme",
+      "designId": "ds-21-web",
+      "designDirection": "Interior moodboard",
+      "entropy": 4.359448255128882,
+      "pixelHash": "a5e848033c8247bb38f74fc23f5be828bdb6c44b6cae3d6924736beee60cc1ec"
+    },
+    {
+      "industry": "Home Decor & Furnishings",
+      "platform": "MOBILE",
+      "slug": "home-decor-furnishings-app-theme",
+      "designId": "ds-21-app",
+      "designDirection": "Interior moodboard / pocket workflow",
+      "entropy": 4.898670619135373,
+      "pixelHash": "7169619cc782c2729881e7866302d7f17e3405c46e6dda12ec6664f580e0f883"
+    },
+    {
+      "industry": "Kitchenware & Cookware",
+      "platform": "WEB",
+      "slug": "kitchenware-cookware-web-theme",
+      "designId": "ds-22-web",
+      "designDirection": "Kitchen demonstration counter",
+      "entropy": 4.3352729344478576,
+      "pixelHash": "0898ffb1942dfee252c75899d4ad524bd4a5a4bfa625ad1d390beb645c6bd6c7"
+    },
+    {
+      "industry": "Kitchenware & Cookware",
+      "platform": "MOBILE",
+      "slug": "kitchenware-cookware-app-theme",
+      "designId": "ds-22-app",
+      "designDirection": "Kitchen demonstration counter / pocket workflow",
+      "entropy": 4.958070377993863,
+      "pixelHash": "7a9db9fe1c5e08e84c2a6115ecaccdb6528e09d3c02d34775fad4844cd2b648a"
+    },
+    {
+      "industry": "Electrical & Lighting",
+      "platform": "WEB",
+      "slug": "electrical-lighting-web-theme",
+      "designId": "ds-23-web",
+      "designDirection": "Electrical circuit index",
+      "entropy": 4.191163089846668,
+      "pixelHash": "4387ef6362e8701c848621be091545d3568cbb94d0d3fbdbc25ace91df9749d2"
+    },
+    {
+      "industry": "Electrical & Lighting",
+      "platform": "MOBILE",
+      "slug": "electrical-lighting-app-theme",
+      "designId": "ds-23-app",
+      "designDirection": "Electrical circuit index / pocket workflow",
+      "entropy": 4.0652791858774435,
+      "pixelHash": "d04cf74073d06d7ddedf744e001cb77a95ea07133b99d3e7229a0580500d9981"
+    },
+    {
+      "industry": "HVAC & Refrigeration",
+      "platform": "WEB",
+      "slug": "hvac-refrigeration-web-theme",
+      "designId": "ds-24-web",
+      "designDirection": "Climate systems console",
+      "entropy": 3.8843121261161286,
+      "pixelHash": "eaca4062522b1cfb37efb56a16274b5f7dbf1e25443177cd626757f211cc055f"
+    },
+    {
+      "industry": "HVAC & Refrigeration",
+      "platform": "MOBILE",
+      "slug": "hvac-refrigeration-app-theme",
+      "designId": "ds-24-app",
+      "designDirection": "Climate systems console / pocket workflow",
+      "entropy": 4.114044074449339,
+      "pixelHash": "06453ac33a27b91098cc945843a18555bad22a15d8aed12bc11f20003f7fc249"
+    },
+    {
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "WEB",
+      "slug": "pumps-valves-pipe-fittings-web-theme",
+      "designId": "ds-25-web",
+      "designDirection": "Flow engineering matrix",
+      "entropy": 4.075266526393534,
+      "pixelHash": "51e433524d513b77451984ed71988bd06431a5c248b163caa8f80935c1586d7d"
+    },
+    {
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "MOBILE",
+      "slug": "pumps-valves-pipe-fittings-app-theme",
+      "designId": "ds-25-app",
+      "designDirection": "Flow engineering matrix / pocket workflow",
+      "entropy": 4.507963107840624,
+      "pixelHash": "c6cf60ab63180967b73d2d350a82c4ebbf452ab31dc7734f91b311a61d544641"
+    },
+    {
+      "industry": "Tools & Hardware",
+      "platform": "WEB",
+      "slug": "tools-hardware-web-theme",
+      "designId": "ds-26-web",
+      "designDirection": "Hardware pegboard",
+      "entropy": 3.5339355801115744,
+      "pixelHash": "bee0fd67a6a6cbc6381ffa499c831997609ce030fbb2df41baab0ddee9e9ad21"
+    },
+    {
+      "industry": "Tools & Hardware",
+      "platform": "MOBILE",
+      "slug": "tools-hardware-app-theme",
+      "designId": "ds-26-app",
+      "designDirection": "Hardware pegboard / pocket workflow",
+      "entropy": 4.992840817838442,
+      "pixelHash": "e0d216576616811d485de1e4ac5895a0b25527c2ff5f0518d0cc8f026b264a6c"
+    },
+    {
+      "industry": "Industrial Safety & PPE",
+      "platform": "WEB",
+      "slug": "industrial-safety-ppe-web-theme",
+      "designId": "ds-27-web",
+      "designDirection": "Safety compliance station",
+      "entropy": 3.5287950961683237,
+      "pixelHash": "370089fb932f91442ef96a96c6211f3a66c2008f84c74a49d6ee039f788d94af"
+    },
+    {
+      "industry": "Industrial Safety & PPE",
+      "platform": "MOBILE",
+      "slug": "industrial-safety-ppe-app-theme",
+      "designId": "ds-27-app",
+      "designDirection": "Safety compliance station / pocket workflow",
+      "entropy": 4.653700254493742,
+      "pixelHash": "adab245ab55196d023a80fabc80dba11bcc45d44f720dc378374a13533771beb"
+    },
+    {
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "WEB",
+      "slug": "logistics-warehousing-3pl-web-theme",
+      "designId": "ds-28-web",
+      "designDirection": "Warehouse dispatch board",
+      "entropy": 4.88312695978675,
+      "pixelHash": "4e44900ac0e0da445ac5547c65ff737932c49b34317f7bd757deb4bf590ee7cc"
+    },
+    {
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "MOBILE",
+      "slug": "logistics-warehousing-3pl-app-theme",
+      "designId": "ds-28-app",
+      "designDirection": "Warehouse dispatch board / pocket workflow",
+      "entropy": 4.273530295326054,
+      "pixelHash": "3b74af616ad0329ac93e2a9f4bf1f645c9b803d7244b77c49cffb7cd1131d448"
+    },
+    {
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "WEB",
+      "slug": "office-supplies-b2b-stationery-web-theme",
+      "designId": "ds-29-web",
+      "designDirection": "Office replenishment desk",
+      "entropy": 5.216571002732962,
+      "pixelHash": "b4eb370bf09c2de239c55c2b5084120e9e78fb434c31b12cc250a2858118f23b"
+    },
+    {
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "MOBILE",
+      "slug": "office-supplies-b2b-stationery-app-theme",
+      "designId": "ds-29-app",
+      "designDirection": "Office replenishment desk / pocket workflow",
+      "entropy": 4.310329132727929,
+      "pixelHash": "6128ecb5c41a344b018012ed009ef5b68086dcf65eb9ba365dabc1d28fb38b17"
+    },
+    {
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "WEB",
+      "slug": "it-hardware-networking-distribution-web-theme",
+      "designId": "ds-30-web",
+      "designDirection": "Network rack configurator",
+      "entropy": 4.283430365539971,
+      "pixelHash": "611ae7b5b497c198c6697074c3a0a7cf509d5c97d08964c86a827985152c0747"
+    },
+    {
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "MOBILE",
+      "slug": "it-hardware-networking-distribution-app-theme",
+      "designId": "ds-30-app",
+      "designDirection": "Network rack configurator / pocket workflow",
+      "entropy": 4.725562431034632,
+      "pixelHash": "f76cb6fd8fb2691dbfb7e93d28b5c9feff0760e427ba77c83f7303d349d18724"
+    },
+    {
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "WEB",
+      "slug": "consumer-appliances-home-tech-web-theme",
+      "designId": "ds-31-web",
+      "designDirection": "Home technology showroom",
+      "entropy": 3.6461275429355737,
+      "pixelHash": "39abf3933390ad793b600ff3e9257d8b7279608d6c739e4b62d7f604c5a7395c"
+    },
+    {
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "MOBILE",
+      "slug": "consumer-appliances-home-tech-app-theme",
+      "designId": "ds-31-app",
+      "designDirection": "Home technology showroom / pocket workflow",
+      "entropy": 5.287788654270116,
+      "pixelHash": "76fa75ed3892a76ba88ef5f692b2e8149fed01e3baa25ed21fbe300be30360dc"
+    },
+    {
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "WEB",
+      "slug": "textile-machinery-mill-supplies-web-theme",
+      "designId": "ds-32-web",
+      "designDirection": "Mill maintenance logbook",
+      "entropy": 3.3101412490941584,
+      "pixelHash": "7f489528f4ba1e23be8aec8b6c5027eae147e37c756ca06b419cbcd345152a40"
+    },
+    {
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "MOBILE",
+      "slug": "textile-machinery-mill-supplies-app-theme",
+      "designId": "ds-32-app",
+      "designDirection": "Mill maintenance logbook / pocket workflow",
+      "entropy": 4.47851054448256,
+      "pixelHash": "f45ce94898da32c565001a370e6d8f997694b529d87ba2c44ca24260494a435a"
+    },
+    {
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "WEB",
+      "slug": "food-processing-packaging-machinery-web-theme",
+      "designId": "ds-33-web",
+      "designDirection": "Processing line planner",
+      "entropy": 4.106429134066275,
+      "pixelHash": "0d222f102956e042a20d2a6a6efa184b2cae966d3f242410069cb28665a16eda"
+    },
+    {
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "MOBILE",
+      "slug": "food-processing-packaging-machinery-app-theme",
+      "designId": "ds-33-app",
+      "designDirection": "Processing line planner / pocket workflow",
+      "entropy": 4.359412649995647,
+      "pixelHash": "2381d94414156125903ee79d22b3a702d56ebbbe24920e63959301d57c193bed"
+    },
+    {
+      "industry": "Plastic Moulding & Dies",
+      "platform": "WEB",
+      "slug": "plastic-moulding-dies-web-theme",
+      "designId": "ds-34-web",
+      "designDirection": "Tooling blueprint archive",
+      "entropy": 4.1656373426667415,
+      "pixelHash": "4963e94e5c0dc4e4ed642e004f3d938de71369627dcd000b840e71496c3381b4"
+    },
+    {
+      "industry": "Plastic Moulding & Dies",
+      "platform": "MOBILE",
+      "slug": "plastic-moulding-dies-app-theme",
+      "designId": "ds-34-app",
+      "designDirection": "Tooling blueprint archive / pocket workflow",
+      "entropy": 4.159281735075638,
+      "pixelHash": "db605fc84d7ca838a0a8df7e67e6be9ce65eeba2da9a394c1dbc281bf12b3e59"
+    },
+    {
+      "industry": "Renewable Energy & Solar",
+      "platform": "WEB",
+      "slug": "renewable-energy-solar-web-theme",
+      "designId": "ds-35-web",
+      "designDirection": "Solar project estimator",
+      "entropy": 3.8486126543721184,
+      "pixelHash": "5b2b07b3b8b5d5c823a756073d3bbf8f6f2c7b31fef9e2bea5325de08ecd0cf8"
+    },
+    {
+      "industry": "Renewable Energy & Solar",
+      "platform": "MOBILE",
+      "slug": "renewable-energy-solar-app-theme",
+      "designId": "ds-35-app",
+      "designDirection": "Solar project estimator / pocket workflow",
+      "entropy": 4.6867337648182,
+      "pixelHash": "a65903ec7c534c2105c6144cb4179e4755c95ecd18860df194681c411d0afb77"
+    },
+    {
+      "industry": "Batteries & Power Systems",
+      "platform": "WEB",
+      "slug": "batteries-power-systems-web-theme",
+      "designId": "ds-36-web",
+      "designDirection": "Power continuity dashboard",
+      "entropy": 4.485208017664263,
+      "pixelHash": "98e97d952afdc6f8c3ce3430c2651fe93e1a63cbbe090c539ca9e2ddb3048d7d"
+    },
+    {
+      "industry": "Batteries & Power Systems",
+      "platform": "MOBILE",
+      "slug": "batteries-power-systems-app-theme",
+      "designId": "ds-36-app",
+      "designDirection": "Power continuity dashboard / pocket workflow",
+      "entropy": 5.0312206496200815,
+      "pixelHash": "577294f492de8c16060e944d255207349cb4eaed0b0774b9a5bad994c7d1b9b1"
+    },
+    {
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "WEB",
+      "slug": "oil-lubricants-industrial-fluids-web-theme",
+      "designId": "ds-37-web",
+      "designDirection": "Fluid application guide",
+      "entropy": 4.951937119045397,
+      "pixelHash": "b96d70d4649711a39fb85870908c822a9b5af50a93b975ee014ceebcdadd9c8f"
+    },
+    {
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "MOBILE",
+      "slug": "oil-lubricants-industrial-fluids-app-theme",
+      "designId": "ds-37-app",
+      "designDirection": "Fluid application guide / pocket workflow",
+      "entropy": 5.359431308694184,
+      "pixelHash": "3f0501d69fdaceffb7471e063e2da0f81608fe49069b14b1f467d95b9ae55ff4"
+    },
+    {
+      "industry": "Marine & Port Supplies",
+      "platform": "WEB",
+      "slug": "marine-port-supplies-web-theme",
+      "designId": "ds-38-web",
+      "designDirection": "Port stores manifest",
+      "entropy": 4.191604403758902,
+      "pixelHash": "751a46e93085be992807ae0132124945201b390ecd680f1814d5849d654cfd81"
+    },
+    {
+      "industry": "Marine & Port Supplies",
+      "platform": "MOBILE",
+      "slug": "marine-port-supplies-app-theme",
+      "designId": "ds-38-app",
+      "designDirection": "Port stores manifest / pocket workflow",
+      "entropy": 4.022062931500841,
+      "pixelHash": "74a07dadedec4a756268e0ad3a5d5ac2737da7b242bc148809c33d0cf371adde"
+    },
+    {
+      "industry": "Aviation & MRO Consumables",
+      "platform": "WEB",
+      "slug": "aviation-mro-consumables-web-theme",
+      "designId": "ds-39-web",
+      "designDirection": "Aviation MRO checklist",
+      "entropy": 3.707841096795164,
+      "pixelHash": "59860316c4a9ceb2191d2ed44ff8b965d78f3b0c283a8da74a92c1ab5e125146"
+    },
+    {
+      "industry": "Aviation & MRO Consumables",
+      "platform": "MOBILE",
+      "slug": "aviation-mro-consumables-app-theme",
+      "designId": "ds-39-app",
+      "designDirection": "Aviation MRO checklist / pocket workflow",
+      "entropy": 3.952243680778338,
+      "pixelHash": "93e7898d30debbe8dd7c3115ac70f80c51aad4d3b417818791bb2d1d9fa46624"
+    },
+    {
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "WEB",
+      "slug": "railway-industrial-oem-supplies-web-theme",
+      "designId": "ds-40-web",
+      "designDirection": "Rail component timetable",
+      "entropy": 3.779776164141367,
+      "pixelHash": "57b430dd93b256ae3c65e6f8f660e94be695259406208629a4d673e80c31c707"
+    },
+    {
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "MOBILE",
+      "slug": "railway-industrial-oem-supplies-app-theme",
+      "designId": "ds-40-app",
+      "designDirection": "Rail component timetable / pocket workflow",
+      "entropy": 4.240673105949099,
+      "pixelHash": "8151b3b18f72d0e2e75c5a9ad195b5c0708889f07071990d7b04fee5dc474265"
+    },
+    {
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "WEB",
+      "slug": "defence-aerospace-industrial-supply-web-theme",
+      "designId": "ds-41-web",
+      "designDirection": "Aerospace precision dossier",
+      "entropy": 3.7735564588801935,
+      "pixelHash": "b2d82c25db3554fd53114288e167894f647e7963de3d03eae5d7de745436502b"
+    },
+    {
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "MOBILE",
+      "slug": "defence-aerospace-industrial-supply-app-theme",
+      "designId": "ds-41-app",
+      "designDirection": "Aerospace precision dossier / pocket workflow",
+      "entropy": 4.7455916692415485,
+      "pixelHash": "2b10c679f696e2f9e69e25e1a4b6134a12c846106f102087f3f222690ad36d2d"
+    },
+    {
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "WEB",
+      "slug": "laboratory-scientific-equipment-web-theme",
+      "designId": "ds-42-web",
+      "designDirection": "Scientific bench catalogue",
+      "entropy": 3.6754465474041353,
+      "pixelHash": "84ee706099074d8f0f3a2192233c4b614a3a509fbd2877fd631d25996439a2a7"
+    },
+    {
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "MOBILE",
+      "slug": "laboratory-scientific-equipment-app-theme",
+      "designId": "ds-42-app",
+      "designDirection": "Scientific bench catalogue / pocket workflow",
+      "entropy": 5.272960451780818,
+      "pixelHash": "08d5406d4913c1cfdb0a0178c0f2f7caada405524037545c75c9191d38426b58"
+    },
+    {
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "WEB",
+      "slug": "pet-care-veterinary-distribution-web-theme",
+      "designId": "ds-43-web",
+      "designDirection": "Veterinary care shelf",
+      "entropy": 3.8978627443138976,
+      "pixelHash": "73170e4ed401f70c5df3fe9bcdac2d93337311911a0e0e41acb5d727ade4f1a7"
+    },
+    {
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "MOBILE",
+      "slug": "pet-care-veterinary-distribution-app-theme",
+      "designId": "ds-43-app",
+      "designDirection": "Veterinary care shelf / pocket workflow",
+      "entropy": 4.315468817891087,
+      "pixelHash": "29a002f1b91411d1cb7975c236be44489faeb37bccfcdc4c5ba672880960785c"
+    },
+    {
+      "industry": "Toys & General Merchandise",
+      "platform": "WEB",
+      "slug": "toys-general-merchandise-web-theme",
+      "designId": "ds-44-web",
+      "designDirection": "Playful merchandise bazaar",
+      "entropy": 4.14966876670951,
+      "pixelHash": "2cf80f7c12c9c9c421725ac999f891f9184fb6109b7b9d5237f67962f836d766"
+    },
+    {
+      "industry": "Toys & General Merchandise",
+      "platform": "MOBILE",
+      "slug": "toys-general-merchandise-app-theme",
+      "designId": "ds-44-app",
+      "designDirection": "Playful merchandise bazaar / pocket workflow",
+      "entropy": 4.042496507892793,
+      "pixelHash": "848a1918772fd2c1db7a1fed5a6ac0393df66fb40f263a6834074bcdb9e13574"
+    },
+    {
+      "industry": "Sports & Fitness Equipment",
+      "platform": "WEB",
+      "slug": "sports-fitness-equipment-web-theme",
+      "designId": "ds-45-web",
+      "designDirection": "Performance training club",
+      "entropy": 4.56733739018091,
+      "pixelHash": "a9d017dd03e09985a4209841832e689fb017bd338ee6dfba28b24a6ddfd43a6d"
+    },
+    {
+      "industry": "Sports & Fitness Equipment",
+      "platform": "MOBILE",
+      "slug": "sports-fitness-equipment-app-theme",
+      "designId": "ds-45-app",
+      "designDirection": "Performance training club / pocket workflow",
+      "entropy": 4.717114075974678,
+      "pixelHash": "b42018660446802559ce60cf2abba005b183b76b95bb6adffe23d658bbf1b9b3"
+    },
+    {
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "WEB",
+      "slug": "hospitality-restaurant-supplies-web-theme",
+      "designId": "ds-46-web",
+      "designDirection": "Hospitality service book",
+      "entropy": 4.501605063182069,
+      "pixelHash": "67a812fd9cadeb47646bb9a5f9505d3c0e7317e7a75eb5a82fb86d9a72248892"
+    },
+    {
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "MOBILE",
+      "slug": "hospitality-restaurant-supplies-app-theme",
+      "designId": "ds-46-app",
+      "designDirection": "Hospitality service book / pocket workflow",
+      "entropy": 4.974612947968126,
+      "pixelHash": "1f3a2378815144f10c15d45832df40338d66ac907c86c8120c31a4160764db4e"
+    },
+    {
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "WEB",
+      "slug": "metals-steel-non-ferrous-trade-web-theme",
+      "designId": "ds-47-web",
+      "designDirection": "Metals trading terminal",
+      "entropy": 3.6670290316578757,
+      "pixelHash": "97f2274e4ea7095d8ab3598105aa42952951552daa4a158c6931b2322dbdf66b"
+    },
+    {
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "MOBILE",
+      "slug": "metals-steel-non-ferrous-trade-app-theme",
+      "designId": "ds-47-app",
+      "designDirection": "Metals trading terminal / pocket workflow",
+      "entropy": 5.173100432508363,
+      "pixelHash": "27a7ffdadbfbb80ac6f66d89f9fe51bcd2f26a0fc187141d1df38586c390f537"
+    }
+  ]
+}

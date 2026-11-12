@@ -7,7 +7,7 @@ import PreviewBridge from "@/components/PreviewBridge";
 import { createLanguageContext } from "@/lib/localization-service";
 import { missingTranslations, translate } from "@/lib/translation-engine";
 import { decodeThemePreviewState } from "@/lib/theme-preview-contract";
-import { storefrontDisplayName } from "@/lib/resolve-storefront-theme";
+import { allowPreviewQuery, isDemoCatalog, storefrontDisplayName } from "@/lib/resolve-storefront-theme";
 
 type Search = Promise<{ theme?: string | string[]; tenant?: string | string[]; tenantId?: string | string[]; previewMode?: string | string[]; previewLanguage?: string | string[]; previewState?: string | string[]; previewPrimaryColor?: string | string[]; previewSecondaryColor?: string | string[]; previewFontFamily?: string | string[]; previewBorderRadius?: string | string[] }>;
 
@@ -24,8 +24,8 @@ export default async function HomePage({ searchParams }: { searchParams: Search 
   const previewLanguage = value(sp.previewLanguage);
   const previewState = decodeThemePreviewState(value(sp.previewState));
   const previewTokenOverrides = {
-    ...(value(sp.previewPrimaryColor) ? { primary: value(sp.previewPrimaryColor) } : {}),
-    ...(value(sp.previewSecondaryColor) ? { secondary: value(sp.previewSecondaryColor) } : {}),
+    ...(value(sp.previewPrimaryColor) ? { colorPrimary: value(sp.previewPrimaryColor) } : {}),
+    ...(value(sp.previewSecondaryColor) ? { colorSecondary: value(sp.previewSecondaryColor) } : {}),
     ...(value(sp.previewFontFamily) ? { fontFamily: value(sp.previewFontFamily) } : {}),
     ...(value(sp.previewBorderRadius) ? { borderRadius: value(sp.previewBorderRadius) } : {}),
   };
@@ -35,10 +35,14 @@ export default async function HomePage({ searchParams }: { searchParams: Search 
   const { template, themeKey } = await loadHomeTemplateChain(resolved);
   const themeCss = await loadThemeCssText(resolved.webTheme?.manifestPath ?? null, resolved.manifest);
   const tokenVarsCss = await loadThemeTokenVarsCss(resolved.webTheme?.manifestPath ?? null, resolved.manifest);
-  const tenantTokenCss = tokenOverridesToCss(resolved.tokenOverrides);
+  const tenantTokenCss = tokenOverridesToCss(resolved.tokenOverrides, resolved.branding);
   const componentSchemas = await loadThemeComponentSchemas(resolved.webTheme?.manifestPath ?? null, resolved.manifest);
   const missing = previewMode ? missingTranslations(template, resolved.selectedLanguageCode) : [];
   const languageContext = createLanguageContext(resolved.selectedLanguageCode);
+  const sourceBrand = template.sections.find((section) => {
+    const type = String(section.type ?? section.component ?? section.id ?? "").trim().toLowerCase();
+    return type === "header" || type === "header-basic" || type === "header-mega-menu";
+  })?.settings?.logoText;
 
   return (
     <>
@@ -53,8 +57,10 @@ export default async function HomePage({ searchParams }: { searchParams: Search 
             themeKey={themeKey}
             componentSchemas={componentSchemas}
             languageCode={resolved.selectedLanguageCode}
+            previewCatalog={(previewMode && allowPreviewQuery()) || isDemoCatalog(resolved)}
             sharedSectionProps={{
               logoText: storefrontDisplayName(resolved),
+              themeSourceBrand: typeof sourceBrand === "string" ? sourceBrand : undefined,
               logoImageUrl: resolved.branding?.logoUrl || resolved.branding?.logoDataUrl || undefined,
               industryName: resolved.branding?.industryName || undefined,
             }}

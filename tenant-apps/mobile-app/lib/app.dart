@@ -5,11 +5,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/api/api_client.dart';
 import 'core/config/build_config.dart';
 import 'core/config/user_app_settings_provider.dart';
+import 'core/config/storefront_app_config_provider.dart';
 import 'core/localization/language_provider.dart';
 import 'core/localization/language_contract.dart';
 import 'core/navigation/app_navigation.dart';
 import 'core/theme/theme_model.dart';
 import 'core/theme/theme_provider.dart';
+import 'core/theme/app_typography.dart';
 import 'shared/models/models.dart';
 import 'features/auth/auth_screen.dart';
 import 'features/categories/category_screen.dart';
@@ -22,6 +24,7 @@ import 'features/orders/orders_screen.dart';
 import 'features/products/products_screen.dart';
 import 'features/settings/settings_screen.dart';
 import 'features/wishlist/wishlist_screen.dart';
+import 'shared/widgets/demo_catalog_notice.dart';
 
 const List<Locale> _fallbackSupportedLocales = <Locale>[Locale('en', 'IN')];
 
@@ -58,6 +61,7 @@ class _MobileAppState extends ConsumerState<MobileApp> {
     final LocalizationContract localizationContract =
         ref.watch(localizationContractProvider);
     final UserAppSettings userSettings = ref.watch(userAppSettingsProvider);
+    final storefrontConfig = ref.watch(storefrontAppConfigProvider).valueOrNull;
     final ColorScheme lightScheme = ColorScheme.fromSeed(
       seedColor: storefrontTheme.branding.seedColor,
     ).copyWith(
@@ -123,7 +127,7 @@ class _MobileAppState extends ConsumerState<MobileApp> {
       },
       theme: ThemeData(
         useMaterial3: true,
-        fontFamily: 'Roboto',
+        fontFamily: appFontFamily,
         colorScheme: lightScheme,
         scaffoldBackgroundColor: lightScheme.surface,
         appBarTheme: AppBarTheme(
@@ -135,7 +139,7 @@ class _MobileAppState extends ConsumerState<MobileApp> {
             color: lightScheme.onSurface,
             fontSize: 18,
             fontWeight: FontWeight.w800,
-            fontFamily: 'Roboto',
+            fontFamily: appFontFamily,
           ),
         ),
         snackBarTheme: SnackBarThemeData(
@@ -152,13 +156,13 @@ class _MobileAppState extends ConsumerState<MobileApp> {
             color: lightScheme.onPrimary,
             fontSize: 14,
             fontWeight: FontWeight.w700,
-            fontFamily: 'Roboto',
+            fontFamily: appFontFamily,
           ),
         ),
       ),
       darkTheme: ThemeData(
         useMaterial3: true,
-        fontFamily: 'Roboto',
+        fontFamily: appFontFamily,
         colorScheme: darkScheme,
         scaffoldBackgroundColor: darkScheme.surface,
         appBarTheme: AppBarTheme(
@@ -170,7 +174,7 @@ class _MobileAppState extends ConsumerState<MobileApp> {
             color: darkScheme.onSurface,
             fontSize: 18,
             fontWeight: FontWeight.w800,
-            fontFamily: 'Roboto',
+            fontFamily: appFontFamily,
           ),
         ),
         snackBarTheme: SnackBarThemeData(
@@ -187,7 +191,7 @@ class _MobileAppState extends ConsumerState<MobileApp> {
             color: darkScheme.onPrimary,
             fontSize: 14,
             fontWeight: FontWeight.w700,
-            fontFamily: 'Roboto',
+            fontFamily: appFontFamily,
           ),
         ),
       ),
@@ -197,7 +201,11 @@ class _MobileAppState extends ConsumerState<MobileApp> {
           data: media.copyWith(
             textScaler: TextScaler.linear(userSettings.textScale),
           ),
-          child: child ?? const SizedBox.shrink(),
+          child: DemoCatalogNoticeFrame(
+            enabled: storefrontConfig?.isDemoCatalog == true,
+            message: storefrontConfig?.catalogNotice,
+            child: child ?? const SizedBox.shrink(),
+          ),
         );
       },
       routes: <String, WidgetBuilder>{

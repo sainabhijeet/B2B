@@ -8,12 +8,14 @@ import { InvoiceNumberService } from './invoice-number.service';
 import { InvoicesController } from './invoices.controller';
 import { InvoicesService } from './invoices.service';
 import { NotificationsModule } from '../notifications/notifications.module';
+import { PlatformStorageProvidersModule } from '../storage-providers/platform-storage-providers.module';
 
 @Module({
   imports: [
     TenancyModule,
     TypeOrmModule.forFeature([InvoiceSetting, TenantInvoiceCounter, User]),
     NotificationsModule,
+    PlatformStorageProvidersModule,
   ],
   controllers: [InvoicesController],
   providers: [InvoiceNumberService, InvoicesService],

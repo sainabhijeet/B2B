@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PrecisionSupply",
+        "industryName": "Defence & Aerospace Industrial Supply",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "PrecisionSupply Aerospace Fastener Kit",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced"
+      },
+      "variant": "gallery-gallery-right"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "PrecisionSupply Aerospace Fastener Kit",
+        "subtitle": "Aerospace Fastener Kit from PrecisionSupply's precision components assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 6,500",
+        "description": "Aerospace Fastener Kit from PrecisionSupply's precision components assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-41-1",
+        "stock": 188,
+        "moq": 5,
+        "product": {
+          "id": "defence-aerospace-industrial-supply-web-theme-product-1",
+          "slug": "precisionsupply-aerospace-fastener-kit",
+          "sku": "WEB-41-1",
+          "name": "PrecisionSupply Aerospace Fastener Kit",
+          "description": "Aerospace Fastener Kit from PrecisionSupply's precision components assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "precision-components",
+          "categoryId": "defence-aerospace-industrial-supply-web-theme-category-1",
+          "categoryName": "PrecisionSupply Precision Components",
+          "brand": "PrecisionSupply",
+          "price": 6500,
+          "currency": "INR",
+          "priceLabel": "INR 6,500",
+          "image": "assets/images/product-01.jpg",
+          "stock": 188,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 7670,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 6500
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 6175
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 5850
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: PrecisionSupply Aerospace Fastener Kit",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced"
+      },
+      "variant": "info-gallery-right"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "PrecisionSupply trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PrecisionSupply Aerospace Fastener Kit",
+          "PrecisionSupply Rugged Control Module",
+          "PrecisionSupply Ballistic Composite Sheet",
+          "PrecisionSupply Precision Connector",
+          "PrecisionSupply Technical Lubricant",
+          "PrecisionSupply Inspection Tool Set"
+        ],
+        "prices": [
+          "INR 6,500",
+          "INR 28,500",
+          "INR 12,500",
+          "INR 4,200",
+          "INR 3,200",
+          "INR 8,500"
+        ],
+        "products": [
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-1",
+            "slug": "precisionsupply-aerospace-fastener-kit",
+            "sku": "WEB-41-1",
+            "name": "PrecisionSupply Aerospace Fastener Kit",
+            "description": "Aerospace Fastener Kit from PrecisionSupply's precision components assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "precision-components",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-1",
+            "categoryName": "PrecisionSupply Precision Components",
+            "brand": "PrecisionSupply",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 188,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Aerospace Fastener Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-2",
+            "slug": "precisionsupply-rugged-control-module",
+            "sku": "WEB-41-2",
+            "name": "PrecisionSupply Rugged Control Module",
+            "description": "Rugged Control Module from PrecisionSupply's rugged electronics assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "rugged-electronics",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-2",
+            "categoryName": "PrecisionSupply Rugged Electronics",
+            "brand": "PrecisionSupply",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 199,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Rugged Control Module",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-3",
+            "slug": "precisionsupply-ballistic-composite-sheet",
+            "sku": "WEB-41-3",
+            "name": "PrecisionSupply Ballistic Composite Sheet",
+            "description": "Ballistic Composite Sheet from PrecisionSupply's protective materials assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "protective-materials",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-3",
+            "categoryName": "PrecisionSupply Protective Materials",
+            "brand": "PrecisionSupply",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 210,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Ballistic Composite Sheet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-4",
+            "slug": "precisionsupply-precision-connector",
+            "sku": "WEB-41-4",
+            "name": "PrecisionSupply Precision Connector",
+            "description": "Precision Connector from PrecisionSupply's precision components assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "precision-components",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-1",
+            "categoryName": "PrecisionSupply Precision Components",
+            "brand": "PrecisionSupply",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-04.jpg",
+            "stock": 221,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Precision Connector",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-5",
+            "slug": "precisionsupply-technical-lubricant",
+            "sku": "WEB-41-5",
+            "name": "PrecisionSupply Technical Lubricant",
+            "description": "Technical Lubricant from PrecisionSupply's mro supplies assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "mro-supplies",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-4",
+            "categoryName": "PrecisionSupply MRO Supplies",
+            "brand": "PrecisionSupply",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-05.jpg",
+            "stock": 232,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Technical Lubricant",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "defence-aerospace-industrial-supply-web-theme-product-6",
+            "slug": "precisionsupply-inspection-tool-set",
+            "sku": "WEB-41-6",
+            "name": "PrecisionSupply Inspection Tool Set",
+            "description": "Inspection Tool Set from PrecisionSupply's mro supplies assortment. Present aerospace industrial parts with clear sample ordering details. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "mro-supplies",
+            "categoryId": "defence-aerospace-industrial-supply-web-theme-category-4",
+            "categoryName": "PrecisionSupply MRO Supplies",
+            "brand": "PrecisionSupply",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-06.jpg",
+            "stock": 243,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrecisionSupply Inspection Tool Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source aerospace fastener kit, rugged control module and more from this defence & aerospace industrial supply trade collection.",
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced",
+        "cardStyle": "marketplace",
+        "columns": 4
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the PrecisionSupply demo catalog",
+        "items": [
+          {
+            "question": "How are PrecisionSupply pack quantities shown?",
+            "answer": "PrecisionSupply Aerospace Fastener Kit has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are PrecisionSupply images supplier photographs?",
+            "answer": "These defence & aerospace industrial supply images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PrecisionSupply",
+        "industryName": "Defence & Aerospace Industrial Supply",
+        "tagline": "Source aerospace fastener kit, rugged control module and more from this defence & aerospace industrial supply trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-41-web",
+        "layoutMode": "gallery-right",
+        "density": "balanced"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-41-web"
+}

@@ -67,9 +67,14 @@ export class StorefrontCategoriesService {
     if (channel === 'website') qb.andWhere('c.show_in_website = true');
 
     const rows = await qb.getMany();
-    const categoriesById = new Map(rows.map((category) => [category.id, category]));
+    // Industry master categories are onboarding fallbacks. Once a distributor
+    // creates its own catalog categories, the public web/app catalog should
+    // use that curated set instead of mixing in unrelated empty master rows.
+    const tenantRows = rows.filter((category) => category.tenantId === tenantId);
+    const visibleRows = tenantRows.length > 0 ? tenantRows : rows;
+    const categoriesById = new Map(visibleRows.map((category) => [category.id, category]));
     const items = await Promise.all(
-      rows.map(async (c) => {
+      visibleRows.map(async (c) => {
         const nameKey = this.translations.entityKey('category', c.slug, 'name');
         const descriptionKey = this.translations.entityKey(
           'category',
@@ -117,11 +122,14 @@ export class StorefrontCategoriesService {
     };
   }
 
-  private categoryImageUrl(slug: string): string {
-    return `/storage/grocery-catalog/categories/${slug}.png`;
+  private categoryImageUrl(slug: string | null): string | null {
+    return slug ? `/storage/grocery-catalog/categories/${slug}.png` : null;
   }
 
-  private categoryImageSlug(category: Category, categoriesById: Map<string, Category>): string {
+  private categoryImageSlug(
+    category: Category,
+    categoriesById: Map<string, Category>,
+  ): string | null {
     let root = category;
     const visited = new Set<string>();
     while (root.parentId && !visited.has(root.id)) {
@@ -153,6 +161,9 @@ export class StorefrontCategoriesService {
       [/stationery|paper|pen|notebook/, 'stationery'],
       [/sugar|salt/, 'sugar-salt'],
     ];
-    return mappings.find(([pattern]) => pattern.test(key))?.[1] ?? 'grocery-staples';
+    // Never show a grocery placeholder for an unrelated industry. Categories
+    // without an uploaded image stay image-less so the active theme can apply
+    // its own industry-specific preview asset.
+    return mappings.find(([pattern]) => pattern.test(key))?.[1] ?? null;
   }
 }

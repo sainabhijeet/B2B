@@ -8,11 +8,12 @@ import {
   Post,
   Query,
   Req,
+  Res,
   UploadedFile,
   UseGuards,
   UseInterceptors,
 } from '@nestjs/common';
-import type { Request } from 'express';
+import type { Request, Response } from 'express';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { ApiBearerAuth, ApiConsumes, ApiTags } from '@nestjs/swagger';
 import { SkipThrottle } from '@nestjs/throttler';
@@ -59,6 +60,28 @@ export class ThemesController {
 
   @Public()
   @SkipThrottle()
+  @Get('storefront/logo')
+  async storefrontLogo(
+    @Req() req: Request & { tenantId?: string | null },
+    @Res() res: Response,
+    @Query('tenantId') requestedTenantId?: string,
+  ) {
+    const queryTenantId = requestedTenantId?.trim();
+    const tenantId =
+      queryTenantId &&
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu.test(queryTenantId)
+        ? queryTenantId
+        : req.tenantId ?? null;
+    const logo = await this.themesService.storefrontLogoData(tenantId);
+    if (!logo) return res.status(404).end();
+    res.setHeader('Content-Type', logo.contentType);
+    res.setHeader('Content-Length', String(logo.body.length));
+    res.setHeader('Cache-Control', 'public, max-age=3600, immutable');
+    return res.status(200).send(logo.body);
+  }
+
+  @Public()
+  @SkipThrottle()
   @Get('storefront/preview')
   async storefrontPreview(
     @Req() req: Request & { tenantId?: string | null },
@@ -67,8 +90,17 @@ export class ThemesController {
     const data = await this.themesService.storefrontCurrent(
       req.tenantId ?? null,
     );
+    const previewCatalog = await this.themesService.storefrontPreviewCatalog(
+      data.data.webTheme?.id,
+      data.data.branding.industryId,
+      'WEB',
+    );
     return {
       ...data,
+      data: {
+        ...data.data,
+        previewCatalog,
+      },
       languageCode: this.localization.resolveLanguage(language ?? 'en'),
       preview: true,
     };

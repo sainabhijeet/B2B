@@ -1,0 +1,1029 @@
+{
+  "url": "https://wpolive.com/html/jowenly/index.html",
+  "title": "jowenly-Jewelry Store HTML5 Template",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "page": {
+    "width": 390,
+    "height": 9011
+  },
+  "bodyClass": "",
+  "headings": [
+    {
+      "level": "h2",
+      "text": "luxury jewellery product"
+    },
+    {
+      "level": "h2",
+      "text": "jewellery collection"
+    },
+    {
+      "level": "h2",
+      "text": "rings collection"
+    },
+    {
+      "level": "h2",
+      "text": "necklaces collection"
+    },
+    {
+      "level": "h2",
+      "text": "earrings collection"
+    },
+    {
+      "level": "h2",
+      "text": "new arrival"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "product name"
+    },
+    {
+      "level": "h2",
+      "text": "deal of the day"
+    },
+    {
+      "level": "h3",
+      "text": "gold ear ring"
+    },
+    {
+      "level": "h1",
+      "text": "09"
+    },
+    {
+      "level": "h2",
+      "text": "trusted from clients"
+    },
+    {
+      "level": "h2",
+      "text": "Jennifer lofez"
+    },
+    {
+      "level": "h2",
+      "text": "Jennifer lofez"
+    },
+    {
+      "level": "h2",
+      "text": "Jennifer lofez"
+    },
+    {
+      "level": "h2",
+      "text": "Jennifer lofez"
+    },
+    {
+      "level": "h2",
+      "text": "blog & article"
+    },
+    {
+      "level": "h2",
+      "text": "Lorem ipsum dolor sit consectetur"
+    },
+    {
+      "level": "h2",
+      "text": "Lorem ipsum dolor sit consectetur"
+    },
+    {
+      "level": "h2",
+      "text": "Lorem ipsum dolor sit consectetur"
+    },
+    {
+      "level": "h3",
+      "text": "Quick Links:"
+    },
+    {
+      "level": "h3",
+      "text": "support:"
+    },
+    {
+      "level": "h3",
+      "text": "Subscribe Now:"
+    }
+  ],
+  "sections": [
+    {
+      "tag": "section",
+      "id": null,
+      "className": "static-hero",
+      "heading": "luxury jewellery product",
+      "text": "luxury jewellery product Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. Mauris vitae ultricies leo integer. Odio facilisis mauris sit amet massa. all collection",
+      "top": 0,
+      "height": 1000
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "className": "wpo-collection-section section-padding",
+      "heading": "jewellery collection",
+      "text": "jewellery collection Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. Mauris vitae ultricies leo integer. Odio facilisis mauris sit amet massa. rings collection Neque convallis a cras semper auctor amet luctus. See more n",
+      "top": 1000,
+      "height": 2159
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "className": "wpo-new-arrival-section",
+      "heading": "new arrival",
+      "text": "new arrival Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. Mauris vitae ultricies leo integer. product name $890.00 product name $890.00 product name $890.00 product name $890.00 product name $890.00 product name $890.0",
+      "top": 3159,
+      "height": 850
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "className": "wpo-deal-day-section",
+      "heading": "deal of the day",
+      "text": "deal of the day Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. gold ear ring $968.00 add to cart 09 days left",
+      "top": 4009,
+      "height": 1061
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "className": "wpo-testimonial-section section-padding",
+      "heading": "trusted from clients",
+      "text": "trusted from clients Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. “Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in ",
+      "top": 5070,
+      "height": 802
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "className": "wpo-blog-section",
+      "heading": "blog & article",
+      "text": "blog & article Neque convallis a cras semper auctor. Adipiscing elit ut aliquam purus sit amet luctus. Mauris vitae ultricies leo integer. Odio facilisis mauris sit amet massa. 20 Feb 2023 Lorem ipsum dolor sit consectetur Neque convallis a cras semper auctor.",
+      "top": 5872,
+      "height": 1894
+    }
+  ],
+  "navLinks": [
+    {
+      "text": "",
+      "href": "https://wpolive.com/html/jowenly/index.html",
+      "className": "navbar-brand"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Toggle navigation",
+      "className": "navbar-toggler open-btn"
+    },
+    {
+      "text": "",
+      "className": "cart-toggle-btn"
+    },
+    {
+      "text": "1",
+      "className": ""
+    },
+    {
+      "text": "2",
+      "className": ""
+    },
+    {
+      "text": "3",
+      "className": ""
+    },
+    {
+      "text": "4",
+      "className": ""
+    },
+    {
+      "text": "5",
+      "className": ""
+    },
+    {
+      "text": "1",
+      "className": ""
+    },
+    {
+      "text": "2",
+      "className": ""
+    },
+    {
+      "text": "",
+      "className": ""
+    }
+  ],
+  "carousels": [
+    {
+      "tag": "div",
+      "id": null,
+      "className": "row one-time slick-initialized slick-slider slick-dotted",
+      "heading": "product name",
+      "text": "product name $890.00 product name $890.00 product name $890.00 product name $890.00 product name $890.00 product name $890.00 product name $890.00 12345",
+      "top": 3415,
+      "height": 484
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "testimonial-slider slick-initialized slick-slider slick-dotted",
+      "heading": "Jennifer lofez",
+      "text": "“Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.” Jennifer lofez happy customer “Ut enim ad minim veniam, quis nostrud exe",
+      "top": 5337,
+      "height": 415
+    }
+  ],
+  "animations": [
+    {
+      "tag": "div",
+      "id": null,
+      "className": "page-wrapper",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "className": "navbar-toggler open-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "box-shadow",
+      "transitionDuration": "0.15s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "className": "icon-bar first-angle",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "span",
+      "id": null,
+      "className": "icon-bar last-angle",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "navbar-brand",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "row one-time slick-initialized slick-slider slick-dotted",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide slick-cloned",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide slick-current slick-active",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "col-lg-3 slick-slide slick-cloned",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "i",
+      "id": null,
+      "className": "flaticon-heart",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "testimonial-slider slick-initialized slick-slider slick-dotted",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "item slick-slide slick-cloned",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "item slick-slide slick-current slick-active",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "item slick-slide",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "className": "item slick-slide slick-cloned",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": "theme-btn",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    },
+    {
+      "tag": "a",
+      "id": null,
+      "className": null,
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transitionProperty": "all",
+      "transitionDuration": "0.2s",
+      "dataAnimation": null
+    }
+  ],
+  "images": [
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/logo.svg",
+      "alt": "logo",
+      "width": 211,
+      "height": 43,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/slider/img-1.jpg",
+      "alt": "",
+      "width": 500,
+      "height": 610,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/collection/1.jpg",
+      "alt": "",
+      "width": 335,
+      "height": 252,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/collection/2.jpg",
+      "alt": "",
+      "width": 335,
+      "height": 252,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/collection/3.jpg",
+      "alt": "",
+      "width": 335,
+      "height": 252,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/2.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/1.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/2.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/3.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/4.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/2.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/arrival/1.jpg",
+      "alt": "",
+      "width": 270,
+      "height": 270,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/date.jpg",
+      "alt": "",
+      "width": 400,
+      "height": 400,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/blog/img-1.jpg",
+      "alt": "",
+      "width": 350,
+      "height": 232,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/blog/img-2.jpg",
+      "alt": "",
+      "width": 350,
+      "height": 232,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/blog/img-3.jpg",
+      "alt": "",
+      "width": 350,
+      "height": 232,
+      "loading": "auto"
+    },
+    {
+      "src": "https://wpolive.com/html/jowenly/assets/images/logo-2.svg",
+      "alt": "blog",
+      "width": 211,
+      "height": 43,
+      "loading": "auto"
+    }
+  ],
+  "backgrounds": [],
+  "forms": [
+    {
+      "action": "https://wpolive.com/html/jowenly/index.html",
+      "method": "get",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "email",
+          "name": null,
+          "placeholder": "Email here"
+        },
+        {
+          "tag": "button",
+          "type": "submit",
+          "name": null,
+          "placeholder": null
+        }
+      ]
+    }
+  ],
+  "scripts": [
+    "https://wpolive.com/html/jowenly/assets/js/jquery.min.js",
+    "https://wpolive.com/html/jowenly/assets/js/bootstrap.bundle.min.js",
+    "https://wpolive.com/html/jowenly/assets/js/modernizr.custom.js",
+    "https://wpolive.com/html/jowenly/assets/js/jquery.dlmenu.js",
+    "https://wpolive.com/html/jowenly/assets/js/jquery-plugin-collection.js",
+    "https://wpolive.com/html/jowenly/assets/js/script.js"
+  ],
+  "stylesheets": [
+    "https://wpolive.com/html/jowenly/assets/css/themify-icons.css",
+    "https://wpolive.com/html/jowenly/assets/css/flaticon_jowenly.css",
+    "https://wpolive.com/html/jowenly/assets/css/bootstrap.min.css",
+    "https://wpolive.com/html/jowenly/assets/css/animate.css",
+    "https://wpolive.com/html/jowenly/assets/css/owl.carousel.css",
+    "https://wpolive.com/html/jowenly/assets/css/owl.theme.css",
+    "https://wpolive.com/html/jowenly/assets/css/slick.css",
+    "https://wpolive.com/html/jowenly/assets/css/slick-theme.css",
+    "https://wpolive.com/html/jowenly/assets/css/swiper.min.css",
+    "https://wpolive.com/html/jowenly/assets/css/owl.transitions.css",
+    "https://wpolive.com/html/jowenly/assets/css/jquery.fancybox.css",
+    "https://wpolive.com/html/jowenly/assets/css/odometer-theme-default.css",
+    "https://wpolive.com/html/jowenly/assets/sass/style.css"
+  ]
+}

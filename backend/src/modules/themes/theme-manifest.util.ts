@@ -129,6 +129,11 @@ const ALLOWED_SECTION_TYPES = new Set<string>([
   'category',
   'product',
   'footer',
+  // Storefront registry ids used by installable v2 themes.
+  'image-with-text',
+  'product-gallery',
+  'product-info',
+  'faq-section',
   'featured-product',
   'collection-showcase',
   'trusted-by',

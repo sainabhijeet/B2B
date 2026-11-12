@@ -17,12 +17,60 @@ export type WishlistItem = {
   thumbnailUrl: string | null;
 };
 
-export default function WishlistPageClient({ initialItems, languageCode }: {
+export default function WishlistPageClient({ initialItems, languageCode, variant = "standard" }: {
   initialItems: WishlistItem[];
   languageCode: string;
+  variant?: "standard" | "materialbridge";
 }) {
   const [items, setItems] = useState(initialItems);
   const t = (value: string) => translate(value, languageCode);
+
+  if (variant === "materialbridge") {
+    return (
+      <main className="material-wishlist-page">
+        <div className="material-wishlist-shell">
+          <header className="material-wishlist-header">
+            <div className="material-wishlist-heading">
+              <p>{t("Procurement workspace / saved materials")}</p>
+              <h1>{t("Material shortlist board")}</h1>
+              <span>{t("Keep candidate chemicals together while you compare grade, pack format and commercial details.")}</span>
+            </div>
+            <div className="material-wishlist-summary" aria-label={t("Wishlist summary")}>
+              <span><Heart aria-hidden="true" />{String(items.length).padStart(2, "0")}</span>
+              <div><small>{t("Materials under review")}</small><strong>{t(items.length === 1 ? "One saved candidate" : "Saved candidates")}</strong></div>
+              <Link href="/category">{t("Open material index")}<ArrowRight aria-hidden="true" /></Link>
+            </div>
+          </header>
+
+          {items.length === 0 ? (
+            <section className="material-wishlist-empty">
+              <span><Heart aria-hidden="true" /></span>
+              <div><p>{t("Shortlist register / clear")}</p><h2>{t("No materials saved for review.")}</h2><small>{t("Use the save control on any product to build a focused comparison list.")}</small></div>
+              <Link href="/category">{t("Browse material families")}<ArrowRight aria-hidden="true" /></Link>
+            </section>
+          ) : (
+            <section className="material-wishlist-register" aria-label={t("Saved materials")}>
+              <div className="material-wishlist-register-head"><span>{t("Material image")}</span><span>{t("Candidate record")}</span><span>{t("Commercial review")}</span></div>
+              {items.map((item, index) => (
+                <article className="material-wishlist-live-row" key={item.id} data-record={String(index + 1).padStart(2, "0")}>
+                  <Link href={`/product/${encodeURIComponent(item.slug)}`} className="material-wishlist-live-image"><OrderProductImage src={productImageUrl(item.thumbnailUrl)} alt={item.name} sizes="(max-width: 720px) 90vw, 240px" /></Link>
+                  <div className="material-wishlist-live-copy">
+                    <p>{item.brand ? t(item.brand) : t("MaterialBridge catalog")}</p>
+                    <Link href={`/product/${encodeURIComponent(item.slug)}`}>{t(item.name)}</Link>
+                    <span>{t("SKU")}: {item.sku}</span>
+                  </div>
+                  <div className="material-wishlist-live-actions">
+                    <Link href={`/product/${encodeURIComponent(item.slug)}`}>{t("Review material")}<ArrowRight aria-hidden="true" /></Link>
+                    <WishlistButton productId={item.id} languageCode={languageCode} initialSaved compact onChange={(saved) => { if (!saved) setItems((current) => current.filter((row) => row.id !== item.id)); }} />
+                  </div>
+                </article>
+              ))}
+            </section>
+          )}
+        </div>
+      </main>
+    );
+  }
 
   return (
     <main className="min-h-[70vh] bg-slate-50/80 pb-20">

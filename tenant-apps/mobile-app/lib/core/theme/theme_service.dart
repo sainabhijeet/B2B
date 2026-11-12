@@ -37,11 +37,13 @@ class ThemeService {
     StorefrontTheme? fallback,
   }) async {
     try {
+      final query = <String, dynamic>{
+        if (language?.trim().isNotEmpty == true) 'language': language!.trim(),
+        if (BuildConfig.isThemePreview) 'preview': '1',
+      };
       final res = await _dio.get<Map<String, dynamic>>(
         '/storefront/theme',
-        queryParameters: language?.trim().isNotEmpty == true
-            ? <String, dynamic>{'language': language!.trim()}
-            : null,
+        queryParameters: query.isEmpty ? null : query,
       );
       final raw = nestEnvelopeData(res.data);
       if (raw is Map<String, dynamic>) {

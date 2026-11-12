@@ -19,6 +19,11 @@ npm run dev
 # http://localhost:5175 — set NEXT_PUBLIC_API_URL / NEXT_PUBLIC_SITE_URL in .env.local
 ```
 
+The default dev command uses a guarded launcher. It reuses an already healthy
+storefront on port `5175`, avoids duplicate-port races, and restarts Next.js
+after an unexpected development-server exit. Use `npm run dev:direct` only when
+debugging Next.js startup itself.
+
 Optional preview: `?theme=textile` (dev or `NEXT_PUBLIC_THEME_QUERY=1`).
 
 ## Architecture (multi-tenant + scale)

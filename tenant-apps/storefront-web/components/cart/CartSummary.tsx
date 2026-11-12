@@ -14,8 +14,9 @@ export default function CartSummary({ items, languageCode }: Props) {
   const units = items.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <section aria-label={t("Order summary")} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-      <h2 className="text-lg font-bold text-slate-950">{t("Order summary")}</h2>
+    <section aria-label={t("Order summary")} className="cart-order-summary rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+      <span className="cart-summary-kicker text-[10px] font-extrabold uppercase tracking-[0.18em] text-slate-400">{t("Trade checkout")}</span>
+      <h2 className="mt-2 text-lg font-bold text-slate-950">{t("Order summary")}</h2>
       <div className="mt-5 space-y-3 border-b border-slate-200 pb-5 text-sm">
         <div className="flex items-center justify-between text-slate-600">
           <span>{t("Products")} ({units})</span>
@@ -34,7 +35,7 @@ export default function CartSummary({ items, languageCode }: Props) {
       <p className="mt-4 text-sm text-slate-600">
         {t("Delivery address")}: <Link href="/checkout#delivery-address" className="font-semibold text-[var(--theme-primary)] hover:underline">{t("Select or add at checkout")}</Link>
       </p>
-      <Link href="/checkout" className="mt-6 flex min-h-12 w-full items-center justify-center rounded-xl bg-[var(--theme-primary)] px-4 text-sm font-bold text-white transition hover:brightness-95">
+      <Link href="/checkout" className="cart-checkout-button mt-6 flex min-h-12 w-full items-center justify-center rounded-xl bg-[var(--theme-primary)] px-4 text-sm font-bold text-white transition hover:brightness-95">
         {t("Proceed to checkout")} <span aria-hidden="true" className="ml-2">→</span>
       </Link>
       <Link href="/category" className="mt-4 block text-center text-sm font-semibold text-slate-600 hover:text-slate-900">

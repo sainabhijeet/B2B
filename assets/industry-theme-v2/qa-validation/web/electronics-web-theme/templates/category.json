@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "CircuitLane",
+        "industryName": "Electronics",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "CircuitLane / Electronics",
+        "subtitle": "Source pro smartphone, business laptop and more from this electronics trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find CircuitLane supplies",
+        "message": "Explore CircuitLane Mobile Phones, CircuitLane Computers, CircuitLane Audio & Video, CircuitLane Electronic Accessories.",
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "filters-top-filter-dense"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "CircuitLane trade selection",
+        "subtitle": "Source pro smartphone, business laptop and more from this electronics trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "CircuitLane Pro Smartphone",
+          "CircuitLane Business Laptop",
+          "CircuitLane Wireless Earbuds",
+          "CircuitLane 4K Smart Display",
+          "CircuitLane Wi-Fi Router",
+          "CircuitLane Power Bank"
+        ],
+        "prices": [
+          "INR 18,999",
+          "INR 42,999",
+          "INR 1,499",
+          "INR 27,999",
+          "INR 2,499",
+          "INR 999"
+        ],
+        "products": [
+          {
+            "id": "electronics-web-theme-product-1",
+            "slug": "circuitlane-pro-smartphone",
+            "sku": "WEB-01-1",
+            "name": "CircuitLane Pro Smartphone",
+            "description": "Pro Smartphone from CircuitLane's mobile phones assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "mobile-phones",
+            "categoryId": "electronics-web-theme-category-1",
+            "categoryName": "CircuitLane Mobile Phones",
+            "brand": "CircuitLane",
+            "price": 18999,
+            "currency": "INR",
+            "priceLabel": "INR 18,999",
+            "image": "assets/images/product-01.jpg",
+            "stock": 68,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 22419,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18999
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 18049
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 17099
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane Pro Smartphone",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-web-theme-product-2",
+            "slug": "circuitlane-business-laptop",
+            "sku": "WEB-01-2",
+            "name": "CircuitLane Business Laptop",
+            "description": "Business Laptop from CircuitLane's computers assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "computers",
+            "categoryId": "electronics-web-theme-category-2",
+            "categoryName": "CircuitLane Computers",
+            "brand": "CircuitLane",
+            "price": 42999,
+            "currency": "INR",
+            "priceLabel": "INR 42,999",
+            "image": "assets/images/product-02.jpg",
+            "stock": 79,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 50739,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42999
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 40849
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 38699
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane Business Laptop",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-web-theme-product-3",
+            "slug": "circuitlane-wireless-earbuds",
+            "sku": "WEB-01-3",
+            "name": "CircuitLane Wireless Earbuds",
+            "description": "Wireless Earbuds from CircuitLane's audio & video assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "audio-video",
+            "categoryId": "electronics-web-theme-category-3",
+            "categoryName": "CircuitLane Audio & Video",
+            "brand": "CircuitLane",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-03.jpg",
+            "stock": 90,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane Wireless Earbuds",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-web-theme-product-4",
+            "slug": "circuitlane-4k-smart-display",
+            "sku": "WEB-01-4",
+            "name": "CircuitLane 4K Smart Display",
+            "description": "4K Smart Display from CircuitLane's audio & video assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "audio-video",
+            "categoryId": "electronics-web-theme-category-3",
+            "categoryName": "CircuitLane Audio & Video",
+            "brand": "CircuitLane",
+            "price": 27999,
+            "currency": "INR",
+            "priceLabel": "INR 27,999",
+            "image": "assets/images/product-04.jpg",
+            "stock": 101,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 33039,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 27999
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 26599
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25199
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane 4K Smart Display",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-web-theme-product-5",
+            "slug": "circuitlane-wi-fi-router",
+            "sku": "WEB-01-5",
+            "name": "CircuitLane Wi-Fi Router",
+            "description": "Wi-Fi Router from CircuitLane's electronic accessories assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "electronic-accessories",
+            "categoryId": "electronics-web-theme-category-4",
+            "categoryName": "CircuitLane Electronic Accessories",
+            "brand": "CircuitLane",
+            "price": 2499,
+            "currency": "INR",
+            "priceLabel": "INR 2,499",
+            "image": "assets/images/product-05.jpg",
+            "stock": 112,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2949,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2499
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2374
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2249
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane Wi-Fi Router",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-web-theme-product-6",
+            "slug": "circuitlane-power-bank",
+            "sku": "WEB-01-6",
+            "name": "CircuitLane Power Bank",
+            "description": "Power Bank from CircuitLane's electronic accessories assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "electronic-accessories",
+            "categoryId": "electronics-web-theme-category-4",
+            "categoryName": "CircuitLane Electronic Accessories",
+            "brand": "CircuitLane",
+            "price": 999,
+            "currency": "INR",
+            "priceLabel": "INR 999",
+            "image": "assets/images/product-06.jpg",
+            "stock": 123,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1179,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 999
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 949
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 899
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CircuitLane Power Bank",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact",
+        "cardStyle": "marketplace",
+        "columns": 3
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your CircuitLane order",
+        "subtitle": "Review quantities for pro smartphone with this electronics preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "CircuitLane",
+        "industryName": "Electronics",
+        "tagline": "Source pro smartphone, business laptop and more from this electronics trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-01-web",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-01-web"
+}

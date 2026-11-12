@@ -1,0 +1,503 @@
+{
+  "title": "Electrica - Electrician & Electronics PHP Template | Home Page 01",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page": {
+    "width": 1440,
+    "height": 9530
+  },
+  "nav": [
+    "Home",
+    "Pages",
+    "Services",
+    "Projects",
+    "Blog",
+    "Contact",
+    "Home",
+    "Pages",
+    "Services",
+    "Projects",
+    "Blog",
+    "Contact"
+  ],
+  "sections": [
+    {
+      "className": "banner-section",
+      "top": 0,
+      "height": 954,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "services-section",
+      "top": 954,
+      "height": 761,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "about-section-two",
+      "top": 1715,
+      "height": 720,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "fun-fact-section",
+      "top": 2435,
+      "height": 902,
+      "backgroundColor": "rgb(243, 244, 247)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "why-choose-us",
+      "top": 2929,
+      "height": 734,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "project-section",
+      "top": 3663,
+      "height": 1078,
+      "backgroundColor": "rgb(36, 32, 31)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "faq-section",
+      "top": 4741,
+      "height": 920,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "features-section pt-0",
+      "top": 5661,
+      "height": 440,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "contact-section",
+      "top": 6101,
+      "height": 957,
+      "backgroundColor": "rgb(36, 32, 31)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "testimonial-section",
+      "top": 7058,
+      "height": 887,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "news-section",
+      "top": 7945,
+      "height": 889,
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "backgroundImage": "none"
+    },
+    {
+      "className": "call-to-action",
+      "top": 8834,
+      "height": 138,
+      "backgroundColor": "rgb(36, 32, 31)",
+      "backgroundImage": "none"
+    }
+  ],
+  "footer": {
+    "className": "main-footer",
+    "top": 8972,
+    "height": 558
+  },
+  "motion": [
+    {
+      "tag": "DIV",
+      "className": "banner-carousel owl-carousel owl-theme owl-loaded owl-drag",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "all"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s 0.3s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s 0.6s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s 0.6s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "SPAN",
+      "className": "sub-title animate-1",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H1",
+      "className": "title animate-2",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "H2",
+      "className": "title-stroke animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "btn-box animate-3",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "0.5s"
+    },
+    {
+      "tag": "DIV",
+      "className": "icon-plane-2 bounce-y",
+      "animationName": "bounce-y",
+      "animationDuration": "10s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "image-column col-lg-6 wow fadeInLeft animated",
+      "animationName": "fadeInLeft",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "inner-column wow fadeInLeft animated",
+      "animationName": "fadeInLeft",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "content-column col-lg-6 wow fadeInRight animated",
+      "animationName": "fadeInRight",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "counter-block col-lg-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "counter-block col-lg-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "counter-block col-lg-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "counter-block col-lg-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "inner-column wow fadeInLeft animated",
+      "animationName": "fadeInLeft",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "projects-carousel owl-carousel owl-theme default-dots owl-loaded owl-drag",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "shape-4 bounce-y",
+      "animationName": "bounce-y",
+      "animationDuration": "10s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "shape-31 bounce-y",
+      "animationName": "bounce-y",
+      "animationDuration": "10s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "faq-column col-lg-6 wow fadeInLeft animated",
+      "animationName": "fadeInLeft",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "FIGURE",
+      "className": "image reveal wow zoomInRight animated animated",
+      "animationName": "zoomInRight",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "feature-block col-xl-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "feature-block col-xl-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "feature-block col-xl-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "feature-block col-xl-3 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "inner-column wow fadeInRight animated",
+      "animationName": "fadeInRight",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "contact-form wow fadeInLeft animated",
+      "animationName": "fadeInLeft",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "shape-5 bounce-y",
+      "animationName": "bounce-y",
+      "animationDuration": "10s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "testimonial-carousel owl-carousel owl-theme default-dots owl-loaded owl-drag",
+      "animationName": "none",
+      "animationDuration": "0s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "news-block col-lg-4 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "news-block col-lg-4 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    },
+    {
+      "tag": "DIV",
+      "className": "news-block col-lg-4 col-sm-6 wow fadeInUp animated",
+      "animationName": "fadeInUp",
+      "animationDuration": "1s",
+      "transition": "all"
+    }
+  ],
+  "counts": {
+    "wow": 19,
+    "owl": 3,
+    "dropdowns": 21,
+    "accordions": 1,
+    "counters": 6
+  }
+}

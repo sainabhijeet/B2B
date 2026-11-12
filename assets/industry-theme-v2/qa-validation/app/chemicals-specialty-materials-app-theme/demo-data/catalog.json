@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000010",
+  "industry": "Chemicals & Specialty Materials",
+  "themeName": "Chemicals & Specialty Materials App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "ChemParcel",
+    "industry": "Chemicals & Specialty Materials",
+    "tagline": "Browse sodium carbonate sack, isopropyl cleaning solvent and a dedicated chemicals & specialty materials mobile assortment.",
+    "email": "hello@chemparcel.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "ChemParcel quantity rewards",
+      "description": "Compare the sample bulk tiers in ChemParcel's chemicals & specialty materials range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "ChemParcel sample buyer story",
+      "quote": "Our demo chemicals & specialty materials buying team can compare sodium carbonate sack and silicone processing additive in one restock list.",
+      "author": "Fictional ChemParcel buyer — demo feedback",
+      "designId": "ds-16-app",
+      "layoutMode": "Materials technical library / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "chemicals-specialty-materials-app-theme-category-1",
+      "slug": "industrial-chemicals",
+      "name": "ChemParcel Industrial Chemicals",
+      "description": "Pick industrial chemicals for your chemicals & specialty materials replenishment list with ChemParcel.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-category-2",
+      "slug": "solvents",
+      "name": "ChemParcel Solvents",
+      "description": "Pick solvents for your chemicals & specialty materials replenishment list with ChemParcel.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-category-3",
+      "slug": "specialty-additives",
+      "name": "ChemParcel Specialty Additives",
+      "description": "Pick specialty additives for your chemicals & specialty materials replenishment list with ChemParcel.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-category-4",
+      "slug": "cleaning-chemicals",
+      "name": "ChemParcel Cleaning Chemicals",
+      "description": "Pick cleaning chemicals for your chemicals & specialty materials replenishment list with ChemParcel.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-1",
+      "slug": "chemparcel-sodium-carbonate-sack",
+      "sku": "APP-16-1",
+      "name": "ChemParcel Sodium Carbonate Sack",
+      "description": "Sodium Carbonate Sack for your chemicals & specialty materials replenishment list. ChemParcel groups this item with industrial chemicals so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "industrial-chemicals",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-1",
+      "categoryName": "ChemParcel Industrial Chemicals",
+      "brand": "ChemParcel",
+      "price": 2016,
+      "currency": "INR",
+      "priceLabel": "INR 2,016",
+      "image": "assets/images/product-01.jpg",
+      "stock": 86,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 2379,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 2016
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 1915
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 1814
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Sodium Carbonate Sack",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-2",
+      "slug": "chemparcel-isopropyl-cleaning-solvent",
+      "sku": "APP-16-2",
+      "name": "ChemParcel Isopropyl Cleaning Solvent",
+      "description": "Isopropyl Cleaning Solvent for your chemicals & specialty materials replenishment list. ChemParcel groups this item with solvents so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "solvents",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-2",
+      "categoryName": "ChemParcel Solvents",
+      "brand": "ChemParcel",
+      "price": 2072,
+      "currency": "INR",
+      "priceLabel": "INR 2,072",
+      "image": "assets/images/product-02.jpg",
+      "stock": 97,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 2445,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 2072
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 1968
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1865
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Isopropyl Cleaning Solvent",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-3",
+      "slug": "chemparcel-silicone-processing-additive",
+      "sku": "APP-16-3",
+      "name": "ChemParcel Silicone Processing Additive",
+      "description": "Silicone Processing Additive for your chemicals & specialty materials replenishment list. ChemParcel groups this item with specialty additives so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "specialty-additives",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-3",
+      "categoryName": "ChemParcel Specialty Additives",
+      "brand": "ChemParcel",
+      "price": 6045,
+      "currency": "INR",
+      "priceLabel": "INR 6,045",
+      "image": "assets/images/product-03.jpg",
+      "stock": 108,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 7133,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 6045
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 5743
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 5441
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Silicone Processing Additive",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-4",
+      "slug": "chemparcel-neutral-surface-cleaner",
+      "sku": "APP-16-4",
+      "name": "ChemParcel Neutral Surface Cleaner",
+      "description": "Neutral Surface Cleaner for your chemicals & specialty materials replenishment list. ChemParcel groups this item with cleaning chemicals so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "cleaning-chemicals",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-4",
+      "categoryName": "ChemParcel Cleaning Chemicals",
+      "brand": "ChemParcel",
+      "price": 1026,
+      "currency": "INR",
+      "priceLabel": "INR 1,026",
+      "image": "assets/images/product-04.jpg",
+      "stock": 119,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1211,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1026
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 975
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 923
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Neutral Surface Cleaner",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-5",
+      "slug": "chemparcel-calcium-carbonate-powder",
+      "sku": "APP-16-5",
+      "name": "ChemParcel Calcium Carbonate Powder",
+      "description": "Calcium Carbonate Powder for your chemicals & specialty materials replenishment list. ChemParcel groups this item with industrial chemicals so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "industrial-chemicals",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-1",
+      "categoryName": "ChemParcel Industrial Chemicals",
+      "brand": "ChemParcel",
+      "price": 1368,
+      "currency": "INR",
+      "priceLabel": "INR 1,368",
+      "image": "assets/images/product-05.jpg",
+      "stock": 130,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1614,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1368
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1300
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1231
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Calcium Carbonate Powder",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "chemicals-specialty-materials-app-theme-product-6",
+      "slug": "chemparcel-ethyl-acetate-drum",
+      "sku": "APP-16-6",
+      "name": "ChemParcel Ethyl Acetate Drum",
+      "description": "Ethyl Acetate Drum for your chemicals & specialty materials replenishment list. ChemParcel groups this item with solvents so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "solvents",
+      "categoryId": "chemicals-specialty-materials-app-theme-category-2",
+      "categoryName": "ChemParcel Solvents",
+      "brand": "ChemParcel",
+      "price": 5664,
+      "currency": "INR",
+      "priceLabel": "INR 5,664",
+      "image": "assets/images/product-06.jpg",
+      "stock": 141,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 6684,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 5664
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 5381
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 5098
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ChemParcel Ethyl Acetate Drum",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-16-app",
+    "direction": "Materials technical library / pocket workflow",
+    "header": "compact-stack",
+    "headerIdentity": "header-16-app",
+    "headerStructure": "shell-4-composition-3",
+    "hero": "stacked-center",
+    "categories": "numbered-list",
+    "productCards": "bulk-table",
+    "productListing": "catalog-matrix",
+    "productDetail": "full-gallery",
+    "footer": "trade-directory",
+    "footerIdentity": "footer-16-app",
+    "footerStructure": "shell-2-composition-3",
+    "density": "compact",
+    "responsiveStrategy": "visual"
+  }
+}

@@ -367,11 +367,24 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
             widget.product;
     final AsyncValue<Product> productDetail =
         ref.watch(productDetailProvider(widget.product));
+    final bool isDemoCatalog =
+        ref.watch(storefrontAppConfigProvider).valueOrNull?.isDemoCatalog ==
+            true;
     final cartItems = ref.watch(cartProvider).valueOrNull ?? const <CartItem>[];
     final bool isInCart = cartItems.any(
       (CartItem item) => item.productId == product.id,
     );
     final ColorScheme cs = Theme.of(context).colorScheme;
+    final ProductVariant? activeVariant = _selectedVariant;
+    final String unit = _normalizedUnit(
+      _clean(activeVariant?.unit).isNotEmpty
+          ? activeVariant!.unit!
+          : product.unit,
+    );
+    final String pluralUnit = _pluralUnit(unit);
+    final String packSize = _clean(activeVariant?.packSize).isNotEmpty
+        ? activeVariant!.packSize!.trim()
+        : _clean(product.packSize);
     final double? activePrice = product.unitPriceForQuantity(
       _quantity,
       variantId: _effectiveVariantId,
@@ -379,6 +392,8 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
     final String price = activePrice != null
         ? localization.formatCurrency(activePrice)
         : t('Price on request');
+    final String displayedPrice =
+        activePrice != null ? '$price ${t('per')} ${t(unit)}' : price;
     final int? stock = _effectiveStock;
     final bool unavailable = stock != null && stock < _effectiveMoq;
     final List<StockAlertSubscription> stockAlerts =
@@ -452,7 +467,7 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
           ),
           const SizedBox(height: 8),
           Text(
-            price,
+            displayedPrice,
             style: Theme.of(context).textTheme.titleLarge?.copyWith(
                   color: cs.primary,
                   fontWeight: FontWeight.w900,
@@ -535,7 +550,7 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
               quantity: _quantity,
               formatCurrency: localization.formatCurrency,
               title: t('Tier pricing'),
-              unitsLabel: t('units'),
+              unitsLabel: t(pluralUnit),
             ),
           ],
           const SizedBox(height: 18),
@@ -548,10 +563,8 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
                 _DetailRow(t('Brand'), product.brand!),
               if (_clean(product.sku).isNotEmpty)
                 _DetailRow(t('SKU'), product.sku!),
-              if (_clean(product.packSize).isNotEmpty)
-                _DetailRow(t('Pack size'), product.packSize!),
-              if (_clean(product.unit).isNotEmpty)
-                _DetailRow(t('Unit'), product.unit!),
+              if (packSize.isNotEmpty) _DetailRow(t('Pack size'), packSize),
+              _DetailRow(t('Unit'), unit),
               _DetailRow(
                 t('Availability'),
                 stock == null ? t('Available') : '$stock ${t('available')}',
@@ -569,7 +582,21 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
                   ),
           ),
           const SizedBox(height: 22),
-          if (!unavailable)
+          if (isDemoCatalog)
+            Card(
+              color: cs.tertiaryContainer,
+              child: Padding(
+                padding: const EdgeInsets.all(14),
+                child: Text(
+                  t('This sample product is for catalog preview only and cannot be ordered.'),
+                  style: TextStyle(
+                    color: cs.onTertiaryContainer,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+            )
+          else if (!unavailable)
             Row(
               children: <Widget>[
                 Expanded(
@@ -620,17 +647,33 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
               ],
             ),
           const SizedBox(height: 10),
-          OutlinedButton.icon(
-            onPressed: _isAdding || _isBuying ? null : _requestQuote,
-            icon: const Icon(Icons.request_quote_outlined),
-            label: Text(t('Request for quote')),
-          ),
+          if (!isDemoCatalog)
+            OutlinedButton.icon(
+              onPressed: _isAdding || _isBuying ? null : _requestQuote,
+              icon: const Icon(Icons.request_quote_outlined),
+              label: Text(t('Request for quote')),
+            ),
         ],
       ),
     );
   }
 
   static String _clean(String? value) => value?.trim() ?? '';
+
+  static String _normalizedUnit(String? value) {
+    final String unit = _clean(value).toLowerCase();
+    return unit.isEmpty ? 'piece' : unit;
+  }
+
+  static String _pluralUnit(String unit) {
+    if (<String>{'kg', 'g', 'mg', 'l', 'ml'}.contains(unit)) return unit;
+    if (unit.endsWith('s')) return unit;
+    if (RegExp(r'(s|x|z|ch|sh)$').hasMatch(unit)) return '${unit}es';
+    if (RegExp(r'[^aeiou]y$').hasMatch(unit)) {
+      return '${unit.substring(0, unit.length - 1)}ies';
+    }
+    return '${unit}s';
+  }
 }
 
 class _VariantSelector extends StatelessWidget {
@@ -789,7 +832,7 @@ class _SlabPricingCard extends StatelessWidget {
                       const SizedBox(width: 21),
                     Expanded(
                       child: Text(
-                        slab.label ?? '${slab.minQty}+ $unitsLabel',
+                        '${slab.minQty}+ $unitsLabel',
                         style: TextStyle(
                           color: quantity >= slab.minQty
                               ? activeColor

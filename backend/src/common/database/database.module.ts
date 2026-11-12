@@ -19,7 +19,9 @@ import { APP_ENTITIES } from '../entities';
           : false,
         entities: APP_ENTITIES,
         synchronize: false,
-        logging: config.get<string>('env') !== 'production',
+        // SQL query logging is extremely noisy and adds synchronous console I/O
+        // to every storefront request. Keep it opt-in for local diagnostics.
+        logging: config.get<boolean>('database.logging', false),
         extra: {
           connectionTimeoutMillis: config.get<number>('database.connectTimeoutMs', 10_000),
           max: config.get<number>('database.poolMax', 20),

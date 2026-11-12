@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000005",
+  "industry": "Machinery",
+  "themeName": "Machinery App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "MachineBasket",
+    "industry": "Machinery",
+    "tagline": "Browse desktop cnc router, automatic carton taper and a dedicated machinery mobile assortment.",
+    "email": "hello@machinebasket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "MachineBasket quantity rewards",
+      "description": "Compare the sample bulk tiers in MachineBasket's machinery range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "MachineBasket sample buyer story",
+      "quote": "Our demo machinery buying team can compare desktop cnc router and flexible shaft coupling in one restock list.",
+      "author": "Fictional MachineBasket buyer — demo feedback",
+      "designId": "ds-05-app",
+      "layoutMode": "Machine specification desk / pocket workflow",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "machinery-app-theme-category-1",
+      "slug": "cnc-machines",
+      "name": "MachineBasket CNC Machines",
+      "description": "Pick cnc machines for your machinery replenishment list with MachineBasket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "machinery-app-theme-category-2",
+      "slug": "packaging-machines",
+      "name": "MachineBasket Packaging Machines",
+      "description": "Pick packaging machines for your machinery replenishment list with MachineBasket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "machinery-app-theme-category-3",
+      "slug": "machine-components",
+      "name": "MachineBasket Machine Components",
+      "description": "Pick machine components for your machinery replenishment list with MachineBasket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "machinery-app-theme-category-4",
+      "slug": "maintenance-tools",
+      "name": "MachineBasket Maintenance Tools",
+      "description": "Pick maintenance tools for your machinery replenishment list with MachineBasket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "machinery-app-theme-product-1",
+      "slug": "machinebasket-desktop-cnc-router",
+      "sku": "APP-05-1",
+      "name": "MachineBasket Desktop CNC Router",
+      "description": "Desktop CNC Router for your machinery replenishment list. MachineBasket groups this item with cnc machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "cnc-machines",
+      "categoryId": "machinery-app-theme-category-1",
+      "categoryName": "MachineBasket CNC Machines",
+      "brand": "MachineBasket",
+      "price": 378000,
+      "currency": "INR",
+      "priceLabel": "INR 3,78,000",
+      "image": "assets/images/product-01.jpg",
+      "stock": 53,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 446040,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 378000
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 359100
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 340200
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket Desktop CNC Router",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "machinery-app-theme-product-2",
+      "slug": "machinebasket-automatic-carton-taper",
+      "sku": "APP-05-2",
+      "name": "MachineBasket Automatic Carton Taper",
+      "description": "Automatic Carton Taper for your machinery replenishment list. MachineBasket groups this item with packaging machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "packaging-machines",
+      "categoryId": "machinery-app-theme-category-2",
+      "categoryName": "MachineBasket Packaging Machines",
+      "brand": "MachineBasket",
+      "price": 31920,
+      "currency": "INR",
+      "priceLabel": "INR 31,920",
+      "image": "assets/images/product-02.jpg",
+      "stock": 64,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 37666,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 31920
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 30324
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 28728
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket Automatic Carton Taper",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "machinery-app-theme-product-3",
+      "slug": "machinebasket-flexible-shaft-coupling",
+      "sku": "APP-05-3",
+      "name": "MachineBasket Flexible Shaft Coupling",
+      "description": "Flexible Shaft Coupling for your machinery replenishment list. MachineBasket groups this item with machine components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "machine-components",
+      "categoryId": "machinery-app-theme-category-3",
+      "categoryName": "MachineBasket Machine Components",
+      "brand": "MachineBasket",
+      "price": 11625,
+      "currency": "INR",
+      "priceLabel": "INR 11,625",
+      "image": "assets/images/product-03.jpg",
+      "stock": 75,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 13718,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 11625
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 11044
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 10463
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket Flexible Shaft Coupling",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "machinery-app-theme-product-4",
+      "slug": "machinebasket-tool-setter-probe",
+      "sku": "APP-05-4",
+      "name": "MachineBasket Tool Setter Probe",
+      "description": "Tool Setter Probe for your machinery replenishment list. MachineBasket groups this item with maintenance tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "maintenance-tools",
+      "categoryId": "machinery-app-theme-category-4",
+      "categoryName": "MachineBasket Maintenance Tools",
+      "brand": "MachineBasket",
+      "price": 36720,
+      "currency": "INR",
+      "priceLabel": "INR 36,720",
+      "image": "assets/images/product-04.jpg",
+      "stock": 86,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 43330,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 36720
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 34884
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 33048
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket Tool Setter Probe",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "machinery-app-theme-product-5",
+      "slug": "machinebasket-cnc-engraving-machine",
+      "sku": "APP-05-5",
+      "name": "MachineBasket CNC Engraving Machine",
+      "description": "CNC Engraving Machine for your machinery replenishment list. MachineBasket groups this item with cnc machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "cnc-machines",
+      "categoryId": "machinery-app-theme-category-1",
+      "categoryName": "MachineBasket CNC Machines",
+      "brand": "MachineBasket",
+      "price": 6764,
+      "currency": "INR",
+      "priceLabel": "INR 6,764",
+      "image": "assets/images/product-05.jpg",
+      "stock": 97,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 7982,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 6764
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 6426
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 6088
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket CNC Engraving Machine",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "machinery-app-theme-product-6",
+      "slug": "machinebasket-pneumatic-bag-closer",
+      "sku": "APP-05-6",
+      "name": "MachineBasket Pneumatic Bag Closer",
+      "description": "Pneumatic Bag Closer for your machinery replenishment list. MachineBasket groups this item with packaging machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "packaging-machines",
+      "categoryId": "machinery-app-theme-category-2",
+      "categoryName": "MachineBasket Packaging Machines",
+      "brand": "MachineBasket",
+      "price": 5664,
+      "currency": "INR",
+      "priceLabel": "INR 5,664",
+      "image": "assets/images/product-06.jpg",
+      "stock": 108,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 6684,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 5664
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 5381
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 5098
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: MachineBasket Pneumatic Bag Closer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-05-app",
+    "direction": "Machine specification desk / pocket workflow",
+    "header": "editorial",
+    "headerIdentity": "header-05-app",
+    "headerStructure": "shell-5-composition-1",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "sidebar-grid",
+    "productDetail": "technical-tabs",
+    "footer": "service-desk",
+    "footerIdentity": "footer-05-app",
+    "footerStructure": "shell-5-composition-1",
+    "density": "balanced",
+    "responsiveStrategy": "quick_reorder"
+  }
+}

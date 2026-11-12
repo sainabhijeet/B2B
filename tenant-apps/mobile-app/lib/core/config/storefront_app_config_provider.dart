@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../api/api_client.dart';
 import '../api/nest_json.dart';
+import 'build_config.dart';
 import '../localization/language_contract.dart';
 import 'storefront_app_config.dart';
 
@@ -42,8 +43,11 @@ Future<Response<Map<String, dynamic>>> _loadAppConfigWithFallback(
   Dio dio,
 ) async {
   try {
-    final response =
-        await dio.get<Map<String, dynamic>>('/storefront/app-config');
+    final response = await dio.get<Map<String, dynamic>>(
+      '/storefront/app-config',
+      queryParameters:
+          BuildConfig.isThemePreview ? const <String, dynamic>{'preview': '1'} : null,
+    );
     return response;
   } on DioException catch (error) {
     if (!_canTryLocalhostBridge(error)) rethrow;
@@ -52,6 +56,9 @@ Future<Response<Map<String, dynamic>>> _loadAppConfigWithFallback(
       try {
         final response = await fallbackDio.get<Map<String, dynamic>>(
           '/storefront/app-config',
+          queryParameters: BuildConfig.isThemePreview
+              ? const <String, dynamic>{'preview': '1'}
+              : null,
         );
         _rememberWorkingBase(ref, baseUrl);
         return response;

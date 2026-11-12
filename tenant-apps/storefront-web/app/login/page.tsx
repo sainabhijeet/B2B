@@ -5,35 +5,19 @@ import {
   resolveStorefrontTheme,
   storefrontDisplayName,
 } from "@/lib/resolve-storefront-theme";
+import { safeCustomerNextPath } from "@/lib/customer-login-redirect";
 
 export const metadata: Metadata = {
   title: "Sign in",
   description: "Sign in with your mobile number and OTP.",
 };
 
-type SearchParams = Promise<{ next?: string | string[] }>;
+type Search = Promise<Record<string, string | string[] | undefined>>;
 
-function safeNextPath(value: string | string[] | undefined): string {
-  const candidate = (Array.isArray(value) ? value[0] : value)?.trim() ?? "";
-  if (
-    !candidate.startsWith("/") ||
-    candidate.startsWith("//") ||
-    candidate.startsWith("/login")
-  ) {
-    return "/orders";
-  }
-  return candidate;
-}
-
-export default async function StorefrontLoginPage({
-  searchParams,
-}: {
-  searchParams: SearchParams;
-}) {
-  const [resolved, query] = await Promise.all([
-    resolveStorefrontTheme(),
-    searchParams,
-  ]);
+export default async function StorefrontLoginPage({ searchParams }: { searchParams: Search }) {
+  const params = await searchParams;
+  const rawNext = Array.isArray(params.next) ? params.next[0] : params.next;
+  const resolved = await resolveStorefrontTheme();
   const branding = resolved.branding;
   const languageCode = resolved.selectedLanguageCode;
 
@@ -44,7 +28,7 @@ export default async function StorefrontLoginPage({
     >
       <StorefrontLoginForm
         languageCode={languageCode}
-        nextPath={safeNextPath(query.next)}
+        nextPath={safeCustomerNextPath(rawNext, "/orders")}
         storeName={storefrontDisplayName(resolved)}
         logoImageUrl={branding?.logoUrl || branding?.logoDataUrl || undefined}
         tagline={branding?.tagline || undefined}

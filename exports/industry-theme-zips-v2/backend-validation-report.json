@@ -1,0 +1,854 @@
+{
+  "valid": true,
+  "checked": 94,
+  "uniqueDesigns": 94,
+  "uniqueStructuralSignatures": 94,
+  "results": [
+    {
+      "file": "web/agriculture-seeds-agri-inputs-web-theme.zip",
+      "designId": "ds-13-web",
+      "direction": "Seasonal field trade desk",
+      "signature": "header:trade-desk|hero-banner:hero-split-right|category-grid:categories-horizontal-rail|feature-list:feature-list-balanced|product-grid:products-bulk-table|promo-banner:promo-banner-balanced|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|newsletter:newsletter-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/automotive-spare-parts-web-theme.zip",
+      "designId": "ds-08-web",
+      "direction": "Workshop parts counter",
+      "signature": "header:trade-desk|category-grid:categories-round-icons|product-grid:products-quick-add|hero-banner:hero-catalog-panel|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/aviation-mro-consumables-web-theme.zip",
+      "designId": "ds-39-web",
+      "direction": "Aviation MRO checklist",
+      "signature": "header:split-utility|hero-banner:hero-spec-board|image-with-text:image-with-text-airy|category-grid:categories-horizontal-rail|testimonial-carousel:testimonial-carousel-airy|product-grid:products-minimal|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/batteries-power-systems-web-theme.zip",
+      "designId": "ds-36-web",
+      "direction": "Power continuity dashboard",
+      "signature": "header:centered-nav|product-grid:products-image-first|hero-banner:hero-mosaic|category-grid:categories-sidebar-index|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/beauty-personal-care-web-theme.zip",
+      "designId": "ds-12-web",
+      "direction": "Beauty routine studio",
+      "signature": "header:centered-nav|product-grid:products-image-first|hero-banner:hero-mosaic|category-grid:categories-sidebar-index|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/chemicals-specialty-materials-web-theme.zip",
+      "designId": "ds-16-web",
+      "direction": "Materials technical library",
+      "signature": "header:trade-desk|category-grid:categories-round-icons|hero-banner:hero-catalog-panel|promo-banner:promo-banner-compact|product-grid:products-quick-add|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/construction-building-materials-web-theme.zip",
+      "designId": "ds-14-web",
+      "direction": "Construction project yard",
+      "signature": "header:compact-stack|promo-banner:promo-banner-balanced|hero-banner:hero-full-bleed|product-grid:products-horizontal|category-grid:categories-masonry|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/consumer-appliances-home-tech-web-theme.zip",
+      "designId": "ds-31-web",
+      "direction": "Home technology showroom",
+      "signature": "header:split-utility|hero-banner:hero-spec-board|product-grid:products-minimal|feature-list:feature-list-compact|category-grid:categories-horizontal-rail|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/defence-aerospace-industrial-supply-web-theme.zip",
+      "designId": "ds-41-web",
+      "direction": "Aerospace precision dossier",
+      "signature": "header:search-led|hero-banner:hero-split-right|feature-list:feature-list-balanced|product-grid:products-marketplace|image-with-text:image-with-text-balanced|category-grid:categories-image-tiles|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/electrical-lighting-web-theme.zip",
+      "designId": "ds-23-web",
+      "direction": "Electrical circuit index",
+      "signature": "header:split-utility|hero-banner:hero-spec-board|category-grid:categories-horizontal-rail|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-minimal|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/electronics-web-theme.zip",
+      "designId": "ds-01-web",
+      "direction": "Circuit editorial showroom",
+      "signature": "header:search-led|hero-banner:hero-split-right|category-grid:categories-image-tiles|product-grid:products-marketplace|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/fmcg-packaged-foods-web-theme.zip",
+      "designId": "ds-09-web",
+      "direction": "Full-bleed grocery command market",
+      "signature": "header:pantry-route-command|hero-banner:pantry-full-bleed|testimonial-carousel:pantry-buyer-note|category-grid:pantry-aisles|image-with-text:pantry-assortment|product-grid:pantry-catalog|feature-list:pantry-buyer-tools|newsletter:pantry-reorder-club|promo-banner:pantry-promo|footer:pantry-depot",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/food-processing-packaging-machinery-web-theme.zip",
+      "designId": "ds-33-web",
+      "direction": "Processing line planner",
+      "signature": "header:search-led|hero-banner:hero-split-right|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-image-tiles|image-with-text:image-with-text-airy|product-grid:products-marketplace|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/footwear-web-theme.zip",
+      "designId": "ds-02-web",
+      "direction": "Footwear wholesale lookbook",
+      "signature": "header:catalog-rail|hero-banner:hero-asymmetric|category-grid:categories-image-tiles|product-grid:products-image-first|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|newsletter:newsletter-balanced|promo-banner:promo-banner-balanced|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/furniture-wood-products-web-theme.zip",
+      "designId": "ds-20-web",
+      "direction": "Furniture room planner",
+      "signature": "header:centered-nav|category-grid:categories-sidebar-index|product-grid:products-image-first|hero-banner:hero-mosaic|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/general-commerce-web-theme.zip",
+      "designId": "ds-07-web",
+      "direction": "Merchant marketplace",
+      "signature": "header:split-utility|hero-banner:hero-spec-board|product-grid:products-minimal|feature-list:feature-list-compact|category-grid:categories-horizontal-rail|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/home-decor-furnishings-web-theme.zip",
+      "designId": "ds-21-web",
+      "direction": "Interior moodboard",
+      "signature": "header:minimal-mark|hero-banner:hero-stacked-center|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-numbered-list|image-with-text:image-with-text-airy|product-grid:products-bulk-table|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/hospitality-restaurant-supplies-web-theme.zip",
+      "designId": "ds-46-web",
+      "direction": "Hospitality service book",
+      "signature": "header:compact-stack|promo-banner:promo-banner-compact|hero-banner:hero-full-bleed|image-with-text:image-with-text-compact|product-grid:products-horizontal|category-grid:categories-masonry|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/hvac-refrigeration-web-theme.zip",
+      "designId": "ds-24-web",
+      "direction": "Climate systems console",
+      "signature": "header:trade-desk|product-grid:products-quick-add|hero-banner:hero-catalog-panel|category-grid:categories-round-icons|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/industrial-equipment-web-theme.zip",
+      "designId": "ds-04-web",
+      "direction": "Industrial procurement control room",
+      "signature": "header:plant-ops|hero-banner:hero-control-deck|category-grid:categories-operating-zones|promo-banner:promo-banner-compact|product-grid:products-spec-card|feature-list:feature-list-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/industrial-safety-ppe-web-theme.zip",
+      "designId": "ds-27-web",
+      "direction": "Safety compliance station",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|image-with-text:image-with-text-airy|category-grid:categories-split-cards|testimonial-carousel:testimonial-carousel-airy|product-grid:products-editorial|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/it-hardware-networking-distribution-web-theme.zip",
+      "designId": "ds-30-web",
+      "direction": "Network rack configurator",
+      "signature": "header:compact-stack|promo-banner:promo-banner-airy|category-grid:categories-masonry|hero-banner:hero-full-bleed|product-grid:products-horizontal|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/jewelry-diamond-web-theme.zip",
+      "designId": "ds-06-web-aurelia-elan",
+      "direction": "Complete luxury jewellery editorial",
+      "signature": "header:editorial-jowenly|hero-banner:hero-jowenly-campaign|category-grid:categories-editorial-three|product-carousel:products-new-arrival-carousel|image-with-text:image-with-text-deal-day|testimonial-carousel:testimonial-editorial-portrait|blog-preview:blog-editorial-cards|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/kitchenware-cookware-web-theme.zip",
+      "designId": "ds-22-web",
+      "direction": "Kitchen demonstration counter",
+      "signature": "header:compact-stack|promo-banner:promo-banner-compact|hero-banner:hero-full-bleed|image-with-text:image-with-text-compact|product-grid:products-horizontal|category-grid:categories-masonry|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/laboratory-scientific-equipment-web-theme.zip",
+      "designId": "ds-42-web",
+      "direction": "Scientific bench catalogue",
+      "signature": "header:catalog-rail|promo-banner:promo-banner-airy|category-grid:categories-compact-chips|hero-banner:hero-asymmetric|product-grid:products-spec-card|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/logistics-warehousing-3pl-web-theme.zip",
+      "designId": "ds-28-web",
+      "direction": "Warehouse dispatch board",
+      "signature": "header:centered-nav|category-grid:categories-sidebar-index|hero-banner:hero-mosaic|promo-banner:promo-banner-compact|product-grid:products-image-first|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/machinery-web-theme.zip",
+      "designId": "ds-05-web",
+      "direction": "Machine specification desk",
+      "signature": "header:minimal-mark|hero-banner:hero-stacked-center|feature-list:feature-list-balanced|product-grid:products-bulk-table|image-with-text:image-with-text-balanced|category-grid:categories-numbered-list|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/marine-port-supplies-web-theme.zip",
+      "designId": "ds-38-web",
+      "direction": "Port stores manifest",
+      "signature": "header:compact-stack|promo-banner:promo-banner-balanced|hero-banner:hero-full-bleed|product-grid:products-horizontal|category-grid:categories-masonry|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/medical-devices-diagnostics-web-theme.zip",
+      "designId": "ds-11-web",
+      "direction": "Diagnostics equipment lab",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|category-grid:categories-split-cards|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-editorial|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/metals-steel-non-ferrous-trade-web-theme.zip",
+      "designId": "ds-47-web",
+      "direction": "Metals trading terminal",
+      "signature": "header:split-utility|hero-banner:hero-spec-board|category-grid:categories-horizontal-rail|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-minimal|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/office-supplies-b2b-stationery-web-theme.zip",
+      "designId": "ds-29-web",
+      "direction": "Office replenishment desk",
+      "signature": "header:minimal-mark|hero-banner:hero-stacked-center|feature-list:feature-list-balanced|product-grid:products-bulk-table|image-with-text:image-with-text-balanced|category-grid:categories-numbered-list|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/oil-lubricants-industrial-fluids-web-theme.zip",
+      "designId": "ds-37-web",
+      "direction": "Fluid application guide",
+      "signature": "header:minimal-mark|hero-banner:hero-stacked-center|category-grid:categories-numbered-list|product-grid:products-bulk-table|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/paints-coatings-adhesives-web-theme.zip",
+      "designId": "ds-15-web",
+      "direction": "Colour specification deck",
+      "signature": "header:chroma-spec-deck|hero-banner:hero-spec-board|image-with-text:image-with-text-airy|category-grid:categories-horizontal-rail|testimonial-carousel:testimonial-carousel-airy|product-grid:products-minimal|feature-list:feature-list-airy|promo-banner:promo-banner-airy|faq-section:faq-coating-lab|newsletter:newsletter-airy|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/paper-packaging-web-theme.zip",
+      "designId": "ds-18-web",
+      "direction": "Packaging dieline studio",
+      "signature": "header:catalog-rail|promo-banner:promo-banner-airy|category-grid:categories-compact-chips|hero-banner:hero-asymmetric|product-grid:products-spec-card|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/pet-care-veterinary-distribution-web-theme.zip",
+      "designId": "ds-43-web",
+      "direction": "Veterinary care shelf",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|product-grid:products-editorial|feature-list:feature-list-compact|category-grid:categories-split-cards|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/pharmaceuticals-healthcare-web-theme.zip",
+      "designId": "ds-10-web",
+      "direction": "Clinical formulary",
+      "signature": "header:catalog-rail|promo-banner:promo-banner-compact|hero-banner:hero-asymmetric|image-with-text:image-with-text-compact|product-grid:products-spec-card|category-grid:categories-compact-chips|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/plastic-moulding-dies-web-theme.zip",
+      "designId": "ds-34-web",
+      "direction": "Tooling blueprint archive",
+      "signature": "header:catalog-rail|promo-banner:promo-banner-compact|hero-banner:hero-asymmetric|image-with-text:image-with-text-compact|product-grid:products-spec-card|category-grid:categories-compact-chips|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/plastics-polymers-web-theme.zip",
+      "designId": "ds-17-web",
+      "direction": "Polymer resin exchange",
+      "signature": "header:search-led|hero-banner:hero-split-right|feature-list:feature-list-balanced|product-grid:products-marketplace|image-with-text:image-with-text-balanced|category-grid:categories-image-tiles|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/printing-stationery-web-theme.zip",
+      "designId": "ds-19-web",
+      "direction": "Print room catalogue",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|product-grid:products-editorial|feature-list:feature-list-compact|category-grid:categories-split-cards|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/pumps-valves-pipe-fittings-web-theme.zip",
+      "designId": "ds-25-web",
+      "direction": "Flow engineering matrix",
+      "signature": "header:search-led|hero-banner:hero-split-right|category-grid:categories-image-tiles|product-grid:products-marketplace|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/railway-industrial-oem-supplies-web-theme.zip",
+      "designId": "ds-40-web",
+      "direction": "Rail component timetable",
+      "signature": "header:trade-desk|category-grid:categories-round-icons|hero-banner:hero-catalog-panel|promo-banner:promo-banner-compact|product-grid:products-quick-add|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/renewable-energy-solar-web-theme.zip",
+      "designId": "ds-35-web",
+      "direction": "Solar project estimator",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|category-grid:categories-split-cards|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-editorial|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/sports-fitness-equipment-web-theme.zip",
+      "designId": "ds-45-web",
+      "direction": "Performance training club",
+      "signature": "header:minimal-mark|hero-banner:hero-stacked-center|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-numbered-list|image-with-text:image-with-text-airy|product-grid:products-bulk-table|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/textile-machinery-mill-supplies-web-theme.zip",
+      "designId": "ds-32-web",
+      "direction": "Mill maintenance logbook",
+      "signature": "header:trade-desk|category-grid:categories-round-icons|product-grid:products-quick-add|hero-banner:hero-catalog-panel|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/textile-web-theme.zip",
+      "designId": "ds-03-web",
+      "direction": "Textile swatch journal",
+      "signature": "header:editorial|hero-banner:hero-editorial-left|image-with-text:image-with-text-airy|category-grid:categories-split-cards|testimonial-carousel:testimonial-carousel-airy|product-grid:products-editorial|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/tools-hardware-web-theme.zip",
+      "designId": "ds-26-web",
+      "direction": "Hardware pegboard",
+      "signature": "header:catalog-rail|promo-banner:promo-banner-balanced|hero-banner:hero-asymmetric|product-grid:products-spec-card|category-grid:categories-compact-chips|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "web/toys-general-merchandise-web-theme.zip",
+      "designId": "ds-44-web",
+      "direction": "Playful merchandise bazaar",
+      "signature": "header:centered-nav|category-grid:categories-sidebar-index|product-grid:products-image-first|hero-banner:hero-mosaic|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/agriculture-seeds-agri-inputs-app-theme.zip",
+      "designId": "ds-13-app",
+      "direction": "Seasonal field ledger / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|category-grid:categories-compact-chips|product-grid:products-spec-card|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/automotive-spare-parts-app-theme.zip",
+      "designId": "ds-08-app",
+      "direction": "Workshop parts counter / pocket workflow",
+      "signature": "header:compact-stack|category-grid:categories-numbered-list|product-grid:products-bulk-table|hero-banner:hero-stacked-center|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/aviation-mro-consumables-app-theme.zip",
+      "designId": "ds-39-app",
+      "direction": "Aviation MRO checklist / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|image-with-text:image-with-text-airy|category-grid:categories-sidebar-index|testimonial-carousel:testimonial-carousel-airy|product-grid:products-image-first|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/batteries-power-systems-app-theme.zip",
+      "designId": "ds-36-app",
+      "direction": "Power continuity dashboard / pocket workflow",
+      "signature": "header:catalog-rail|product-grid:products-marketplace|hero-banner:hero-split-right|category-grid:categories-image-tiles|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/beauty-personal-care-app-theme.zip",
+      "designId": "ds-12-app",
+      "direction": "Beauty routine studio / pocket workflow",
+      "signature": "header:catalog-rail|product-grid:products-marketplace|hero-banner:hero-split-right|category-grid:categories-image-tiles|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/chemicals-specialty-materials-app-theme.zip",
+      "designId": "ds-16-app",
+      "direction": "Materials technical library / pocket workflow",
+      "signature": "header:compact-stack|category-grid:categories-numbered-list|hero-banner:hero-stacked-center|promo-banner:promo-banner-compact|product-grid:products-bulk-table|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/construction-building-materials-app-theme.zip",
+      "designId": "ds-14-app",
+      "direction": "Construction project yard / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-balanced|hero-banner:hero-editorial-left|product-grid:products-editorial|category-grid:categories-split-cards|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/consumer-appliances-home-tech-app-theme.zip",
+      "designId": "ds-31-app",
+      "direction": "Home technology showroom / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|product-grid:products-image-first|feature-list:feature-list-compact|category-grid:categories-sidebar-index|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/defence-aerospace-industrial-supply-app-theme.zip",
+      "designId": "ds-41-app",
+      "direction": "Aerospace precision dossier / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|feature-list:feature-list-balanced|product-grid:products-horizontal|image-with-text:image-with-text-balanced|category-grid:categories-masonry|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/electrical-lighting-app-theme.zip",
+      "designId": "ds-23-app",
+      "direction": "Electrical circuit index / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|category-grid:categories-sidebar-index|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-image-first|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/electronics-app-theme.zip",
+      "designId": "ds-01-app",
+      "direction": "Circuit editorial showroom / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|category-grid:categories-masonry|product-grid:products-horizontal|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/fmcg-packaged-foods-app-theme.zip",
+      "designId": "ds-09-app",
+      "direction": "Fast-moving shelf planner / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-masonry|image-with-text:image-with-text-airy|product-grid:products-horizontal|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/food-processing-packaging-machinery-app-theme.zip",
+      "designId": "ds-33-app",
+      "direction": "Processing line planner / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-masonry|image-with-text:image-with-text-airy|product-grid:products-horizontal|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/footwear-app-theme.zip",
+      "designId": "ds-02-app",
+      "direction": "Footwear lookbook atelier / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-balanced|hero-banner:hero-spec-board|product-grid:products-minimal|category-grid:categories-horizontal-rail|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/furniture-wood-products-app-theme.zip",
+      "designId": "ds-20-app",
+      "direction": "Furniture room planner / pocket workflow",
+      "signature": "header:catalog-rail|category-grid:categories-image-tiles|product-grid:products-marketplace|hero-banner:hero-split-right|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/general-commerce-app-theme.zip",
+      "designId": "ds-07-app",
+      "direction": "Merchant marketplace / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|product-grid:products-image-first|feature-list:feature-list-compact|category-grid:categories-sidebar-index|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/home-decor-furnishings-app-theme.zip",
+      "designId": "ds-21-app",
+      "direction": "Interior moodboard / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-compact-chips|image-with-text:image-with-text-airy|product-grid:products-spec-card|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/hospitality-restaurant-supplies-app-theme.zip",
+      "designId": "ds-46-app",
+      "direction": "Hospitality service book / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-compact|hero-banner:hero-editorial-left|image-with-text:image-with-text-compact|product-grid:products-editorial|category-grid:categories-split-cards|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/hvac-refrigeration-app-theme.zip",
+      "designId": "ds-24-app",
+      "direction": "Climate systems console / pocket workflow",
+      "signature": "header:compact-stack|product-grid:products-bulk-table|hero-banner:hero-stacked-center|category-grid:categories-numbered-list|promo-banner:promo-banner-airy|image-with-text:image-with-text-airy|feature-list:feature-list-airy|newsletter:newsletter-airy|testimonial-carousel:testimonial-carousel-airy|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/industrial-equipment-app-theme.zip",
+      "designId": "ds-04-app",
+      "direction": "Factory control catalogue / pocket workflow",
+      "signature": "header:catalog-rail|category-grid:categories-image-tiles|hero-banner:hero-split-right|promo-banner:promo-banner-compact|product-grid:products-marketplace|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/industrial-safety-ppe-app-theme.zip",
+      "designId": "ds-27-app",
+      "direction": "Safety compliance station / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|image-with-text:image-with-text-airy|category-grid:categories-round-icons|testimonial-carousel:testimonial-carousel-airy|product-grid:products-quick-add|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/it-hardware-networking-distribution-app-theme.zip",
+      "designId": "ds-30-app",
+      "direction": "Network rack configurator / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-airy|category-grid:categories-split-cards|hero-banner:hero-editorial-left|product-grid:products-editorial|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/jewelry-diamond-app-theme.zip",
+      "designId": "ds-06-app",
+      "direction": "Jewellery gallery salon / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-airy|category-grid:categories-split-cards|hero-banner:hero-editorial-left|product-grid:products-editorial|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/kitchenware-cookware-app-theme.zip",
+      "designId": "ds-22-app",
+      "direction": "Kitchen demonstration counter / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-compact|hero-banner:hero-editorial-left|image-with-text:image-with-text-compact|product-grid:products-editorial|category-grid:categories-split-cards|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/laboratory-scientific-equipment-app-theme.zip",
+      "designId": "ds-42-app",
+      "direction": "Scientific bench catalogue / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-airy|category-grid:categories-horizontal-rail|hero-banner:hero-spec-board|product-grid:products-minimal|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/logistics-warehousing-3pl-app-theme.zip",
+      "designId": "ds-28-app",
+      "direction": "Warehouse dispatch board / pocket workflow",
+      "signature": "header:catalog-rail|category-grid:categories-image-tiles|hero-banner:hero-split-right|promo-banner:promo-banner-compact|product-grid:products-marketplace|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/machinery-app-theme.zip",
+      "designId": "ds-05-app",
+      "direction": "Machine specification desk / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|feature-list:feature-list-balanced|product-grid:products-spec-card|image-with-text:image-with-text-balanced|category-grid:categories-compact-chips|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/marine-port-supplies-app-theme.zip",
+      "designId": "ds-38-app",
+      "direction": "Port stores manifest / pocket workflow",
+      "signature": "header:centered-nav|promo-banner:promo-banner-balanced|hero-banner:hero-editorial-left|product-grid:products-editorial|category-grid:categories-split-cards|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/medical-devices-diagnostics-app-theme.zip",
+      "designId": "ds-11-app",
+      "direction": "Diagnostics equipment lab / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|category-grid:categories-round-icons|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-quick-add|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/metals-steel-non-ferrous-trade-app-theme.zip",
+      "designId": "ds-47-app",
+      "direction": "Metals trading terminal / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|category-grid:categories-sidebar-index|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-image-first|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/office-supplies-b2b-stationery-app-theme.zip",
+      "designId": "ds-29-app",
+      "direction": "Office replenishment desk / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|feature-list:feature-list-balanced|product-grid:products-spec-card|image-with-text:image-with-text-balanced|category-grid:categories-compact-chips|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/oil-lubricants-industrial-fluids-app-theme.zip",
+      "designId": "ds-37-app",
+      "direction": "Fluid application guide / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|category-grid:categories-compact-chips|product-grid:products-spec-card|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/paints-coatings-adhesives-app-theme.zip",
+      "designId": "ds-15-app",
+      "direction": "Coatings sample wall / pocket workflow",
+      "signature": "header:minimal-mark|hero-banner:hero-mosaic|image-with-text:image-with-text-airy|category-grid:categories-sidebar-index|testimonial-carousel:testimonial-carousel-airy|product-grid:products-image-first|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/paper-packaging-app-theme.zip",
+      "designId": "ds-18-app",
+      "direction": "Packaging dieline studio / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-airy|category-grid:categories-horizontal-rail|hero-banner:hero-spec-board|product-grid:products-minimal|testimonial-carousel:testimonial-carousel-airy|image-with-text:image-with-text-airy|newsletter:newsletter-airy|feature-list:feature-list-airy|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/pet-care-veterinary-distribution-app-theme.zip",
+      "designId": "ds-43-app",
+      "direction": "Veterinary care shelf / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|product-grid:products-quick-add|feature-list:feature-list-compact|category-grid:categories-round-icons|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-commerce-columns",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/pharmaceuticals-healthcare-app-theme.zip",
+      "designId": "ds-10-app",
+      "direction": "Clinical formulary / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-compact|hero-banner:hero-spec-board|image-with-text:image-with-text-compact|product-grid:products-minimal|category-grid:categories-horizontal-rail|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/plastic-moulding-dies-app-theme.zip",
+      "designId": "ds-34-app",
+      "direction": "Tooling blueprint archive / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-compact|hero-banner:hero-spec-board|image-with-text:image-with-text-compact|product-grid:products-minimal|category-grid:categories-horizontal-rail|newsletter:newsletter-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-brand-story",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/plastics-polymers-app-theme.zip",
+      "designId": "ds-17-app",
+      "direction": "Polymer resin exchange / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|feature-list:feature-list-balanced|product-grid:products-horizontal|image-with-text:image-with-text-balanced|category-grid:categories-masonry|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/printing-stationery-app-theme.zip",
+      "designId": "ds-19-app",
+      "direction": "Print room catalogue / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|product-grid:products-quick-add|feature-list:feature-list-compact|category-grid:categories-round-icons|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/pumps-valves-pipe-fittings-app-theme.zip",
+      "designId": "ds-25-app",
+      "direction": "Flow engineering matrix / pocket workflow",
+      "signature": "header:split-utility|hero-banner:hero-full-bleed|category-grid:categories-masonry|product-grid:products-horizontal|image-with-text:image-with-text-compact|feature-list:feature-list-compact|testimonial-carousel:testimonial-carousel-compact|newsletter:newsletter-compact|promo-banner:promo-banner-compact|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/railway-industrial-oem-supplies-app-theme.zip",
+      "designId": "ds-40-app",
+      "direction": "Rail component timetable / pocket workflow",
+      "signature": "header:compact-stack|category-grid:categories-numbered-list|hero-banner:hero-stacked-center|promo-banner:promo-banner-compact|product-grid:products-bulk-table|feature-list:feature-list-compact|newsletter:newsletter-compact|image-with-text:image-with-text-compact|testimonial-carousel:testimonial-carousel-compact|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/renewable-energy-solar-app-theme.zip",
+      "designId": "ds-35-app",
+      "direction": "Solar project estimator / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|category-grid:categories-round-icons|feature-list:feature-list-balanced|newsletter:newsletter-balanced|product-grid:products-quick-add|image-with-text:image-with-text-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-newsletter-led",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/sports-fitness-equipment-app-theme.zip",
+      "designId": "ds-45-app",
+      "direction": "Performance training club / pocket workflow",
+      "signature": "header:editorial|hero-banner:hero-asymmetric|testimonial-carousel:testimonial-carousel-airy|category-grid:categories-compact-chips|image-with-text:image-with-text-airy|product-grid:products-spec-card|feature-list:feature-list-airy|newsletter:newsletter-airy|promo-banner:promo-banner-airy|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/textile-app-theme.zip",
+      "designId": "ds-03-app",
+      "direction": "Textile swatch journal / pocket workflow",
+      "signature": "header:search-led|hero-banner:hero-catalog-panel|image-with-text:image-with-text-airy|category-grid:categories-round-icons|testimonial-carousel:testimonial-carousel-airy|product-grid:products-quick-add|newsletter:newsletter-airy|feature-list:feature-list-airy|promo-banner:promo-banner-airy|footer:footer-minimal",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/textile-machinery-mill-supplies-app-theme.zip",
+      "designId": "ds-32-app",
+      "direction": "Mill maintenance logbook / pocket workflow",
+      "signature": "header:compact-stack|category-grid:categories-numbered-list|product-grid:products-bulk-table|hero-banner:hero-stacked-center|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-marketplace",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/tools-hardware-app-theme.zip",
+      "designId": "ds-26-app",
+      "direction": "Hardware pegboard / pocket workflow",
+      "signature": "header:trade-desk|promo-banner:promo-banner-balanced|hero-banner:hero-spec-board|product-grid:products-minimal|category-grid:categories-horizontal-rail|feature-list:feature-list-balanced|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|testimonial-carousel:testimonial-carousel-balanced|footer:footer-service-desk",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "app/toys-general-merchandise-app-theme.zip",
+      "designId": "ds-44-app",
+      "direction": "Playful merchandise bazaar / pocket workflow",
+      "signature": "header:catalog-rail|category-grid:categories-image-tiles|product-grid:products-marketplace|hero-banner:hero-split-right|image-with-text:image-with-text-balanced|newsletter:newsletter-balanced|feature-list:feature-list-balanced|testimonial-carousel:testimonial-carousel-balanced|promo-banner:promo-banner-balanced|footer:footer-trade-directory",
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

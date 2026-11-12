@@ -13,6 +13,7 @@ import {
 import { CustomerStatus } from '../enums/customer-status.enum';
 import { Tenant } from './tenant.entity';
 import { CustomerAddress } from './customer-address.entity';
+import { StorageObject } from './storage-object.entity';
 
 @Entity({ name: 'customers' })
 @Index('idx_customers_tenant_mobile_unique', ['tenantId', 'mobile'], {
@@ -74,6 +75,24 @@ export class Customer {
 
   @Column({ name: 'gst_verified_at', type: 'timestamptz', nullable: true })
   gstVerifiedAt: Date | null;
+
+  @Column({
+    name: 'gst_certificate_storage_object_id',
+    type: 'uuid',
+    nullable: true,
+  })
+  gstCertificateStorageObjectId: string | null;
+
+  @ManyToOne(() => StorageObject, { nullable: true, onDelete: 'SET NULL' })
+  @JoinColumn({ name: 'gst_certificate_storage_object_id' })
+  gstCertificateStorageObject: StorageObject | null;
+
+  @Column({ name: 'avatar_storage_object_id', type: 'uuid', nullable: true })
+  avatarStorageObjectId: string | null;
+
+  @ManyToOne(() => StorageObject, { nullable: true, onDelete: 'SET NULL' })
+  @JoinColumn({ name: 'avatar_storage_object_id' })
+  avatarStorageObject: StorageObject | null;
 
   @OneToMany(() => CustomerAddress, (a) => a.customer)
   addresses: CustomerAddress[];

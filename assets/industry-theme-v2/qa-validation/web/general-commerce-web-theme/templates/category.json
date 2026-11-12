@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MarketHarbor",
+        "industryName": "General Commerce",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "MarketHarbor / General Commerce",
+        "subtitle": "Source multipurpose storage box, office starter kit and more from this general commerce trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find MarketHarbor supplies",
+        "message": "Explore MarketHarbor Daily Essentials, MarketHarbor Business Supplies, MarketHarbor Home Utility, MarketHarbor Seasonal Deals.",
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact"
+      },
+      "variant": "filters-visual-four"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "MarketHarbor trade selection",
+        "subtitle": "Source multipurpose storage box, office starter kit and more from this general commerce trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MarketHarbor Multipurpose Storage Box",
+          "MarketHarbor Office Starter Kit",
+          "MarketHarbor Travel Bottle Set",
+          "MarketHarbor LED Desk Lamp",
+          "MarketHarbor Utility Tool Set",
+          "MarketHarbor Festive Gift Hamper"
+        ],
+        "prices": [
+          "INR 349",
+          "INR 1,499",
+          "INR 599",
+          "INR 899",
+          "INR 1,299",
+          "INR 1,799"
+        ],
+        "products": [
+          {
+            "id": "general-commerce-web-theme-product-1",
+            "slug": "marketharbor-multipurpose-storage-box",
+            "sku": "WEB-07-1",
+            "name": "MarketHarbor Multipurpose Storage Box",
+            "description": "Multipurpose Storage Box from MarketHarbor's home utility assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-utility",
+            "categoryId": "general-commerce-web-theme-category-3",
+            "categoryName": "MarketHarbor Home Utility",
+            "brand": "MarketHarbor",
+            "price": 349,
+            "currency": "INR",
+            "priceLabel": "INR 349",
+            "image": "assets/images/product-01.jpg",
+            "stock": 86,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 412,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 349
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 332
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 314
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor Multipurpose Storage Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "general-commerce-web-theme-product-2",
+            "slug": "marketharbor-office-starter-kit",
+            "sku": "WEB-07-2",
+            "name": "MarketHarbor Office Starter Kit",
+            "description": "Office Starter Kit from MarketHarbor's business supplies assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "business-supplies",
+            "categoryId": "general-commerce-web-theme-category-2",
+            "categoryName": "MarketHarbor Business Supplies",
+            "brand": "MarketHarbor",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-02.jpg",
+            "stock": 97,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor Office Starter Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "general-commerce-web-theme-product-3",
+            "slug": "marketharbor-travel-bottle-set",
+            "sku": "WEB-07-3",
+            "name": "MarketHarbor Travel Bottle Set",
+            "description": "Travel Bottle Set from MarketHarbor's home utility assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-utility",
+            "categoryId": "general-commerce-web-theme-category-3",
+            "categoryName": "MarketHarbor Home Utility",
+            "brand": "MarketHarbor",
+            "price": 599,
+            "currency": "INR",
+            "priceLabel": "INR 599",
+            "image": "assets/images/product-03.jpg",
+            "stock": 108,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 707,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 599
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 569
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 539
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor Travel Bottle Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "general-commerce-web-theme-product-4",
+            "slug": "marketharbor-led-desk-lamp",
+            "sku": "WEB-07-4",
+            "name": "MarketHarbor LED Desk Lamp",
+            "description": "LED Desk Lamp from MarketHarbor's home utility assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-utility",
+            "categoryId": "general-commerce-web-theme-category-3",
+            "categoryName": "MarketHarbor Home Utility",
+            "brand": "MarketHarbor",
+            "price": 899,
+            "currency": "INR",
+            "priceLabel": "INR 899",
+            "image": "assets/images/product-04.jpg",
+            "stock": 119,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1061,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 899
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 854
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 809
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor LED Desk Lamp",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "general-commerce-web-theme-product-5",
+            "slug": "marketharbor-utility-tool-set",
+            "sku": "WEB-07-5",
+            "name": "MarketHarbor Utility Tool Set",
+            "description": "Utility Tool Set from MarketHarbor's home utility assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-utility",
+            "categoryId": "general-commerce-web-theme-category-3",
+            "categoryName": "MarketHarbor Home Utility",
+            "brand": "MarketHarbor",
+            "price": 1299,
+            "currency": "INR",
+            "priceLabel": "INR 1,299",
+            "image": "assets/images/product-05.jpg",
+            "stock": 130,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1533,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1299
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1234
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1169
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor Utility Tool Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "general-commerce-web-theme-product-6",
+            "slug": "marketharbor-festive-gift-hamper",
+            "sku": "WEB-07-6",
+            "name": "MarketHarbor Festive Gift Hamper",
+            "description": "Festive Gift Hamper from MarketHarbor's seasonal deals assortment. Bring everyday replenishment into one useful catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "seasonal-deals",
+            "categoryId": "general-commerce-web-theme-category-4",
+            "categoryName": "MarketHarbor Seasonal Deals",
+            "brand": "MarketHarbor",
+            "price": 1799,
+            "currency": "INR",
+            "priceLabel": "INR 1,799",
+            "image": "assets/images/product-06.jpg",
+            "stock": 141,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2123,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1799
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1709
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1619
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MarketHarbor Festive Gift Hamper",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact",
+        "cardStyle": "minimal",
+        "columns": 3
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your MarketHarbor order",
+        "subtitle": "Review quantities for multipurpose storage box with this general commerce preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MarketHarbor",
+        "industryName": "General Commerce",
+        "tagline": "Source multipurpose storage box, office starter kit and more from this general commerce trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-07-web",
+        "layoutMode": "visual-four",
+        "density": "compact"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-07-web"
+}

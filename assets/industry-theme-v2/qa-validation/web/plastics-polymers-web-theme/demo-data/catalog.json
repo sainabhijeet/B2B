@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000011",
+  "industry": "Plastics & Polymers",
+  "themeName": "Plastics & Polymers Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "PolymerPort",
+    "industry": "Plastics & Polymers",
+    "tagline": "Source pp resin granules, black masterbatch and more from this plastics & polymers trade collection.",
+    "email": "hello@polymerport.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "PolymerPort quantity rewards",
+      "description": "Compare the sample bulk tiers in PolymerPort's plastics & polymers range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "PolymerPort sample buyer story",
+      "quote": "Our demo plastics & polymers buying team can compare pp resin granules and abs engineering polymer in one sourcing catalog.",
+      "author": "Fictional PolymerPort buyer — demo feedback",
+      "designId": "ds-17-web",
+      "layoutMode": "Polymer resin exchange",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "plastics-polymers-web-theme-category-1",
+      "slug": "polymer-resins",
+      "name": "PolymerPort Polymer Resins",
+      "description": "Explore PolymerPort's polymer resins selection for plastics & polymers buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "plastics-polymers-web-theme-category-2",
+      "slug": "masterbatches",
+      "name": "PolymerPort Masterbatches",
+      "description": "Explore PolymerPort's masterbatches selection for plastics & polymers buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "plastics-polymers-web-theme-category-3",
+      "slug": "engineering-plastics",
+      "name": "PolymerPort Engineering Plastics",
+      "description": "Explore PolymerPort's engineering plastics selection for plastics & polymers buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "plastics-polymers-web-theme-category-4",
+      "slug": "recycled-materials",
+      "name": "PolymerPort Recycled Materials",
+      "description": "Explore PolymerPort's recycled materials selection for plastics & polymers buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "plastics-polymers-web-theme-product-1",
+      "slug": "polymerport-pp-resin-granules",
+      "sku": "WEB-17-1",
+      "name": "PolymerPort PP Resin Granules",
+      "description": "PP Resin Granules from PolymerPort's polymer resins assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "polymer-resins",
+      "categoryId": "plastics-polymers-web-theme-category-1",
+      "categoryName": "PolymerPort Polymer Resins",
+      "brand": "PolymerPort",
+      "price": 2450,
+      "currency": "INR",
+      "priceLabel": "INR 2,450",
+      "image": "assets/images/product-01.jpg",
+      "stock": 116,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 2891,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 2450
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 2328
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 2205
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort PP Resin Granules",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "plastics-polymers-web-theme-product-2",
+      "slug": "polymerport-black-masterbatch",
+      "sku": "WEB-17-2",
+      "name": "PolymerPort Black Masterbatch",
+      "description": "Black Masterbatch from PolymerPort's masterbatches assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "masterbatches",
+      "categoryId": "plastics-polymers-web-theme-category-2",
+      "categoryName": "PolymerPort Masterbatches",
+      "brand": "PolymerPort",
+      "price": 3200,
+      "currency": "INR",
+      "priceLabel": "INR 3,200",
+      "image": "assets/images/product-02.jpg",
+      "stock": 127,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 3776,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 3200
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 3040
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 2880
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort Black Masterbatch",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "plastics-polymers-web-theme-product-3",
+      "slug": "polymerport-abs-engineering-polymer",
+      "sku": "WEB-17-3",
+      "name": "PolymerPort ABS Engineering Polymer",
+      "description": "ABS Engineering Polymer from PolymerPort's engineering plastics assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "engineering-plastics",
+      "categoryId": "plastics-polymers-web-theme-category-3",
+      "categoryName": "PolymerPort Engineering Plastics",
+      "brand": "PolymerPort",
+      "price": 4500,
+      "currency": "INR",
+      "priceLabel": "INR 4,500",
+      "image": "assets/images/product-03.jpg",
+      "stock": 138,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 5310,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 4500
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 4275
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 4050
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort ABS Engineering Polymer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "plastics-polymers-web-theme-product-4",
+      "slug": "polymerport-recycled-pet-flakes",
+      "sku": "WEB-17-4",
+      "name": "PolymerPort Recycled PET Flakes",
+      "description": "Recycled PET Flakes from PolymerPort's recycled materials assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "recycled-materials",
+      "categoryId": "plastics-polymers-web-theme-category-4",
+      "categoryName": "PolymerPort Recycled Materials",
+      "brand": "PolymerPort",
+      "price": 1650,
+      "currency": "INR",
+      "priceLabel": "INR 1,650",
+      "image": "assets/images/product-04.jpg",
+      "stock": 149,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1947,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 1650
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1568
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 1485
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort Recycled PET Flakes",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "plastics-polymers-web-theme-product-5",
+      "slug": "polymerport-pvc-compound",
+      "sku": "WEB-17-5",
+      "name": "PolymerPort PVC Compound",
+      "description": "PVC Compound from PolymerPort's polymer resins assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "polymer-resins",
+      "categoryId": "plastics-polymers-web-theme-category-1",
+      "categoryName": "PolymerPort Polymer Resins",
+      "brand": "PolymerPort",
+      "price": 2100,
+      "currency": "INR",
+      "priceLabel": "INR 2,100",
+      "image": "assets/images/product-05.jpg",
+      "stock": 160,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2478,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 2100
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 1995
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1890
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort PVC Compound",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "plastics-polymers-web-theme-product-6",
+      "slug": "polymerport-nylon-polymer-chips",
+      "sku": "WEB-17-6",
+      "name": "PolymerPort Nylon Polymer Chips",
+      "description": "Nylon Polymer Chips from PolymerPort's engineering plastics assortment. Arrange polymers and processing materials by practical use. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "engineering-plastics",
+      "categoryId": "plastics-polymers-web-theme-category-3",
+      "categoryName": "PolymerPort Engineering Plastics",
+      "brand": "PolymerPort",
+      "price": 5800,
+      "currency": "INR",
+      "priceLabel": "INR 5,800",
+      "image": "assets/images/product-06.jpg",
+      "stock": 171,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 6844,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 5800
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 5510
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 5220
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: PolymerPort Nylon Polymer Chips",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-17-web",
+    "direction": "Polymer resin exchange",
+    "header": "search-led",
+    "headerIdentity": "header-17-web",
+    "headerStructure": "shell-5-composition-3",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "service-desk",
+    "footerIdentity": "footer-17-web",
+    "footerStructure": "shell-3-composition-3",
+    "density": "balanced",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

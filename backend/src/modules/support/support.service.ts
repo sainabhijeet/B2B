@@ -103,6 +103,20 @@ export class SupportService {
     return { success: true, data, meta: {}, message: '' };
   }
 
+  async findOne(user: JwtUserPayload, id: string) {
+    const where = PLATFORM_ROLES.includes(user.role)
+      ? { id }
+      : user.role === UserRole.CUSTOMER
+        ? { id, tenantId: user.tenantId ?? undefined, createdBy: user.sub }
+        : { id, tenantId: user.tenantId ?? undefined };
+    if (!PLATFORM_ROLES.includes(user.role) && !user.tenantId) {
+      throw new ForbiddenException('Tenant context required.');
+    }
+    const ticket = await this.ticketsRepo.findOne({ where });
+    if (!ticket) throw new BadRequestException('Support ticket not found.');
+    return { success: true, data: ticket, meta: {}, message: '' };
+  }
+
   async update(user: JwtUserPayload, id: string, dto: UpdateSupportTicketDto) {
     const ticket = await this.ticketsRepo.findOne({ where: { id } });
     if (!ticket) throw new BadRequestException('Support ticket not found.');

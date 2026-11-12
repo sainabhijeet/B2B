@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "DecorParcel",
+        "industryName": "Home Decor & Furnishings",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "DecorParcel / Home Decor & Furnishings",
+        "subtitle": "Browse framed botanical print, ceramic table lamp and a dedicated home decor & furnishings mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "hero-asymmetric"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find DecorParcel supplies",
+        "message": "Explore DecorParcel Wall Decor, DecorParcel Lighting Decor, DecorParcel Soft Furnishings, DecorParcel Decor Accessories.",
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "filters-visual-four"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "DecorParcel restock picks",
+        "subtitle": "Browse framed botanical print, ceramic table lamp and a dedicated home decor & furnishings mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "DecorParcel Framed Botanical Print",
+          "DecorParcel Ceramic Table Lamp",
+          "DecorParcel Linen Table Runner",
+          "DecorParcel Stoneware Candle Holder",
+          "DecorParcel Round Wall Mirror",
+          "DecorParcel Woven Pendant Shade"
+        ],
+        "prices": [
+          "INR 1,554",
+          "INR 2,688",
+          "INR 884",
+          "INR 702",
+          "INR 1,368",
+          "INR 3,776"
+        ],
+        "products": [
+          {
+            "id": "home-decor-furnishings-app-theme-product-1",
+            "slug": "decorparcel-framed-botanical-print",
+            "sku": "APP-21-1",
+            "name": "DecorParcel Framed Botanical Print",
+            "description": "Framed Botanical Print for your home decor & furnishings replenishment list. DecorParcel groups this item with wall decor so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "wall-decor",
+            "categoryId": "home-decor-furnishings-app-theme-category-1",
+            "categoryName": "DecorParcel Wall Decor",
+            "brand": "DecorParcel",
+            "price": 1554,
+            "currency": "INR",
+            "priceLabel": "INR 1,554",
+            "image": "assets/images/product-01.jpg",
+            "stock": 101,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1834,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1554
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1476
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1399
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Framed Botanical Print",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-app-theme-product-2",
+            "slug": "decorparcel-ceramic-table-lamp",
+            "sku": "APP-21-2",
+            "name": "DecorParcel Ceramic Table Lamp",
+            "description": "Ceramic Table Lamp for your home decor & furnishings replenishment list. DecorParcel groups this item with lighting decor so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "lighting-decor",
+            "categoryId": "home-decor-furnishings-app-theme-category-2",
+            "categoryName": "DecorParcel Lighting Decor",
+            "brand": "DecorParcel",
+            "price": 2688,
+            "currency": "INR",
+            "priceLabel": "INR 2,688",
+            "image": "assets/images/product-02.jpg",
+            "stock": 112,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 3172,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2688
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2554
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2419
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Ceramic Table Lamp",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-app-theme-product-3",
+            "slug": "decorparcel-linen-table-runner",
+            "sku": "APP-21-3",
+            "name": "DecorParcel Linen Table Runner",
+            "description": "Linen Table Runner for your home decor & furnishings replenishment list. DecorParcel groups this item with soft furnishings so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "soft-furnishings",
+            "categoryId": "home-decor-furnishings-app-theme-category-3",
+            "categoryName": "DecorParcel Soft Furnishings",
+            "brand": "DecorParcel",
+            "price": 884,
+            "currency": "INR",
+            "priceLabel": "INR 884",
+            "image": "assets/images/product-03.jpg",
+            "stock": 123,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1043,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 884
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 840
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 796
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Linen Table Runner",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-app-theme-product-4",
+            "slug": "decorparcel-stoneware-candle-holder",
+            "sku": "APP-21-4",
+            "name": "DecorParcel Stoneware Candle Holder",
+            "description": "Stoneware Candle Holder for your home decor & furnishings replenishment list. DecorParcel groups this item with decor accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "decor-accessories",
+            "categoryId": "home-decor-furnishings-app-theme-category-4",
+            "categoryName": "DecorParcel Decor Accessories",
+            "brand": "DecorParcel",
+            "price": 702,
+            "currency": "INR",
+            "priceLabel": "INR 702",
+            "image": "assets/images/product-04.jpg",
+            "stock": 134,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 828,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 702
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 667
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 632
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Stoneware Candle Holder",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-app-theme-product-5",
+            "slug": "decorparcel-round-wall-mirror",
+            "sku": "APP-21-5",
+            "name": "DecorParcel Round Wall Mirror",
+            "description": "Round Wall Mirror for your home decor & furnishings replenishment list. DecorParcel groups this item with wall decor so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "wall-decor",
+            "categoryId": "home-decor-furnishings-app-theme-category-1",
+            "categoryName": "DecorParcel Wall Decor",
+            "brand": "DecorParcel",
+            "price": 1368,
+            "currency": "INR",
+            "priceLabel": "INR 1,368",
+            "image": "assets/images/product-05.jpg",
+            "stock": 145,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1614,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1368
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1300
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1231
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Round Wall Mirror",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-app-theme-product-6",
+            "slug": "decorparcel-woven-pendant-shade",
+            "sku": "APP-21-6",
+            "name": "DecorParcel Woven Pendant Shade",
+            "description": "Woven Pendant Shade for your home decor & furnishings replenishment list. DecorParcel groups this item with lighting decor so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "lighting-decor",
+            "categoryId": "home-decor-furnishings-app-theme-category-2",
+            "categoryName": "DecorParcel Lighting Decor",
+            "brand": "DecorParcel",
+            "price": 3776,
+            "currency": "INR",
+            "priceLabel": "INR 3,776",
+            "image": "assets/images/product-06.jpg",
+            "stock": 156,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4456,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3776
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3587
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3398
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DecorParcel Woven Pendant Shade",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy",
+        "cardStyle": "spec-card",
+        "columns": 1
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your DecorParcel order",
+        "subtitle": "Review quantities for framed botanical print with this home decor & furnishings preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "DecorParcel",
+        "industryName": "Home Decor & Furnishings",
+        "tagline": "Browse framed botanical print, ceramic table lamp and a dedicated home decor & furnishings mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-21-app",
+        "layoutMode": "visual-four",
+        "density": "airy"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-21-app"
+}

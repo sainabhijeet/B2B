@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "BoxPocket",
+        "industryName": "Paper & Packaging",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "BoxPocket / Paper & Packaging",
+        "subtitle": "Browse die cut mailer box, stand up zip pouch and a dedicated paper & packaging mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find BoxPocket supplies",
+        "message": "Explore BoxPocket Corrugated Packaging, BoxPocket Flexible Packaging, BoxPocket Labels, BoxPocket Paper Products.",
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "filters-editorial-three"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "BoxPocket restock picks",
+        "subtitle": "Browse die cut mailer box, stand up zip pouch and a dedicated paper & packaging mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "BoxPocket Die Cut Mailer Box",
+          "BoxPocket Stand Up Zip Pouch",
+          "BoxPocket Shipping Address Label Roll",
+          "BoxPocket Honeycomb Paper Wrap",
+          "BoxPocket Corrugated Partition Set",
+          "BoxPocket Compostable Snack Pouch"
+        ],
+        "prices": [
+          "INR 798",
+          "INR 2,016",
+          "INR 419",
+          "INR 2,592",
+          "INR 494",
+          "INR 1,003"
+        ],
+        "products": [
+          {
+            "id": "paper-packaging-app-theme-product-1",
+            "slug": "boxpocket-die-cut-mailer-box",
+            "sku": "APP-18-1",
+            "name": "BoxPocket Die Cut Mailer Box",
+            "description": "Die Cut Mailer Box for your paper & packaging replenishment list. BoxPocket groups this item with corrugated packaging so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "corrugated-packaging",
+            "categoryId": "paper-packaging-app-theme-category-1",
+            "categoryName": "BoxPocket Corrugated Packaging",
+            "brand": "BoxPocket",
+            "price": 798,
+            "currency": "INR",
+            "priceLabel": "INR 798",
+            "image": "assets/images/product-01.jpg",
+            "stock": 92,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 942,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 798
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 758
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 718
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Die Cut Mailer Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-app-theme-product-2",
+            "slug": "boxpocket-stand-up-zip-pouch",
+            "sku": "APP-18-2",
+            "name": "BoxPocket Stand Up Zip Pouch",
+            "description": "Stand Up Zip Pouch for your paper & packaging replenishment list. BoxPocket groups this item with flexible packaging so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "flexible-packaging",
+            "categoryId": "paper-packaging-app-theme-category-2",
+            "categoryName": "BoxPocket Flexible Packaging",
+            "brand": "BoxPocket",
+            "price": 2016,
+            "currency": "INR",
+            "priceLabel": "INR 2,016",
+            "image": "assets/images/product-02.jpg",
+            "stock": 103,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2379,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2016
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1915
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1814
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Stand Up Zip Pouch",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-app-theme-product-3",
+            "slug": "boxpocket-shipping-address-label-roll",
+            "sku": "APP-18-3",
+            "name": "BoxPocket Shipping Address Label Roll",
+            "description": "Shipping Address Label Roll for your paper & packaging replenishment list. BoxPocket groups this item with labels so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "labels",
+            "categoryId": "paper-packaging-app-theme-category-3",
+            "categoryName": "BoxPocket Labels",
+            "brand": "BoxPocket",
+            "price": 419,
+            "currency": "INR",
+            "priceLabel": "INR 419",
+            "image": "assets/images/product-03.jpg",
+            "stock": 114,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 494,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 419
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 398
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 377
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Shipping Address Label Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-app-theme-product-4",
+            "slug": "boxpocket-honeycomb-paper-wrap",
+            "sku": "APP-18-4",
+            "name": "BoxPocket Honeycomb Paper Wrap",
+            "description": "Honeycomb Paper Wrap for your paper & packaging replenishment list. BoxPocket groups this item with paper products so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "paper-products",
+            "categoryId": "paper-packaging-app-theme-category-4",
+            "categoryName": "BoxPocket Paper Products",
+            "brand": "BoxPocket",
+            "price": 2592,
+            "currency": "INR",
+            "priceLabel": "INR 2,592",
+            "image": "assets/images/product-04.jpg",
+            "stock": 125,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 3059,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2592
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2333
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Honeycomb Paper Wrap",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-app-theme-product-5",
+            "slug": "boxpocket-corrugated-partition-set",
+            "sku": "APP-18-5",
+            "name": "BoxPocket Corrugated Partition Set",
+            "description": "Corrugated Partition Set for your paper & packaging replenishment list. BoxPocket groups this item with corrugated packaging so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "corrugated-packaging",
+            "categoryId": "paper-packaging-app-theme-category-1",
+            "categoryName": "BoxPocket Corrugated Packaging",
+            "brand": "BoxPocket",
+            "price": 494,
+            "currency": "INR",
+            "priceLabel": "INR 494",
+            "image": "assets/images/product-05.jpg",
+            "stock": 136,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 583,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 494
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 469
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 445
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Corrugated Partition Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-app-theme-product-6",
+            "slug": "boxpocket-compostable-snack-pouch",
+            "sku": "APP-18-6",
+            "name": "BoxPocket Compostable Snack Pouch",
+            "description": "Compostable Snack Pouch for your paper & packaging replenishment list. BoxPocket groups this item with flexible packaging so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "flexible-packaging",
+            "categoryId": "paper-packaging-app-theme-category-2",
+            "categoryName": "BoxPocket Flexible Packaging",
+            "brand": "BoxPocket",
+            "price": 1003,
+            "currency": "INR",
+            "priceLabel": "INR 1,003",
+            "image": "assets/images/product-06.jpg",
+            "stock": 147,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1184,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1003
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 953
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 903
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: BoxPocket Compostable Snack Pouch",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy",
+        "cardStyle": "minimal",
+        "columns": 2
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your BoxPocket order",
+        "subtitle": "Review quantities for die cut mailer box with this paper & packaging preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "BoxPocket",
+        "industryName": "Paper & Packaging",
+        "tagline": "Browse die cut mailer box, stand up zip pouch and a dedicated paper & packaging mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-18-app",
+        "layoutMode": "editorial-three",
+        "density": "airy"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-18-app"
+}

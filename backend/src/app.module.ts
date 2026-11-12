@@ -59,6 +59,10 @@ import { PrivateDocumentsModule } from './modules/private-documents/private-docu
 import { CouponsModule } from './modules/coupons/coupons.module';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { ApiRequestLoggingInterceptor } from './common/interceptors/api-request-logging.interceptor';
+import { PlatformStorageProvidersModule } from './modules/storage-providers/platform-storage-providers.module';
+import { MediaModule } from './modules/media/media.module';
+import { StoreReleasesModule } from './modules/store-releases/store-releases.module';
+import { PlatformWhatsappModule } from './modules/platform/whatsapp/platform-whatsapp.module';
 
 @Module({
   imports: [
@@ -74,6 +78,8 @@ import { ApiRequestLoggingInterceptor } from './common/interceptors/api-request-
     DatabaseModule,
     TenancyModule,
     PrivateDocumentsModule,
+    PlatformStorageProvidersModule,
+    MediaModule,
     RbacModule,
     UsersModule,
     OtpModule,
@@ -114,8 +120,10 @@ import { ApiRequestLoggingInterceptor } from './common/interceptors/api-request-
     AppPackageModule,
     StorefrontProductsModule,
     WhatsappModule,
+    PlatformWhatsappModule,
     MobileReleaseModule,
     MobileCommerceModule,
+    StoreReleasesModule,
     BuildModule,
     HealthModule,
     AdminConsoleModule,

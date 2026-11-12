@@ -1,0 +1,765 @@
+{
+  "startedAt": "2026-10-21T09:36:12.997Z",
+  "completedAt": "2026-10-21T09:37:04.434Z",
+  "valid": true,
+  "targetCount": 94,
+  "uploaded": 34,
+  "skipped": 60,
+  "failed": 0,
+  "results": [
+    {
+      "slug": "electronics-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000001",
+      "industry": "Electronics",
+      "platform": "WEB",
+      "themeId": "30e34a5b-8fe1-472d-b13a-23e2c303d915",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "electronics-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000001",
+      "industry": "Electronics",
+      "platform": "MOBILE",
+      "themeId": "3d937fff-f8e5-4287-b539-051b5e87cd62",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "footwear-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000002",
+      "industry": "Footwear",
+      "platform": "WEB",
+      "themeId": "54983a26-5c4d-4f52-aa25-84f6d79b487c",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "footwear-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000002",
+      "industry": "Footwear",
+      "platform": "MOBILE",
+      "themeId": "21526863-b952-4b35-b519-f69039d6cb5b",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "textile-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000003",
+      "industry": "Textile",
+      "platform": "WEB",
+      "themeId": "89e54fd9-fbbc-4f0b-95c6-c868b3da4f6f",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "textile-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000003",
+      "industry": "Textile",
+      "platform": "MOBILE",
+      "themeId": "b95f34fe-9eb5-4ada-a55e-2b51eb2fe133",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "industrial-equipment-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000004",
+      "industry": "Industrial Equipment",
+      "platform": "WEB",
+      "themeId": "bd2dc176-058e-4500-bd3a-e5166c598223",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "industrial-equipment-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000004",
+      "industry": "Industrial Equipment",
+      "platform": "MOBILE",
+      "themeId": "b53fda6c-51ef-486d-84d5-199437afaa9c",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "machinery-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000005",
+      "industry": "Machinery",
+      "platform": "WEB",
+      "themeId": "062dd525-48f8-418b-8a7f-2e8eebeed4de",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "machinery-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000005",
+      "industry": "Machinery",
+      "platform": "MOBILE",
+      "themeId": "57b43663-b560-482a-91ff-c4398a4a57be",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "jewelry-diamond-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000006",
+      "industry": "Jewelry / Diamond",
+      "platform": "WEB",
+      "themeId": "b2446a7b-10f6-4d19-9c48-9f5b8ef08f0c",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "jewelry-diamond-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000006",
+      "industry": "Jewelry / Diamond",
+      "platform": "MOBILE",
+      "themeId": "0bfe4ad6-a53c-4ebd-afc0-7fc3e305c0cc",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "general-commerce-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000007",
+      "industry": "General Commerce",
+      "platform": "WEB",
+      "themeId": "6f296f5b-f6c1-43e0-a453-70e4cb2f1e1d",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "general-commerce-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000007",
+      "industry": "General Commerce",
+      "platform": "MOBILE",
+      "themeId": "4e272202-aea9-453d-9e6c-76f54123360a",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "automotive-spare-parts-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000008",
+      "industry": "Automotive & Spare Parts",
+      "platform": "WEB",
+      "themeId": "34542dc8-011f-4114-be80-56bf0c9ba959",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "automotive-spare-parts-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000008",
+      "industry": "Automotive & Spare Parts",
+      "platform": "MOBILE",
+      "themeId": "31067d55-36bc-4ad4-aad7-b02664d91988",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "fmcg-packaged-foods-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000009",
+      "industry": "FMCG & Packaged Foods",
+      "platform": "WEB",
+      "themeId": "e391bca5-4aa9-4229-a820-7b262574d206",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "fmcg-packaged-foods-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000009",
+      "industry": "FMCG & Packaged Foods",
+      "platform": "MOBILE",
+      "themeId": "73b5ab5d-6c41-4b2b-943b-48397ce543db",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "pharmaceuticals-healthcare-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000a",
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "WEB",
+      "themeId": "4a448bbd-2bcd-4383-a8ff-490bf40d24b3",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "pharmaceuticals-healthcare-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000a",
+      "industry": "Pharmaceuticals & Healthcare",
+      "platform": "MOBILE",
+      "themeId": "6e9957b1-eb72-438a-9e13-4293c6b32e75",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "medical-devices-diagnostics-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000b",
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "WEB",
+      "themeId": "45c2bad3-c650-4504-ba33-0e673dcfbf03",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "medical-devices-diagnostics-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000b",
+      "industry": "Medical Devices & Diagnostics",
+      "platform": "MOBILE",
+      "themeId": "c26f5fe2-1d0b-41f0-8645-515d2cd976cc",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "beauty-personal-care-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000c",
+      "industry": "Beauty & Personal Care",
+      "platform": "WEB",
+      "themeId": "3c8dea81-b548-4e32-8e90-e759dbeaf67d",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "beauty-personal-care-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000c",
+      "industry": "Beauty & Personal Care",
+      "platform": "MOBILE",
+      "themeId": "3680cbaf-a1f9-4bd0-9bdd-4dcc1fd1b274",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "agriculture-seeds-agri-inputs-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000d",
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "WEB",
+      "themeId": "5d2e7221-83b0-46cb-bf46-65694f4503b5",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "agriculture-seeds-agri-inputs-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000d",
+      "industry": "Agriculture, Seeds & Agri-inputs",
+      "platform": "MOBILE",
+      "themeId": "8a1ee37c-fb93-43fe-9eaf-f285ae6f9191",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "construction-building-materials-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000e",
+      "industry": "Construction & Building Materials",
+      "platform": "WEB",
+      "themeId": "1dfcd62a-3c59-4d97-97d5-da2f6c420d34",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "construction-building-materials-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000e",
+      "industry": "Construction & Building Materials",
+      "platform": "MOBILE",
+      "themeId": "c0e9fe4f-7f8e-45f1-92f2-1fa18a838d2a",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "paints-coatings-adhesives-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000f",
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "WEB",
+      "themeId": "83ed1b46-6937-4296-bf69-68d17dd917e8",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "paints-coatings-adhesives-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000000f",
+      "industry": "Paints, Coatings & Adhesives",
+      "platform": "MOBILE",
+      "themeId": "55c4b30e-9865-45b7-9b89-24a187f5e730",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "chemicals-specialty-materials-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000010",
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "WEB",
+      "themeId": "6813d7a6-24b1-4f8b-97c0-4bb051e69525",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "chemicals-specialty-materials-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000010",
+      "industry": "Chemicals & Specialty Materials",
+      "platform": "MOBILE",
+      "themeId": "73c0ba65-09f1-4a36-83c4-cc7f0d82028f",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "plastics-polymers-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000011",
+      "industry": "Plastics & Polymers",
+      "platform": "WEB",
+      "themeId": "57450678-f637-4fec-9ddf-7b142cc1bc81",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "plastics-polymers-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000011",
+      "industry": "Plastics & Polymers",
+      "platform": "MOBILE",
+      "themeId": "0048ea51-9bd3-43b5-88cd-62ecec7c0d27",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "paper-packaging-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000012",
+      "industry": "Paper & Packaging",
+      "platform": "WEB",
+      "themeId": "87026ce9-cea0-42ae-b477-91c8287f2e7c",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "paper-packaging-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000012",
+      "industry": "Paper & Packaging",
+      "platform": "MOBILE",
+      "themeId": "4fc90309-c3ed-41b5-8be5-74c6eaf9afb0",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "printing-stationery-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000013",
+      "industry": "Printing & Stationery",
+      "platform": "WEB",
+      "themeId": "aa8d286a-5358-4196-8fcb-81b45000d000",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "printing-stationery-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000013",
+      "industry": "Printing & Stationery",
+      "platform": "MOBILE",
+      "themeId": "81d24cee-df17-4265-9247-94c3a269416b",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "furniture-wood-products-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000014",
+      "industry": "Furniture & Wood Products",
+      "platform": "WEB",
+      "themeId": "8ad5086e-344e-42fb-9db8-2735c76eab87",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "furniture-wood-products-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000014",
+      "industry": "Furniture & Wood Products",
+      "platform": "MOBILE",
+      "themeId": "a0806f7f-44b6-4a23-b9d9-011ac400fc5b",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "home-decor-furnishings-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000015",
+      "industry": "Home Decor & Furnishings",
+      "platform": "WEB",
+      "themeId": "a7da5df0-ba60-4427-9840-752c018410ae",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "home-decor-furnishings-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000015",
+      "industry": "Home Decor & Furnishings",
+      "platform": "MOBILE",
+      "themeId": "57c4bae2-699b-408b-af61-ba5c010bc86f",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "kitchenware-cookware-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000016",
+      "industry": "Kitchenware & Cookware",
+      "platform": "WEB",
+      "themeId": "cba8e893-afea-4584-b59a-f5e89b39fcdc",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "kitchenware-cookware-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000016",
+      "industry": "Kitchenware & Cookware",
+      "platform": "MOBILE",
+      "themeId": "d998fc5f-e805-4c8d-a706-446601f7258d",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "electrical-lighting-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000017",
+      "industry": "Electrical & Lighting",
+      "platform": "WEB",
+      "themeId": "472db29e-c1a6-4088-921e-0b85f7887035",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "electrical-lighting-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000017",
+      "industry": "Electrical & Lighting",
+      "platform": "MOBILE",
+      "themeId": "c373c0af-ba35-48d9-a9f6-9343f061ffe9",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "hvac-refrigeration-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000018",
+      "industry": "HVAC & Refrigeration",
+      "platform": "WEB",
+      "themeId": "ea861300-2cbc-453b-b595-ba2693158266",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "hvac-refrigeration-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000018",
+      "industry": "HVAC & Refrigeration",
+      "platform": "MOBILE",
+      "themeId": "47823cf5-2b56-4a3c-8e5f-fb5f3bf211ab",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "pumps-valves-pipe-fittings-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000019",
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "WEB",
+      "themeId": "4d3044f3-7533-43ae-9b84-0b1376314f18",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "pumps-valves-pipe-fittings-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000019",
+      "industry": "Pumps, Valves & Pipe Fittings",
+      "platform": "MOBILE",
+      "themeId": "40cc0951-a17d-49f8-9e2f-914c158d47db",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "tools-hardware-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001a",
+      "industry": "Tools & Hardware",
+      "platform": "WEB",
+      "themeId": "f85fef84-0425-455c-9b11-a33861ee5b8d",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "tools-hardware-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001a",
+      "industry": "Tools & Hardware",
+      "platform": "MOBILE",
+      "themeId": "ee251d3e-b564-47cb-9c21-04d21ea941f2",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "industrial-safety-ppe-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001b",
+      "industry": "Industrial Safety & PPE",
+      "platform": "WEB",
+      "themeId": "f6c7e6b6-ba84-4346-b92a-c9397935bd84",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "industrial-safety-ppe-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001b",
+      "industry": "Industrial Safety & PPE",
+      "platform": "MOBILE",
+      "themeId": "22c2f738-5cff-4152-9a93-595953311694",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "logistics-warehousing-3pl-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001c",
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "WEB",
+      "themeId": "c819c2fd-a9db-4261-9851-cf7ebc52b29f",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "logistics-warehousing-3pl-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001c",
+      "industry": "Logistics, Warehousing & 3PL",
+      "platform": "MOBILE",
+      "themeId": "7bb2cb35-d425-4847-aa84-acd890e1b5da",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "office-supplies-b2b-stationery-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001d",
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "WEB",
+      "themeId": "bbf6fe0d-8b08-45f8-a702-595c8b7e7ee6",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "office-supplies-b2b-stationery-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001d",
+      "industry": "Office Supplies & B2B Stationery",
+      "platform": "MOBILE",
+      "themeId": "5ec27901-322b-4cf6-95aa-f85832b8e8d7",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "it-hardware-networking-distribution-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001e",
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "WEB",
+      "themeId": "b2c51288-0e5a-42ab-b592-f2e2bbc37d63",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "it-hardware-networking-distribution-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001e",
+      "industry": "IT Hardware & Networking Distribution",
+      "platform": "MOBILE",
+      "themeId": "27fdc4cd-e5b7-4902-9044-7ca2c851c4a6",
+      "status": "skipped-existing"
+    },
+    {
+      "slug": "consumer-appliances-home-tech-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001f",
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "WEB",
+      "themeId": "bddd1b63-b25b-421b-a29b-b182ce31e3ee",
+      "status": "uploaded"
+    },
+    {
+      "slug": "consumer-appliances-home-tech-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000001f",
+      "industry": "Consumer Appliances & Home Tech",
+      "platform": "MOBILE",
+      "themeId": "f36b1fb3-dd17-4081-8038-49afa0e431e0",
+      "status": "uploaded"
+    },
+    {
+      "slug": "textile-machinery-mill-supplies-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000020",
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "WEB",
+      "themeId": "555ceddc-12b5-45f0-b7bd-3d93b729e661",
+      "status": "uploaded"
+    },
+    {
+      "slug": "textile-machinery-mill-supplies-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000020",
+      "industry": "Textile Machinery & Mill Supplies",
+      "platform": "MOBILE",
+      "themeId": "0366bf54-ee6b-4b19-9059-57c08b839d94",
+      "status": "uploaded"
+    },
+    {
+      "slug": "food-processing-packaging-machinery-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000021",
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "WEB",
+      "themeId": "408c3ae1-9cb1-47da-aab0-82a4528bbbd9",
+      "status": "uploaded"
+    },
+    {
+      "slug": "food-processing-packaging-machinery-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000021",
+      "industry": "Food Processing & Packaging Machinery",
+      "platform": "MOBILE",
+      "themeId": "a6a73917-c86c-44e6-b27d-c7cc3496bc78",
+      "status": "uploaded"
+    },
+    {
+      "slug": "plastic-moulding-dies-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000022",
+      "industry": "Plastic Moulding & Dies",
+      "platform": "WEB",
+      "themeId": "294c9968-81bf-478a-8ba9-dc47419da0e3",
+      "status": "uploaded"
+    },
+    {
+      "slug": "plastic-moulding-dies-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000022",
+      "industry": "Plastic Moulding & Dies",
+      "platform": "MOBILE",
+      "themeId": "30f27165-b55d-42f0-83b2-3e4d1f09b9e2",
+      "status": "uploaded"
+    },
+    {
+      "slug": "renewable-energy-solar-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000023",
+      "industry": "Renewable Energy & Solar",
+      "platform": "WEB",
+      "themeId": "b56babd9-2749-45e2-bb70-9753f04d2673",
+      "status": "uploaded"
+    },
+    {
+      "slug": "renewable-energy-solar-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000023",
+      "industry": "Renewable Energy & Solar",
+      "platform": "MOBILE",
+      "themeId": "5c3a5955-bfbb-42e4-abd5-5ad00868cb0c",
+      "status": "uploaded"
+    },
+    {
+      "slug": "batteries-power-systems-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000024",
+      "industry": "Batteries & Power Systems",
+      "platform": "WEB",
+      "themeId": "555eeb86-8bc0-44a3-8776-35281d21c030",
+      "status": "uploaded"
+    },
+    {
+      "slug": "batteries-power-systems-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000024",
+      "industry": "Batteries & Power Systems",
+      "platform": "MOBILE",
+      "themeId": "35b11ec5-6e42-4f6e-985f-a34d3d8ee410",
+      "status": "uploaded"
+    },
+    {
+      "slug": "oil-lubricants-industrial-fluids-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000025",
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "WEB",
+      "themeId": "5e93020c-612e-496f-b651-b3dd48bef964",
+      "status": "uploaded"
+    },
+    {
+      "slug": "oil-lubricants-industrial-fluids-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000025",
+      "industry": "Oil, Lubricants & Industrial Fluids",
+      "platform": "MOBILE",
+      "themeId": "8dd8fd34-5f03-496e-8930-9394194e7cad",
+      "status": "uploaded"
+    },
+    {
+      "slug": "marine-port-supplies-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000026",
+      "industry": "Marine & Port Supplies",
+      "platform": "WEB",
+      "themeId": "4060fd56-efc6-4312-8330-fcad918c353b",
+      "status": "uploaded"
+    },
+    {
+      "slug": "marine-port-supplies-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000026",
+      "industry": "Marine & Port Supplies",
+      "platform": "MOBILE",
+      "themeId": "601de864-43e1-4499-8909-7d92830e5365",
+      "status": "uploaded"
+    },
+    {
+      "slug": "aviation-mro-consumables-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000027",
+      "industry": "Aviation & MRO Consumables",
+      "platform": "WEB",
+      "themeId": "0752f48d-15ae-4f44-b45f-643c751b5925",
+      "status": "uploaded"
+    },
+    {
+      "slug": "aviation-mro-consumables-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000027",
+      "industry": "Aviation & MRO Consumables",
+      "platform": "MOBILE",
+      "themeId": "2b470702-2561-4393-aa9b-317bbb8e3346",
+      "status": "uploaded"
+    },
+    {
+      "slug": "railway-industrial-oem-supplies-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000028",
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "WEB",
+      "themeId": "fcb5eefc-10fa-4caf-86c6-e8243a13fcdc",
+      "status": "uploaded"
+    },
+    {
+      "slug": "railway-industrial-oem-supplies-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000028",
+      "industry": "Railway & Industrial OEM Supplies",
+      "platform": "MOBILE",
+      "themeId": "00c7d5c6-88a6-42b2-bbc4-16681f3b66e2",
+      "status": "uploaded"
+    },
+    {
+      "slug": "defence-aerospace-industrial-supply-web-theme",
+      "industryId": "10000000-0000-4000-8000-000000000029",
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "WEB",
+      "themeId": "c15018a0-f824-48d6-bc88-7752419afd4a",
+      "status": "uploaded"
+    },
+    {
+      "slug": "defence-aerospace-industrial-supply-app-theme",
+      "industryId": "10000000-0000-4000-8000-000000000029",
+      "industry": "Defence & Aerospace Industrial Supply",
+      "platform": "MOBILE",
+      "themeId": "5b11a50e-a69c-49a6-bad3-d7a8cd8408b6",
+      "status": "uploaded"
+    },
+    {
+      "slug": "laboratory-scientific-equipment-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002a",
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "WEB",
+      "themeId": "4d2d5dd7-5696-442c-9161-603a34009300",
+      "status": "uploaded"
+    },
+    {
+      "slug": "laboratory-scientific-equipment-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002a",
+      "industry": "Laboratory & Scientific Equipment",
+      "platform": "MOBILE",
+      "themeId": "0ea7fd5c-6b26-4a62-9970-db17db0578ac",
+      "status": "uploaded"
+    },
+    {
+      "slug": "pet-care-veterinary-distribution-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002b",
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "WEB",
+      "themeId": "9ade53a5-344e-41ad-8ee3-b116693ec941",
+      "status": "uploaded"
+    },
+    {
+      "slug": "pet-care-veterinary-distribution-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002b",
+      "industry": "Pet Care & Veterinary Distribution",
+      "platform": "MOBILE",
+      "themeId": "9e335267-c1fd-4201-8571-fc606cd05acb",
+      "status": "uploaded"
+    },
+    {
+      "slug": "toys-general-merchandise-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002c",
+      "industry": "Toys & General Merchandise",
+      "platform": "WEB",
+      "themeId": "8c844e12-99fc-4d65-87db-af9b232fb6f3",
+      "status": "uploaded"
+    },
+    {
+      "slug": "toys-general-merchandise-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002c",
+      "industry": "Toys & General Merchandise",
+      "platform": "MOBILE",
+      "themeId": "e2795cdc-d06e-4c32-ae5d-bcd7a63e0f41",
+      "status": "uploaded"
+    },
+    {
+      "slug": "sports-fitness-equipment-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002d",
+      "industry": "Sports & Fitness Equipment",
+      "platform": "WEB",
+      "themeId": "245251ee-d7fa-41ac-9735-3e46f45234f0",
+      "status": "uploaded"
+    },
+    {
+      "slug": "sports-fitness-equipment-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002d",
+      "industry": "Sports & Fitness Equipment",
+      "platform": "MOBILE",
+      "themeId": "cee87471-32f6-49b5-998f-1e18f96737fb",
+      "status": "uploaded"
+    },
+    {
+      "slug": "hospitality-restaurant-supplies-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002e",
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "WEB",
+      "themeId": "d89ad823-373d-443e-a817-1337fe038c5a",
+      "status": "uploaded"
+    },
+    {
+      "slug": "hospitality-restaurant-supplies-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002e",
+      "industry": "Hospitality & Restaurant Supplies",
+      "platform": "MOBILE",
+      "themeId": "cd6019e3-51e3-4535-bd02-9175ae2aa50b",
+      "status": "uploaded"
+    },
+    {
+      "slug": "metals-steel-non-ferrous-trade-web-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002f",
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "WEB",
+      "themeId": "de8d35ee-1b0d-46d3-9bc2-85a2e8439dae",
+      "status": "uploaded"
+    },
+    {
+      "slug": "metals-steel-non-ferrous-trade-app-theme",
+      "industryId": "10000000-0000-4000-8000-00000000002f",
+      "industry": "Metals, Steel & Non-ferrous Trade",
+      "platform": "MOBILE",
+      "themeId": "4ee44e56-da1f-4693-a044-576ae7d429d4",
+      "status": "uploaded"
+    }
+  ],
+  "verifiedCount": 94,
+  "invalidSlugs": []
+}

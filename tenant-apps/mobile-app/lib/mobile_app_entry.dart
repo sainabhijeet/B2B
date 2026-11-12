@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -9,19 +11,46 @@ import 'core/config/build_config.dart';
 import 'core/config/storefront_app_config_provider.dart';
 import 'core/theme/theme_model.dart';
 import 'core/theme/theme_provider.dart';
+import 'core/theme/app_typography.dart';
 import 'core/localization/language_contract.dart';
 import 'core/localization/language_provider.dart';
 import 'core/localization/preview_language_synchronizer.dart';
 import 'features/auth/auth_screen.dart';
+import 'shared/widgets/demo_catalog_notice.dart';
 
 const List<Locale> _fallbackSupportedLocales = <Locale>[Locale('en', 'IN')];
 
 /// Loads [storefrontAppConfigProvider] first, then either login-only or full [MobileApp].
-class MobileAppEntry extends ConsumerWidget {
+class MobileAppEntry extends ConsumerStatefulWidget {
   const MobileAppEntry({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<MobileAppEntry> createState() => _MobileAppEntryState();
+}
+
+class _MobileAppEntryState extends ConsumerState<MobileAppEntry>
+    with WidgetsBindingObserver {
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state != AppLifecycleState.resumed) return;
+    ref.invalidate(storefrontAppConfigProvider);
+    unawaited(ref.read(themeProvider.notifier).refreshFromStorefront());
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final cfgAsync = ref.watch(storefrontAppConfigProvider);
     cfgAsync.whenData((_) {
       ref.read(themeProvider.notifier).scheduleHydrateFromStorefront();
@@ -39,7 +68,7 @@ class MobileAppEntry extends ConsumerWidget {
     );
     final theme = ThemeData(
       useMaterial3: true,
-      fontFamily: 'Roboto',
+      fontFamily: appFontFamily,
       colorScheme: loginScheme,
       scaffoldBackgroundColor: loginScheme.surface,
       appBarTheme: AppBarTheme(
@@ -51,7 +80,7 @@ class MobileAppEntry extends ConsumerWidget {
           color: loginScheme.onSurface,
           fontSize: 18,
           fontWeight: FontWeight.w800,
-          fontFamily: 'Roboto',
+          fontFamily: appFontFamily,
         ),
       ),
       snackBarTheme: SnackBarThemeData(
@@ -68,7 +97,7 @@ class MobileAppEntry extends ConsumerWidget {
           color: loginScheme.onPrimary,
           fontSize: 14,
           fontWeight: FontWeight.w700,
-          fontFamily: 'Roboto',
+          fontFamily: appFontFamily,
         ),
       ),
     );
@@ -135,6 +164,12 @@ class MobileAppEntry extends ConsumerWidget {
                       .toList(growable: false)
                   : _fallbackSupportedLocales,
               theme: theme,
+              builder: (BuildContext context, Widget? child) =>
+                  DemoCatalogNoticeFrame(
+                enabled: c.isDemoCatalog,
+                message: c.catalogNotice,
+                child: child ?? const SizedBox.shrink(),
+              ),
               home: Directionality(
                 textDirection: BuildConfig.languageConsistencyEnabled
                     ? localizationContract.direction

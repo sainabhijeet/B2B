@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PrintQuarter",
+        "industryName": "Printing & Stationery",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PrintQuarter: Bring print room supplies and paper choices into focus.",
+        "subtitle": "Source cmyk ink set, a4 copier paper case and more from this printing & stationery trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "hero-editorial-left"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "PrintQuarter trade selection",
+        "subtitle": "Source cmyk ink set, a4 copier paper case and more from this printing & stationery trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PrintQuarter CMYK Ink Set",
+          "PrintQuarter A4 Copier Paper Case",
+          "PrintQuarter Premium Pen Box",
+          "PrintQuarter Spiral Binding Coil",
+          "PrintQuarter Thermal Paper Roll",
+          "PrintQuarter Executive Notebook Pack"
+        ],
+        "prices": [
+          "INR 1,850",
+          "INR 1,450",
+          "INR 350",
+          "INR 450",
+          "INR 850",
+          "INR 650"
+        ],
+        "products": [
+          {
+            "id": "printing-stationery-web-theme-product-1",
+            "slug": "printquarter-cmyk-ink-set",
+            "sku": "WEB-19-1",
+            "name": "PrintQuarter CMYK Ink Set",
+            "description": "CMYK Ink Set from PrintQuarter's printing supplies assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "printing-supplies",
+            "categoryId": "printing-stationery-web-theme-category-1",
+            "categoryName": "PrintQuarter Printing Supplies",
+            "brand": "PrintQuarter",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-01.jpg",
+            "stock": 122,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter CMYK Ink Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-web-theme-product-2",
+            "slug": "printquarter-a4-copier-paper-case",
+            "sku": "WEB-19-2",
+            "name": "PrintQuarter A4 Copier Paper Case",
+            "description": "A4 Copier Paper Case from PrintQuarter's office paper assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "office-paper",
+            "categoryId": "printing-stationery-web-theme-category-2",
+            "categoryName": "PrintQuarter Office Paper",
+            "brand": "PrintQuarter",
+            "price": 1450,
+            "currency": "INR",
+            "priceLabel": "INR 1,450",
+            "image": "assets/images/product-02.jpg",
+            "stock": 133,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1711,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1450
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1378
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1305
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter A4 Copier Paper Case",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-web-theme-product-3",
+            "slug": "printquarter-premium-pen-box",
+            "sku": "WEB-19-3",
+            "name": "PrintQuarter Premium Pen Box",
+            "description": "Premium Pen Box from PrintQuarter's writing instruments assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "writing-instruments",
+            "categoryId": "printing-stationery-web-theme-category-3",
+            "categoryName": "PrintQuarter Writing Instruments",
+            "brand": "PrintQuarter",
+            "price": 350,
+            "currency": "INR",
+            "priceLabel": "INR 350",
+            "image": "assets/images/product-03.jpg",
+            "stock": 144,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 413,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 350
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 333
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 315
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter Premium Pen Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-web-theme-product-4",
+            "slug": "printquarter-spiral-binding-coil",
+            "sku": "WEB-19-4",
+            "name": "PrintQuarter Spiral Binding Coil",
+            "description": "Spiral Binding Coil from PrintQuarter's binding materials assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "binding-materials",
+            "categoryId": "printing-stationery-web-theme-category-4",
+            "categoryName": "PrintQuarter Binding Materials",
+            "brand": "PrintQuarter",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-04.jpg",
+            "stock": 155,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter Spiral Binding Coil",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-web-theme-product-5",
+            "slug": "printquarter-thermal-paper-roll",
+            "sku": "WEB-19-5",
+            "name": "PrintQuarter Thermal Paper Roll",
+            "description": "Thermal Paper Roll from PrintQuarter's office paper assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "office-paper",
+            "categoryId": "printing-stationery-web-theme-category-2",
+            "categoryName": "PrintQuarter Office Paper",
+            "brand": "PrintQuarter",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-05.jpg",
+            "stock": 166,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter Thermal Paper Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "printing-stationery-web-theme-product-6",
+            "slug": "printquarter-executive-notebook-pack",
+            "sku": "WEB-19-6",
+            "name": "PrintQuarter Executive Notebook Pack",
+            "description": "Executive Notebook Pack from PrintQuarter's office paper assortment. Bring print room supplies and paper choices into focus. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "office-paper",
+            "categoryId": "printing-stationery-web-theme-category-2",
+            "categoryName": "PrintQuarter Office Paper",
+            "brand": "PrintQuarter",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-06.jpg",
+            "stock": 177,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PrintQuarter Executive Notebook Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact",
+        "cardStyle": "editorial",
+        "columns": 3
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with PrintQuarter",
+        "items": [
+          {
+            "icon": "01",
+            "title": "PrintQuarter Printing Supplies",
+            "text": "Start with cmyk ink set and compare the PrintQuarter sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "PrintQuarter quantity breaks",
+            "text": "Review MOQ and bulk tiers for a4 copier paper case before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "PrintQuarter sourcing lists",
+            "text": "Source cmyk ink set, a4 copier paper case and more from this printing & stationery trade collection."
+          }
+        ],
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "PrintQuarter collections",
+        "subtitle": "Choose your next printing & stationery order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "PrintQuarter Printing Supplies",
+          "PrintQuarter Office Paper",
+          "PrintQuarter Writing Instruments",
+          "PrintQuarter Binding Materials"
+        ],
+        "categories": [
+          {
+            "id": "printing-stationery-web-theme-category-1",
+            "slug": "printing-supplies",
+            "name": "PrintQuarter Printing Supplies",
+            "description": "Explore PrintQuarter's printing supplies selection for printing & stationery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "printing-stationery-web-theme-category-2",
+            "slug": "office-paper",
+            "name": "PrintQuarter Office Paper",
+            "description": "Explore PrintQuarter's office paper selection for printing & stationery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "printing-stationery-web-theme-category-3",
+            "slug": "writing-instruments",
+            "name": "PrintQuarter Writing Instruments",
+            "description": "Explore PrintQuarter's writing instruments selection for printing & stationery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "printing-stationery-web-theme-category-4",
+            "slug": "binding-materials",
+            "name": "PrintQuarter Binding Materials",
+            "description": "Explore PrintQuarter's binding materials selection for printing & stationery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact",
+        "categoryStyle": "split-cards"
+      },
+      "variant": "categories-split-cards"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next printing & stationery assortment with PrintQuarter",
+        "body": "Bring print room supplies and paper choices into focus. Source cmyk ink set, a4 copier paper case and more from this printing & stationery trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "PrintQuarter sample buyer story",
+        "quote": "Our demo printing & stationery buying team can compare cmyk ink set and premium pen box in one sourcing catalog.",
+        "author": "Fictional PrintQuarter buyer — demo feedback",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow PrintQuarter arrivals",
+        "subtitle": "Sample updates about spiral binding coil and printquarter printing supplies.",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "PrintQuarter trade savings",
+        "subtitle": "Sample quantity breaks for premium pen box and the printing & stationery catalog. Demo offers only.",
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PrintQuarter",
+        "industryName": "Printing & Stationery",
+        "tagline": "Source cmyk ink set, a4 copier paper case and more from this printing & stationery trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-19-web",
+        "layoutMode": "Print room catalogue",
+        "density": "compact"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-19-web"
+}

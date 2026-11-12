@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "OfficeParcel",
+        "industryName": "Office Supplies & B2B Stationery",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "OfficeParcel: your office supplies & b2b stationery restock list",
+        "subtitle": "Browse binder clip assortment, expanding document folder and a dedicated office supplies & b2b stationery mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "hero-asymmetric"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with OfficeParcel",
+        "items": [
+          {
+            "icon": "01",
+            "title": "OfficeParcel Desk Supplies",
+            "text": "Start with binder clip assortment and compare the OfficeParcel sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "OfficeParcel quantity breaks",
+            "text": "Review MOQ and bulk tiers for expanding document folder before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "OfficeParcel repeat orders",
+            "text": "Browse binder clip assortment, expanding document folder and a dedicated office supplies & b2b stationery mobile assortment."
+          }
+        ],
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "OfficeParcel restock picks",
+        "subtitle": "Browse binder clip assortment, expanding document folder and a dedicated office supplies & b2b stationery mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "OfficeParcel Binder Clip Assortment",
+          "OfficeParcel Expanding Document Folder",
+          "OfficeParcel Sticky Note Cube Set",
+          "OfficeParcel Presentation Flip Chart",
+          "OfficeParcel Heavy Duty Stapler",
+          "OfficeParcel Archive Storage Carton"
+        ],
+        "prices": [
+          "INR 714",
+          "INR 728",
+          "INR 1,349",
+          "INR 2,592",
+          "INR 342",
+          "INR 413"
+        ],
+        "products": [
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-1",
+            "slug": "officeparcel-binder-clip-assortment",
+            "sku": "APP-29-1",
+            "name": "OfficeParcel Binder Clip Assortment",
+            "description": "Binder Clip Assortment for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with desk supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "desk-supplies",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-1",
+            "categoryName": "OfficeParcel Desk Supplies",
+            "brand": "OfficeParcel",
+            "price": 714,
+            "currency": "INR",
+            "priceLabel": "INR 714",
+            "image": "assets/images/product-01.jpg",
+            "stock": 125,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 843,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 714
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 678
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 643
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Binder Clip Assortment",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-2",
+            "slug": "officeparcel-expanding-document-folder",
+            "sku": "APP-29-2",
+            "name": "OfficeParcel Expanding Document Folder",
+            "description": "Expanding Document Folder for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with filing & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "filing-storage",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-2",
+            "categoryName": "OfficeParcel Filing & Storage",
+            "brand": "OfficeParcel",
+            "price": 728,
+            "currency": "INR",
+            "priceLabel": "INR 728",
+            "image": "assets/images/product-02.jpg",
+            "stock": 136,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 859,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 728
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 692
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 655
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Expanding Document Folder",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-3",
+            "slug": "officeparcel-sticky-note-cube-set",
+            "sku": "APP-29-3",
+            "name": "OfficeParcel Sticky Note Cube Set",
+            "description": "Sticky Note Cube Set for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with paper products so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "paper-products",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-3",
+            "categoryName": "OfficeParcel Paper Products",
+            "brand": "OfficeParcel",
+            "price": 1349,
+            "currency": "INR",
+            "priceLabel": "INR 1,349",
+            "image": "assets/images/product-03.jpg",
+            "stock": 147,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1592,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1349
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1282
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1214
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Sticky Note Cube Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-4",
+            "slug": "officeparcel-presentation-flip-chart",
+            "sku": "APP-29-4",
+            "name": "OfficeParcel Presentation Flip Chart",
+            "description": "Presentation Flip Chart for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with meeting supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "meeting-supplies",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-4",
+            "categoryName": "OfficeParcel Meeting Supplies",
+            "brand": "OfficeParcel",
+            "price": 2592,
+            "currency": "INR",
+            "priceLabel": "INR 2,592",
+            "image": "assets/images/product-04.jpg",
+            "stock": 158,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 3059,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2592
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2333
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Presentation Flip Chart",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-5",
+            "slug": "officeparcel-heavy-duty-stapler",
+            "sku": "APP-29-5",
+            "name": "OfficeParcel Heavy Duty Stapler",
+            "description": "Heavy Duty Stapler for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with desk supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "desk-supplies",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-1",
+            "categoryName": "OfficeParcel Desk Supplies",
+            "brand": "OfficeParcel",
+            "price": 342,
+            "currency": "INR",
+            "priceLabel": "INR 342",
+            "image": "assets/images/product-05.jpg",
+            "stock": 169,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 404,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 342
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 325
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 308
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Heavy Duty Stapler",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-product-6",
+            "slug": "officeparcel-archive-storage-carton",
+            "sku": "APP-29-6",
+            "name": "OfficeParcel Archive Storage Carton",
+            "description": "Archive Storage Carton for your office supplies & b2b stationery replenishment list. OfficeParcel groups this item with filing & storage so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "filing-storage",
+            "categoryId": "office-supplies-b2b-stationery-app-theme-category-2",
+            "categoryName": "OfficeParcel Filing & Storage",
+            "brand": "OfficeParcel",
+            "price": 413,
+            "currency": "INR",
+            "priceLabel": "INR 413",
+            "image": "assets/images/product-06.jpg",
+            "stock": 180,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 487,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 413
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 392
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 372
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: OfficeParcel Archive Storage Carton",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced",
+        "cardStyle": "spec-card",
+        "columns": 1
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your OfficeParcel buying list, wherever work takes you",
+        "body": "Make office replenishment easy to browse and repeat. Browse binder clip assortment, expanding document folder and a dedicated office supplies & b2b stationery mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "OfficeParcel collections",
+        "subtitle": "Choose your next office supplies & b2b stationery order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "OfficeParcel Desk Supplies",
+          "OfficeParcel Filing & Storage",
+          "OfficeParcel Paper Products",
+          "OfficeParcel Meeting Supplies"
+        ],
+        "categories": [
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-category-1",
+            "slug": "desk-supplies",
+            "name": "OfficeParcel Desk Supplies",
+            "description": "Pick desk supplies for your office supplies & b2b stationery replenishment list with OfficeParcel.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-category-2",
+            "slug": "filing-storage",
+            "name": "OfficeParcel Filing & Storage",
+            "description": "Pick filing & storage for your office supplies & b2b stationery replenishment list with OfficeParcel.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-category-3",
+            "slug": "paper-products",
+            "name": "OfficeParcel Paper Products",
+            "description": "Pick paper products for your office supplies & b2b stationery replenishment list with OfficeParcel.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "office-supplies-b2b-stationery-app-theme-category-4",
+            "slug": "meeting-supplies",
+            "name": "OfficeParcel Meeting Supplies",
+            "description": "Pick meeting supplies for your office supplies & b2b stationery replenishment list with OfficeParcel.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced",
+        "categoryStyle": "compact-chips"
+      },
+      "variant": "categories-compact-chips"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow OfficeParcel arrivals",
+        "subtitle": "Sample updates about presentation flip chart and officeparcel desk supplies.",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "OfficeParcel sample buyer story",
+        "quote": "Our demo office supplies & b2b stationery buying team can compare binder clip assortment and sticky note cube set in one restock list.",
+        "author": "Fictional OfficeParcel buyer — demo feedback",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "OfficeParcel restock savings",
+        "subtitle": "Sample quantity breaks for sticky note cube set and the office supplies & b2b stationery catalog. Demo offers only.",
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "OfficeParcel",
+        "industryName": "Office Supplies & B2B Stationery",
+        "tagline": "Browse binder clip assortment, expanding document folder and a dedicated office supplies & b2b stationery mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-29-app",
+        "layoutMode": "Office replenishment desk / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-29-app"
+}

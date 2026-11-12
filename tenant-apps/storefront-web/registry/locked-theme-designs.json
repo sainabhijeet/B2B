@@ -1,0 +1,33 @@
+{
+  "jewelry-diamond-web-theme": {
+    "status": "locked",
+    "designId": "ds-06-web-aurelia-elan",
+    "approvedVersion": "1.7.1",
+    "note": "The Aurelia Jewelry / Diamond visual design is owner-approved and may change only with explicit owner permission.",
+    "files": {
+      "assets/css/theme.css": "494c41eb5bea0f4b68ab4779fa978f73006952e8037eeb63cf97edb1fb4e1715",
+      "assets/images/aurelia-hero-original-v2.png": "45ddfbdb88075d9a3819b62c412f153b52e902731800dd683c13dbcd23a62406",
+      "assets/images/aurelia-journal-cuff-original.png": "b5d591fa1cf0a1bcdee5db69c16ff6d32494f3a1f658a47d30f3810523429037",
+      "assets/images/aurelia-ring-macro-original.png": "12f9259b715149c0b3f3f20a55892d035987c3875d42cf4fac9c27ab9b3b855e",
+      "assets/images/collection-necklace-v2.png": "0b4f5ee496aecf31bd00ff33890d01ce1a0a30cc04bf5eafb629be06729c3137",
+      "assets/images/collection-rings-v2.png": "0c08a51b2d3e8f8fffa0e8685bc3bc7c1d6e39e67a81f1219be8ada614bf4101",
+      "assets/images/hero-editorial.png": "ee256ad8d64b29c2b62d15579f85f48d75e7278231c18b4e7b8b733cd11d263f",
+      "assets/images/logo.svg": "e76a82665fa327208efe9979d8286961f397f0a31830f724b0bc05321eb6a29d",
+      "assets/images/product-01.jpg": "f10fd55ec1d60e813e0b2cec00d01d930e27c027a3bbb4871eeab7dc40adc80b",
+      "assets/images/product-02.jpg": "c9c3a8d48a1ee3707f03ae48a4411c3371e4b9ac17f6d94ec3348b6f3e9f5e0e",
+      "assets/images/product-03.jpg": "da071a112e532215b4fa3611ffbe46c8d605fd700e84b24e0c1a705684786b02",
+      "assets/images/product-04.jpg": "b2295adcc201cf636afac1ca48a48188c547ec996709745d8ec7fa4df11f71ba",
+      "assets/images/product-05.jpg": "5fa622772fd3ec248dfe61ee1b45fffe637498f512490aae095a92edf41d5763",
+      "assets/images/product-06.jpg": "a18e2866ad2fee4764c01ff3062071df041ae80728ed094dddeb983ccdcf92c0",
+      "templates/about.json": "7dd15e589fdf1efb4be3809a4dceeffcf7e5679bd3806d80a0923e7a3842e97a",
+      "templates/blog.json": "11fd8bcde596e39aca4eb4b16704b6ebf53c655438d2589c0a1f32dfb5ed1659",
+      "templates/category.json": "295cecccde0ae69be63d577164e557cb93848a06ab4711dd7127bc5a8046296c",
+      "templates/home.json": "9584a632126ec9c83a4c9117343b0ad5c8e035f6706ab0c9a3cd84b54beb520d",
+      "templates/product.json": "bcd650079af2dec0d6bb45451e932459e12024dd7747faa8fe98026fabf20212",
+      "tokens/colors.json": "eca366ee37bbe9946719f8fe1f4d4e8aa2e3f4a42988cd930e16258173c61e95",
+      "tokens/layout.json": "b5d77c5f3eaa654b3a606cd9b859e06c9c794c2208617d7fba3c3c35ef35d2e4",
+      "tokens/spacing.json": "b0d7417b23bcefca2145f194c4d36b4cb40f1850232d6a8d35d4c429dc7d3e3a",
+      "tokens/typography.json": "ed777a02f93ad834de13b2ede788e3f677f4a0a0fe48a1eac216689c9b10a2b6"
+    }
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000002e",
+  "industry": "Hospitality & Restaurant Supplies",
+  "themeName": "Hospitality & Restaurant Supplies App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "HotelPocket",
+    "industry": "Hospitality & Restaurant Supplies",
+    "tagline": "Browse countertop induction hob, stackable drinking glass set and a dedicated hospitality & restaurant supplies mobile assortment.",
+    "email": "hello@hotelpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "HotelPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in HotelPocket's hospitality & restaurant supplies range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "HotelPocket sample buyer story",
+      "quote": "Our demo hospitality & restaurant supplies buying team can compare countertop induction hob and commercial mop bucket in one restock list.",
+      "author": "Fictional HotelPocket buyer — demo feedback",
+      "designId": "ds-46-app",
+      "layoutMode": "Hospitality service book / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-category-1",
+      "slug": "commercial-kitchen",
+      "name": "HotelPocket Commercial Kitchen",
+      "description": "Pick commercial kitchen for your hospitality & restaurant supplies replenishment list with HotelPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-category-2",
+      "slug": "tableware",
+      "name": "HotelPocket Tableware",
+      "description": "Pick tableware for your hospitality & restaurant supplies replenishment list with HotelPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-category-3",
+      "slug": "housekeeping",
+      "name": "HotelPocket Housekeeping",
+      "description": "Pick housekeeping for your hospitality & restaurant supplies replenishment list with HotelPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-category-4",
+      "slug": "guest-supplies",
+      "name": "HotelPocket Guest Supplies",
+      "description": "Pick guest supplies for your hospitality & restaurant supplies replenishment list with HotelPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-1",
+      "slug": "hotelpocket-countertop-induction-hob",
+      "sku": "APP-46-1",
+      "name": "HotelPocket Countertop Induction Hob",
+      "description": "Countertop Induction Hob for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with commercial kitchen so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "commercial-kitchen",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-1",
+      "categoryName": "HotelPocket Commercial Kitchen",
+      "brand": "HotelPocket",
+      "price": 35280,
+      "currency": "INR",
+      "priceLabel": "INR 35,280",
+      "image": "assets/images/product-01.jpg",
+      "stock": 176,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 41630,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 35280
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 33516
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 31752
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Countertop Induction Hob",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-2",
+      "slug": "hotelpocket-stackable-drinking-glass-set",
+      "sku": "APP-46-2",
+      "name": "HotelPocket Stackable Drinking Glass Set",
+      "description": "Stackable Drinking Glass Set for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with tableware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "tableware",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-2",
+      "categoryName": "HotelPocket Tableware",
+      "brand": "HotelPocket",
+      "price": 7280,
+      "currency": "INR",
+      "priceLabel": "INR 7,280",
+      "image": "assets/images/product-02.jpg",
+      "stock": 187,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 8590,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 7280
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 6916
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 6552
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Stackable Drinking Glass Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-3",
+      "slug": "hotelpocket-commercial-mop-bucket",
+      "sku": "APP-46-3",
+      "name": "HotelPocket Commercial Mop Bucket",
+      "description": "Commercial Mop Bucket for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with housekeeping so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "housekeeping",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-3",
+      "categoryName": "HotelPocket Housekeeping",
+      "brand": "HotelPocket",
+      "price": 7905,
+      "currency": "INR",
+      "priceLabel": "INR 7,905",
+      "image": "assets/images/product-03.jpg",
+      "stock": 198,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 9328,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 7905
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 7510
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 7115
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Commercial Mop Bucket",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-4",
+      "slug": "hotelpocket-guest-slipper-pack",
+      "sku": "APP-46-4",
+      "name": "HotelPocket Guest Slipper Pack",
+      "description": "Guest Slipper Pack for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with guest supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "guest-supplies",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-4",
+      "categoryName": "HotelPocket Guest Supplies",
+      "brand": "HotelPocket",
+      "price": 1026,
+      "currency": "INR",
+      "priceLabel": "INR 1,026",
+      "image": "assets/images/product-04.jpg",
+      "stock": 209,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1211,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1026
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 975
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 923
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Guest Slipper Pack",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-5",
+      "slug": "hotelpocket-stainless-prep-table",
+      "sku": "APP-46-5",
+      "name": "HotelPocket Stainless Prep Table",
+      "description": "Stainless Prep Table for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with commercial kitchen so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "commercial-kitchen",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-1",
+      "categoryName": "HotelPocket Commercial Kitchen",
+      "brand": "HotelPocket",
+      "price": 1102,
+      "currency": "INR",
+      "priceLabel": "INR 1,102",
+      "image": "assets/images/product-05.jpg",
+      "stock": 220,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1300,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1102
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1047
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 992
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Stainless Prep Table",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "hospitality-restaurant-supplies-app-theme-product-6",
+      "slug": "hotelpocket-buffet-serving-platter",
+      "sku": "APP-46-6",
+      "name": "HotelPocket Buffet Serving Platter",
+      "description": "Buffet Serving Platter for your hospitality & restaurant supplies replenishment list. HotelPocket groups this item with tableware so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "tableware",
+      "categoryId": "hospitality-restaurant-supplies-app-theme-category-2",
+      "categoryName": "HotelPocket Tableware",
+      "brand": "HotelPocket",
+      "price": 2183,
+      "currency": "INR",
+      "priceLabel": "INR 2,183",
+      "image": "assets/images/product-06.jpg",
+      "stock": 231,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 2576,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 2183
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2074
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1965
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: HotelPocket Buffet Serving Platter",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-46-app",
+    "direction": "Hospitality service book / pocket workflow",
+    "header": "centered-nav",
+    "headerIdentity": "header-46-app",
+    "headerStructure": "shell-4-composition-8",
+    "hero": "editorial-left",
+    "categories": "split-cards",
+    "productCards": "editorial",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "marketplace",
+    "footerIdentity": "footer-46-app",
+    "footerStructure": "shell-4-composition-7",
+    "density": "compact",
+    "responsiveStrategy": "grid"
+  }
+}

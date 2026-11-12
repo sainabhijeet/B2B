@@ -6,17 +6,28 @@ import WishlistPageClient, { type WishlistItem } from "@/components/wishlist/Wis
 import { getStorefrontLanguage } from "@/lib/storefront-language";
 import { storefrontAuthedFetchReadOnly } from "@/lib/storefrontAuthedFetch";
 import { translate } from "@/lib/translation-engine";
+import PreviewWishlistPageClient from "@/components/wishlist/PreviewWishlistPageClient";
+import { isDemoCatalog, resolveStorefrontTheme } from "@/lib/resolve-storefront-theme";
 
 export const metadata: Metadata = {
   title: "Wishlist",
   description: "Your saved products",
 };
 
-export default async function WishlistPage() {
-  const [language, response] = await Promise.all([
-    getStorefrontLanguage(),
-    storefrontAuthedFetchReadOnly("/wishlist"),
-  ]);
+type Search = Promise<Record<string, string | string[] | undefined>>;
+
+export default async function WishlistPage({ searchParams }: { searchParams: Search }) {
+  const sp = await searchParams;
+  const previewMode = (Array.isArray(sp.previewMode) ? sp.previewMode[0] : sp.previewMode) === "1";
+  const tenantId = Array.isArray(sp.tenantId) ? sp.tenantId[0] : sp.tenantId;
+  const tenantSlug = Array.isArray(sp.tenant) ? sp.tenant[0] : sp.tenant;
+  const language = await getStorefrontLanguage();
+  const resolved = await resolveStorefrontTheme(null, { tenantId, tenantSlug, previewMode });
+  const variant = resolved.storefrontKey === "chemicals-specialty-materials-web-theme" ? "materialbridge" : "standard";
+  if (previewMode || isDemoCatalog(resolved)) {
+    return <StorefrontLocaleFrame languageCode={language} className="theme-storefront"><PreviewWishlistPageClient languageCode={language} variant={variant} /></StorefrontLocaleFrame>;
+  }
+  const response = await storefrontAuthedFetchReadOnly("/wishlist");
   const t = (value: string) => translate(value, language);
 
   if (response.status === 401 || response.status === 403) {
@@ -48,7 +59,7 @@ export default async function WishlistPage() {
   const items = Array.isArray(payload?.data?.items) ? payload.data.items : [];
   return (
     <StorefrontLocaleFrame languageCode={language} className="theme-storefront">
-      <WishlistPageClient initialItems={items} languageCode={language} />
+      <WishlistPageClient initialItems={items} languageCode={language} variant={variant} />
     </StorefrontLocaleFrame>
   );
 }

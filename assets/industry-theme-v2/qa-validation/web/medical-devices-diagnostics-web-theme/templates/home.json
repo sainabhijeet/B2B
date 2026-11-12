@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ClinicalSource",
+        "industryName": "Medical Devices & Diagnostics",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ClinicalSource: Present clinical equipment and consumables in one clear catalog.",
+        "subtitle": "Source portable ecg monitor, digital bp machine and more from this medical devices & diagnostics trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "hero-editorial-left"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "ClinicalSource collections",
+        "subtitle": "Choose your next medical devices & diagnostics order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "ClinicalSource Diagnostic Equipment",
+          "ClinicalSource Patient Monitoring",
+          "ClinicalSource Medical Disposables",
+          "ClinicalSource Clinical Furniture"
+        ],
+        "categories": [
+          {
+            "id": "medical-devices-diagnostics-web-theme-category-1",
+            "slug": "diagnostic-equipment",
+            "name": "ClinicalSource Diagnostic Equipment",
+            "description": "Explore ClinicalSource's diagnostic equipment selection for medical devices & diagnostics buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-category-2",
+            "slug": "patient-monitoring",
+            "name": "ClinicalSource Patient Monitoring",
+            "description": "Explore ClinicalSource's patient monitoring selection for medical devices & diagnostics buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-category-3",
+            "slug": "medical-disposables",
+            "name": "ClinicalSource Medical Disposables",
+            "description": "Explore ClinicalSource's medical disposables selection for medical devices & diagnostics buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-category-4",
+            "slug": "clinical-furniture",
+            "name": "ClinicalSource Clinical Furniture",
+            "description": "Explore ClinicalSource's clinical furniture selection for medical devices & diagnostics buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced",
+        "categoryStyle": "split-cards"
+      },
+      "variant": "categories-split-cards"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with ClinicalSource",
+        "items": [
+          {
+            "icon": "01",
+            "title": "ClinicalSource Diagnostic Equipment",
+            "text": "Start with portable ecg monitor and compare the ClinicalSource sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "ClinicalSource quantity breaks",
+            "text": "Review MOQ and bulk tiers for digital bp machine before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "ClinicalSource sourcing lists",
+            "text": "Source portable ecg monitor, digital bp machine and more from this medical devices & diagnostics trade collection."
+          }
+        ],
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow ClinicalSource arrivals",
+        "subtitle": "Sample updates about patient examination bed and clinicalsource diagnostic equipment.",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "ClinicalSource trade selection",
+        "subtitle": "Source portable ecg monitor, digital bp machine and more from this medical devices & diagnostics trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ClinicalSource Portable ECG Monitor",
+          "ClinicalSource Digital BP Machine",
+          "ClinicalSource Sterile Syringe Box",
+          "ClinicalSource Patient Examination Bed",
+          "ClinicalSource Pulse Oximeter",
+          "ClinicalSource Diagnostic Test Kit"
+        ],
+        "prices": [
+          "INR 28,500",
+          "INR 1,499",
+          "INR 650",
+          "INR 12,500",
+          "INR 899",
+          "INR 1,800"
+        ],
+        "products": [
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-1",
+            "slug": "clinicalsource-portable-ecg-monitor",
+            "sku": "WEB-11-1",
+            "name": "ClinicalSource Portable ECG Monitor",
+            "description": "Portable ECG Monitor from ClinicalSource's diagnostic equipment assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "diagnostic-equipment",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-1",
+            "categoryName": "ClinicalSource Diagnostic Equipment",
+            "brand": "ClinicalSource",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 98,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Portable ECG Monitor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-2",
+            "slug": "clinicalsource-digital-bp-machine",
+            "sku": "WEB-11-2",
+            "name": "ClinicalSource Digital BP Machine",
+            "description": "Digital BP Machine from ClinicalSource's patient monitoring assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "patient-monitoring",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-2",
+            "categoryName": "ClinicalSource Patient Monitoring",
+            "brand": "ClinicalSource",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-02.jpg",
+            "stock": 109,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Digital BP Machine",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-3",
+            "slug": "clinicalsource-sterile-syringe-box",
+            "sku": "WEB-11-3",
+            "name": "ClinicalSource Sterile Syringe Box",
+            "description": "Sterile Syringe Box from ClinicalSource's medical disposables assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "medical-disposables",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-3",
+            "categoryName": "ClinicalSource Medical Disposables",
+            "brand": "ClinicalSource",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 120,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Sterile Syringe Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-4",
+            "slug": "clinicalsource-patient-examination-bed",
+            "sku": "WEB-11-4",
+            "name": "ClinicalSource Patient Examination Bed",
+            "description": "Patient Examination Bed from ClinicalSource's clinical furniture assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "clinical-furniture",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-4",
+            "categoryName": "ClinicalSource Clinical Furniture",
+            "brand": "ClinicalSource",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 131,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Patient Examination Bed",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-5",
+            "slug": "clinicalsource-pulse-oximeter",
+            "sku": "WEB-11-5",
+            "name": "ClinicalSource Pulse Oximeter",
+            "description": "Pulse Oximeter from ClinicalSource's patient monitoring assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "patient-monitoring",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-2",
+            "categoryName": "ClinicalSource Patient Monitoring",
+            "brand": "ClinicalSource",
+            "price": 899,
+            "currency": "INR",
+            "priceLabel": "INR 899",
+            "image": "assets/images/product-05.jpg",
+            "stock": 142,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1061,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 899
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 854
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 809
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Pulse Oximeter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-web-theme-product-6",
+            "slug": "clinicalsource-diagnostic-test-kit",
+            "sku": "WEB-11-6",
+            "name": "ClinicalSource Diagnostic Test Kit",
+            "description": "Diagnostic Test Kit from ClinicalSource's diagnostic equipment assortment. Present clinical equipment and consumables in one clear catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "diagnostic-equipment",
+            "categoryId": "medical-devices-diagnostics-web-theme-category-1",
+            "categoryName": "ClinicalSource Diagnostic Equipment",
+            "brand": "ClinicalSource",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-06.jpg",
+            "stock": 153,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClinicalSource Diagnostic Test Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced",
+        "cardStyle": "editorial",
+        "columns": 4
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next medical devices & diagnostics assortment with ClinicalSource",
+        "body": "Present clinical equipment and consumables in one clear catalog. Source portable ecg monitor, digital bp machine and more from this medical devices & diagnostics trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "ClinicalSource sample buyer story",
+        "quote": "Our demo medical devices & diagnostics buying team can compare portable ecg monitor and sterile syringe box in one sourcing catalog.",
+        "author": "Fictional ClinicalSource buyer — demo feedback",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "ClinicalSource trade savings",
+        "subtitle": "Sample quantity breaks for sterile syringe box and the medical devices & diagnostics catalog. Demo offers only.",
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ClinicalSource",
+        "industryName": "Medical Devices & Diagnostics",
+        "tagline": "Source portable ecg monitor, digital bp machine and more from this medical devices & diagnostics trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-11-web",
+        "layoutMode": "Diagnostics equipment lab",
+        "density": "balanced"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-11-web"
+}

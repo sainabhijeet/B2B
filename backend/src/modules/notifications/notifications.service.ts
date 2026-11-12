@@ -207,10 +207,12 @@ export class NotificationsService implements OnModuleDestroy {
   }
 
   async unreadCount(user: JwtUserPayload) {
+    if (!user.tenantId)
+      throw new ForbiddenException('Tenant context required.');
     const count = await this.notificationsRepo.count({
       where: {
         userId: user.sub,
-        tenantId: user.tenantId ?? undefined,
+        tenantId: user.tenantId,
         readAt: IsNull(),
       },
     });
@@ -218,20 +220,26 @@ export class NotificationsService implements OnModuleDestroy {
   }
 
   async markRead(user: JwtUserPayload, id: string) {
+    if (!user.tenantId)
+      throw new ForbiddenException('Tenant context required.');
     const row = await this.notificationsRepo.findOne({
-      where: { id, userId: user.sub, tenantId: user.tenantId ?? undefined },
+      where: { id, userId: user.sub, tenantId: user.tenantId },
     });
     if (!row) throw new ForbiddenException('Notification not found.');
-    row.readAt ??= new Date();
-    await this.notificationsRepo.save(row);
+    if (!row.readAt) {
+      row.readAt = new Date();
+      await this.notificationsRepo.save(row);
+    }
     return { success: true, data: row, meta: {}, message: '' };
   }
 
   async markAllRead(user: JwtUserPayload) {
+    if (!user.tenantId)
+      throw new ForbiddenException('Tenant context required.');
     const result = await this.notificationsRepo.update(
       {
         userId: user.sub,
-        tenantId: user.tenantId ?? undefined,
+        tenantId: user.tenantId,
         readAt: IsNull(),
       },
       { readAt: new Date() },

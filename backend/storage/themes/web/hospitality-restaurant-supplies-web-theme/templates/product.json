@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ServiceTable",
+        "industryName": "Hospitality & Restaurant Supplies",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "compact-stack"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "ServiceTable Commercial Cooking Range",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "ServiceTable Commercial Cooking Range",
+        "subtitle": "Commercial Cooking Range from ServiceTable's commercial kitchen assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 42,000",
+        "description": "Commercial Cooking Range from ServiceTable's commercial kitchen assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-46-1",
+        "stock": 203,
+        "moq": 1,
+        "product": {
+          "id": "hospitality-restaurant-supplies-web-theme-product-1",
+          "slug": "servicetable-commercial-cooking-range",
+          "sku": "WEB-46-1",
+          "name": "ServiceTable Commercial Cooking Range",
+          "description": "Commercial Cooking Range from ServiceTable's commercial kitchen assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "commercial-kitchen",
+          "categoryId": "hospitality-restaurant-supplies-web-theme-category-1",
+          "categoryName": "ServiceTable Commercial Kitchen",
+          "brand": "ServiceTable",
+          "price": 42000,
+          "currency": "INR",
+          "priceLabel": "INR 42,000",
+          "image": "assets/images/product-01.jpg",
+          "stock": 203,
+          "moq": 1,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 49560,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 1,
+              "unitPrice": 42000
+            },
+            {
+              "minQuantity": 5,
+              "unitPrice": 39900
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 37800
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: ServiceTable Commercial Cooking Range",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "ServiceTable trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ServiceTable Commercial Cooking Range",
+          "ServiceTable Porcelain Dinner Set",
+          "ServiceTable Housekeeping Trolley",
+          "ServiceTable Hotel Toiletry Kit",
+          "ServiceTable Food Storage Container",
+          "ServiceTable Restaurant Cutlery Set"
+        ],
+        "prices": [
+          "INR 42,000",
+          "INR 6,500",
+          "INR 8,500",
+          "INR 950",
+          "INR 1,450",
+          "INR 1,850"
+        ],
+        "products": [
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-1",
+            "slug": "servicetable-commercial-cooking-range",
+            "sku": "WEB-46-1",
+            "name": "ServiceTable Commercial Cooking Range",
+            "description": "Commercial Cooking Range from ServiceTable's commercial kitchen assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "commercial-kitchen",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-1",
+            "categoryName": "ServiceTable Commercial Kitchen",
+            "brand": "ServiceTable",
+            "price": 42000,
+            "currency": "INR",
+            "priceLabel": "INR 42,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 203,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 49560,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 39900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 37800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Commercial Cooking Range",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-2",
+            "slug": "servicetable-porcelain-dinner-set",
+            "sku": "WEB-46-2",
+            "name": "ServiceTable Porcelain Dinner Set",
+            "description": "Porcelain Dinner Set from ServiceTable's tableware assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "tableware",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-2",
+            "categoryName": "ServiceTable Tableware",
+            "brand": "ServiceTable",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 214,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Porcelain Dinner Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-3",
+            "slug": "servicetable-housekeeping-trolley",
+            "sku": "WEB-46-3",
+            "name": "ServiceTable Housekeeping Trolley",
+            "description": "Housekeeping Trolley from ServiceTable's housekeeping assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "housekeeping",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-3",
+            "categoryName": "ServiceTable Housekeeping",
+            "brand": "ServiceTable",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 225,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Housekeeping Trolley",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-4",
+            "slug": "servicetable-hotel-toiletry-kit",
+            "sku": "WEB-46-4",
+            "name": "ServiceTable Hotel Toiletry Kit",
+            "description": "Hotel Toiletry Kit from ServiceTable's guest supplies assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "guest-supplies",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-4",
+            "categoryName": "ServiceTable Guest Supplies",
+            "brand": "ServiceTable",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-04.jpg",
+            "stock": 236,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Hotel Toiletry Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-5",
+            "slug": "servicetable-food-storage-container",
+            "sku": "WEB-46-5",
+            "name": "ServiceTable Food Storage Container",
+            "description": "Food Storage Container from ServiceTable's commercial kitchen assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "commercial-kitchen",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-1",
+            "categoryName": "ServiceTable Commercial Kitchen",
+            "brand": "ServiceTable",
+            "price": 1450,
+            "currency": "INR",
+            "priceLabel": "INR 1,450",
+            "image": "assets/images/product-05.jpg",
+            "stock": 247,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1711,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1450
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1378
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1305
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Food Storage Container",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hospitality-restaurant-supplies-web-theme-product-6",
+            "slug": "servicetable-restaurant-cutlery-set",
+            "sku": "WEB-46-6",
+            "name": "ServiceTable Restaurant Cutlery Set",
+            "description": "Restaurant Cutlery Set from ServiceTable's tableware assortment. Keep guest-service and kitchen purchasing organized. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "tableware",
+            "categoryId": "hospitality-restaurant-supplies-web-theme-category-2",
+            "categoryName": "ServiceTable Tableware",
+            "brand": "ServiceTable",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-06.jpg",
+            "stock": 258,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ServiceTable Restaurant Cutlery Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source commercial cooking range, porcelain dinner set and more from this hospitality & restaurant supplies trade collection.",
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact",
+        "cardStyle": "horizontal",
+        "columns": 3
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the ServiceTable demo catalog",
+        "items": [
+          {
+            "question": "How are ServiceTable pack quantities shown?",
+            "answer": "ServiceTable Commercial Cooking Range has a sample MOQ of 1. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are ServiceTable images supplier photographs?",
+            "answer": "These hospitality & restaurant supplies images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ServiceTable",
+        "industryName": "Hospitality & Restaurant Supplies",
+        "tagline": "Source commercial cooking range, porcelain dinner set and more from this hospitality & restaurant supplies trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-46-web",
+        "layoutMode": "gallery-left",
+        "density": "compact"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-46-web"
+}

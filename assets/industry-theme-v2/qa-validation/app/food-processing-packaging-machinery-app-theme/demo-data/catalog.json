@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000021",
+  "industry": "Food Processing & Packaging Machinery",
+  "themeName": "Food Processing & Packaging Machinery App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "FoodLinePocket",
+    "industry": "Food Processing & Packaging Machinery",
+    "tagline": "Browse vegetable slicing machine, powder auger filling unit and a dedicated food processing & packaging machinery mobile assortment.",
+    "email": "hello@foodlinepocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "FoodLinePocket quantity rewards",
+      "description": "Compare the sample bulk tiers in FoodLinePocket's food processing & packaging machinery range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "FoodLinePocket sample buyer story",
+      "quote": "Our demo food processing & packaging machinery buying team can compare vegetable slicing machine and impulse pouch sealer in one restock list.",
+      "author": "Fictional FoodLinePocket buyer — demo feedback",
+      "designId": "ds-33-app",
+      "layoutMode": "Processing line planner / pocket workflow",
+      "density": "airy",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "food-processing-packaging-machinery-app-theme-category-1",
+      "slug": "processing-equipment",
+      "name": "FoodLinePocket Processing Equipment",
+      "description": "Pick processing equipment for your food processing & packaging machinery replenishment list with FoodLinePocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-category-2",
+      "slug": "filling-machines",
+      "name": "FoodLinePocket Filling Machines",
+      "description": "Pick filling machines for your food processing & packaging machinery replenishment list with FoodLinePocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-category-3",
+      "slug": "sealing-systems",
+      "name": "FoodLinePocket Sealing Systems",
+      "description": "Pick sealing systems for your food processing & packaging machinery replenishment list with FoodLinePocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-category-4",
+      "slug": "food-safety-tools",
+      "name": "FoodLinePocket Food Safety Tools",
+      "description": "Pick food safety tools for your food processing & packaging machinery replenishment list with FoodLinePocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-1",
+      "slug": "foodlinepocket-vegetable-slicing-machine",
+      "sku": "APP-33-1",
+      "name": "FoodLinePocket Vegetable Slicing Machine",
+      "description": "Vegetable Slicing Machine for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with processing equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "processing-equipment",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-1",
+      "categoryName": "FoodLinePocket Processing Equipment",
+      "brand": "FoodLinePocket",
+      "price": 71400,
+      "currency": "INR",
+      "priceLabel": "INR 71,400",
+      "image": "assets/images/product-01.jpg",
+      "stock": 137,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 84252,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 71400
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 67830
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 64260
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Vegetable Slicing Machine",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-2",
+      "slug": "foodlinepocket-powder-auger-filling-unit",
+      "sku": "APP-33-2",
+      "name": "FoodLinePocket Powder Auger Filling Unit",
+      "description": "Powder Auger Filling Unit for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with filling machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "filling-machines",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-2",
+      "categoryName": "FoodLinePocket Filling Machines",
+      "brand": "FoodLinePocket",
+      "price": 140000,
+      "currency": "INR",
+      "priceLabel": "INR 1,40,000",
+      "image": "assets/images/product-02.jpg",
+      "stock": 148,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 165200,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 140000
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 133000
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 126000
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Powder Auger Filling Unit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-3",
+      "slug": "foodlinepocket-impulse-pouch-sealer",
+      "sku": "APP-33-3",
+      "name": "FoodLinePocket Impulse Pouch Sealer",
+      "description": "Impulse Pouch Sealer for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with sealing systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "sealing-systems",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-3",
+      "categoryName": "FoodLinePocket Sealing Systems",
+      "brand": "FoodLinePocket",
+      "price": 17205,
+      "currency": "INR",
+      "priceLabel": "INR 17,205",
+      "image": "assets/images/product-03.jpg",
+      "stock": 159,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 20302,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 17205
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 16345
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 15485
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Impulse Pouch Sealer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-4",
+      "slug": "foodlinepocket-probe-food-thermometer",
+      "sku": "APP-33-4",
+      "name": "FoodLinePocket Probe Food Thermometer",
+      "description": "Probe Food Thermometer for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with food safety tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "food-safety-tools",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-4",
+      "categoryName": "FoodLinePocket Food Safety Tools",
+      "brand": "FoodLinePocket",
+      "price": 70200,
+      "currency": "INR",
+      "priceLabel": "INR 70,200",
+      "image": "assets/images/product-04.jpg",
+      "stock": 170,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 82836,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 70200
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 66690
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 63180
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Probe Food Thermometer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-5",
+      "slug": "foodlinepocket-tabletop-dough-kneader",
+      "sku": "APP-33-5",
+      "name": "FoodLinePocket Tabletop Dough Kneader",
+      "description": "Tabletop Dough Kneader for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with processing equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "processing-equipment",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-1",
+      "categoryName": "FoodLinePocket Processing Equipment",
+      "brand": "FoodLinePocket",
+      "price": 21660,
+      "currency": "INR",
+      "priceLabel": "INR 21,660",
+      "image": "assets/images/product-05.jpg",
+      "stock": 181,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 25559,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 21660
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 20577
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 19494
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Tabletop Dough Kneader",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "food-processing-packaging-machinery-app-theme-product-6",
+      "slug": "foodlinepocket-bottle-capping-machine",
+      "sku": "APP-33-6",
+      "name": "FoodLinePocket Bottle Capping Machine",
+      "description": "Bottle Capping Machine for your food processing & packaging machinery replenishment list. FoodLinePocket groups this item with filling machines so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "filling-machines",
+      "categoryId": "food-processing-packaging-machinery-app-theme-category-2",
+      "categoryName": "FoodLinePocket Filling Machines",
+      "brand": "FoodLinePocket",
+      "price": 112100,
+      "currency": "INR",
+      "priceLabel": "INR 1,12,100",
+      "image": "assets/images/product-06.jpg",
+      "stock": 192,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 132278,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 112100
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 106495
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 100890
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: FoodLinePocket Bottle Capping Machine",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-33-app",
+    "direction": "Processing line planner / pocket workflow",
+    "header": "split-utility",
+    "headerIdentity": "header-33-app",
+    "headerStructure": "shell-3-composition-6",
+    "hero": "full-bleed",
+    "categories": "masonry",
+    "productCards": "horizontal",
+    "productListing": "sidebar-grid",
+    "productDetail": "technical-tabs",
+    "footer": "service-desk",
+    "footerIdentity": "footer-33-app",
+    "footerStructure": "shell-5-composition-5",
+    "density": "airy",
+    "responsiveStrategy": "list"
+  }
+}

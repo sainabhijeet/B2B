@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PackTerrace",
+        "industryName": "Paper & Packaging",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "PackTerrace Five Ply Shipping Box",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "PackTerrace Five Ply Shipping Box",
+        "subtitle": "Five Ply Shipping Box from PackTerrace's corrugated packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 950",
+        "description": "Five Ply Shipping Box from PackTerrace's corrugated packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-18-1",
+        "stock": 119,
+        "moq": 5,
+        "product": {
+          "id": "paper-packaging-web-theme-product-1",
+          "slug": "packterrace-five-ply-shipping-box",
+          "sku": "WEB-18-1",
+          "name": "PackTerrace Five Ply Shipping Box",
+          "description": "Five Ply Shipping Box from PackTerrace's corrugated packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "corrugated-packaging",
+          "categoryId": "paper-packaging-web-theme-category-1",
+          "categoryName": "PackTerrace Corrugated Packaging",
+          "brand": "PackTerrace",
+          "price": 950,
+          "currency": "INR",
+          "priceLabel": "INR 950",
+          "image": "assets/images/product-01.jpg",
+          "stock": 119,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 1121,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 950
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 903
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 855
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: PackTerrace Five Ply Shipping Box",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "PackTerrace trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PackTerrace Five Ply Shipping Box",
+          "PackTerrace Printed Pouch Roll",
+          "PackTerrace Barcode Label Pack",
+          "PackTerrace Kraft Paper Reel",
+          "PackTerrace Food Packaging Tray",
+          "PackTerrace Protective Bubble Roll"
+        ],
+        "prices": [
+          "INR 950",
+          "INR 1,800",
+          "INR 450",
+          "INR 2,400",
+          "INR 650",
+          "INR 850"
+        ],
+        "products": [
+          {
+            "id": "paper-packaging-web-theme-product-1",
+            "slug": "packterrace-five-ply-shipping-box",
+            "sku": "WEB-18-1",
+            "name": "PackTerrace Five Ply Shipping Box",
+            "description": "Five Ply Shipping Box from PackTerrace's corrugated packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "corrugated-packaging",
+            "categoryId": "paper-packaging-web-theme-category-1",
+            "categoryName": "PackTerrace Corrugated Packaging",
+            "brand": "PackTerrace",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-01.jpg",
+            "stock": 119,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Five Ply Shipping Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-web-theme-product-2",
+            "slug": "packterrace-printed-pouch-roll",
+            "sku": "WEB-18-2",
+            "name": "PackTerrace Printed Pouch Roll",
+            "description": "Printed Pouch Roll from PackTerrace's flexible packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "flexible-packaging",
+            "categoryId": "paper-packaging-web-theme-category-2",
+            "categoryName": "PackTerrace Flexible Packaging",
+            "brand": "PackTerrace",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-02.jpg",
+            "stock": 130,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Printed Pouch Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-web-theme-product-3",
+            "slug": "packterrace-barcode-label-pack",
+            "sku": "WEB-18-3",
+            "name": "PackTerrace Barcode Label Pack",
+            "description": "Barcode Label Pack from PackTerrace's labels assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "labels",
+            "categoryId": "paper-packaging-web-theme-category-3",
+            "categoryName": "PackTerrace Labels",
+            "brand": "PackTerrace",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-03.jpg",
+            "stock": 141,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Barcode Label Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-web-theme-product-4",
+            "slug": "packterrace-kraft-paper-reel",
+            "sku": "WEB-18-4",
+            "name": "PackTerrace Kraft Paper Reel",
+            "description": "Kraft Paper Reel from PackTerrace's paper products assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "paper-products",
+            "categoryId": "paper-packaging-web-theme-category-4",
+            "categoryName": "PackTerrace Paper Products",
+            "brand": "PackTerrace",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-04.jpg",
+            "stock": 152,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Kraft Paper Reel",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-web-theme-product-5",
+            "slug": "packterrace-food-packaging-tray",
+            "sku": "WEB-18-5",
+            "name": "PackTerrace Food Packaging Tray",
+            "description": "Food Packaging Tray from PackTerrace's flexible packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "flexible-packaging",
+            "categoryId": "paper-packaging-web-theme-category-2",
+            "categoryName": "PackTerrace Flexible Packaging",
+            "brand": "PackTerrace",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-05.jpg",
+            "stock": 163,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Food Packaging Tray",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paper-packaging-web-theme-product-6",
+            "slug": "packterrace-protective-bubble-roll",
+            "sku": "WEB-18-6",
+            "name": "PackTerrace Protective Bubble Roll",
+            "description": "Protective Bubble Roll from PackTerrace's flexible packaging assortment. Help businesses choose packaging from shelf to shipping. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "flexible-packaging",
+            "categoryId": "paper-packaging-web-theme-category-2",
+            "categoryName": "PackTerrace Flexible Packaging",
+            "brand": "PackTerrace",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-06.jpg",
+            "stock": 174,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PackTerrace Protective Bubble Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source five ply shipping box, printed pouch roll and more from this paper & packaging trade collection.",
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy",
+        "cardStyle": "spec-card",
+        "columns": 6
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the PackTerrace demo catalog",
+        "items": [
+          {
+            "question": "How are PackTerrace pack quantities shown?",
+            "answer": "PackTerrace Five Ply Shipping Box has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are PackTerrace images supplier photographs?",
+            "answer": "These paper & packaging images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PackTerrace",
+        "industryName": "Paper & Packaging",
+        "tagline": "Source five ply shipping box, printed pouch roll and more from this paper & packaging trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-18-web",
+        "layoutMode": "gallery-left",
+        "density": "airy"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-18-web"
+}

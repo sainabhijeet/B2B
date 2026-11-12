@@ -44,6 +44,18 @@ export type StorefrontFilterBucket = {
   count: number;
 }[];
 
+export const DEMO_CATALOG_NOTICE =
+  'Demo catalog preview: Products, prices, stock and offers shown here are sample data for testing only. They are not available for purchase. Real products will appear after the distributor adds the first product.';
+
+export const THEME_LIVE_PREVIEW_NOTICE =
+  "Theme Live Preview: This preview intentionally shows the selected theme's sample catalog, even when real products exist. Uploaded products are unchanged and continue to appear on the public storefront.";
+
+export type CatalogPresentation = {
+  mode: 'DEMO' | 'LIVE';
+  hasDistributorProducts: boolean;
+  notice: string | null;
+};
+
 @Injectable()
 export class StorefrontProductsService {
   private readonly log = new Logger(StorefrontProductsService.name);
@@ -63,6 +75,42 @@ export class StorefrontProductsService {
     private readonly variantPricing: VariantPricingService,
     private readonly translations: TranslationsService,
   ) {}
+
+  /**
+   * Demo content is a first-run experience only. `withDeleted()` is
+   * intentional: after a distributor creates their first product the tenant
+   * must never fall back to fictional catalog data, even if that product is
+   * still a draft or is later soft-deleted.
+   */
+  async catalogPresentation(tenantId: string): Promise<CatalogPresentation> {
+    let hasDistributorProducts: boolean;
+    try {
+      hasDistributorProducts = await this.tenantRunner.withTenantCatalog(
+        tenantId,
+        async (manager) =>
+          manager
+            .getRepository(Product)
+            .createQueryBuilder('product')
+            .withDeleted()
+            .where('product.tenant_id = :tenantId', { tenantId })
+            .getExists(),
+      );
+    } catch (error) {
+      // Fail closed: database/schema uncertainty must never expose fictional
+      // products as though they were the tenant's real catalogue.
+      this.log.warn(
+        `Could not resolve catalog presentation for tenant ${tenantId}: ${(error as Error).message}`,
+      );
+      return { mode: 'LIVE', hasDistributorProducts: false, notice: null };
+    }
+    return hasDistributorProducts
+      ? { mode: 'LIVE', hasDistributorProducts: true, notice: null }
+      : {
+          mode: 'DEMO',
+          hasDistributorProducts: false,
+          notice: DEMO_CATALOG_NOTICE,
+        };
+  }
 
   /**
    * Storefront catalog list with variant-level filters.
@@ -262,9 +310,11 @@ export class StorefrontProductsService {
                 this.attrText(v.attributesJson, 'pack_size'),
               attributes: v.attributesJson,
             })),
-            priceSlabs: hideListPrices
-              ? []
-              : this.buildListPriceSlabs(Number(listPrice ?? 0), moq),
+            // Quantity tiers must come from the configured QuantityPrice rows
+            // returned by the product-detail endpoint. Do not invent discounts
+            // for catalog cards, otherwise the PDP can display non-existent
+            // wholesale prices while its detail request is loading or empty.
+            priceSlabs: [],
             translationKeys: {
               name: nameKey,
               description: this.translations.entityKey(
@@ -487,22 +537,13 @@ export class StorefrontProductsService {
     return text.length ? text : null;
   }
 
-  private buildListPriceSlabs(price: number, moq: number) {
-    if (!Number.isFinite(price) || price <= 0) return [];
-    const minQty = Math.max(1, moq || 1);
-    return [
-      { minQty, price, label: `${minQty}+ units` },
-      {
-        minQty: minQty * 3,
-        price: Number((price * 0.985).toFixed(2)),
-        label: `${minQty * 3}+ units`,
-      },
-      {
-        minQty: minQty * 8,
-        price: Number((price * 0.965).toFixed(2)),
-        label: `${minQty * 8}+ units`,
-      },
-    ];
+  private pluralUnitLabel(unit: string | null): string {
+    const normalized = (unit ?? 'unit').trim().toLowerCase() || 'unit';
+    if (['kg', 'g', 'mg', 'l', 'ml'].includes(normalized)) return normalized;
+    if (normalized.endsWith('s')) return normalized;
+    if (/(?:s|x|z|ch|sh)$/.test(normalized)) return `${normalized}es`;
+    if (/[^aeiou]y$/.test(normalized)) return `${normalized.slice(0, -1)}ies`;
+    return `${normalized}s`;
   }
 
   private async buildFilterAggregates(
@@ -652,6 +693,9 @@ export class StorefrontProductsService {
           opts?.languageCode,
           v.attributesJson,
         );
+        const tierUnitLabel = this.pluralUnitLabel(
+          this.attrText(attributesJson, 'unit'),
+        );
         variantRows.push(
           hideVariantPrices
             ? {
@@ -685,7 +729,7 @@ export class StorefrontProductsService {
                   .map((tier) => ({
                     minQty: tier.minQty,
                     price: tier.price,
-                    label: `${tier.minQty}+ units`,
+                    label: `${tier.minQty}+ ${tierUnitLabel}`,
                   })),
               },
         );

@@ -29,6 +29,20 @@ export function areQueuesEnabled(configService: ConfigService): boolean {
   return !['false', '0', 'no', 'off'].includes(raw.trim().toLowerCase());
 }
 
+function createBullQueue(
+  name: string,
+  configService: ConfigService,
+  options: Omit<QueueOptions, 'connection'> = {},
+): AppQueue {
+  return new Queue(name, {
+    ...options,
+    connection: {
+      host: configService.get<string>('REDIS_HOST') ?? process.env.REDIS_HOST ?? '127.0.0.1',
+      port: Number(configService.get<string>('REDIS_PORT') ?? process.env.REDIS_PORT ?? 6379),
+    },
+  });
+}
+
 export function createAppQueue(
   name: string,
   configService: ConfigService,
@@ -37,12 +51,14 @@ export function createAppQueue(
   if (!areQueuesEnabled(configService)) {
     return new DisabledQueue();
   }
+  return createBullQueue(name, configService, options);
+}
 
-  return new Queue(name, {
-    ...options,
-    connection: {
-      host: configService.get<string>('REDIS_HOST') ?? process.env.REDIS_HOST ?? '127.0.0.1',
-      port: Number(configService.get<string>('REDIS_PORT') ?? process.env.REDIS_PORT ?? 6379),
-    },
-  });
+/** Security-critical queues must never silently degrade to DisabledQueue. */
+export function createRequiredAppQueue(
+  name: string,
+  configService: ConfigService,
+  options: Omit<QueueOptions, 'connection'> = {},
+): AppQueue {
+  return createBullQueue(name, configService, options);
 }

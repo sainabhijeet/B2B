@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "WirePocket",
+        "industryName": "Electrical & Lighting",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "WirePocket Residual Current Breaker",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced"
+      },
+      "variant": "gallery-full-gallery"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "WirePocket Residual Current Breaker",
+        "subtitle": "Residual Current Breaker for your electrical & lighting replenishment list. WirePocket groups this item with switchgear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 1,554",
+        "description": "Residual Current Breaker for your electrical & lighting replenishment list. WirePocket groups this item with switchgear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-23-1",
+        "stock": 107,
+        "moq": 2,
+        "product": {
+          "id": "electrical-lighting-app-theme-product-1",
+          "slug": "wirepocket-residual-current-breaker",
+          "sku": "APP-23-1",
+          "name": "WirePocket Residual Current Breaker",
+          "description": "Residual Current Breaker for your electrical & lighting replenishment list. WirePocket groups this item with switchgear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "switchgear",
+          "categoryId": "electrical-lighting-app-theme-category-1",
+          "categoryName": "WirePocket Switchgear",
+          "brand": "WirePocket",
+          "price": 1554,
+          "currency": "INR",
+          "priceLabel": "INR 1,554",
+          "image": "assets/images/product-01.jpg",
+          "stock": 107,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 1834,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 1554
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 1476
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 1399
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: WirePocket Residual Current Breaker",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced"
+      },
+      "variant": "info-full-gallery"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "WirePocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "WirePocket Residual Current Breaker",
+          "WirePocket Flexible Control Cable",
+          "WirePocket LED Track Spotlight",
+          "WirePocket Weatherproof Junction Box",
+          "WirePocket Motor Contactor",
+          "WirePocket Armoured Power Cable"
+        ],
+        "prices": [
+          "INR 1,554",
+          "INR 2,688",
+          "INR 605",
+          "INR 486",
+          "INR 683",
+          "INR 2,124"
+        ],
+        "products": [
+          {
+            "id": "electrical-lighting-app-theme-product-1",
+            "slug": "wirepocket-residual-current-breaker",
+            "sku": "APP-23-1",
+            "name": "WirePocket Residual Current Breaker",
+            "description": "Residual Current Breaker for your electrical & lighting replenishment list. WirePocket groups this item with switchgear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "switchgear",
+            "categoryId": "electrical-lighting-app-theme-category-1",
+            "categoryName": "WirePocket Switchgear",
+            "brand": "WirePocket",
+            "price": 1554,
+            "currency": "INR",
+            "priceLabel": "INR 1,554",
+            "image": "assets/images/product-01.jpg",
+            "stock": 107,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1834,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1554
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1476
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1399
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket Residual Current Breaker",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electrical-lighting-app-theme-product-2",
+            "slug": "wirepocket-flexible-control-cable",
+            "sku": "APP-23-2",
+            "name": "WirePocket Flexible Control Cable",
+            "description": "Flexible Control Cable for your electrical & lighting replenishment list. WirePocket groups this item with cables & wires so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cables-wires",
+            "categoryId": "electrical-lighting-app-theme-category-2",
+            "categoryName": "WirePocket Cables & Wires",
+            "brand": "WirePocket",
+            "price": 2688,
+            "currency": "INR",
+            "priceLabel": "INR 2,688",
+            "image": "assets/images/product-02.jpg",
+            "stock": 118,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 3172,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2688
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2554
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2419
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket Flexible Control Cable",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electrical-lighting-app-theme-product-3",
+            "slug": "wirepocket-led-track-spotlight",
+            "sku": "APP-23-3",
+            "name": "WirePocket LED Track Spotlight",
+            "description": "LED Track Spotlight for your electrical & lighting replenishment list. WirePocket groups this item with led lighting so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "led-lighting",
+            "categoryId": "electrical-lighting-app-theme-category-3",
+            "categoryName": "WirePocket LED Lighting",
+            "brand": "WirePocket",
+            "price": 605,
+            "currency": "INR",
+            "priceLabel": "INR 605",
+            "image": "assets/images/product-03.jpg",
+            "stock": 129,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 714,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 605
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 575
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 545
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket LED Track Spotlight",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electrical-lighting-app-theme-product-4",
+            "slug": "wirepocket-weatherproof-junction-box",
+            "sku": "APP-23-4",
+            "name": "WirePocket Weatherproof Junction Box",
+            "description": "Weatherproof Junction Box for your electrical & lighting replenishment list. WirePocket groups this item with electrical accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "electrical-accessories",
+            "categoryId": "electrical-lighting-app-theme-category-4",
+            "categoryName": "WirePocket Electrical Accessories",
+            "brand": "WirePocket",
+            "price": 486,
+            "currency": "INR",
+            "priceLabel": "INR 486",
+            "image": "assets/images/product-04.jpg",
+            "stock": 140,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 573,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 486
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 437
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket Weatherproof Junction Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electrical-lighting-app-theme-product-5",
+            "slug": "wirepocket-motor-contactor",
+            "sku": "APP-23-5",
+            "name": "WirePocket Motor Contactor",
+            "description": "Motor Contactor for your electrical & lighting replenishment list. WirePocket groups this item with switchgear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "switchgear",
+            "categoryId": "electrical-lighting-app-theme-category-1",
+            "categoryName": "WirePocket Switchgear",
+            "brand": "WirePocket",
+            "price": 683,
+            "currency": "INR",
+            "priceLabel": "INR 683",
+            "image": "assets/images/product-05.jpg",
+            "stock": 151,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 806,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 683
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 649
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 615
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket Motor Contactor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electrical-lighting-app-theme-product-6",
+            "slug": "wirepocket-armoured-power-cable",
+            "sku": "APP-23-6",
+            "name": "WirePocket Armoured Power Cable",
+            "description": "Armoured Power Cable for your electrical & lighting replenishment list. WirePocket groups this item with cables & wires so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cables-wires",
+            "categoryId": "electrical-lighting-app-theme-category-2",
+            "categoryName": "WirePocket Cables & Wires",
+            "brand": "WirePocket",
+            "price": 2124,
+            "currency": "INR",
+            "priceLabel": "INR 2,124",
+            "image": "assets/images/product-06.jpg",
+            "stock": 162,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2506,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 2124
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2018
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1912
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: WirePocket Armoured Power Cable",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse residual current breaker, flexible control cable and a dedicated electrical & lighting mobile assortment.",
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced",
+        "cardStyle": "image-first",
+        "columns": 2
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the WirePocket demo catalog",
+        "items": [
+          {
+            "question": "How are WirePocket pack quantities shown?",
+            "answer": "WirePocket Residual Current Breaker has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are WirePocket images supplier photographs?",
+            "answer": "These electrical & lighting images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "WirePocket",
+        "industryName": "Electrical & Lighting",
+        "tagline": "Browse residual current breaker, flexible control cable and a dedicated electrical & lighting mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-23-app",
+        "layoutMode": "full-gallery",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-23-app"
+}

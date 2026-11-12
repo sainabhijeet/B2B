@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "GaragePocket",
+        "industryName": "Automotive & Spare Parts",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "compact-stack"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "GaragePocket collections",
+        "subtitle": "Choose your next automotive & spare parts order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "GaragePocket Engine Parts",
+          "GaragePocket Braking Systems",
+          "GaragePocket Filters & Lubricants",
+          "GaragePocket Workshop Tools"
+        ],
+        "categories": [
+          {
+            "id": "automotive-spare-parts-app-theme-category-1",
+            "slug": "engine-parts",
+            "name": "GaragePocket Engine Parts",
+            "description": "Pick engine parts for your automotive & spare parts replenishment list with GaragePocket.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-category-2",
+            "slug": "braking-systems",
+            "name": "GaragePocket Braking Systems",
+            "description": "Pick braking systems for your automotive & spare parts replenishment list with GaragePocket.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-category-3",
+            "slug": "filters-lubricants",
+            "name": "GaragePocket Filters & Lubricants",
+            "description": "Pick filters & lubricants for your automotive & spare parts replenishment list with GaragePocket.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-category-4",
+            "slug": "workshop-tools",
+            "name": "GaragePocket Workshop Tools",
+            "description": "Pick workshop tools for your automotive & spare parts replenishment list with GaragePocket.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced",
+        "categoryStyle": "numbered-list"
+      },
+      "variant": "categories-numbered-list"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "GaragePocket restock picks",
+        "subtitle": "Browse engine mount assembly, ventilated brake disc pair and a dedicated automotive & spare parts mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "GaragePocket Engine Mount Assembly",
+          "GaragePocket Ventilated Brake Disc Pair",
+          "GaragePocket Cabin Air Filter",
+          "GaragePocket Battery Diagnostic Tester",
+          "GaragePocket Water Pump Assembly",
+          "GaragePocket Brake Caliper Repair Kit"
+        ],
+        "prices": [
+          "INR 1,512",
+          "INR 504",
+          "INR 1,116",
+          "INR 2,376",
+          "INR 2,584",
+          "INR 5,664"
+        ],
+        "products": [
+          {
+            "id": "automotive-spare-parts-app-theme-product-1",
+            "slug": "garagepocket-engine-mount-assembly",
+            "sku": "APP-08-1",
+            "name": "GaragePocket Engine Mount Assembly",
+            "description": "Engine Mount Assembly for your automotive & spare parts replenishment list. GaragePocket groups this item with engine parts so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "engine-parts",
+            "categoryId": "automotive-spare-parts-app-theme-category-1",
+            "categoryName": "GaragePocket Engine Parts",
+            "brand": "GaragePocket",
+            "price": 1512,
+            "currency": "INR",
+            "priceLabel": "INR 1,512",
+            "image": "assets/images/product-01.jpg",
+            "stock": 62,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1784,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1512
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1436
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1361
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Engine Mount Assembly",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-product-2",
+            "slug": "garagepocket-ventilated-brake-disc-pair",
+            "sku": "APP-08-2",
+            "name": "GaragePocket Ventilated Brake Disc Pair",
+            "description": "Ventilated Brake Disc Pair for your automotive & spare parts replenishment list. GaragePocket groups this item with braking systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "braking-systems",
+            "categoryId": "automotive-spare-parts-app-theme-category-2",
+            "categoryName": "GaragePocket Braking Systems",
+            "brand": "GaragePocket",
+            "price": 504,
+            "currency": "INR",
+            "priceLabel": "INR 504",
+            "image": "assets/images/product-02.jpg",
+            "stock": 73,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 595,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 504
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 479
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 454
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Ventilated Brake Disc Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-product-3",
+            "slug": "garagepocket-cabin-air-filter",
+            "sku": "APP-08-3",
+            "name": "GaragePocket Cabin Air Filter",
+            "description": "Cabin Air Filter for your automotive & spare parts replenishment list. GaragePocket groups this item with filters & lubricants so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "filters-lubricants",
+            "categoryId": "automotive-spare-parts-app-theme-category-3",
+            "categoryName": "GaragePocket Filters & Lubricants",
+            "brand": "GaragePocket",
+            "price": 1116,
+            "currency": "INR",
+            "priceLabel": "INR 1,116",
+            "image": "assets/images/product-03.jpg",
+            "stock": 84,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1317,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1116
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1060
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1004
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Cabin Air Filter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-product-4",
+            "slug": "garagepocket-battery-diagnostic-tester",
+            "sku": "APP-08-4",
+            "name": "GaragePocket Battery Diagnostic Tester",
+            "description": "Battery Diagnostic Tester for your automotive & spare parts replenishment list. GaragePocket groups this item with workshop tools so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "workshop-tools",
+            "categoryId": "automotive-spare-parts-app-theme-category-4",
+            "categoryName": "GaragePocket Workshop Tools",
+            "brand": "GaragePocket",
+            "price": 2376,
+            "currency": "INR",
+            "priceLabel": "INR 2,376",
+            "image": "assets/images/product-04.jpg",
+            "stock": 95,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2804,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2376
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2257
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2138
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Battery Diagnostic Tester",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-product-5",
+            "slug": "garagepocket-water-pump-assembly",
+            "sku": "APP-08-5",
+            "name": "GaragePocket Water Pump Assembly",
+            "description": "Water Pump Assembly for your automotive & spare parts replenishment list. GaragePocket groups this item with engine parts so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "engine-parts",
+            "categoryId": "automotive-spare-parts-app-theme-category-1",
+            "categoryName": "GaragePocket Engine Parts",
+            "brand": "GaragePocket",
+            "price": 2584,
+            "currency": "INR",
+            "priceLabel": "INR 2,584",
+            "image": "assets/images/product-05.jpg",
+            "stock": 106,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3049,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2584
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2455
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2326
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Water Pump Assembly",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "automotive-spare-parts-app-theme-product-6",
+            "slug": "garagepocket-brake-caliper-repair-kit",
+            "sku": "APP-08-6",
+            "name": "GaragePocket Brake Caliper Repair Kit",
+            "description": "Brake Caliper Repair Kit for your automotive & spare parts replenishment list. GaragePocket groups this item with braking systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "braking-systems",
+            "categoryId": "automotive-spare-parts-app-theme-category-2",
+            "categoryName": "GaragePocket Braking Systems",
+            "brand": "GaragePocket",
+            "price": 5664,
+            "currency": "INR",
+            "priceLabel": "INR 5,664",
+            "image": "assets/images/product-06.jpg",
+            "stock": 117,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 6684,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 5664
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 5381
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 5098
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GaragePocket Brake Caliper Repair Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced",
+        "cardStyle": "bulk-table",
+        "columns": 1
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "GaragePocket: your automotive & spare parts restock list",
+        "subtitle": "Browse engine mount assembly, ventilated brake disc pair and a dedicated automotive & spare parts mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "hero-stacked-center"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your GaragePocket buying list, wherever work takes you",
+        "body": "Organize workshop purchasing around service and repair. Browse engine mount assembly, ventilated brake disc pair and a dedicated automotive & spare parts mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow GaragePocket arrivals",
+        "subtitle": "Sample updates about battery diagnostic tester and garagepocket engine parts.",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with GaragePocket",
+        "items": [
+          {
+            "icon": "01",
+            "title": "GaragePocket Engine Parts",
+            "text": "Start with engine mount assembly and compare the GaragePocket sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "GaragePocket quantity breaks",
+            "text": "Review MOQ and bulk tiers for ventilated brake disc pair before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "GaragePocket repeat orders",
+            "text": "Browse engine mount assembly, ventilated brake disc pair and a dedicated automotive & spare parts mobile assortment."
+          }
+        ],
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "GaragePocket sample buyer story",
+        "quote": "Our demo automotive & spare parts buying team can compare engine mount assembly and cabin air filter in one restock list.",
+        "author": "Fictional GaragePocket buyer — demo feedback",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "GaragePocket restock savings",
+        "subtitle": "Sample quantity breaks for cabin air filter and the automotive & spare parts catalog. Demo offers only.",
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "GaragePocket",
+        "industryName": "Automotive & Spare Parts",
+        "tagline": "Browse engine mount assembly, ventilated brake disc pair and a dedicated automotive & spare parts mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-08-app",
+        "layoutMode": "Workshop parts counter / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-08-app"
+}

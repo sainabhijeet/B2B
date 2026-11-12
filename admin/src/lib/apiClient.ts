@@ -3,6 +3,7 @@ import {
   clearAuth,
   getAccessToken,
   getDeviceId,
+  getRefreshToken,
   setTokens,
 } from './authStorage';
 
@@ -32,11 +33,12 @@ function formatErrorMessage(body: unknown, fallback: string): string {
 
 async function refreshAccess(): Promise<boolean> {
   const deviceId = getDeviceId();
-  if (!deviceId) return false;
+  const refreshToken = getRefreshToken();
+  if (!deviceId || !refreshToken) return false;
   const init: RequestInit = {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ deviceId }),
+    body: JSON.stringify({ deviceId, refreshToken }),
     credentials: 'include',
   };
   let res: Response;

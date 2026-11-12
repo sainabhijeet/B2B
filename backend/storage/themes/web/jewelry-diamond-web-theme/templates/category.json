@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "Aurelia Elan / Jewelry / Diamond",
+        "subtitle": "Source diamond solitaire ring, gold chain collection and more from this jewelry / diamond trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy"
+      },
+      "variant": "hero-category-editorial"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find Aurelia Elan supplies",
+        "message": "Explore Aurelia Elan Gold Jewelry, Aurelia Elan Diamond Jewelry, Aurelia Elan Silver Articles, Aurelia Elan Loose Gemstones.",
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy"
+      },
+      "variant": "filters-editorial-drawer"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "Aurelia Elan trade selection",
+        "subtitle": "Source diamond solitaire ring, gold chain collection and more from this jewelry / diamond trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "Aurelia Elan Diamond Solitaire Ring",
+          "Aurelia Elan Gold Chain Collection",
+          "Aurelia Elan Silver Gift Bowl",
+          "Aurelia Elan Emerald Gemstone",
+          "Aurelia Elan Bridal Necklace Set",
+          "Aurelia Elan Diamond Stud Earrings"
+        ],
+        "prices": [
+          "INR 48,000",
+          "INR 62,000",
+          "INR 4,200",
+          "INR 8,500",
+          "INR 1,25,000",
+          "INR 32,000"
+        ],
+        "products": [
+          {
+            "id": "jewelry-diamond-web-theme-product-1",
+            "slug": "aureliatrade-diamond-solitaire-ring",
+            "sku": "WEB-06-1",
+            "name": "Aurelia Elan Diamond Solitaire Ring",
+            "description": "Diamond Solitaire Ring from Aurelia Elan's diamond jewelry assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "diamond-jewelry",
+            "categoryId": "jewelry-diamond-web-theme-category-2",
+            "categoryName": "Aurelia Elan Diamond Jewelry",
+            "brand": "Aurelia Elan",
+            "price": 48000,
+            "currency": "INR",
+            "priceLabel": "INR 48,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 83,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 56640,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 48000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 45600
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 43200
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Diamond Solitaire Ring",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-web-theme-product-2",
+            "slug": "aureliatrade-gold-chain-collection",
+            "sku": "WEB-06-2",
+            "name": "Aurelia Elan Gold Chain Collection",
+            "description": "Gold Chain Collection from Aurelia Elan's gold jewelry assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "gold-jewelry",
+            "categoryId": "jewelry-diamond-web-theme-category-1",
+            "categoryName": "Aurelia Elan Gold Jewelry",
+            "brand": "Aurelia Elan",
+            "price": 62000,
+            "currency": "INR",
+            "priceLabel": "INR 62,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 94,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 73160,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 62000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 58900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 55800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Gold Chain Collection",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-web-theme-product-3",
+            "slug": "aureliatrade-silver-gift-bowl",
+            "sku": "WEB-06-3",
+            "name": "Aurelia Elan Silver Gift Bowl",
+            "description": "Silver Gift Bowl from Aurelia Elan's silver articles assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "silver-articles",
+            "categoryId": "jewelry-diamond-web-theme-category-3",
+            "categoryName": "Aurelia Elan Silver Articles",
+            "brand": "Aurelia Elan",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-03.jpg",
+            "stock": 105,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Silver Gift Bowl",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-web-theme-product-4",
+            "slug": "aureliatrade-emerald-gemstone",
+            "sku": "WEB-06-4",
+            "name": "Aurelia Elan Emerald Gemstone",
+            "description": "Emerald Gemstone from Aurelia Elan's loose gemstones assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "loose-gemstones",
+            "categoryId": "jewelry-diamond-web-theme-category-4",
+            "categoryName": "Aurelia Elan Loose Gemstones",
+            "brand": "Aurelia Elan",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 116,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Emerald Gemstone",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-web-theme-product-5",
+            "slug": "aureliatrade-bridal-necklace-set",
+            "sku": "WEB-06-5",
+            "name": "Aurelia Elan Bridal Necklace Set",
+            "description": "Bridal Necklace Set from Aurelia Elan's gold jewelry assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "gold-jewelry",
+            "categoryId": "jewelry-diamond-web-theme-category-1",
+            "categoryName": "Aurelia Elan Gold Jewelry",
+            "brand": "Aurelia Elan",
+            "price": 125000,
+            "currency": "INR",
+            "priceLabel": "INR 1,25,000",
+            "image": "assets/images/product-05.jpg",
+            "stock": 127,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 147500,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 125000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 118750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 112500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Bridal Necklace Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-web-theme-product-6",
+            "slug": "aureliatrade-diamond-stud-earrings",
+            "sku": "WEB-06-6",
+            "name": "Aurelia Elan Diamond Stud Earrings",
+            "description": "Diamond Stud Earrings from Aurelia Elan's diamond jewelry assortment. Curate a considered assortment of metals, stones and settings. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "diamond-jewelry",
+            "categoryId": "jewelry-diamond-web-theme-category-2",
+            "categoryName": "Aurelia Elan Diamond Jewelry",
+            "brand": "Aurelia Elan",
+            "price": 32000,
+            "currency": "INR",
+            "priceLabel": "INR 32,000",
+            "image": "assets/images/product-06.jpg",
+            "stock": 138,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 37760,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 32000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 30400
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 28800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: Aurelia Elan Diamond Stud Earrings",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy",
+        "cardStyle": "horizontal",
+        "columns": 6
+      },
+      "variant": "products-gallery-cards"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your Aurelia Elan order",
+        "subtitle": "Review quantities for diamond solitaire ring with this jewelry / diamond preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy"
+      },
+      "variant": "cta-banner-atelier"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "tagline": "Source diamond solitaire ring, gold chain collection and more from this jewelry / diamond trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-06-web-aurelia-elan",
+        "layoutMode": "specification-list",
+        "density": "airy"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-06-web-aurelia-elan"
+}

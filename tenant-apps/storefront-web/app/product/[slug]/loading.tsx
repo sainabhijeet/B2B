@@ -1,5 +1,5 @@
-import StorefrontLoadingOverlay from "@/components/StorefrontLoadingOverlay";
+import StorefrontPageLoading from "@/components/StorefrontPageLoading";
 
 export default function ProductLoading() {
-  return <StorefrontLoadingOverlay message="Loading product details…" />;
+  return <StorefrontPageLoading message="Loading product details…" />;
 }

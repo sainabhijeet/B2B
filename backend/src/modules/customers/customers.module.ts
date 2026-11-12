@@ -11,6 +11,8 @@ import { TenancyModule } from '../../tenancy/tenancy.module';
 import { CustomersController } from './customers.controller';
 import { CustomersService } from './customers.service';
 import { NotificationsModule } from '../notifications/notifications.module';
+import { StorageObject } from '../../common/entities/storage-object.entity';
+import { PlatformStorageProvidersModule } from '../storage-providers/platform-storage-providers.module';
 
 @Module({
   imports: [
@@ -19,10 +21,12 @@ import { NotificationsModule } from '../notifications/notifications.module';
       CustomerAddress,
       CreditTransaction,
       CustomerWhatsappPermission,
+      StorageObject,
     ]),
     ReorderSuggestionsModule,
     TenancyModule,
     NotificationsModule,
+    PlatformStorageProvidersModule,
   ],
   controllers: [CustomersController],
   providers: [CreditLedgerService, CustomersCreditService, CustomersService],

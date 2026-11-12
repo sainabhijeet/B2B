@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "LubeHarbor",
+        "industryName": "Oil, Lubricants & Industrial Fluids",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "LubeHarbor: Group maintenance fluids by equipment and application.",
+        "subtitle": "Source heavy duty engine oil, premium hydraulic fluid and more from this oil, lubricants & industrial fluids trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "hero-stacked-center"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "LubeHarbor collections",
+        "subtitle": "Choose your next oil, lubricants & industrial fluids order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "LubeHarbor Engine Oils",
+          "LubeHarbor Hydraulic Oils",
+          "LubeHarbor Greases",
+          "LubeHarbor Metalworking Fluids"
+        ],
+        "categories": [
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-category-1",
+            "slug": "engine-oils",
+            "name": "LubeHarbor Engine Oils",
+            "description": "Explore LubeHarbor's engine oils selection for oil, lubricants & industrial fluids buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-category-2",
+            "slug": "hydraulic-oils",
+            "name": "LubeHarbor Hydraulic Oils",
+            "description": "Explore LubeHarbor's hydraulic oils selection for oil, lubricants & industrial fluids buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-category-3",
+            "slug": "greases",
+            "name": "LubeHarbor Greases",
+            "description": "Explore LubeHarbor's greases selection for oil, lubricants & industrial fluids buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-category-4",
+            "slug": "metalworking-fluids",
+            "name": "LubeHarbor Metalworking Fluids",
+            "description": "Explore LubeHarbor's metalworking fluids selection for oil, lubricants & industrial fluids buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact",
+        "categoryStyle": "numbered-list"
+      },
+      "variant": "categories-numbered-list"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "LubeHarbor trade selection",
+        "subtitle": "Source heavy duty engine oil, premium hydraulic fluid and more from this oil, lubricants & industrial fluids trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "LubeHarbor Heavy Duty Engine Oil",
+          "LubeHarbor Premium Hydraulic Fluid",
+          "LubeHarbor High Temperature Grease",
+          "LubeHarbor Cutting Oil Drum",
+          "LubeHarbor Gear Oil Can",
+          "LubeHarbor Rust Preventive Fluid"
+        ],
+        "prices": [
+          "INR 4,500",
+          "INR 12,500",
+          "INR 1,850",
+          "INR 8,500",
+          "INR 2,400",
+          "INR 3,200"
+        ],
+        "products": [
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-1",
+            "slug": "lubeharbor-heavy-duty-engine-oil",
+            "sku": "WEB-37-1",
+            "name": "LubeHarbor Heavy Duty Engine Oil",
+            "description": "Heavy Duty Engine Oil from LubeHarbor's engine oils assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "engine-oils",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-1",
+            "categoryName": "LubeHarbor Engine Oils",
+            "brand": "LubeHarbor",
+            "price": 4500,
+            "currency": "INR",
+            "priceLabel": "INR 4,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 176,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 5310,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 4500
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 4275
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 4050
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor Heavy Duty Engine Oil",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-2",
+            "slug": "lubeharbor-premium-hydraulic-fluid",
+            "sku": "WEB-37-2",
+            "name": "LubeHarbor Premium Hydraulic Fluid",
+            "description": "Premium Hydraulic Fluid from LubeHarbor's hydraulic oils assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "hydraulic-oils",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-2",
+            "categoryName": "LubeHarbor Hydraulic Oils",
+            "brand": "LubeHarbor",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 187,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor Premium Hydraulic Fluid",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-3",
+            "slug": "lubeharbor-high-temperature-grease",
+            "sku": "WEB-37-3",
+            "name": "LubeHarbor High Temperature Grease",
+            "description": "High Temperature Grease from LubeHarbor's greases assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "greases",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-3",
+            "categoryName": "LubeHarbor Greases",
+            "brand": "LubeHarbor",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-03.jpg",
+            "stock": 198,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor High Temperature Grease",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-4",
+            "slug": "lubeharbor-cutting-oil-drum",
+            "sku": "WEB-37-4",
+            "name": "LubeHarbor Cutting Oil Drum",
+            "description": "Cutting Oil Drum from LubeHarbor's metalworking fluids assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "metalworking-fluids",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-4",
+            "categoryName": "LubeHarbor Metalworking Fluids",
+            "brand": "LubeHarbor",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 209,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor Cutting Oil Drum",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-5",
+            "slug": "lubeharbor-gear-oil-can",
+            "sku": "WEB-37-5",
+            "name": "LubeHarbor Gear Oil Can",
+            "description": "Gear Oil Can from LubeHarbor's engine oils assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "engine-oils",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-1",
+            "categoryName": "LubeHarbor Engine Oils",
+            "brand": "LubeHarbor",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-05.jpg",
+            "stock": 220,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor Gear Oil Can",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "oil-lubricants-industrial-fluids-web-theme-product-6",
+            "slug": "lubeharbor-rust-preventive-fluid",
+            "sku": "WEB-37-6",
+            "name": "LubeHarbor Rust Preventive Fluid",
+            "description": "Rust Preventive Fluid from LubeHarbor's metalworking fluids assortment. Group maintenance fluids by equipment and application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "metalworking-fluids",
+            "categoryId": "oil-lubricants-industrial-fluids-web-theme-category-4",
+            "categoryName": "LubeHarbor Metalworking Fluids",
+            "brand": "LubeHarbor",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 231,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: LubeHarbor Rust Preventive Fluid",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact",
+        "cardStyle": "bulk-table",
+        "columns": 3
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next oil, lubricants & industrial fluids assortment with LubeHarbor",
+        "body": "Group maintenance fluids by equipment and application. Source heavy duty engine oil, premium hydraulic fluid and more from this oil, lubricants & industrial fluids trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with LubeHarbor",
+        "items": [
+          {
+            "icon": "01",
+            "title": "LubeHarbor Engine Oils",
+            "text": "Start with heavy duty engine oil and compare the LubeHarbor sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "LubeHarbor quantity breaks",
+            "text": "Review MOQ and bulk tiers for premium hydraulic fluid before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "LubeHarbor sourcing lists",
+            "text": "Source heavy duty engine oil, premium hydraulic fluid and more from this oil, lubricants & industrial fluids trade collection."
+          }
+        ],
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "LubeHarbor sample buyer story",
+        "quote": "Our demo oil, lubricants & industrial fluids buying team can compare heavy duty engine oil and high temperature grease in one sourcing catalog.",
+        "author": "Fictional LubeHarbor buyer — demo feedback",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow LubeHarbor arrivals",
+        "subtitle": "Sample updates about cutting oil drum and lubeharbor engine oils.",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "LubeHarbor trade savings",
+        "subtitle": "Sample quantity breaks for high temperature grease and the oil, lubricants & industrial fluids catalog. Demo offers only.",
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "LubeHarbor",
+        "industryName": "Oil, Lubricants & Industrial Fluids",
+        "tagline": "Source heavy duty engine oil, premium hydraulic fluid and more from this oil, lubricants & industrial fluids trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-37-web",
+        "layoutMode": "Fluid application guide",
+        "density": "compact"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-37-web"
+}

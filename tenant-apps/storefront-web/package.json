@@ -5,10 +5,12 @@
   "scripts": {
     "themes:sync": "node scripts/sync-uploaded-themes.mjs",
     "themes:contracts:audit": "node scripts/audit-theme-contracts.mjs",
+    "themes:design-lock:audit": "node scripts/audit-locked-theme-designs.mjs",
     "themes:translations:audit": "node scripts/audit-theme-translations.mjs",
-    "predev": "npm run themes:sync && npm run themes:contracts:audit",
-    "dev": "next dev -p 5175",
-    "prebuild": "npm run themes:sync && npm run themes:contracts:audit",
+    "predev": "npm run themes:sync && npm run themes:design-lock:audit && npm run themes:contracts:audit",
+    "dev": "node scripts/dev-server.mjs",
+    "dev:direct": "next dev -H 0.0.0.0 -p 5175",
+    "prebuild": "npm run themes:sync && npm run themes:design-lock:audit && npm run themes:contracts:audit",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

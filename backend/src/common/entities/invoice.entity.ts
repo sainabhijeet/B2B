@@ -54,6 +54,9 @@ export class Invoice {
   @Column({ name: 'document_reference', type: 'text', nullable: true })
   documentReference: string | null;
 
+  @Column({ name: 'storage_object_id', type: 'uuid', nullable: true })
+  storageObjectId: string | null;
+
   @CreateDateColumn({ name: 'created_at' })
   createdAt: Date;
 }

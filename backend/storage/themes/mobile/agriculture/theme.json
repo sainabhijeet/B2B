@@ -1,0 +1,84 @@
+{
+    "name":  "Agriculture, Seeds \u0026 Agri-inputs App Theme",
+    "version":  "1.0.0",
+    "storefrontKey":  "agriculture-seeds-agri-inputs-app-theme",
+    "industry":  "Agriculture, Seeds \u0026 Agri-inputs",
+    "industryId":  "10000000-0000-4000-8000-00000000000d",
+    "description":  "App commerce theme for Agriculture, Seeds \u0026 Agri-inputs, packaged with industry-specific demo content for Live Preview.",
+    "author":  "B2B Platform Theme Studio",
+    "templates":  {
+                      "home":  "templates/home.json",
+                      "category":  "templates/category.json",
+                      "product":  "templates/product.json"
+                  },
+    "allowedSections":  [
+                            "header",
+                            "hero-banner",
+                            "promo-banner",
+                            "category-grid",
+                            "product-grid",
+                            "image-with-text",
+                            "feature-list",
+                            "testimonial-carousel",
+                            "newsletter",
+                            "footer",
+                            "filter-sidebar",
+                            "cta-banner",
+                            "product-gallery",
+                            "product-info",
+                            "related-products",
+                            "faq-section"
+                        ],
+    "capabilities":  {
+                         "allowedSections":  [
+                                                 "header",
+                                                 "hero-banner",
+                                                 "promo-banner",
+                                                 "category-grid",
+                                                 "product-grid",
+                                                 "image-with-text",
+                                                 "feature-list",
+                                                 "testimonial-carousel",
+                                                 "newsletter",
+                                                 "footer",
+                                                 "filter-sidebar",
+                                                 "cta-banner",
+                                                 "product-gallery",
+                                                 "product-info",
+                                                 "related-products",
+                                                 "faq-section"
+                                             ]
+                     },
+    "tokens":  {
+                   "colors":  "tokens/colors.json",
+                   "typography":  "tokens/typography.json",
+                   "spacing":  "tokens/spacing.json",
+                   "layout":  "tokens/layout.json"
+               },
+    "assets":  {
+                   "css":  "assets/css/theme.css",
+                   "logo":  "assets/images/logo.svg"
+               },
+    "preview":  {
+                    "desktop":  "assets/images/hero.svg",
+                    "tablet":  "assets/images/hero.svg",
+                    "mobile":  "assets/images/hero.svg"
+                },
+    "demoData":  "demo-data/catalog.json",
+    "languages":  [
+                      "en"
+                  ],
+    "defaultLanguage":  "en",
+    "locales":  {
+                    "en":  "locales/en.json"
+                },
+    "mobile":  {
+                   "base_layout":  "grid",
+                   "card_style":  "rounded",
+                   "spacing":  "comfortable",
+                   "show_banner":  true,
+                   "enable_quick_qty":  false,
+                   "banner_image":  "assets/images/hero.svg",
+                   "category_image":  "assets/images/category-01.svg"
+               }
+}

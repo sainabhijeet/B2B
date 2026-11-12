@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "RoomPalette",
+        "industryName": "Home Decor & Furnishings",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "RoomPalette Textured Wall Art",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "gallery-compact-order"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "RoomPalette Textured Wall Art",
+        "subtitle": "Textured Wall Art from RoomPalette's wall decor assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 1,850",
+        "description": "Textured Wall Art from RoomPalette's wall decor assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-21-1",
+        "stock": 128,
+        "moq": 5,
+        "product": {
+          "id": "home-decor-furnishings-web-theme-product-1",
+          "slug": "roompalette-textured-wall-art",
+          "sku": "WEB-21-1",
+          "name": "RoomPalette Textured Wall Art",
+          "description": "Textured Wall Art from RoomPalette's wall decor assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "wall-decor",
+          "categoryId": "home-decor-furnishings-web-theme-category-1",
+          "categoryName": "RoomPalette Wall Decor",
+          "brand": "RoomPalette",
+          "price": 1850,
+          "currency": "INR",
+          "priceLabel": "INR 1,850",
+          "image": "assets/images/product-01.jpg",
+          "stock": 128,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2183,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 1850
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 1758
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 1665
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: RoomPalette Textured Wall Art",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "info-compact-order"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "RoomPalette trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "RoomPalette Textured Wall Art",
+          "RoomPalette Designer Pendant Lamp",
+          "RoomPalette Premium Cushion Set",
+          "RoomPalette Decorative Table Vase",
+          "RoomPalette Blackout Curtain Pair",
+          "RoomPalette Handwoven Floor Rug"
+        ],
+        "prices": [
+          "INR 1,850",
+          "INR 2,400",
+          "INR 950",
+          "INR 650",
+          "INR 1,800",
+          "INR 3,200"
+        ],
+        "products": [
+          {
+            "id": "home-decor-furnishings-web-theme-product-1",
+            "slug": "roompalette-textured-wall-art",
+            "sku": "WEB-21-1",
+            "name": "RoomPalette Textured Wall Art",
+            "description": "Textured Wall Art from RoomPalette's wall decor assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "wall-decor",
+            "categoryId": "home-decor-furnishings-web-theme-category-1",
+            "categoryName": "RoomPalette Wall Decor",
+            "brand": "RoomPalette",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-01.jpg",
+            "stock": 128,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Textured Wall Art",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-web-theme-product-2",
+            "slug": "roompalette-designer-pendant-lamp",
+            "sku": "WEB-21-2",
+            "name": "RoomPalette Designer Pendant Lamp",
+            "description": "Designer Pendant Lamp from RoomPalette's lighting decor assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "lighting-decor",
+            "categoryId": "home-decor-furnishings-web-theme-category-2",
+            "categoryName": "RoomPalette Lighting Decor",
+            "brand": "RoomPalette",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-02.jpg",
+            "stock": 139,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Designer Pendant Lamp",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-web-theme-product-3",
+            "slug": "roompalette-premium-cushion-set",
+            "sku": "WEB-21-3",
+            "name": "RoomPalette Premium Cushion Set",
+            "description": "Premium Cushion Set from RoomPalette's soft furnishings assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "soft-furnishings",
+            "categoryId": "home-decor-furnishings-web-theme-category-3",
+            "categoryName": "RoomPalette Soft Furnishings",
+            "brand": "RoomPalette",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-03.jpg",
+            "stock": 150,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Premium Cushion Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-web-theme-product-4",
+            "slug": "roompalette-decorative-table-vase",
+            "sku": "WEB-21-4",
+            "name": "RoomPalette Decorative Table Vase",
+            "description": "Decorative Table Vase from RoomPalette's decor accessories assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "decor-accessories",
+            "categoryId": "home-decor-furnishings-web-theme-category-4",
+            "categoryName": "RoomPalette Decor Accessories",
+            "brand": "RoomPalette",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-04.jpg",
+            "stock": 161,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Decorative Table Vase",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-web-theme-product-5",
+            "slug": "roompalette-blackout-curtain-pair",
+            "sku": "WEB-21-5",
+            "name": "RoomPalette Blackout Curtain Pair",
+            "description": "Blackout Curtain Pair from RoomPalette's soft furnishings assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "soft-furnishings",
+            "categoryId": "home-decor-furnishings-web-theme-category-3",
+            "categoryName": "RoomPalette Soft Furnishings",
+            "brand": "RoomPalette",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-05.jpg",
+            "stock": 172,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Blackout Curtain Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "home-decor-furnishings-web-theme-product-6",
+            "slug": "roompalette-handwoven-floor-rug",
+            "sku": "WEB-21-6",
+            "name": "RoomPalette Handwoven Floor Rug",
+            "description": "Handwoven Floor Rug from RoomPalette's soft furnishings assortment. Create coordinated interior collections with texture and light. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "soft-furnishings",
+            "categoryId": "home-decor-furnishings-web-theme-category-3",
+            "categoryName": "RoomPalette Soft Furnishings",
+            "brand": "RoomPalette",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 183,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: RoomPalette Handwoven Floor Rug",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source textured wall art, designer pendant lamp and more from this home decor & furnishings trade collection.",
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy",
+        "cardStyle": "bulk-table",
+        "columns": 5
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the RoomPalette demo catalog",
+        "items": [
+          {
+            "question": "How are RoomPalette pack quantities shown?",
+            "answer": "RoomPalette Textured Wall Art has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are RoomPalette images supplier photographs?",
+            "answer": "These home decor & furnishings images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "RoomPalette",
+        "industryName": "Home Decor & Furnishings",
+        "tagline": "Source textured wall art, designer pendant lamp and more from this home decor & furnishings trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-21-web",
+        "layoutMode": "compact-order",
+        "density": "airy"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-21-web"
+}

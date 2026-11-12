@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "GemParcel",
+        "industryName": "Jewelry / Diamond",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "GemParcel restock savings",
+        "subtitle": "Sample quantity breaks for decorative ceremonial lamp and the jewelry / diamond catalog. Demo offers only.",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "GemParcel collections",
+        "subtitle": "Choose your next jewelry / diamond order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "GemParcel Gold Jewelry",
+          "GemParcel Diamond Jewelry",
+          "GemParcel Silver Articles",
+          "GemParcel Loose Gemstones"
+        ],
+        "categories": [
+          {
+            "id": "jewelry-diamond-app-theme-category-1",
+            "slug": "gold-jewelry",
+            "name": "GemParcel Gold Jewelry",
+            "description": "Pick gold jewelry for your jewelry / diamond replenishment list with GemParcel.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "jewelry-diamond-app-theme-category-2",
+            "slug": "diamond-jewelry",
+            "name": "GemParcel Diamond Jewelry",
+            "description": "Pick diamond jewelry for your jewelry / diamond replenishment list with GemParcel.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "jewelry-diamond-app-theme-category-3",
+            "slug": "silver-articles",
+            "name": "GemParcel Silver Articles",
+            "description": "Pick silver articles for your jewelry / diamond replenishment list with GemParcel.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "jewelry-diamond-app-theme-category-4",
+            "slug": "loose-gemstones",
+            "name": "GemParcel Loose Gemstones",
+            "description": "Pick loose gemstones for your jewelry / diamond replenishment list with GemParcel.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy",
+        "categoryStyle": "split-cards"
+      },
+      "variant": "categories-split-cards"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "GemParcel: your jewelry / diamond restock list",
+        "subtitle": "Browse gold hoop earrings, pear cut diamond pendant and a dedicated jewelry / diamond mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "hero-editorial-left"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "GemParcel restock picks",
+        "subtitle": "Browse gold hoop earrings, pear cut diamond pendant and a dedicated jewelry / diamond mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "GemParcel Gold Hoop Earrings",
+          "GemParcel Pear Cut Diamond Pendant",
+          "GemParcel Decorative Ceremonial Lamp",
+          "GemParcel Blue Topaz Ring",
+          "GemParcel Gold Bangle Pair",
+          "GemParcel Diamond Tennis Bracelet"
+        ],
+        "prices": [
+          "INR 40,320",
+          "INR 69,440",
+          "INR 3,906",
+          "INR 9,180",
+          "INR 95,000",
+          "INR 37,760"
+        ],
+        "products": [
+          {
+            "id": "jewelry-diamond-app-theme-product-1",
+            "slug": "gemparcel-gold-hoop-earrings",
+            "sku": "APP-06-1",
+            "name": "GemParcel Gold Hoop Earrings",
+            "description": "Gold Hoop Earrings for your jewelry / diamond replenishment list. GemParcel groups this item with gold jewelry so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "gold-jewelry",
+            "categoryId": "jewelry-diamond-app-theme-category-1",
+            "categoryName": "GemParcel Gold Jewelry",
+            "brand": "GemParcel",
+            "price": 40320,
+            "currency": "INR",
+            "priceLabel": "INR 40,320",
+            "image": "assets/images/product-01.jpg",
+            "stock": 56,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 47578,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 40320
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 38304
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 36288
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Gold Hoop Earrings",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-app-theme-product-2",
+            "slug": "gemparcel-pear-cut-diamond-pendant",
+            "sku": "APP-06-2",
+            "name": "GemParcel Pear Cut Diamond Pendant",
+            "description": "Pear Cut Diamond Pendant for your jewelry / diamond replenishment list. GemParcel groups this item with diamond jewelry so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "diamond-jewelry",
+            "categoryId": "jewelry-diamond-app-theme-category-2",
+            "categoryName": "GemParcel Diamond Jewelry",
+            "brand": "GemParcel",
+            "price": 69440,
+            "currency": "INR",
+            "priceLabel": "INR 69,440",
+            "image": "assets/images/product-02.jpg",
+            "stock": 67,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 81939,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 69440
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 65968
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 62496
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Pear Cut Diamond Pendant",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-app-theme-product-3",
+            "slug": "gemparcel-decorative-ceremonial-lamp",
+            "sku": "APP-06-3",
+            "name": "GemParcel Decorative Ceremonial Lamp",
+            "description": "Decorative Ceremonial Lamp for your jewelry / diamond replenishment list. GemParcel groups this item with silver articles so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "silver-articles",
+            "categoryId": "jewelry-diamond-app-theme-category-3",
+            "categoryName": "GemParcel Silver Articles",
+            "brand": "GemParcel",
+            "price": 3906,
+            "currency": "INR",
+            "priceLabel": "INR 3,906",
+            "image": "assets/images/product-03.jpg",
+            "stock": 78,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 4609,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 3906
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 3711
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 3515
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Decorative Ceremonial Lamp",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-app-theme-product-4",
+            "slug": "gemparcel-blue-topaz-ring",
+            "sku": "APP-06-4",
+            "name": "GemParcel Blue Topaz Ring",
+            "description": "Blue Topaz Ring for your jewelry / diamond replenishment list. GemParcel groups this item with loose gemstones so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "loose-gemstones",
+            "categoryId": "jewelry-diamond-app-theme-category-4",
+            "categoryName": "GemParcel Loose Gemstones",
+            "brand": "GemParcel",
+            "price": 9180,
+            "currency": "INR",
+            "priceLabel": "INR 9,180",
+            "image": "assets/images/product-04.jpg",
+            "stock": 89,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 9180
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8721
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8262
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Blue Topaz Ring",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-app-theme-product-5",
+            "slug": "gemparcel-gold-bangle-pair",
+            "sku": "APP-06-5",
+            "name": "GemParcel Gold Bangle Pair",
+            "description": "Gold Bangle Pair for your jewelry / diamond replenishment list. GemParcel groups this item with gold jewelry so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "gold-jewelry",
+            "categoryId": "jewelry-diamond-app-theme-category-1",
+            "categoryName": "GemParcel Gold Jewelry",
+            "brand": "GemParcel",
+            "price": 95000,
+            "currency": "INR",
+            "priceLabel": "INR 95,000",
+            "image": "assets/images/product-05.jpg",
+            "stock": 100,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 112100,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 95000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 90250
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 85500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Gold Bangle Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "jewelry-diamond-app-theme-product-6",
+            "slug": "gemparcel-diamond-tennis-bracelet",
+            "sku": "APP-06-6",
+            "name": "GemParcel Diamond Tennis Bracelet",
+            "description": "Diamond Tennis Bracelet for your jewelry / diamond replenishment list. GemParcel groups this item with diamond jewelry so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "diamond-jewelry",
+            "categoryId": "jewelry-diamond-app-theme-category-2",
+            "categoryName": "GemParcel Diamond Jewelry",
+            "brand": "GemParcel",
+            "price": 37760,
+            "currency": "INR",
+            "priceLabel": "INR 37,760",
+            "image": "assets/images/product-06.jpg",
+            "stock": 111,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 44557,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 37760
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 35872
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 33984
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GemParcel Diamond Tennis Bracelet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy",
+        "cardStyle": "editorial",
+        "columns": 2
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "GemParcel sample buyer story",
+        "quote": "Our demo jewelry / diamond buying team can compare gold hoop earrings and decorative ceremonial lamp in one restock list.",
+        "author": "Fictional GemParcel buyer — demo feedback",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "testimonial-carousel-airy"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your GemParcel buying list, wherever work takes you",
+        "body": "Curate a considered assortment of metals, stones and settings. Browse gold hoop earrings, pear cut diamond pendant and a dedicated jewelry / diamond mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow GemParcel arrivals",
+        "subtitle": "Sample updates about blue topaz ring and gemparcel gold jewelry.",
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with GemParcel",
+        "items": [
+          {
+            "icon": "01",
+            "title": "GemParcel Gold Jewelry",
+            "text": "Start with gold hoop earrings and compare the GemParcel sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "GemParcel quantity breaks",
+            "text": "Review MOQ and bulk tiers for pear cut diamond pendant before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "GemParcel repeat orders",
+            "text": "Browse gold hoop earrings, pear cut diamond pendant and a dedicated jewelry / diamond mobile assortment."
+          }
+        ],
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "GemParcel",
+        "industryName": "Jewelry / Diamond",
+        "tagline": "Browse gold hoop earrings, pear cut diamond pendant and a dedicated jewelry / diamond mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-06-app",
+        "layoutMode": "Jewellery gallery salon / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-06-app"
+}

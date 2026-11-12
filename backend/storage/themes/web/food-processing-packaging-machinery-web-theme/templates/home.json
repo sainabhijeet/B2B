@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ProcessPantry",
+        "industryName": "Food Processing & Packaging Machinery",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ProcessPantry: Bring food preparation and packing equipment into one workflow.",
+        "subtitle": "Source industrial mixer machine, automatic liquid filler and more from this food processing & packaging machinery trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "ProcessPantry sample buyer story",
+        "quote": "Our demo food processing & packaging machinery buying team can compare industrial mixer machine and continuous band sealer in one sourcing catalog.",
+        "author": "Fictional ProcessPantry buyer — demo feedback",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "testimonial-carousel-airy"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "ProcessPantry collections",
+        "subtitle": "Choose your next food processing & packaging machinery order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ProcessPantry Processing Equipment",
+          "ProcessPantry Filling Machines",
+          "ProcessPantry Sealing Systems",
+          "ProcessPantry Food Safety Tools"
+        ],
+        "categories": [
+          {
+            "id": "food-processing-packaging-machinery-web-theme-category-1",
+            "slug": "processing-equipment",
+            "name": "ProcessPantry Processing Equipment",
+            "description": "Explore ProcessPantry's processing equipment selection for food processing & packaging machinery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-category-2",
+            "slug": "filling-machines",
+            "name": "ProcessPantry Filling Machines",
+            "description": "Explore ProcessPantry's filling machines selection for food processing & packaging machinery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-category-3",
+            "slug": "sealing-systems",
+            "name": "ProcessPantry Sealing Systems",
+            "description": "Explore ProcessPantry's sealing systems selection for food processing & packaging machinery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-category-4",
+            "slug": "food-safety-tools",
+            "name": "ProcessPantry Food Safety Tools",
+            "description": "Explore ProcessPantry's food safety tools selection for food processing & packaging machinery buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-06.jpg"
+          }
+        ],
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy",
+        "categoryStyle": "image-tiles"
+      },
+      "variant": "categories-image-tiles"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next food processing & packaging machinery assortment with ProcessPantry",
+        "body": "Bring food preparation and packing equipment into one workflow. Source industrial mixer machine, automatic liquid filler and more from this food processing & packaging machinery trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "ProcessPantry trade selection",
+        "subtitle": "Source industrial mixer machine, automatic liquid filler and more from this food processing & packaging machinery trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ProcessPantry Industrial Mixer Machine",
+          "ProcessPantry Automatic Liquid Filler",
+          "ProcessPantry Continuous Band Sealer",
+          "ProcessPantry Food Grade Conveyor",
+          "ProcessPantry Vacuum Packing Machine",
+          "ProcessPantry Metal Detector Unit"
+        ],
+        "prices": [
+          "INR 85,000",
+          "INR 1,25,000",
+          "INR 18,500",
+          "INR 65,000",
+          "INR 28,500",
+          "INR 95,000"
+        ],
+        "products": [
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-1",
+            "slug": "processpantry-industrial-mixer-machine",
+            "sku": "WEB-33-1",
+            "name": "ProcessPantry Industrial Mixer Machine",
+            "description": "Industrial Mixer Machine from ProcessPantry's processing equipment assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "processing-equipment",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-1",
+            "categoryName": "ProcessPantry Processing Equipment",
+            "brand": "ProcessPantry",
+            "price": 85000,
+            "currency": "INR",
+            "priceLabel": "INR 85,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 164,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 100300,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 85000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 80750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 76500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Industrial Mixer Machine",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-2",
+            "slug": "processpantry-automatic-liquid-filler",
+            "sku": "WEB-33-2",
+            "name": "ProcessPantry Automatic Liquid Filler",
+            "description": "Automatic Liquid Filler from ProcessPantry's filling machines assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "filling-machines",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-2",
+            "categoryName": "ProcessPantry Filling Machines",
+            "brand": "ProcessPantry",
+            "price": 125000,
+            "currency": "INR",
+            "priceLabel": "INR 1,25,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 175,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 147500,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 125000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 118750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 112500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Automatic Liquid Filler",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-3",
+            "slug": "processpantry-continuous-band-sealer",
+            "sku": "WEB-33-3",
+            "name": "ProcessPantry Continuous Band Sealer",
+            "description": "Continuous Band Sealer from ProcessPantry's sealing systems assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "sealing-systems",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-3",
+            "categoryName": "ProcessPantry Sealing Systems",
+            "brand": "ProcessPantry",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 186,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Continuous Band Sealer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-4",
+            "slug": "processpantry-food-grade-conveyor",
+            "sku": "WEB-33-4",
+            "name": "ProcessPantry Food Grade Conveyor",
+            "description": "Food Grade Conveyor from ProcessPantry's processing equipment assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "processing-equipment",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-1",
+            "categoryName": "ProcessPantry Processing Equipment",
+            "brand": "ProcessPantry",
+            "price": 65000,
+            "currency": "INR",
+            "priceLabel": "INR 65,000",
+            "image": "assets/images/product-04.jpg",
+            "stock": 197,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 76700,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 65000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 61750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 58500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Food Grade Conveyor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-5",
+            "slug": "processpantry-vacuum-packing-machine",
+            "sku": "WEB-33-5",
+            "name": "ProcessPantry Vacuum Packing Machine",
+            "description": "Vacuum Packing Machine from ProcessPantry's sealing systems assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "sealing-systems",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-3",
+            "categoryName": "ProcessPantry Sealing Systems",
+            "brand": "ProcessPantry",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 208,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Vacuum Packing Machine",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "food-processing-packaging-machinery-web-theme-product-6",
+            "slug": "processpantry-metal-detector-unit",
+            "sku": "WEB-33-6",
+            "name": "ProcessPantry Metal Detector Unit",
+            "description": "Metal Detector Unit from ProcessPantry's food safety tools assortment. Bring food preparation and packing equipment into one workflow. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "food-safety-tools",
+            "categoryId": "food-processing-packaging-machinery-web-theme-category-4",
+            "categoryName": "ProcessPantry Food Safety Tools",
+            "brand": "ProcessPantry",
+            "price": 95000,
+            "currency": "INR",
+            "priceLabel": "INR 95,000",
+            "image": "assets/images/product-06.jpg",
+            "stock": 219,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 112100,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 95000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 90250
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 85500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ProcessPantry Metal Detector Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy",
+        "cardStyle": "marketplace",
+        "columns": 5
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with ProcessPantry",
+        "items": [
+          {
+            "icon": "01",
+            "title": "ProcessPantry Processing Equipment",
+            "text": "Start with industrial mixer machine and compare the ProcessPantry sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "ProcessPantry quantity breaks",
+            "text": "Review MOQ and bulk tiers for automatic liquid filler before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "ProcessPantry sourcing lists",
+            "text": "Source industrial mixer machine, automatic liquid filler and more from this food processing & packaging machinery trade collection."
+          }
+        ],
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow ProcessPantry arrivals",
+        "subtitle": "Sample updates about food grade conveyor and processpantry processing equipment.",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "ProcessPantry trade savings",
+        "subtitle": "Sample quantity breaks for continuous band sealer and the food processing & packaging machinery catalog. Demo offers only.",
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ProcessPantry",
+        "industryName": "Food Processing & Packaging Machinery",
+        "tagline": "Source industrial mixer machine, automatic liquid filler and more from this food processing & packaging machinery trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-33-web",
+        "layoutMode": "Processing line planner",
+        "density": "airy"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-33-web"
+}

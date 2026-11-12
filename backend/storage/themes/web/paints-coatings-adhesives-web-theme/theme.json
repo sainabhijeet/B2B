@@ -1,0 +1,92 @@
+{
+  "name": "Paints, Coatings & Adhesives Web Theme",
+  "version": "2.2.1",
+  "storefrontKey": "paints-coatings-adhesives-web-theme",
+  "industry": "Paints, Coatings & Adhesives",
+  "industryId": "10000000-0000-4000-8000-00000000000f",
+  "description": "A professional specification-led storefront for paints, coatings, finishes, adhesives and sealants, with an asymmetric colour-specification header and distributor-controlled brand palette.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-15-web",
+    "direction": "Colour specification deck",
+    "header": "chroma-spec-deck",
+    "headerIdentity": "header-15-web",
+    "headerStructure": "asymmetric-paint-fan-spec-workspace-system-deck",
+    "hero": "spec-board",
+    "categories": "horizontal-rail",
+    "productCards": "minimal",
+    "productListing": "top-filter-dense",
+    "productDetail": "story-scroll",
+    "footer": "minimal",
+    "footerIdentity": "footer-15-web",
+    "footerStructure": "shell-1-composition-3",
+    "density": "airy",
+    "responsiveStrategy": "top-filter-dense-to-mobile-drawer"
+  }
+}

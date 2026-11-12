@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ResinPocket",
+        "industryName": "Plastics & Polymers",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "ResinPocket HDPE Blow Moulding Granules",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced"
+      },
+      "variant": "gallery-sticky-buy"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "ResinPocket HDPE Blow Moulding Granules",
+        "subtitle": "HDPE Blow Moulding Granules for your plastics & polymers replenishment list. ResinPocket groups this item with polymer resins so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 2,058",
+        "description": "HDPE Blow Moulding Granules for your plastics & polymers replenishment list. ResinPocket groups this item with polymer resins so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-17-1",
+        "stock": 89,
+        "moq": 2,
+        "product": {
+          "id": "plastics-polymers-app-theme-product-1",
+          "slug": "resinpocket-hdpe-blow-moulding-granules",
+          "sku": "APP-17-1",
+          "name": "ResinPocket HDPE Blow Moulding Granules",
+          "description": "HDPE Blow Moulding Granules for your plastics & polymers replenishment list. ResinPocket groups this item with polymer resins so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "polymer-resins",
+          "categoryId": "plastics-polymers-app-theme-category-1",
+          "categoryName": "ResinPocket Polymer Resins",
+          "brand": "ResinPocket",
+          "price": 2058,
+          "currency": "INR",
+          "priceLabel": "INR 2,058",
+          "image": "assets/images/product-01.jpg",
+          "stock": 89,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2428,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 2058
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 1955
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 1852
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: ResinPocket HDPE Blow Moulding Granules",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced"
+      },
+      "variant": "info-sticky-buy"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "ResinPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ResinPocket HDPE Blow Moulding Granules",
+          "ResinPocket White Color Masterbatch",
+          "ResinPocket Acetal Engineering Rod",
+          "ResinPocket Recycled HDPE Pellets",
+          "ResinPocket LDPE Film Resin",
+          "ResinPocket UV Stabilizer Masterbatch"
+        ],
+        "prices": [
+          "INR 2,058",
+          "INR 3,584",
+          "INR 4,185",
+          "INR 1,782",
+          "INR 1,596",
+          "INR 6,844"
+        ],
+        "products": [
+          {
+            "id": "plastics-polymers-app-theme-product-1",
+            "slug": "resinpocket-hdpe-blow-moulding-granules",
+            "sku": "APP-17-1",
+            "name": "ResinPocket HDPE Blow Moulding Granules",
+            "description": "HDPE Blow Moulding Granules for your plastics & polymers replenishment list. ResinPocket groups this item with polymer resins so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "polymer-resins",
+            "categoryId": "plastics-polymers-app-theme-category-1",
+            "categoryName": "ResinPocket Polymer Resins",
+            "brand": "ResinPocket",
+            "price": 2058,
+            "currency": "INR",
+            "priceLabel": "INR 2,058",
+            "image": "assets/images/product-01.jpg",
+            "stock": 89,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2428,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 2058
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1955
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1852
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket HDPE Blow Moulding Granules",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastics-polymers-app-theme-product-2",
+            "slug": "resinpocket-white-color-masterbatch",
+            "sku": "APP-17-2",
+            "name": "ResinPocket White Color Masterbatch",
+            "description": "White Color Masterbatch for your plastics & polymers replenishment list. ResinPocket groups this item with masterbatches so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "masterbatches",
+            "categoryId": "plastics-polymers-app-theme-category-2",
+            "categoryName": "ResinPocket Masterbatches",
+            "brand": "ResinPocket",
+            "price": 3584,
+            "currency": "INR",
+            "priceLabel": "INR 3,584",
+            "image": "assets/images/product-02.jpg",
+            "stock": 100,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 4229,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 3584
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3405
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3226
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket White Color Masterbatch",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastics-polymers-app-theme-product-3",
+            "slug": "resinpocket-acetal-engineering-rod",
+            "sku": "APP-17-3",
+            "name": "ResinPocket Acetal Engineering Rod",
+            "description": "Acetal Engineering Rod for your plastics & polymers replenishment list. ResinPocket groups this item with engineering plastics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "engineering-plastics",
+            "categoryId": "plastics-polymers-app-theme-category-3",
+            "categoryName": "ResinPocket Engineering Plastics",
+            "brand": "ResinPocket",
+            "price": 4185,
+            "currency": "INR",
+            "priceLabel": "INR 4,185",
+            "image": "assets/images/product-03.jpg",
+            "stock": 111,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 4938,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 4185
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 3976
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 3767
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket Acetal Engineering Rod",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastics-polymers-app-theme-product-4",
+            "slug": "resinpocket-recycled-hdpe-pellets",
+            "sku": "APP-17-4",
+            "name": "ResinPocket Recycled HDPE Pellets",
+            "description": "Recycled HDPE Pellets for your plastics & polymers replenishment list. ResinPocket groups this item with recycled materials so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "recycled-materials",
+            "categoryId": "plastics-polymers-app-theme-category-4",
+            "categoryName": "ResinPocket Recycled Materials",
+            "brand": "ResinPocket",
+            "price": 1782,
+            "currency": "INR",
+            "priceLabel": "INR 1,782",
+            "image": "assets/images/product-04.jpg",
+            "stock": 122,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2103,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1782
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1693
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1604
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket Recycled HDPE Pellets",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastics-polymers-app-theme-product-5",
+            "slug": "resinpocket-ldpe-film-resin",
+            "sku": "APP-17-5",
+            "name": "ResinPocket LDPE Film Resin",
+            "description": "LDPE Film Resin for your plastics & polymers replenishment list. ResinPocket groups this item with polymer resins so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "polymer-resins",
+            "categoryId": "plastics-polymers-app-theme-category-1",
+            "categoryName": "ResinPocket Polymer Resins",
+            "brand": "ResinPocket",
+            "price": 1596,
+            "currency": "INR",
+            "priceLabel": "INR 1,596",
+            "image": "assets/images/product-05.jpg",
+            "stock": 133,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1883,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1596
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1516
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1436
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket LDPE Film Resin",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastics-polymers-app-theme-product-6",
+            "slug": "resinpocket-uv-stabilizer-masterbatch",
+            "sku": "APP-17-6",
+            "name": "ResinPocket UV Stabilizer Masterbatch",
+            "description": "UV Stabilizer Masterbatch for your plastics & polymers replenishment list. ResinPocket groups this item with masterbatches so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "masterbatches",
+            "categoryId": "plastics-polymers-app-theme-category-2",
+            "categoryName": "ResinPocket Masterbatches",
+            "brand": "ResinPocket",
+            "price": 6844,
+            "currency": "INR",
+            "priceLabel": "INR 6,844",
+            "image": "assets/images/product-06.jpg",
+            "stock": 144,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 8076,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 6844
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 6502
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 6160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ResinPocket UV Stabilizer Masterbatch",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse hdpe blow moulding granules, white color masterbatch and a dedicated plastics & polymers mobile assortment.",
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced",
+        "cardStyle": "horizontal",
+        "columns": 1
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the ResinPocket demo catalog",
+        "items": [
+          {
+            "question": "How are ResinPocket pack quantities shown?",
+            "answer": "ResinPocket HDPE Blow Moulding Granules has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are ResinPocket images supplier photographs?",
+            "answer": "These plastics & polymers images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ResinPocket",
+        "industryName": "Plastics & Polymers",
+        "tagline": "Browse hdpe blow moulding granules, white color masterbatch and a dedicated plastics & polymers mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-17-app",
+        "layoutMode": "sticky-buy",
+        "density": "balanced"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-17-app"
+}

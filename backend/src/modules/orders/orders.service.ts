@@ -10,6 +10,9 @@ import {
 import { ConfigService } from '@nestjs/config';
 import { InjectDataSource, InjectRepository } from '@nestjs/typeorm';
 import { DataSource, EntityManager, In, IsNull, Repository } from 'typeorm';
+import { createHash, randomUUID } from 'node:crypto';
+import * as path from 'node:path';
+import { Readable } from 'node:stream';
 import { Cart } from '../../common/entities/cart.entity';
 import { CartItem } from '../../common/entities/cart-item.entity';
 import { Inventory } from '../../common/entities/inventory.entity';
@@ -64,6 +67,16 @@ import {
 import { VerifyOrderRazorpayPaymentDto } from './dto/verify-order-razorpay-payment.dto';
 import { AuditLogsService } from '../audit-logs/audit-logs.service';
 import { NotificationsService } from '../notifications/notifications.service';
+import { MediaQuarantineStorageService } from '../media/media-quarantine-storage.service';
+import { MediaScanQueueService } from '../media/media-scan-queue.service';
+import { PlatformStorageRuntimeService } from '../storage-providers/platform-storage-runtime.service';
+import { StorageObjectDeliveryService } from '../storage-providers/storage-object-delivery.service';
+import { normalizeStorageObjectKey } from '../storage-providers/storage-object-key.util';
+import { StorageObjectsService } from '../storage-providers/storage-objects.service';
+import {
+  UploadValidationService,
+  UPLOAD_VALIDATION_POLICIES,
+} from '../storage-providers/upload-validation.service';
 import {
   ACTIVE_ORDER_REQUEST_STATUSES,
   isCancellationEligibleStatus,
@@ -138,7 +151,13 @@ export class OrdersService implements OnModuleDestroy {
     private readonly razorpay: RazorpayIntegration,
     private readonly auditLogs: AuditLogsService,
     private readonly notifications: NotificationsService,
-    configService: ConfigService,
+    private readonly configService: ConfigService,
+    private readonly storageRuntime?: PlatformStorageRuntimeService,
+    private readonly storageObjects?: StorageObjectsService,
+    private readonly storageDelivery?: StorageObjectDeliveryService,
+    private readonly uploadValidation?: UploadValidationService,
+    private readonly quarantine?: MediaQuarantineStorageService,
+    private readonly mediaScanQueue?: MediaScanQueueService,
   ) {
     this.notificationQueueEnabled = areQueuesEnabled(configService);
     const queueOptions = {
@@ -2560,6 +2579,178 @@ export class OrdersService implements OnModuleDestroy {
     });
   }
 
+  async getPaymentProof(user: JwtUserPayload, id: string) {
+    const tenantId =
+      user.role === UserRole.SUPER_ADMIN ||
+      user.role === UserRole.PLATFORM_SUPPORT
+        ? await this.findTenantIdForOrder(id)
+        : user.tenantId;
+    if (!tenantId) throw new BadRequestException('Order not found.');
+    if (user.tenantId && user.tenantId !== tenantId) {
+      throw new ForbiddenException('Cross-tenant access denied.');
+    }
+
+    return this.tenantRunner.withTenantCatalog(tenantId, async (m) => {
+      const order = await m.getRepository(Order).findOne({
+        where: { id, deletedAt: IsNull() },
+      });
+      if (!order) throw new BadRequestException('Order not found.');
+      if (user.role === UserRole.CUSTOMER && order.userId !== user.sub) {
+        throw new ForbiddenException('Not your order.');
+      }
+      const payment = await m.getRepository(OrderPayment).findOne({
+        where: { orderId: order.id },
+      });
+      if (!payment) throw new BadRequestException('No payment proof found.');
+      const proofUrl = payment.paymentProofStorageObjectId
+        ? await this.paymentProofUrl(payment, user)
+        : this.privateDocuments.sign(payment.paymentScreenshotUrl);
+      return {
+        success: true,
+        data: {
+          ...payment,
+          paymentScreenshotUrl: proofUrl,
+          proofUrl,
+        },
+        meta: {},
+        message: '',
+      };
+    });
+  }
+
+  async uploadPaymentProofFile(
+    user: JwtUserPayload,
+    id: string,
+    dto: UploadPaymentProofDto,
+    file: Express.Multer.File | undefined,
+  ) {
+    if (!file) throw new BadRequestException('proof file is required.');
+    if (!user.tenantId)
+      throw new ForbiddenException('Cross-tenant access denied.');
+    const storageRuntime = this.storageRuntime;
+    const storageObjects = this.storageObjects;
+    const uploadValidation = this.uploadValidation;
+    const quarantine = this.quarantine;
+    const mediaScanQueue = this.mediaScanQueue;
+    if (
+      !storageRuntime ||
+      !storageObjects ||
+      !uploadValidation ||
+      !quarantine ||
+      !mediaScanQueue
+    ) {
+      throw new BadRequestException('Payment proof storage is unavailable.');
+    }
+
+    return this.tenantRunner.withTenantCatalog(user.tenantId, async (m) => {
+      const ordersRepo = m.getRepository(Order);
+      const orderPaymentsRepo = m.getRepository(OrderPayment);
+      const order = await ordersRepo.findOne({
+        where: { id, deletedAt: IsNull() },
+      });
+      if (!order) throw new BadRequestException('Order not found.');
+      this.assertCanAccessOrderPaymentProof(user, order);
+
+      const firstPass = uploadValidation.validateFileOrThrow({
+        category: 'payment_proof',
+        file,
+      });
+      const objectId = randomUUID();
+      const objectKey = normalizeStorageObjectKey(
+        path.posix.join(
+          'payment-proofs',
+          order.tenantId,
+          order.id,
+          `${objectId}${firstPass.extension}`,
+        ),
+      );
+      const validated = uploadValidation.validateFileOrThrow({
+        category: 'payment_proof',
+        file,
+        objectKey,
+      });
+      const resolution = await storageRuntime.resolveProvider();
+      const buyer = await this.usersRepo.findOne({
+        where: { id: order.userId },
+        select: ['id', 'customerId'],
+      });
+      await quarantine.write(
+        objectId,
+        Readable.from(file.buffer),
+        this.configService.get<number>(
+          'mediaMalware.maxBytes',
+          UPLOAD_VALIDATION_POLICIES.payment_proof.maxBytes,
+        ) ?? UPLOAD_VALIDATION_POLICIES.payment_proof.maxBytes,
+      );
+
+      let registered;
+      try {
+        registered =
+          await storageObjects.registerQuarantinedTenantObjectForTenant(
+            order.tenantId,
+            objectId,
+            {
+              providerId: resolution.metadata.providerId,
+              objectKey,
+              originalFilename: this.sanitizePaymentProofFilename(
+                validated.filename,
+              ),
+              mimeType: validated.detectedMimeType,
+              sizeBytes: validated.sizeBytes,
+              checksumSha256: createHash('sha256')
+                .update(file.buffer)
+                .digest('hex'),
+              objectCategory: 'payment_proof',
+              accessScope: 'TENANT_PRIVATE',
+              metadata: {
+                source: 'orders.payment_proof',
+                orderId: order.id,
+                customerUserId: order.userId,
+                customerId: buyer?.customerId ?? null,
+                runtimeSource: resolution.metadata.source,
+              },
+            },
+            user,
+          );
+      } catch (error) {
+        await quarantine.delete(objectId).catch(() => undefined);
+        throw error;
+      }
+
+      let payment = await orderPaymentsRepo.findOne({
+        where: { orderId: order.id },
+      });
+      const internalReference = `storage-object:${registered.id}`;
+      if (!payment) {
+        payment = orderPaymentsRepo.create({
+          orderId: order.id,
+          tenantId: order.tenantId,
+          paymentReference: dto.paymentReference,
+          paymentScreenshotUrl: internalReference,
+          paymentProofStorageObjectId: registered.id,
+          paymentNote: dto.paymentNote ?? null,
+          status: 'UPLOADED',
+          uploadedBy: user.sub,
+        });
+      } else {
+        payment.paymentReference = dto.paymentReference ?? null;
+        payment.paymentScreenshotUrl = internalReference;
+        payment.paymentProofStorageObjectId = registered.id;
+        payment.paymentNote = dto.paymentNote ?? null;
+        payment.status = 'UPLOADED';
+        payment.uploadedBy = user.sub;
+      }
+      const savedPayment = await orderPaymentsRepo.save(payment);
+      await mediaScanQueue.enqueue(registered.id);
+      return {
+        success: true,
+        data: this.safePaymentProofResponse(savedPayment, registered),
+        meta: {},
+        message: '',
+      };
+    });
+  }
+
   async paymentAction(user: JwtUserPayload, id: string, dto: PaymentActionDto) {
     this.ensurePaymentAdminRole(user);
     const tenantId =
@@ -3234,6 +3425,72 @@ export class OrdersService implements OnModuleDestroy {
         .filter((url): url is string => Boolean(url)),
       replacementShipment: shipment,
     };
+  }
+
+  private assertCanAccessOrderPaymentProof(
+    user: JwtUserPayload,
+    order: Order,
+  ): void {
+    if (order.tenantId !== user.tenantId) {
+      if (
+        user.role !== UserRole.SUPER_ADMIN &&
+        user.role !== UserRole.PLATFORM_SUPPORT
+      ) {
+        throw new ForbiddenException('Cross-tenant access denied.');
+      }
+    }
+    if (user.role === UserRole.CUSTOMER && order.userId !== user.sub) {
+      throw new ForbiddenException('Not your order.');
+    }
+  }
+
+  private async paymentProofUrl(
+    payment: OrderPayment,
+    user: JwtUserPayload,
+  ): Promise<string | null> {
+    if (!payment.paymentProofStorageObjectId || !this.storageDelivery) {
+      return null;
+    }
+    try {
+      const access = await this.storageDelivery.createSignedReadAccess(
+        payment.paymentProofStorageObjectId,
+        user,
+      );
+      return access.url;
+    } catch {
+      return null;
+    }
+  }
+
+  private safePaymentProofResponse(
+    payment: OrderPayment,
+    storageObject: { id: string; status?: string; scanStatus?: string } | null,
+    proofUrl: string | null = null,
+  ) {
+    return {
+      id: payment.id,
+      orderId: payment.orderId,
+      tenantId: payment.tenantId,
+      paymentReference: payment.paymentReference,
+      paymentNote: payment.paymentNote,
+      status: payment.status,
+      uploadedBy: payment.uploadedBy,
+      storageObjectId: payment.paymentProofStorageObjectId,
+      storageStatus: storageObject?.status ?? null,
+      scanStatus: storageObject?.scanStatus ?? null,
+      proofUrl,
+      createdAt: payment.createdAt,
+      updatedAt: payment.updatedAt,
+    };
+  }
+
+  private sanitizePaymentProofFilename(value: string): string {
+    const sanitized = path
+      .basename(value || 'payment-proof')
+      .replace(/[<>:"/\\|?*\u0000-\u001f\u007f]/g, '_')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return (sanitized || 'payment-proof').slice(0, 255);
   }
 
   private ensurePaymentAdminRole(user: JwtUserPayload) {

@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PlayQuarter",
+        "industryName": "Toys & General Merchandise",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "PlayQuarter collections",
+        "subtitle": "Choose your next toys & general merchandise order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-05.jpg"
+        ],
+        "labels": [
+          "PlayQuarter Educational Toys",
+          "PlayQuarter Outdoor Play",
+          "PlayQuarter Games & Puzzles",
+          "PlayQuarter Gift Merchandise"
+        ],
+        "categories": [
+          {
+            "id": "toys-general-merchandise-web-theme-category-1",
+            "slug": "educational-toys",
+            "name": "PlayQuarter Educational Toys",
+            "description": "Explore PlayQuarter's educational toys selection for toys & general merchandise buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-category-2",
+            "slug": "outdoor-play",
+            "name": "PlayQuarter Outdoor Play",
+            "description": "Explore PlayQuarter's outdoor play selection for toys & general merchandise buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-category-3",
+            "slug": "games-puzzles",
+            "name": "PlayQuarter Games & Puzzles",
+            "description": "Explore PlayQuarter's games & puzzles selection for toys & general merchandise buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-category-4",
+            "slug": "gift-merchandise",
+            "name": "PlayQuarter Gift Merchandise",
+            "description": "Explore PlayQuarter's gift merchandise selection for toys & general merchandise buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-05.jpg"
+          }
+        ],
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced",
+        "categoryStyle": "sidebar-index"
+      },
+      "variant": "categories-sidebar-index"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "PlayQuarter trade selection",
+        "subtitle": "Source stem learning kit, kids ride-on toy and more from this toys & general merchandise trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PlayQuarter STEM Learning Kit",
+          "PlayQuarter Kids Ride-On Toy",
+          "PlayQuarter Family Board Game",
+          "PlayQuarter Building Block Set",
+          "PlayQuarter Soft Plush Toy",
+          "PlayQuarter Creative Art Box"
+        ],
+        "prices": [
+          "INR 1,499",
+          "INR 4,200",
+          "INR 650",
+          "INR 950",
+          "INR 450",
+          "INR 850"
+        ],
+        "products": [
+          {
+            "id": "toys-general-merchandise-web-theme-product-1",
+            "slug": "playquarter-stem-learning-kit",
+            "sku": "WEB-44-1",
+            "name": "PlayQuarter STEM Learning Kit",
+            "description": "STEM Learning Kit from PlayQuarter's educational toys assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "educational-toys",
+            "categoryId": "toys-general-merchandise-web-theme-category-1",
+            "categoryName": "PlayQuarter Educational Toys",
+            "brand": "PlayQuarter",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-01.jpg",
+            "stock": 197,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter STEM Learning Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-product-2",
+            "slug": "playquarter-kids-ride-on-toy",
+            "sku": "WEB-44-2",
+            "name": "PlayQuarter Kids Ride-On Toy",
+            "description": "Kids Ride-On Toy from PlayQuarter's outdoor play assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "outdoor-play",
+            "categoryId": "toys-general-merchandise-web-theme-category-2",
+            "categoryName": "PlayQuarter Outdoor Play",
+            "brand": "PlayQuarter",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-02.jpg",
+            "stock": 208,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter Kids Ride-On Toy",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-product-3",
+            "slug": "playquarter-family-board-game",
+            "sku": "WEB-44-3",
+            "name": "PlayQuarter Family Board Game",
+            "description": "Family Board Game from PlayQuarter's games & puzzles assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "games-puzzles",
+            "categoryId": "toys-general-merchandise-web-theme-category-3",
+            "categoryName": "PlayQuarter Games & Puzzles",
+            "brand": "PlayQuarter",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 219,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter Family Board Game",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-product-4",
+            "slug": "playquarter-building-block-set",
+            "sku": "WEB-44-4",
+            "name": "PlayQuarter Building Block Set",
+            "description": "Building Block Set from PlayQuarter's educational toys assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "educational-toys",
+            "categoryId": "toys-general-merchandise-web-theme-category-1",
+            "categoryName": "PlayQuarter Educational Toys",
+            "brand": "PlayQuarter",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-04.jpg",
+            "stock": 230,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter Building Block Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-product-5",
+            "slug": "playquarter-soft-plush-toy",
+            "sku": "WEB-44-5",
+            "name": "PlayQuarter Soft Plush Toy",
+            "description": "Soft Plush Toy from PlayQuarter's gift merchandise assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "gift-merchandise",
+            "categoryId": "toys-general-merchandise-web-theme-category-4",
+            "categoryName": "PlayQuarter Gift Merchandise",
+            "brand": "PlayQuarter",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-05.jpg",
+            "stock": 241,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter Soft Plush Toy",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-web-theme-product-6",
+            "slug": "playquarter-creative-art-box",
+            "sku": "WEB-44-6",
+            "name": "PlayQuarter Creative Art Box",
+            "description": "Creative Art Box from PlayQuarter's educational toys assortment. Choose play and gifting assortments for different activities. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "educational-toys",
+            "categoryId": "toys-general-merchandise-web-theme-category-1",
+            "categoryName": "PlayQuarter Educational Toys",
+            "brand": "PlayQuarter",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-06.jpg",
+            "stock": 252,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlayQuarter Creative Art Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced",
+        "cardStyle": "image-first",
+        "columns": 4
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PlayQuarter: Choose play and gifting assortments for different activities.",
+        "subtitle": "Source stem learning kit, kids ride-on toy and more from this toys & general merchandise trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "hero-mosaic"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next toys & general merchandise assortment with PlayQuarter",
+        "body": "Choose play and gifting assortments for different activities. Source stem learning kit, kids ride-on toy and more from this toys & general merchandise trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow PlayQuarter arrivals",
+        "subtitle": "Sample updates about building block set and playquarter educational toys.",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with PlayQuarter",
+        "items": [
+          {
+            "icon": "01",
+            "title": "PlayQuarter Educational Toys",
+            "text": "Start with stem learning kit and compare the PlayQuarter sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "PlayQuarter quantity breaks",
+            "text": "Review MOQ and bulk tiers for kids ride-on toy before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "PlayQuarter sourcing lists",
+            "text": "Source stem learning kit, kids ride-on toy and more from this toys & general merchandise trade collection."
+          }
+        ],
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "PlayQuarter sample buyer story",
+        "quote": "Our demo toys & general merchandise buying team can compare stem learning kit and family board game in one sourcing catalog.",
+        "author": "Fictional PlayQuarter buyer — demo feedback",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "PlayQuarter trade savings",
+        "subtitle": "Sample quantity breaks for family board game and the toys & general merchandise catalog. Demo offers only.",
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PlayQuarter",
+        "industryName": "Toys & General Merchandise",
+        "tagline": "Source stem learning kit, kids ride-on toy and more from this toys & general merchandise trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-44-web",
+        "layoutMode": "Playful merchandise bazaar",
+        "density": "balanced"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-44-web"
+}

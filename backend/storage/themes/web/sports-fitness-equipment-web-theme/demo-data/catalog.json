@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000002d",
+  "industry": "Sports & Fitness Equipment",
+  "themeName": "Sports & Fitness Equipment Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "ActiveSupply",
+    "industry": "Sports & Fitness Equipment",
+    "tagline": "Source adjustable dumbbell set, professional cricket bat and more from this sports & fitness equipment trade collection.",
+    "email": "hello@activesupply.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "ActiveSupply quantity rewards",
+      "description": "Compare the sample bulk tiers in ActiveSupply's sports & fitness equipment range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "ActiveSupply sample buyer story",
+      "quote": "Our demo sports & fitness equipment buying team can compare adjustable dumbbell set and camping tent in one sourcing catalog.",
+      "author": "Fictional ActiveSupply buyer — demo feedback",
+      "designId": "ds-45-web",
+      "layoutMode": "Performance training club",
+      "density": "airy",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "sports-fitness-equipment-web-theme-category-1",
+      "slug": "fitness-equipment",
+      "name": "ActiveSupply Fitness Equipment",
+      "description": "Explore ActiveSupply's fitness equipment selection for sports & fitness equipment buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-category-2",
+      "slug": "team-sports",
+      "name": "ActiveSupply Team Sports",
+      "description": "Explore ActiveSupply's team sports selection for sports & fitness equipment buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-category-3",
+      "slug": "outdoor-sports",
+      "name": "ActiveSupply Outdoor Sports",
+      "description": "Explore ActiveSupply's outdoor sports selection for sports & fitness equipment buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-category-4",
+      "slug": "sportswear",
+      "name": "ActiveSupply Sportswear",
+      "description": "Explore ActiveSupply's sportswear selection for sports & fitness equipment buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "sports-fitness-equipment-web-theme-product-1",
+      "slug": "activesupply-adjustable-dumbbell-set",
+      "sku": "WEB-45-1",
+      "name": "ActiveSupply Adjustable Dumbbell Set",
+      "description": "Adjustable Dumbbell Set from ActiveSupply's fitness equipment assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "fitness-equipment",
+      "categoryId": "sports-fitness-equipment-web-theme-category-1",
+      "categoryName": "ActiveSupply Fitness Equipment",
+      "brand": "ActiveSupply",
+      "price": 4200,
+      "currency": "INR",
+      "priceLabel": "INR 4,200",
+      "image": "assets/images/product-01.jpg",
+      "stock": 200,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 4956,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 4200
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 3990
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 3780
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Adjustable Dumbbell Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-product-2",
+      "slug": "activesupply-professional-cricket-bat",
+      "sku": "WEB-45-2",
+      "name": "ActiveSupply Professional Cricket Bat",
+      "description": "Professional Cricket Bat from ActiveSupply's team sports assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "team-sports",
+      "categoryId": "sports-fitness-equipment-web-theme-category-2",
+      "categoryName": "ActiveSupply Team Sports",
+      "brand": "ActiveSupply",
+      "price": 2850,
+      "currency": "INR",
+      "priceLabel": "INR 2,850",
+      "image": "assets/images/product-02.jpg",
+      "stock": 211,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 3363,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 2850
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 2708
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 2565
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Professional Cricket Bat",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-product-3",
+      "slug": "activesupply-camping-tent",
+      "sku": "WEB-45-3",
+      "name": "ActiveSupply Camping Tent",
+      "description": "Camping Tent from ActiveSupply's outdoor sports assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "outdoor-sports",
+      "categoryId": "sports-fitness-equipment-web-theme-category-3",
+      "categoryName": "ActiveSupply Outdoor Sports",
+      "brand": "ActiveSupply",
+      "price": 6500,
+      "currency": "INR",
+      "priceLabel": "INR 6,500",
+      "image": "assets/images/product-03.jpg",
+      "stock": 222,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 7670,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 6500
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 6175
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 5850
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Camping Tent",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-product-4",
+      "slug": "activesupply-performance-training-shoes",
+      "sku": "WEB-45-4",
+      "name": "ActiveSupply Performance Training Shoes",
+      "description": "Performance Training Shoes from ActiveSupply's sportswear assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "sportswear",
+      "categoryId": "sports-fitness-equipment-web-theme-category-4",
+      "categoryName": "ActiveSupply Sportswear",
+      "brand": "ActiveSupply",
+      "price": 1850,
+      "currency": "INR",
+      "priceLabel": "INR 1,850",
+      "image": "assets/images/product-04.jpg",
+      "stock": 233,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 2183,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 1850
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1758
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 1665
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Performance Training Shoes",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-product-5",
+      "slug": "activesupply-yoga-mat-bundle",
+      "sku": "WEB-45-5",
+      "name": "ActiveSupply Yoga Mat Bundle",
+      "description": "Yoga Mat Bundle from ActiveSupply's fitness equipment assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "fitness-equipment",
+      "categoryId": "sports-fitness-equipment-web-theme-category-1",
+      "categoryName": "ActiveSupply Fitness Equipment",
+      "brand": "ActiveSupply",
+      "price": 950,
+      "currency": "INR",
+      "priceLabel": "INR 950",
+      "image": "assets/images/product-05.jpg",
+      "stock": 244,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1121,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 950
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 903
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 855
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Yoga Mat Bundle",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "sports-fitness-equipment-web-theme-product-6",
+      "slug": "activesupply-football-training-kit",
+      "sku": "WEB-45-6",
+      "name": "ActiveSupply Football Training Kit",
+      "description": "Football Training Kit from ActiveSupply's team sports assortment. Bring training and recreation essentials into one catalog. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "team-sports",
+      "categoryId": "sports-fitness-equipment-web-theme-category-2",
+      "categoryName": "ActiveSupply Team Sports",
+      "brand": "ActiveSupply",
+      "price": 1499,
+      "currency": "INR",
+      "priceLabel": "INR 1,499",
+      "image": "assets/images/product-06.jpg",
+      "stock": 255,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 1769,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 1499
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1424
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1349
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ActiveSupply Football Training Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-45-web",
+    "direction": "Performance training club",
+    "header": "minimal-mark",
+    "headerIdentity": "header-45-web",
+    "headerStructure": "shell-3-composition-8",
+    "hero": "stacked-center",
+    "categories": "numbered-list",
+    "productCards": "bulk-table",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "service-desk",
+    "footerIdentity": "footer-45-web",
+    "footerStructure": "shell-3-composition-7",
+    "density": "airy",
+    "responsiveStrategy": "quick-order-to-mobile-drawer"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "KitchenGuild",
+        "industryName": "Kitchenware & Cookware",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "compact-stack"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "KitchenGuild Tri-Ply Cookware Set",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "gallery-story-scroll"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "KitchenGuild Tri-Ply Cookware Set",
+        "subtitle": "Tri-Ply Cookware Set from KitchenGuild's cookware assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 4,200",
+        "description": "Tri-Ply Cookware Set from KitchenGuild's cookware assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-22-1",
+        "stock": 131,
+        "moq": 5,
+        "product": {
+          "id": "kitchenware-cookware-web-theme-product-1",
+          "slug": "kitchenguild-tri-ply-cookware-set",
+          "sku": "WEB-22-1",
+          "name": "KitchenGuild Tri-Ply Cookware Set",
+          "description": "Tri-Ply Cookware Set from KitchenGuild's cookware assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "cookware",
+          "categoryId": "kitchenware-cookware-web-theme-category-1",
+          "categoryName": "KitchenGuild Cookware",
+          "brand": "KitchenGuild",
+          "price": 4200,
+          "currency": "INR",
+          "priceLabel": "INR 4,200",
+          "image": "assets/images/product-01.jpg",
+          "stock": 131,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 4956,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 4200
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 3990
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 3780
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: KitchenGuild Tri-Ply Cookware Set",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "info-story-scroll"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "KitchenGuild trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "KitchenGuild Tri-Ply Cookware Set",
+          "KitchenGuild Chef Knife Collection",
+          "KitchenGuild Airtight Container Set",
+          "KitchenGuild Mixer Grinder",
+          "KitchenGuild Stainless Steel Bottle",
+          "KitchenGuild Nonstick Frying Pan"
+        ],
+        "prices": [
+          "INR 4,200",
+          "INR 1,850",
+          "INR 950",
+          "INR 2,800",
+          "INR 450",
+          "INR 899"
+        ],
+        "products": [
+          {
+            "id": "kitchenware-cookware-web-theme-product-1",
+            "slug": "kitchenguild-tri-ply-cookware-set",
+            "sku": "WEB-22-1",
+            "name": "KitchenGuild Tri-Ply Cookware Set",
+            "description": "Tri-Ply Cookware Set from KitchenGuild's cookware assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cookware",
+            "categoryId": "kitchenware-cookware-web-theme-category-1",
+            "categoryName": "KitchenGuild Cookware",
+            "brand": "KitchenGuild",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-01.jpg",
+            "stock": 131,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Tri-Ply Cookware Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-web-theme-product-2",
+            "slug": "kitchenguild-chef-knife-collection",
+            "sku": "WEB-22-2",
+            "name": "KitchenGuild Chef Knife Collection",
+            "description": "Chef Knife Collection from KitchenGuild's kitchen tools assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "kitchen-tools",
+            "categoryId": "kitchenware-cookware-web-theme-category-2",
+            "categoryName": "KitchenGuild Kitchen Tools",
+            "brand": "KitchenGuild",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-02.jpg",
+            "stock": 142,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Chef Knife Collection",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-web-theme-product-3",
+            "slug": "kitchenguild-airtight-container-set",
+            "sku": "WEB-22-3",
+            "name": "KitchenGuild Airtight Container Set",
+            "description": "Airtight Container Set from KitchenGuild's storage assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "storage",
+            "categoryId": "kitchenware-cookware-web-theme-category-3",
+            "categoryName": "KitchenGuild Storage",
+            "brand": "KitchenGuild",
+            "price": 950,
+            "currency": "INR",
+            "priceLabel": "INR 950",
+            "image": "assets/images/product-03.jpg",
+            "stock": 153,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1121,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 950
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 903
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 855
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Airtight Container Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-web-theme-product-4",
+            "slug": "kitchenguild-mixer-grinder",
+            "sku": "WEB-22-4",
+            "name": "KitchenGuild Mixer Grinder",
+            "description": "Mixer Grinder from KitchenGuild's small appliances assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "small-appliances",
+            "categoryId": "kitchenware-cookware-web-theme-category-4",
+            "categoryName": "KitchenGuild Small Appliances",
+            "brand": "KitchenGuild",
+            "price": 2800,
+            "currency": "INR",
+            "priceLabel": "INR 2,800",
+            "image": "assets/images/product-04.jpg",
+            "stock": 164,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 3304,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 2800
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2660
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 2520
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Mixer Grinder",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-web-theme-product-5",
+            "slug": "kitchenguild-stainless-steel-bottle",
+            "sku": "WEB-22-5",
+            "name": "KitchenGuild Stainless Steel Bottle",
+            "description": "Stainless Steel Bottle from KitchenGuild's storage assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "storage",
+            "categoryId": "kitchenware-cookware-web-theme-category-3",
+            "categoryName": "KitchenGuild Storage",
+            "brand": "KitchenGuild",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-05.jpg",
+            "stock": 175,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Stainless Steel Bottle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "kitchenware-cookware-web-theme-product-6",
+            "slug": "kitchenguild-nonstick-frying-pan",
+            "sku": "WEB-22-6",
+            "name": "KitchenGuild Nonstick Frying Pan",
+            "description": "Nonstick Frying Pan from KitchenGuild's cookware assortment. Supply kitchens with tools for preparation, cooking and storage. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cookware",
+            "categoryId": "kitchenware-cookware-web-theme-category-1",
+            "categoryName": "KitchenGuild Cookware",
+            "brand": "KitchenGuild",
+            "price": 899,
+            "currency": "INR",
+            "priceLabel": "INR 899",
+            "image": "assets/images/product-06.jpg",
+            "stock": 186,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1061,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 899
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 854
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 809
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: KitchenGuild Nonstick Frying Pan",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source tri-ply cookware set, chef knife collection and more from this kitchenware & cookware trade collection.",
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact",
+        "cardStyle": "horizontal",
+        "columns": 3
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the KitchenGuild demo catalog",
+        "items": [
+          {
+            "question": "How are KitchenGuild pack quantities shown?",
+            "answer": "KitchenGuild Tri-Ply Cookware Set has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are KitchenGuild images supplier photographs?",
+            "answer": "These kitchenware & cookware images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "KitchenGuild",
+        "industryName": "Kitchenware & Cookware",
+        "tagline": "Source tri-ply cookware set, chef knife collection and more from this kitchenware & cookware trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-22-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-22-web"
+}

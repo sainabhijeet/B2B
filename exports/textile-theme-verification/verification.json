@@ -1,0 +1,182 @@
+[
+  {
+    "name": "desktop-hero",
+    "file": "exports/textile-theme-verification/desktop-hero.png",
+    "metrics": {
+      "width": 1440,
+      "height": 1050,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 1,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-categories",
+    "file": "exports/textile-theme-verification/desktop-categories.png",
+    "metrics": {
+      "width": 1440,
+      "height": 1050,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 2,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-story",
+    "file": "exports/textile-theme-verification/desktop-story.png",
+    "metrics": {
+      "width": 1440,
+      "height": 1050,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 2,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-products",
+    "file": "exports/textile-theme-verification/desktop-products.png",
+    "metrics": {
+      "width": 1440,
+      "height": 1050,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 3,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-benefits",
+    "file": "exports/textile-theme-verification/desktop-benefits.png",
+    "metrics": {
+      "width": 1440,
+      "height": 1050,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 4,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-testimonial",
+    "file": "exports/textile-theme-verification/desktop-testimonial.png",
+    "metrics": {
+      "width": 1440,
+      "height": 950,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 5,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "desktop-footer",
+    "file": "exports/textile-theme-verification/desktop-footer.png",
+    "metrics": {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "scrollHeight": 6909,
+      "sectionCount": 8,
+      "visibleSectionCount": 3,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px 300px 300px 300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "mobile-hero",
+    "file": "exports/textile-theme-verification/mobile-hero.png",
+    "metrics": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 10794,
+      "sectionCount": 8,
+      "visibleSectionCount": 1,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  },
+  {
+    "name": "mobile-products",
+    "file": "exports/textile-theme-verification/mobile-products.png",
+    "metrics": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "scrollHeight": 10794,
+      "sectionCount": 8,
+      "visibleSectionCount": 3,
+      "motionReady": true,
+      "searchVisible": true,
+      "heroTitle": "Textiles with texture, tone and trade-ready scale.",
+      "productColumns": "300px",
+      "horizontalOverflow": false
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ]
+  }
+]

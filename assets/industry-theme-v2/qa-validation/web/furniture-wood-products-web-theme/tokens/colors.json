@@ -1,0 +1,15 @@
+{
+    "primary":  "#166534",
+    "secondary":  "#84CC16",
+    "surface":  "#F7FEE7",
+    "ink":  "#14532D",
+    "muted":  "#4B5563",
+    "light":  {
+                  "primary":  "#166534",
+                  "secondary":  "#84CC16",
+                  "background":  "#F7FEE7",
+                  "surface":  "#FFFFFF",
+                  "on_surface":  "#14532D",
+                  "on_background":  "#14532D"
+              }
+}

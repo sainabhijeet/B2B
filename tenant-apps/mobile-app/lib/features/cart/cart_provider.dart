@@ -110,6 +110,11 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
       return;
     }
 
+    if (cfg.isDemoCatalog) {
+      state = const AsyncValue.data(<CartItem>[]);
+      return;
+    }
+
     final String? token = _ref.read(authTokenProvider);
     final bool authed = token != null && token.isNotEmpty;
 
@@ -242,6 +247,11 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
     Product? fallbackProduct,
     String? variantId,
   }) async {
+    if (_resolvedConfig()?.isDemoCatalog == true) {
+      throw StateError(
+        'This is sample catalog data for testing only. Ordering becomes available after the distributor adds real products.',
+      );
+    }
     final Product? fallback = fallbackProduct;
     final ProductVariant? variant = _variantById(fallback, variantId);
     final int moq = variant?.moq ?? fallback?.moq ?? 1;
@@ -348,6 +358,11 @@ class CartRemote extends StateNotifier<AsyncValue<List<CartItem>>> {
     String paymentMode = 'UPI_QR',
     CartItem? buyNowItem,
   }) async {
+    if (_resolvedConfig()?.isDemoCatalog == true) {
+      throw StateError(
+        'Checkout is unavailable for sample catalog data.',
+      );
+    }
     final String? token = _ref.read(authTokenProvider);
     if (token == null || token.isEmpty) {
       throw StateError('Sign in before checkout.');

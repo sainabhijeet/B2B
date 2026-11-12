@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PetProvision",
+        "industryName": "Pet Care & Veterinary Distribution",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "PetProvision Premium Dog Food Bag",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "gallery-story-scroll"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "PetProvision Premium Dog Food Bag",
+        "subtitle": "Premium Dog Food Bag from PetProvision's pet food assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 2,400",
+        "description": "Premium Dog Food Bag from PetProvision's pet food assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-43-1",
+        "stock": 194,
+        "moq": 5,
+        "product": {
+          "id": "pet-care-veterinary-distribution-web-theme-product-1",
+          "slug": "petprovision-premium-dog-food-bag",
+          "sku": "WEB-43-1",
+          "name": "PetProvision Premium Dog Food Bag",
+          "description": "Premium Dog Food Bag from PetProvision's pet food assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "pet-food",
+          "categoryId": "pet-care-veterinary-distribution-web-theme-category-1",
+          "categoryName": "PetProvision Pet Food",
+          "brand": "PetProvision",
+          "price": 2400,
+          "currency": "INR",
+          "priceLabel": "INR 2,400",
+          "image": "assets/images/product-01.jpg",
+          "stock": 194,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2832,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 2400
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 2280
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 2160
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: PetProvision Premium Dog Food Bag",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "info-story-scroll"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "PetProvision trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PetProvision Premium Dog Food Bag",
+          "PetProvision Pet Grooming Kit",
+          "PetProvision Veterinary Supplement",
+          "PetProvision Comfort Pet Bed",
+          "PetProvision Cat Activity Toy",
+          "PetProvision Flea Control Shampoo"
+        ],
+        "prices": [
+          "INR 2,400",
+          "INR 850",
+          "INR 650",
+          "INR 1,850",
+          "INR 350",
+          "INR 450"
+        ],
+        "products": [
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-1",
+            "slug": "petprovision-premium-dog-food-bag",
+            "sku": "WEB-43-1",
+            "name": "PetProvision Premium Dog Food Bag",
+            "description": "Premium Dog Food Bag from PetProvision's pet food assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "pet-food",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-1",
+            "categoryName": "PetProvision Pet Food",
+            "brand": "PetProvision",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-01.jpg",
+            "stock": 194,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Premium Dog Food Bag",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-2",
+            "slug": "petprovision-pet-grooming-kit",
+            "sku": "WEB-43-2",
+            "name": "PetProvision Pet Grooming Kit",
+            "description": "Pet Grooming Kit from PetProvision's grooming assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "grooming",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-2",
+            "categoryName": "PetProvision Grooming",
+            "brand": "PetProvision",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-02.jpg",
+            "stock": 205,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Pet Grooming Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-3",
+            "slug": "petprovision-veterinary-supplement",
+            "sku": "WEB-43-3",
+            "name": "PetProvision Veterinary Supplement",
+            "description": "Veterinary Supplement from PetProvision's veterinary care assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "veterinary-care",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-3",
+            "categoryName": "PetProvision Veterinary Care",
+            "brand": "PetProvision",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 216,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Veterinary Supplement",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-4",
+            "slug": "petprovision-comfort-pet-bed",
+            "sku": "WEB-43-4",
+            "name": "PetProvision Comfort Pet Bed",
+            "description": "Comfort Pet Bed from PetProvision's pet accessories assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "pet-accessories",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-4",
+            "categoryName": "PetProvision Pet Accessories",
+            "brand": "PetProvision",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-04.jpg",
+            "stock": 227,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Comfort Pet Bed",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-5",
+            "slug": "petprovision-cat-activity-toy",
+            "sku": "WEB-43-5",
+            "name": "PetProvision Cat Activity Toy",
+            "description": "Cat Activity Toy from PetProvision's pet accessories assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "pet-accessories",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-4",
+            "categoryName": "PetProvision Pet Accessories",
+            "brand": "PetProvision",
+            "price": 350,
+            "currency": "INR",
+            "priceLabel": "INR 350",
+            "image": "assets/images/product-05.jpg",
+            "stock": 238,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 413,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 350
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 333
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 315
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Cat Activity Toy",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-web-theme-product-6",
+            "slug": "petprovision-flea-control-shampoo",
+            "sku": "WEB-43-6",
+            "name": "PetProvision Flea Control Shampoo",
+            "description": "Flea Control Shampoo from PetProvision's grooming assortment. Build pet-care ranges for daily feeding, grooming and comfort. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "grooming",
+            "categoryId": "pet-care-veterinary-distribution-web-theme-category-2",
+            "categoryName": "PetProvision Grooming",
+            "brand": "PetProvision",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-06.jpg",
+            "stock": 249,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PetProvision Flea Control Shampoo",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source premium dog food bag, pet grooming kit and more from this pet care & veterinary distribution trade collection.",
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact",
+        "cardStyle": "editorial",
+        "columns": 3
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the PetProvision demo catalog",
+        "items": [
+          {
+            "question": "How are PetProvision pack quantities shown?",
+            "answer": "PetProvision Premium Dog Food Bag has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are PetProvision images supplier photographs?",
+            "answer": "These pet care & veterinary distribution images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PetProvision",
+        "industryName": "Pet Care & Veterinary Distribution",
+        "tagline": "Source premium dog food bag, pet grooming kit and more from this pet care & veterinary distribution trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-43-web",
+        "layoutMode": "story-scroll",
+        "density": "compact"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-43-web"
+}

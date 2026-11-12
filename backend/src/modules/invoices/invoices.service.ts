@@ -3,10 +3,12 @@ import {
   ForbiddenException,
   Injectable,
   OnModuleDestroy,
+  ServiceUnavailableException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { InjectDataSource, InjectRepository } from '@nestjs/typeorm';
-import { DataSource, IsNull, Repository } from 'typeorm';
+import { DataSource, EntityManager, IsNull, Repository } from 'typeorm';
+import { createHash, randomUUID } from 'node:crypto';
 import { InvoiceItem } from '../../common/entities/invoice-item.entity';
 import { InvoiceSetting } from '../../common/entities/invoice-setting.entity';
 import { Invoice } from '../../common/entities/invoice.entity';
@@ -27,6 +29,11 @@ import { GenerateInvoiceDto } from './dto/generate-invoice.dto';
 import { InvoiceNumberService } from './invoice-number.service';
 import { PrivateDocumentsService } from '../private-documents/private-documents.service';
 import { NotificationsService } from '../notifications/notifications.service';
+import { PlatformStorageRuntimeService } from '../storage-providers/platform-storage-runtime.service';
+import { StorageObjectDeliveryService } from '../storage-providers/storage-object-delivery.service';
+import { StorageObjectsService } from '../storage-providers/storage-objects.service';
+
+type SafeInvoiceResponse = Omit<Invoice, 'storageObjectId'>;
 
 @Injectable()
 export class InvoicesService implements OnModuleDestroy {
@@ -44,6 +51,9 @@ export class InvoicesService implements OnModuleDestroy {
     private readonly invoiceNumberService: InvoiceNumberService,
     private readonly privateDocuments: PrivateDocumentsService,
     private readonly notifications: NotificationsService,
+    private readonly storageRuntime: PlatformStorageRuntimeService,
+    private readonly storageObjects: StorageObjectsService,
+    private readonly storageDelivery: StorageObjectDeliveryService,
     configService: ConfigService,
   ) {
     this.notificationQueueEnabled = areQueuesEnabled(configService);
@@ -122,7 +132,7 @@ export class InvoicesService implements OnModuleDestroy {
     if (pre.existing) {
       return {
         success: true,
-        data: pre.existing,
+        data: this.toSafeInvoice(pre.existing),
         meta: {},
         message: 'Already generated',
       };
@@ -174,7 +184,7 @@ export class InvoicesService implements OnModuleDestroy {
           });
           return {
             success: true,
-            data: existing2,
+            data: this.toSafeInvoice(existing2),
             meta: {},
             message: 'Already generated',
           };
@@ -212,6 +222,14 @@ export class InvoicesService implements OnModuleDestroy {
             }),
           );
         }
+
+        const document = await this.generateAndRegisterInvoiceDocument(
+          m,
+          invoice,
+          user ?? this.systemInvoiceActor(order.tenantId),
+        );
+        invoice.storageObjectId = document.id;
+        await invoicesRepo.save(invoice);
 
         const notification = {
           invoiceId: invoice.id,
@@ -254,7 +272,12 @@ export class InvoicesService implements OnModuleDestroy {
           userId: order.userId,
           email: targetUser?.email ?? '',
         });
-        return { success: true, data: invoice, meta: {}, message: '' };
+        return {
+          success: true,
+          data: this.toSafeInvoice(invoice),
+          meta: {},
+          message: '',
+        };
       });
     } catch (e) {
       if (alloc) {
@@ -285,7 +308,12 @@ export class InvoicesService implements OnModuleDestroy {
         acc.push(...rows);
       }
       acc.sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime());
-      return { success: true, data: acc, meta: {}, message: '' };
+      return {
+        success: true,
+        data: acc.map((invoice) => this.toSafeInvoice(invoice)),
+        meta: {},
+        message: '',
+      };
     }
     if (!user.tenantId)
       throw new ForbiddenException('Tenant context required.');
@@ -294,11 +322,13 @@ export class InvoicesService implements OnModuleDestroy {
       const invoicesRepo = m.getRepository(Invoice);
       if (user.role === UserRole.CUSTOMER) {
         return invoicesRepo
-          .createQueryBuilder('i')
-          .innerJoin(Order, 'o', 'o.id = i.order_id AND o.deleted_at IS NULL')
-          .where('i.tenant_id = :tenantId', { tenantId: tid })
-          .andWhere('o.user_id = :userId', { userId: user.sub })
-          .orderBy('i.created_at', 'DESC')
+          .createQueryBuilder('invoice')
+          .innerJoin(Order, 'order', 'order.id = invoice.order_id')
+          .where('invoice.tenant_id = :tenantId', { tenantId: tid })
+          .andWhere('order.tenant_id = :tenantId', { tenantId: tid })
+          .andWhere('order.user_id = :userId', { userId: user.sub })
+          .andWhere('order.deleted_at IS NULL')
+          .orderBy('invoice.created_at', 'DESC')
           .getMany();
       }
       return invoicesRepo.find({
@@ -306,7 +336,12 @@ export class InvoicesService implements OnModuleDestroy {
         order: { createdAt: 'DESC' },
       });
     });
-    return { success: true, data, meta: {}, message: '' };
+    return {
+      success: true,
+      data: data.map((invoice) => this.toSafeInvoice(invoice)),
+      meta: {},
+      message: '',
+    };
   }
 
   async download(user: JwtUserPayload, id: string) {
@@ -330,19 +365,139 @@ export class InvoicesService implements OnModuleDestroy {
           throw new ForbiddenException('Not your invoice.');
         }
       }
-      return {
-        success: true,
-        data: {
-          invoiceId: invoice.id,
-          invoiceNumber: invoice.invoiceNumber,
-          status: invoice.status,
-          url: await this.ensureInvoiceDocument(m, invoice),
-          expiresInSeconds: 300,
-        },
-        meta: {},
-        message: '',
-      };
+      if (!invoice.storageObjectId) {
+        throw new BadRequestException('Invoice document is not available.');
+      }
+      if (invoice.storageObjectId) {
+        const object = await this.storageObjects.lookupObject(
+          invoice.storageObjectId,
+          user,
+          'read',
+        );
+        if (
+          object.ownershipType !== 'TENANT' ||
+          object.tenantId !== tenantId ||
+          object.objectCategory !== 'invoice_document' ||
+          object.metadata.invoiceId !== invoice.id
+        ) {
+          throw new ForbiddenException('Invoice document access denied.');
+        }
+        const access = await this.storageDelivery.createSignedReadAccess(
+          invoice.storageObjectId,
+          user,
+        );
+        return {
+          success: true,
+          data: {
+            invoiceId: invoice.id,
+            invoiceNumber: invoice.invoiceNumber,
+            status: invoice.status,
+            url: access.url,
+            expiresInSeconds: access.expiresInSeconds,
+            expiresAt: access.expiresAt,
+          },
+          meta: {},
+          message: '',
+        };
+      }
+      throw new BadRequestException('Invoice document is not available.');
     });
+  }
+
+  private async generateAndRegisterInvoiceDocument(
+    m: EntityManager,
+    invoice: Invoice,
+    actor: JwtUserPayload,
+  ) {
+    const lines = await m
+      .getRepository(InvoiceItem)
+      .find({ where: { invoiceId: invoice.id } });
+    const order = await m
+      .getRepository(Order)
+      .findOne({ where: { id: invoice.orderId } });
+    const discountLine =
+      Number(order?.discountAmount ?? 0) > 0
+        ? [
+            `Coupon ${order?.couponCode ?? ''}: -INR ${Number(order?.discountAmount).toFixed(2)}`,
+          ]
+        : [];
+    const content = this.simplePdf([
+      `Invoice: ${invoice.invoiceNumber}`,
+      `Date: ${invoice.invoiceDate}`,
+      ...lines.map(
+        (line) =>
+          `${line.variantSku ?? line.productId} x ${line.quantity}: INR ${Number(line.totalPrice).toFixed(2)}`,
+      ),
+      ...discountLine,
+      `Total: INR ${Number(invoice.totalAmount).toFixed(2)}`,
+    ]);
+    const objectKey = `invoice-documents/${invoice.tenantId}/${invoice.id}/${randomUUID()}.pdf`;
+    const resolution = await this.storageRuntime.resolveProvider();
+    const put =
+      resolution.adapter.putIfAbsent?.bind(resolution.adapter) ??
+      resolution.adapter.put.bind(resolution.adapter);
+    try {
+      await put({
+        key: objectKey,
+        body: content,
+        contentLength: content.length,
+        contentType: 'application/pdf',
+      });
+    } catch {
+      throw new ServiceUnavailableException(
+        'Invoice document storage is unavailable.',
+      );
+    }
+    try {
+      return await this.storageObjects.registerTenantObjectForTenant(
+        invoice.tenantId,
+        {
+          providerId: resolution.metadata.providerId,
+          objectKey,
+          originalFilename: `${invoice.invoiceNumber.replace(/[^A-Za-z0-9._-]/g, '_')}.pdf`,
+          mimeType: 'application/pdf',
+          sizeBytes: content.length,
+          checksumSha256: createHash('sha256').update(content).digest('hex'),
+          objectCategory: 'invoice_document',
+          accessScope: 'TENANT_PRIVATE',
+          metadata: {
+            invoiceId: invoice.id,
+            orderId: invoice.orderId,
+            source: 'invoice_generation',
+          },
+        },
+        this.storageRegistrationActor(actor),
+      );
+    } catch (error) {
+      await resolution.adapter.delete(objectKey).catch(() => undefined);
+      throw error;
+    }
+  }
+
+  private storageRegistrationActor(actor: JwtUserPayload): JwtUserPayload {
+    if (actor.role === UserRole.SUPER_ADMIN) return actor;
+    return {
+      sub: actor.sub,
+      role: UserRole.SUPER_ADMIN,
+      tenantId: null,
+      customerId: null,
+    } as JwtUserPayload;
+  }
+
+  private systemInvoiceActor(tenantId: string): JwtUserPayload {
+    return {
+      sub: tenantId,
+      role: UserRole.SUPER_ADMIN,
+      tenantId: null,
+      customerId: null,
+    } as JwtUserPayload;
+  }
+
+  private toSafeInvoice(invoice: Invoice): SafeInvoiceResponse {
+    const safe = { ...invoice } as Record<string, unknown>;
+    delete safe.storageObjectId;
+    delete safe.documentReference;
+    return safe as SafeInvoiceResponse;
   }
 
   private async ensureInvoiceDocument(

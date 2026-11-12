@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../api/api_client.dart';
 import '../config/build_config.dart';
 import '../config/user_app_settings_provider.dart';
+import '../config/storefront_app_config_provider.dart';
 import 'theme_model.dart';
 import 'theme_service.dart';
 
@@ -67,8 +68,10 @@ class StorefrontThemeController extends Notifier<StorefrontTheme> {
   Future<void> _hydrate(String language) async {
     final int revision = ++_hydrateRevision;
     final service = ref.read(themeServiceProvider);
-    final bundledTheme = (await service.loadBundledTheme(language: language))
-        .withPreviewOverrides(BuildConfig.resolvedPreviewState);
+    final bundledTheme = _applyCatalogPresentation(
+      (await service.loadBundledTheme(language: language))
+          .withPreviewOverrides(BuildConfig.resolvedPreviewState),
+    );
     if (!_isCurrentHydration(revision, language)) return;
     state = bundledTheme;
 
@@ -78,19 +81,23 @@ class StorefrontThemeController extends Notifier<StorefrontTheme> {
     if (cached != null && cached.isNotEmpty) {
       try {
         final map = jsonDecode(cached) as Map<String, dynamic>;
-        final cachedTheme = await service.withBundledLocale(
-          StorefrontTheme.fromJson(map),
-          language: language,
+        final cachedTheme = _applyCatalogPresentation(
+          await service.withBundledLocale(
+            StorefrontTheme.fromJson(map),
+            language: language,
+          ),
         );
         if (!_isCurrentHydration(revision, language)) return;
         state = cachedTheme;
       } catch (_) {}
     }
-    final t = (await service.fetchStorefrontTheme(
-      language: language,
-      fallback: state,
-    ))
-        .withPreviewOverrides(BuildConfig.resolvedPreviewState);
+    final t = _applyCatalogPresentation(
+      (await service.fetchStorefrontTheme(
+        language: language,
+        fallback: state,
+      ))
+          .withPreviewOverrides(BuildConfig.resolvedPreviewState),
+    );
     if (!_isCurrentHydration(revision, language)) return;
     state = t;
     try {
@@ -104,6 +111,15 @@ class StorefrontThemeController extends Notifier<StorefrontTheme> {
   bool _isCurrentHydration(int revision, String language) {
     return revision == _hydrateRevision &&
         ref.read(userAppSettingsProvider).languageCode == language;
+  }
+
+  StorefrontTheme _applyCatalogPresentation(StorefrontTheme theme) {
+    final config = ref.read(storefrontAppConfigProvider).valueOrNull;
+    if (config == null) return theme;
+    return theme.withCatalogPresentation(
+      mode: config.catalogMode,
+      notice: config.catalogNotice,
+    );
   }
 
   void setTheme(StorefrontTheme theme) {

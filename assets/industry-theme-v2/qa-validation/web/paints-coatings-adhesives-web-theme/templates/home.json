@@ -1,0 +1,530 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "CoatCraft",
+        "industryName": "Paints, Coatings & Adhesives",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Buying Guide",
+          "Bulk Orders",
+          "Contact"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "chroma-spec-deck"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "COATINGS · FINISHES · BONDING",
+        "title": "The right coating system, specified with confidence.",
+        "subtitle": "Compare interior paints, protective coatings, wood finishes and bonding systems by surface, application and trade quantity.",
+        "primaryCta": "Browse coating systems",
+        "primaryHref": "/category",
+        "secondaryCta": "Plan a bulk order",
+        "secondaryHref": "/bulk-orders",
+        "image": "assets/images/hero-coating-specification-v2.jpg",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "SPECIFICATION-LED SOURCING",
+        "title": "One catalog. Four material systems.",
+        "body": "Move from surface requirement to a focused product shortlist. Compare decorative finishes, corrosion protection, timber coatings and construction bonding without losing sight of pack size or minimum order.\n\nThis demonstration catalog keeps product discovery practical for contractors, retailers and professional procurement teams.",
+        "image": "assets/images/product-05.jpg",
+        "imageAlt": "Demo cartridge product for professional coating and bonding applications",
+        "imagePosition": "right",
+        "highlights": [
+          "Compare by application",
+          "Review pack and MOQ",
+          "Plan sample quantities",
+          "Build a trade shortlist"
+        ],
+        "ctaLabel": "Explore all systems",
+        "ctaUrl": "/category",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Source by material system",
+        "subtitle": "Start with the surface and performance requirement, then compare the right product family.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "CoatCraft Interior Paints",
+          "CoatCraft Industrial Coatings",
+          "CoatCraft Wood Finishes",
+          "CoatCraft Adhesives & Sealants"
+        ],
+        "categories": [
+          {
+            "id": "paints-coatings-adhesives-web-theme-category-1",
+            "slug": "interior-paints",
+            "name": "CoatCraft Interior Paints",
+            "description": "Explore CoatCraft's interior paints selection for paints, coatings & adhesives buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-category-2",
+            "slug": "industrial-coatings",
+            "name": "CoatCraft Industrial Coatings",
+            "description": "Explore CoatCraft's industrial coatings selection for paints, coatings & adhesives buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-category-3",
+            "slug": "wood-finishes",
+            "name": "CoatCraft Wood Finishes",
+            "description": "Explore CoatCraft's wood finishes selection for paints, coatings & adhesives buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-category-4",
+            "slug": "adhesives-sealants",
+            "name": "CoatCraft Adhesives & Sealants",
+            "description": "Explore CoatCraft's adhesives & sealants selection for paints, coatings & adhesives buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy",
+        "categoryStyle": "horizontal-rail"
+      },
+      "variant": "categories-horizontal-rail"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "Professional trade selection",
+        "subtitle": "Review demo products across decorative, protective, finishing and bonding applications.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "CoatCraft Luxury Interior Emulsion",
+          "CoatCraft Anti-Corrosion Primer",
+          "CoatCraft PU Wood Finish",
+          "CoatCraft Construction Adhesive",
+          "CoatCraft Silicone Sealant",
+          "CoatCraft Epoxy Floor Coating"
+        ],
+        "prices": [
+          "INR 2,450",
+          "INR 1,850",
+          "INR 1,650",
+          "INR 450",
+          "INR 280",
+          "INR 3,200"
+        ],
+        "products": [
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-1",
+            "slug": "coatcraft-luxury-interior-emulsion",
+            "sku": "WEB-15-1",
+            "name": "CoatCraft Luxury Interior Emulsion",
+            "description": "Luxury Interior Emulsion from CoatCraft's interior paints assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "interior-paints",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-1",
+            "categoryName": "CoatCraft Interior Paints",
+            "brand": "CoatCraft",
+            "price": 2450,
+            "currency": "INR",
+            "priceLabel": "INR 2,450",
+            "image": "assets/images/product-01.jpg",
+            "stock": 110,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2891,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2450
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2328
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2205
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft Luxury Interior Emulsion",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-2",
+            "slug": "coatcraft-anti-corrosion-primer",
+            "sku": "WEB-15-2",
+            "name": "CoatCraft Anti-Corrosion Primer",
+            "description": "Anti-Corrosion Primer from CoatCraft's industrial coatings assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "industrial-coatings",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-2",
+            "categoryName": "CoatCraft Industrial Coatings",
+            "brand": "CoatCraft",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-02.jpg",
+            "stock": 121,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft Anti-Corrosion Primer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-3",
+            "slug": "coatcraft-pu-wood-finish",
+            "sku": "WEB-15-3",
+            "name": "CoatCraft PU Wood Finish",
+            "description": "PU Wood Finish from CoatCraft's wood finishes assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "wood-finishes",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-3",
+            "categoryName": "CoatCraft Wood Finishes",
+            "brand": "CoatCraft",
+            "price": 1650,
+            "currency": "INR",
+            "priceLabel": "INR 1,650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 132,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1947,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1568
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1485
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft PU Wood Finish",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-4",
+            "slug": "coatcraft-construction-adhesive",
+            "sku": "WEB-15-4",
+            "name": "CoatCraft Construction Adhesive",
+            "description": "Construction Adhesive from CoatCraft's adhesives & sealants assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "adhesives-sealants",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-4",
+            "categoryName": "CoatCraft Adhesives & Sealants",
+            "brand": "CoatCraft",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-04.jpg",
+            "stock": 143,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft Construction Adhesive",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-5",
+            "slug": "coatcraft-silicone-sealant",
+            "sku": "WEB-15-5",
+            "name": "CoatCraft Silicone Sealant",
+            "description": "Silicone Sealant from CoatCraft's adhesives & sealants assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "adhesives-sealants",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-4",
+            "categoryName": "CoatCraft Adhesives & Sealants",
+            "brand": "CoatCraft",
+            "price": 280,
+            "currency": "INR",
+            "priceLabel": "INR 280",
+            "image": "assets/images/product-05.jpg",
+            "stock": 154,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 330,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 280
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 266
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 252
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft Silicone Sealant",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-web-theme-product-6",
+            "slug": "coatcraft-epoxy-floor-coating",
+            "sku": "WEB-15-6",
+            "name": "CoatCraft Epoxy Floor Coating",
+            "description": "Epoxy Floor Coating from CoatCraft's industrial coatings assortment. Compare coating and bonding options by application. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "industrial-coatings",
+            "categoryId": "paints-coatings-adhesives-web-theme-category-2",
+            "categoryName": "CoatCraft Industrial Coatings",
+            "brand": "CoatCraft",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 165,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: CoatCraft Epoxy Floor Coating",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy",
+        "cardStyle": "minimal",
+        "columns": 5
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "eyebrow": "A CLEARER WAY TO SOURCE",
+        "title": "From requirement to shortlist",
+        "items": [
+          {
+            "icon": "01",
+            "title": "Choose the application",
+            "text": "Start with interior, metal, wood or bonding requirements to narrow the relevant system."
+          },
+          {
+            "icon": "02",
+            "title": "Compare buying details",
+            "text": "Review the pack, minimum order and sample quantity tiers shown for each demo product."
+          },
+          {
+            "icon": "03",
+            "title": "Build a sourcing list",
+            "text": "Open product details, save relevant systems and send a focused bulk-order requirement."
+          }
+        ],
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "eyebrow": "TRADE BUYING DESK",
+        "title": "Planning a multi-product or volume order?",
+        "subtitle": "Share the application, product family and estimated quantity to start a focused commercial conversation.",
+        "ctaLabel": "Build an RFQ",
+        "ctaUrl": "/bulk-orders",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "eyebrow": "BUYER SUPPORT",
+        "title": "Before you plan an order",
+        "subtitle": "Quick guidance for using this demonstration catalog. Confirm technical suitability and commercial terms with the distributor before purchase.",
+        "items": [
+          {
+            "question": "How should I choose a coating system?",
+            "answer": "Start with the substrate, exposure, finish and application method. Use the catalog to create a shortlist, then confirm the complete technical specification with the distributor."
+          },
+          {
+            "question": "Can I compare minimum order quantities?",
+            "answer": "Yes. Product cards and detail pages can show sample MOQ and quantity tiers so buyers can plan a trade enquiry."
+          },
+          {
+            "question": "Are the displayed products available to purchase?",
+            "answer": "The current products are demonstration items. Live availability begins when the distributor adds and publishes real products."
+          },
+          {
+            "question": "Can I request volume pricing?",
+            "answer": "Use the bulk-order or contact route to share product, pack and quantity requirements with the distributor's buying desk."
+          }
+        ],
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "faq-coating-lab"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Get the latest system updates",
+        "subtitle": "Receive new-product, pack-size and buying-guide updates for professional coatings and adhesives.",
+        "emailPlaceholder": "Work email address",
+        "buttonText": "Join updates",
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "CoatCraft",
+        "industryName": "Paints, Coatings & Adhesives",
+        "tagline": "A professional sourcing catalog for paints, protective coatings, wood finishes, adhesives and sealants. Demonstration products and AI-generated imagery are clearly identified.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Buying Guide",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-15-web",
+        "layoutMode": "Coatings sample wall",
+        "density": "airy"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-15-web"
+}

@@ -25,8 +25,17 @@ function validTenantSlug(value: string | null): string {
 export function middleware(request: NextRequest) {
   const queryTenantId = validTenantId(request.nextUrl.searchParams.get("tenantId"));
   const queryTenantSlug = validTenantSlug(request.nextUrl.searchParams.get("tenant"));
-  const tenantId = queryTenantId || validTenantId(request.cookies.get(TENANT_ID_COOKIE)?.value ?? null);
-  const tenantSlug = queryTenantSlug || validTenantSlug(request.cookies.get(TENANT_SLUG_COOKIE)?.value ?? null);
+  const cookieTenantId = validTenantId(request.cookies.get(TENANT_ID_COOKIE)?.value ?? null);
+  const cookieTenantSlug = validTenantSlug(request.cookies.get(TENANT_SLUG_COOKIE)?.value ?? null);
+  // An explicit selector in the URL must win as a complete tenant choice. In
+  // particular, do not pair an explicit slug with a stale/default tenant-id
+  // cookie, because the API gives the id precedence and returns another
+  // tenant's branding while the page loads the slug's theme content.
+  // A URL slug identifies the storefront the visitor is actually opening.
+  // If a preview link also carries an outdated tenantId, do not combine the
+  // two selectors or let that id replace the slug's theme and branding.
+  const tenantId = queryTenantSlug ? "" : queryTenantId || cookieTenantId;
+  const tenantSlug = queryTenantSlug || (queryTenantId ? "" : cookieTenantSlug);
   const sessionTenantId = !tenantId && !tenantSlug
     ? tenantIdFromCustomerToken(request.cookies.get(CUSTOMER_ACCESS_COOKIE)?.value)
     : null;
@@ -38,8 +47,15 @@ export function middleware(request: NextRequest) {
     ? validTenantSlug(process.env.NEXT_PUBLIC_STOREFRONT_DEFAULT_TENANT_SLUG ?? null)
     : "";
   const requestHeaders = new Headers(request.headers);
+  const explicitPreviewMode =
+    request.nextUrl.searchParams.get("previewMode") === "1" ||
+    request.nextUrl.searchParams.get("wbPreview") === "1";
 
-  const activeTenantId = tenantId || sessionTenantId || defaultTenantId;
+  if (explicitPreviewMode) {
+    requestHeaders.set("x-storefront-preview-mode", "1");
+  }
+
+  const activeTenantId = tenantId || sessionTenantId || (!tenantSlug ? defaultTenantId : "");
   const activeTenantSlug = tenantSlug || defaultTenantSlug;
   if (activeTenantId) requestHeaders.set("x-storefront-tenant-id", activeTenantId);
   if (activeTenantSlug) requestHeaders.set("x-storefront-tenant", activeTenantSlug);
@@ -54,7 +70,7 @@ export function middleware(request: NextRequest) {
 
   if (queryTenantId) response.cookies.set(TENANT_ID_COOKIE, queryTenantId, cookieOptions);
   if (queryTenantSlug) response.cookies.set(TENANT_SLUG_COOKIE, queryTenantSlug, cookieOptions);
-  if (!tenantId && !sessionTenantId && defaultTenantId) {
+  if (!tenantId && !tenantSlug && !sessionTenantId && defaultTenantId) {
     response.cookies.set(TENANT_ID_COOKIE, defaultTenantId, cookieOptions);
   }
   if (!tenantSlug && defaultTenantSlug) {

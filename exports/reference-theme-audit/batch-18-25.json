@@ -1,0 +1,83 @@
+[
+  {
+    "index": 19,
+    "category": "Jewelry / Diamond",
+    "name": "Vemus Intro",
+    "url": "https://vemus-intro.vercel.app/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\19-vemus-intro.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 5.713033196458127,
+    "retry": "cdp-fixed-wait"
+  },
+  {
+    "index": 20,
+    "category": "Jewelry / Diamond",
+    "name": "Jovenca",
+    "url": "https://htmlbeans.com/html/jovenca/home.html?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\20-jovenca.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 3.547845635340309
+  },
+  {
+    "index": 21,
+    "category": "Jewelry / Diamond",
+    "name": "Jowenly",
+    "url": "https://wpolive.com/html/jowenly/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\21-jowenly.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 3.695979525900839
+  },
+  {
+    "index": 22,
+    "category": "General Commerce",
+    "name": "Botanical",
+    "url": "https://htmlbeans.com/html/botanical/home.html?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\22-botanical.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 1.4072706162241957,
+    "retry": "cdp-fixed-wait",
+    "error": "EBUSY: resource busy or locked, open 'C:\\Users\\admin\\AppData\\Local\\Temp\\reference-cdp-15444-DLiwrc\\DevToolsActivePort'"
+  },
+  {
+    "index": 23,
+    "category": "General Commerce",
+    "name": "Gowala",
+    "url": "https://labartisan.net/demo/gowala/index.html",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\23-gowala.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 4.069900425689411
+  },
+  {
+    "index": 24,
+    "category": "Automotive & Spare Parts",
+    "name": "Yolo Motor selector",
+    "url": "https://demo.yolotheme.com/#motor-html",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\24-yolo-motor-selector.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 6.057985739784272,
+    "retry": "cdp-fixed-wait"
+  },
+  {
+    "index": 25,
+    "category": "Automotive & Spare Parts",
+    "name": "Keymoto",
+    "url": "https://pro-theme.com/html/keymoto/index.html?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\25-keymoto.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 5.502947517321445
+  }
+]

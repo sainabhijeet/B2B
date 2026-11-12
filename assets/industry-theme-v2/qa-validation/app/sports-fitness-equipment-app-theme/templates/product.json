@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FitPocket",
+        "industryName": "Sports & Fitness Equipment",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "FitPocket Resistance Band Set",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy"
+      },
+      "variant": "gallery-sticky-buy"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "FitPocket Resistance Band Set",
+        "subtitle": "Resistance Band Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 3,528",
+        "description": "Resistance Band Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-45-1",
+        "stock": 173,
+        "moq": 2,
+        "product": {
+          "id": "sports-fitness-equipment-app-theme-product-1",
+          "slug": "fitpocket-resistance-band-set",
+          "sku": "APP-45-1",
+          "name": "FitPocket Resistance Band Set",
+          "description": "Resistance Band Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "fitness-equipment",
+          "categoryId": "sports-fitness-equipment-app-theme-category-1",
+          "categoryName": "FitPocket Fitness Equipment",
+          "brand": "FitPocket",
+          "price": 3528,
+          "currency": "INR",
+          "priceLabel": "INR 3,528",
+          "image": "assets/images/product-01.jpg",
+          "stock": 173,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 4163,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 3528
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 3352
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 3175
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: FitPocket Resistance Band Set",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy"
+      },
+      "variant": "info-sticky-buy"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "FitPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FitPocket Resistance Band Set",
+          "FitPocket Basketball Training Ball",
+          "FitPocket Trekking Pole Pair",
+          "FitPocket Moisture Wicking Training Tee",
+          "FitPocket Kettlebell Starter Set",
+          "FitPocket Badminton Racket Pair"
+        ],
+        "prices": [
+          "INR 3,528",
+          "INR 3,192",
+          "INR 6,045",
+          "INR 1,998",
+          "INR 722",
+          "INR 1,769"
+        ],
+        "products": [
+          {
+            "id": "sports-fitness-equipment-app-theme-product-1",
+            "slug": "fitpocket-resistance-band-set",
+            "sku": "APP-45-1",
+            "name": "FitPocket Resistance Band Set",
+            "description": "Resistance Band Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fitness-equipment",
+            "categoryId": "sports-fitness-equipment-app-theme-category-1",
+            "categoryName": "FitPocket Fitness Equipment",
+            "brand": "FitPocket",
+            "price": 3528,
+            "currency": "INR",
+            "priceLabel": "INR 3,528",
+            "image": "assets/images/product-01.jpg",
+            "stock": 173,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 4163,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 3528
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 3352
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3175
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Resistance Band Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "sports-fitness-equipment-app-theme-product-2",
+            "slug": "fitpocket-basketball-training-ball",
+            "sku": "APP-45-2",
+            "name": "FitPocket Basketball Training Ball",
+            "description": "Basketball Training Ball for your sports & fitness equipment replenishment list. FitPocket groups this item with team sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "team-sports",
+            "categoryId": "sports-fitness-equipment-app-theme-category-2",
+            "categoryName": "FitPocket Team Sports",
+            "brand": "FitPocket",
+            "price": 3192,
+            "currency": "INR",
+            "priceLabel": "INR 3,192",
+            "image": "assets/images/product-02.jpg",
+            "stock": 184,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 3767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 3192
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3032
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2873
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Basketball Training Ball",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "sports-fitness-equipment-app-theme-product-3",
+            "slug": "fitpocket-trekking-pole-pair",
+            "sku": "APP-45-3",
+            "name": "FitPocket Trekking Pole Pair",
+            "description": "Trekking Pole Pair for your sports & fitness equipment replenishment list. FitPocket groups this item with outdoor sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "outdoor-sports",
+            "categoryId": "sports-fitness-equipment-app-theme-category-3",
+            "categoryName": "FitPocket Outdoor Sports",
+            "brand": "FitPocket",
+            "price": 6045,
+            "currency": "INR",
+            "priceLabel": "INR 6,045",
+            "image": "assets/images/product-03.jpg",
+            "stock": 195,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 7133,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 6045
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 5743
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 5441
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Trekking Pole Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "sports-fitness-equipment-app-theme-product-4",
+            "slug": "fitpocket-moisture-wicking-training-tee",
+            "sku": "APP-45-4",
+            "name": "FitPocket Moisture Wicking Training Tee",
+            "description": "Moisture Wicking Training Tee for your sports & fitness equipment replenishment list. FitPocket groups this item with sportswear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "sportswear",
+            "categoryId": "sports-fitness-equipment-app-theme-category-4",
+            "categoryName": "FitPocket Sportswear",
+            "brand": "FitPocket",
+            "price": 1998,
+            "currency": "INR",
+            "priceLabel": "INR 1,998",
+            "image": "assets/images/product-04.jpg",
+            "stock": 206,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2358,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1998
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1898
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1798
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Moisture Wicking Training Tee",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "sports-fitness-equipment-app-theme-product-5",
+            "slug": "fitpocket-kettlebell-starter-set",
+            "sku": "APP-45-5",
+            "name": "FitPocket Kettlebell Starter Set",
+            "description": "Kettlebell Starter Set for your sports & fitness equipment replenishment list. FitPocket groups this item with fitness equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fitness-equipment",
+            "categoryId": "sports-fitness-equipment-app-theme-category-1",
+            "categoryName": "FitPocket Fitness Equipment",
+            "brand": "FitPocket",
+            "price": 722,
+            "currency": "INR",
+            "priceLabel": "INR 722",
+            "image": "assets/images/product-05.jpg",
+            "stock": 217,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 852,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 722
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 686
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Kettlebell Starter Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "sports-fitness-equipment-app-theme-product-6",
+            "slug": "fitpocket-badminton-racket-pair",
+            "sku": "APP-45-6",
+            "name": "FitPocket Badminton Racket Pair",
+            "description": "Badminton Racket Pair for your sports & fitness equipment replenishment list. FitPocket groups this item with team sports so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "team-sports",
+            "categoryId": "sports-fitness-equipment-app-theme-category-2",
+            "categoryName": "FitPocket Team Sports",
+            "brand": "FitPocket",
+            "price": 1769,
+            "currency": "INR",
+            "priceLabel": "INR 1,769",
+            "image": "assets/images/product-06.jpg",
+            "stock": 228,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2087,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1769
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1681
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1592
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FitPocket Badminton Racket Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse resistance band set, basketball training ball and a dedicated sports & fitness equipment mobile assortment.",
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy",
+        "cardStyle": "spec-card",
+        "columns": 1
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the FitPocket demo catalog",
+        "items": [
+          {
+            "question": "How are FitPocket pack quantities shown?",
+            "answer": "FitPocket Resistance Band Set has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are FitPocket images supplier photographs?",
+            "answer": "These sports & fitness equipment images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FitPocket",
+        "industryName": "Sports & Fitness Equipment",
+        "tagline": "Browse resistance band set, basketball training ball and a dedicated sports & fitness equipment mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-45-app",
+        "layoutMode": "sticky-buy",
+        "density": "airy"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-45-app"
+}

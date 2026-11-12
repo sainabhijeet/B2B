@@ -133,7 +133,18 @@ export class StorefrontCustomerController {
     if (user.role !== UserRole.CUSTOMER) {
       throw new ForbiddenException('This endpoint is for storefront customers only.');
     }
-    return this.customersService.updateBusinessProfileForStorefrontCustomer(user, dto);
+    return this.customersService.updateStorefrontCustomerBusinessProfile(user, dto);
+  }
+
+  /** Authenticated retailer GST certificate access summary. */
+  @Get('business/certificate')
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth('bearer')
+  gstCertificate(@CurrentUser() user: JwtUserPayload) {
+    if (user.role !== UserRole.CUSTOMER) {
+      throw new ForbiddenException('This endpoint is for storefront customers only.');
+    }
+    return this.customersService.gstCertificateForStorefrontCustomer(user);
   }
 
   /** Uploads GST certificate PDF/image and verifies it without third-party APIs. */
@@ -155,7 +166,7 @@ export class StorefrontCustomerController {
     if (user.role !== UserRole.CUSTOMER) {
       throw new ForbiddenException('This endpoint is for storefront customers only.');
     }
-    return this.customersService.uploadBusinessCertificateForStorefrontCustomer(user, dto, file);
+    return this.customersService.uploadStorefrontCustomerGstCertificate(user, dto, file);
   }
 
   /** Updates authenticated retailer profile fields. */
@@ -217,7 +228,18 @@ export class StorefrontCustomerController {
     if (user.role !== UserRole.CUSTOMER) {
       throw new ForbiddenException('This endpoint is for storefront customers only.');
     }
-    return this.customersService.uploadStorefrontCustomerProfileImage(user, file);
+    return this.customersService.uploadStorefrontCustomerAvatar(user, file);
+  }
+
+  /** Lists authenticated retailer delivery addresses. */
+  @Get('addresses')
+  @UseGuards(JwtAuthGuard)
+  @ApiBearerAuth('bearer')
+  addresses(@CurrentUser() user: JwtUserPayload) {
+    if (user.role !== UserRole.CUSTOMER) {
+      throw new ForbiddenException('This endpoint is for storefront customers only.');
+    }
+    return this.customersService.listAddressesForStorefrontCustomer(user);
   }
 
   /** Adds a storefront customer delivery address. */

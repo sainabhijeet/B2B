@@ -760,15 +760,18 @@ export function WebsiteBuilderLayout() {
       if (tokenTenantId) url.searchParams.set("tenantId", tokenTenantId);
       if (previewSubdomain) url.searchParams.set("tenant", previewSubdomain);
       url.searchParams.set("wbPreview", String(previewNonce));
-      if (liveEditorEnabled) {
-        url.searchParams.set("previewMode", "1");
-        url.searchParams.set("previewLanguage", activeLanguageCode || "en");
-      }
+      // The Website Builder must always render the selected package's bundled
+      // demo catalogue. `liveEditorEnabled` controls draft editing tools only;
+      // tying preview mode to it made the iframe mix theme copy with the
+      // tenant's live catalogue products and images.
+      url.searchParams.set("previewMode", "1");
+      url.searchParams.set("previewLanguage", activeLanguageCode || "en");
       return url.toString();
     } catch {
-      return `${base}${previewPath}?wbPreview=${previewNonce}`;
+      const separator = previewPath.includes("?") ? "&" : "?";
+      return `${base}${previewPath}${separator}wbPreview=${previewNonce}&previewMode=1&previewLanguage=${encodeURIComponent(activeLanguageCode || "en")}`;
     }
-  }, [activeLanguageCode, liveEditorEnabled, previewBaseUrl, previewPath, previewNonce, previewSubdomain]);
+  }, [activeLanguageCode, previewBaseUrl, previewPath, previewNonce, previewSubdomain]);
 
   const installedAppPreviewUrl = useMemo(() => {
     const useInstalledPreview =
@@ -794,6 +797,7 @@ export function WebsiteBuilderLayout() {
       }
       url.searchParams.set("apiBaseUrl", mobileApiBaseUrl());
       url.searchParams.set("appLanguage", activeLanguageCode || "en");
+      url.searchParams.set("previewMode", "1");
       if (liveEditorEnabled) {
         const initialState: ThemePreviewState = {
           languageCode: activeLanguageCode || "en",

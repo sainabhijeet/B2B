@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "AlloyDistrict",
+        "industryName": "Metals, Steel & Non-ferrous Trade",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "AlloyDistrict: Browse metals by form and material for workshop sourcing.",
+        "subtitle": "Source stainless steel sheet, aluminium extrusion bar and more from this metals, steel & non-ferrous trade trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "AlloyDistrict collections",
+        "subtitle": "Choose your next metals, steel & non-ferrous trade order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "AlloyDistrict Steel Products",
+          "AlloyDistrict Aluminium",
+          "AlloyDistrict Copper & Brass",
+          "AlloyDistrict Specialty Alloys"
+        ],
+        "categories": [
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-category-1",
+            "slug": "steel-products",
+            "name": "AlloyDistrict Steel Products",
+            "description": "Explore AlloyDistrict's steel products selection for metals, steel & non-ferrous trade buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-category-2",
+            "slug": "aluminium",
+            "name": "AlloyDistrict Aluminium",
+            "description": "Explore AlloyDistrict's aluminium selection for metals, steel & non-ferrous trade buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-category-3",
+            "slug": "copper-brass",
+            "name": "AlloyDistrict Copper & Brass",
+            "description": "Explore AlloyDistrict's copper & brass selection for metals, steel & non-ferrous trade buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-category-4",
+            "slug": "specialty-alloys",
+            "name": "AlloyDistrict Specialty Alloys",
+            "description": "Explore AlloyDistrict's specialty alloys selection for metals, steel & non-ferrous trade buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-06.jpg"
+          }
+        ],
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced",
+        "categoryStyle": "horizontal-rail"
+      },
+      "variant": "categories-horizontal-rail"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with AlloyDistrict",
+        "items": [
+          {
+            "icon": "01",
+            "title": "AlloyDistrict Steel Products",
+            "text": "Start with stainless steel sheet and compare the AlloyDistrict sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "AlloyDistrict quantity breaks",
+            "text": "Review MOQ and bulk tiers for aluminium extrusion bar before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "AlloyDistrict sourcing lists",
+            "text": "Source stainless steel sheet, aluminium extrusion bar and more from this metals, steel & non-ferrous trade trade collection."
+          }
+        ],
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow AlloyDistrict arrivals",
+        "subtitle": "Sample updates about brass rod bundle and alloydistrict steel products.",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "AlloyDistrict trade selection",
+        "subtitle": "Source stainless steel sheet, aluminium extrusion bar and more from this metals, steel & non-ferrous trade trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "AlloyDistrict Stainless Steel Sheet",
+          "AlloyDistrict Aluminium Extrusion Bar",
+          "AlloyDistrict Copper Coil Roll",
+          "AlloyDistrict Brass Rod Bundle",
+          "AlloyDistrict Mild Steel Plate",
+          "AlloyDistrict Nickel Alloy Round Bar"
+        ],
+        "prices": [
+          "INR 6,500",
+          "INR 4,200",
+          "INR 12,500",
+          "INR 8,500",
+          "INR 4,500",
+          "INR 18,500"
+        ],
+        "products": [
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-1",
+            "slug": "alloydistrict-stainless-steel-sheet",
+            "sku": "WEB-47-1",
+            "name": "AlloyDistrict Stainless Steel Sheet",
+            "description": "Stainless Steel Sheet from AlloyDistrict's steel products assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "steel-products",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-1",
+            "categoryName": "AlloyDistrict Steel Products",
+            "brand": "AlloyDistrict",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 206,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Stainless Steel Sheet",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-2",
+            "slug": "alloydistrict-aluminium-extrusion-bar",
+            "sku": "WEB-47-2",
+            "name": "AlloyDistrict Aluminium Extrusion Bar",
+            "description": "Aluminium Extrusion Bar from AlloyDistrict's aluminium assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "aluminium",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-2",
+            "categoryName": "AlloyDistrict Aluminium",
+            "brand": "AlloyDistrict",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-02.jpg",
+            "stock": 217,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Aluminium Extrusion Bar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-3",
+            "slug": "alloydistrict-copper-coil-roll",
+            "sku": "WEB-47-3",
+            "name": "AlloyDistrict Copper Coil Roll",
+            "description": "Copper Coil Roll from AlloyDistrict's copper & brass assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "copper-brass",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-3",
+            "categoryName": "AlloyDistrict Copper & Brass",
+            "brand": "AlloyDistrict",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 228,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Copper Coil Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-4",
+            "slug": "alloydistrict-brass-rod-bundle",
+            "sku": "WEB-47-4",
+            "name": "AlloyDistrict Brass Rod Bundle",
+            "description": "Brass Rod Bundle from AlloyDistrict's copper & brass assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "copper-brass",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-3",
+            "categoryName": "AlloyDistrict Copper & Brass",
+            "brand": "AlloyDistrict",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 239,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Brass Rod Bundle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-5",
+            "slug": "alloydistrict-mild-steel-plate",
+            "sku": "WEB-47-5",
+            "name": "AlloyDistrict Mild Steel Plate",
+            "description": "Mild Steel Plate from AlloyDistrict's steel products assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "steel-products",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-1",
+            "categoryName": "AlloyDistrict Steel Products",
+            "brand": "AlloyDistrict",
+            "price": 4500,
+            "currency": "INR",
+            "priceLabel": "INR 4,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 250,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 5310,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 4500
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4275
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4050
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Mild Steel Plate",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-web-theme-product-6",
+            "slug": "alloydistrict-nickel-alloy-round-bar",
+            "sku": "WEB-47-6",
+            "name": "AlloyDistrict Nickel Alloy Round Bar",
+            "description": "Nickel Alloy Round Bar from AlloyDistrict's specialty alloys assortment. Browse metals by form and material for workshop sourcing. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "specialty-alloys",
+            "categoryId": "metals-steel-non-ferrous-trade-web-theme-category-4",
+            "categoryName": "AlloyDistrict Specialty Alloys",
+            "brand": "AlloyDistrict",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-06.jpg",
+            "stock": 261,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: AlloyDistrict Nickel Alloy Round Bar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced",
+        "cardStyle": "minimal",
+        "columns": 4
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next metals, steel & non-ferrous trade assortment with AlloyDistrict",
+        "body": "Browse metals by form and material for workshop sourcing. Source stainless steel sheet, aluminium extrusion bar and more from this metals, steel & non-ferrous trade trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "AlloyDistrict sample buyer story",
+        "quote": "Our demo metals, steel & non-ferrous trade buying team can compare stainless steel sheet and copper coil roll in one sourcing catalog.",
+        "author": "Fictional AlloyDistrict buyer — demo feedback",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "AlloyDistrict trade savings",
+        "subtitle": "Sample quantity breaks for copper coil roll and the metals, steel & non-ferrous trade catalog. Demo offers only.",
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "AlloyDistrict",
+        "industryName": "Metals, Steel & Non-ferrous Trade",
+        "tagline": "Source stainless steel sheet, aluminium extrusion bar and more from this metals, steel & non-ferrous trade trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-47-web",
+        "layoutMode": "Metals trading terminal",
+        "density": "balanced"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-47-web"
+}

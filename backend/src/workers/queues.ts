@@ -3,4 +3,5 @@ export const QUEUE_NAMES = {
   analytics: 'analytics_queue',
   build: 'build_queue',
   email: 'email_queue',
+  mediaScan: 'media_scan_queue',
 } as const;

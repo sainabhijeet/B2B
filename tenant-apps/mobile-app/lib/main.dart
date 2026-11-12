@@ -12,6 +12,7 @@ import 'core/config/user_app_settings_provider.dart';
 import 'core/config/build_config.dart';
 import 'core/device/storefront_device.dart';
 import 'core/logging/screen_error_provider_observer.dart';
+import 'core/theme/app_typography.dart';
 import 'mobile_app_entry.dart';
 
 Future<void> main() async {
@@ -30,6 +31,7 @@ Future<void> main() async {
       ErrorWidget.builder = (FlutterErrorDetails details) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
+          theme: ThemeData(useMaterial3: true, fontFamily: appFontFamily),
           home: Scaffold(
             body: SafeArea(
               child: Padding(
@@ -94,7 +96,11 @@ class _StartupFailureApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.teal),
+      theme: ThemeData(
+        useMaterial3: true,
+        fontFamily: appFontFamily,
+        colorSchemeSeed: Colors.teal,
+      ),
       home: Scaffold(
         body: SafeArea(
           child: Center(

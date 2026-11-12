@@ -351,6 +351,56 @@ async function readJsonFileIfPresent(
   }
 }
 
+function themeManifestFromConfig(theme: Theme): Record<string, unknown> {
+  const config = theme.themeConfigJson;
+  if (!config || typeof config !== 'object' || Array.isArray(config)) return {};
+  const manifest = config['manifest'];
+  return manifest && typeof manifest === 'object' && !Array.isArray(manifest)
+    ? (manifest as Record<string, unknown>)
+    : {};
+}
+
+function themeIndustryId(theme: Theme): string | null {
+  const value = themeManifestFromConfig(theme)['industryId'];
+  return typeof value === 'string' && value.trim() ? value.trim() : null;
+}
+
+function normalizeDemoCatalogAssets(
+  value: unknown,
+  storageRelative: string,
+  cdnBase: string,
+  parentKey = '',
+): unknown {
+  if (Array.isArray(value)) {
+    return value.map((item) =>
+      normalizeDemoCatalogAssets(item, storageRelative, cdnBase, parentKey),
+    );
+  }
+  if (value && typeof value === 'object') {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>).map(([key, child]) => [
+        key,
+        normalizeDemoCatalogAssets(child, storageRelative, cdnBase, key),
+      ]),
+    );
+  }
+  if (typeof value !== 'string') return value;
+  if (!/(?:image|thumbnail|poster|cover|background|logo|src)/i.test(parentKey)) {
+    return value;
+  }
+  const raw = value.trim();
+  if (!raw || /^https?:\/\//i.test(raw) || raw.startsWith('data:')) return value;
+  if (raw.startsWith('/storage/')) {
+    return publicStorageUrl(cdnBase, raw);
+  }
+  const rel = raw.replace(/^\.?\//, '').replace(/\\/g, '/');
+  if (!rel || rel.includes('..')) return value;
+  return publicStorageUrl(
+    cdnBase,
+    `/storage/${storageRelative.replace(/^\/+|\/+$/g, '')}/${rel}`,
+  );
+}
+
 function flattenLocaleDictionary(
   value: unknown,
   prefix = '',
@@ -373,6 +423,7 @@ export class ThemesService implements OnModuleDestroy {
   private readonly logger = new Logger(ThemesService.name);
   private readonly buildQueue: AppQueue;
   private readonly publicStorageCdnBase: string;
+  private readonly apiPrefix: string;
 
   constructor(
     @InjectRepository(Theme)
@@ -408,7 +459,27 @@ export class ThemesService implements OnModuleDestroy {
   ) {
     this.publicStorageCdnBase =
       configService.get<string>('assets.publicStorageCdnUrl') ?? '';
+    this.apiPrefix = (configService.get<string>('apiPrefix') ?? 'api/v1')
+      .replace(/^\/+|\/+$/gu, '');
     this.buildQueue = createAppQueue(QUEUE_NAMES.build, configService);
+  }
+
+  async storefrontLogoData(tenantId: string | null): Promise<{
+    contentType: string;
+    body: Buffer;
+  } | null> {
+    if (!tenantId) return null;
+    const branding = await this.brandingRepo.findOne({ where: { tenantId } });
+    const raw = branding?.logoDataUrl?.trim();
+    if (!raw) return null;
+    const match = /^data:(image\/(?:png|jpe?g|webp|gif|svg\+xml));base64,([a-z0-9+/=\s]+)$/iu.exec(raw);
+    if (!match) return null;
+    try {
+      const body = Buffer.from(match[2].replace(/\s/gu, ''), 'base64');
+      return body.length ? { contentType: match[1].toLowerCase(), body } : null;
+    } catch {
+      return null;
+    }
   }
 
   /**
@@ -1725,9 +1796,15 @@ export class ThemesService implements OnModuleDestroy {
       (value): value is string =>
         typeof value === 'string' && value.trim().length > 0,
     )?.trim();
+    const embeddedLogoUrl = brandingRow?.logoDataUrl
+      ? `/${this.apiPrefix}/themes/storefront/logo?tenantId=${encodeURIComponent(tenantId)}`
+      : null;
     const brandingOut = {
-      logoUrl: brandingRow?.logoUrl ?? null,
-      logoDataUrl: brandingRow?.logoDataUrl ?? null,
+      logoUrl: brandingRow?.logoUrl ?? embeddedLogoUrl,
+      // Never serialize a multi-megabyte base64 logo into every storefront
+      // React payload. The public binary endpoint above preserves the image
+      // while keeping page HTML and client navigation responses small.
+      logoDataUrl: null,
       tagline: brandingRow?.tagline ?? null,
       primaryColor: brandingRow?.primaryColor ?? null,
       secondaryColor: brandingRow?.secondaryColor ?? null,
@@ -1759,31 +1836,17 @@ export class ThemesService implements OnModuleDestroy {
         enabled: row.enabled,
       });
     }
-    const tokenOverrides = tokens?.tokensJson ?? {};
-    if (
-      tts?.primaryColor &&
-      typeof tokenOverrides['colorPrimary'] !== 'string'
-    ) {
-      tokenOverrides['colorPrimary'] = tts.primaryColor;
-    }
-    if (
-      tts?.secondaryColor &&
-      typeof tokenOverrides['colorSecondary'] !== 'string'
-    ) {
-      tokenOverrides['colorSecondary'] = tts.secondaryColor;
-    }
-    if (
-      brandingRow?.primaryColor &&
-      typeof tokenOverrides['colorPrimary'] !== 'string'
-    ) {
-      tokenOverrides['colorPrimary'] = brandingRow.primaryColor;
-    }
-    if (
-      brandingRow?.secondaryColor &&
-      typeof tokenOverrides['colorSecondary'] !== 'string'
-    ) {
-      tokenOverrides['colorSecondary'] = brandingRow.secondaryColor;
-    }
+    const tokenOverrides = { ...(tokens?.tokensJson ?? {}) };
+    // Registration/onboarding branding is the tenant's explicit colour
+    // choice. It must override defaults copied from the selected theme pack.
+    // Keep tenant theme settings as the first source because the theme editor
+    // updates that record; branding is the registration fallback.
+    const tenantPrimary =
+      tts?.primaryColor?.trim() || brandingRow?.primaryColor?.trim();
+    const tenantSecondary =
+      tts?.secondaryColor?.trim() || brandingRow?.secondaryColor?.trim();
+    if (tenantPrimary) tokenOverrides['colorPrimary'] = tenantPrimary;
+    if (tenantSecondary) tokenOverrides['colorSecondary'] = tenantSecondary;
     if (tts?.webTheme) {
       const data = pack(tts.webTheme, tts);
       (
@@ -1838,9 +1901,98 @@ export class ThemesService implements OnModuleDestroy {
    * Public storefront (mobile): `{ base_layout, config, branding }` — tenant from middleware.
    * Precedence: `tenant_theme_settings.mobile_theme_id` → combo mobile for web → `tenant_themes` if MOBILE → branding theme if MOBILE; config merges web JSON then mobile JSON; branding from tokens / TTS / `tenant_branding`.
    */
+  /**
+   * Demo data is exposed only by the explicit preview endpoint. Prefer the
+   * selected package; older packages without demo-data borrow the newest
+   * active package for the same industry and channel.
+   */
+  async storefrontPreviewCatalog(
+    preferredThemeId: string | null | undefined,
+    industryId: string | null | undefined,
+    channel: ThemeChannel,
+  ): Promise<Record<string, unknown> | null> {
+    const preferredId = uuidOnly(preferredThemeId);
+    const preferred = preferredId
+      ? await this.themesRepo.findOne({ where: { id: preferredId } })
+      : null;
+    const candidates: Theme[] = [];
+    if (preferred?.themeChannel === channel) candidates.push(preferred);
+
+    const normalizedIndustryId = uuidOnly(industryId);
+    if (normalizedIndustryId) {
+      const active = await this.themesRepo.find({
+        where: { status: 'ACTIVE', themeChannel: channel },
+        order: { createdAt: 'DESC' },
+      });
+      for (const theme of active) {
+        if (
+          theme.id !== preferred?.id &&
+          themeIndustryId(theme) === normalizedIndustryId
+        ) {
+          candidates.push(theme);
+        }
+      }
+    }
+
+    for (const theme of candidates) {
+      const catalog = await this.readThemeDemoCatalog(theme);
+      if (catalog) return catalog;
+    }
+    return null;
+  }
+
+  private async readThemeDemoCatalog(
+    theme: Theme,
+  ): Promise<Record<string, unknown> | null> {
+    const storageRelative = theme.storagePath
+      ?.trim()
+      .replace(/^\/+|\/+$/g, '')
+      .replace(/\\/g, '/');
+    if (!storageRelative || storageRelative.includes('..')) return null;
+    const extractTo = path.join(
+      getBackendStorageRoot(),
+      ...storageRelative.split('/'),
+    );
+    const configManifest = themeManifestFromConfig(theme);
+    const manifest =
+      Object.keys(configManifest).length > 0
+        ? configManifest
+        : ((await readJsonFileIfPresent(path.join(extractTo, 'theme.json'))) ??
+          {});
+    const declaredPath = manifest['demoData'];
+    const catalogPath =
+      typeof declaredPath === 'string' && declaredPath.trim()
+        ? declaredPath.trim().replace(/\\/g, '/')
+        : 'demo-data/catalog.json';
+    if (
+      path.posix.isAbsolute(catalogPath) ||
+      catalogPath.split('/').includes('..')
+    ) {
+      return null;
+    }
+    const raw = await readJsonFileIfPresent(path.join(extractTo, catalogPath));
+    if (!raw) return null;
+    const hasCategories = Array.isArray(raw['categories']);
+    const hasProducts = Array.isArray(raw['products']);
+    if (!hasCategories && !hasProducts) return null;
+    const normalized = normalizeDemoCatalogAssets(
+      raw,
+      storageRelative,
+      this.publicStorageCdnBase,
+    ) as Record<string, unknown>;
+    return {
+      ...normalized,
+      sourceThemeId: theme.id,
+      sourceThemeSlug: theme.slug,
+      sourceThemeChannel: theme.themeChannel,
+    };
+  }
+
+  /** Public mobile storefront bundle resolved from the tenant's selected theme. */
   async storefrontMobileTheme(
     tenantId: string,
     previewLanguageCode?: string | null,
+    includeDemoCatalog = true,
   ): Promise<{
     success: true;
     data: {
@@ -1874,6 +2026,8 @@ export class ThemesService implements OnModuleDestroy {
     const preview = await this.buildMobileThemePreviewBundle(
       mobileTheme,
       selectedLanguageCode,
+      industry.industryId,
+      includeDemoCatalog,
     );
     this.applyTenantSectionsToMobilePreview(preview, sections);
     const selectedThemeTokens =
@@ -1967,6 +2121,8 @@ export class ThemesService implements OnModuleDestroy {
   private async buildMobileThemePreviewBundle(
     theme: Theme | null,
     languageCode = 'en',
+    industryId?: string | null,
+    includeDemoCatalog = true,
   ): Promise<Record<string, unknown> | null> {
     if (!theme?.storagePath?.trim()) return null;
     const storageRelative = theme.storagePath
@@ -2030,6 +2186,10 @@ export class ThemesService implements OnModuleDestroy {
       ...flattenLocaleDictionary(fallbackLocale),
       ...flattenLocaleDictionary(locale),
     };
+    const demoCatalog = includeDemoCatalog
+      ? await this.storefrontPreviewCatalog(theme.id, industryId, 'MOBILE')
+      : null;
+    this.applyDemoCatalogToTemplate(homeTemplate, demoCatalog);
 
     return {
       themeName: theme.themeName,
@@ -2041,6 +2201,7 @@ export class ThemesService implements OnModuleDestroy {
       homeTemplate,
       languageCode: normalizeLanguageCode(languageCode),
       locale: localeDictionary,
+      demoCatalog,
       tokens: {
         colors: colors ?? {},
         typography: typography ?? {},
@@ -2048,6 +2209,81 @@ export class ThemesService implements OnModuleDestroy {
         spacing: spacing ?? {},
       },
     };
+  }
+
+  private applyDemoCatalogToTemplate(
+    template: Record<string, unknown> | null,
+    catalog: Record<string, unknown> | null,
+  ): void {
+    if (!template || !catalog || !Array.isArray(template['sections'])) return;
+    const categories = Array.isArray(catalog['categories'])
+      ? catalog['categories']
+      : [];
+    const products = Array.isArray(catalog['products'])
+      ? catalog['products']
+      : [];
+    const imageFrom = (item: unknown): string | null => {
+      if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
+      const row = item as Record<string, unknown>;
+      const value = row['image'] ?? row['imageUrl'] ?? row['thumbnailUrl'];
+      return typeof value === 'string' && value.trim() ? value.trim() : null;
+    };
+    const categoryImages = categories.map(imageFrom).filter(Boolean) as string[];
+    const productImages = products.map(imageFrom).filter(Boolean) as string[];
+    const productSections = new Set([
+      'product-grid',
+      'featured-products',
+      'latest-products',
+      'best-sellers',
+      'product-carousel',
+      'related-products',
+    ]);
+    template['sections'] = template['sections'].map((raw) => {
+      if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return raw;
+      const section = raw as Record<string, unknown>;
+      const type = String(section['type'] ?? section['component'] ?? '')
+        .trim()
+        .toLowerCase();
+      const settings =
+        section['settings'] &&
+        typeof section['settings'] === 'object' &&
+        !Array.isArray(section['settings'])
+          ? (section['settings'] as Record<string, unknown>)
+          : {};
+      if (
+        type === 'category-grid' &&
+        categories.length > 0 &&
+        !Array.isArray(settings['categories'])
+      ) {
+        return {
+          ...section,
+          settings: {
+            ...settings,
+            categories,
+            ...(!Array.isArray(settings['images']) && categoryImages.length > 0
+              ? { images: categoryImages }
+              : {}),
+          },
+        };
+      }
+      if (
+        productSections.has(type) &&
+        products.length > 0 &&
+        !Array.isArray(settings['products'])
+      ) {
+        return {
+          ...section,
+          settings: {
+            ...settings,
+            products,
+            ...(!Array.isArray(settings['images']) && productImages.length > 0
+              ? { images: productImages }
+              : {}),
+          },
+        };
+      }
+      return section;
+    });
   }
 
   /**
@@ -2086,7 +2322,10 @@ export class ThemesService implements OnModuleDestroy {
   }
 
   /** Distributor theme gallery — snake_case keys for storefront/mobile clients. */
-  async listDistributorThemeGallery(channel: 'WEB' | 'MOBILE'): Promise<{
+  async listDistributorThemeGallery(
+    user: JwtUserPayload,
+    channel: 'WEB' | 'MOBILE',
+  ): Promise<{
     success: true;
     data: Array<{
       id: string;
@@ -2100,10 +2339,19 @@ export class ThemesService implements OnModuleDestroy {
     meta: Record<string, never>;
     message: string;
   }> {
-    const rows = await this.themesRepo.find({
+    const activeRows = await this.themesRepo.find({
       where: { status: 'ACTIVE', themeChannel: channel },
       order: { themeName: 'ASC', slug: 'ASC' },
     });
+    let rows = activeRows;
+    if (user.tenantId) {
+      const { industryName } = await this.resolveTenantIndustry(user.tenantId);
+      const expectedFamily = industryName?.trim().toLocaleLowerCase() ?? '';
+      rows = activeRows.filter((theme) => {
+        const family = theme.themeType.trim().toLocaleLowerCase();
+        return family === 'generic' || (!!expectedFamily && family === expectedFamily);
+      });
+    }
     const ids = rows.map((r) => r.id);
     const byTheme = new Map<string, string[]>();
     if (ids.length) {
@@ -2351,14 +2599,14 @@ export class ThemesService implements OnModuleDestroy {
     }
 
     const primary =
+      params.tts?.primaryColor?.trim() ||
+      params.branding?.primaryColor?.trim() ||
       this.readColorToken(params.tokens, 'primary', 'colorPrimary') ||
       this.readColorToken(
         params.selectedThemeTokens,
         'primary',
         'colorPrimary',
       ) ||
-      params.tts?.primaryColor?.trim() ||
-      params.branding?.primaryColor?.trim() ||
       '#1565C0';
 
     const logoRel =
@@ -2384,14 +2632,14 @@ export class ThemesService implements OnModuleDestroy {
       industry_name: params.industry.industryName,
     };
     const sec =
+      params.tts?.secondaryColor?.trim() ||
+      params.branding?.secondaryColor?.trim() ||
       this.readColorToken(params.tokens, 'secondary', 'colorSecondary') ||
       this.readColorToken(
         params.selectedThemeTokens,
         'secondary',
         'colorSecondary',
       ) ||
-      params.tts?.secondaryColor?.trim() ||
-      params.branding?.secondaryColor?.trim() ||
       '';
     if (sec) brandingOut['secondary_color'] = sec;
     const surface =

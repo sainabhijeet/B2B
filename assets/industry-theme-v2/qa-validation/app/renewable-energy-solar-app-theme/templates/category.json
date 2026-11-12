@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "SolarPocket",
+        "industryName": "Renewable Energy & Solar",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "SolarPocket / Renewable Energy & Solar",
+        "subtitle": "Browse flexible solar module, microinverter unit and a dedicated renewable energy & solar mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find SolarPocket supplies",
+        "message": "Explore SolarPocket Solar Modules, SolarPocket Inverters, SolarPocket Mounting Systems, SolarPocket Energy Monitoring.",
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced"
+      },
+      "variant": "filters-visual-four"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "SolarPocket restock picks",
+        "subtitle": "Browse flexible solar module, microinverter unit and a dedicated renewable energy & solar mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "SolarPocket Flexible Solar Module",
+          "SolarPocket Microinverter Unit",
+          "SolarPocket Adjustable Panel Bracket",
+          "SolarPocket Wi-Fi Solar Data Logger",
+          "SolarPocket Bifacial Solar Module",
+          "SolarPocket Off Grid Charge Controller"
+        ],
+        "prices": [
+          "INR 7,140",
+          "INR 47,040",
+          "INR 6,045",
+          "INR 2,592",
+          "INR 2,660",
+          "INR 2,183"
+        ],
+        "products": [
+          {
+            "id": "renewable-energy-solar-app-theme-product-1",
+            "slug": "solarpocket-flexible-solar-module",
+            "sku": "APP-35-1",
+            "name": "SolarPocket Flexible Solar Module",
+            "description": "Flexible Solar Module for your renewable energy & solar replenishment list. SolarPocket groups this item with solar modules so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "solar-modules",
+            "categoryId": "renewable-energy-solar-app-theme-category-1",
+            "categoryName": "SolarPocket Solar Modules",
+            "brand": "SolarPocket",
+            "price": 7140,
+            "currency": "INR",
+            "priceLabel": "INR 7,140",
+            "image": "assets/images/product-01.jpg",
+            "stock": 143,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 8425,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 7140
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 6783
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 6426
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Flexible Solar Module",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "renewable-energy-solar-app-theme-product-2",
+            "slug": "solarpocket-microinverter-unit",
+            "sku": "APP-35-2",
+            "name": "SolarPocket Microinverter Unit",
+            "description": "Microinverter Unit for your renewable energy & solar replenishment list. SolarPocket groups this item with inverters so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "inverters",
+            "categoryId": "renewable-energy-solar-app-theme-category-2",
+            "categoryName": "SolarPocket Inverters",
+            "brand": "SolarPocket",
+            "price": 47040,
+            "currency": "INR",
+            "priceLabel": "INR 47,040",
+            "image": "assets/images/product-02.jpg",
+            "stock": 154,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 55507,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 47040
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 44688
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 42336
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Microinverter Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "renewable-energy-solar-app-theme-product-3",
+            "slug": "solarpocket-adjustable-panel-bracket",
+            "sku": "APP-35-3",
+            "name": "SolarPocket Adjustable Panel Bracket",
+            "description": "Adjustable Panel Bracket for your renewable energy & solar replenishment list. SolarPocket groups this item with mounting systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mounting-systems",
+            "categoryId": "renewable-energy-solar-app-theme-category-3",
+            "categoryName": "SolarPocket Mounting Systems",
+            "brand": "SolarPocket",
+            "price": 6045,
+            "currency": "INR",
+            "priceLabel": "INR 6,045",
+            "image": "assets/images/product-03.jpg",
+            "stock": 165,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 7133,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 6045
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 5743
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 5441
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Adjustable Panel Bracket",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "renewable-energy-solar-app-theme-product-4",
+            "slug": "solarpocket-wi-fi-solar-data-logger",
+            "sku": "APP-35-4",
+            "name": "SolarPocket Wi-Fi Solar Data Logger",
+            "description": "Wi-Fi Solar Data Logger for your renewable energy & solar replenishment list. SolarPocket groups this item with energy monitoring so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "energy-monitoring",
+            "categoryId": "renewable-energy-solar-app-theme-category-4",
+            "categoryName": "SolarPocket Energy Monitoring",
+            "brand": "SolarPocket",
+            "price": 2592,
+            "currency": "INR",
+            "priceLabel": "INR 2,592",
+            "image": "assets/images/product-04.jpg",
+            "stock": 176,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 3059,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2592
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2333
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Wi-Fi Solar Data Logger",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "renewable-energy-solar-app-theme-product-5",
+            "slug": "solarpocket-bifacial-solar-module",
+            "sku": "APP-35-5",
+            "name": "SolarPocket Bifacial Solar Module",
+            "description": "Bifacial Solar Module for your renewable energy & solar replenishment list. SolarPocket groups this item with solar modules so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "solar-modules",
+            "categoryId": "renewable-energy-solar-app-theme-category-1",
+            "categoryName": "SolarPocket Solar Modules",
+            "brand": "SolarPocket",
+            "price": 2660,
+            "currency": "INR",
+            "priceLabel": "INR 2,660",
+            "image": "assets/images/product-05.jpg",
+            "stock": 187,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3139,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 2660
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 2527
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 2394
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Bifacial Solar Module",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "renewable-energy-solar-app-theme-product-6",
+            "slug": "solarpocket-off-grid-charge-controller",
+            "sku": "APP-35-6",
+            "name": "SolarPocket Off Grid Charge Controller",
+            "description": "Off Grid Charge Controller for your renewable energy & solar replenishment list. SolarPocket groups this item with inverters so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "inverters",
+            "categoryId": "renewable-energy-solar-app-theme-category-2",
+            "categoryName": "SolarPocket Inverters",
+            "brand": "SolarPocket",
+            "price": 2183,
+            "currency": "INR",
+            "priceLabel": "INR 2,183",
+            "image": "assets/images/product-06.jpg",
+            "stock": 198,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2576,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 2183
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2074
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1965
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SolarPocket Off Grid Charge Controller",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your SolarPocket order",
+        "subtitle": "Review quantities for flexible solar module with this renewable energy & solar preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "SolarPocket",
+        "industryName": "Renewable Energy & Solar",
+        "tagline": "Browse flexible solar module, microinverter unit and a dedicated renewable energy & solar mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-35-app",
+        "layoutMode": "visual-four",
+        "density": "balanced"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-35-app"
+}

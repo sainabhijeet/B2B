@@ -1,0 +1,92 @@
+{
+  "name": "FMCG & Packaged Foods Web Theme",
+  "version": "4.3.0",
+  "storefrontKey": "fmcg-packaged-foods-web-theme",
+  "industry": "FMCG & Packaged Foods",
+  "industryId": "10000000-0000-4000-8000-000000000009",
+  "description": "PantryRoute is a shelf-planning B2B grocery storefront with a dedicated buying desk, aisle-led catalog and responsive replenishment layout.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/hero-grocery-distribution-v3.png",
+    "tablet": "assets/images/hero-grocery-distribution-v3.png",
+    "mobile": "assets/images/hero-grocery-distribution-v3.png"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-09-web",
+    "direction": "Full-bleed grocery command market",
+    "header": "pantry-route-command",
+    "headerIdentity": "pantry-route-command-v3",
+    "headerStructure": "brand-navigation-buying-command",
+    "hero": "pantry-full-bleed",
+    "categories": "pantry-aisles",
+    "productCards": "pantry-catalog",
+    "productListing": "aisle-matrix",
+    "productDetail": "full-gallery",
+    "footer": "pantry-depot",
+    "footerIdentity": "pantry-depot-v2",
+    "footerStructure": "replenishment-desk-directory-ledger",
+    "density": "airy",
+    "responsiveStrategy": "catalog-matrix-to-mobile-drawer"
+  }
+}

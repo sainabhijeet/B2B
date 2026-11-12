@@ -12,6 +12,8 @@ import { cookies } from "next/headers";
 import { CUSTOMER_ACCESS_COOKIE } from "@/lib/customer-session-cookies";
 import { fetchStorefrontProductDetail } from "@/services/productService";
 import { getStorefrontFeatureConfig } from "@/services/storefrontAppConfigService";
+import PreviewCheckoutPageClient from "@/components/checkout/PreviewCheckoutPageClient";
+import { isDemoCatalog, resolveStorefrontTheme } from "@/lib/resolve-storefront-theme";
 
 export const metadata: Metadata = {
   title: "Checkout",
@@ -30,12 +32,18 @@ type PaymentSettingsEnvelope = {
   } | null;
 };
 
-type Search = Promise<{ buyNow?: string | string[]; variantId?: string | string[]; qty?: string | string[] }>;
+type Search = Promise<Record<string, string | string[] | undefined>>;
 
 export default async function CheckoutPage({ searchParams }: { searchParams: Search }) {
   const sp = await searchParams;
   const first = (value: string | string[] | undefined) => Array.isArray(value) ? value[0] : value;
   const buyNowSlug = first(sp.buyNow)?.trim() ?? "";
+  const previewMode = first(sp.previewMode) === "1";
+  const resolved = previewMode ? null : await resolveStorefrontTheme();
+  if (previewMode || (resolved && isDemoCatalog(resolved))) {
+    const languageCode = await getStorefrontLanguage();
+    return <StorefrontLocaleFrame languageCode={languageCode} className="theme-storefront"><PreviewCheckoutPageClient languageCode={languageCode} buyNowSlug={buyNowSlug || undefined} /></StorefrontLocaleFrame>;
+  }
   const variantId = first(sp.variantId)?.trim() ?? "";
   const quantity = Number.parseInt(first(sp.qty) ?? "", 10);
   let buyNow: BuyNowSelection | null = null;

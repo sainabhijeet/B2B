@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FinishPocket",
+        "industryName": "Paints, Coatings & Adhesives",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "FinishPocket Washable Wall Paint",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "gallery-story-scroll"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "FinishPocket Washable Wall Paint",
+        "subtitle": "Washable Wall Paint for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with interior paints so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 2,058",
+        "description": "Washable Wall Paint for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with interior paints so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-15-1",
+        "stock": 83,
+        "moq": 2,
+        "product": {
+          "id": "paints-coatings-adhesives-app-theme-product-1",
+          "slug": "finishpocket-washable-wall-paint",
+          "sku": "APP-15-1",
+          "name": "FinishPocket Washable Wall Paint",
+          "description": "Washable Wall Paint for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with interior paints so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "interior-paints",
+          "categoryId": "paints-coatings-adhesives-app-theme-category-1",
+          "categoryName": "FinishPocket Interior Paints",
+          "brand": "FinishPocket",
+          "price": 2058,
+          "currency": "INR",
+          "priceLabel": "INR 2,058",
+          "image": "assets/images/product-01.jpg",
+          "stock": 83,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2428,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 2058
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 1955
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 1852
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: FinishPocket Washable Wall Paint",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "info-story-scroll"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "FinishPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FinishPocket Washable Wall Paint",
+          "FinishPocket Heat Resistant Metal Coating",
+          "FinishPocket Water Based Wood Stain",
+          "FinishPocket Tile Bonding Adhesive",
+          "FinishPocket Ceiling White Paint",
+          "FinishPocket Zinc Rich Metal Primer"
+        ],
+        "prices": [
+          "INR 2,058",
+          "INR 2,072",
+          "INR 1,535",
+          "INR 486",
+          "INR 213",
+          "INR 3,776"
+        ],
+        "products": [
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-1",
+            "slug": "finishpocket-washable-wall-paint",
+            "sku": "APP-15-1",
+            "name": "FinishPocket Washable Wall Paint",
+            "description": "Washable Wall Paint for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with interior paints so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "interior-paints",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-1",
+            "categoryName": "FinishPocket Interior Paints",
+            "brand": "FinishPocket",
+            "price": 2058,
+            "currency": "INR",
+            "priceLabel": "INR 2,058",
+            "image": "assets/images/product-01.jpg",
+            "stock": 83,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2428,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 2058
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1955
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1852
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Washable Wall Paint",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-2",
+            "slug": "finishpocket-heat-resistant-metal-coating",
+            "sku": "APP-15-2",
+            "name": "FinishPocket Heat Resistant Metal Coating",
+            "description": "Heat Resistant Metal Coating for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with industrial coatings so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-coatings",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-2",
+            "categoryName": "FinishPocket Industrial Coatings",
+            "brand": "FinishPocket",
+            "price": 2072,
+            "currency": "INR",
+            "priceLabel": "INR 2,072",
+            "image": "assets/images/product-02.jpg",
+            "stock": 94,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 2445,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2072
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1968
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1865
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Heat Resistant Metal Coating",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-3",
+            "slug": "finishpocket-water-based-wood-stain",
+            "sku": "APP-15-3",
+            "name": "FinishPocket Water Based Wood Stain",
+            "description": "Water Based Wood Stain for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with wood finishes so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "wood-finishes",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-3",
+            "categoryName": "FinishPocket Wood Finishes",
+            "brand": "FinishPocket",
+            "price": 1535,
+            "currency": "INR",
+            "priceLabel": "INR 1,535",
+            "image": "assets/images/product-03.jpg",
+            "stock": 105,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1811,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1535
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1458
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1382
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Water Based Wood Stain",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-4",
+            "slug": "finishpocket-tile-bonding-adhesive",
+            "sku": "APP-15-4",
+            "name": "FinishPocket Tile Bonding Adhesive",
+            "description": "Tile Bonding Adhesive for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with adhesives & sealants so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "adhesives-sealants",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-4",
+            "categoryName": "FinishPocket Adhesives & Sealants",
+            "brand": "FinishPocket",
+            "price": 486,
+            "currency": "INR",
+            "priceLabel": "INR 486",
+            "image": "assets/images/product-04.jpg",
+            "stock": 116,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 573,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 486
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 462
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 437
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Tile Bonding Adhesive",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-5",
+            "slug": "finishpocket-ceiling-white-paint",
+            "sku": "APP-15-5",
+            "name": "FinishPocket Ceiling White Paint",
+            "description": "Ceiling White Paint for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with interior paints so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "interior-paints",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-1",
+            "categoryName": "FinishPocket Interior Paints",
+            "brand": "FinishPocket",
+            "price": 213,
+            "currency": "INR",
+            "priceLabel": "INR 213",
+            "image": "assets/images/product-05.jpg",
+            "stock": 127,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 251,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 213
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 202
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 192
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Ceiling White Paint",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "paints-coatings-adhesives-app-theme-product-6",
+            "slug": "finishpocket-zinc-rich-metal-primer",
+            "sku": "APP-15-6",
+            "name": "FinishPocket Zinc Rich Metal Primer",
+            "description": "Zinc Rich Metal Primer for your paints, coatings & adhesives replenishment list. FinishPocket groups this item with industrial coatings so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "industrial-coatings",
+            "categoryId": "paints-coatings-adhesives-app-theme-category-2",
+            "categoryName": "FinishPocket Industrial Coatings",
+            "brand": "FinishPocket",
+            "price": 3776,
+            "currency": "INR",
+            "priceLabel": "INR 3,776",
+            "image": "assets/images/product-06.jpg",
+            "stock": 138,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4456,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3776
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3587
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3398
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FinishPocket Zinc Rich Metal Primer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse washable wall paint, heat resistant metal coating and a dedicated paints, coatings & adhesives mobile assortment.",
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy",
+        "cardStyle": "image-first",
+        "columns": 2
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the FinishPocket demo catalog",
+        "items": [
+          {
+            "question": "How are FinishPocket pack quantities shown?",
+            "answer": "FinishPocket Washable Wall Paint has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are FinishPocket images supplier photographs?",
+            "answer": "These paints, coatings & adhesives images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FinishPocket",
+        "industryName": "Paints, Coatings & Adhesives",
+        "tagline": "Browse washable wall paint, heat resistant metal coating and a dedicated paints, coatings & adhesives mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-15-app",
+        "layoutMode": "story-scroll",
+        "density": "airy"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-15-app"
+}

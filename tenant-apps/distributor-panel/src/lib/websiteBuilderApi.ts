@@ -120,6 +120,10 @@ export type StorefrontMobileThemeBundle = {
     languageCode?: string;
     locale?: Record<string, string>;
     homeTemplate?: Record<string, unknown> | null;
+    demoCatalog?: {
+      categories?: Array<Record<string, unknown>>;
+      products?: Array<Record<string, unknown>>;
+    } | null;
     tokens?: {
       colors?: Record<string, unknown>;
       typography?: Record<string, unknown>;
@@ -228,7 +232,9 @@ export async function fetchStorefrontMobileThemeBundle(languageCode?: string): P
   const tenantId = getAuthSession()?.tenantId ?? null;
   const headers = tenantId ? { "X-Tenant-Id": tenantId } : undefined;
   const language = languageCode?.trim().toLowerCase().split("-")[0] || "";
-  const query = language ? `?language=${encodeURIComponent(language)}` : "";
+  const params = new URLSearchParams({ preview: "1" });
+  if (language) params.set("language", language);
+  const query = `?${params.toString()}`;
   const res = await apiGet<StorefrontMobileThemeEnvelope>(`/storefront/theme${query}`, { headers, cache: "no-store" });
   return res?.data && typeof res.data === "object" ? res.data : null;
 }

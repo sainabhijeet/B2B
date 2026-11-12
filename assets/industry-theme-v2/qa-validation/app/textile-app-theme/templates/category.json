@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ThreadParcel",
+        "industryName": "Textile",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ThreadParcel / Textile",
+        "subtitle": "Browse bamboo woven fabric, cotton crewneck t-shirt pack and a dedicated textile mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find ThreadParcel supplies",
+        "message": "Explore ThreadParcel Fabrics, ThreadParcel Apparel Basics, ThreadParcel Home Textiles, ThreadParcel Yarns & Threads.",
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "filters-quick-order"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "ThreadParcel restock picks",
+        "subtitle": "Browse bamboo woven fabric, cotton crewneck t-shirt pack and a dedicated textile mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ThreadParcel Bamboo Woven Fabric",
+          "ThreadParcel Cotton Crewneck T-Shirt Pack",
+          "ThreadParcel Waffle Bathrobe Pair",
+          "ThreadParcel Mercerized Cotton Thread",
+          "ThreadParcel Wool Blend Suiting Roll",
+          "ThreadParcel Pique Polo Shirt Set"
+        ],
+        "prices": [
+          "INR 3,528",
+          "INR 2,688",
+          "INR 1,674",
+          "INR 702",
+          "INR 4,408",
+          "INR 1,416"
+        ],
+        "products": [
+          {
+            "id": "textile-app-theme-product-1",
+            "slug": "threadparcel-bamboo-woven-fabric",
+            "sku": "APP-03-1",
+            "name": "ThreadParcel Bamboo Woven Fabric",
+            "description": "Bamboo Woven Fabric for your textile replenishment list. ThreadParcel groups this item with fabrics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fabrics",
+            "categoryId": "textile-app-theme-category-1",
+            "categoryName": "ThreadParcel Fabrics",
+            "brand": "ThreadParcel",
+            "price": 3528,
+            "currency": "INR",
+            "priceLabel": "INR 3,528",
+            "image": "assets/images/product-01.jpg",
+            "stock": 47,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 4163,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 3528
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 3352
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 3175
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Bamboo Woven Fabric",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-app-theme-product-2",
+            "slug": "threadparcel-cotton-crewneck-t-shirt-pack",
+            "sku": "APP-03-2",
+            "name": "ThreadParcel Cotton Crewneck T-Shirt Pack",
+            "description": "Cotton Crewneck T-Shirt Pack for your textile replenishment list. ThreadParcel groups this item with apparel basics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "apparel-basics",
+            "categoryId": "textile-app-theme-category-2",
+            "categoryName": "ThreadParcel Apparel Basics",
+            "brand": "ThreadParcel",
+            "price": 2688,
+            "currency": "INR",
+            "priceLabel": "INR 2,688",
+            "image": "assets/images/product-02.jpg",
+            "stock": 58,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 3172,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2688
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2554
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2419
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Cotton Crewneck T-Shirt Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-app-theme-product-3",
+            "slug": "threadparcel-waffle-bathrobe-pair",
+            "sku": "APP-03-3",
+            "name": "ThreadParcel Waffle Bathrobe Pair",
+            "description": "Waffle Bathrobe Pair for your textile replenishment list. ThreadParcel groups this item with home textiles so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "home-textiles",
+            "categoryId": "textile-app-theme-category-3",
+            "categoryName": "ThreadParcel Home Textiles",
+            "brand": "ThreadParcel",
+            "price": 1674,
+            "currency": "INR",
+            "priceLabel": "INR 1,674",
+            "image": "assets/images/product-03.jpg",
+            "stock": 69,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1975,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1674
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1590
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1507
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Waffle Bathrobe Pair",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-app-theme-product-4",
+            "slug": "threadparcel-mercerized-cotton-thread",
+            "sku": "APP-03-4",
+            "name": "ThreadParcel Mercerized Cotton Thread",
+            "description": "Mercerized Cotton Thread for your textile replenishment list. ThreadParcel groups this item with yarns & threads so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "yarns-threads",
+            "categoryId": "textile-app-theme-category-4",
+            "categoryName": "ThreadParcel Yarns & Threads",
+            "brand": "ThreadParcel",
+            "price": 702,
+            "currency": "INR",
+            "priceLabel": "INR 702",
+            "image": "assets/images/product-04.jpg",
+            "stock": 80,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 828,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 702
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 667
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 632
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Mercerized Cotton Thread",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-app-theme-product-5",
+            "slug": "threadparcel-wool-blend-suiting-roll",
+            "sku": "APP-03-5",
+            "name": "ThreadParcel Wool Blend Suiting Roll",
+            "description": "Wool Blend Suiting Roll for your textile replenishment list. ThreadParcel groups this item with fabrics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "fabrics",
+            "categoryId": "textile-app-theme-category-1",
+            "categoryName": "ThreadParcel Fabrics",
+            "brand": "ThreadParcel",
+            "price": 4408,
+            "currency": "INR",
+            "priceLabel": "INR 4,408",
+            "image": "assets/images/product-05.jpg",
+            "stock": 91,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 5201,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 4408
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 4188
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 3967
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Wool Blend Suiting Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "textile-app-theme-product-6",
+            "slug": "threadparcel-pique-polo-shirt-set",
+            "sku": "APP-03-6",
+            "name": "ThreadParcel Pique Polo Shirt Set",
+            "description": "Pique Polo Shirt Set for your textile replenishment list. ThreadParcel groups this item with apparel basics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "apparel-basics",
+            "categoryId": "textile-app-theme-category-2",
+            "categoryName": "ThreadParcel Apparel Basics",
+            "brand": "ThreadParcel",
+            "price": 1416,
+            "currency": "INR",
+            "priceLabel": "INR 1,416",
+            "image": "assets/images/product-06.jpg",
+            "stock": 102,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1671,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1416
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1345
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1274
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ThreadParcel Pique Polo Shirt Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your ThreadParcel order",
+        "subtitle": "Review quantities for bamboo woven fabric with this textile preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ThreadParcel",
+        "industryName": "Textile",
+        "tagline": "Browse bamboo woven fabric, cotton crewneck t-shirt pack and a dedicated textile mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-03-app",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "footer-minimal"
+    }
+  ],
+  "design": "ds-03-app"
+}

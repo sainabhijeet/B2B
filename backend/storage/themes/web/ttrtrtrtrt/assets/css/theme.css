@@ -1,0 +1,13 @@
+:root {
+  --theme-primary: #2563EB;
+  --theme-secondary: #06B6D4;
+  --theme-surface: #EFF6FF;
+  --theme-text: #0F172A;
+  --theme-muted: #475569;
+  --theme-border: color-mix(in srgb, #2563EB 16%, white);
+  --theme-primary-contrast: #ffffff;
+  --theme-radius: 18px;
+}
+.theme-section-root img { background: #EFF6FF; }
+.theme-section-root a, .theme-section-root button { transition: transform .2s ease, filter .2s ease; }
+.theme-section-root a:hover, .theme-section-root button:hover { filter: brightness(.98); }

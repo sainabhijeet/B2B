@@ -1,0 +1,103 @@
+[
+  {
+    "index": 10,
+    "category": "Textile",
+    "name": "Industify",
+    "url": "https://frenify.com/work/envato/frenify/html/industify/1/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\10-industify.png",
+    "status": "blocked",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 0.01852905660507531,
+    "retry": "cdp-fixed-wait"
+  },
+  {
+    "index": 11,
+    "category": "Textile",
+    "name": "Industrie Blue",
+    "url": "https://industrie.rstheme.com/html/blue-construction.html",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\11-industrie-blue.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 6.072094187595212
+  },
+  {
+    "index": 12,
+    "category": "Textile",
+    "name": "Industrie Red",
+    "url": "https://industrie.rstheme.com/html/red-engineering.html",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\12-industrie-red.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 6.3529823831049725
+  },
+  {
+    "index": 13,
+    "category": "Textile",
+    "name": "Industrie Default",
+    "url": "https://industrie.rstheme.com/html/index.html",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\13-industrie-default.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 5.549633022281341,
+    "retry": "cdp-fixed-wait"
+  },
+  {
+    "index": 14,
+    "category": "Industrial Equipment",
+    "name": "Industriaz",
+    "url": "https://25.lixela.com/newwp/industriaz/",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\14-industriaz.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 1.0105800233304763
+  },
+  {
+    "index": 15,
+    "category": "Industrial Equipment",
+    "name": "Factory",
+    "url": "https://world5.commonsupport.com/2017/factory/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\15-factory.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 2.68187346781815
+  },
+  {
+    "index": 16,
+    "category": "Machinery",
+    "name": "Machinery",
+    "url": "https://st.ourhtmldemo.com/new/Machinery/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\16-machinery.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 5.163984609069303
+  },
+  {
+    "index": 17,
+    "category": "Machinery",
+    "name": "Dynamic",
+    "url": "http://st.ourhtmldemo.com/template/dynamic/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\17-dynamic.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 4.888850367758096
+  },
+  {
+    "index": 18,
+    "category": "Machinery",
+    "name": "Finance",
+    "url": "https://themesflat.co/html/finance/?storefront=envato-elements",
+    "file": "P:\\My B2B New Project\\saas-platform\\exports\\reference-theme-audit\\screenshots\\18-finance.png",
+    "status": "captured",
+    "width": 1440,
+    "height": 1100,
+    "entropy": 1.938115675089648
+  }
+]

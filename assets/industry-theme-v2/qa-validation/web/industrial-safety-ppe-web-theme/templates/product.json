@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "SafeShift",
+        "industryName": "Industrial Safety & PPE",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy"
+      },
+      "variant": "editorial"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "SafeShift Safety Helmet Case",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy"
+      },
+      "variant": "gallery-gallery-right"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "SafeShift Safety Helmet Case",
+        "subtitle": "Safety Helmet Case from SafeShift's head protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 1,800",
+        "description": "Safety Helmet Case from SafeShift's head protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-27-1",
+        "stock": 146,
+        "moq": 5,
+        "product": {
+          "id": "industrial-safety-ppe-web-theme-product-1",
+          "slug": "safeshift-safety-helmet-case",
+          "sku": "WEB-27-1",
+          "name": "SafeShift Safety Helmet Case",
+          "description": "Safety Helmet Case from SafeShift's head protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "head-protection",
+          "categoryId": "industrial-safety-ppe-web-theme-category-1",
+          "categoryName": "SafeShift Head Protection",
+          "brand": "SafeShift",
+          "price": 1800,
+          "currency": "INR",
+          "priceLabel": "INR 1,800",
+          "image": "assets/images/product-01.jpg",
+          "stock": 146,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 2124,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 1800
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 1710
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 1620
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: SafeShift Safety Helmet Case",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy"
+      },
+      "variant": "info-gallery-right"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "SafeShift trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "SafeShift Safety Helmet Case",
+          "SafeShift Cut Resistant Gloves",
+          "SafeShift Full Body Harness",
+          "SafeShift Reflective Safety Jacket",
+          "SafeShift Industrial Safety Shoes",
+          "SafeShift Respirator Mask Box"
+        ],
+        "prices": [
+          "INR 1,800",
+          "INR 450",
+          "INR 2,400",
+          "INR 350",
+          "INR 1,850",
+          "INR 650"
+        ],
+        "products": [
+          {
+            "id": "industrial-safety-ppe-web-theme-product-1",
+            "slug": "safeshift-safety-helmet-case",
+            "sku": "WEB-27-1",
+            "name": "SafeShift Safety Helmet Case",
+            "description": "Safety Helmet Case from SafeShift's head protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "head-protection",
+            "categoryId": "industrial-safety-ppe-web-theme-category-1",
+            "categoryName": "SafeShift Head Protection",
+            "brand": "SafeShift",
+            "price": 1800,
+            "currency": "INR",
+            "priceLabel": "INR 1,800",
+            "image": "assets/images/product-01.jpg",
+            "stock": 146,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2124,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1800
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1710
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1620
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Safety Helmet Case",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-web-theme-product-2",
+            "slug": "safeshift-cut-resistant-gloves",
+            "sku": "WEB-27-2",
+            "name": "SafeShift Cut Resistant Gloves",
+            "description": "Cut Resistant Gloves from SafeShift's hand protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "hand-protection",
+            "categoryId": "industrial-safety-ppe-web-theme-category-2",
+            "categoryName": "SafeShift Hand Protection",
+            "brand": "SafeShift",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-02.jpg",
+            "stock": 157,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Cut Resistant Gloves",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-web-theme-product-3",
+            "slug": "safeshift-full-body-harness",
+            "sku": "WEB-27-3",
+            "name": "SafeShift Full Body Harness",
+            "description": "Full Body Harness from SafeShift's fall protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "fall-protection",
+            "categoryId": "industrial-safety-ppe-web-theme-category-3",
+            "categoryName": "SafeShift Fall Protection",
+            "brand": "SafeShift",
+            "price": 2400,
+            "currency": "INR",
+            "priceLabel": "INR 2,400",
+            "image": "assets/images/product-03.jpg",
+            "stock": 168,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 2400
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2280
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 2160
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Full Body Harness",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-web-theme-product-4",
+            "slug": "safeshift-reflective-safety-jacket",
+            "sku": "WEB-27-4",
+            "name": "SafeShift Reflective Safety Jacket",
+            "description": "Reflective Safety Jacket from SafeShift's workwear assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "workwear",
+            "categoryId": "industrial-safety-ppe-web-theme-category-4",
+            "categoryName": "SafeShift Workwear",
+            "brand": "SafeShift",
+            "price": 350,
+            "currency": "INR",
+            "priceLabel": "INR 350",
+            "image": "assets/images/product-04.jpg",
+            "stock": 179,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 413,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 350
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 333
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 315
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Reflective Safety Jacket",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-web-theme-product-5",
+            "slug": "safeshift-industrial-safety-shoes",
+            "sku": "WEB-27-5",
+            "name": "SafeShift Industrial Safety Shoes",
+            "description": "Industrial Safety Shoes from SafeShift's workwear assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "workwear",
+            "categoryId": "industrial-safety-ppe-web-theme-category-4",
+            "categoryName": "SafeShift Workwear",
+            "brand": "SafeShift",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-05.jpg",
+            "stock": 190,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Industrial Safety Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-safety-ppe-web-theme-product-6",
+            "slug": "safeshift-respirator-mask-box",
+            "sku": "WEB-27-6",
+            "name": "SafeShift Respirator Mask Box",
+            "description": "Respirator Mask Box from SafeShift's head protection assortment. Organize protective work supplies by crew requirement. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "head-protection",
+            "categoryId": "industrial-safety-ppe-web-theme-category-1",
+            "categoryName": "SafeShift Head Protection",
+            "brand": "SafeShift",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-06.jpg",
+            "stock": 201,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SafeShift Respirator Mask Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source safety helmet case, cut resistant gloves and more from this industrial safety & ppe trade collection.",
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy",
+        "cardStyle": "editorial",
+        "columns": 5
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the SafeShift demo catalog",
+        "items": [
+          {
+            "question": "How are SafeShift pack quantities shown?",
+            "answer": "SafeShift Safety Helmet Case has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are SafeShift images supplier photographs?",
+            "answer": "These industrial safety & ppe images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy"
+      },
+      "variant": "faq-section-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "SafeShift",
+        "industryName": "Industrial Safety & PPE",
+        "tagline": "Source safety helmet case, cut resistant gloves and more from this industrial safety & ppe trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-27-web",
+        "layoutMode": "gallery-right",
+        "density": "airy"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-27-web"
+}

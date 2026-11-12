@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "HomeCurrent",
+        "industryName": "Consumer Appliances & Home Tech",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "HomeCurrent: Discover appliances by the household tasks they simplify.",
+        "subtitle": "Source double door refrigerator, front load washer and more from this consumer appliances & home tech trade collection.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "HomeCurrent trade selection",
+        "subtitle": "Source double door refrigerator, front load washer and more from this consumer appliances & home tech trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "HomeCurrent Double Door Refrigerator",
+          "HomeCurrent Front Load Washer",
+          "HomeCurrent Smart Air Purifier",
+          "HomeCurrent Microwave Oven",
+          "HomeCurrent Robot Vacuum Cleaner",
+          "HomeCurrent Smart Ceiling Fan"
+        ],
+        "prices": [
+          "INR 28,500",
+          "INR 32,000",
+          "INR 8,500",
+          "INR 12,500",
+          "INR 18,500",
+          "INR 4,200"
+        ],
+        "products": [
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-1",
+            "slug": "homecurrent-double-door-refrigerator",
+            "sku": "WEB-31-1",
+            "name": "HomeCurrent Double Door Refrigerator",
+            "description": "Double Door Refrigerator from HomeCurrent's kitchen appliances assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "kitchen-appliances",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-1",
+            "categoryName": "HomeCurrent Kitchen Appliances",
+            "brand": "HomeCurrent",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 158,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Double Door Refrigerator",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-2",
+            "slug": "homecurrent-front-load-washer",
+            "sku": "WEB-31-2",
+            "name": "HomeCurrent Front Load Washer",
+            "description": "Front Load Washer from HomeCurrent's home appliances assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-appliances",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-2",
+            "categoryName": "HomeCurrent Home Appliances",
+            "brand": "HomeCurrent",
+            "price": 32000,
+            "currency": "INR",
+            "priceLabel": "INR 32,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 169,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 37760,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 32000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 30400
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 28800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Front Load Washer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-3",
+            "slug": "homecurrent-smart-air-purifier",
+            "sku": "WEB-31-3",
+            "name": "HomeCurrent Smart Air Purifier",
+            "description": "Smart Air Purifier from HomeCurrent's smart home assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "smart-home",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-3",
+            "categoryName": "HomeCurrent Smart Home",
+            "brand": "HomeCurrent",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 180,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Smart Air Purifier",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-4",
+            "slug": "homecurrent-microwave-oven",
+            "sku": "WEB-31-4",
+            "name": "HomeCurrent Microwave Oven",
+            "description": "Microwave Oven from HomeCurrent's kitchen appliances assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "kitchen-appliances",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-1",
+            "categoryName": "HomeCurrent Kitchen Appliances",
+            "brand": "HomeCurrent",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 191,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Microwave Oven",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-5",
+            "slug": "homecurrent-robot-vacuum-cleaner",
+            "sku": "WEB-31-5",
+            "name": "HomeCurrent Robot Vacuum Cleaner",
+            "description": "Robot Vacuum Cleaner from HomeCurrent's home appliances assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "home-appliances",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-2",
+            "categoryName": "HomeCurrent Home Appliances",
+            "brand": "HomeCurrent",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 202,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Robot Vacuum Cleaner",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-product-6",
+            "slug": "homecurrent-smart-ceiling-fan",
+            "sku": "WEB-31-6",
+            "name": "HomeCurrent Smart Ceiling Fan",
+            "description": "Smart Ceiling Fan from HomeCurrent's climate control assortment. Discover appliances by the household tasks they simplify. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "climate-control",
+            "categoryId": "consumer-appliances-home-tech-web-theme-category-4",
+            "categoryName": "HomeCurrent Climate Control",
+            "brand": "HomeCurrent",
+            "price": 4200,
+            "currency": "INR",
+            "priceLabel": "INR 4,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 213,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4956,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 4200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3990
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3780
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: HomeCurrent Smart Ceiling Fan",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact",
+        "cardStyle": "minimal",
+        "columns": 3
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with HomeCurrent",
+        "items": [
+          {
+            "icon": "01",
+            "title": "HomeCurrent Kitchen Appliances",
+            "text": "Start with double door refrigerator and compare the HomeCurrent sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "HomeCurrent quantity breaks",
+            "text": "Review MOQ and bulk tiers for front load washer before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "HomeCurrent sourcing lists",
+            "text": "Source double door refrigerator, front load washer and more from this consumer appliances & home tech trade collection."
+          }
+        ],
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "HomeCurrent collections",
+        "subtitle": "Choose your next consumer appliances & home tech order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "HomeCurrent Kitchen Appliances",
+          "HomeCurrent Home Appliances",
+          "HomeCurrent Smart Home",
+          "HomeCurrent Climate Control"
+        ],
+        "categories": [
+          {
+            "id": "consumer-appliances-home-tech-web-theme-category-1",
+            "slug": "kitchen-appliances",
+            "name": "HomeCurrent Kitchen Appliances",
+            "description": "Explore HomeCurrent's kitchen appliances selection for consumer appliances & home tech buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-category-2",
+            "slug": "home-appliances",
+            "name": "HomeCurrent Home Appliances",
+            "description": "Explore HomeCurrent's home appliances selection for consumer appliances & home tech buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-category-3",
+            "slug": "smart-home",
+            "name": "HomeCurrent Smart Home",
+            "description": "Explore HomeCurrent's smart home selection for consumer appliances & home tech buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "consumer-appliances-home-tech-web-theme-category-4",
+            "slug": "climate-control",
+            "name": "HomeCurrent Climate Control",
+            "description": "Explore HomeCurrent's climate control selection for consumer appliances & home tech buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-06.jpg"
+          }
+        ],
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact",
+        "categoryStyle": "horizontal-rail"
+      },
+      "variant": "categories-horizontal-rail"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next consumer appliances & home tech assortment with HomeCurrent",
+        "body": "Discover appliances by the household tasks they simplify. Source double door refrigerator, front load washer and more from this consumer appliances & home tech trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "HomeCurrent sample buyer story",
+        "quote": "Our demo consumer appliances & home tech buying team can compare double door refrigerator and smart air purifier in one sourcing catalog.",
+        "author": "Fictional HomeCurrent buyer — demo feedback",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow HomeCurrent arrivals",
+        "subtitle": "Sample updates about microwave oven and homecurrent kitchen appliances.",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "HomeCurrent trade savings",
+        "subtitle": "Sample quantity breaks for smart air purifier and the consumer appliances & home tech catalog. Demo offers only.",
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "HomeCurrent",
+        "industryName": "Consumer Appliances & Home Tech",
+        "tagline": "Source double door refrigerator, front load washer and more from this consumer appliances & home tech trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-31-web",
+        "layoutMode": "Home technology showroom",
+        "density": "compact"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-31-web"
+}

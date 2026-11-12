@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "DiePocket",
+        "industryName": "Plastic Moulding & Dies",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "DiePocket Bottle Cap Injection Mould",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact"
+      },
+      "variant": "gallery-gallery-right"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "DiePocket Bottle Cap Injection Mould",
+        "subtitle": "Bottle Cap Injection Mould for your plastic moulding & dies replenishment list. DiePocket groups this item with injection moulds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 71,400",
+        "description": "Bottle Cap Injection Mould for your plastic moulding & dies replenishment list. DiePocket groups this item with injection moulds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-34-1",
+        "stock": 140,
+        "moq": 1,
+        "product": {
+          "id": "plastic-moulding-dies-app-theme-product-1",
+          "slug": "diepocket-bottle-cap-injection-mould",
+          "sku": "APP-34-1",
+          "name": "DiePocket Bottle Cap Injection Mould",
+          "description": "Bottle Cap Injection Mould for your plastic moulding & dies replenishment list. DiePocket groups this item with injection moulds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "injection-moulds",
+          "categoryId": "plastic-moulding-dies-app-theme-category-1",
+          "categoryName": "DiePocket Injection Moulds",
+          "brand": "DiePocket",
+          "price": 71400,
+          "currency": "INR",
+          "priceLabel": "INR 71,400",
+          "image": "assets/images/product-01.jpg",
+          "stock": 140,
+          "moq": 1,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 84252,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 1,
+              "unitPrice": 71400
+            },
+            {
+              "minQuantity": 5,
+              "unitPrice": 67830
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 64260
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: DiePocket Bottle Cap Injection Mould",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact"
+      },
+      "variant": "info-gallery-right"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "DiePocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "DiePocket Bottle Cap Injection Mould",
+          "DiePocket Flat Sheet Extrusion Die",
+          "DiePocket Mould Guide Pillar Set",
+          "DiePocket Hopper Dryer Unit",
+          "DiePocket Storage Crate Mould",
+          "DiePocket Cable Coating Die"
+        ],
+        "prices": [
+          "INR 71,400",
+          "INR 47,040",
+          "INR 1,721",
+          "INR 13,500",
+          "INR 342",
+          "INR 3,776"
+        ],
+        "products": [
+          {
+            "id": "plastic-moulding-dies-app-theme-product-1",
+            "slug": "diepocket-bottle-cap-injection-mould",
+            "sku": "APP-34-1",
+            "name": "DiePocket Bottle Cap Injection Mould",
+            "description": "Bottle Cap Injection Mould for your plastic moulding & dies replenishment list. DiePocket groups this item with injection moulds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "injection-moulds",
+            "categoryId": "plastic-moulding-dies-app-theme-category-1",
+            "categoryName": "DiePocket Injection Moulds",
+            "brand": "DiePocket",
+            "price": 71400,
+            "currency": "INR",
+            "priceLabel": "INR 71,400",
+            "image": "assets/images/product-01.jpg",
+            "stock": 140,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 84252,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 71400
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 67830
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 64260
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Bottle Cap Injection Mould",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-app-theme-product-2",
+            "slug": "diepocket-flat-sheet-extrusion-die",
+            "sku": "APP-34-2",
+            "name": "DiePocket Flat Sheet Extrusion Die",
+            "description": "Flat Sheet Extrusion Die for your plastic moulding & dies replenishment list. DiePocket groups this item with extrusion dies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "extrusion-dies",
+            "categoryId": "plastic-moulding-dies-app-theme-category-2",
+            "categoryName": "DiePocket Extrusion Dies",
+            "brand": "DiePocket",
+            "price": 47040,
+            "currency": "INR",
+            "priceLabel": "INR 47,040",
+            "image": "assets/images/product-02.jpg",
+            "stock": 151,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 55507,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 47040
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 44688
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 42336
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Flat Sheet Extrusion Die",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-app-theme-product-3",
+            "slug": "diepocket-mould-guide-pillar-set",
+            "sku": "APP-34-3",
+            "name": "DiePocket Mould Guide Pillar Set",
+            "description": "Mould Guide Pillar Set for your plastic moulding & dies replenishment list. DiePocket groups this item with mould components so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mould-components",
+            "categoryId": "plastic-moulding-dies-app-theme-category-3",
+            "categoryName": "DiePocket Mould Components",
+            "brand": "DiePocket",
+            "price": 1721,
+            "currency": "INR",
+            "priceLabel": "INR 1,721",
+            "image": "assets/images/product-03.jpg",
+            "stock": 162,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2031,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1721
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1635
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1549
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Mould Guide Pillar Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-app-theme-product-4",
+            "slug": "diepocket-hopper-dryer-unit",
+            "sku": "APP-34-4",
+            "name": "DiePocket Hopper Dryer Unit",
+            "description": "Hopper Dryer Unit for your plastic moulding & dies replenishment list. DiePocket groups this item with processing accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "processing-accessories",
+            "categoryId": "plastic-moulding-dies-app-theme-category-4",
+            "categoryName": "DiePocket Processing Accessories",
+            "brand": "DiePocket",
+            "price": 13500,
+            "currency": "INR",
+            "priceLabel": "INR 13,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 173,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 15930,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 13500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 12825
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12150
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Hopper Dryer Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-app-theme-product-5",
+            "slug": "diepocket-storage-crate-mould",
+            "sku": "APP-34-5",
+            "name": "DiePocket Storage Crate Mould",
+            "description": "Storage Crate Mould for your plastic moulding & dies replenishment list. DiePocket groups this item with injection moulds so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "injection-moulds",
+            "categoryId": "plastic-moulding-dies-app-theme-category-1",
+            "categoryName": "DiePocket Injection Moulds",
+            "brand": "DiePocket",
+            "price": 342,
+            "currency": "INR",
+            "priceLabel": "INR 342",
+            "image": "assets/images/product-05.jpg",
+            "stock": 184,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 404,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 342
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 325
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 308
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Storage Crate Mould",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-app-theme-product-6",
+            "slug": "diepocket-cable-coating-die",
+            "sku": "APP-34-6",
+            "name": "DiePocket Cable Coating Die",
+            "description": "Cable Coating Die for your plastic moulding & dies replenishment list. DiePocket groups this item with extrusion dies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "extrusion-dies",
+            "categoryId": "plastic-moulding-dies-app-theme-category-2",
+            "categoryName": "DiePocket Extrusion Dies",
+            "brand": "DiePocket",
+            "price": 3776,
+            "currency": "INR",
+            "priceLabel": "INR 3,776",
+            "image": "assets/images/product-06.jpg",
+            "stock": 195,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 4456,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3776
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3587
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 3398
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: DiePocket Cable Coating Die",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse bottle cap injection mould, flat sheet extrusion die and a dedicated plastic moulding & dies mobile assortment.",
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact",
+        "cardStyle": "minimal",
+        "columns": 2
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the DiePocket demo catalog",
+        "items": [
+          {
+            "question": "How are DiePocket pack quantities shown?",
+            "answer": "DiePocket Bottle Cap Injection Mould has a sample MOQ of 1. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are DiePocket images supplier photographs?",
+            "answer": "These plastic moulding & dies images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact"
+      },
+      "variant": "faq-section-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "DiePocket",
+        "industryName": "Plastic Moulding & Dies",
+        "tagline": "Browse bottle cap injection mould, flat sheet extrusion die and a dedicated plastic moulding & dies mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-34-app",
+        "layoutMode": "gallery-right",
+        "density": "compact"
+      },
+      "variant": "footer-brand-story"
+    }
+  ],
+  "design": "ds-34-app"
+}

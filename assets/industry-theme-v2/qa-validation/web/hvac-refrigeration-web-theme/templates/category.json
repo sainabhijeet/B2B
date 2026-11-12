@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ClimateWorks",
+        "industryName": "HVAC & Refrigeration",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ClimateWorks / HVAC & Refrigeration",
+        "subtitle": "Source commercial split ac, cold room condenser and more from this hvac & refrigeration trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find ClimateWorks supplies",
+        "message": "Explore ClimateWorks Air Conditioning, ClimateWorks Refrigeration, ClimateWorks Ventilation, ClimateWorks HVAC Components.",
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "filters-quick-order"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "ClimateWorks trade selection",
+        "subtitle": "Source commercial split ac, cold room condenser and more from this hvac & refrigeration trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ClimateWorks Commercial Split AC",
+          "ClimateWorks Cold Room Condenser",
+          "ClimateWorks Industrial Exhaust Fan",
+          "ClimateWorks Copper Coil Roll",
+          "ClimateWorks Digital Thermostat",
+          "ClimateWorks Refrigeration Compressor"
+        ],
+        "prices": [
+          "INR 42,000",
+          "INR 85,000",
+          "INR 8,500",
+          "INR 6,500",
+          "INR 1,499",
+          "INR 18,500"
+        ],
+        "products": [
+          {
+            "id": "hvac-refrigeration-web-theme-product-1",
+            "slug": "climateworks-commercial-split-ac",
+            "sku": "WEB-24-1",
+            "name": "ClimateWorks Commercial Split AC",
+            "description": "Commercial Split AC from ClimateWorks's air conditioning assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "air-conditioning",
+            "categoryId": "hvac-refrigeration-web-theme-category-1",
+            "categoryName": "ClimateWorks Air Conditioning",
+            "brand": "ClimateWorks",
+            "price": 42000,
+            "currency": "INR",
+            "priceLabel": "INR 42,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 137,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 49560,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 39900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 37800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Commercial Split AC",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hvac-refrigeration-web-theme-product-2",
+            "slug": "climateworks-cold-room-condenser",
+            "sku": "WEB-24-2",
+            "name": "ClimateWorks Cold Room Condenser",
+            "description": "Cold Room Condenser from ClimateWorks's refrigeration assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "refrigeration",
+            "categoryId": "hvac-refrigeration-web-theme-category-2",
+            "categoryName": "ClimateWorks Refrigeration",
+            "brand": "ClimateWorks",
+            "price": 85000,
+            "currency": "INR",
+            "priceLabel": "INR 85,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 148,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 100300,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 85000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 80750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 76500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Cold Room Condenser",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hvac-refrigeration-web-theme-product-3",
+            "slug": "climateworks-industrial-exhaust-fan",
+            "sku": "WEB-24-3",
+            "name": "ClimateWorks Industrial Exhaust Fan",
+            "description": "Industrial Exhaust Fan from ClimateWorks's ventilation assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "ventilation",
+            "categoryId": "hvac-refrigeration-web-theme-category-3",
+            "categoryName": "ClimateWorks Ventilation",
+            "brand": "ClimateWorks",
+            "price": 8500,
+            "currency": "INR",
+            "priceLabel": "INR 8,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 159,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 10030,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 8500
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8075
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 7650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Industrial Exhaust Fan",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hvac-refrigeration-web-theme-product-4",
+            "slug": "climateworks-copper-coil-roll",
+            "sku": "WEB-24-4",
+            "name": "ClimateWorks Copper Coil Roll",
+            "description": "Copper Coil Roll from ClimateWorks's hvac components assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "hvac-components",
+            "categoryId": "hvac-refrigeration-web-theme-category-4",
+            "categoryName": "ClimateWorks HVAC Components",
+            "brand": "ClimateWorks",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 170,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Copper Coil Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hvac-refrigeration-web-theme-product-5",
+            "slug": "climateworks-digital-thermostat",
+            "sku": "WEB-24-5",
+            "name": "ClimateWorks Digital Thermostat",
+            "description": "Digital Thermostat from ClimateWorks's hvac components assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "hvac-components",
+            "categoryId": "hvac-refrigeration-web-theme-category-4",
+            "categoryName": "ClimateWorks HVAC Components",
+            "brand": "ClimateWorks",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-05.jpg",
+            "stock": 181,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Digital Thermostat",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "hvac-refrigeration-web-theme-product-6",
+            "slug": "climateworks-refrigeration-compressor",
+            "sku": "WEB-24-6",
+            "name": "ClimateWorks Refrigeration Compressor",
+            "description": "Refrigeration Compressor from ClimateWorks's refrigeration assortment. Keep climate-control purchasing organized by system need. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "refrigeration",
+            "categoryId": "hvac-refrigeration-web-theme-category-2",
+            "categoryName": "ClimateWorks Refrigeration",
+            "brand": "ClimateWorks",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-06.jpg",
+            "stock": 192,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ClimateWorks Refrigeration Compressor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy",
+        "cardStyle": "quick-add",
+        "columns": 6
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your ClimateWorks order",
+        "subtitle": "Review quantities for commercial split ac with this hvac & refrigeration preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ClimateWorks",
+        "industryName": "HVAC & Refrigeration",
+        "tagline": "Source commercial split ac, cold room condenser and more from this hvac & refrigeration trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-24-web",
+        "layoutMode": "quick-order",
+        "density": "airy"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-24-web"
+}

@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000026",
+  "industry": "Marine & Port Supplies",
+  "themeName": "Marine & Port Supplies App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "DeckPocket",
+    "industry": "Marine & Port Supplies",
+    "tagline": "Browse marine deck brush, sea water pump impeller and a dedicated marine & port supplies mobile assortment.",
+    "email": "hello@deckpocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "DeckPocket quantity rewards",
+      "description": "Compare the sample bulk tiers in DeckPocket's marine & port supplies range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "DeckPocket sample buyer story",
+      "quote": "Our demo marine & port supplies buying team can compare marine deck brush and rescue lifebuoy ring in one restock list.",
+      "author": "Fictional DeckPocket buyer — demo feedback",
+      "designId": "ds-38-app",
+      "layoutMode": "Port stores manifest / pocket workflow",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "marine-port-supplies-app-theme-category-1",
+      "slug": "deck-supplies",
+      "name": "DeckPocket Deck Supplies",
+      "description": "Pick deck supplies for your marine & port supplies replenishment list with DeckPocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "marine-port-supplies-app-theme-category-2",
+      "slug": "engine-stores",
+      "name": "DeckPocket Engine Stores",
+      "description": "Pick engine stores for your marine & port supplies replenishment list with DeckPocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "marine-port-supplies-app-theme-category-3",
+      "slug": "safety-equipment",
+      "name": "DeckPocket Safety Equipment",
+      "description": "Pick safety equipment for your marine & port supplies replenishment list with DeckPocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "marine-port-supplies-app-theme-category-4",
+      "slug": "mooring-equipment",
+      "name": "DeckPocket Mooring Equipment",
+      "description": "Pick mooring equipment for your marine & port supplies replenishment list with DeckPocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "marine-port-supplies-app-theme-product-1",
+      "slug": "deckpocket-marine-deck-brush",
+      "sku": "APP-38-1",
+      "name": "DeckPocket Marine Deck Brush",
+      "description": "Marine Deck Brush for your marine & port supplies replenishment list. DeckPocket groups this item with deck supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "deck-supplies",
+      "categoryId": "marine-port-supplies-app-theme-category-1",
+      "categoryName": "DeckPocket Deck Supplies",
+      "brand": "DeckPocket",
+      "price": 5460,
+      "currency": "INR",
+      "priceLabel": "INR 5,460",
+      "image": "assets/images/product-01.jpg",
+      "stock": 152,
+      "moq": 2,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 6443,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 2,
+          "unitPrice": 5460
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 5187
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 4914
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Marine Deck Brush",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "marine-port-supplies-app-theme-product-2",
+      "slug": "deckpocket-sea-water-pump-impeller",
+      "sku": "APP-38-2",
+      "name": "DeckPocket Sea Water Pump Impeller",
+      "description": "Sea Water Pump Impeller for your marine & port supplies replenishment list. DeckPocket groups this item with engine stores so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "engine-stores",
+      "categoryId": "marine-port-supplies-app-theme-category-2",
+      "categoryName": "DeckPocket Engine Stores",
+      "brand": "DeckPocket",
+      "price": 4704,
+      "currency": "INR",
+      "priceLabel": "INR 4,704",
+      "image": "assets/images/product-02.jpg",
+      "stock": 163,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 5551,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 4704
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 4469
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 4234
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Sea Water Pump Impeller",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "marine-port-supplies-app-theme-product-3",
+      "slug": "deckpocket-rescue-lifebuoy-ring",
+      "sku": "APP-38-3",
+      "name": "DeckPocket Rescue Lifebuoy Ring",
+      "description": "Rescue Lifebuoy Ring for your marine & port supplies replenishment list. DeckPocket groups this item with safety equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "safety-equipment",
+      "categoryId": "marine-port-supplies-app-theme-category-3",
+      "categoryName": "DeckPocket Safety Equipment",
+      "brand": "DeckPocket",
+      "price": 1721,
+      "currency": "INR",
+      "priceLabel": "INR 1,721",
+      "image": "assets/images/product-03.jpg",
+      "stock": 174,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 2031,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 1721
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 1635
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 1549
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Rescue Lifebuoy Ring",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "marine-port-supplies-app-theme-product-4",
+      "slug": "deckpocket-mooring-cleat",
+      "sku": "APP-38-4",
+      "name": "DeckPocket Mooring Cleat",
+      "description": "Mooring Cleat for your marine & port supplies replenishment list. DeckPocket groups this item with mooring equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "mooring-equipment",
+      "categoryId": "marine-port-supplies-app-theme-category-4",
+      "categoryName": "DeckPocket Mooring Equipment",
+      "brand": "DeckPocket",
+      "price": 1026,
+      "currency": "INR",
+      "priceLabel": "INR 1,026",
+      "image": "assets/images/product-04.jpg",
+      "stock": 185,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1211,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1026
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 975
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 923
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Mooring Cleat",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "marine-port-supplies-app-theme-product-5",
+      "slug": "deckpocket-dock-fender-cushion",
+      "sku": "APP-38-5",
+      "name": "DeckPocket Dock Fender Cushion",
+      "description": "Dock Fender Cushion for your marine & port supplies replenishment list. DeckPocket groups this item with deck supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "deck-supplies",
+      "categoryId": "marine-port-supplies-app-theme-category-1",
+      "categoryName": "DeckPocket Deck Supplies",
+      "brand": "DeckPocket",
+      "price": 1824,
+      "currency": "INR",
+      "priceLabel": "INR 1,824",
+      "image": "assets/images/product-05.jpg",
+      "stock": 196,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2152,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1824
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1733
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1642
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Dock Fender Cushion",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "marine-port-supplies-app-theme-product-6",
+      "slug": "deckpocket-marine-fuel-filter",
+      "sku": "APP-38-6",
+      "name": "DeckPocket Marine Fuel Filter",
+      "description": "Marine Fuel Filter for your marine & port supplies replenishment list. DeckPocket groups this item with engine stores so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "engine-stores",
+      "categoryId": "marine-port-supplies-app-theme-category-2",
+      "categoryName": "DeckPocket Engine Stores",
+      "brand": "DeckPocket",
+      "price": 3776,
+      "currency": "INR",
+      "priceLabel": "INR 3,776",
+      "image": "assets/images/product-06.jpg",
+      "stock": 207,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 4456,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 3776
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 3587
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 3398
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: DeckPocket Marine Fuel Filter",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-38-app",
+    "direction": "Port stores manifest / pocket workflow",
+    "header": "centered-nav",
+    "headerIdentity": "header-38-app",
+    "headerStructure": "shell-2-composition-7",
+    "hero": "editorial-left",
+    "categories": "split-cards",
+    "productCards": "editorial",
+    "productListing": "quick-order",
+    "productDetail": "sticky-buy",
+    "footer": "minimal",
+    "footerIdentity": "footer-38-app",
+    "footerStructure": "shell-3-composition-6",
+    "density": "balanced",
+    "responsiveStrategy": "grid"
+  }
+}

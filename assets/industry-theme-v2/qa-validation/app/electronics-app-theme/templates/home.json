@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PocketCircuit",
+        "industryName": "Electronics",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PocketCircuit: your electronics restock list",
+        "subtitle": "Browse foldable travel phone, mini workstation pc and a dedicated electronics mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "hero-full-bleed"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "PocketCircuit collections",
+        "subtitle": "Choose your next electronics order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "PocketCircuit Mobile Phones",
+          "PocketCircuit Computers",
+          "PocketCircuit Audio & Video",
+          "PocketCircuit Electronic Accessories"
+        ],
+        "categories": [
+          {
+            "id": "electronics-app-theme-category-1",
+            "slug": "mobile-phones",
+            "name": "PocketCircuit Mobile Phones",
+            "description": "Pick mobile phones for your electronics replenishment list with PocketCircuit.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "electronics-app-theme-category-2",
+            "slug": "computers",
+            "name": "PocketCircuit Computers",
+            "description": "Pick computers for your electronics replenishment list with PocketCircuit.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "electronics-app-theme-category-3",
+            "slug": "audio-video",
+            "name": "PocketCircuit Audio & Video",
+            "description": "Pick audio & video for your electronics replenishment list with PocketCircuit.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "electronics-app-theme-category-4",
+            "slug": "electronic-accessories",
+            "name": "PocketCircuit Electronic Accessories",
+            "description": "Pick electronic accessories for your electronics replenishment list with PocketCircuit.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact",
+        "categoryStyle": "masonry"
+      },
+      "variant": "categories-masonry"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "PocketCircuit restock picks",
+        "subtitle": "Browse foldable travel phone, mini workstation pc and a dedicated electronics mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PocketCircuit Foldable Travel Phone",
+          "PocketCircuit Mini Workstation PC",
+          "PocketCircuit Over-Ear Studio Headphones",
+          "PocketCircuit USB-C Docking Station",
+          "PocketCircuit Rugged Field Phone",
+          "PocketCircuit Portable Touch Monitor"
+        ],
+        "prices": [
+          "INR 15,959",
+          "INR 48,159",
+          "INR 1,394",
+          "INR 30,239",
+          "INR 1,899",
+          "INR 1,179"
+        ],
+        "products": [
+          {
+            "id": "electronics-app-theme-product-1",
+            "slug": "pocketcircuit-foldable-travel-phone",
+            "sku": "APP-01-1",
+            "name": "PocketCircuit Foldable Travel Phone",
+            "description": "Foldable Travel Phone for your electronics replenishment list. PocketCircuit groups this item with mobile phones so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mobile-phones",
+            "categoryId": "electronics-app-theme-category-1",
+            "categoryName": "PocketCircuit Mobile Phones",
+            "brand": "PocketCircuit",
+            "price": 15959,
+            "currency": "INR",
+            "priceLabel": "INR 15,959",
+            "image": "assets/images/product-01.jpg",
+            "stock": 41,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 18832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 15959
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 15161
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 14363
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit Foldable Travel Phone",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-app-theme-product-2",
+            "slug": "pocketcircuit-mini-workstation-pc",
+            "sku": "APP-01-2",
+            "name": "PocketCircuit Mini Workstation PC",
+            "description": "Mini Workstation PC for your electronics replenishment list. PocketCircuit groups this item with computers so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "computers",
+            "categoryId": "electronics-app-theme-category-2",
+            "categoryName": "PocketCircuit Computers",
+            "brand": "PocketCircuit",
+            "price": 48159,
+            "currency": "INR",
+            "priceLabel": "INR 48,159",
+            "image": "assets/images/product-02.jpg",
+            "stock": 52,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 56828,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 48159
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 45751
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 43343
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit Mini Workstation PC",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-app-theme-product-3",
+            "slug": "pocketcircuit-over-ear-studio-headphones",
+            "sku": "APP-01-3",
+            "name": "PocketCircuit Over-Ear Studio Headphones",
+            "description": "Over-Ear Studio Headphones for your electronics replenishment list. PocketCircuit groups this item with audio & video so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "audio-video",
+            "categoryId": "electronics-app-theme-category-3",
+            "categoryName": "PocketCircuit Audio & Video",
+            "brand": "PocketCircuit",
+            "price": 1394,
+            "currency": "INR",
+            "priceLabel": "INR 1,394",
+            "image": "assets/images/product-03.jpg",
+            "stock": 63,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 1645,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1394
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1324
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1255
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit Over-Ear Studio Headphones",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-app-theme-product-4",
+            "slug": "pocketcircuit-usb-c-docking-station",
+            "sku": "APP-01-4",
+            "name": "PocketCircuit USB-C Docking Station",
+            "description": "USB-C Docking Station for your electronics replenishment list. PocketCircuit groups this item with electronic accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "electronic-accessories",
+            "categoryId": "electronics-app-theme-category-4",
+            "categoryName": "PocketCircuit Electronic Accessories",
+            "brand": "PocketCircuit",
+            "price": 30239,
+            "currency": "INR",
+            "priceLabel": "INR 30,239",
+            "image": "assets/images/product-04.jpg",
+            "stock": 74,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 35682,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 30239
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 28727
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 27215
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit USB-C Docking Station",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-app-theme-product-5",
+            "slug": "pocketcircuit-rugged-field-phone",
+            "sku": "APP-01-5",
+            "name": "PocketCircuit Rugged Field Phone",
+            "description": "Rugged Field Phone for your electronics replenishment list. PocketCircuit groups this item with mobile phones so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "mobile-phones",
+            "categoryId": "electronics-app-theme-category-1",
+            "categoryName": "PocketCircuit Mobile Phones",
+            "brand": "PocketCircuit",
+            "price": 1899,
+            "currency": "INR",
+            "priceLabel": "INR 1,899",
+            "image": "assets/images/product-05.jpg",
+            "stock": 85,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 2241,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 1899
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 1804
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1709
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit Rugged Field Phone",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "electronics-app-theme-product-6",
+            "slug": "pocketcircuit-portable-touch-monitor",
+            "sku": "APP-01-6",
+            "name": "PocketCircuit Portable Touch Monitor",
+            "description": "Portable Touch Monitor for your electronics replenishment list. PocketCircuit groups this item with computers so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "computers",
+            "categoryId": "electronics-app-theme-category-2",
+            "categoryName": "PocketCircuit Computers",
+            "brand": "PocketCircuit",
+            "price": 1179,
+            "currency": "INR",
+            "priceLabel": "INR 1,179",
+            "image": "assets/images/product-06.jpg",
+            "stock": 96,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1391,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1179
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1120
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1061
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PocketCircuit Portable Touch Monitor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact",
+        "cardStyle": "horizontal",
+        "columns": 1
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your PocketCircuit buying list, wherever work takes you",
+        "body": "Equip connected teams from desk to delivery. Browse foldable travel phone, mini workstation pc and a dedicated electronics mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "right",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with PocketCircuit",
+        "items": [
+          {
+            "icon": "01",
+            "title": "PocketCircuit Mobile Phones",
+            "text": "Start with foldable travel phone and compare the PocketCircuit sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "PocketCircuit quantity breaks",
+            "text": "Review MOQ and bulk tiers for mini workstation pc before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "PocketCircuit repeat orders",
+            "text": "Browse foldable travel phone, mini workstation pc and a dedicated electronics mobile assortment."
+          }
+        ],
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "PocketCircuit sample buyer story",
+        "quote": "Our demo electronics buying team can compare foldable travel phone and over-ear studio headphones in one restock list.",
+        "author": "Fictional PocketCircuit buyer — demo feedback",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow PocketCircuit arrivals",
+        "subtitle": "Sample updates about usb-c docking station and pocketcircuit mobile phones.",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "PocketCircuit restock savings",
+        "subtitle": "Sample quantity breaks for over-ear studio headphones and the electronics catalog. Demo offers only.",
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PocketCircuit",
+        "industryName": "Electronics",
+        "tagline": "Browse foldable travel phone, mini workstation pc and a dedicated electronics mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-01-app",
+        "layoutMode": "Circuit editorial showroom / pocket workflow",
+        "density": "compact"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-01-app"
+}

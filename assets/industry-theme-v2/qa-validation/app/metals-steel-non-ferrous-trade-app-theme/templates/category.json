@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MetalPocket",
+        "industryName": "Metals, Steel & Non-ferrous Trade",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "MetalPocket / Metals, Steel & Non-ferrous Trade",
+        "subtitle": "Browse galvanized steel coil, aluminium checker plate and a dedicated metals, steel & non-ferrous trade mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "hero-mosaic"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find MetalPocket supplies",
+        "message": "Explore MetalPocket Steel Products, MetalPocket Aluminium, MetalPocket Copper & Brass, MetalPocket Specialty Alloys.",
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "filters-sidebar-grid"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "MetalPocket restock picks",
+        "subtitle": "Browse galvanized steel coil, aluminium checker plate and a dedicated metals, steel & non-ferrous trade mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MetalPocket Galvanized Steel Coil",
+          "MetalPocket Aluminium Checker Plate",
+          "MetalPocket Copper Busbar Strip",
+          "MetalPocket Bronze Bearing Blank",
+          "MetalPocket Cold Rolled Steel Tube",
+          "MetalPocket Aluminium Flat Bar"
+        ],
+        "prices": [
+          "INR 5,460",
+          "INR 4,704",
+          "INR 11,625",
+          "INR 9,180",
+          "INR 3,420",
+          "INR 21,830"
+        ],
+        "products": [
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-1",
+            "slug": "metalpocket-galvanized-steel-coil",
+            "sku": "APP-47-1",
+            "name": "MetalPocket Galvanized Steel Coil",
+            "description": "Galvanized Steel Coil for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with steel products so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "steel-products",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-1",
+            "categoryName": "MetalPocket Steel Products",
+            "brand": "MetalPocket",
+            "price": 5460,
+            "currency": "INR",
+            "priceLabel": "INR 5,460",
+            "image": "assets/images/product-01.jpg",
+            "stock": 179,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 6443,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 5460
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 5187
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4914
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Galvanized Steel Coil",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-2",
+            "slug": "metalpocket-aluminium-checker-plate",
+            "sku": "APP-47-2",
+            "name": "MetalPocket Aluminium Checker Plate",
+            "description": "Aluminium Checker Plate for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with aluminium so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "aluminium",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-2",
+            "categoryName": "MetalPocket Aluminium",
+            "brand": "MetalPocket",
+            "price": 4704,
+            "currency": "INR",
+            "priceLabel": "INR 4,704",
+            "image": "assets/images/product-02.jpg",
+            "stock": 190,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 5551,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 4704
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4469
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4234
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Aluminium Checker Plate",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-3",
+            "slug": "metalpocket-copper-busbar-strip",
+            "sku": "APP-47-3",
+            "name": "MetalPocket Copper Busbar Strip",
+            "description": "Copper Busbar Strip for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with copper & brass so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "copper-brass",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-3",
+            "categoryName": "MetalPocket Copper & Brass",
+            "brand": "MetalPocket",
+            "price": 11625,
+            "currency": "INR",
+            "priceLabel": "INR 11,625",
+            "image": "assets/images/product-03.jpg",
+            "stock": 201,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 13718,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 11625
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11044
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 10463
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Copper Busbar Strip",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-4",
+            "slug": "metalpocket-bronze-bearing-blank",
+            "sku": "APP-47-4",
+            "name": "MetalPocket Bronze Bearing Blank",
+            "description": "Bronze Bearing Blank for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with specialty alloys so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "specialty-alloys",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-4",
+            "categoryName": "MetalPocket Specialty Alloys",
+            "brand": "MetalPocket",
+            "price": 9180,
+            "currency": "INR",
+            "priceLabel": "INR 9,180",
+            "image": "assets/images/product-04.jpg",
+            "stock": 212,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 10832,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 9180
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 8721
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 8262
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Bronze Bearing Blank",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-5",
+            "slug": "metalpocket-cold-rolled-steel-tube",
+            "sku": "APP-47-5",
+            "name": "MetalPocket Cold Rolled Steel Tube",
+            "description": "Cold Rolled Steel Tube for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with steel products so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "steel-products",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-1",
+            "categoryName": "MetalPocket Steel Products",
+            "brand": "MetalPocket",
+            "price": 3420,
+            "currency": "INR",
+            "priceLabel": "INR 3,420",
+            "image": "assets/images/product-05.jpg",
+            "stock": 223,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 4036,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 3420
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 3249
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 3078
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Cold Rolled Steel Tube",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "metals-steel-non-ferrous-trade-app-theme-product-6",
+            "slug": "metalpocket-aluminium-flat-bar",
+            "sku": "APP-47-6",
+            "name": "MetalPocket Aluminium Flat Bar",
+            "description": "Aluminium Flat Bar for your metals, steel & non-ferrous trade replenishment list. MetalPocket groups this item with aluminium so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "aluminium",
+            "categoryId": "metals-steel-non-ferrous-trade-app-theme-category-2",
+            "categoryName": "MetalPocket Aluminium",
+            "brand": "MetalPocket",
+            "price": 21830,
+            "currency": "INR",
+            "priceLabel": "INR 21,830",
+            "image": "assets/images/product-06.jpg",
+            "stock": 234,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 25759,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 21830
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 20739
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 19647
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MetalPocket Aluminium Flat Bar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced",
+        "cardStyle": "image-first",
+        "columns": 2
+      },
+      "variant": "products-image-first"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your MetalPocket order",
+        "subtitle": "Review quantities for galvanized steel coil with this metals, steel & non-ferrous trade preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MetalPocket",
+        "industryName": "Metals, Steel & Non-ferrous Trade",
+        "tagline": "Browse galvanized steel coil, aluminium checker plate and a dedicated metals, steel & non-ferrous trade mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-47-app",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-47-app"
+}

@@ -10,6 +10,11 @@ type Props = {
   imageAlt?: string;
   imagePosition?: string;
   highlights?: unknown;
+  price?: string;
+  compareAtPrice?: string;
+  countdownLabel?: string;
+  ctaLabel?: string;
+  ctaUrl?: string;
   languageCode?: string;
 };
 
@@ -30,6 +35,11 @@ export default function ImageWithTextSection({
   imageAlt,
   imagePosition,
   highlights,
+  price,
+  compareAtPrice,
+  countdownLabel,
+  ctaLabel,
+  ctaUrl,
   languageCode,
 }: Props) {
   const t = (text: string) => translate(text, languageCode);
@@ -42,7 +52,7 @@ export default function ImageWithTextSection({
     .filter(Boolean);
   const points = normalizeHighlights(highlights);
   const img = (
-    <div className="min-h-[240px]">
+    <div className="theme-editorial-media min-h-[240px]">
       {image ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={image} alt={t(imageAlt?.trim() || heading)} className="h-full min-h-[300px] w-full rounded-3xl border border-slate-200 object-cover shadow-sm md:min-h-[380px]" />
@@ -52,7 +62,7 @@ export default function ImageWithTextSection({
     </div>
   );
   const copy = (
-    <div>
+    <div className="theme-editorial-copy">
       {eyebrow?.trim() ? (
         <p className="mb-3 text-xs font-bold uppercase tracking-[0.22em]" style={{ color: "var(--theme-primary)" }}>
           {t(eyebrow.trim())}
@@ -64,6 +74,14 @@ export default function ImageWithTextSection({
       <div className="mt-5 space-y-4 text-base leading-7" style={{ color: "var(--theme-muted)" }}>
         {paragraphs.map((paragraph, index) => <p key={index}>{t(paragraph)}</p>)}
       </div>
+      {price?.trim() ? (
+        <div className="theme-editorial-price mt-5 flex items-baseline gap-3">
+          <strong>{t(price.trim())}</strong>
+          {compareAtPrice?.trim() ? <del>{t(compareAtPrice.trim())}</del> : null}
+        </div>
+      ) : null}
+      {ctaLabel?.trim() ? <a href={ctaUrl?.trim() || "/category"} className="theme-editorial-cta mt-6 inline-flex">{t(ctaLabel.trim())}</a> : null}
+      {countdownLabel?.trim() ? <p className="theme-editorial-countdown mt-7">{t(countdownLabel.trim())}</p> : null}
       {points.length ? (
         <ul className="mt-7 grid gap-3 sm:grid-cols-2">
           {points.map((point) => (
@@ -84,7 +102,7 @@ export default function ImageWithTextSection({
   );
   return (
     <section className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
-      <div className="grid items-center gap-10 md:grid-cols-2 lg:gap-16">
+      <div className="theme-editorial-grid grid items-center gap-10 md:grid-cols-2 lg:gap-16">
         <div className={imageFirst ? "order-1" : "order-1 md:order-2"}>{img}</div>
         <div className={imageFirst ? "order-2" : "order-2 md:order-1"}>{copy}</div>
       </div>

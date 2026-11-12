@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PawParcel",
+        "industryName": "Pet Care & Veterinary Distribution",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "PawParcel / Pet Care & Veterinary Distribution",
+        "subtitle": "Browse adult cat food sack, pet nail clipper set and a dedicated pet care & veterinary distribution mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "hero-catalog-panel"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find PawParcel supplies",
+        "message": "Explore PawParcel Pet Food, PawParcel Grooming, PawParcel Veterinary Care, PawParcel Pet Accessories.",
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "filters-top-filter-dense"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "PawParcel restock picks",
+        "subtitle": "Browse adult cat food sack, pet nail clipper set and a dedicated pet care & veterinary distribution mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PawParcel Adult Cat Food Sack",
+          "PawParcel Pet Nail Clipper Set",
+          "PawParcel Veterinary Bandage Pack",
+          "PawParcel Adjustable Dog Harness",
+          "PawParcel Puppy Training Treats",
+          "PawParcel Deshedding Grooming Brush"
+        ],
+        "prices": [
+          "INR 2,016",
+          "INR 952",
+          "INR 605",
+          "INR 1,998",
+          "INR 266",
+          "INR 531"
+        ],
+        "products": [
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-1",
+            "slug": "pawparcel-adult-cat-food-sack",
+            "sku": "APP-43-1",
+            "name": "PawParcel Adult Cat Food Sack",
+            "description": "Adult Cat Food Sack for your pet care & veterinary distribution replenishment list. PawParcel groups this item with pet food so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "pet-food",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-1",
+            "categoryName": "PawParcel Pet Food",
+            "brand": "PawParcel",
+            "price": 2016,
+            "currency": "INR",
+            "priceLabel": "INR 2,016",
+            "image": "assets/images/product-01.jpg",
+            "stock": 167,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 2379,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 2016
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1915
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1814
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Adult Cat Food Sack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-2",
+            "slug": "pawparcel-pet-nail-clipper-set",
+            "sku": "APP-43-2",
+            "name": "PawParcel Pet Nail Clipper Set",
+            "description": "Pet Nail Clipper Set for your pet care & veterinary distribution replenishment list. PawParcel groups this item with grooming so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "grooming",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-2",
+            "categoryName": "PawParcel Grooming",
+            "brand": "PawParcel",
+            "price": 952,
+            "currency": "INR",
+            "priceLabel": "INR 952",
+            "image": "assets/images/product-02.jpg",
+            "stock": 178,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1123,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 952
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 904
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 857
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Pet Nail Clipper Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-3",
+            "slug": "pawparcel-veterinary-bandage-pack",
+            "sku": "APP-43-3",
+            "name": "PawParcel Veterinary Bandage Pack",
+            "description": "Veterinary Bandage Pack for your pet care & veterinary distribution replenishment list. PawParcel groups this item with veterinary care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "veterinary-care",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-3",
+            "categoryName": "PawParcel Veterinary Care",
+            "brand": "PawParcel",
+            "price": 605,
+            "currency": "INR",
+            "priceLabel": "INR 605",
+            "image": "assets/images/product-03.jpg",
+            "stock": 189,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 714,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 605
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 575
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 545
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Veterinary Bandage Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-4",
+            "slug": "pawparcel-adjustable-dog-harness",
+            "sku": "APP-43-4",
+            "name": "PawParcel Adjustable Dog Harness",
+            "description": "Adjustable Dog Harness for your pet care & veterinary distribution replenishment list. PawParcel groups this item with pet accessories so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "pet-accessories",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-4",
+            "categoryName": "PawParcel Pet Accessories",
+            "brand": "PawParcel",
+            "price": 1998,
+            "currency": "INR",
+            "priceLabel": "INR 1,998",
+            "image": "assets/images/product-04.jpg",
+            "stock": 200,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2358,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1998
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1898
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1798
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Adjustable Dog Harness",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-5",
+            "slug": "pawparcel-puppy-training-treats",
+            "sku": "APP-43-5",
+            "name": "PawParcel Puppy Training Treats",
+            "description": "Puppy Training Treats for your pet care & veterinary distribution replenishment list. PawParcel groups this item with pet food so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "pet-food",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-1",
+            "categoryName": "PawParcel Pet Food",
+            "brand": "PawParcel",
+            "price": 266,
+            "currency": "INR",
+            "priceLabel": "INR 266",
+            "image": "assets/images/product-05.jpg",
+            "stock": 211,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 314,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 266
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 253
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 239
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Puppy Training Treats",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "pet-care-veterinary-distribution-app-theme-product-6",
+            "slug": "pawparcel-deshedding-grooming-brush",
+            "sku": "APP-43-6",
+            "name": "PawParcel Deshedding Grooming Brush",
+            "description": "Deshedding Grooming Brush for your pet care & veterinary distribution replenishment list. PawParcel groups this item with grooming so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "grooming",
+            "categoryId": "pet-care-veterinary-distribution-app-theme-category-2",
+            "categoryName": "PawParcel Grooming",
+            "brand": "PawParcel",
+            "price": 531,
+            "currency": "INR",
+            "priceLabel": "INR 531",
+            "image": "assets/images/product-06.jpg",
+            "stock": 222,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 627,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 531
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 504
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 478
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PawParcel Deshedding Grooming Brush",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your PawParcel order",
+        "subtitle": "Review quantities for adult cat food sack with this pet care & veterinary distribution preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PawParcel",
+        "industryName": "Pet Care & Veterinary Distribution",
+        "tagline": "Browse adult cat food sack, pet nail clipper set and a dedicated pet care & veterinary distribution mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-43-app",
+        "layoutMode": "top-filter-dense",
+        "density": "compact"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-43-app"
+}

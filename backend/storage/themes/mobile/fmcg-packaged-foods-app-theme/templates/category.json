@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ShelfSprint",
+        "industryName": "FMCG & Packaged Foods",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "split-utility"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ShelfSprint / FMCG & Packaged Foods",
+        "subtitle": "Browse whole wheat flour sack, roasted nut snack box and a dedicated fmcg & packaged foods mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "hero-full-bleed"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find ShelfSprint supplies",
+        "message": "Explore ShelfSprint Staples, ShelfSprint Snacks & Beverages, ShelfSprint Personal Care, ShelfSprint Home Care.",
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "filters-catalog-matrix"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "ShelfSprint restock picks",
+        "subtitle": "Browse whole wheat flour sack, roasted nut snack box and a dedicated fmcg & packaged foods mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ShelfSprint Whole Wheat Flour Sack",
+          "ShelfSprint Roasted Nut Snack Box",
+          "ShelfSprint Handwash Refill Case",
+          "ShelfSprint Laundry Detergent Carton",
+          "ShelfSprint Toor Dal Bulk Pack",
+          "ShelfSprint Fruit Juice Multipack"
+        ],
+        "prices": [
+          "INR 1,050",
+          "INR 1,075",
+          "INR 391",
+          "INR 778",
+          "INR 494",
+          "INR 2,124"
+        ],
+        "products": [
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-1",
+            "slug": "shelfsprint-whole-wheat-flour-sack",
+            "sku": "APP-09-1",
+            "name": "ShelfSprint Whole Wheat Flour Sack",
+            "description": "Whole Wheat Flour Sack for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with staples so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "staples",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-1",
+            "categoryName": "ShelfSprint Staples",
+            "brand": "ShelfSprint",
+            "price": 1050,
+            "currency": "INR",
+            "priceLabel": "INR 1,050",
+            "image": "assets/images/product-01.jpg",
+            "stock": 65,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1239,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1050
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 998
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 945
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Whole Wheat Flour Sack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-2",
+            "slug": "shelfsprint-roasted-nut-snack-box",
+            "sku": "APP-09-2",
+            "name": "ShelfSprint Roasted Nut Snack Box",
+            "description": "Roasted Nut Snack Box for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with snacks & beverages so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "snacks-beverages",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-2",
+            "categoryName": "ShelfSprint Snacks & Beverages",
+            "brand": "ShelfSprint",
+            "price": 1075,
+            "currency": "INR",
+            "priceLabel": "INR 1,075",
+            "image": "assets/images/product-02.jpg",
+            "stock": 76,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1269,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1075
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1021
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 968
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Roasted Nut Snack Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-3",
+            "slug": "shelfsprint-handwash-refill-case",
+            "sku": "APP-09-3",
+            "name": "ShelfSprint Handwash Refill Case",
+            "description": "Handwash Refill Case for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with personal care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "personal-care",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-3",
+            "categoryName": "ShelfSprint Personal Care",
+            "brand": "ShelfSprint",
+            "price": 391,
+            "currency": "INR",
+            "priceLabel": "INR 391",
+            "image": "assets/images/product-03.jpg",
+            "stock": 87,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 461,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 391
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 371
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 352
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Handwash Refill Case",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-4",
+            "slug": "shelfsprint-laundry-detergent-carton",
+            "sku": "APP-09-4",
+            "name": "ShelfSprint Laundry Detergent Carton",
+            "description": "Laundry Detergent Carton for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with home care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "home-care",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-4",
+            "categoryName": "ShelfSprint Home Care",
+            "brand": "ShelfSprint",
+            "price": 778,
+            "currency": "INR",
+            "priceLabel": "INR 778",
+            "image": "assets/images/product-04.jpg",
+            "stock": 98,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 918,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 778
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 739
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 700
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Laundry Detergent Carton",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-5",
+            "slug": "shelfsprint-toor-dal-bulk-pack",
+            "sku": "APP-09-5",
+            "name": "ShelfSprint Toor Dal Bulk Pack",
+            "description": "Toor Dal Bulk Pack for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with staples so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "staples",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-1",
+            "categoryName": "ShelfSprint Staples",
+            "brand": "ShelfSprint",
+            "price": 494,
+            "currency": "INR",
+            "priceLabel": "INR 494",
+            "image": "assets/images/product-05.jpg",
+            "stock": 109,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 583,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 494
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 469
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 445
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Toor Dal Bulk Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "fmcg-packaged-foods-app-theme-product-6",
+            "slug": "shelfsprint-fruit-juice-multipack",
+            "sku": "APP-09-6",
+            "name": "ShelfSprint Fruit Juice Multipack",
+            "description": "Fruit Juice Multipack for your fmcg & packaged foods replenishment list. ShelfSprint groups this item with snacks & beverages so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "snacks-beverages",
+            "categoryId": "fmcg-packaged-foods-app-theme-category-2",
+            "categoryName": "ShelfSprint Snacks & Beverages",
+            "brand": "ShelfSprint",
+            "price": 2124,
+            "currency": "INR",
+            "priceLabel": "INR 2,124",
+            "image": "assets/images/product-06.jpg",
+            "stock": 120,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2506,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 2124
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2018
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1912
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ShelfSprint Fruit Juice Multipack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy",
+        "cardStyle": "horizontal",
+        "columns": 1
+      },
+      "variant": "products-horizontal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your ShelfSprint order",
+        "subtitle": "Review quantities for whole wheat flour sack with this fmcg & packaged foods preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "cta-banner-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ShelfSprint",
+        "industryName": "FMCG & Packaged Foods",
+        "tagline": "Browse whole wheat flour sack, roasted nut snack box and a dedicated fmcg & packaged foods mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-09-app",
+        "layoutMode": "catalog-matrix",
+        "density": "airy"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-09-app"
+}

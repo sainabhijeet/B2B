@@ -1,0 +1,92 @@
+{
+  "name": "Plastic Moulding & Dies Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "plastic-moulding-dies-web-theme",
+  "industry": "Plastic Moulding & Dies",
+  "industryId": "10000000-0000-4000-8000-000000000022",
+  "description": "MouldCraft: Source moulding tools and accessories for production teams. A desktop sourcing assortment. Tooling blueprint archive design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-34-web",
+    "direction": "Tooling blueprint archive",
+    "header": "catalog-rail",
+    "headerIdentity": "header-34-web",
+    "headerStructure": "shell-4-composition-6",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "specification-list",
+    "productDetail": "gallery-right",
+    "footer": "commerce-columns",
+    "footerIdentity": "footer-34-web",
+    "footerStructure": "shell-6-composition-5",
+    "density": "compact",
+    "responsiveStrategy": "specification-list-to-mobile-drawer"
+  }
+}

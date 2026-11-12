@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000017",
+  "industry": "Electrical & Lighting",
+  "themeName": "Electrical & Lighting Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "VoltDistrict",
+    "industry": "Electrical & Lighting",
+    "tagline": "Source mcb distribution box, copper wire coil and more from this electrical & lighting trade collection.",
+    "email": "hello@voltdistrict.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "VoltDistrict quantity rewards",
+      "description": "Compare the sample bulk tiers in VoltDistrict's electrical & lighting range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "VoltDistrict sample buyer story",
+      "quote": "Our demo electrical & lighting buying team can compare mcb distribution box and led panel light in one sourcing catalog.",
+      "author": "Fictional VoltDistrict buyer — demo feedback",
+      "designId": "ds-23-web",
+      "layoutMode": "Electrical circuit index",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "electrical-lighting-web-theme-category-1",
+      "slug": "switchgear",
+      "name": "VoltDistrict Switchgear",
+      "description": "Explore VoltDistrict's switchgear selection for electrical & lighting buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "electrical-lighting-web-theme-category-2",
+      "slug": "cables-wires",
+      "name": "VoltDistrict Cables & Wires",
+      "description": "Explore VoltDistrict's cables & wires selection for electrical & lighting buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "electrical-lighting-web-theme-category-3",
+      "slug": "led-lighting",
+      "name": "VoltDistrict LED Lighting",
+      "description": "Explore VoltDistrict's led lighting selection for electrical & lighting buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "electrical-lighting-web-theme-category-4",
+      "slug": "electrical-accessories",
+      "name": "VoltDistrict Electrical Accessories",
+      "description": "Explore VoltDistrict's electrical accessories selection for electrical & lighting buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "electrical-lighting-web-theme-product-1",
+      "slug": "voltdistrict-mcb-distribution-box",
+      "sku": "WEB-23-1",
+      "name": "VoltDistrict MCB Distribution Box",
+      "description": "MCB Distribution Box from VoltDistrict's switchgear assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "switchgear",
+      "categoryId": "electrical-lighting-web-theme-category-1",
+      "categoryName": "VoltDistrict Switchgear",
+      "brand": "VoltDistrict",
+      "price": 1850,
+      "currency": "INR",
+      "priceLabel": "INR 1,850",
+      "image": "assets/images/product-01.jpg",
+      "stock": 134,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 2183,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1850
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1758
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1665
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict MCB Distribution Box",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electrical-lighting-web-theme-product-2",
+      "slug": "voltdistrict-copper-wire-coil",
+      "sku": "WEB-23-2",
+      "name": "VoltDistrict Copper Wire Coil",
+      "description": "Copper Wire Coil from VoltDistrict's cables & wires assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "cables-wires",
+      "categoryId": "electrical-lighting-web-theme-category-2",
+      "categoryName": "VoltDistrict Cables & Wires",
+      "brand": "VoltDistrict",
+      "price": 2400,
+      "currency": "INR",
+      "priceLabel": "INR 2,400",
+      "image": "assets/images/product-02.jpg",
+      "stock": 145,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 2832,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 2400
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 2280
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 2160
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict Copper Wire Coil",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electrical-lighting-web-theme-product-3",
+      "slug": "voltdistrict-led-panel-light",
+      "sku": "WEB-23-3",
+      "name": "VoltDistrict LED Panel Light",
+      "description": "LED Panel Light from VoltDistrict's led lighting assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "led-lighting",
+      "categoryId": "electrical-lighting-web-theme-category-3",
+      "categoryName": "VoltDistrict LED Lighting",
+      "brand": "VoltDistrict",
+      "price": 650,
+      "currency": "INR",
+      "priceLabel": "INR 650",
+      "image": "assets/images/product-03.jpg",
+      "stock": 156,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 767,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 650
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 618
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 585
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict LED Panel Light",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electrical-lighting-web-theme-product-4",
+      "slug": "voltdistrict-industrial-plug-set",
+      "sku": "WEB-23-4",
+      "name": "VoltDistrict Industrial Plug Set",
+      "description": "Industrial Plug Set from VoltDistrict's electrical accessories assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "electrical-accessories",
+      "categoryId": "electrical-lighting-web-theme-category-4",
+      "categoryName": "VoltDistrict Electrical Accessories",
+      "brand": "VoltDistrict",
+      "price": 450,
+      "currency": "INR",
+      "priceLabel": "INR 450",
+      "image": "assets/images/product-04.jpg",
+      "stock": 167,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 531,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 450
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 428
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 405
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict Industrial Plug Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electrical-lighting-web-theme-product-5",
+      "slug": "voltdistrict-smart-switch-module",
+      "sku": "WEB-23-5",
+      "name": "VoltDistrict Smart Switch Module",
+      "description": "Smart Switch Module from VoltDistrict's electrical accessories assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "electrical-accessories",
+      "categoryId": "electrical-lighting-web-theme-category-4",
+      "categoryName": "VoltDistrict Electrical Accessories",
+      "brand": "VoltDistrict",
+      "price": 899,
+      "currency": "INR",
+      "priceLabel": "INR 899",
+      "image": "assets/images/product-05.jpg",
+      "stock": 178,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 1061,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 899
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 854
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 809
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict Smart Switch Module",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electrical-lighting-web-theme-product-6",
+      "slug": "voltdistrict-outdoor-flood-light",
+      "sku": "WEB-23-6",
+      "name": "VoltDistrict Outdoor Flood Light",
+      "description": "Outdoor Flood Light from VoltDistrict's led lighting assortment. Group electrical essentials for installation and maintenance. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "led-lighting",
+      "categoryId": "electrical-lighting-web-theme-category-3",
+      "categoryName": "VoltDistrict LED Lighting",
+      "brand": "VoltDistrict",
+      "price": 1800,
+      "currency": "INR",
+      "priceLabel": "INR 1,800",
+      "image": "assets/images/product-06.jpg",
+      "stock": 189,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 2124,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 1800
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 1710
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 1620
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: VoltDistrict Outdoor Flood Light",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-23-web",
+    "direction": "Electrical circuit index",
+    "header": "split-utility",
+    "headerIdentity": "header-23-web",
+    "headerStructure": "shell-5-composition-4",
+    "hero": "spec-board",
+    "categories": "horizontal-rail",
+    "productCards": "minimal",
+    "productListing": "catalog-matrix",
+    "productDetail": "full-gallery",
+    "footer": "marketplace",
+    "footerIdentity": "footer-23-web",
+    "footerStructure": "shell-2-composition-4",
+    "density": "balanced",
+    "responsiveStrategy": "catalog-matrix-to-mobile-drawer"
+  }
+}

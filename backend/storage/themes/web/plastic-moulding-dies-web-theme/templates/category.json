@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MouldCraft",
+        "industryName": "Plastic Moulding & Dies",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "MouldCraft / Plastic Moulding & Dies",
+        "subtitle": "Source precision injection mould, profile extrusion die and more from this plastic moulding & dies trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "hero-asymmetric"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find MouldCraft supplies",
+        "message": "Explore MouldCraft Injection Moulds, MouldCraft Extrusion Dies, MouldCraft Mould Components, MouldCraft Processing Accessories.",
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "filters-specification-list"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "MouldCraft trade selection",
+        "subtitle": "Source precision injection mould, profile extrusion die and more from this plastic moulding & dies trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MouldCraft Precision Injection Mould",
+          "MouldCraft Profile Extrusion Die",
+          "MouldCraft Ejector Pin Set",
+          "MouldCraft Hot Runner Controller",
+          "MouldCraft Mould Release Spray",
+          "MouldCraft Die Polishing Tool Kit"
+        ],
+        "prices": [
+          "INR 85,000",
+          "INR 42,000",
+          "INR 1,850",
+          "INR 12,500",
+          "INR 450",
+          "INR 3,200"
+        ],
+        "products": [
+          {
+            "id": "plastic-moulding-dies-web-theme-product-1",
+            "slug": "mouldcraft-precision-injection-mould",
+            "sku": "WEB-34-1",
+            "name": "MouldCraft Precision Injection Mould",
+            "description": "Precision Injection Mould from MouldCraft's injection moulds assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "injection-moulds",
+            "categoryId": "plastic-moulding-dies-web-theme-category-1",
+            "categoryName": "MouldCraft Injection Moulds",
+            "brand": "MouldCraft",
+            "price": 85000,
+            "currency": "INR",
+            "priceLabel": "INR 85,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 167,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 100300,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 85000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 80750
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 76500
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Precision Injection Mould",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-web-theme-product-2",
+            "slug": "mouldcraft-profile-extrusion-die",
+            "sku": "WEB-34-2",
+            "name": "MouldCraft Profile Extrusion Die",
+            "description": "Profile Extrusion Die from MouldCraft's extrusion dies assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "extrusion-dies",
+            "categoryId": "plastic-moulding-dies-web-theme-category-2",
+            "categoryName": "MouldCraft Extrusion Dies",
+            "brand": "MouldCraft",
+            "price": 42000,
+            "currency": "INR",
+            "priceLabel": "INR 42,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 178,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 49560,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 39900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 37800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Profile Extrusion Die",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-web-theme-product-3",
+            "slug": "mouldcraft-ejector-pin-set",
+            "sku": "WEB-34-3",
+            "name": "MouldCraft Ejector Pin Set",
+            "description": "Ejector Pin Set from MouldCraft's mould components assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "mould-components",
+            "categoryId": "plastic-moulding-dies-web-theme-category-3",
+            "categoryName": "MouldCraft Mould Components",
+            "brand": "MouldCraft",
+            "price": 1850,
+            "currency": "INR",
+            "priceLabel": "INR 1,850",
+            "image": "assets/images/product-03.jpg",
+            "stock": 189,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2183,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1850
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1758
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1665
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Ejector Pin Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-web-theme-product-4",
+            "slug": "mouldcraft-hot-runner-controller",
+            "sku": "WEB-34-4",
+            "name": "MouldCraft Hot Runner Controller",
+            "description": "Hot Runner Controller from MouldCraft's processing accessories assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "processing-accessories",
+            "categoryId": "plastic-moulding-dies-web-theme-category-4",
+            "categoryName": "MouldCraft Processing Accessories",
+            "brand": "MouldCraft",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 200,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Hot Runner Controller",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-web-theme-product-5",
+            "slug": "mouldcraft-mould-release-spray",
+            "sku": "WEB-34-5",
+            "name": "MouldCraft Mould Release Spray",
+            "description": "Mould Release Spray from MouldCraft's processing accessories assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "processing-accessories",
+            "categoryId": "plastic-moulding-dies-web-theme-category-4",
+            "categoryName": "MouldCraft Processing Accessories",
+            "brand": "MouldCraft",
+            "price": 450,
+            "currency": "INR",
+            "priceLabel": "INR 450",
+            "image": "assets/images/product-05.jpg",
+            "stock": 211,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 531,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 450
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 428
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 405
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Mould Release Spray",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "plastic-moulding-dies-web-theme-product-6",
+            "slug": "mouldcraft-die-polishing-tool-kit",
+            "sku": "WEB-34-6",
+            "name": "MouldCraft Die Polishing Tool Kit",
+            "description": "Die Polishing Tool Kit from MouldCraft's processing accessories assortment. Source moulding tools and accessories for production teams. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "processing-accessories",
+            "categoryId": "plastic-moulding-dies-web-theme-category-4",
+            "categoryName": "MouldCraft Processing Accessories",
+            "brand": "MouldCraft",
+            "price": 3200,
+            "currency": "INR",
+            "priceLabel": "INR 3,200",
+            "image": "assets/images/product-06.jpg",
+            "stock": 222,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 3776,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 3200
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 3040
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 2880
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MouldCraft Die Polishing Tool Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact",
+        "cardStyle": "spec-card",
+        "columns": 3
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your MouldCraft order",
+        "subtitle": "Review quantities for precision injection mould with this plastic moulding & dies preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "cta-banner-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MouldCraft",
+        "industryName": "Plastic Moulding & Dies",
+        "tagline": "Source precision injection mould, profile extrusion die and more from this plastic moulding & dies trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-34-web",
+        "layoutMode": "specification-list",
+        "density": "compact"
+      },
+      "variant": "footer-commerce-columns"
+    }
+  ],
+  "design": "ds-34-web"
+}

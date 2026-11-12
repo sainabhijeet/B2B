@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "ToyPocket",
+        "industryName": "Toys & General Merchandise",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "ToyPocket collections",
+        "subtitle": "Choose your next toys & general merchandise order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "ToyPocket Educational Toys",
+          "ToyPocket Outdoor Play",
+          "ToyPocket Games & Puzzles",
+          "ToyPocket Gift Merchandise"
+        ],
+        "categories": [
+          {
+            "id": "toys-general-merchandise-app-theme-category-1",
+            "slug": "educational-toys",
+            "name": "ToyPocket Educational Toys",
+            "description": "Pick educational toys for your toys & general merchandise replenishment list with ToyPocket.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-category-2",
+            "slug": "outdoor-play",
+            "name": "ToyPocket Outdoor Play",
+            "description": "Pick outdoor play for your toys & general merchandise replenishment list with ToyPocket.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-category-3",
+            "slug": "games-puzzles",
+            "name": "ToyPocket Games & Puzzles",
+            "description": "Pick games & puzzles for your toys & general merchandise replenishment list with ToyPocket.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-category-4",
+            "slug": "gift-merchandise",
+            "name": "ToyPocket Gift Merchandise",
+            "description": "Pick gift merchandise for your toys & general merchandise replenishment list with ToyPocket.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced",
+        "categoryStyle": "image-tiles"
+      },
+      "variant": "categories-image-tiles"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "ToyPocket restock picks",
+        "subtitle": "Browse wooden shape sorting box, garden ring toss set and a dedicated toys & general merchandise mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "ToyPocket Wooden Shape Sorting Box",
+          "ToyPocket Garden Ring Toss Set",
+          "ToyPocket Landscape Jigsaw Puzzle",
+          "ToyPocket Craft Gift Bag Set",
+          "ToyPocket Magnetic Number Board",
+          "ToyPocket Outdoor Bubble Play Kit"
+        ],
+        "prices": [
+          "INR 1,259",
+          "INR 4,704",
+          "INR 605",
+          "INR 1,026",
+          "INR 342",
+          "INR 1,003"
+        ],
+        "products": [
+          {
+            "id": "toys-general-merchandise-app-theme-product-1",
+            "slug": "toypocket-wooden-shape-sorting-box",
+            "sku": "APP-44-1",
+            "name": "ToyPocket Wooden Shape Sorting Box",
+            "description": "Wooden Shape Sorting Box for your toys & general merchandise replenishment list. ToyPocket groups this item with educational toys so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "educational-toys",
+            "categoryId": "toys-general-merchandise-app-theme-category-1",
+            "categoryName": "ToyPocket Educational Toys",
+            "brand": "ToyPocket",
+            "price": 1259,
+            "currency": "INR",
+            "priceLabel": "INR 1,259",
+            "image": "assets/images/product-01.jpg",
+            "stock": 170,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1486,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1259
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1196
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1133
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Wooden Shape Sorting Box",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-product-2",
+            "slug": "toypocket-garden-ring-toss-set",
+            "sku": "APP-44-2",
+            "name": "ToyPocket Garden Ring Toss Set",
+            "description": "Garden Ring Toss Set for your toys & general merchandise replenishment list. ToyPocket groups this item with outdoor play so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "outdoor-play",
+            "categoryId": "toys-general-merchandise-app-theme-category-2",
+            "categoryName": "ToyPocket Outdoor Play",
+            "brand": "ToyPocket",
+            "price": 4704,
+            "currency": "INR",
+            "priceLabel": "INR 4,704",
+            "image": "assets/images/product-02.jpg",
+            "stock": 181,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 5551,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 4704
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 4469
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4234
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Garden Ring Toss Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-product-3",
+            "slug": "toypocket-landscape-jigsaw-puzzle",
+            "sku": "APP-44-3",
+            "name": "ToyPocket Landscape Jigsaw Puzzle",
+            "description": "Landscape Jigsaw Puzzle for your toys & general merchandise replenishment list. ToyPocket groups this item with games & puzzles so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "games-puzzles",
+            "categoryId": "toys-general-merchandise-app-theme-category-3",
+            "categoryName": "ToyPocket Games & Puzzles",
+            "brand": "ToyPocket",
+            "price": 605,
+            "currency": "INR",
+            "priceLabel": "INR 605",
+            "image": "assets/images/product-03.jpg",
+            "stock": 192,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 714,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 605
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 575
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 545
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Landscape Jigsaw Puzzle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-product-4",
+            "slug": "toypocket-craft-gift-bag-set",
+            "sku": "APP-44-4",
+            "name": "ToyPocket Craft Gift Bag Set",
+            "description": "Craft Gift Bag Set for your toys & general merchandise replenishment list. ToyPocket groups this item with gift merchandise so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "gift-merchandise",
+            "categoryId": "toys-general-merchandise-app-theme-category-4",
+            "categoryName": "ToyPocket Gift Merchandise",
+            "brand": "ToyPocket",
+            "price": 1026,
+            "currency": "INR",
+            "priceLabel": "INR 1,026",
+            "image": "assets/images/product-04.jpg",
+            "stock": 203,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1211,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1026
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 975
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 923
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Craft Gift Bag Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-product-5",
+            "slug": "toypocket-magnetic-number-board",
+            "sku": "APP-44-5",
+            "name": "ToyPocket Magnetic Number Board",
+            "description": "Magnetic Number Board for your toys & general merchandise replenishment list. ToyPocket groups this item with educational toys so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "educational-toys",
+            "categoryId": "toys-general-merchandise-app-theme-category-1",
+            "categoryName": "ToyPocket Educational Toys",
+            "brand": "ToyPocket",
+            "price": 342,
+            "currency": "INR",
+            "priceLabel": "INR 342",
+            "image": "assets/images/product-05.jpg",
+            "stock": 214,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 404,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 342
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 325
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 308
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Magnetic Number Board",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "toys-general-merchandise-app-theme-product-6",
+            "slug": "toypocket-outdoor-bubble-play-kit",
+            "sku": "APP-44-6",
+            "name": "ToyPocket Outdoor Bubble Play Kit",
+            "description": "Outdoor Bubble Play Kit for your toys & general merchandise replenishment list. ToyPocket groups this item with outdoor play so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "outdoor-play",
+            "categoryId": "toys-general-merchandise-app-theme-category-2",
+            "categoryName": "ToyPocket Outdoor Play",
+            "brand": "ToyPocket",
+            "price": 1003,
+            "currency": "INR",
+            "priceLabel": "INR 1,003",
+            "image": "assets/images/product-06.jpg",
+            "stock": 225,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1184,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1003
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 953
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 903
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: ToyPocket Outdoor Bubble Play Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced",
+        "cardStyle": "marketplace",
+        "columns": 1
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "ToyPocket: your toys & general merchandise restock list",
+        "subtitle": "Browse wooden shape sorting box, garden ring toss set and a dedicated toys & general merchandise mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your ToyPocket buying list, wherever work takes you",
+        "body": "Choose play and gifting assortments for different activities. Browse wooden shape sorting box, garden ring toss set and a dedicated toys & general merchandise mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "image-with-text-balanced"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow ToyPocket arrivals",
+        "subtitle": "Sample updates about craft gift bag set and toypocket educational toys.",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "newsletter-balanced"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with ToyPocket",
+        "items": [
+          {
+            "icon": "01",
+            "title": "ToyPocket Educational Toys",
+            "text": "Start with wooden shape sorting box and compare the ToyPocket sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "ToyPocket quantity breaks",
+            "text": "Review MOQ and bulk tiers for garden ring toss set before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "ToyPocket repeat orders",
+            "text": "Browse wooden shape sorting box, garden ring toss set and a dedicated toys & general merchandise mobile assortment."
+          }
+        ],
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "feature-list-balanced"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "ToyPocket sample buyer story",
+        "quote": "Our demo toys & general merchandise buying team can compare wooden shape sorting box and landscape jigsaw puzzle in one restock list.",
+        "author": "Fictional ToyPocket buyer — demo feedback",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "testimonial-carousel-balanced"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "ToyPocket restock savings",
+        "subtitle": "Sample quantity breaks for landscape jigsaw puzzle and the toys & general merchandise catalog. Demo offers only.",
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "promo-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "ToyPocket",
+        "industryName": "Toys & General Merchandise",
+        "tagline": "Browse wooden shape sorting box, garden ring toss set and a dedicated toys & general merchandise mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-44-app",
+        "layoutMode": "Playful merchandise bazaar / pocket workflow",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-44-app"
+}

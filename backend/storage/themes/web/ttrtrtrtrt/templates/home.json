@@ -1,0 +1,297 @@
+{
+    "sections":  [
+                     {
+                         "id":  "header",
+                         "type":  "header",
+                         "settings":  {
+                                          "logoText":  "Agriculture, Seeds \u0026 Agri-inputs TradeHub",
+                                          "industryName":  "Agriculture, Seeds \u0026 Agri-inputs",
+                                          "nav":  [
+                                                      "Home",
+                                                      "Categories",
+                                                      "Products",
+                                                      "Offers",
+                                                      "Cart",
+                                                      "Login"
+                                                  ]
+                                      }
+                     },
+                     {
+                         "id":  "hero",
+                         "type":  "hero-banner",
+                         "settings":  {
+                                          "eyebrow":  "",
+                                          "title":  "Wholesale Agriculture, Seeds \u0026 Agri-inputs, built for modern business",
+                                          "subtitle":  "Industry-ready discovery, trade pricing, repeat ordering, and catalog experiences for agriculture, seeds \u0026 agri-inputs.",
+                                          "primaryCta":  "Explore catalog",
+                                          "secondaryCta":  "Request bulk quote",
+                                          "image":  "assets/images/hero.svg"
+                                      }
+                     },
+                     {
+                         "id":  "promo",
+                         "type":  "promo-banner",
+                         "settings":  {
+                                          "title":  "Live trade offers for Agriculture, Seeds \u0026 Agri-inputs",
+                                          "subtitle":  "Demo pricing, buyer-friendly minimum quantities, and fast repeat ordering."
+                                      }
+                     },
+                     {
+                         "id":  "categories",
+                         "type":  "category-grid",
+                         "settings":  {
+                                          "title":  "Shop Agriculture, Seeds \u0026 Agri-inputs categories",
+                                          "subtitle":  "Industry-specific demo categories included in this package.",
+                                          "images":  [
+                                                         "assets/images/category-01.svg",
+                                                         "assets/images/category-02.svg",
+                                                         "assets/images/category-03.svg",
+                                                         "assets/images/category-04.svg"
+                                                     ],
+                                          "labels":  [
+                                                         "Seeds",
+                                                         "Fertilizers",
+                                                         "Crop Protection",
+                                                         "Farm Tools"
+                                                     ],
+                                          "categories":  [
+                                                             {
+                                                                 "id":  "agriculture-seeds-agri-inputs-category-1",
+                                                                 "slug":  "seeds",
+                                                                 "name":  "Seeds",
+                                                                 "description":  "Browse wholesale seeds for verified business buyers.",
+                                                                 "image":  "assets/images/category-01.svg"
+                                                             },
+                                                             {
+                                                                 "id":  "agriculture-seeds-agri-inputs-category-2",
+                                                                 "slug":  "fertilizers",
+                                                                 "name":  "Fertilizers",
+                                                                 "description":  "Browse wholesale fertilizers for verified business buyers.",
+                                                                 "image":  "assets/images/category-02.svg"
+                                                             },
+                                                             {
+                                                                 "id":  "agriculture-seeds-agri-inputs-category-3",
+                                                                 "slug":  "crop-protection",
+                                                                 "name":  "Crop Protection",
+                                                                 "description":  "Browse wholesale crop protection for verified business buyers.",
+                                                                 "image":  "assets/images/category-03.svg"
+                                                             },
+                                                             {
+                                                                 "id":  "agriculture-seeds-agri-inputs-category-4",
+                                                                 "slug":  "farm-tools",
+                                                                 "name":  "Farm Tools",
+                                                                 "description":  "Browse wholesale farm tools for verified business buyers.",
+                                                                 "image":  "assets/images/category-04.svg"
+                                                             }
+                                                         ]
+                                      }
+                     },
+                     {
+                         "id":  "products",
+                         "type":  "product-grid",
+                         "settings":  {
+                                          "eyebrow":  "DEMO CATALOG",
+                                          "title":  "Agriculture, Seeds \u0026 Agri-inputs best sellers",
+                                          "subtitle":  "Preview-ready sample products; live tenant products automatically take priority.",
+                                          "images":  [
+                                                         "assets/images/product-01.svg",
+                                                         "assets/images/product-02.svg",
+                                                         "assets/images/product-03.svg",
+                                                         "assets/images/product-04.svg",
+                                                         "assets/images/product-05.svg",
+                                                         "assets/images/product-06.svg"
+                                                     ],
+                                          "labels":  [
+                                                         "Hybrid Maize Seeds",
+                                                         "Organic Growth Fertilizer",
+                                                         "Crop Protection Spray",
+                                                         "Manual Seed Planter",
+                                                         "Drip Irrigation Kit",
+                                                         "Soil Testing Meter"
+                                                     ],
+                                          "prices":  [
+                                                         "INR 1,604",
+                                                         "INR 2,034",
+                                                         "INR 2,464",
+                                                         "INR 2,894",
+                                                         "INR 3,324",
+                                                         "INR 3,754"
+                                                     ],
+                                          "products":  [
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-1",
+                                                               "slug":  "hybrid-maize-seeds",
+                                                               "sku":  "DEMO-13-001",
+                                                               "name":  "Hybrid Maize Seeds",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "seeds",
+                                                               "price":  1604,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 1,604",
+                                                               "image":  "assets/images/product-01.svg",
+                                                               "stock":  25,
+                                                               "moq":  1
+                                                           },
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-2",
+                                                               "slug":  "organic-growth-fertilizer",
+                                                               "sku":  "DEMO-13-002",
+                                                               "name":  "Organic Growth Fertilizer",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "fertilizers",
+                                                               "price":  2034,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 2,034",
+                                                               "image":  "assets/images/product-02.svg",
+                                                               "stock":  42,
+                                                               "moq":  2
+                                                           },
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-3",
+                                                               "slug":  "crop-protection-spray",
+                                                               "sku":  "DEMO-13-003",
+                                                               "name":  "Crop Protection Spray",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "crop-protection",
+                                                               "price":  2464,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 2,464",
+                                                               "image":  "assets/images/product-03.svg",
+                                                               "stock":  59,
+                                                               "moq":  3
+                                                           },
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-4",
+                                                               "slug":  "manual-seed-planter",
+                                                               "sku":  "DEMO-13-004",
+                                                               "name":  "Manual Seed Planter",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "farm-tools",
+                                                               "price":  2894,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 2,894",
+                                                               "image":  "assets/images/product-04.svg",
+                                                               "stock":  76,
+                                                               "moq":  4
+                                                           },
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-5",
+                                                               "slug":  "drip-irrigation-kit",
+                                                               "sku":  "DEMO-13-005",
+                                                               "name":  "Drip Irrigation Kit",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "seeds",
+                                                               "price":  3324,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 3,324",
+                                                               "image":  "assets/images/product-05.svg",
+                                                               "stock":  93,
+                                                               "moq":  1
+                                                           },
+                                                           {
+                                                               "id":  "agriculture-seeds-agri-inputs-product-6",
+                                                               "slug":  "soil-testing-meter",
+                                                               "sku":  "DEMO-13-006",
+                                                               "name":  "Soil Testing Meter",
+                                                               "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                                                               "category":  "fertilizers",
+                                                               "price":  3754,
+                                                               "currency":  "INR",
+                                                               "priceLabel":  "INR 3,754",
+                                                               "image":  "assets/images/product-06.svg",
+                                                               "stock":  110,
+                                                               "moq":  2
+                                                           }
+                                                       ],
+                                          "limit":  6,
+                                          "primaryCta":  "View all"
+                                      }
+                     },
+                     {
+                         "id":  "story",
+                         "type":  "image-with-text",
+                         "settings":  {
+                                          "title":  "Built for Agriculture, Seeds \u0026 Agri-inputs distribution",
+                                          "body":  "Present specifications, inventory, prices, and buyer actions through a focused industry storefront.",
+                                          "image":  "assets/images/detail.svg",
+                                          "imagePosition":  "right"
+                                      }
+                     },
+                     {
+                         "id":  "benefits",
+                         "type":  "feature-list",
+                         "settings":  {
+                                          "title":  "Designed for B2B buyers",
+                                          "items":  [
+                                                        {
+                                                            "icon":  "01",
+                                                            "title":  "Trade-ready catalog",
+                                                            "text":  "Clear product discovery with industry-specific content."
+                                                        },
+                                                        {
+                                                            "icon":  "02",
+                                                            "title":  "Bulk order friendly",
+                                                            "text":  "MOQ, stock, and price cues support repeat purchasing."
+                                                        },
+                                                        {
+                                                            "icon":  "03",
+                                                            "title":  "Responsive preview",
+                                                            "text":  "Layouts work across desktop, tablet, and mobile views."
+                                                        }
+                                                    ]
+                                      }
+                     },
+                     {
+                         "id":  "testimonial",
+                         "type":  "testimonial-carousel",
+                         "settings":  {
+                                          "title":  "Buyer feedback",
+                                          "quote":  "The Agriculture, Seeds \u0026 Agri-inputs catalog is easy to scan and reorder from.",
+                                          "author":  "Demo Retail Partner"
+                                      }
+                     },
+                     {
+                         "id":  "newsletter",
+                         "type":  "newsletter",
+                         "settings":  {
+                                          "title":  "Get catalog updates",
+                                          "subtitle":  "Receive new product, restock, and trade offer alerts."
+                                      }
+                     },
+                     {
+                         "id":  "footer",
+                         "type":  "footer",
+                         "settings":  {
+                                          "logoText":  "Agriculture, Seeds \u0026 Agri-inputs TradeHub",
+                                          "industryName":  "Agriculture, Seeds \u0026 Agri-inputs",
+                                          "tagline":  "Industry-ready discovery, trade pricing, repeat ordering, and catalog experiences for agriculture, seeds \u0026 agri-inputs.",
+                                          "columns":  [
+                                                          {
+                                                              "heading":  "Catalog",
+                                                              "links":  [
+                                                                            "Categories",
+                                                                            "Products",
+                                                                            "Offers"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Buyer Help",
+                                                              "links":  [
+                                                                            "Bulk Orders",
+                                                                            "Shipping",
+                                                                            "Returns"
+                                                                        ]
+                                                          },
+                                                          {
+                                                              "heading":  "Account",
+                                                              "links":  [
+                                                                            "Login",
+                                                                            "Orders",
+                                                                            "Cart"
+                                                                        ]
+                                                          }
+                                                      ]
+                                      }
+                     }
+                 ]
+}

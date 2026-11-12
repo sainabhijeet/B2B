@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "FieldSupply",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "FieldSupply Hybrid Maize Seeds",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced"
+      },
+      "variant": "gallery-technical-tabs"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "FieldSupply Hybrid Maize Seeds",
+        "subtitle": "Hybrid Maize Seeds from FieldSupply's seeds assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "price": "INR 850",
+        "description": "Hybrid Maize Seeds from FieldSupply's seeds assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+        "sku": "WEB-13-1",
+        "stock": 104,
+        "moq": 5,
+        "product": {
+          "id": "agriculture-seeds-agri-inputs-web-theme-product-1",
+          "slug": "fieldsupply-hybrid-maize-seeds",
+          "sku": "WEB-13-1",
+          "name": "FieldSupply Hybrid Maize Seeds",
+          "description": "Hybrid Maize Seeds from FieldSupply's seeds assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+          "demoOnly": true,
+          "category": "seeds",
+          "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-1",
+          "categoryName": "FieldSupply Seeds",
+          "brand": "FieldSupply",
+          "price": 850,
+          "currency": "INR",
+          "priceLabel": "INR 850",
+          "image": "assets/images/product-01.jpg",
+          "stock": 104,
+          "moq": 5,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 1003,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 5,
+              "unitPrice": 850
+            },
+            {
+              "minQuantity": 25,
+              "unitPrice": 808
+            },
+            {
+              "minQuantity": 50,
+              "unitPrice": 765
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: FieldSupply Hybrid Maize Seeds",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced"
+      },
+      "variant": "info-technical-tabs"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "FieldSupply trade selection",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "FieldSupply Hybrid Maize Seeds",
+          "FieldSupply Organic Growth Fertilizer",
+          "FieldSupply Crop Protection Spray",
+          "FieldSupply Manual Seed Planter",
+          "FieldSupply Drip Irrigation Kit",
+          "FieldSupply Soil Testing Meter"
+        ],
+        "prices": [
+          "INR 850",
+          "INR 1,250",
+          "INR 650",
+          "INR 4,500",
+          "INR 2,800",
+          "INR 1,499"
+        ],
+        "products": [
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-1",
+            "slug": "fieldsupply-hybrid-maize-seeds",
+            "sku": "WEB-13-1",
+            "name": "FieldSupply Hybrid Maize Seeds",
+            "description": "Hybrid Maize Seeds from FieldSupply's seeds assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "seeds",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-1",
+            "categoryName": "FieldSupply Seeds",
+            "brand": "FieldSupply",
+            "price": 850,
+            "currency": "INR",
+            "priceLabel": "INR 850",
+            "image": "assets/images/product-01.jpg",
+            "stock": 104,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1003,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 850
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 808
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 765
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Hybrid Maize Seeds",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-2",
+            "slug": "fieldsupply-organic-growth-fertilizer",
+            "sku": "WEB-13-2",
+            "name": "FieldSupply Organic Growth Fertilizer",
+            "description": "Organic Growth Fertilizer from FieldSupply's fertilizers assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "fertilizers",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-2",
+            "categoryName": "FieldSupply Fertilizers",
+            "brand": "FieldSupply",
+            "price": 1250,
+            "currency": "INR",
+            "priceLabel": "INR 1,250",
+            "image": "assets/images/product-02.jpg",
+            "stock": 115,
+            "moq": 10,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1475,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 10,
+                "unitPrice": 1250
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 1188
+              },
+              {
+                "minQuantity": 100,
+                "unitPrice": 1125
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Organic Growth Fertilizer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-3",
+            "slug": "fieldsupply-crop-protection-spray",
+            "sku": "WEB-13-3",
+            "name": "FieldSupply Crop Protection Spray",
+            "description": "Crop Protection Spray from FieldSupply's crop protection assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "crop-protection",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-3",
+            "categoryName": "FieldSupply Crop Protection",
+            "brand": "FieldSupply",
+            "price": 650,
+            "currency": "INR",
+            "priceLabel": "INR 650",
+            "image": "assets/images/product-03.jpg",
+            "stock": 126,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 767,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 650
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 618
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 585
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Crop Protection Spray",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-4",
+            "slug": "fieldsupply-manual-seed-planter",
+            "sku": "WEB-13-4",
+            "name": "FieldSupply Manual Seed Planter",
+            "description": "Manual Seed Planter from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 4500,
+            "currency": "INR",
+            "priceLabel": "INR 4,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 137,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 5310,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 4500
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 4275
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 4050
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Manual Seed Planter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-5",
+            "slug": "fieldsupply-drip-irrigation-kit",
+            "sku": "WEB-13-5",
+            "name": "FieldSupply Drip Irrigation Kit",
+            "description": "Drip Irrigation Kit from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 2800,
+            "currency": "INR",
+            "priceLabel": "INR 2,800",
+            "image": "assets/images/product-05.jpg",
+            "stock": 148,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 3304,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2800
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2660
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2520
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Drip Irrigation Kit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "agriculture-seeds-agri-inputs-web-theme-product-6",
+            "slug": "fieldsupply-soil-testing-meter",
+            "sku": "WEB-13-6",
+            "name": "FieldSupply Soil Testing Meter",
+            "description": "Soil Testing Meter from FieldSupply's farm tools assortment. Stock the essentials for planting, growing and seasonal care. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "farm-tools",
+            "categoryId": "agriculture-seeds-agri-inputs-web-theme-category-4",
+            "categoryName": "FieldSupply Farm Tools",
+            "brand": "FieldSupply",
+            "price": 1499,
+            "currency": "INR",
+            "priceLabel": "INR 1,499",
+            "image": "assets/images/product-06.jpg",
+            "stock": 159,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1769,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1499
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1424
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1349
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: FieldSupply Soil Testing Meter",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Source hybrid maize seeds, organic growth fertilizer and more from this agriculture, seeds & agri-inputs trade collection.",
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced",
+        "cardStyle": "bulk-table",
+        "columns": 3
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the FieldSupply demo catalog",
+        "items": [
+          {
+            "question": "How are FieldSupply pack quantities shown?",
+            "answer": "FieldSupply Hybrid Maize Seeds has a sample MOQ of 5. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are FieldSupply images supplier photographs?",
+            "answer": "These agriculture, seeds & agri-inputs images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "FieldSupply",
+        "industryName": "Agriculture, Seeds & Agri-inputs",
+        "tagline": "Source hybrid maize seeds, organic growth fertilizer and more from this agriculture, seeds & agri-inputs trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-13-web",
+        "layoutMode": "technical-tabs",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-13-web"
+}

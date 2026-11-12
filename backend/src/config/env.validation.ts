@@ -8,6 +8,8 @@ export const envValidationSchema = Joi.object({
   HTTP_500_DEBUG: Joi.string().valid('true', 'false').allow('').optional(),
   PORT: Joi.number().default(3000),
   API_PREFIX: Joi.string().default('api/v1'),
+  CONFIG_ENCRYPTION_KEY: Joi.string().allow('').default(''),
+  PLATFORM_CONFIG_ENCRYPTION_KEY: Joi.string().allow('').default(''),
 
   DB_HOST: Joi.string().default('localhost'),
   DB_PORT: Joi.number().default(5432),
@@ -22,6 +24,7 @@ export const envValidationSchema = Joi.object({
   DB_POOL_MAX: Joi.number().integer().min(2).max(100).default(20),
   DB_IDLE_TIMEOUT_MS: Joi.number().integer().min(1000).default(30_000),
   DB_STATEMENT_TIMEOUT_MS: Joi.number().integer().min(1000).default(30_000),
+  DB_LOGGING: Joi.string().valid('true', 'false').default('false'),
   DB_SSL: Joi.string().valid('true', 'false').default('false'),
   DB_SSL_REJECT_UNAUTHORIZED: Joi.string()
     .valid('true', 'false')
@@ -288,6 +291,72 @@ export const envValidationSchema = Joi.object({
       Joi.string().valid(''),
     )
     .default(''),
+
+  PLATFORM_STORAGE_RUNTIME_ENABLED: Joi.string()
+    .valid('true', 'false')
+    .default('false'),
+  PLATFORM_STORAGE_LOCAL_MAX_WRITE_BYTES: Joi.number()
+    .integer()
+    .min(1)
+    .max(25 * 1024 * 1024)
+    .default(25 * 1024 * 1024),
+
+  MEDIA_MALWARE_SCANNING_ENABLED: Joi.string()
+    .valid('true', 'false')
+    .default('true'),
+  MEDIA_MALWARE_FAIL_CLOSED: Joi.string()
+    .valid('true', 'false')
+    .default('true'),
+  MEDIA_QUARANTINE_DIR: Joi.string().allow('').default(''),
+  MEDIA_SCAN_TIMEOUT_MS: Joi.number()
+    .integer()
+    .min(1000)
+    .max(300000)
+    .default(30000),
+  MEDIA_SCAN_MAX_BYTES: Joi.number()
+    .integer()
+    .min(1)
+    .max(25 * 1024 * 1024)
+    .default(25 * 1024 * 1024),
+  MEDIA_SCAN_WORKER_CONCURRENCY: Joi.number()
+    .integer()
+    .min(1)
+    .max(4)
+    .default(1),
+  MEDIA_SCAN_MAX_ATTEMPTS: Joi.number().integer().min(1).max(5).default(3),
+  MEDIA_SCAN_STALE_AFTER_MS: Joi.number().integer().min(60000).default(300000),
+  MEDIA_QUARANTINE_RETENTION_DAYS: Joi.number()
+    .integer()
+    .min(1)
+    .max(365)
+    .default(30),
+  MEDIA_SCANNER_PROVIDER: Joi.string()
+    .valid('unavailable', 'clamd')
+    .default('unavailable'),
+  MEDIA_SCANNER_TRANSPORT: Joi.string().valid('tcp', 'unix').default('tcp'),
+  MEDIA_SCANNER_HOST: Joi.string().max(253).allow('').default(''),
+  MEDIA_SCANNER_PORT: Joi.number().integer().min(1).max(65535).default(3310),
+  MEDIA_SCANNER_SOCKET_PATH: Joi.string().max(1024).allow('').default(''),
+  MEDIA_SCANNER_CONNECT_TIMEOUT_MS: Joi.number()
+    .integer()
+    .min(100)
+    .max(10000)
+    .default(3000),
+  MEDIA_SCANNER_IDLE_TIMEOUT_MS: Joi.number()
+    .integer()
+    .min(100)
+    .max(60000)
+    .default(10000),
+  MEDIA_SCANNER_RESPONSE_MAX_BYTES: Joi.number()
+    .integer()
+    .min(128)
+    .max(65536)
+    .default(4096),
+  MEDIA_SCANNER_STREAM_CHUNK_BYTES: Joi.number()
+    .integer()
+    .min(1024)
+    .max(1024 * 1024)
+    .default(64 * 1024),
 
   RAZORPAY_KEY_ID: Joi.string().allow('').default(''),
   RAZORPAY_KEY_SECRET: Joi.string().allow('').default(''),

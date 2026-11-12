@@ -140,6 +140,7 @@ class TemplateHome extends ConsumerWidget {
     if (type.contains('divider')) return const Divider(height: 24);
     if (type.contains('hero')) {
       return _HeroSection(
+        variant: section.variant,
         eyebrow: t(section.stringSetting('eyebrow')),
         title: t(_sectionTitle(section)),
         subtitle: t(
@@ -313,6 +314,7 @@ List<String> _fallbackImages(StorefrontTheme theme) {
 
 class _HeroSection extends StatelessWidget {
   const _HeroSection({
+    required this.variant,
     required this.eyebrow,
     required this.title,
     required this.subtitle,
@@ -321,6 +323,7 @@ class _HeroSection extends StatelessWidget {
     required this.onCtaPressed,
   });
 
+  final String variant;
   final String eyebrow;
   final String title;
   final String subtitle;
@@ -330,12 +333,18 @@ class _HeroSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final mode = variant.replaceFirst('hero-', '');
+    final isEditorial = mode == 'editorial-left' || mode == 'asymmetric';
+    final isFullBleed = mode == 'full-bleed' || mode == 'mosaic';
     return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 16, 16, 10),
+      padding: EdgeInsets.fromLTRB(
+          isFullBleed ? 0 : 16, 16, isFullBleed ? 0 : 16, 10),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(18),
+        borderRadius:
+            BorderRadius.circular(isFullBleed ? 0 : (isEditorial ? 4 : 18)),
         child: AspectRatio(
-          aspectRatio: 16 / 9,
+          aspectRatio:
+              mode == 'stacked-center' ? 4 / 5 : (isEditorial ? 4 / 3 : 16 / 9),
           child: Stack(
             fit: StackFit.expand,
             children: <Widget>[
@@ -371,13 +380,17 @@ class _HeroSection extends StatelessWidget {
                 ),
               ),
               Positioned(
-                left: 18,
+                left: isEditorial ? 28 : 18,
+                right: mode == 'stacked-center' ? 18 : null,
                 top: 0,
                 bottom: 0,
-                width: 184,
+                width:
+                    mode == 'stacked-center' ? null : (isEditorial ? 220 : 184),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: mode == 'stacked-center'
+                      ? CrossAxisAlignment.center
+                      : CrossAxisAlignment.start,
                   children: <Widget>[
                     if (eyebrow.isNotEmpty) ...<Widget>[
                       Text(
@@ -883,6 +896,17 @@ class _CategorySection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final images = section.stringListSetting('images');
+    final categoryMode = section.variant.replaceFirst('categories-', '');
+    final categoryWidth = categoryMode == 'horizontal-rail'
+        ? 210.0
+        : categoryMode == 'compact-chips'
+            ? 150.0
+            : 118.0;
+    final categoryHeight = categoryMode == 'horizontal-rail'
+        ? 128.0
+        : categoryMode == 'round-icons'
+            ? 132.0
+            : 148.0;
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
       child: Column(
@@ -938,7 +962,7 @@ class _CategorySection extends StatelessWidget {
                 );
               }
               return SizedBox(
-                height: 148,
+                height: categoryHeight,
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   itemCount: visibleCategories.length,
@@ -948,8 +972,13 @@ class _CategorySection extends StatelessWidget {
                     final image =
                         _categoryImage(category, products, images, index);
                     return SizedBox(
-                      width: 118,
+                      width: categoryWidth,
                       child: Card(
+                        shape: categoryMode == 'round-icons'
+                            ? const CircleBorder()
+                            : RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(
+                                    categoryMode == 'numbered-list' ? 2 : 14)),
                         clipBehavior: Clip.antiAlias,
                         child: InkWell(
                           onTap: () => onOpenCategory(category),
@@ -999,6 +1028,15 @@ class _CategorySection extends StatelessWidget {
     if (categoryImage.startsWith('assets/')) return categoryImage;
     if (categoryImage.isNotEmpty) return _resolveImage(categoryImage);
 
+    if (!theme.isDemoCatalog) return '';
+
+    // A selected uploaded theme may provide an industry-specific category
+    // image even when the live category has no artwork. Prefer that before a
+    // product thumbnail, which may belong to stale or unrelated demo data.
+    if (configuredImages.length > index) {
+      return theme.assetUrl(configuredImages[index]);
+    }
+
     for (final product in products) {
       final productImage = product.imageUrl?.trim() ?? '';
       if (_matchesCategory(product, category) && productImage.isNotEmpty) {
@@ -1009,9 +1047,6 @@ class _CategorySection extends StatelessWidget {
         index < products.length ? products[index].imageUrl?.trim() ?? '' : '';
     if (indexedProductImage.isNotEmpty) {
       return _resolveImage(indexedProductImage);
-    }
-    if (configuredImages.length > index) {
-      return theme.assetUrl(configuredImages[index]);
     }
     if (fallbackImages.isNotEmpty) {
       return fallbackImages[index % fallbackImages.length];
@@ -1228,14 +1263,21 @@ class _ProductSection extends StatelessWidget {
                 );
               }
               final visibleRows = _productsForSection(rows);
-              if (layout == 'list' || layout == 'fast_order') {
+              if (layout == 'list' ||
+                  layout == 'fast_order' ||
+                  layout == 'quick_reorder' ||
+                  layout == 'spec_sheet') {
                 return Column(
                   children: List<Widget>.generate(visibleRows.length, (index) {
                     final product = visibleRows[index];
                     final image = _productImage(product, images, index);
                     return Card(
-                      margin: const EdgeInsets.only(bottom: 10),
+                      margin: EdgeInsets.only(
+                          bottom: layout == 'spec_sheet' ? 2 : 10),
+                      elevation: layout == 'spec_sheet' ? 0 : null,
                       child: ListTile(
+                        dense:
+                            layout == 'quick_reorder' || layout == 'spec_sheet',
                         onTap: () => onOpenProduct(product),
                         leading: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
@@ -1246,13 +1288,52 @@ class _ProductSection extends StatelessWidget {
                           style: const TextStyle(fontWeight: FontWeight.w700),
                         ),
                         subtitle: Text(_priceLabel(product.price)),
+                        trailing:
+                            layout == 'fast_order' || layout == 'quick_reorder'
+                                ? IconButton(
+                                    icon: const Icon(
+                                        Icons.add_shopping_cart_outlined),
+                                    onPressed: () => onOpenProduct(product))
+                                : layout == 'spec_sheet'
+                                    ? const Icon(Icons.chevron_right, size: 18)
+                                    : null,
                       ),
                     );
                   }),
                 );
               }
+              if (layout == 'catalog' || layout == 'story') {
+                return LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                    final width = layout == 'story'
+                        ? constraints.maxWidth
+                        : (constraints.maxWidth - 12) / 2;
+                    return Wrap(
+                      spacing: 12,
+                      runSpacing: 12,
+                      children:
+                          List<Widget>.generate(visibleRows.length, (index) {
+                        final product = visibleRows[index];
+                        return SizedBox(
+                          width: width,
+                          height: layout == 'story' ? 360 : 292,
+                          child: _RecommendedProductCard(
+                            product: product,
+                            image: _productImage(product, images, index),
+                            title: t(product.name.trim()),
+                            categoryLabel: _categoryLabel(product),
+                            priceLabel: _priceLabel(product.price),
+                            inventoryLabel: _inventoryLabel(product),
+                            onTap: () => onOpenProduct(product),
+                          ),
+                        );
+                      }),
+                    );
+                  },
+                );
+              }
               return SizedBox(
-                height: 292,
+                height: layout == 'visual' ? 360 : 292,
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   itemCount: visibleRows.length,
@@ -1261,7 +1342,7 @@ class _ProductSection extends StatelessWidget {
                     final product = visibleRows[index];
                     final image = _productImage(product, images, index);
                     return SizedBox(
-                      width: 166,
+                      width: layout == 'visual' ? 248 : 166,
                       child: _RecommendedProductCard(
                         product: product,
                         image: image,
@@ -1354,6 +1435,7 @@ class _ProductSection extends StatelessWidget {
     if (product.imageUrl?.trim().isNotEmpty == true) {
       return _resolveImage(product.imageUrl!.trim());
     }
+    if (!theme.isDemoCatalog) return '';
     if (images.length > index) return theme.assetUrl(images[index]);
     if (fallbackImages.isNotEmpty) {
       return fallbackImages[index % fallbackImages.length];

@@ -8,6 +8,7 @@ import CartItemRow from "@/components/cart/CartItemRow";
 import CartSummary from "@/components/cart/CartSummary";
 import { getCartEnvelope } from "@/components/cart/cart-client-api";
 import { translate } from "@/lib/translation-engine";
+import CartEmptyWorkspace from "@/components/cart/CartEmptyWorkspace";
 
 type Props = {
   initial: CartApiEnvelope;
@@ -55,8 +56,8 @@ export default function CartPageClient({ initial, initialStatus, languageCode }:
 
   if (status === 401 || status === 403) {
     return (
-      <main className="min-h-[calc(100vh-12rem)] bg-slate-50 px-4 py-16">
-        <section className="mx-auto max-w-lg rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
+      <main className="storefront-cart-page min-h-[calc(100vh-12rem)] bg-slate-50 px-4 py-16">
+        <section className="cart-empty-state mx-auto max-w-lg rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm">
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-slate-100 text-slate-700"><CartIcon /></div>
           <h1 className="mt-5 text-2xl font-bold text-slate-950">{t("Your cart")}</h1>
           <p className="mt-3 text-sm text-slate-600">{t("Sign in to view and manage your cart.")}</p>
@@ -69,17 +70,18 @@ export default function CartPageClient({ initial, initialStatus, languageCode }:
   }
 
   return (
-    <main className="min-h-[calc(100vh-12rem)] bg-slate-50 pb-16">
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:py-10">
-        <div className="flex flex-wrap items-end justify-between gap-4 border-b border-slate-200 pb-6">
+    <main className="storefront-cart-page min-h-[calc(100vh-12rem)] bg-[#eef4f6] pb-16 text-[#08283d]">
+      <div className="cart-page-inner mx-auto max-w-[1320px] px-5 py-10 sm:px-8 lg:px-10 lg:py-14">
+        <header className="cart-page-intro flex flex-wrap items-end justify-between gap-6 border-b border-[#bdd3dc] pb-7">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight text-slate-950">{t("Your cart")}</h1>
+            <span className="cart-theme-eyebrow text-[10px] font-black uppercase tracking-[0.2em] text-[#0879ad]">{t("Trade order workspace")}</span>
+            <h1 className="mt-3 text-4xl font-black tracking-[-0.04em] text-[#08283d]">{t("Your cart")}</h1>
             {items.length > 0 ? <p className="mt-2 text-sm text-slate-600">{items.length} {t(items.length === 1 ? "product" : "products")} · {totalUnits} {t(totalUnits === 1 ? "unit" : "units")}</p> : null}
           </div>
-          <Link href="/category" className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--theme-primary)] hover:underline">
+          <Link href="/category" className="cart-continue-link inline-flex min-h-11 items-center gap-3 border border-[#9fc4d2] bg-white px-5 text-xs font-black uppercase tracking-[0.08em] text-[#062f45] transition hover:border-[#0879ad]">
             <span aria-hidden="true">←</span> {t("Continue shopping")}
           </Link>
-        </div>
+        </header>
 
         {loading ? <p role="status" className="mt-4 text-sm text-slate-500">{t("Updating…")}</p> : null}
         {networkError || (status >= 400 && status !== 401 && status !== 403) ? (
@@ -90,23 +92,32 @@ export default function CartPageClient({ initial, initialStatus, languageCode }:
         ) : null}
 
         {status < 400 && items.length === 0 ? (
-          <section className="mx-auto mt-10 max-w-lg rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm sm:p-10">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-slate-100 text-slate-700"><CartIcon /></div>
-            <h2 className="mt-5 text-xl font-bold text-slate-950">{t("Your cart is empty.")}</h2>
-            <p className="mt-2 text-sm text-slate-600">{t("Explore products and add the items you need.")}</p>
-            <Link href="/category" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-xl bg-[var(--theme-primary)] px-6 text-sm font-bold text-white hover:brightness-95">
-              {t("Browse products")}
-            </Link>
-          </section>
+          <CartEmptyWorkspace languageCode={languageCode} />
         ) : items.length > 0 ? (
-          <div className="mt-7 grid items-start gap-7 lg:grid-cols-[minmax(0,1fr)_360px]">
-            <section aria-label={t("Cart products")} className="space-y-4">
-              {items.map((item) => <CartItemRow key={item.id} item={item} languageCode={languageCode} />)}
+          <>
+          <div className="cart-layout mt-8 grid items-start gap-7 lg:grid-cols-[minmax(0,1fr)_360px]">
+            <section aria-label={t("Cart products")} className="cart-items-panel border border-[#b8d1da] bg-white p-4 shadow-[0_18px_45px_rgba(6,47,69,0.07)] sm:p-6">
+              <div className="cart-list-heading mb-2 flex items-center justify-between gap-4 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-500">{t("Selected materials")}</span>
+                  <h2 className="mt-1 text-lg font-bold text-slate-950">{t("Order list")}</h2>
+                </div>
+                <span className="cart-unit-count rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700">{totalUnits} {t(totalUnits === 1 ? "unit" : "units")}</span>
+              </div>
+              <div className="cart-items-list divide-y divide-slate-100">
+                {items.map((item) => <CartItemRow key={item.id} item={item} languageCode={languageCode} />)}
+              </div>
             </section>
-            <div className="lg:sticky lg:top-32">
+            <div className="cart-summary-column lg:sticky lg:top-32">
               <CartSummary items={items} languageCode={languageCode} />
             </div>
           </div>
+          <section className="cart-service-strip cart-theme-only mt-7 hidden grid-cols-1 gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 md:grid-cols-3">
+            <div><strong>{t("Secure checkout")}</strong><span>{t("Protected account and payment flow")}</span></div>
+            <div><strong>{t("Trade-ready ordering")}</strong><span>{t("Quantities remain editable before checkout")}</span></div>
+            <div><strong>{t("Buyer support")}</strong><span>{t("Talk to the buying desk for bulk requirements")}</span></div>
+          </section>
+          </>
         ) : null}
       </div>
     </main>

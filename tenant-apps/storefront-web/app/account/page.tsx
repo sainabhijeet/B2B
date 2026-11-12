@@ -6,6 +6,7 @@ import { backendOriginFromApiUrl } from "@/lib/api-origin";
 import type { ApiEnvelope, CustomerProfile } from "@/lib/account-types";
 import { storefrontAuthedFetchReadOnly } from "@/lib/storefrontAuthedFetch";
 import { getStorefrontLanguage } from "@/lib/storefront-language";
+import { resolveStorefrontTheme } from "@/lib/resolve-storefront-theme";
 import { translate } from "@/lib/translation-engine";
 import { getStorefrontFeatureConfig } from "@/services/storefrontAppConfigService";
 
@@ -17,10 +18,11 @@ function absoluteProfileImageUrl(value: string | null | undefined): string | nul
 }
 
 export default async function AccountPage() {
-  const [language, response, featureConfig] = await Promise.all([
+  const [language, response, featureConfig, resolvedTheme] = await Promise.all([
     getStorefrontLanguage(),
     storefrontAuthedFetchReadOnly("/storefront/customer/me"),
     getStorefrontFeatureConfig(),
+    resolveStorefrontTheme(),
   ]);
   const t = (text: string) => translate(text, language);
 
@@ -72,6 +74,7 @@ export default async function AccountPage() {
         }}
         languageCode={language}
         creditViewEnabled={featureConfig.creditViewEnabled}
+        variant={resolvedTheme.storefrontKey === "chemicals-specialty-materials-web-theme" ? "materialbridge" : "standard"}
       />
     </StorefrontLocaleFrame>
   );

@@ -1,0 +1,93 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "nav": ["Home", "About Us", "Collections", "New Arrivals", "Blog", "Contact"],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "editorial-jowenly"
+    },
+    {
+      "id": "journal-masthead",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "NOTES FROM THE ATELIER",
+        "title": "The Aurelia Journal",
+        "subtitle": "Original observations on sculptural form, precious materials and the quiet rituals that keep meaningful pieces close.",
+        "primaryCta": "Browse the collection",
+        "primaryHref": "/category",
+        "image": "assets/images/aurelia-ring-macro-original.png",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "hero-journal-masthead"
+    },
+    {
+      "id": "journal-index",
+      "type": "blog-preview",
+      "settings": {
+        "eyebrow": "THE CURRENT EDITION",
+        "title": "Material, memory & modern form",
+        "subtitle": "A considered reading list created for the fictional Aurelia Elan demo house. All imagery is original AI-generated artwork.",
+        "posts": [
+          {
+            "title": "Why hammered gold feels alive in changing light",
+            "excerpt": "A closer look at surface, shadow and the hand-finished irregularities that give sculptural pieces their character.",
+            "date": "October 24, 2026",
+            "image": "assets/images/aurelia-journal-cuff-original.png",
+            "href": "/blog"
+          },
+          {
+            "title": "The new heirloom: choosing pieces beyond a season",
+            "excerpt": "Proportion, comfort and material honesty are a more useful starting point than a passing trend.",
+            "date": "October 15, 2026",
+            "image": "assets/images/aurelia-hero-original-v2.png",
+            "href": "/blog"
+          },
+          {
+            "title": "A gentle care ritual for rings worn every day",
+            "excerpt": "Simple storage, cleaning and handling habits designed to preserve polish without overcomplicating the routine.",
+            "date": "October 03, 2026",
+            "image": "assets/images/aurelia-ring-macro-original.png",
+            "href": "/blog"
+          }
+        ],
+        "categories": [
+          { "label": "Material studies", "count": 6 },
+          { "label": "Care rituals", "count": 4 },
+          { "label": "Atelier stories", "count": 5 },
+          { "label": "The modern edit", "count": 8 }
+        ],
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "blog-editorial-index"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "Aurelia Elan",
+        "industryName": "Jewelry / Diamond",
+        "tagline": "A quiet luxury jewellery house for sculptural gold, luminous diamonds and enduring gifts. Fictional demo catalog.",
+        "logoImageUrl": "assets/images/logo.svg",
+        "columns": [
+          { "heading": "Explore", "links": ["About", "Collections", "New Arrivals", "Blog"] },
+          { "heading": "Client care", "links": ["Contact", "FAQ", "Shipping", "Returns"] },
+          { "heading": "Private client", "links": ["Login", "Orders", "Saved Pieces", "The Bag"] }
+        ],
+        "socialLinks": [
+          { "label": "Instagram", "href": "https://instagram.com" },
+          { "label": "Pinterest", "href": "https://pinterest.com" }
+        ],
+        "copyright": "© 2026 Aurelia Elan. Fictional demonstration storefront.",
+        "designId": "ds-06-web-aurelia-elan"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-06-web-aurelia-elan"
+}

@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000001a",
+  "industry": "Tools & Hardware",
+  "themeName": "Tools & Hardware Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "ToolBench",
+    "industry": "Tools & Hardware",
+    "tagline": "Source professional spanner set, cordless drill machine and more from this tools & hardware trade collection.",
+    "email": "hello@toolbench.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "ToolBench quantity rewards",
+      "description": "Compare the sample bulk tiers in ToolBench's tools & hardware range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "ToolBench sample buyer story",
+      "quote": "Our demo tools & hardware buying team can compare professional spanner set and hex bolt carton in one sourcing catalog.",
+      "author": "Fictional ToolBench buyer — demo feedback",
+      "designId": "ds-26-web",
+      "layoutMode": "Hardware pegboard",
+      "density": "balanced",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "tools-hardware-web-theme-category-1",
+      "slug": "hand-tools",
+      "name": "ToolBench Hand Tools",
+      "description": "Explore ToolBench's hand tools selection for tools & hardware buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "tools-hardware-web-theme-category-2",
+      "slug": "power-tools",
+      "name": "ToolBench Power Tools",
+      "description": "Explore ToolBench's power tools selection for tools & hardware buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "tools-hardware-web-theme-category-3",
+      "slug": "fasteners",
+      "name": "ToolBench Fasteners",
+      "description": "Explore ToolBench's fasteners selection for tools & hardware buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "tools-hardware-web-theme-category-4",
+      "slug": "builder-hardware",
+      "name": "ToolBench Builder Hardware",
+      "description": "Explore ToolBench's builder hardware selection for tools & hardware buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "tools-hardware-web-theme-product-1",
+      "slug": "toolbench-professional-spanner-set",
+      "sku": "WEB-26-1",
+      "name": "ToolBench Professional Spanner Set",
+      "description": "Professional Spanner Set from ToolBench's hand tools assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "hand-tools",
+      "categoryId": "tools-hardware-web-theme-category-1",
+      "categoryName": "ToolBench Hand Tools",
+      "brand": "ToolBench",
+      "price": 1850,
+      "currency": "INR",
+      "priceLabel": "INR 1,850",
+      "image": "assets/images/product-01.jpg",
+      "stock": 143,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 2183,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 1850
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 1758
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1665
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Professional Spanner Set",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "tools-hardware-web-theme-product-2",
+      "slug": "toolbench-cordless-drill-machine",
+      "sku": "WEB-26-2",
+      "name": "ToolBench Cordless Drill Machine",
+      "description": "Cordless Drill Machine from ToolBench's power tools assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "power-tools",
+      "categoryId": "tools-hardware-web-theme-category-2",
+      "categoryName": "ToolBench Power Tools",
+      "brand": "ToolBench",
+      "price": 4200,
+      "currency": "INR",
+      "priceLabel": "INR 4,200",
+      "image": "assets/images/product-02.jpg",
+      "stock": 154,
+      "moq": 10,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 4956,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 10,
+          "unitPrice": 4200
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 3990
+        },
+        {
+          "minQuantity": 100,
+          "unitPrice": 3780
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Cordless Drill Machine",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "tools-hardware-web-theme-product-3",
+      "slug": "toolbench-hex-bolt-carton",
+      "sku": "WEB-26-3",
+      "name": "ToolBench Hex Bolt Carton",
+      "description": "Hex Bolt Carton from ToolBench's fasteners assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "fasteners",
+      "categoryId": "tools-hardware-web-theme-category-3",
+      "categoryName": "ToolBench Fasteners",
+      "brand": "ToolBench",
+      "price": 950,
+      "currency": "INR",
+      "priceLabel": "INR 950",
+      "image": "assets/images/product-03.jpg",
+      "stock": 165,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 1121,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 950
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 903
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 855
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Hex Bolt Carton",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "tools-hardware-web-theme-product-4",
+      "slug": "toolbench-door-hardware-kit",
+      "sku": "WEB-26-4",
+      "name": "ToolBench Door Hardware Kit",
+      "description": "Door Hardware Kit from ToolBench's builder hardware assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "builder-hardware",
+      "categoryId": "tools-hardware-web-theme-category-4",
+      "categoryName": "ToolBench Builder Hardware",
+      "brand": "ToolBench",
+      "price": 1450,
+      "currency": "INR",
+      "priceLabel": "INR 1,450",
+      "image": "assets/images/product-04.jpg",
+      "stock": 176,
+      "moq": 12,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 1711,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 12,
+          "unitPrice": 1450
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1378
+        },
+        {
+          "minQuantity": 120,
+          "unitPrice": 1305
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Door Hardware Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "tools-hardware-web-theme-product-5",
+      "slug": "toolbench-angle-grinder",
+      "sku": "WEB-26-5",
+      "name": "ToolBench Angle Grinder",
+      "description": "Angle Grinder from ToolBench's power tools assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "power-tools",
+      "categoryId": "tools-hardware-web-theme-category-2",
+      "categoryName": "ToolBench Power Tools",
+      "brand": "ToolBench",
+      "price": 2800,
+      "currency": "INR",
+      "priceLabel": "INR 2,800",
+      "image": "assets/images/product-05.jpg",
+      "stock": 187,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 3304,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 2800
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 2660
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2520
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Angle Grinder",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "tools-hardware-web-theme-product-6",
+      "slug": "toolbench-industrial-cutting-pliers",
+      "sku": "WEB-26-6",
+      "name": "ToolBench Industrial Cutting Pliers",
+      "description": "Industrial Cutting Pliers from ToolBench's hand tools assortment. Build a useful trade toolkit one job at a time. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "hand-tools",
+      "categoryId": "tools-hardware-web-theme-category-1",
+      "categoryName": "ToolBench Hand Tools",
+      "brand": "ToolBench",
+      "price": 450,
+      "currency": "INR",
+      "priceLabel": "INR 450",
+      "image": "assets/images/product-06.jpg",
+      "stock": 198,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 531,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 450
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 428
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 405
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: ToolBench Industrial Cutting Pliers",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-26-web",
+    "direction": "Hardware pegboard",
+    "header": "catalog-rail",
+    "headerIdentity": "header-26-web",
+    "headerStructure": "shell-2-composition-5",
+    "hero": "asymmetric",
+    "categories": "compact-chips",
+    "productCards": "spec-card",
+    "productListing": "sidebar-grid",
+    "productDetail": "technical-tabs",
+    "footer": "newsletter-led",
+    "footerIdentity": "footer-26-web",
+    "footerStructure": "shell-5-composition-4",
+    "density": "balanced",
+    "responsiveStrategy": "sidebar-grid-to-mobile-drawer"
+  }
+}

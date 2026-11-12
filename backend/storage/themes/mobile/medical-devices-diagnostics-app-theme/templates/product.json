@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MedPocket",
+        "industryName": "Medical Devices & Diagnostics",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "search-led"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "MedPocket Otoscope Examination Set",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "gallery-gallery-left"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "MedPocket Otoscope Examination Set",
+        "subtitle": "Otoscope Examination Set for your medical devices & diagnostics replenishment list. MedPocket groups this item with diagnostic equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 23,940",
+        "description": "Otoscope Examination Set for your medical devices & diagnostics replenishment list. MedPocket groups this item with diagnostic equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-11-1",
+        "stock": 71,
+        "moq": 1,
+        "product": {
+          "id": "medical-devices-diagnostics-app-theme-product-1",
+          "slug": "medpocket-otoscope-examination-set",
+          "sku": "APP-11-1",
+          "name": "MedPocket Otoscope Examination Set",
+          "description": "Otoscope Examination Set for your medical devices & diagnostics replenishment list. MedPocket groups this item with diagnostic equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "diagnostic-equipment",
+          "categoryId": "medical-devices-diagnostics-app-theme-category-1",
+          "categoryName": "MedPocket Diagnostic Equipment",
+          "brand": "MedPocket",
+          "price": 23940,
+          "currency": "INR",
+          "priceLabel": "INR 23,940",
+          "image": "assets/images/product-01.jpg",
+          "stock": 71,
+          "moq": 1,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 28249,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 1,
+              "unitPrice": 23940
+            },
+            {
+              "minQuantity": 5,
+              "unitPrice": 22743
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 21546
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: MedPocket Otoscope Examination Set",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "info-gallery-left"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "MedPocket restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MedPocket Otoscope Examination Set",
+          "MedPocket Patient Vital Signs Monitor",
+          "MedPocket Sterile Gauze Pack",
+          "MedPocket Height Adjustable Medical Stool",
+          "MedPocket Digital Stethoscope",
+          "MedPocket Portable Oxygen Monitor"
+        ],
+        "prices": [
+          "INR 23,940",
+          "INR 1,679",
+          "INR 605",
+          "INR 13,500",
+          "INR 683",
+          "INR 2,124"
+        ],
+        "products": [
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-1",
+            "slug": "medpocket-otoscope-examination-set",
+            "sku": "APP-11-1",
+            "name": "MedPocket Otoscope Examination Set",
+            "description": "Otoscope Examination Set for your medical devices & diagnostics replenishment list. MedPocket groups this item with diagnostic equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "diagnostic-equipment",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-1",
+            "categoryName": "MedPocket Diagnostic Equipment",
+            "brand": "MedPocket",
+            "price": 23940,
+            "currency": "INR",
+            "priceLabel": "INR 23,940",
+            "image": "assets/images/product-01.jpg",
+            "stock": 71,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 28249,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 23940
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 22743
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 21546
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Otoscope Examination Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-2",
+            "slug": "medpocket-patient-vital-signs-monitor",
+            "sku": "APP-11-2",
+            "name": "MedPocket Patient Vital Signs Monitor",
+            "description": "Patient Vital Signs Monitor for your medical devices & diagnostics replenishment list. MedPocket groups this item with patient monitoring so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "patient-monitoring",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-2",
+            "categoryName": "MedPocket Patient Monitoring",
+            "brand": "MedPocket",
+            "price": 1679,
+            "currency": "INR",
+            "priceLabel": "INR 1,679",
+            "image": "assets/images/product-02.jpg",
+            "stock": 82,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 1981,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 1679
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1595
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1511
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Patient Vital Signs Monitor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-3",
+            "slug": "medpocket-sterile-gauze-pack",
+            "sku": "APP-11-3",
+            "name": "MedPocket Sterile Gauze Pack",
+            "description": "Sterile Gauze Pack for your medical devices & diagnostics replenishment list. MedPocket groups this item with medical disposables so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "medical-disposables",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-3",
+            "categoryName": "MedPocket Medical Disposables",
+            "brand": "MedPocket",
+            "price": 605,
+            "currency": "INR",
+            "priceLabel": "INR 605",
+            "image": "assets/images/product-03.jpg",
+            "stock": 93,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 714,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 605
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 575
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 545
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Sterile Gauze Pack",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-4",
+            "slug": "medpocket-height-adjustable-medical-stool",
+            "sku": "APP-11-4",
+            "name": "MedPocket Height Adjustable Medical Stool",
+            "description": "Height Adjustable Medical Stool for your medical devices & diagnostics replenishment list. MedPocket groups this item with clinical furniture so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "clinical-furniture",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-4",
+            "categoryName": "MedPocket Clinical Furniture",
+            "brand": "MedPocket",
+            "price": 13500,
+            "currency": "INR",
+            "priceLabel": "INR 13,500",
+            "image": "assets/images/product-04.jpg",
+            "stock": 104,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 15930,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 13500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 12825
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 12150
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Height Adjustable Medical Stool",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-5",
+            "slug": "medpocket-digital-stethoscope",
+            "sku": "APP-11-5",
+            "name": "MedPocket Digital Stethoscope",
+            "description": "Digital Stethoscope for your medical devices & diagnostics replenishment list. MedPocket groups this item with diagnostic equipment so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "diagnostic-equipment",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-1",
+            "categoryName": "MedPocket Diagnostic Equipment",
+            "brand": "MedPocket",
+            "price": 683,
+            "currency": "INR",
+            "priceLabel": "INR 683",
+            "image": "assets/images/product-05.jpg",
+            "stock": 115,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 806,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 683
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 649
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 615
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Digital Stethoscope",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "medical-devices-diagnostics-app-theme-product-6",
+            "slug": "medpocket-portable-oxygen-monitor",
+            "sku": "APP-11-6",
+            "name": "MedPocket Portable Oxygen Monitor",
+            "description": "Portable Oxygen Monitor for your medical devices & diagnostics replenishment list. MedPocket groups this item with patient monitoring so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "patient-monitoring",
+            "categoryId": "medical-devices-diagnostics-app-theme-category-2",
+            "categoryName": "MedPocket Patient Monitoring",
+            "brand": "MedPocket",
+            "price": 2124,
+            "currency": "INR",
+            "priceLabel": "INR 2,124",
+            "image": "assets/images/product-06.jpg",
+            "stock": 126,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2506,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 2124
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2018
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1912
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MedPocket Portable Oxygen Monitor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse otoscope examination set, patient vital signs monitor and a dedicated medical devices & diagnostics mobile assortment.",
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced",
+        "cardStyle": "quick-add",
+        "columns": 2
+      },
+      "variant": "products-quick-add"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the MedPocket demo catalog",
+        "items": [
+          {
+            "question": "How are MedPocket pack quantities shown?",
+            "answer": "MedPocket Otoscope Examination Set has a sample MOQ of 1. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are MedPocket images supplier photographs?",
+            "answer": "These medical devices & diagnostics images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MedPocket",
+        "industryName": "Medical Devices & Diagnostics",
+        "tagline": "Browse otoscope examination set, patient vital signs monitor and a dedicated medical devices & diagnostics mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-11-app",
+        "layoutMode": "gallery-left",
+        "density": "balanced"
+      },
+      "variant": "footer-marketplace"
+    }
+  ],
+  "design": "ds-11-app"
+}

@@ -1,0 +1,431 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "SiteParcel",
+        "industryName": "Construction & Building Materials",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced"
+      },
+      "variant": "centered-nav"
+    },
+    {
+      "id": "gallery",
+      "type": "product-gallery",
+      "settings": {
+        "title": "SiteParcel Tile Bedding Mortar",
+        "images": [
+          "assets/images/product-01.jpg"
+        ],
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced"
+      },
+      "variant": "gallery-compact-order"
+    },
+    {
+      "id": "info",
+      "type": "product-info",
+      "settings": {
+        "title": "SiteParcel Tile Bedding Mortar",
+        "subtitle": "Tile Bedding Mortar for your construction & building materials replenishment list. SiteParcel groups this item with cement & concrete so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "price": "INR 319",
+        "description": "Tile Bedding Mortar for your construction & building materials replenishment list. SiteParcel groups this item with cement & concrete so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+        "sku": "APP-14-1",
+        "stock": 80,
+        "moq": 2,
+        "product": {
+          "id": "construction-building-materials-app-theme-product-1",
+          "slug": "siteparcel-tile-bedding-mortar",
+          "sku": "APP-14-1",
+          "name": "SiteParcel Tile Bedding Mortar",
+          "description": "Tile Bedding Mortar for your construction & building materials replenishment list. SiteParcel groups this item with cement & concrete so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+          "demoOnly": true,
+          "category": "cement-concrete",
+          "categoryId": "construction-building-materials-app-theme-category-1",
+          "categoryName": "SiteParcel Cement & Concrete",
+          "brand": "SiteParcel",
+          "price": 319,
+          "currency": "INR",
+          "priceLabel": "INR 319",
+          "image": "assets/images/product-01.jpg",
+          "stock": 80,
+          "moq": 2,
+          "unit": "selling pack",
+          "availability": "In stock (demo)",
+          "badge": "Best seller",
+          "compareAtPrice": 376,
+          "leadTime": "Sample dispatch: 3-5 business days",
+          "bulkPrices": [
+            {
+              "minQuantity": 2,
+              "unitPrice": 319
+            },
+            {
+              "minQuantity": 10,
+              "unitPrice": 303
+            },
+            {
+              "minQuantity": 20,
+              "unitPrice": 287
+            }
+          ],
+          "imageAlt": "AI-generated demo product photograph: SiteParcel Tile Bedding Mortar",
+          "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+        },
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced"
+      },
+      "variant": "info-compact-order"
+    },
+    {
+      "id": "related",
+      "type": "related-products",
+      "settings": {
+        "title": "SiteParcel restock picks",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "SiteParcel Tile Bedding Mortar",
+          "SiteParcel Structural Steel Angle",
+          "SiteParcel Hollow Concrete Block",
+          "SiteParcel Roof Membrane Roll",
+          "SiteParcel Rapid Set Grout",
+          "SiteParcel Welded Reinforcement Mesh"
+        ],
+        "prices": [
+          "INR 319",
+          "INR 5,376",
+          "INR 2,976",
+          "INR 1,998",
+          "INR 342",
+          "INR 1,003"
+        ],
+        "products": [
+          {
+            "id": "construction-building-materials-app-theme-product-1",
+            "slug": "siteparcel-tile-bedding-mortar",
+            "sku": "APP-14-1",
+            "name": "SiteParcel Tile Bedding Mortar",
+            "description": "Tile Bedding Mortar for your construction & building materials replenishment list. SiteParcel groups this item with cement & concrete so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cement-concrete",
+            "categoryId": "construction-building-materials-app-theme-category-1",
+            "categoryName": "SiteParcel Cement & Concrete",
+            "brand": "SiteParcel",
+            "price": 319,
+            "currency": "INR",
+            "priceLabel": "INR 319",
+            "image": "assets/images/product-01.jpg",
+            "stock": 80,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 376,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 319
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 303
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 287
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Tile Bedding Mortar",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-app-theme-product-2",
+            "slug": "siteparcel-structural-steel-angle",
+            "sku": "APP-14-2",
+            "name": "SiteParcel Structural Steel Angle",
+            "description": "Structural Steel Angle for your construction & building materials replenishment list. SiteParcel groups this item with steel & structure so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "steel-structure",
+            "categoryId": "construction-building-materials-app-theme-category-2",
+            "categoryName": "SiteParcel Steel & Structure",
+            "brand": "SiteParcel",
+            "price": 5376,
+            "currency": "INR",
+            "priceLabel": "INR 5,376",
+            "image": "assets/images/product-02.jpg",
+            "stock": 91,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 6344,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 5376
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 5107
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4838
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Structural Steel Angle",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-app-theme-product-3",
+            "slug": "siteparcel-hollow-concrete-block",
+            "sku": "APP-14-3",
+            "name": "SiteParcel Hollow Concrete Block",
+            "description": "Hollow Concrete Block for your construction & building materials replenishment list. SiteParcel groups this item with bricks & blocks so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "bricks-blocks",
+            "categoryId": "construction-building-materials-app-theme-category-3",
+            "categoryName": "SiteParcel Bricks & Blocks",
+            "brand": "SiteParcel",
+            "price": 2976,
+            "currency": "INR",
+            "priceLabel": "INR 2,976",
+            "image": "assets/images/product-03.jpg",
+            "stock": 102,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 3512,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 2976
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 2827
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 2678
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Hollow Concrete Block",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-app-theme-product-4",
+            "slug": "siteparcel-roof-membrane-roll",
+            "sku": "APP-14-4",
+            "name": "SiteParcel Roof Membrane Roll",
+            "description": "Roof Membrane Roll for your construction & building materials replenishment list. SiteParcel groups this item with waterproofing so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "waterproofing",
+            "categoryId": "construction-building-materials-app-theme-category-4",
+            "categoryName": "SiteParcel Waterproofing",
+            "brand": "SiteParcel",
+            "price": 1998,
+            "currency": "INR",
+            "priceLabel": "INR 1,998",
+            "image": "assets/images/product-04.jpg",
+            "stock": 113,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2358,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1998
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1898
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1798
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Roof Membrane Roll",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-app-theme-product-5",
+            "slug": "siteparcel-rapid-set-grout",
+            "sku": "APP-14-5",
+            "name": "SiteParcel Rapid Set Grout",
+            "description": "Rapid Set Grout for your construction & building materials replenishment list. SiteParcel groups this item with cement & concrete so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cement-concrete",
+            "categoryId": "construction-building-materials-app-theme-category-1",
+            "categoryName": "SiteParcel Cement & Concrete",
+            "brand": "SiteParcel",
+            "price": 342,
+            "currency": "INR",
+            "priceLabel": "INR 342",
+            "image": "assets/images/product-05.jpg",
+            "stock": 124,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 404,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 342
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 325
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 308
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Rapid Set Grout",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "construction-building-materials-app-theme-product-6",
+            "slug": "siteparcel-welded-reinforcement-mesh",
+            "sku": "APP-14-6",
+            "name": "SiteParcel Welded Reinforcement Mesh",
+            "description": "Welded Reinforcement Mesh for your construction & building materials replenishment list. SiteParcel groups this item with steel & structure so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "steel-structure",
+            "categoryId": "construction-building-materials-app-theme-category-2",
+            "categoryName": "SiteParcel Steel & Structure",
+            "brand": "SiteParcel",
+            "price": 1003,
+            "currency": "INR",
+            "priceLabel": "INR 1,003",
+            "image": "assets/images/product-06.jpg",
+            "stock": 135,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1184,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1003
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 953
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 903
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: SiteParcel Welded Reinforcement Mesh",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "subtitle": "Browse tile bedding mortar, structural steel angle and a dedicated construction & building materials mobile assortment.",
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced",
+        "cardStyle": "editorial",
+        "columns": 2
+      },
+      "variant": "products-editorial"
+    },
+    {
+      "id": "faq",
+      "type": "faq-section",
+      "settings": {
+        "title": "About the SiteParcel demo catalog",
+        "items": [
+          {
+            "question": "How are SiteParcel pack quantities shown?",
+            "answer": "SiteParcel Tile Bedding Mortar has a sample MOQ of 2. Each item has its own fictional stock and quantity breaks."
+          },
+          {
+            "question": "Are SiteParcel images supplier photographs?",
+            "answer": "These construction & building materials images are AI-generated examples. Names, pricing and availability are fictional preview data."
+          }
+        ],
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced"
+      },
+      "variant": "faq-section-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "SiteParcel",
+        "industryName": "Construction & Building Materials",
+        "tagline": "Browse tile bedding mortar, structural steel angle and a dedicated construction & building materials mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-14-app",
+        "layoutMode": "compact-order",
+        "density": "balanced"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-14-app"
+}

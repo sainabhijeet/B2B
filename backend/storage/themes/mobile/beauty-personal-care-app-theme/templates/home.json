@@ -1,0 +1,491 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "GlowParcel",
+        "industryName": "Beauty & Personal Care",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "catalog-rail"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "GlowParcel restock picks",
+        "subtitle": "Browse ceramide face moisturizer, scalp care conditioner and a dedicated beauty & personal care mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "GlowParcel Ceramide Face Moisturizer",
+          "GlowParcel Scalp Care Conditioner",
+          "GlowParcel Satin Blush Palette",
+          "GlowParcel Salon Wax Heater",
+          "GlowParcel Gentle Face Cleanser",
+          "GlowParcel Leave-In Hair Cream"
+        ],
+        "prices": [
+          "INR 419",
+          "INR 391",
+          "INR 278",
+          "INR 1,943",
+          "INR 189",
+          "INR 1,769"
+        ],
+        "products": [
+          {
+            "id": "beauty-personal-care-app-theme-product-1",
+            "slug": "glowparcel-ceramide-face-moisturizer",
+            "sku": "APP-12-1",
+            "name": "GlowParcel Ceramide Face Moisturizer",
+            "description": "Ceramide Face Moisturizer for your beauty & personal care replenishment list. GlowParcel groups this item with skin care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "skin-care",
+            "categoryId": "beauty-personal-care-app-theme-category-1",
+            "categoryName": "GlowParcel Skin Care",
+            "brand": "GlowParcel",
+            "price": 419,
+            "currency": "INR",
+            "priceLabel": "INR 419",
+            "image": "assets/images/product-01.jpg",
+            "stock": 74,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 494,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 419
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 398
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 377
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Ceramide Face Moisturizer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-app-theme-product-2",
+            "slug": "glowparcel-scalp-care-conditioner",
+            "sku": "APP-12-2",
+            "name": "GlowParcel Scalp Care Conditioner",
+            "description": "Scalp Care Conditioner for your beauty & personal care replenishment list. GlowParcel groups this item with hair care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hair-care",
+            "categoryId": "beauty-personal-care-app-theme-category-2",
+            "categoryName": "GlowParcel Hair Care",
+            "brand": "GlowParcel",
+            "price": 391,
+            "currency": "INR",
+            "priceLabel": "INR 391",
+            "image": "assets/images/product-02.jpg",
+            "stock": 85,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 461,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 391
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 371
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 352
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Scalp Care Conditioner",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-app-theme-product-3",
+            "slug": "glowparcel-satin-blush-palette",
+            "sku": "APP-12-3",
+            "name": "GlowParcel Satin Blush Palette",
+            "description": "Satin Blush Palette for your beauty & personal care replenishment list. GlowParcel groups this item with cosmetics so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "cosmetics",
+            "categoryId": "beauty-personal-care-app-theme-category-3",
+            "categoryName": "GlowParcel Cosmetics",
+            "brand": "GlowParcel",
+            "price": 278,
+            "currency": "INR",
+            "priceLabel": "INR 278",
+            "image": "assets/images/product-03.jpg",
+            "stock": 96,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 328,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 278
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 264
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Satin Blush Palette",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-app-theme-product-4",
+            "slug": "glowparcel-salon-wax-heater",
+            "sku": "APP-12-4",
+            "name": "GlowParcel Salon Wax Heater",
+            "description": "Salon Wax Heater for your beauty & personal care replenishment list. GlowParcel groups this item with salon supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "salon-supplies",
+            "categoryId": "beauty-personal-care-app-theme-category-4",
+            "categoryName": "GlowParcel Salon Supplies",
+            "brand": "GlowParcel",
+            "price": 1943,
+            "currency": "INR",
+            "priceLabel": "INR 1,943",
+            "image": "assets/images/product-04.jpg",
+            "stock": 107,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 2293,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 1943
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1846
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1749
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Salon Wax Heater",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-app-theme-product-5",
+            "slug": "glowparcel-gentle-face-cleanser",
+            "sku": "APP-12-5",
+            "name": "GlowParcel Gentle Face Cleanser",
+            "description": "Gentle Face Cleanser for your beauty & personal care replenishment list. GlowParcel groups this item with skin care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "skin-care",
+            "categoryId": "beauty-personal-care-app-theme-category-1",
+            "categoryName": "GlowParcel Skin Care",
+            "brand": "GlowParcel",
+            "price": 189,
+            "currency": "INR",
+            "priceLabel": "INR 189",
+            "image": "assets/images/product-05.jpg",
+            "stock": 118,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 223,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 189
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 180
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 170
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Gentle Face Cleanser",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "beauty-personal-care-app-theme-product-6",
+            "slug": "glowparcel-leave-in-hair-cream",
+            "sku": "APP-12-6",
+            "name": "GlowParcel Leave-In Hair Cream",
+            "description": "Leave-In Hair Cream for your beauty & personal care replenishment list. GlowParcel groups this item with hair care so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "hair-care",
+            "categoryId": "beauty-personal-care-app-theme-category-2",
+            "categoryName": "GlowParcel Hair Care",
+            "brand": "GlowParcel",
+            "price": 1769,
+            "currency": "INR",
+            "priceLabel": "INR 1,769",
+            "image": "assets/images/product-06.jpg",
+            "stock": 129,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 2087,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1769
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1681
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1592
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: GlowParcel Leave-In Hair Cream",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy",
+        "cardStyle": "marketplace",
+        "columns": 1
+      },
+      "variant": "products-marketplace"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "GlowParcel: your beauty & personal care restock list",
+        "subtitle": "Browse ceramide face moisturizer, scalp care conditioner and a dedicated beauty & personal care mobile assortment.",
+        "primaryCta": "Explore catalog",
+        "secondaryCta": "Request bulk quote",
+        "image": "assets/images/product-01.jpg",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "hero-split-right"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "GlowParcel collections",
+        "subtitle": "Choose your next beauty & personal care order by collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "GlowParcel Skin Care",
+          "GlowParcel Hair Care",
+          "GlowParcel Cosmetics",
+          "GlowParcel Salon Supplies"
+        ],
+        "categories": [
+          {
+            "id": "beauty-personal-care-app-theme-category-1",
+            "slug": "skin-care",
+            "name": "GlowParcel Skin Care",
+            "description": "Pick skin care for your beauty & personal care replenishment list with GlowParcel.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "beauty-personal-care-app-theme-category-2",
+            "slug": "hair-care",
+            "name": "GlowParcel Hair Care",
+            "description": "Pick hair care for your beauty & personal care replenishment list with GlowParcel.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "beauty-personal-care-app-theme-category-3",
+            "slug": "cosmetics",
+            "name": "GlowParcel Cosmetics",
+            "description": "Pick cosmetics for your beauty & personal care replenishment list with GlowParcel.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "beauty-personal-care-app-theme-category-4",
+            "slug": "salon-supplies",
+            "name": "GlowParcel Salon Supplies",
+            "description": "Pick salon supplies for your beauty & personal care replenishment list with GlowParcel.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy",
+        "categoryStyle": "image-tiles"
+      },
+      "variant": "categories-image-tiles"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "GlowParcel restock savings",
+        "subtitle": "Sample quantity breaks for satin blush palette and the beauty & personal care catalog. Demo offers only.",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "promo-banner-airy"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Your GlowParcel buying list, wherever work takes you",
+        "body": "Build a beauty assortment around daily routines and salon care. Browse ceramide face moisturizer, scalp care conditioner and a dedicated beauty & personal care mobile assortment.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "image-with-text-airy"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with GlowParcel",
+        "items": [
+          {
+            "icon": "01",
+            "title": "GlowParcel Skin Care",
+            "text": "Start with ceramide face moisturizer and compare the GlowParcel sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "GlowParcel quantity breaks",
+            "text": "Review MOQ and bulk tiers for scalp care conditioner before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "GlowParcel repeat orders",
+            "text": "Browse ceramide face moisturizer, scalp care conditioner and a dedicated beauty & personal care mobile assortment."
+          }
+        ],
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "feature-list-airy"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow GlowParcel arrivals",
+        "subtitle": "Sample updates about salon wax heater and glowparcel skin care.",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "newsletter-airy"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "GlowParcel sample buyer story",
+        "quote": "Our demo beauty & personal care buying team can compare ceramide face moisturizer and satin blush palette in one restock list.",
+        "author": "Fictional GlowParcel buyer — demo feedback",
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "testimonial-carousel-airy"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "GlowParcel",
+        "industryName": "Beauty & Personal Care",
+        "tagline": "Browse ceramide face moisturizer, scalp care conditioner and a dedicated beauty & personal care mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-12-app",
+        "layoutMode": "Beauty routine studio / pocket workflow",
+        "density": "airy"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-12-app"
+}

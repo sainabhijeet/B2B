@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-000000000001",
+  "industry": "Electronics",
+  "themeName": "Electronics Web Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "CircuitLane",
+    "industry": "Electronics",
+    "tagline": "Source pro smartphone, business laptop and more from this electronics trade collection.",
+    "email": "hello@circuitlane.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "CircuitLane quantity rewards",
+      "description": "Compare the sample bulk tiers in CircuitLane's electronics range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "CircuitLane sample buyer story",
+      "quote": "Our demo electronics buying team can compare pro smartphone and wireless earbuds in one sourcing catalog.",
+      "author": "Fictional CircuitLane buyer — demo feedback",
+      "designId": "ds-01-web",
+      "layoutMode": "Circuit editorial showroom",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "electronics-web-theme-category-1",
+      "slug": "mobile-phones",
+      "name": "CircuitLane Mobile Phones",
+      "description": "Explore CircuitLane's mobile phones selection for electronics buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "electronics-web-theme-category-2",
+      "slug": "computers",
+      "name": "CircuitLane Computers",
+      "description": "Explore CircuitLane's computers selection for electronics buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "electronics-web-theme-category-3",
+      "slug": "audio-video",
+      "name": "CircuitLane Audio & Video",
+      "description": "Explore CircuitLane's audio & video selection for electronics buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "electronics-web-theme-category-4",
+      "slug": "electronic-accessories",
+      "name": "CircuitLane Electronic Accessories",
+      "description": "Explore CircuitLane's electronic accessories selection for electronics buyers. Compare sample packs before planning a trade order.",
+      "image": "assets/images/product-05.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "electronics-web-theme-product-1",
+      "slug": "circuitlane-pro-smartphone",
+      "sku": "WEB-01-1",
+      "name": "CircuitLane Pro Smartphone",
+      "description": "Pro Smartphone from CircuitLane's mobile phones assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "mobile-phones",
+      "categoryId": "electronics-web-theme-category-1",
+      "categoryName": "CircuitLane Mobile Phones",
+      "brand": "CircuitLane",
+      "price": 18999,
+      "currency": "INR",
+      "priceLabel": "INR 18,999",
+      "image": "assets/images/product-01.jpg",
+      "stock": 68,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 22419,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 18999
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 18049
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 17099
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane Pro Smartphone",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electronics-web-theme-product-2",
+      "slug": "circuitlane-business-laptop",
+      "sku": "WEB-01-2",
+      "name": "CircuitLane Business Laptop",
+      "description": "Business Laptop from CircuitLane's computers assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "computers",
+      "categoryId": "electronics-web-theme-category-2",
+      "categoryName": "CircuitLane Computers",
+      "brand": "CircuitLane",
+      "price": 42999,
+      "currency": "INR",
+      "priceLabel": "INR 42,999",
+      "image": "assets/images/product-02.jpg",
+      "stock": 79,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 50739,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 42999
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 40849
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 38699
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane Business Laptop",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electronics-web-theme-product-3",
+      "slug": "circuitlane-wireless-earbuds",
+      "sku": "WEB-01-3",
+      "name": "CircuitLane Wireless Earbuds",
+      "description": "Wireless Earbuds from CircuitLane's audio & video assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "audio-video",
+      "categoryId": "electronics-web-theme-category-3",
+      "categoryName": "CircuitLane Audio & Video",
+      "brand": "CircuitLane",
+      "price": 1499,
+      "currency": "INR",
+      "priceLabel": "INR 1,499",
+      "image": "assets/images/product-03.jpg",
+      "stock": 90,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 1769,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 1499
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 1424
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 1349
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane Wireless Earbuds",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electronics-web-theme-product-4",
+      "slug": "circuitlane-4k-smart-display",
+      "sku": "WEB-01-4",
+      "name": "CircuitLane 4K Smart Display",
+      "description": "4K Smart Display from CircuitLane's audio & video assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "audio-video",
+      "categoryId": "electronics-web-theme-category-3",
+      "categoryName": "CircuitLane Audio & Video",
+      "brand": "CircuitLane",
+      "price": 27999,
+      "currency": "INR",
+      "priceLabel": "INR 27,999",
+      "image": "assets/images/product-04.jpg",
+      "stock": 101,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 33039,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 27999
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 26599
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 25199
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane 4K Smart Display",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electronics-web-theme-product-5",
+      "slug": "circuitlane-wi-fi-router",
+      "sku": "WEB-01-5",
+      "name": "CircuitLane Wi-Fi Router",
+      "description": "Wi-Fi Router from CircuitLane's electronic accessories assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "electronic-accessories",
+      "categoryId": "electronics-web-theme-category-4",
+      "categoryName": "CircuitLane Electronic Accessories",
+      "brand": "CircuitLane",
+      "price": 2499,
+      "currency": "INR",
+      "priceLabel": "INR 2,499",
+      "image": "assets/images/product-05.jpg",
+      "stock": 112,
+      "moq": 4,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2949,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 4,
+          "unitPrice": 2499
+        },
+        {
+          "minQuantity": 20,
+          "unitPrice": 2374
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 2249
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane Wi-Fi Router",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "electronics-web-theme-product-6",
+      "slug": "circuitlane-power-bank",
+      "sku": "WEB-01-6",
+      "name": "CircuitLane Power Bank",
+      "description": "Power Bank from CircuitLane's electronic accessories assortment. Equip connected teams from desk to delivery. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+      "demoOnly": true,
+      "category": "electronic-accessories",
+      "categoryId": "electronics-web-theme-category-4",
+      "categoryName": "CircuitLane Electronic Accessories",
+      "brand": "CircuitLane",
+      "price": 999,
+      "currency": "INR",
+      "priceLabel": "INR 999",
+      "image": "assets/images/product-06.jpg",
+      "stock": 123,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 1179,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 999
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 949
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 899
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: CircuitLane Power Bank",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-01-web",
+    "direction": "Circuit editorial showroom",
+    "header": "search-led",
+    "headerIdentity": "header-01-web",
+    "headerStructure": "shell-1-composition-1",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "top-filter-dense",
+    "productDetail": "story-scroll",
+    "footer": "minimal",
+    "footerIdentity": "footer-01-web",
+    "footerStructure": "shell-1-composition-1",
+    "density": "compact",
+    "responsiveStrategy": "top-filter-dense-to-mobile-drawer"
+  }
+}

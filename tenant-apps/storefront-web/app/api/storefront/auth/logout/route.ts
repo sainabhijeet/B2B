@@ -7,7 +7,7 @@ import {
 } from "@/lib/customer-session-cookies";
 
 /** Clears storefront customer session cookies; redirects home when opened as an HTML form POST. */
-export async function POST(req: Request) {
+export async function POST() {
   const jar = await cookies();
   const accessToken = jar.get(CUSTOMER_ACCESS_COOKIE)?.value;
   const refreshToken = jar.get(CUSTOMER_REFRESH_COOKIE)?.value;
@@ -32,6 +32,17 @@ export async function POST(req: Request) {
   jar.delete(CUSTOMER_ACCESS_COOKIE);
   jar.delete(CUSTOMER_REFRESH_COOKIE);
   jar.delete(CUSTOMER_DEVICE_COOKIE);
-  const origin = new URL(req.url).origin;
-  return Response.redirect(`${origin}/`, 303);
+  // Keep the browser on the storefront host that submitted the form. In local
+  // development Next can expose req.url as `localhost` even when the public
+  // request came from `glowora.localhost` (or another tenant subdomain). An
+  // absolute redirect built from req.url therefore leaked users into the
+  // default localhost tenant after logout. A relative Location is resolved by
+  // the browser against the current tenant origin and preserves tenant scope.
+  return new Response(null, {
+    status: 303,
+    headers: {
+      Location: "/",
+      "Cache-Control": "no-store",
+    },
+  });
 }

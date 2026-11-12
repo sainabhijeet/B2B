@@ -1,0 +1,92 @@
+{
+  "name": "Pumps, Valves & Pipe Fittings Web Theme",
+  "version": "1.3.0",
+  "storefrontKey": "pumps-valves-pipe-fittings-web-theme",
+  "industry": "Pumps, Valves & Pipe Fittings",
+  "industryId": "10000000-0000-4000-8000-000000000019",
+  "description": "FlowHarbor: Source fluid-handling essentials from pumps to connections. A desktop sourcing assortment. Flow engineering matrix design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "designSystem": {
+    "id": "ds-25-web",
+    "direction": "Flow engineering matrix",
+    "header": "search-led",
+    "headerIdentity": "header-25-web",
+    "headerStructure": "shell-1-composition-5",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "brand-story",
+    "footerIdentity": "footer-25-web",
+    "footerStructure": "shell-4-composition-4",
+    "density": "compact",
+    "responsiveStrategy": "editorial-three-to-mobile-drawer"
+  }
+}

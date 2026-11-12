@@ -1,0 +1,102 @@
+{
+  "name": "Paper & Packaging App Theme",
+  "version": "1.3.0",
+  "storefrontKey": "paper-packaging-app-theme",
+  "industry": "Paper & Packaging",
+  "industryId": "10000000-0000-4000-8000-000000000012",
+  "description": "BoxPocket: Help businesses choose packaging from shelf to shipping. An app-first replenishment assortment. Packaging dieline studio / pocket workflow design direction with unique responsive composition and AI-generated demo photography.",
+  "author": "B2B Platform Theme Studio",
+  "templates": {
+    "home": "templates/home.json",
+    "category": "templates/category.json",
+    "product": "templates/product.json"
+  },
+  "allowedSections": [
+    "header",
+    "hero-banner",
+    "promo-banner",
+    "category-grid",
+    "product-grid",
+    "image-with-text",
+    "feature-list",
+    "testimonial-carousel",
+    "newsletter",
+    "footer",
+    "filter-sidebar",
+    "cta-banner",
+    "product-gallery",
+    "product-info",
+    "related-products",
+    "faq-section"
+  ],
+  "capabilities": {
+    "allowedSections": [
+      "header",
+      "hero-banner",
+      "promo-banner",
+      "category-grid",
+      "product-grid",
+      "image-with-text",
+      "feature-list",
+      "testimonial-carousel",
+      "newsletter",
+      "footer",
+      "filter-sidebar",
+      "cta-banner",
+      "product-gallery",
+      "product-info",
+      "related-products",
+      "faq-section"
+    ]
+  },
+  "tokens": {
+    "colors": "tokens/colors.json",
+    "typography": "tokens/typography.json",
+    "spacing": "tokens/spacing.json",
+    "layout": "tokens/layout.json"
+  },
+  "assets": {
+    "css": "assets/css/theme.css",
+    "logo": "assets/images/logo.svg"
+  },
+  "preview": {
+    "desktop": "assets/images/product-01.jpg",
+    "tablet": "assets/images/product-01.jpg",
+    "mobile": "assets/images/product-01.jpg"
+  },
+  "demoData": "demo-data/catalog.json",
+  "languages": [
+    "en"
+  ],
+  "defaultLanguage": "en",
+  "locales": {
+    "en": "locales/en.json"
+  },
+  "mobile": {
+    "base_layout": "catalog",
+    "card_style": "minimal",
+    "spacing": "airy",
+    "show_banner": true,
+    "enable_quick_qty": true,
+    "banner_image": "assets/images/product-01.jpg",
+    "category_image": "assets/images/product-01.jpg",
+    "design_id": "ds-18-app"
+  },
+  "designSystem": {
+    "id": "ds-18-app",
+    "direction": "Packaging dieline studio / pocket workflow",
+    "header": "trade-desk",
+    "headerIdentity": "header-18-app",
+    "headerStructure": "shell-6-composition-3",
+    "hero": "spec-board",
+    "categories": "horizontal-rail",
+    "productCards": "minimal",
+    "productListing": "editorial-three",
+    "productDetail": "gallery-left",
+    "footer": "marketplace",
+    "footerIdentity": "footer-18-app",
+    "footerStructure": "shell-4-composition-3",
+    "density": "airy",
+    "responsiveStrategy": "catalog"
+  }
+}

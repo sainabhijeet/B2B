@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Bell, LogOut, Search } from 'lucide-react';
-import { clearAuth } from '@/lib/authStorage';
-import { getDeviceId } from '@/lib/authStorage';
+import { clearAuth, getDeviceId, getRefreshToken } from '@/lib/authStorage';
 import { apiPost } from '@/lib/apiClient';
 
 export function TopBar() {
@@ -9,7 +8,10 @@ export function TopBar() {
 
   async function signOut() {
     try {
-      await apiPost('/auth/logout', { deviceId: getDeviceId() ?? 'web-admin' });
+      await apiPost('/auth/logout', {
+        deviceId: getDeviceId() ?? 'web-admin',
+        refreshToken: getRefreshToken() ?? undefined,
+      });
     } finally {
       clearAuth();
       navigate('/login', { replace: true });

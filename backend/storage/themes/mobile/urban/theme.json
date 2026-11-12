@@ -4,6 +4,12 @@
     "storefrontKey":  "urban-loft-furniture",
     "industry":  "furniture",
     "description":  "Concrete tones, compact layouts, and bold product cards for city homes.",
+    "languages":  [
+                       "en"
+                   ],
+    "locales":  {
+                    "en":  "locales/en.json"
+                },
     "allowedSections":  [
                             "header",
                             "hero-banner",

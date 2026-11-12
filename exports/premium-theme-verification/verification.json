@@ -1,0 +1,164 @@
+[
+  {
+    "name": "desktop",
+    "file": "exports/premium-theme-verification/electronics-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 1100,
+      "scrollX": 0,
+      "scrollY": 0,
+      "scrollWidth": 1440,
+      "scrollHeight": 6967,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)"
+    ]
+  },
+  {
+    "name": "category-dropdown",
+    "file": "exports/premium-theme-verification/electronics-category-dropdown.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "scrollX": 0,
+      "scrollY": 0,
+      "scrollWidth": 1440,
+      "scrollHeight": 6895,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  },
+  {
+    "name": "catalog-page-desktop",
+    "file": "exports/premium-theme-verification/electronics-catalog-page-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 1100,
+      "scrollX": 0,
+      "scrollY": 0,
+      "scrollWidth": 1440,
+      "scrollHeight": 2639,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)"
+    ]
+  },
+  {
+    "name": "catalog-page-mobile",
+    "file": "exports/premium-theme-verification/electronics-catalog-page-mobile.png",
+    "metrics": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollX": 0,
+      "scrollY": 0,
+      "scrollWidth": 390,
+      "scrollHeight": 3157,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  },
+  {
+    "name": "mobile",
+    "file": "exports/premium-theme-verification/electronics-mobile.png",
+    "metrics": {
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "scrollX": 0,
+      "scrollY": 0,
+      "scrollWidth": 390,
+      "scrollHeight": 12391,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  },
+  {
+    "name": "categories-desktop",
+    "file": "exports/premium-theme-verification/electronics-categories-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollX": 0,
+      "scrollY": 937,
+      "scrollWidth": 1440,
+      "scrollHeight": 6927,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)"
+    ]
+  },
+  {
+    "name": "products-desktop",
+    "file": "exports/premium-theme-verification/electronics-products-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollX": 0,
+      "scrollY": 3126,
+      "scrollWidth": 1440,
+      "scrollHeight": 6927,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  },
+  {
+    "name": "faq-desktop",
+    "file": "exports/premium-theme-verification/electronics-faq-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 1000,
+      "scrollX": 0,
+      "scrollY": 4485,
+      "scrollWidth": 1440,
+      "scrollHeight": 6927,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  },
+  {
+    "name": "footer-desktop",
+    "file": "exports/premium-theme-verification/electronics-footer-desktop.png",
+    "metrics": {
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "scrollX": 0,
+      "scrollY": 5850,
+      "scrollWidth": 1440,
+      "scrollHeight": 6895,
+      "brand": true,
+      "premium": true
+    },
+    "browserErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/wishlist)",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized) (http://127.0.0.1:5175/api/storefront/cart)"
+    ]
+  }
+]

@@ -39,6 +39,16 @@ import {
 import { TenantSchemaRunner } from '../../tenancy/tenant-schema-runner.service';
 import { PrivateDocumentsService } from '../private-documents/private-documents.service';
 import { NotificationsService } from '../notifications/notifications.service';
+import { createHash, randomUUID } from 'node:crypto';
+import * as path from 'node:path';
+import { Readable } from 'node:stream';
+import { StorageObject } from '../../common/entities/storage-object.entity';
+import { StorefrontCustomerBusinessProfileUpdateDto } from './dto/storefront-customer-business-profile-update.dto';
+import { PlatformStorageRuntimeService } from '../storage-providers/platform-storage-runtime.service';
+import { StorageObjectDeliveryService } from '../storage-providers/storage-object-delivery.service';
+import { normalizeStorageObjectKey } from '../storage-providers/storage-object-key.util';
+import { StorageObjectsService } from '../storage-providers/storage-objects.service';
+import { UploadValidationService } from '../storage-providers/upload-validation.service';
 
 function toMoneyString(v: string | undefined, fallback = '0.00'): string {
   if (v === undefined || v === '') return fallback;
@@ -70,6 +80,12 @@ export class CustomersService {
     private readonly tenantRunner: TenantSchemaRunner,
     private readonly privateDocuments: PrivateDocumentsService,
     private readonly notifications: NotificationsService,
+    @InjectRepository(StorageObject)
+    private readonly storageObjectRepo?: Repository<StorageObject>,
+    private readonly storageRuntime?: PlatformStorageRuntimeService,
+    private readonly storageObjects?: StorageObjectsService,
+    private readonly storageDelivery?: StorageObjectDeliveryService,
+    private readonly uploadValidation?: UploadValidationService,
   ) {}
 
   /** Legacy registration flow: creates an inactive retailer pending distributor approval. */
@@ -160,7 +176,7 @@ export class CustomersService {
         name: c.name,
         mobile: c.mobile,
         email: c.email,
-        profileImageUrl: this.privateDocuments.sign(c.profileImageUrl),
+        profileImageUrl: await this.profileImageUrlForCustomer(c, actor),
         creditLimit: c.creditLimit,
         creditBalance: c.creditBalance,
         addresses: addresses.map((a) => ({
@@ -185,7 +201,143 @@ export class CustomersService {
     const c = await this.storefrontCustomer(actor);
     return {
       success: true,
-      data: await this.businessProfilePayload(c),
+      data: await this.businessProfilePayload(c, undefined, actor),
+      meta: {},
+      message: '',
+    };
+  }
+
+  async updateStorefrontCustomerBusinessProfile(
+    actor: JwtUserPayload,
+    dto: StorefrontCustomerBusinessProfileUpdateDto,
+  ) {
+    const customer = await this.requireStorefrontCustomer(actor);
+    if (dto.companyLegalName !== undefined) {
+      const legalName = dto.companyLegalName.trim();
+      customer.businessLegalName = legalName.length > 0 ? legalName : null;
+    }
+    if (dto.gstin !== undefined) {
+      const gstin = dto.gstin.replace(/\s/g, '').toUpperCase();
+      customer.gstin = gstin.length > 0 ? gstin : null;
+      customer.gstVerified = false;
+      customer.gstStatus = gstin.length > 0 ? 'DOCUMENT_REQUIRED' : null;
+      customer.gstVerifiedAt = null;
+    }
+    const saved = await this.customersRepo.save(customer);
+    return {
+      success: true,
+      data: await this.businessProfilePayload(saved, undefined, actor),
+      meta: {},
+      message: '',
+    };
+  }
+
+  async gstCertificateForStorefrontCustomer(actor: JwtUserPayload) {
+    return this.businessProfileForStorefrontCustomer(actor);
+  }
+
+  async uploadStorefrontCustomerGstCertificate(
+    actor: JwtUserPayload,
+    dto: StorefrontCustomerBusinessProfileUpdateDto,
+    file: Express.Multer.File | undefined,
+  ) {
+    const customer = await this.requireStorefrontCustomer(actor);
+    if (!file) throw new BadRequestException('certificate is required.');
+    const storageRuntime = this.storageRuntime;
+    const storageObjects = this.storageObjects;
+    const uploadValidation = this.uploadValidation;
+    if (!storageRuntime || !storageObjects || !uploadValidation) {
+      throw new BadRequestException('Customer document storage is unavailable.');
+    }
+
+    if (dto.companyLegalName !== undefined) {
+      const legalName = dto.companyLegalName.trim();
+      customer.businessLegalName = legalName.length > 0 ? legalName : null;
+    }
+    if (dto.gstin !== undefined) {
+      const gstin = dto.gstin.replace(/\s/g, '').toUpperCase();
+      customer.gstin = gstin.length > 0 ? gstin : null;
+    }
+    if (!customer.businessLegalName || !customer.gstin) {
+      throw new BadRequestException(
+        'Company legal name and GSTIN are required.',
+      );
+    }
+
+    const firstPass = uploadValidation.validateFileOrThrow({
+      category: 'customer_gst_certificate',
+      file,
+    });
+    const objectId = randomUUID();
+    const objectKey = this.customerDocumentObjectKey(
+      'customer-gst-certificates',
+      customer.tenantId,
+      customer.id,
+      objectId,
+      firstPass.extension,
+    );
+    const validated = uploadValidation.validateFileOrThrow({
+      category: 'customer_gst_certificate',
+      file,
+      objectKey,
+    });
+    const resolution = await storageRuntime.resolveProvider();
+    await resolution.adapter.put({
+      key: objectKey,
+      body: Readable.from(file.buffer),
+      contentLength: validated.sizeBytes,
+      contentType: validated.detectedMimeType,
+    });
+
+    let registered;
+    try {
+      registered = await storageObjects.registerTenantObjectForTenant(
+        customer.tenantId,
+        {
+          providerId: resolution.metadata.providerId,
+          objectKey,
+          originalFilename: this.sanitizeUploadFilename(
+            validated.filename,
+            'gst-certificate',
+          ),
+          mimeType: validated.detectedMimeType,
+          sizeBytes: validated.sizeBytes,
+          checksumSha256: createHash('sha256').update(file.buffer).digest('hex'),
+          objectCategory: 'customer_gst_certificate',
+          accessScope: 'TENANT_PRIVATE',
+          metadata: {
+            source: 'storefront.customer.gst_certificate',
+            customerId: customer.id,
+            runtimeSource: resolution.metadata.source,
+          },
+        },
+        actor,
+      );
+    } catch (error) {
+      await resolution.adapter.delete(objectKey).catch(() => undefined);
+      throw error;
+    }
+
+    const previousId = customer.gstCertificateStorageObjectId;
+    customer.gstCertificateStorageObjectId = registered.id;
+    customer.gstCertificateFileName = this.sanitizeUploadFilename(
+      validated.filename,
+      'gst-certificate',
+    );
+    customer.gstVerified = false;
+    customer.gstStatus = 'DOCUMENT_UPLOADED';
+    customer.gstVerifiedAt = null;
+    await this.customersRepo.save(customer);
+    await this.markPreviousStorageObjectDeleted(
+      previousId,
+      customer,
+      registered.id,
+      'customer_gst_certificate',
+      actor,
+    );
+    return {
+      success: true,
+      data: await this.businessProfilePayload(customer, undefined, actor),
       meta: {},
       message: '',
     };
@@ -225,6 +377,7 @@ export class CustomersService {
       data: await this.businessProfilePayload(
         c,
         'Upload GST certificate to complete document verification.',
+        actor,
       ),
       meta: {},
       message: 'Business details saved.',
@@ -297,9 +450,9 @@ export class CustomersService {
       : 'GST certificate uploaded. No third-party GST API was used; document is verified from uploaded file and entered GSTIN.';
     return {
       success: true,
-      data: await this.businessProfilePayload(c, message),
+      data: await this.businessProfilePayload(c, message, actor),
       meta: { extractedGstin },
-      message,
+      message: message ?? null,
     };
   }
 
@@ -411,14 +564,24 @@ export class CustomersService {
     };
   }
 
-  private async businessProfilePayload(c: Customer, message?: string) {
+  private async businessProfilePayload(
+    c: Customer,
+    message?: string,
+    actor?: JwtUserPayload,
+  ) {
     return {
       companyLegalName: c.businessLegalName ?? c.name,
       gstin: c.gstin ?? '',
       verified: c.gstVerified === true,
       status: c.gstStatus ?? (c.gstVerified ? 'VERIFIED' : 'UNVERIFIED'),
-      message,
-      certificateUrl: this.privateDocuments.sign(c.gstCertificateUrl),
+      message: message ?? null,
+      certificateUrl:
+        actor && c.gstCertificateStorageObjectId && this.storageDelivery
+          ? await this.storageDelivery
+              .createSignedReadAccess(c.gstCertificateStorageObjectId, actor)
+              .then((access) => access.url)
+              .catch(() => null)
+          : (this.privateDocuments.sign(c.gstCertificateUrl) ?? null),
       certificateFileName: c.gstCertificateFileName,
       verifiedAt: c.gstVerifiedAt?.toISOString() ?? null,
     };
@@ -490,6 +653,107 @@ export class CustomersService {
       await this.privateDocuments.delete(previousProfile);
     }
     return this.profileForStorefrontCustomer(actor);
+  }
+
+  async uploadStorefrontCustomerAvatar(
+    actor: JwtUserPayload,
+    file: Express.Multer.File | undefined,
+  ) {
+    const customer = await this.requireStorefrontCustomer(actor);
+    if (!file) throw new BadRequestException('file is required.');
+    const storageRuntime = this.storageRuntime;
+    const storageObjects = this.storageObjects;
+    const uploadValidation = this.uploadValidation;
+    if (!storageRuntime || !storageObjects || !uploadValidation) {
+      throw new BadRequestException('Customer avatar storage is unavailable.');
+    }
+    const firstPass = uploadValidation.validateFileOrThrow({
+      category: 'customer_avatar',
+      file,
+    });
+    const objectId = randomUUID();
+    const objectKey = this.customerDocumentObjectKey(
+      'customer-avatars',
+      customer.tenantId,
+      customer.id,
+      objectId,
+      firstPass.extension,
+    );
+    const validated = uploadValidation.validateFileOrThrow({
+      category: 'customer_avatar',
+      file,
+      objectKey,
+    });
+    const resolution = await storageRuntime.resolveProvider();
+    await resolution.adapter.put({
+      key: objectKey,
+      body: Readable.from(file.buffer),
+      contentLength: validated.sizeBytes,
+      contentType: validated.detectedMimeType,
+    });
+    let registered;
+    try {
+      registered = await storageObjects.registerTenantObjectForTenant(
+        customer.tenantId,
+        {
+          providerId: resolution.metadata.providerId,
+          objectKey,
+          originalFilename: this.sanitizeUploadFilename(
+            validated.filename,
+            'avatar',
+          ),
+          mimeType: validated.detectedMimeType,
+          sizeBytes: validated.sizeBytes,
+          checksumSha256: createHash('sha256').update(file.buffer).digest('hex'),
+          objectCategory: 'customer_avatar',
+          accessScope: 'TENANT_PRIVATE',
+          metadata: {
+            source: 'storefront.customer.avatar',
+            customerId: customer.id,
+            runtimeSource: resolution.metadata.source,
+          },
+        },
+        actor,
+      );
+    } catch (error) {
+      await resolution.adapter.delete(objectKey).catch(() => undefined);
+      throw error;
+    }
+    const previousId = customer.avatarStorageObjectId;
+    customer.avatarStorageObjectId = registered.id;
+    await this.customersRepo.save(customer);
+    await this.markPreviousStorageObjectDeleted(
+      previousId,
+      customer,
+      registered.id,
+      'customer_avatar',
+      actor,
+    );
+    return this.profileForStorefrontCustomer(actor);
+  }
+
+  async listAddressesForStorefrontCustomer(actor: JwtUserPayload) {
+    const customer = await this.requireStorefrontCustomer(actor);
+    const addresses = await this.addressesRepo.find({
+      where: { customerId: customer.id },
+      order: { isDefault: 'DESC', createdAt: 'ASC' },
+    });
+    return {
+      success: true,
+      data: addresses.map((address) => ({
+        id: address.id,
+        label: address.label,
+        line1: address.line1,
+        line2: address.line2,
+        city: address.city,
+        state: address.state,
+        pincode: address.pincode,
+        countryCode: address.countryCode,
+        isDefault: address.isDefault,
+      })),
+      meta: {},
+      message: '',
+    };
   }
 
   async addAddressForStorefrontCustomer(
@@ -685,7 +949,7 @@ export class CustomersService {
     }
     return {
       success: true,
-      data: { id: address.id },
+      data: { id: address.id, deleted: true },
       meta: {},
       message: 'Address deleted.',
     };
@@ -1431,6 +1695,67 @@ export class CustomersService {
     if (isDelete && actor.role === UserRole.STAFF) {
       throw new ForbiddenException('STAFF cannot delete customers.');
     }
+  }
+
+  private async profileImageUrlForCustomer(
+    customer: Customer,
+    actor: JwtUserPayload,
+  ): Promise<string | null> {
+    if (customer.avatarStorageObjectId && this.storageDelivery) {
+      try {
+        const access = await this.storageDelivery.createSignedReadAccess(
+          customer.avatarStorageObjectId,
+          actor,
+        );
+        return access.url;
+      } catch {
+        return null;
+      }
+    }
+    return this.privateDocuments.sign(customer.profileImageUrl) ?? null;
+  }
+
+  private customerDocumentObjectKey(
+    prefix: string,
+    tenantId: string,
+    customerId: string,
+    objectId: string,
+    extension: string,
+  ): string {
+    return normalizeStorageObjectKey(
+      path.posix.join(prefix, tenantId, customerId, `${objectId}${extension}`),
+    );
+  }
+
+  private sanitizeUploadFilename(filename: string, fallback: string): string {
+    const basename = path.basename(filename.trim());
+    const sanitized = basename
+      .replace(/[<>:"/\\|?*\u0000-\u001f\u007f]/g, '_')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return (sanitized || fallback).slice(0, 255);
+  }
+
+  private async markPreviousStorageObjectDeleted(
+    previousId: string | null,
+    customer: Customer,
+    newId: string,
+    category: 'customer_avatar' | 'customer_gst_certificate',
+    actor: JwtUserPayload,
+  ): Promise<void> {
+    if (!previousId || previousId === newId || !this.storageObjectRepo) return;
+    const previous = await this.storageObjectRepo.findOne({
+      where: {
+        id: previousId,
+        tenantId: customer.tenantId,
+        objectCategory: category,
+      },
+    });
+    if (!previous || previous.metadata?.customerId !== customer.id) return;
+    previous.status = 'DELETED';
+    previous.deletedAt = new Date();
+    previous.updatedBy = actor.sub;
+    await this.storageObjectRepo.save(previous);
   }
 
   private async replaceAddresses(

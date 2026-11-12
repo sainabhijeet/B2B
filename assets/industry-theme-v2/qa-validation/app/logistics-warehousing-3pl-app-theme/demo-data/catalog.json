@@ -1,0 +1,317 @@
+{
+  "industryId": "10000000-0000-4000-8000-00000000001c",
+  "industry": "Logistics, Warehousing & 3PL",
+  "themeName": "Logistics, Warehousing & 3PL App Theme",
+  "demoOnly": true,
+  "currency": "INR",
+  "disclaimer": "Fictional demo catalog with AI-generated product images. No actual supplier, stock, certification or price is represented.",
+  "store": {
+    "name": "WarehousePocket",
+    "industry": "Logistics, Warehousing & 3PL",
+    "tagline": "Browse cantilever storage rack, platform hand truck and a dedicated logistics, warehousing & 3pl mobile assortment.",
+    "email": "hello@warehousepocket.example",
+    "logo": "assets/images/logo.svg"
+  },
+  "offers": [
+    {
+      "title": "WarehousePocket quantity rewards",
+      "description": "Compare the sample bulk tiers in WarehousePocket's logistics, warehousing & 3pl range.",
+      "demoOnly": true
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "WarehousePocket sample buyer story",
+      "quote": "Our demo logistics, warehousing & 3pl buying team can compare cantilever storage rack and carton strapping kit in one restock list.",
+      "author": "Fictional WarehousePocket buyer — demo feedback",
+      "designId": "ds-28-app",
+      "layoutMode": "Warehouse dispatch board / pocket workflow",
+      "density": "compact",
+      "demoOnly": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "logistics-warehousing-3pl-app-theme-category-1",
+      "slug": "storage-systems",
+      "name": "WarehousePocket Storage Systems",
+      "description": "Pick storage systems for your logistics, warehousing & 3pl replenishment list with WarehousePocket.",
+      "image": "assets/images/product-01.jpg"
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-category-2",
+      "slug": "material-movement",
+      "name": "WarehousePocket Material Movement",
+      "description": "Pick material movement for your logistics, warehousing & 3pl replenishment list with WarehousePocket.",
+      "image": "assets/images/product-02.jpg"
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-category-3",
+      "slug": "packaging-operations",
+      "name": "WarehousePocket Packaging Operations",
+      "description": "Pick packaging operations for your logistics, warehousing & 3pl replenishment list with WarehousePocket.",
+      "image": "assets/images/product-03.jpg"
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-category-4",
+      "slug": "tracking-supplies",
+      "name": "WarehousePocket Tracking Supplies",
+      "description": "Pick tracking supplies for your logistics, warehousing & 3pl replenishment list with WarehousePocket.",
+      "image": "assets/images/product-04.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-1",
+      "slug": "warehousepocket-cantilever-storage-rack",
+      "sku": "APP-28-1",
+      "name": "WarehousePocket Cantilever Storage Rack",
+      "description": "Cantilever Storage Rack for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with storage systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "storage-systems",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-1",
+      "categoryName": "WarehousePocket Storage Systems",
+      "brand": "WarehousePocket",
+      "price": 15540,
+      "currency": "INR",
+      "priceLabel": "INR 15,540",
+      "image": "assets/images/product-01.jpg",
+      "stock": 122,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Best seller",
+      "compareAtPrice": 18337,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 15540
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 14763
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 13986
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Cantilever Storage Rack",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-2",
+      "slug": "warehousepocket-platform-hand-truck",
+      "sku": "APP-28-2",
+      "name": "WarehousePocket Platform Hand Truck",
+      "description": "Platform Hand Truck for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with material movement so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "material-movement",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-2",
+      "categoryName": "WarehousePocket Material Movement",
+      "brand": "WarehousePocket",
+      "price": 18480,
+      "currency": "INR",
+      "priceLabel": "INR 18,480",
+      "image": "assets/images/product-02.jpg",
+      "stock": 133,
+      "moq": 1,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "New arrival",
+      "compareAtPrice": 21806,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 1,
+          "unitPrice": 18480
+        },
+        {
+          "minQuantity": 5,
+          "unitPrice": 17556
+        },
+        {
+          "minQuantity": 10,
+          "unitPrice": 16632
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Platform Hand Truck",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-3",
+      "slug": "warehousepocket-carton-strapping-kit",
+      "sku": "APP-28-3",
+      "name": "WarehousePocket Carton Strapping Kit",
+      "description": "Carton Strapping Kit for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with packaging operations so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "packaging-operations",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-3",
+      "categoryName": "WarehousePocket Packaging Operations",
+      "brand": "WarehousePocket",
+      "price": 791,
+      "currency": "INR",
+      "priceLabel": "INR 791",
+      "image": "assets/images/product-03.jpg",
+      "stock": 144,
+      "moq": 3,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Bulk deal",
+      "compareAtPrice": 933,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 3,
+          "unitPrice": 791
+        },
+        {
+          "minQuantity": 15,
+          "unitPrice": 751
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 712
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Carton Strapping Kit",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-4",
+      "slug": "warehousepocket-handheld-label-printer",
+      "sku": "APP-28-4",
+      "name": "WarehousePocket Handheld Label Printer",
+      "description": "Handheld Label Printer for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with tracking supplies so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "tracking-supplies",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-4",
+      "categoryName": "WarehousePocket Tracking Supplies",
+      "brand": "WarehousePocket",
+      "price": 4536,
+      "currency": "INR",
+      "priceLabel": "INR 4,536",
+      "image": "assets/images/product-04.jpg",
+      "stock": 155,
+      "moq": 6,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Popular pick",
+      "compareAtPrice": 5352,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 6,
+          "unitPrice": 4536
+        },
+        {
+          "minQuantity": 30,
+          "unitPrice": 4309
+        },
+        {
+          "minQuantity": 60,
+          "unitPrice": 4082
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Handheld Label Printer",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-5",
+      "slug": "warehousepocket-stackable-parts-bin",
+      "sku": "APP-28-5",
+      "name": "WarehousePocket Stackable Parts Bin",
+      "description": "Stackable Parts Bin for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with storage systems so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "storage-systems",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-1",
+      "categoryName": "WarehousePocket Storage Systems",
+      "brand": "WarehousePocket",
+      "price": 2128,
+      "currency": "INR",
+      "priceLabel": "INR 2,128",
+      "image": "assets/images/product-05.jpg",
+      "stock": 166,
+      "moq": 5,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Featured",
+      "compareAtPrice": 2511,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 5,
+          "unitPrice": 2128
+        },
+        {
+          "minQuantity": 25,
+          "unitPrice": 2022
+        },
+        {
+          "minQuantity": 50,
+          "unitPrice": 1915
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Stackable Parts Bin",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    },
+    {
+      "id": "logistics-warehousing-3pl-app-theme-product-6",
+      "slug": "warehousepocket-roller-conveyor-section",
+      "sku": "APP-28-6",
+      "name": "WarehousePocket Roller Conveyor Section",
+      "description": "Roller Conveyor Section for your logistics, warehousing & 3pl replenishment list. WarehousePocket groups this item with material movement so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+      "demoOnly": true,
+      "category": "material-movement",
+      "categoryId": "logistics-warehousing-3pl-app-theme-category-2",
+      "categoryName": "WarehousePocket Material Movement",
+      "brand": "WarehousePocket",
+      "price": 767,
+      "currency": "INR",
+      "priceLabel": "INR 767",
+      "image": "assets/images/product-06.jpg",
+      "stock": 177,
+      "moq": 8,
+      "unit": "selling pack",
+      "availability": "In stock (demo)",
+      "badge": "Value pack",
+      "compareAtPrice": 905,
+      "leadTime": "Sample dispatch: 3-5 business days",
+      "bulkPrices": [
+        {
+          "minQuantity": 8,
+          "unitPrice": 767
+        },
+        {
+          "minQuantity": 40,
+          "unitPrice": 729
+        },
+        {
+          "minQuantity": 80,
+          "unitPrice": 690
+        }
+      ],
+      "imageAlt": "AI-generated demo product photograph: WarehousePocket Roller Conveyor Section",
+      "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+    }
+  ],
+  "version": "1.3.0",
+  "designSystem": {
+    "id": "ds-28-app",
+    "direction": "Warehouse dispatch board / pocket workflow",
+    "header": "catalog-rail",
+    "headerIdentity": "header-28-app",
+    "headerStructure": "shell-4-composition-5",
+    "hero": "split-right",
+    "categories": "image-tiles",
+    "productCards": "marketplace",
+    "productListing": "visual-four",
+    "productDetail": "compact-order",
+    "footer": "newsletter-led",
+    "footerIdentity": "footer-28-app",
+    "footerStructure": "shell-7-composition-4",
+    "density": "compact",
+    "responsiveStrategy": "fast_order"
+  }
+}

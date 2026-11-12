@@ -102,7 +102,7 @@ export default function CheckoutPageClient({
 
   if (cartStatus === 401 || cartStatus === 403) {
     return (
-      <main className="mx-auto max-w-lg px-4 py-16 text-center">
+      <main className="storefront-checkout-page mx-auto max-w-lg px-4 py-16 text-center">
         <h1 className="text-xl font-semibold text-slate-900">{t("Checkout")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("Sign in to review your cart and place an order.")}</p>
         <Link
@@ -117,7 +117,7 @@ export default function CheckoutPageClient({
 
   if (buyNowRequested && !buyNowItem) {
     return (
-      <main className="mx-auto max-w-lg px-4 py-16 text-center">
+      <main className="storefront-checkout-page mx-auto max-w-lg px-4 py-16 text-center">
         <h1 className="text-xl font-semibold text-slate-900">{t("Buy Now")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("This product or variant is unavailable. Please return to the product page.")}</p>
         <Link href="/category" className="mt-8 inline-block text-sm font-semibold text-indigo-600 hover:underline">{t("Browse products")}</Link>
@@ -127,7 +127,7 @@ export default function CheckoutPageClient({
 
   if (items.length === 0) {
     return (
-      <main className="mx-auto max-w-lg px-4 py-16 text-center">
+      <main className="storefront-checkout-page mx-auto max-w-lg px-4 py-16 text-center">
         <h1 className="text-xl font-semibold text-slate-900">{t("Checkout")}</h1>
         <p className="mt-3 text-sm text-slate-600">{t("Your cart is empty.")}</p>
         <Link href="/category" className="mt-8 inline-block text-sm text-indigo-600 hover:underline">
@@ -147,7 +147,7 @@ export default function CheckoutPageClient({
     ) : null;
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-10">
+    <main className="storefront-checkout-page mx-auto max-w-3xl px-4 py-10">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <h1 className="text-2xl font-semibold text-slate-900">{t("Checkout")}</h1>

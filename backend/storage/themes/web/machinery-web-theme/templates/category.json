@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "MotionForge",
+        "industryName": "Machinery",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "minimal-mark"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "MotionForge / Machinery",
+        "subtitle": "Source cnc milling center, automatic sealer and more from this machinery trade collection.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "hero-stacked-center"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find MotionForge supplies",
+        "message": "Explore MotionForge CNC Machines, MotionForge Packaging Machines, MotionForge Machine Components, MotionForge Maintenance Tools.",
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "filters-sidebar-grid"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "MotionForge trade selection",
+        "subtitle": "Source cnc milling center, automatic sealer and more from this machinery trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "MotionForge CNC Milling Center",
+          "MotionForge Automatic Sealer",
+          "MotionForge Precision Ball Screw",
+          "MotionForge Industrial Gearbox",
+          "MotionForge Lathe Chuck Set",
+          "MotionForge Machine Lubrication Pump"
+        ],
+        "prices": [
+          "INR 4,50,000",
+          "INR 28,500",
+          "INR 12,500",
+          "INR 34,000",
+          "INR 8,900",
+          "INR 4,800"
+        ],
+        "products": [
+          {
+            "id": "machinery-web-theme-product-1",
+            "slug": "motionforge-cnc-milling-center",
+            "sku": "WEB-05-1",
+            "name": "MotionForge CNC Milling Center",
+            "description": "CNC Milling Center from MotionForge's cnc machines assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "cnc-machines",
+            "categoryId": "machinery-web-theme-category-1",
+            "categoryName": "MotionForge CNC Machines",
+            "brand": "MotionForge",
+            "price": 450000,
+            "currency": "INR",
+            "priceLabel": "INR 4,50,000",
+            "image": "assets/images/product-01.jpg",
+            "stock": 80,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 531000,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 450000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 427500
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 405000
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge CNC Milling Center",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "machinery-web-theme-product-2",
+            "slug": "motionforge-automatic-sealer",
+            "sku": "WEB-05-2",
+            "name": "MotionForge Automatic Sealer",
+            "description": "Automatic Sealer from MotionForge's packaging machines assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "packaging-machines",
+            "categoryId": "machinery-web-theme-category-2",
+            "categoryName": "MotionForge Packaging Machines",
+            "brand": "MotionForge",
+            "price": 28500,
+            "currency": "INR",
+            "priceLabel": "INR 28,500",
+            "image": "assets/images/product-02.jpg",
+            "stock": 91,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 33630,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 27075
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge Automatic Sealer",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "machinery-web-theme-product-3",
+            "slug": "motionforge-precision-ball-screw",
+            "sku": "WEB-05-3",
+            "name": "MotionForge Precision Ball Screw",
+            "description": "Precision Ball Screw from MotionForge's machine components assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "machine-components",
+            "categoryId": "machinery-web-theme-category-3",
+            "categoryName": "MotionForge Machine Components",
+            "brand": "MotionForge",
+            "price": 12500,
+            "currency": "INR",
+            "priceLabel": "INR 12,500",
+            "image": "assets/images/product-03.jpg",
+            "stock": 102,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 14750,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 12500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 11875
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 11250
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge Precision Ball Screw",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "machinery-web-theme-product-4",
+            "slug": "motionforge-industrial-gearbox",
+            "sku": "WEB-05-4",
+            "name": "MotionForge Industrial Gearbox",
+            "description": "Industrial Gearbox from MotionForge's machine components assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "machine-components",
+            "categoryId": "machinery-web-theme-category-3",
+            "categoryName": "MotionForge Machine Components",
+            "brand": "MotionForge",
+            "price": 34000,
+            "currency": "INR",
+            "priceLabel": "INR 34,000",
+            "image": "assets/images/product-04.jpg",
+            "stock": 113,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 40120,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 34000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 32300
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 30600
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge Industrial Gearbox",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "machinery-web-theme-product-5",
+            "slug": "motionforge-lathe-chuck-set",
+            "sku": "WEB-05-5",
+            "name": "MotionForge Lathe Chuck Set",
+            "description": "Lathe Chuck Set from MotionForge's machine components assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "machine-components",
+            "categoryId": "machinery-web-theme-category-3",
+            "categoryName": "MotionForge Machine Components",
+            "brand": "MotionForge",
+            "price": 8900,
+            "currency": "INR",
+            "priceLabel": "INR 8,900",
+            "image": "assets/images/product-05.jpg",
+            "stock": 124,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 10502,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 8900
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 8455
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 8010
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge Lathe Chuck Set",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "machinery-web-theme-product-6",
+            "slug": "motionforge-machine-lubrication-pump",
+            "sku": "WEB-05-6",
+            "name": "MotionForge Machine Lubrication Pump",
+            "description": "Machine Lubrication Pump from MotionForge's maintenance tools assortment. Match production requirements with practical machine choices. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "maintenance-tools",
+            "categoryId": "machinery-web-theme-category-4",
+            "categoryName": "MotionForge Maintenance Tools",
+            "brand": "MotionForge",
+            "price": 4800,
+            "currency": "INR",
+            "priceLabel": "INR 4,800",
+            "image": "assets/images/product-06.jpg",
+            "stock": 135,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 5664,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 4800
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 4560
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 4320
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: MotionForge Machine Lubrication Pump",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced",
+        "cardStyle": "bulk-table",
+        "columns": 4
+      },
+      "variant": "products-bulk-table"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your MotionForge order",
+        "subtitle": "Review quantities for cnc milling center with this machinery preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "MotionForge",
+        "industryName": "Machinery",
+        "tagline": "Source cnc milling center, automatic sealer and more from this machinery trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-05-web",
+        "layoutMode": "sidebar-grid",
+        "density": "balanced"
+      },
+      "variant": "footer-newsletter-led"
+    }
+  ],
+  "design": "ds-05-web"
+}

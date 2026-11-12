@@ -1,0 +1,122 @@
+{
+    "industryId":  "10000000-0000-4000-8000-00000000000d",
+    "industry":  "Agriculture, Seeds \u0026 Agri-inputs",
+    "themeName":  "Agriculture, Seeds \u0026 Agri-inputs App Theme",
+    "demoOnly":  true,
+    "categories":  [
+                       {
+                           "id":  "agriculture-seeds-agri-inputs-category-1",
+                           "slug":  "seeds",
+                           "name":  "Seeds",
+                           "description":  "Browse wholesale seeds for verified business buyers.",
+                           "image":  "assets/images/category-01.svg"
+                       },
+                       {
+                           "id":  "agriculture-seeds-agri-inputs-category-2",
+                           "slug":  "fertilizers",
+                           "name":  "Fertilizers",
+                           "description":  "Browse wholesale fertilizers for verified business buyers.",
+                           "image":  "assets/images/category-02.svg"
+                       },
+                       {
+                           "id":  "agriculture-seeds-agri-inputs-category-3",
+                           "slug":  "crop-protection",
+                           "name":  "Crop Protection",
+                           "description":  "Browse wholesale crop protection for verified business buyers.",
+                           "image":  "assets/images/category-03.svg"
+                       },
+                       {
+                           "id":  "agriculture-seeds-agri-inputs-category-4",
+                           "slug":  "farm-tools",
+                           "name":  "Farm Tools",
+                           "description":  "Browse wholesale farm tools for verified business buyers.",
+                           "image":  "assets/images/category-04.svg"
+                       }
+                   ],
+    "products":  [
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-1",
+                         "slug":  "hybrid-maize-seeds",
+                         "sku":  "DEMO-13-001",
+                         "name":  "Hybrid Maize Seeds",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "seeds",
+                         "price":  1604,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 1,604",
+                         "image":  "assets/images/product-01.svg",
+                         "stock":  25,
+                         "moq":  1
+                     },
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-2",
+                         "slug":  "organic-growth-fertilizer",
+                         "sku":  "DEMO-13-002",
+                         "name":  "Organic Growth Fertilizer",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "fertilizers",
+                         "price":  2034,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 2,034",
+                         "image":  "assets/images/product-02.svg",
+                         "stock":  42,
+                         "moq":  2
+                     },
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-3",
+                         "slug":  "crop-protection-spray",
+                         "sku":  "DEMO-13-003",
+                         "name":  "Crop Protection Spray",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "crop-protection",
+                         "price":  2464,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 2,464",
+                         "image":  "assets/images/product-03.svg",
+                         "stock":  59,
+                         "moq":  3
+                     },
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-4",
+                         "slug":  "manual-seed-planter",
+                         "sku":  "DEMO-13-004",
+                         "name":  "Manual Seed Planter",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "farm-tools",
+                         "price":  2894,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 2,894",
+                         "image":  "assets/images/product-04.svg",
+                         "stock":  76,
+                         "moq":  4
+                     },
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-5",
+                         "slug":  "drip-irrigation-kit",
+                         "sku":  "DEMO-13-005",
+                         "name":  "Drip Irrigation Kit",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "seeds",
+                         "price":  3324,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 3,324",
+                         "image":  "assets/images/product-05.svg",
+                         "stock":  93,
+                         "moq":  1
+                     },
+                     {
+                         "id":  "agriculture-seeds-agri-inputs-product-6",
+                         "slug":  "soil-testing-meter",
+                         "sku":  "DEMO-13-006",
+                         "name":  "Soil Testing Meter",
+                         "description":  "Demo agriculture, seeds \u0026 agri-inputs product for Live Preview.",
+                         "category":  "fertilizers",
+                         "price":  3754,
+                         "currency":  "INR",
+                         "priceLabel":  "INR 3,754",
+                         "image":  "assets/images/product-06.svg",
+                         "stock":  110,
+                         "moq":  2
+                     }
+                 ]
+}

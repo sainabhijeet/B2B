@@ -1,0 +1,379 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "StepBasket",
+        "industryName": "Footwear",
+        "nav": [
+          "Home",
+          "Categories",
+          "Products",
+          "Offers",
+          "Cart",
+          "Login"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced"
+      },
+      "variant": "trade-desk"
+    },
+    {
+      "id": "category-hero",
+      "type": "hero-banner",
+      "settings": {
+        "title": "StepBasket / Footwear",
+        "subtitle": "Browse suede derby shoes, trail running shoes and a dedicated footwear mobile assortment.",
+        "image": "assets/images/product-01.jpg",
+        "primaryCta": "Start browsing",
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced"
+      },
+      "variant": "hero-spec-board"
+    },
+    {
+      "id": "filters",
+      "type": "filter-sidebar",
+      "settings": {
+        "title": "Find StepBasket supplies",
+        "message": "Explore StepBasket Formal Shoes, StepBasket Sports Shoes, StepBasket Safety Footwear, StepBasket Sandals & Slippers.",
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced"
+      },
+      "variant": "filters-catalog-matrix"
+    },
+    {
+      "id": "category-products",
+      "type": "product-grid",
+      "settings": {
+        "title": "StepBasket restock picks",
+        "subtitle": "Browse suede derby shoes, trail running shoes and a dedicated footwear mobile assortment.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "StepBasket Suede Derby Shoes",
+          "StepBasket Trail Running Shoes",
+          "StepBasket Composite Toe Work Shoes",
+          "StepBasket Cork Footbed Slides",
+          "StepBasket Brogue Dress Shoes",
+          "StepBasket Court Training Shoes"
+        ],
+        "prices": [
+          "INR 1,511",
+          "INR 2,799",
+          "INR 1,766",
+          "INR 701",
+          "INR 683",
+          "INR 1,533"
+        ],
+        "products": [
+          {
+            "id": "footwear-app-theme-product-1",
+            "slug": "stepbasket-suede-derby-shoes",
+            "sku": "APP-02-1",
+            "name": "StepBasket Suede Derby Shoes",
+            "description": "Suede Derby Shoes for your footwear replenishment list. StepBasket groups this item with formal shoes so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "formal-shoes",
+            "categoryId": "footwear-app-theme-category-1",
+            "categoryName": "StepBasket Formal Shoes",
+            "brand": "StepBasket",
+            "price": 1511,
+            "currency": "INR",
+            "priceLabel": "INR 1,511",
+            "image": "assets/images/product-01.jpg",
+            "stock": 44,
+            "moq": 2,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 1783,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 2,
+                "unitPrice": 1511
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 1435
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 1360
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Suede Derby Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-app-theme-product-2",
+            "slug": "stepbasket-trail-running-shoes",
+            "sku": "APP-02-2",
+            "name": "StepBasket Trail Running Shoes",
+            "description": "Trail Running Shoes for your footwear replenishment list. StepBasket groups this item with sports shoes so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "sports-shoes",
+            "categoryId": "footwear-app-theme-category-2",
+            "categoryName": "StepBasket Sports Shoes",
+            "brand": "StepBasket",
+            "price": 2799,
+            "currency": "INR",
+            "priceLabel": "INR 2,799",
+            "image": "assets/images/product-02.jpg",
+            "stock": 55,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 3303,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 2799
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 2659
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 2519
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Trail Running Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-app-theme-product-3",
+            "slug": "stepbasket-composite-toe-work-shoes",
+            "sku": "APP-02-3",
+            "name": "StepBasket Composite Toe Work Shoes",
+            "description": "Composite Toe Work Shoes for your footwear replenishment list. StepBasket groups this item with safety footwear so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "safety-footwear",
+            "categoryId": "footwear-app-theme-category-3",
+            "categoryName": "StepBasket Safety Footwear",
+            "brand": "StepBasket",
+            "price": 1766,
+            "currency": "INR",
+            "priceLabel": "INR 1,766",
+            "image": "assets/images/product-03.jpg",
+            "stock": 66,
+            "moq": 3,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 2084,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 3,
+                "unitPrice": 1766
+              },
+              {
+                "minQuantity": 15,
+                "unitPrice": 1678
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 1589
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Composite Toe Work Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-app-theme-product-4",
+            "slug": "stepbasket-cork-footbed-slides",
+            "sku": "APP-02-4",
+            "name": "StepBasket Cork Footbed Slides",
+            "description": "Cork Footbed Slides for your footwear replenishment list. StepBasket groups this item with sandals & slippers so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "sandals-slippers",
+            "categoryId": "footwear-app-theme-category-4",
+            "categoryName": "StepBasket Sandals & Slippers",
+            "brand": "StepBasket",
+            "price": 701,
+            "currency": "INR",
+            "priceLabel": "INR 701",
+            "image": "assets/images/product-04.jpg",
+            "stock": 77,
+            "moq": 6,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 827,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 6,
+                "unitPrice": 701
+              },
+              {
+                "minQuantity": 30,
+                "unitPrice": 666
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 631
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Cork Footbed Slides",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-app-theme-product-5",
+            "slug": "stepbasket-brogue-dress-shoes",
+            "sku": "APP-02-5",
+            "name": "StepBasket Brogue Dress Shoes",
+            "description": "Brogue Dress Shoes for your footwear replenishment list. StepBasket groups this item with formal shoes so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "formal-shoes",
+            "categoryId": "footwear-app-theme-category-1",
+            "categoryName": "StepBasket Formal Shoes",
+            "brand": "StepBasket",
+            "price": 683,
+            "currency": "INR",
+            "priceLabel": "INR 683",
+            "image": "assets/images/product-05.jpg",
+            "stock": 88,
+            "moq": 5,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 806,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 5,
+                "unitPrice": 683
+              },
+              {
+                "minQuantity": 25,
+                "unitPrice": 649
+              },
+              {
+                "minQuantity": 50,
+                "unitPrice": 615
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Brogue Dress Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "footwear-app-theme-product-6",
+            "slug": "stepbasket-court-training-shoes",
+            "sku": "APP-02-6",
+            "name": "StepBasket Court Training Shoes",
+            "description": "Court Training Shoes for your footwear replenishment list. StepBasket groups this item with sports shoes so mobile buyers can review pack quantities and plan repeat orders. Fictional demo item; confirm the actual specification with the supplier.",
+            "demoOnly": true,
+            "category": "sports-shoes",
+            "categoryId": "footwear-app-theme-category-2",
+            "categoryName": "StepBasket Sports Shoes",
+            "brand": "StepBasket",
+            "price": 1533,
+            "currency": "INR",
+            "priceLabel": "INR 1,533",
+            "image": "assets/images/product-06.jpg",
+            "stock": 99,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 1809,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 1533
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 1456
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 1380
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: StepBasket Court Training Shoes",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced",
+        "cardStyle": "minimal",
+        "columns": 2
+      },
+      "variant": "products-minimal"
+    },
+    {
+      "id": "quote",
+      "type": "cta-banner",
+      "settings": {
+        "title": "Plan your StepBasket order",
+        "subtitle": "Review quantities for suede derby shoes with this footwear preview.",
+        "buttonLabel": "Request quote",
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced"
+      },
+      "variant": "cta-banner-balanced"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "StepBasket",
+        "industryName": "Footwear",
+        "tagline": "Browse suede derby shoes, trail running shoes and a dedicated footwear mobile assortment. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-02-app",
+        "layoutMode": "catalog-matrix",
+        "density": "balanced"
+      },
+      "variant": "footer-trade-directory"
+    }
+  ],
+  "design": "ds-02-app"
+}

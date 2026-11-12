@@ -1,0 +1,494 @@
+{
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "settings": {
+        "logoText": "PlantWorks",
+        "industryName": "Industrial Equipment",
+        "nav": [
+          "Home",
+          "Categories",
+          "Offers",
+          "Bulk Orders",
+          "About",
+          "Contact"
+        ],
+        "logoImageUrl": "assets/images/logo.svg",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "plant-ops"
+    },
+    {
+      "id": "hero",
+      "type": "hero-banner",
+      "settings": {
+        "eyebrow": "PLANT FLOOR PROCUREMENT / EQUIPMENT CATALOG",
+        "title": "Production-ready equipment. Procured with control.",
+        "subtitle": "Compare essential workshop equipment, operating specifications and trade quantities from one controlled sourcing desk.",
+        "primaryCta": "Browse equipment",
+        "secondaryCta": "Request sourcing quote",
+        "image": "assets/images/product-01.jpg",
+        "primaryHref": "/category",
+        "secondaryHref": "/contact",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "hero-control-deck"
+    },
+    {
+      "id": "categories",
+      "type": "category-grid",
+      "settings": {
+        "title": "Source by operating zone",
+        "subtitle": "Four focused equipment groups for plant, workshop and maintenance procurement.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg"
+        ],
+        "labels": [
+          "PlantWorks Material Handling",
+          "PlantWorks Workshop Equipment",
+          "PlantWorks Automation",
+          "PlantWorks Measuring Tools"
+        ],
+        "categories": [
+          {
+            "id": "industrial-equipment-web-theme-category-1",
+            "slug": "material-handling",
+            "name": "PlantWorks Material Handling",
+            "description": "Explore PlantWorks's material handling selection for industrial equipment buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-01.jpg"
+          },
+          {
+            "id": "industrial-equipment-web-theme-category-2",
+            "slug": "workshop-equipment",
+            "name": "PlantWorks Workshop Equipment",
+            "description": "Explore PlantWorks's workshop equipment selection for industrial equipment buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-02.jpg"
+          },
+          {
+            "id": "industrial-equipment-web-theme-category-3",
+            "slug": "automation",
+            "name": "PlantWorks Automation",
+            "description": "Explore PlantWorks's automation selection for industrial equipment buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-03.jpg"
+          },
+          {
+            "id": "industrial-equipment-web-theme-category-4",
+            "slug": "measuring-tools",
+            "name": "PlantWorks Measuring Tools",
+            "description": "Explore PlantWorks's measuring tools selection for industrial equipment buyers. Compare sample packs before planning a trade order.",
+            "image": "assets/images/product-04.jpg"
+          }
+        ],
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact",
+        "categoryStyle": "operating-zones"
+      },
+      "variant": "categories-operating-zones"
+    },
+    {
+      "id": "promo",
+      "type": "promo-banner",
+      "settings": {
+        "title": "PlantWorks trade savings",
+        "subtitle": "Sample quantity breaks for control panel unit and the industrial equipment catalog. Demo offers only.",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "promo-banner-compact"
+    },
+    {
+      "id": "products",
+      "type": "product-grid",
+      "settings": {
+        "eyebrow": "DEMO CATALOG",
+        "title": "PlantWorks trade selection",
+        "subtitle": "Source hydraulic pallet truck, industrial air compressor and more from this industrial equipment trade collection.",
+        "images": [
+          "assets/images/product-01.jpg",
+          "assets/images/product-02.jpg",
+          "assets/images/product-03.jpg",
+          "assets/images/product-04.jpg",
+          "assets/images/product-05.jpg",
+          "assets/images/product-06.jpg"
+        ],
+        "labels": [
+          "PlantWorks Hydraulic Pallet Truck",
+          "PlantWorks Industrial Air Compressor",
+          "PlantWorks Control Panel Unit",
+          "PlantWorks Digital Caliper",
+          "PlantWorks Bench Grinder",
+          "PlantWorks Warehouse Trolley"
+        ],
+        "prices": [
+          "INR 18,500",
+          "INR 42,000",
+          "INR 28,000",
+          "INR 1,599",
+          "INR 6,500",
+          "INR 8,900"
+        ],
+        "products": [
+          {
+            "id": "industrial-equipment-web-theme-product-1",
+            "slug": "plantworks-hydraulic-pallet-truck",
+            "sku": "WEB-04-1",
+            "name": "PlantWorks Hydraulic Pallet Truck",
+            "description": "Hydraulic Pallet Truck from PlantWorks's material handling assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "material-handling",
+            "categoryId": "industrial-equipment-web-theme-category-1",
+            "categoryName": "PlantWorks Material Handling",
+            "brand": "PlantWorks",
+            "price": 18500,
+            "currency": "INR",
+            "priceLabel": "INR 18,500",
+            "image": "assets/images/product-01.jpg",
+            "stock": 77,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Best seller",
+            "compareAtPrice": 21830,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 18500
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 17575
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 16650
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Hydraulic Pallet Truck",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-equipment-web-theme-product-2",
+            "slug": "plantworks-industrial-air-compressor",
+            "sku": "WEB-04-2",
+            "name": "PlantWorks Industrial Air Compressor",
+            "description": "Industrial Air Compressor from PlantWorks's workshop equipment assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "workshop-equipment",
+            "categoryId": "industrial-equipment-web-theme-category-2",
+            "categoryName": "PlantWorks Workshop Equipment",
+            "brand": "PlantWorks",
+            "price": 42000,
+            "currency": "INR",
+            "priceLabel": "INR 42,000",
+            "image": "assets/images/product-02.jpg",
+            "stock": 88,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "New arrival",
+            "compareAtPrice": 49560,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 42000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 39900
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 37800
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Industrial Air Compressor",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-equipment-web-theme-product-3",
+            "slug": "plantworks-control-panel-unit",
+            "sku": "WEB-04-3",
+            "name": "PlantWorks Control Panel Unit",
+            "description": "Control Panel Unit from PlantWorks's automation assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "automation",
+            "categoryId": "industrial-equipment-web-theme-category-3",
+            "categoryName": "PlantWorks Automation",
+            "brand": "PlantWorks",
+            "price": 28000,
+            "currency": "INR",
+            "priceLabel": "INR 28,000",
+            "image": "assets/images/product-03.jpg",
+            "stock": 99,
+            "moq": 1,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Bulk deal",
+            "compareAtPrice": 33040,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 1,
+                "unitPrice": 28000
+              },
+              {
+                "minQuantity": 5,
+                "unitPrice": 26600
+              },
+              {
+                "minQuantity": 10,
+                "unitPrice": 25200
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Control Panel Unit",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-equipment-web-theme-product-4",
+            "slug": "plantworks-digital-caliper",
+            "sku": "WEB-04-4",
+            "name": "PlantWorks Digital Caliper",
+            "description": "Digital Caliper from PlantWorks's measuring tools assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "measuring-tools",
+            "categoryId": "industrial-equipment-web-theme-category-4",
+            "categoryName": "PlantWorks Measuring Tools",
+            "brand": "PlantWorks",
+            "price": 1599,
+            "currency": "INR",
+            "priceLabel": "INR 1,599",
+            "image": "assets/images/product-04.jpg",
+            "stock": 110,
+            "moq": 12,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Popular pick",
+            "compareAtPrice": 1887,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 12,
+                "unitPrice": 1599
+              },
+              {
+                "minQuantity": 60,
+                "unitPrice": 1519
+              },
+              {
+                "minQuantity": 120,
+                "unitPrice": 1439
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Digital Caliper",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-equipment-web-theme-product-5",
+            "slug": "plantworks-bench-grinder",
+            "sku": "WEB-04-5",
+            "name": "PlantWorks Bench Grinder",
+            "description": "Bench Grinder from PlantWorks's workshop equipment assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "workshop-equipment",
+            "categoryId": "industrial-equipment-web-theme-category-2",
+            "categoryName": "PlantWorks Workshop Equipment",
+            "brand": "PlantWorks",
+            "price": 6500,
+            "currency": "INR",
+            "priceLabel": "INR 6,500",
+            "image": "assets/images/product-05.jpg",
+            "stock": 121,
+            "moq": 4,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Featured",
+            "compareAtPrice": 7670,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 4,
+                "unitPrice": 6500
+              },
+              {
+                "minQuantity": 20,
+                "unitPrice": 6175
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 5850
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Bench Grinder",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          },
+          {
+            "id": "industrial-equipment-web-theme-product-6",
+            "slug": "plantworks-warehouse-trolley",
+            "sku": "WEB-04-6",
+            "name": "PlantWorks Warehouse Trolley",
+            "description": "Warehouse Trolley from PlantWorks's material handling assortment. Keep workshops supplied for their next production run. Review the sample price breaks and minimum order before adding this item to a sourcing shortlist. Fictional catalog item; no certification or performance claim is implied.",
+            "demoOnly": true,
+            "category": "material-handling",
+            "categoryId": "industrial-equipment-web-theme-category-1",
+            "categoryName": "PlantWorks Material Handling",
+            "brand": "PlantWorks",
+            "price": 8900,
+            "currency": "INR",
+            "priceLabel": "INR 8,900",
+            "image": "assets/images/product-06.jpg",
+            "stock": 132,
+            "moq": 8,
+            "unit": "selling pack",
+            "availability": "In stock (demo)",
+            "badge": "Value pack",
+            "compareAtPrice": 10502,
+            "leadTime": "Sample dispatch: 3-5 business days",
+            "bulkPrices": [
+              {
+                "minQuantity": 8,
+                "unitPrice": 8900
+              },
+              {
+                "minQuantity": 40,
+                "unitPrice": 8455
+              },
+              {
+                "minQuantity": 80,
+                "unitPrice": 8010
+              }
+            ],
+            "imageAlt": "AI-generated demo product photograph: PlantWorks Warehouse Trolley",
+            "imageDisclosure": "AI-generated fictional catalog illustration; not a verified supplier photograph."
+          }
+        ],
+        "limit": 6,
+        "primaryCta": "View all",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact",
+        "cardStyle": "spec-card",
+        "columns": 4
+      },
+      "variant": "products-spec-card"
+    },
+    {
+      "id": "benefits",
+      "type": "feature-list",
+      "settings": {
+        "title": "Buying with PlantWorks",
+        "items": [
+          {
+            "icon": "01",
+            "title": "PlantWorks Material Handling",
+            "text": "Start with hydraulic pallet truck and compare the PlantWorks sample pack details."
+          },
+          {
+            "icon": "02",
+            "title": "PlantWorks quantity breaks",
+            "text": "Review MOQ and bulk tiers for industrial air compressor before planning an order."
+          },
+          {
+            "icon": "03",
+            "title": "PlantWorks sourcing lists",
+            "text": "Source hydraulic pallet truck, industrial air compressor and more from this industrial equipment trade collection."
+          }
+        ],
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "feature-list-compact"
+    },
+    {
+      "id": "story",
+      "type": "image-with-text",
+      "settings": {
+        "title": "Build your next industrial equipment assortment with PlantWorks",
+        "body": "Keep workshops supplied for their next production run. Source hydraulic pallet truck, industrial air compressor and more from this industrial equipment trade collection.",
+        "image": "assets/images/product-05.jpg",
+        "imagePosition": "left",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "image-with-text-compact"
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial-carousel",
+      "settings": {
+        "title": "PlantWorks sample buyer story",
+        "quote": "Our demo industrial equipment buying team can compare hydraulic pallet truck and control panel unit in one sourcing catalog.",
+        "author": "Fictional PlantWorks buyer — demo feedback",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "testimonial-carousel-compact"
+    },
+    {
+      "id": "newsletter",
+      "type": "newsletter",
+      "settings": {
+        "title": "Follow PlantWorks arrivals",
+        "subtitle": "Sample updates about digital caliper and plantworks material handling.",
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "newsletter-compact"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "settings": {
+        "logoText": "PlantWorks",
+        "industryName": "Industrial Equipment",
+        "tagline": "Source hydraulic pallet truck, industrial air compressor and more from this industrial equipment trade collection. AI-generated demo catalog.",
+        "columns": [
+          {
+            "heading": "Catalog",
+            "links": [
+              "Categories",
+              "Products",
+              "Offers"
+            ]
+          },
+          {
+            "heading": "Buyer Help",
+            "links": [
+              "Bulk Orders",
+              "Shipping",
+              "Returns"
+            ]
+          },
+          {
+            "heading": "Account",
+            "links": [
+              "Login",
+              "Orders",
+              "Cart"
+            ]
+          }
+        ],
+        "designId": "ds-04-web",
+        "layoutMode": "Industrial procurement control room",
+        "density": "compact"
+      },
+      "variant": "footer-service-desk"
+    }
+  ],
+  "design": "ds-04-web"
+}
